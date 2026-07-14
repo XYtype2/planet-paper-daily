@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fffcf3">
+<link rel="manifest" href="manifest.json">
+<title>每日文献</title>
+<style>
+:root {
+  --paper:#fffcf3; --panel:#fffcf3; --ink:#332e26; --faint:#867d6a;
+  --gold:#f2e3ac; --teal:#c2d6cc; --rust:#a4643a; --rule:#3d3831;
+}
+* { box-sizing:border-box }
+html { background:var(--paper) }
+body { margin:0; color:var(--ink); background:var(--paper);
+  font:15.5px/1.75 Futura,"Avenir Next","Century Gothic","Trebuchet MS",
+    "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+  -webkit-font-smoothing:antialiased }
+.sheet { max-width:740px; margin:22px auto 34px; padding:0 14px }
+.plate-top { display:flex; justify-content:space-between; gap:8px;
+  font-size:11.5px; color:var(--faint); font-style:italic;
+  padding:0 4px 5px; letter-spacing:.5px }
+.plate-bottom { text-align:right; font-size:11.5px; color:var(--faint);
+  font-style:italic; padding:5px 4px 0; letter-spacing:.5px }
+.frame { border:2.4px solid var(--rule); background:var(--panel);
+  padding:22px 22px 26px }
+@media (max-width:480px) { .frame { padding:16px 13px 22px } }
+header { text-align:center; margin-bottom:8px }
+.emblem { margin:0 0 16px }
+.emblem svg { width:100%; height:auto; display:block }
+h1 { font-size:30px; font-weight:700; letter-spacing:14px; text-indent:14px;
+  margin:6px 0 4px; font-family:"PingFang SC","Hiragino Sans GB","Helvetica Neue",
+  "Microsoft YaHei",sans-serif }
+.subtitle { font-size:11px; letter-spacing:3.5px; color:var(--faint);
+  text-transform:uppercase; margin-bottom:2px }
+.date { font-size:12.5px; color:var(--faint) }
+.hr { display:flex; align-items:center; gap:10px; margin:30px 0 4px }
+.hr .line { flex:1; border-top:1px solid var(--rule) }
+.hr .label { font-size:14.5px; letter-spacing:2px; white-space:nowrap;
+  display:flex; align-items:center; gap:8px }
+.cat { display:flex; align-items:baseline; gap:8px; margin:20px 0 10px;
+  font-size:14.5px; letter-spacing:1.5px }
+.cat svg { transform:translateY(2.5px) }
+.cat .n { font-size:11.5px; color:var(--faint); font-style:italic }
+.card { position:relative; background:var(--panel);
+  border:1.1px solid var(--rule); padding:14px 16px 13px; margin-bottom:13px }
+.card h2 { font-size:15.5px; font-weight:600; margin:0 30px 5px 0; line-height:1.55 }
+.card h2 a { color:var(--ink); text-decoration:none }
+.card h2 a:hover { color:var(--rust) }
+.card.major h2 a { color:#a2352a }
+.card.major h2 a:hover { color:#7c2419 }
+.meta { font-size:12px; color:var(--faint); margin-bottom:6px; font-style:italic }
+.kwbar { margin-top:8px; font-size:11.5px; letter-spacing:.5px;
+  color:var(--faint); font-style:italic }
+.kwbar::before { content:""; display:inline-block; width:8px; height:8px;
+  background:#b6cdd1; border:.8px solid var(--rule); margin-right:7px }
+.zh { font-size:14.5px; text-align:justify; color:#111 }
+.en { font-size:13px; color:var(--faint); margin-top:6px; text-align:justify }
+details summary { cursor:pointer; color:var(--rust); font-size:12.5px; margin-top:7px;
+  list-style:none }
+details summary::-webkit-details-marker { display:none }
+details summary::before { content:"✶ " }
+details[open] summary::before { content:"★ " }
+.empty { text-align:center; padding:14px 0 6px }
+.empty svg { width:min(320px,82%); height:auto }
+.empty-t { color:var(--faint); font-size:12px; font-style:italic; margin-top:7px }
+.logo { text-align:center; margin-top:30px }
+</style></head><body>
+<div class="sheet">
+<div class="plate-top"><span>The universe writes; we read.</span><span>Plan XXIX. 2026-07-14.</span></div>
+<div class="frame">
+<div class="emblem"><svg viewBox="0 0 680 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="页首饰图">
+<rect width="680" height="150" fill="#26231d"/>
+<rect x=".8" y=".8" width="678.4" height="148.4" fill="none" stroke="#332e26" stroke-width="1.6"/>
+
+<!-- 星点与十字小星 -->
+<g fill="#f1ead6">
+<circle cx="42" cy="30" r="1.3"/><circle cx="95" cy="98" r="1"/><circle cx="150" cy="22" r="1.1"/>
+<circle cx="235" cy="45" r="1.4"/><circle cx="300" cy="18" r="1"/><circle cx="330" cy="120" r="1.2"/>
+<circle cx="600" cy="25" r="1.2"/><circle cx="640" cy="90" r="1"/><circle cx="380" cy="70" r="1"/>
+<circle cx="65" cy="128" r="1"/>
+</g>
+<g stroke="#f1ead6" stroke-width=".7">
+<line x1="262" y1="95" x2="262" y2="103"/><line x1="258" y1="99" x2="266" y2="99"/>
+<line x1="118" y1="55" x2="118" y2="62"/><line x1="114.5" y1="58.5" x2="121.5" y2="58.5"/>
+<line x1="623" y1="118" x2="623" y2="124"/><line x1="620" y1="121" x2="626" y2="121"/>
+</g>
+
+<!-- 彗星:白色头部 + 三线尾迹 -->
+<g stroke="#f1ead6" fill="none">
+<path d="M186,58 Q120,34 52,26" stroke-width="1" opacity=".85"/>
+<path d="M188,64 Q122,48 56,44" stroke-width=".8" opacity=".6"/>
+<path d="M183,53 Q126,22 66,12" stroke-width=".7" opacity=".45"/>
+</g>
+<circle cx="188" cy="59" r="5" fill="#f1ead6"/>
+<circle cx="188" cy="59" r="7.5" fill="none" stroke="#f1ead6" stroke-width=".7" opacity=".5"/>
+
+<!-- 虚线轨道弧与小行星 -->
+<path d="M20,128 Q210,92 405,118" fill="none" stroke="#f1ead6" stroke-width=".7"
+ stroke-dasharray="3 3.5" opacity=".55"/>
+<circle cx="340" cy="103" r="2.6" fill="#f1ead6"/>
+
+<!-- 月面:白线刻画,月海灰面 + 环形山 + 辐射纹 -->
+<g transform="translate(505,75)">
+<circle r="56" fill="#2e2b24" stroke="#f1ead6" stroke-width="1.3"/>
+<g fill="#4b463c" opacity=".85">
+<path d="M-30,-28 Q-8,-40 8,-28 Q18,-16 4,-8 Q-14,-2 -28,-10 Q-38,-18 -30,-28 Z"/>
+<path d="M14,-4 Q30,-10 38,2 Q40,14 26,16 Q12,14 12,6 Q11,0 14,-4 Z"/>
+<path d="M-34,12 Q-22,8 -18,18 Q-20,28 -32,26 Q-40,20 -34,12 Z"/>
+</g>
+<g stroke="#f1ead6" fill="none" stroke-width=".8">
+<circle cx="-22" cy="-22" r="6"/><circle cx="12" cy="-33" r="4"/>
+<circle cx="34" cy="-12" r="6.5"/><circle cx="-38" cy="0" r="4.5"/>
+<circle cx="-8" cy="8" r="7.5"/><circle cx="28" cy="26" r="4"/>
+<circle cx="-24" cy="34" r="3"/><circle cx="44" cy="10" r="2.6"/>
+<circle cx="2" cy="-14" r="2.4"/><circle cx="-45" cy="-14" r="2.2"/>
+</g>
+<g stroke="#f1ead6" fill="none" stroke-width=".5" opacity=".6">
+<path d="M-25,-19 A6,6 0 0 0 -17,-21"/><path d="M-11,11 A7.5,7.5 0 0 0 -2,12"/>
+<path d="M31,-9 A6.5,6.5 0 0 0 39,-11"/>
+</g>
+<!-- 辐射纹(第谷式) -->
+<g stroke="#f1ead6" stroke-width=".55" opacity=".65">
+<line x1="-6" y1="42" x2="-2" y2="53"/><line x1="-14" y1="40" x2="-22" y2="50"/>
+<line x1="2" y1="40" x2="10" y2="50"/><line x1="-10" y1="43" x2="-12" y2="54"/>
+<line x1="8" y1="37" x2="18" y2="44"/>
+</g>
+<circle cx="-4" cy="37" r="4" fill="none" stroke="#f1ead6" stroke-width=".8"/>
+<path d="M0,-56 A56,56 0 0 0 0,56 A56,56 0 0 0 0,-56 Z" fill="#1c1a14" opacity=".88"/>
+</g>
+</svg></div>
+<header>
+<div class="subtitle">Ephemerides Litterarum</div>
+<h1>每日文献</h1>
+<div class="date">更新于 2026-07-14 16:33(北京时间)</div>
+</header>
+<div class="hr"><span class="line"></span><span class="label"><svg viewBox="0 0 16 16" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M8,1.5 L9.8,5.4 L14,5.4 L10.7,7.9 L11.7,12 L8,9.8 L4.3,12 L5.3,7.9 L2,5.4 L6.2,5.4 Z"
+ fill="#f2e3ac" stroke="#332e26" stroke-width="1" stroke-linejoin="round"/></svg> 今日推荐 · 4 篇 <svg viewBox="0 0 16 16" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M8,1.5 L9.8,5.4 L14,5.4 L10.7,7.9 L11.7,12 L8,9.8 L4.3,12 L5.3,7.9 L2,5.4 L6.2,5.4 Z"
+ fill="#f2e3ac" stroke="#332e26" stroke-width="1" stroke-linejoin="round"/></svg></span><span class="line"></span></div><div class="cat"><svg viewBox="0 0 28 18" width="24" height="15" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" stroke="#332e26" stroke-width=".9">
+<ellipse cx="14" cy="9" rx="11" ry="4.2" transform="rotate(18 14 9)"/>
+<ellipse cx="14" cy="9" rx="11" ry="4.2" transform="rotate(-18 14 9)"/>
+</g>
+<circle cx="14" cy="9" r="1.6" fill="#f2e3ac" stroke="#332e26" stroke-width=".8"/>
+<circle cx="23.2" cy="5.8" r="1.9" fill="#c2d6cc" stroke="#332e26" stroke-width="1"/>
+<circle cx="4.8" cy="5.8" r="1.6" fill="#c2d6cc" stroke="#332e26" stroke-width="1"/>
+</svg><span>散射与动力学演化</span><span class="n">2 篇</span></div><div class="card"><h2><a href="https://arxiv.org/abs/2606.20789" target="_blank">Dynamical Tides during High-Eccentricity Migration produces the Hot Jupiter Pile-up, Neptune Ridge, and Neptune Desert</a></h2><div class="meta">J. J. Zanazzi, Morgan MacLeod, Marta L. Bryan, Suvrath Mahadevan · arXiv (astro-ph.EP)</div><div class="zh">这项工作用流体动力学模拟研究了高偏心率迁移过程中潮汐激发的基频模(f-模)如何塑造短周期气态行星的周期分布。作者发现近星点掠过激发的 f-模会以超声速激波加热行星包层:浅层激波通过辐射冷却使轨道圆化,形成热木星堆积和海王星脊;深层激波则驱动外流剥离包层,把亚土星的裸核留在海王星沙漠中。模型还预言沙漠中的亚土星应带有大的自旋-轨道失准角,并在到达时产生可观测的亮耀发。</div><details><summary>英文原摘要</summary><div class="en">The period distribution of hot gaseous exoplanets depends strongly on mass. Clustering between the orbital periods of ~3 to ~5-6 days is seen for sub-Saturns (&quot;Neptune ridge&quot;) and Jovians (&quot;hot Jupiter pile-up&quot;), contrasting with a sharp deficit interior to 3 days for sub-Saturns, not seen for Jovians (&quot;Neptune desert&quot;). During high-eccentricity migration, tidally-excited fundamental-modes (f-modes) act as a reservoir for orbital energy, and can take gaseous planets formed beyond several AU and place them at short separations. Here, we show how f-modes can not only circularize orbits — causing clustering near the Neptune ridge and hot-Jupiter pile-up — but can also shock and unbind mass, leaving sub-Saturn cores in the Neptune desert. Our hydrodynamical simulations demonstrate that close approaches tidally excite f-modes, whose super-sonic velocities shock gaseous envelopes. Shocks that diffusively cool circularize and bunch orbits near the hot Jupiter pile-up and Neptune ridge, while shocks that drive outflows unbind envelopes and place gas giant cores in the Neptune desert. Sub-Saturns that dwell in the desert are predicted to arrive with large spin-orbit misalignments after producing luminous flares.</div></details><div class="kwbar">high-eccentricity migration · spin-orbit misalignment</div></div><div class="card"><h2><a href="https://arxiv.org/abs/2606.20803" target="_blank">Planet-Planet Secular Migration Predicts a Stellar Obliquity-Period Anti-Correlation</a></h2><div class="meta">Hareesh Gautham Bhaskar, Cristobal Petrovich, Diego J. Muñoz · arXiv (astro-ph.EP)</div><div class="zh">针对观测上&quot;强失准热木星集中在短周期、长周期热木星倾向对齐&quot;的趋势,作者用模拟证明由远距离行星伴星驱动的长期高偏心率迁移能自然产生这种倾角-周期反相关:最短周期的热木星多由高倾角伴星通过 von Zeipel-Lidov-Kozai 机制形成,末态恒星倾角分布很宽;而长周期热木星由共面高偏心率迁移缓慢形成,保持低倾角。该图景预言短周期热木星的远距离伴星应有宽泛的相互倾角分布,可由即将发布的 Gaia 天体测量数据检验。</div><details><summary>英文原摘要</summary><div class="en">Stellar obliquities provide a fossil record of hot Jupiter (HJ) migration. An emerging observational trend in single-star systems is that strongly misaligned HJs are largely confined to short orbital periods, while longer-period HJs are preferentially aligned. We show that secular high-eccentricity migration driven by a distant planetary companion naturally produces such an obliquity-period correlation. In our simulations, the shortest-period HJs tend to be produced by the von Zeipel-Lidov-Kozai mechanism driven by highly inclined companions, which results in a broad range of final stellar obliquities. The longest-period HJs are produced over longer timescales by coplanar high-eccentricity migration, which preserves low obliquities. We predict that the shortest-period HJs should have distant planetary companions with broadly distributed mutual inclinations, whereas the companions of longer-period HJs should reside in nearly coplanar orbits. Upcoming Gaia astrometric constraints will provide a key test of this picture.</div></details><div class="kwbar">high-eccentricity migration · von Zeipel-Lidov-Kozai · Kozai</div></div><div class="cat"><svg viewBox="0 0 28 18" width="24" height="15" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="14" cy="9" rx="11" ry="3.4" fill="#c2d6cc" stroke="#332e26" stroke-width="1.1"/>
+<ellipse cx="14" cy="9" rx="7" ry="2" fill="none" stroke="#332e26" stroke-width=".55" opacity=".7"/>
+<circle cx="14" cy="9" r="2.1" fill="#f2e3ac" stroke="#332e26" stroke-width=".9"/>
+</svg><span>行星形成与盘演化</span><span class="n">1 篇</span></div><div class="card"><h2><a href="https://arxiv.org/abs/2606.23815" target="_blank">Interpreting the scattering surface in protoplanetary disks</a></h2><div class="meta">Massimiliano Bolchini, Giovanni Rosotti, Marion Villenave, Antonio Garufi et al. · arXiv (astro-ph.EP)</div><div class="zh">散射光观测中原行星盘的表观形态由散射面决定,而散射面受小尘埃颗粒分布控制。作者从辐射转移原理出发建立了散射面高度与盘质量、温度、不透明度等参数关系的半解析模型,经 MCFOST 辐射转移程序验证后应用于十个盘的实测散射高度,得到小颗粒尘埃质量占比约 10^-3。这一数值与温和颗粒生长(尺寸分布幂指数约 3-3.5)的模型预期一致,为约束盘中小尘埃含量提供了新途径。</div><details><summary>英文原摘要</summary><div class="en">In recent years, extreme adaptive optics have enabled high-resolution, high-contrast scattered-light observations of protoplanetary disks. Interpreting these observations requires an understanding of the scattering surface, which is shaped by the distribution of small dust grains. We aim to exploit measurements of the scattering surface height to directly constrain the masses of small dust grains in disks. Starting from radiative transfer principles, we developed a semi-analytical model of the stellar radiation path and its interaction with the disk, deriving the height of the scattering surface as a function of disk parameters. We validated our predictions against the radiative transfer code MCFOST. Using measured scattering heights, we inferred the mass of the dust in small grains and the particle size distribution for a sample of ten disks. We confirmed that the scattering surface coincides with the surface where the integrated optical depth along the stellar path is of order unity. Applying our model to observations, we measured small dust mass fractions on the order of 10^-3 globally, typical for modest amounts of grain growth and power-law indices of the grain size distribution ~3-3.5, as commonly found in grain growth models.</div></details><div class="kwbar">protoplanetary disk</div></div><div class="cat"><svg viewBox="0 0 28 18" width="24" height="15" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="icAtm"><circle cx="14" cy="9" r="6.8"/></clipPath></defs>
+<circle cx="14" cy="9" r="6.8" fill="#f2e3ac" stroke="#332e26" stroke-width="1.1"/>
+<g clip-path="url(#icAtm)" fill="none" stroke="#332e26" stroke-width=".7">
+<path d="M7,6.2 Q11,7.4 14,6.2 Q17,5 21,6.4"/>
+<path d="M7,9.4 Q11,10.6 14,9.4 Q17,8.2 21,9.6"/>
+<path d="M7,12.4 Q11,13.4 14,12.4 Q17,11.4 21,12.6"/>
+</g>
+</svg><span>行星大气</span><span class="n">1 篇</span></div><div class="card"><h2><a href="https://arxiv.org/abs/2606.23899" target="_blank">Hydrogen airglow from an escaping ultrahot Jupiter atmosphere</a></h2><div class="meta">Yapeng Zhang, Chenliang Huang, Aaron Householder, James E. Owen et al. · arXiv (astro-ph.EP)</div><div class="zh">作者用 Keck/KPF 高分辨率光谱首次探测到逃逸行星大气的氢原子发射:超热木星 KELT-9 b 日面的 Hα 气辉呈双峰加中心自吸收的独特轮廓。结合 NLTE 外流模型,该轮廓打破了透射光谱中温度与质量损失率的简并,给出质量损失率 ≥10^13 g/s——迄今气态行星中的最高纪录之一,并支持 A 型星的近紫外辐射驱动 Balmer 逃逸的机制。这一结果为研究极端辐射环境下行星大气的长期演化打开了新窗口。</div><details><summary>英文原摘要</summary><div class="en">Intense high-energy irradiation of close-in gaseous exoplanets drives the rapid escape of their atmospheres, fundamentally shaping planetary demographics. Here we report the first detection of atomic hydrogen emission from the escaping atmosphere of a gas giant. Using high-resolution spectroscopy of the ultrahot Jupiter KELT-9 b, we detect a hydrogen Balmer line (H-alpha 6564.6 A) emission signature originating from the planetary dayside. The emission line profile features a distinctive double-peaked shape with 0.1-0.15% peak amplitudes at ±30 km/s and central self-absorption. This profile breaks transmission degeneracies, providing direct observational constraints on the vertical thermal structure, excited-state hydrogen populations, and wind dynamics in the upper atmosphere of KELT-9 b. Initial modeling reveals a vigorous outflow with a mass-loss rate above 10^13 g/s, among the highest measured to date for gaseous exoplanets. Our results establish hydrogen airglow emission as a powerful diagnostic of atmospheric escape.</div></details><div class="kwbar">atmosphere · atmospheric escape · airglow</div></div><div class="hr"><span class="line"></span><span class="label"><svg viewBox="0 0 16 16" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M8,1.5 L9.8,5.4 L14,5.4 L10.7,7.9 L11.7,12 L8,9.8 L4.3,12 L5.3,7.9 L2,5.4 L6.2,5.4 Z"
+ fill="#f2e3ac" stroke="#332e26" stroke-width="1" stroke-linejoin="round"/></svg> 2026-07-13 · 0 篇 <svg viewBox="0 0 16 16" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M8,1.5 L9.8,5.4 L14,5.4 L10.7,7.9 L11.7,12 L8,9.8 L4.3,12 L5.3,7.9 L2,5.4 L6.2,5.4 Z"
+ fill="#f2e3ac" stroke="#332e26" stroke-width="1" stroke-linejoin="round"/></svg></span><span class="line"></span></div><div class="empty"><svg viewBox="0 0 340 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="今日无文献">
+<rect width="340" height="120" fill="#26231d"/>
+<rect x=".7" y=".7" width="338.6" height="118.6" fill="none" stroke="#332e26" stroke-width="1.4"/>
+<g fill="#f1ead6">
+<circle cx="40" cy="26" r="1.2"/><circle cx="90" cy="14" r="1"/><circle cx="150" cy="30" r="1.1"/>
+<circle cx="210" cy="16" r="1"/><circle cx="305" cy="52" r="1"/><circle cx="60" cy="58" r="1"/>
+<circle cx="288" cy="20" r="1.4"/>
+</g>
+<g stroke="#f1ead6" stroke-width=".7">
+<line x1="255" y1="30" x2="255" y2="38"/><line x1="251" y1="34" x2="259" y2="34"/>
+</g>
+<path d="M115,102 Q170,94 225,102" fill="none" stroke="#f1ead6" stroke-width="1"/>
+<g stroke="#f1ead6" stroke-width=".6" stroke-dasharray="2.5 3" fill="none">
+<line x1="207" y1="52" x2="284" y2="23"/>
+</g>
+<g transform="translate(170,72)">
+<g transform="rotate(-21)">
+<rect x="-34" y="-5.5" width="66" height="11" rx="2" fill="#26231d" stroke="#f1ead6" stroke-width="1.1"/>
+<line x1="18" y1="-5.5" x2="18" y2="5.5" stroke="#f1ead6" stroke-width=".7"/>
+<rect x="-42" y="-3.4" width="8" height="6.8" fill="#26231d" stroke="#f1ead6" stroke-width="1"/>
+</g>
+<circle cx="0" cy="9" r="2.4" fill="none" stroke="#f1ead6" stroke-width=".9"/>
+<g stroke="#f1ead6" stroke-width="1" fill="none">
+<line x1="0" y1="11" x2="-20" y2="34"/><line x1="0" y1="11" x2="19" y2="34"/>
+<line x1="0" y1="11" x2="2" y2="34"/>
+</g>
+</g>
+<g transform="translate(46,88) rotate(18)">
+<path d="M0,-7 A7,7 0 1 0 0,7 A5.4,5.4 0 1 1 0,-7 Z" fill="#f1ead6"/>
+</g>
+</svg><div class="empty-t">Caelum silet. · 今日无匹配文献</div></div>
+<div class="logo"><svg viewBox="0 0 48 48" width="42" height="42" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="徽标">
+<circle cx="24" cy="24" r="22.5" fill="#26231d" stroke="#332e26" stroke-width="1.2"/>
+<circle cx="24" cy="24" r="18.5" fill="none" stroke="#f1ead6" stroke-width=".6" opacity=".7"/>
+<path d="M28,11 A13.5,13.5 0 1 0 28,37 A10.5,10.5 0 1 1 28,11 Z" fill="#f1ead6"/>
+<g stroke="#f1ead6" stroke-width=".8">
+<line x1="33" y1="15" x2="33" y2="21"/><line x1="30" y1="18" x2="36" y2="18"/>
+</g>
+<circle cx="35" cy="28" r="1"/>
+<circle cx="35" cy="28" r="1" fill="#f1ead6"/>
+<circle cx="31" cy="33" r=".8" fill="#f1ead6"/>
+</svg></div>
+</div>
+<div class="plate-bottom"><span>Sic itur ad astra.</span></div>
+</div>
+</body></html>

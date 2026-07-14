@@ -1,0 +1,132 @@
+# ============================================================
+# 文献推荐配置 —— 直接在 GitHub 网页上编辑本文件并保存(Commit),
+# 系统会自动按新配置重新运行。
+# ============================================================
+
+# 分类与关键词:文献匹配某类的任意关键词即入选并归入该类
+# (标题或摘要中出现即算命中,不区分大小写,连字符/空格视为等价;
+#  命中多个分类时归入命中次数最多的一类)
+categories:
+  - name: 热木星与短周期行星
+    keywords:
+      - "hot Jupiter"
+      - "warm Jupiter"
+      - "ultra-short-period planet"
+      - "eccentric giant planet"
+
+  - name: 散射与动力学演化
+    keywords:
+      - "planet-planet scattering"
+      - "planetary scattering"
+      - "dynamical instability"
+      - "high-eccentricity migration"
+      - "high eccentricity migration"
+      - "von Zeipel-Lidov-Kozai"
+      - "Kozai"
+      - "secular chaos"
+      - "tidal migration"
+      - "tidal circularization"
+      - "spin-orbit misalignment"
+      - "late-stage evolution"
+      # 自由漂浮行星并入此栏(散射抛射的产物)
+      - "free-floating planet"
+      - "rogue planet"
+      - "unbound planet"
+      - "isolated planetary-mass"
+      - "ejected planet"
+      - "planet ejection"
+
+  - name: 系外行星观测
+    keywords:
+      - "microlensing"
+      - "direct imaging"
+      - "radial velocity"
+      - "transit timing"
+      - "transiting exoplanet"
+      - "transit survey"
+      - "astrometry"
+      - "astrometric"
+      - "occurrence rate"
+      - "exoplanet demographics"
+      - "planet candidate"
+
+  - name: 行星形成与盘演化
+    keywords:
+      - "planet formation"
+      - "protoplanetary disk"
+      - "protoplanetary disc"
+      - "disk evolution"
+      - "disc evolution"
+      - "population synthesis"
+      - "core accretion"
+      - "pebble accretion"
+      - "planetesimal"
+      - "disk migration"
+      - "planet migration"
+
+  - name: 行星大气
+    keywords:
+      - "atmosphere"
+      - "atmospheric"
+      - "atmospheric escape"
+      - "transmission spectr"
+      - "emission spectr"
+      - "atmospheric circulation"
+      - "aerosol"
+      - "airglow"
+      - "mass-loss rate"
+
+# 排除词:标题中出现以下任意词的文献直接跳过(现为空)
+# 用法示例:想屏蔽某方向,加一行如 - "brown dwarf"
+exclude_title: []
+
+# arXiv 设置
+arxiv:
+  categories:
+    - astro-ph.EP
+  days_back: 2      # 回溯天数
+  max_fetch: 200    # 每个分区最多拉取多少篇再过滤
+
+# 期刊设置(通过 Crossref 抓取正式发表的论文)
+# 加期刊:补一行 名称 + ISSN(ISSN 可在期刊官网或 Wikipedia 查到)
+journals:
+  - name: The Astrophysical Journal
+    issn: "0004-637X"
+  - name: The Astrophysical Journal Letters
+    issn: "2041-8205"
+  - name: The Astronomical Journal
+    issn: "1538-3881"
+  - name: Astronomy & Astrophysics
+    issn: "0004-6361"
+  - name: Monthly Notices of the Royal Astronomical Society
+    issn: "0035-8711"
+  - name: Icarus
+    issn: "0019-1035"
+  - name: Nature Astronomy
+    issn: "2397-3366"
+  - name: The Planetary Science Journal
+    issn: "2632-3338"
+  - name: Nature
+    issn: "0028-0836"
+  - name: Science
+    issn: "0036-8075"
+  - name: Celestial Mechanics and Dynamical Astronomy
+    issn: "0923-2958"
+
+# 期刊回溯天数(期刊上线节奏慢,建议 3-7)
+journals_days_back: 5
+
+# 重点来源:来自以下期刊的文献标题以朱红色显示(重大发现标记)
+highlight_sources:
+  - Nature
+  - Science
+
+# 中文摘要设置
+summary:
+  model: claude-haiku-4-5
+  style: "2-3句话,概括研究问题、方法和主要结论,面向行星动力学研究者"
+
+# 网页设置
+site:
+  title: 每日文献
+  archive_days: 30   # 页面保留最近多少天的存档

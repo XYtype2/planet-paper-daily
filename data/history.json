@@ -1,0 +1,49 @@
+{
+ "2026-07-13": [],
+ "2026-07-14": [
+  {
+   "id": "arxiv:2606.20789",
+   "title": "Dynamical Tides during High-Eccentricity Migration produces the Hot Jupiter Pile-up, Neptune Ridge, and Neptune Desert",
+   "abstract": "The period distribution of hot gaseous exoplanets depends strongly on mass. Clustering between the orbital periods of ~3 to ~5-6 days is seen for sub-Saturns (\"Neptune ridge\") and Jovians (\"hot Jupiter pile-up\"), contrasting with a sharp deficit interior to 3 days for sub-Saturns, not seen for Jovians (\"Neptune desert\"). During high-eccentricity migration, tidally-excited fundamental-modes (f-modes) act as a reservoir for orbital energy, and can take gaseous planets formed beyond several AU and place them at short separations. Here, we show how f-modes can not only circularize orbits — causing clustering near the Neptune ridge and hot-Jupiter pile-up — but can also shock and unbind mass, leaving sub-Saturn cores in the Neptune desert. Our hydrodynamical simulations demonstrate that close approaches tidally excite f-modes, whose super-sonic velocities shock gaseous envelopes. Shocks that diffusively cool circularize and bunch orbits near the hot Jupiter pile-up and Neptune ridge, while shocks that drive outflows unbind envelopes and place gas giant cores in the Neptune desert. Sub-Saturns that dwell in the desert are predicted to arrive with large spin-orbit misalignments after producing luminous flares.",
+   "authors": ["J. J. Zanazzi", "Morgan MacLeod", "Marta L. Bryan", "Suvrath Mahadevan"],
+   "link": "https://arxiv.org/abs/2606.20789",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": ["high-eccentricity migration", "spin-orbit misalignment"],
+   "summary_zh": "这项工作用流体动力学模拟研究了高偏心率迁移过程中潮汐激发的基频模(f-模)如何塑造短周期气态行星的周期分布。作者发现近星点掠过激发的 f-模会以超声速激波加热行星包层:浅层激波通过辐射冷却使轨道圆化,形成热木星堆积和海王星脊;深层激波则驱动外流剥离包层,把亚土星的裸核留在海王星沙漠中。模型还预言沙漠中的亚土星应带有大的自旋-轨道失准角,并在到达时产生可观测的亮耀发。"
+  },
+  {
+   "id": "arxiv:2606.20803",
+   "title": "Planet-Planet Secular Migration Predicts a Stellar Obliquity-Period Anti-Correlation",
+   "abstract": "Stellar obliquities provide a fossil record of hot Jupiter (HJ) migration. An emerging observational trend in single-star systems is that strongly misaligned HJs are largely confined to short orbital periods, while longer-period HJs are preferentially aligned. We show that secular high-eccentricity migration driven by a distant planetary companion naturally produces such an obliquity-period correlation. In our simulations, the shortest-period HJs tend to be produced by the von Zeipel-Lidov-Kozai mechanism driven by highly inclined companions, which results in a broad range of final stellar obliquities. The longest-period HJs are produced over longer timescales by coplanar high-eccentricity migration, which preserves low obliquities. We predict that the shortest-period HJs should have distant planetary companions with broadly distributed mutual inclinations, whereas the companions of longer-period HJs should reside in nearly coplanar orbits. Upcoming Gaia astrometric constraints will provide a key test of this picture.",
+   "authors": ["Hareesh Gautham Bhaskar", "Cristobal Petrovich", "Diego J. Muñoz"],
+   "link": "https://arxiv.org/abs/2606.20803",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": ["high-eccentricity migration", "von Zeipel-Lidov-Kozai", "Kozai"],
+   "summary_zh": "针对观测上\"强失准热木星集中在短周期、长周期热木星倾向对齐\"的趋势,作者用模拟证明由远距离行星伴星驱动的长期高偏心率迁移能自然产生这种倾角-周期反相关:最短周期的热木星多由高倾角伴星通过 von Zeipel-Lidov-Kozai 机制形成,末态恒星倾角分布很宽;而长周期热木星由共面高偏心率迁移缓慢形成,保持低倾角。该图景预言短周期热木星的远距离伴星应有宽泛的相互倾角分布,可由即将发布的 Gaia 天体测量数据检验。"
+  },
+  {
+   "id": "arxiv:2606.23815",
+   "title": "Interpreting the scattering surface in protoplanetary disks",
+   "abstract": "In recent years, extreme adaptive optics have enabled high-resolution, high-contrast scattered-light observations of protoplanetary disks. Interpreting these observations requires an understanding of the scattering surface, which is shaped by the distribution of small dust grains. We aim to exploit measurements of the scattering surface height to directly constrain the masses of small dust grains in disks. Starting from radiative transfer principles, we developed a semi-analytical model of the stellar radiation path and its interaction with the disk, deriving the height of the scattering surface as a function of disk parameters. We validated our predictions against the radiative transfer code MCFOST. Using measured scattering heights, we inferred the mass of the dust in small grains and the particle size distribution for a sample of ten disks. We confirmed that the scattering surface coincides with the surface where the integrated optical depth along the stellar path is of order unity. Applying our model to observations, we measured small dust mass fractions on the order of 10^-3 globally, typical for modest amounts of grain growth and power-law indices of the grain size distribution ~3-3.5, as commonly found in grain growth models.",
+   "authors": ["Massimiliano Bolchini", "Giovanni Rosotti", "Marion Villenave", "Antonio Garufi", "Myriam Benisty", "Tilman Birnstiel", "Stefano Facchini", "Leonardo Testi"],
+   "link": "https://arxiv.org/abs/2606.23815",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": ["protoplanetary disk"],
+   "summary_zh": "散射光观测中原行星盘的表观形态由散射面决定,而散射面受小尘埃颗粒分布控制。作者从辐射转移原理出发建立了散射面高度与盘质量、温度、不透明度等参数关系的半解析模型,经 MCFOST 辐射转移程序验证后应用于十个盘的实测散射高度,得到小颗粒尘埃质量占比约 10^-3。这一数值与温和颗粒生长(尺寸分布幂指数约 3-3.5)的模型预期一致,为约束盘中小尘埃含量提供了新途径。"
+  },
+  {
+   "id": "arxiv:2606.23899",
+   "title": "Hydrogen airglow from an escaping ultrahot Jupiter atmosphere",
+   "abstract": "Intense high-energy irradiation of close-in gaseous exoplanets drives the rapid escape of their atmospheres, fundamentally shaping planetary demographics. Here we report the first detection of atomic hydrogen emission from the escaping atmosphere of a gas giant. Using high-resolution spectroscopy of the ultrahot Jupiter KELT-9 b, we detect a hydrogen Balmer line (H-alpha 6564.6 A) emission signature originating from the planetary dayside. The emission line profile features a distinctive double-peaked shape with 0.1-0.15% peak amplitudes at ±30 km/s and central self-absorption. This profile breaks transmission degeneracies, providing direct observational constraints on the vertical thermal structure, excited-state hydrogen populations, and wind dynamics in the upper atmosphere of KELT-9 b. Initial modeling reveals a vigorous outflow with a mass-loss rate above 10^13 g/s, among the highest measured to date for gaseous exoplanets. Our results establish hydrogen airglow emission as a powerful diagnostic of atmospheric escape.",
+   "authors": ["Yapeng Zhang", "Chenliang Huang", "Aaron Householder", "James E. Owen", "Fei Dai"],
+   "link": "https://arxiv.org/abs/2606.23899",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": ["atmosphere", "atmospheric escape", "airglow"],
+   "summary_zh": "作者用 Keck/KPF 高分辨率光谱首次探测到逃逸行星大气的氢原子发射:超热木星 KELT-9 b 日面的 Hα 气辉呈双峰加中心自吸收的独特轮廓。结合 NLTE 外流模型,该轮廓打破了透射光谱中温度与质量损失率的简并,给出质量损失率 ≥10^13 g/s——迄今气态行星中的最高纪录之一,并支持 A 型星的近紫外辐射驱动 Balmer 逃逸的机制。这一结果为研究极端辐射环境下行星大气的长期演化打开了新窗口。"
+  }
+ ]
+}
