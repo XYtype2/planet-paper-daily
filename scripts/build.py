@@ -405,6 +405,7 @@ PAGE = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#fffcf3">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
 <title>{title}</title>
 <style>
@@ -552,6 +553,8 @@ def render(history):
         "name": CONFIG["site"]["title"], "short_name": CONFIG["site"]["title"],
         "start_url": ".", "display": "standalone",
         "background_color": "#fffcf3", "theme_color": "#fffcf3",
+        "icons": [{"src": "apple-touch-icon.png", "sizes": "180x180",
+                   "type": "image/png"}],
     }, ensure_ascii=False), encoding="utf-8")
 
 

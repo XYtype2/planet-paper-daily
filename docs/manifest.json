@@ -1,1 +1,1 @@
-{"name": "每日文献", "short_name": "每日文献", "start_url": ".", "display": "standalone", "background_color": "#fffcf3", "theme_color": "#fffcf3"}
+{"name": "每日文献", "short_name": "每日文献", "start_url": ".", "display": "standalone", "background_color": "#fffcf3", "theme_color": "#fffcf3", "icons": [{"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}]}
