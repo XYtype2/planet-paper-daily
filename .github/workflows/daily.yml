@@ -3,7 +3,7 @@ name: 每日文献更新
 on:
   schedule:
     - cron: "47 23 * * *"   # 北京时间 07:47 主班
-    - cron: "23 2 * * *"    # 北京时间 10:23 兜底班
+    
   push:
     paths: ["config.yaml"]   # 修改配置后自动重跑
   workflow_dispatch: {}       # 也可在 Actions 页面手动触发
