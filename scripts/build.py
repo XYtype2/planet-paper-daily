@@ -423,7 +423,8 @@ body {{ margin:0; color:var(--ink); background:var(--paper);
     "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
   -webkit-font-smoothing:antialiased }}
-.sheet {{ max-width:740px; margin:22px auto 34px; padding:0 14px }}
+.sheet {{ max-width:960px; margin:22px auto 34px; padding:0 14px }}
+@media (min-width:800px) {{ .frame {{ padding:30px 44px 34px }} }}
 .plate-top {{ display:flex; justify-content:space-between; gap:8px;
   font-size:11.5px; color:var(--faint); font-style:italic;
   padding:0 4px 5px; letter-spacing:.5px }}
