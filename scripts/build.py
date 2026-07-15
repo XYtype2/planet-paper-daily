@@ -481,7 +481,7 @@ details[open] summary::before {{ content:"★ " }}
 <header>
 <div class="subtitle">Ephemerides Litterarum</div>
 <h1>{title}</h1>
-<div class="date">更新于 {updated}(北京时间)</div>
+<div class="date">更新于 {updated}</div>
 </header>
 {body}
 <div class="logo">{logo}</div>
