@@ -1,15 +1,14 @@
 # 每日文献
 
 每天早上 8 点(北京时间)自动抓取 arXiv 和指定天文期刊的新文献,按分类关键词筛选
-(自动排除行星大气类论文),用 Claude 生成两三句中文摘要,发布成一个按类别分组的网页。
+,用 Claude 生成两三句中文摘要,发布成一个按类别分组的网页。
 iPhone / Mac 打开即看。
 
 ## 部署步骤(一次性,约 10 分钟)
 
 ### 1. 建仓库
 - 注册/登录 [github.com](https://github.com),点右上角 **+** → **New repository**
-- 名字随意(如 `paper-daily`),选 **Public**(免费版 GitHub Pages 要求公开仓库;
-  网址不告诉别人就行,内容只是文献列表)
+- 名字随意(如 `paper-daily`),选 **Public**(免费版 GitHub Pages 要求公开仓库)
 - 点 **Create repository**
 
 ### 2. 上传文件
