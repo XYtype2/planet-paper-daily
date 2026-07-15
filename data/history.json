@@ -1,49 +1,1610 @@
 {
- "2026-07-13": [],
+ "2026-07-15": [
+  {
+   "id": "doi:10.3847/1538-4357/ae7bf9",
+   "title": "The Limits of Line Broadening: Modeling Stellar Spectra and Formation Temperatures at High Resolution",
+   "abstract": "Abstract The modeling of stellar spectra is pervasive in astronomy. Conventionally, the shapes of absorption lines are modeled by convolving thermal profiles (computed given some model stellar atmosphere and line list) with broadening kernels intended to account for the effects of rotation and other nonthermal sources of broadening (i.e., macroturbulence). Here, we show that the assumptions that permit this convolution can break down at high spectral resolution and produce appreciable errors in the modeled flux. We then consider the effects of rotation, microturbulence, and macroturbulence on the intensity and flux contribution functions, which astronomers use to map individual spectral segments to quasi-physical formation “locations” in the stellar atmosphere. We show that proper consideration of (1) the distinction between intensity and flux and (2) the inclusion of rotation and macroturbulence in the contribution function can dramatically change the modeled formation temperatures. To complement this analysis, we provide a package— FormationTemperatures.jl —which quickly computes model line contribution functions and formation parameters given bulk stellar properties as input. In closing, we emphasize the assumptions inherent to this analysis, consider in which regimes the convolution expression for flux should be avoided, and caution how the concept of a singular “formation temperature” can oversimplify some realities of radiative transfer.",
+   "authors": [
+    "Michael L. Palumbo"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7bf9",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究探讨了高分辨率恒星光谱建模中线展宽处理的局限性，发现传统的热轮廓与展宽核的卷积方法在高分辨率下会产生显著误差。通过分析自转、微湍流和宏湍流对强度与通量贡献函数的影响，揭示了这些物理过程会显著改变谱线形成温度的计算结果，并提供了快速计算形成参数的工具包FormationTemperatures.jl。研究强调了辐射转移分析中的关键假设，为恒星大气诊断和行星宿主星参数精确测定提供了重要的方法论指导。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae80ae",
+   "title": "Unprecedented Fast Winking of Solar Flares Triggered by Bursty Magnetic Reconnection",
+   "abstract": "Abstract Flare ribbons form as a result of energy deposition associated with particles accelerated in low layers of the solar atmosphere. The fine-scale structures of flare ribbons, also called ribbon kernels, offer a potentially powerful diagnostic of the flare reconnection process, however, to date the dynamic evolution of ribbon kernels has not been fully characterized in statistical studies. Here, we checked the state-of-the-art observations (cadence ≤2.5 s) of solar flares in the ultraviolet from space by Interface Region Imaging Spectrograph over the past 12 yr. Our results showed the first statistical study of multiple spatially resolved flare kernel quasiperiodic pulsation events for 31 flares, with the period of 6–24 s. The ribbon kernels have a spatial scale of 480–1200 km and some kernels exhibit an unprecedented fast “winking” process, i.e., quasiperiodic pulsation-like flashing of individual kernels. The shortest heating time reaches about 2–3 s, implying that the energy is deposited only in a small localized region within flare ribbons, persisting for only a few seconds. Meanwhile, some ribbon kernels were observed to slip along the ribbon at speeds of 20–1800 km s −1 . These observations strongly imply a joint picture for the dynamics and the bursty nature of ribbon kernels as being due to coupled effects of plasmoid formation and three-dimensional magnetic reconnection in the overlaying coronal current sheet. We suggest that the observed flare behaviors provide strong observational evidences of 3D bursty reconnection.",
+   "authors": [
+    "Ting Li",
+    "Xuchun Duan",
+    "Yijun Hou",
+    "Guillaume Aulanier",
+    "I. V. Zimovets",
+    "Jun Zhang",
+    "Juraj Lörinčík",
+    "Larisa Kashapova",
+    "Zhentong Li",
+    "Yining Zhang",
+    "Yulei Wang",
+    "Leping Li",
+    "Suli Ma",
+    "Jing Huang",
+    "Shuhong Yang",
+    "Guiping Zhou"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae80ae",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用IRIS卫星12年的紫外观测数据，通过高时间分辨率（≤2.5秒）统计分析了31个太阳耀斑的细丝核结构，发现了周期为6-24秒的准周期脉动事件和前所未有的快速\"闪烁\"现象（加热时间仅2-3秒）。核结构空间尺度为480-1200公里，沿耀斑带滑动速度达20-1800公里/秒，表明能量沉积高度集中且短暂。这些观测强烈支持日冕电流片中三维磁重联和等离子体小体形成的耦合机制，提供了三维瘸跛式磁重联的直接观测证据。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7d13",
+   "title": "X-Ray Emission and Stellar Ages of Sun-like Stars",
+   "abstract": "Abstract We present an analysis of XMM-Newton and Chandra observations of 85 nearby main-sequence FGK stars with age estimates ranging from 0.2 to 12 Gyr. We measure quiescent 0.3–10 keV luminosities, variability metrics, and multitemperature thermal plasma spectral parameters. Quiescent spectra are typically described by three characteristic plasma components ( kT ≈ 0.1, 0.4, 0.8 keV); the fraction of flux from T ≥ 7 MK rises with X-ray surface flux, reaching ∼50% for F X ≳ 10 6 erg cm −2 s −1 . We derive relations between emission measure-weighted coronal temperature and both L X and F X , enabling temperature-informed count rate conversions for faint sources. We quantify how bandpass conversions (ROSAT 0.1–2.4 keV versus XMM-Newton 0.3–10 keV) depend on temperature and show that inferred ROSAT-band L X broadly follows the canonical t −1.5 decay, while the harder band exhibits increased scatter at >4 Gyr. Several stars show excess activity suggestive of age errors, inclination effects, or unresolved companions. Some of these “outlier” stars are potential direct imaging targets for the Habitable Worlds Observatory, and detailed characterization of these stars is needed to inform their likely influence on the atmospheric evolution of orbiting planets.",
+   "authors": [
+    "Breanna A. Binder",
+    "Edward W. Schwieterman",
+    "Alison Farrish",
+    "Sarah Peacock",
+    "Margaret C. Turnbull",
+    "Stephen R. Kane",
+    "Katherine Garcia-Sage"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7d13",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究通过XMM-Newton和Chandra对85颗邻近主序FGK型恒星的X射线观测，测量了其静态X射线光度、光谱参数与年龄（0.2-12 Gyr）的关系，发现X射线光谱由三个等离子体分量构成，高温成分比例随X射线通量增加而上升。研究建立了日光型恒星冕层温度与X射线光度的定量关系，揭示了ROSAT波段光度随年龄的标准衰减规律（t^-1.5），同时发现某些偏离预期的活跃恒星可能是系统年龄、倾角效应或伴星的信号，这对评估其行星大气演化的影响至关重要。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae6917",
+   "title": "Coupling Magma–Ocean and Atmospheres in Spectral Retrievals of Sub-Neptunes",
+   "abstract": "Abstract Recent high-precision atmospheric observations with JWST are enabling detailed characterization of sub-Neptune atmospheres and motivating efforts to understand and constrain their interiors. Theoretical studies suggest that sub-Neptunes possibly host hydrogen-dominated atmospheres that are chemically coupled with an underlying magma ocean. However, a quantitative retrieval framework directly linking atmospheric spectra to magma ocean properties has yet to be established. Here we introduce Magma-atmosphere Equilibrium and Layered ThermochemistrY retrieval frameworQ ( MELTYQ ), a coupled magma-atmosphere retrieval framework that links transmission spectra to the oxidation state and volatile inventory of underlying magma oceans. MELTYQ combines a magma-atmosphere equilibrium model, which includes the solubility of H-/O-/C-/N-bearing species in the melt and redox reactions, with a Bayesian spectral retrieval scheme. Using simulated retrieval tests, we validate the approach and show that magma redox state and volatile content can be constrained under favorable observational conditions. As a proof of concept, we apply MELTYQ to JWST transmission spectra of the benchmark sub-Neptunes K2-18 b and TOI-270 d. We find that coupled magma-atmosphere retrievals are generally capable of reproducing the observed spectra of these planets. However, we identify several key limitations in the current framework. Specifically, more flexible free-retrieval approaches remain statistically preferred; the CO/CO 2 absorption feature near 4.5 μ m for TOI-270 d is not fully captured; and a number of underlying model assumptions may not be strictly valid. Nevertheless, embedding coupled magma-atmosphere models directly within Bayesian retrievals enables quantitative assessment of degeneracies and sensitivities, establishing a pathway for directly connecting atmospheric spectra to magma composition in this underexplored exoplanet regime.",
+   "authors": [
+    "Yuichi Ito",
+    "Quentin Changeat"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae6917",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究建立了MELTYQ耦合岩浆-大气光谱反演框架，将亚海王星的传输光谱与其岩浆洋的氧化态和挥发分含量联系起来，通过整合岩浆-大气平衡模型（包括熔体中H/O/C/N物种的溶解度和氧化还原反应）和贝叶斯光谱反演方案。模拟测试验证了该方法的有效性，并在JWST观测K2-18 b和TOI-270 d两颗基准亚海王星的光谱中初步应用，表明耦合岩浆-大气反演能够复现观测谱特征，为直接从大气光谱约束岩浆成分提供了可行途径。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae64ff",
+   "title": "A Window for Water-hydrogen Demixing on Warm Metal-rich Sub-Neptunes",
+   "abstract": "Abstract Sub-Neptunes represent the largest exoplanet demographic, yet their bulk compositions remain poorly understood. Recent studies suggested that only very cold planets, such as Uranus and Neptune, could experience stratification of volatiles in their envelopes. Transiting warm sub-Neptunes, with 10 3 –10 4 times more stellar irradiation, were therefore believed to have fully miscible compositions. Here, we present ATHENAIA, an interior-atmosphere composition inference framework we leverage to assess the potential for water-hydrogen demixing on warm sub-Neptunes and for the 350 K planet TOI-270 d as a case study, using radiative-convective atmosphere models coupled to interior models. We find that the higher temperatures at which hydrogen and water demix in water-rich environments open a window for demixing on sub-Neptunes with bulk envelope metallicities of ∼150–700× solar, compatible with TOI-270 d. Demixing is easier to achieve on more massive and colder planets, but still broadly affects warm (≃330–450 K) metal-rich sub-Neptunes. Therefore, combining atmosphere metallicities with models of fully miscible envelopes may lead to underestimated bulk envelope metallicities and mass fractions. Further, we find that considering the increased greenhouse effect in metal-rich atmospheres in concert with the composition-dependent adiabatic gradient in the convective envelope increases the range of compositions under which molten mantle conditions should be expected on sub-Neptunes. This work encourages a reconsideration of the current paradigm for linking sub-Neptune atmospheres to their interiors and motivates evolutionary modeling describing the onset of metallicity gradients in sub-Neptune envelopes.",
+   "authors": [
+    "Caroline Piaulet-Ghorayeb",
+    "Daniel P. Thorngren",
+    "Eliza M.-R. Kempton",
+    "Justin Lipper",
+    "Leslie Rogers",
+    "Fernanda Correa Horta",
+    "Shi Lin Sun"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae64ff",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用辐射-对流大气模型耦合内部模型，评估了温暖金属丰富亚海王星大气中水-氢分层的可能性，以TOI-270 d为例进行深入分析。研究发现，在水丰富环境中水和氢混合的较高温度为温暖亚海王星的分层开启了一个窗口，这些行星的包层金属丰度约为太阳值的150-700倍。该发现表明，现有的完全互溶大气模型可能低估了亚海王星的包层金属丰度和质量分数，并需要重新评估大气与内部的组成关联。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8098",
+   "title": "Long-term Orbital Period Variations of the Eclipsing Dwarf Nova HT Cas",
+   "abstract": "Abstract We present a comprehensive analysis of the long-term orbital period variations in the short-period eclipsing dwarf nova HT Cas. By combining our new high-precision mid-eclipse times obtained between 2015 and 2026 with archival data, we constructed an updated O − C diagram spanning a ∼48 yr. Statistical analysis confirms outbursts do not cause systematic phase shifts, validating the use of all activity states. Through Markov Chain Monte Carlo modeling, we show that the O − C variations require a two-companion configuration. A free-eccentricity light-travel-time model captures the variations but yields unconstrained posteriors and a highly eccentric outer orbit ( e 3 ∼ 0.94) that instantly collapses in N -body dynamical simulations. Imposing a circular constraint ( e = 0) resolves these mathematical degeneracies, yielding well-constrained posterior distributions. This dynamically stable model identifies two hypothetical circumbinary companions with minimum masses of ∼9.8 M Jup and ∼5.0 M Jup , and periods of ∼32.6 and ∼15.1 yr. Besides, this configuration inherently produces a negative quadratic term ( Q = −1.23 × 10 −14 days), aligning with secular period decrease predicted by standard cataclysmic variable evolution theory below the period gap. Refined energy-budget tests reveal that classical Applegate mechanisms require significantly more energy than the secondary star provides, indicating they cannot independently drive the modulations. While advanced magnetic frameworks may offer theoretical alternatives, our findings demonstrate that a dynamically stable two-companion architecture provides a highly robust and physically viable explanation, consistent with second-generation planet formation within a post-common-envelope disk.",
+   "authors": [
+    "Aykut Ozdonmez",
+    "Huseyin Er",
+    "Ilham Nasiroglu",
+    "M. Emir Kenger",
+    "Murat Tekkesinoglu",
+    "Ergun Ege",
+    "Burak Batuhan Gürbulak",
+    "Ali Takey",
+    "Nazli Karaman",
+    "M. Abdelkareem"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8098",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过结合2015-2026年的新观测和档案数据，构建了跨越48年的HT Cas食双星轨道周期变化的O-C图，采用马尔可夫链蒙特卡洛方法建立了动力学稳定的两伴星模型。研究确认了两颗质量分别为~9.8和~5.0木星质量、周期分别为~32.6和~15.1年的环食双星伴星的存在，该配置与标准矮新星演化理论的负二次项预测一致，表明行星形成机制可能在共同包层后吸积盘中发生。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7722",
+   "title": "The Successful Eruption of a Filament in a Two-filament System",
+   "abstract": "Abstract We investigate the successful eruption of a C-shaped filament within a two-filament system on 2014 March 29. Its northern leg overlaps with an adjacent inverse-L-shaped filament to the west. Preeruption observations from the Atmospheric Imaging Assembly and Helioseismic and Magnetic Imager onboard the Solar Dynamics Observatory reveal persistent activation near the western filament and 1 hr of magnetic flux cancellation beneath the middle segment of the erupting filament. To understand the initiation and evolution of the filament eruption, we conduct magnetic field modeling and further compare this event with a confined filament eruption in a double-decker filament system that occurred in a similar photospheric magnetic configuration on 2014 July 5. In the confined event, the eruptive filament is supported by a flux rope beneath a dome-shaped quasi-separatrix layer (QSL). The flux rope erupts due to torus instability and subsequently reconnects with the overlying fan fields, resulting in flux-rope erosion and ultimately a failed eruption. In comparison, the successful filament is situated beneath a hyperbolic flux tube (HFT) sandwiched between two arch-shaped QSLs. Flare reconnection triggered by flux cancellation at the filament’s middle section initiates the eruption. Dominant breakout reconnection occurring at the overlying HFT reduces part of the magnetic confinement, thereby facilitating the successful eruption. Additionally, the substantially lower flux ratio of outer to inner polarities (1.0, compared with 5.3 in the confined event) also contributes to the success of the filament eruption.",
+   "authors": [
+    "Jialin Chen",
+    "Yingna Su",
+    "Qingmin Zhang",
+    "Jinhua Shen",
+    "Haisheng Ji"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7722",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究调查了2014年3月29日双丝系统中C形日珥的成功爆发，通过磁场建模和SDO卫星观测揭示了通量绳爆发的启动机制（中段磁通湮灭引发的耀斑重联）和演化过程（上覆双曲通量管处的破裂重联）。与同年7月5日类似磁场构型中的局限爆发对比研究表明，成功爆发的日珥处于较低的外极性/内极性通量比（1.0 vs 5.3）和双层准分界层结构中，使得主导的破裂重联能够有效降低磁约束，促进日珥成功突破；而局限爆发中环面不稳定性导致的通量绳爆发后遭到侵蚀，最终失败逃逸。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7a42",
+   "title": "PAH Emission Spectra and Band Ratios for Arbitrary Radiation Fields with the Single Photon Approximation",
+   "abstract": "Abstract We present a new method for generating emission spectra from polycyclic aromatic hydrocarbons (PAHs) in arbitrary radiation fields. We utilize the single-photon limit for PAH heating and emission to treat individual photon absorptions as independent events. This allows the construction of a set of single-photon emission “basis spectra” that can be scaled to produce an output emission spectrum given any input heating spectrum. We find that this method produces agreement with PAH emission spectra computed accounting for multiphoton effects to within ≃10% in the 3–20 μ m wavelength range for radiation fields with intensity U < 100. We use this framework to explore the dependence of PAH band ratios on the radiation field spectrum across grain sizes, finding in particular a strong dependence of the 3.3–11.2 μ m band ratio on radiation field hardness. A Python-based tool and a set of basis spectra that can be used to generate these emission spectra are made publicly available.",
+   "authors": [
+    "Helena M. Richie",
+    "Brandon S. Hensley"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7a42",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "emission spectr"
+   ],
+   "summary_zh": "本研究提出了一种在任意辐射场中计算多环芳烃(PAH)发射光谱的新方法,采用单光子近似框架,将每个光子吸收视为独立事件,构建基础光谱库可用于快速生成任意输入辐射谱的输出发射光谱。该方法在3-20 μm波长范围和弱辐射场(U < 100)条件下与多光子效应计算结果相符(误差≃10%),并揭示了PAH带比与辐射场硬度之间的强相关性,特别是3.3-11.2 μm带比对辐射场谱形的敏感依赖。研究同时提供了公开的Python工具和基础光谱库供社区使用。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7b23",
+   "title": "Coupling True Polar Wander to Planetary Climates Using Nonlinear 2D Energy Balance Climate Models",
+   "abstract": "Abstract Rotational dynamics strongly modulate the long-term climate evolution of a planet. Existing climate–rotation models typically include precession and nutation—torques on the spin axis produced by the star–planet–satellite gravitational interaction—but generally omit true polar wander (TPW), the reorientation of a planet’s solid-body spin axis driven by internal mass redistribution and angular momentum exchange between its interior, surface, and atmosphere. The climatic role of TPW has been widely hypothesized but lacks quantitative treatment. We introduce a novel, self-consistent framework that couples two-dimensional energy balance climate models (2D EBCMs) to orbital (obliquity and eccentricity) and rotational (TPW) dynamics in a nonlinear fashion. Using this framework, we explore long-term climate evolution for terrestrial planets, focusing on global temperature evolution and the initiation or avoidance of snowball states. Our analyses demonstrate that TPW can make a substantial contribution to climate trajectories, modifying the susceptibility of a terrestrial planet to global glaciation. After verifying our methodology against modern observational data, we apply it to explain the observed Earth temperature since the last glacial maximum ∼24,000 yr ago, demonstrating an important role for TPW. This work provides the first quantitative modeling framework linking TPW to the planetary climates in 2D EBCMs, and offers a new tool for assessing planetary habitability.",
+   "authors": [
+    "M. Kiani Shahvandi"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7b23",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究建立了一个耦合二维能量平衡气候模型与轨道动力学和真极移动(TPW)的自洽框架,定量探索了固体星球自转轴由内部质量重新分布驱动的极移对长期气候演化的影响。研究表明真极移动能显著改变陆地行星对全球冰冻的易感性,并通过与现代观测数据对比验证,成功解释了末次冰期以来地球温度演变中真极移动的重要作用。该工作首次为行星宜居性评估提供了真极移动与二维能量平衡气候耦合的定量模型工具。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7a66",
+   "title": "Double Neutron Star Delay Times Across Cosmic Metallicities: The Role of Helium Star Progenitors",
+   "abstract": "Abstract Metallicity can play a significant role in massive binary evolution through its impact on the opacity within stellar interiors and wind-driven mass loss. In this work, we investigate how the double neutron star (DNS) delay time distribution (DTD) is shaped by the metallicity-dependent evolution of the helium star−NS progenitor system. Drawing from insights rooted in single and binary star physics, we argue that at a given metallicity, the stellar radius during the helium main sequence sets a lower limit on the size of the DNS orbit at birth. We then perform population synthesis with the detailed binary evolution code POSYDON to illustrate the resulting DTD across a range of metallicities. Our results indicate that, independent of the common envelope efficiency and reasonable natal kicks, the majority of DNS mergers across metallicities typically occur no earlier than ≃40 Myr after star formation and peak strongly between 80 and ​​​​​​250 Myr. Roughly 15% of DNSs merge within 80 Myr, which may explain r -process enrichment in environments with brief star formation histories, while ≳20% merge on delay times >1 Gyr, providing an explanation for short gamma-ray bursts in old, metal-poor galaxies. The shape of the DTD can be complex, with a metallicity-dependent split in the dominant formation channel imprinting a characteristic double-peaked structure. Although ideally oriented natal kicks can produce very short merging DNS, we find that the required kick magnitudes are inconsistent with observations. Our work has implications for assessing the contribution of DNS mergers to r -process enrichment and gamma-ray bursts/kilonovae transients across cosmic time.",
+   "authors": [
+    "Abhishek Chattaraj",
+    "Jeff J. Andrews",
+    "Max Briel",
+    "Tassos Fragos",
+    "Seth Gossage",
+    "Vicky Kalogera",
+    "Philipp M. Srivastava",
+    "Elizabeth Teng"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7a66",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "population synthesis"
+   ],
+   "summary_zh": "本研究通过详细的双星演化模型POSYDON，系统调查了金属丰度如何通过影响氦星-中子星前身星系统的演化来塑造双中子星延迟时间分布（DTD）。研究发现，无论公共包层效率如何，DNS并合主要发生在恒星形成后40-250 Myr，其中约15%在80 Myr内并合（可解释快速星形成环境中的r过程富集），而超过20%的并合延迟时间超过1 Gyr（可解释金属贫困老星系中的短伽马射线暴）。金属丰度依赖的双峰结构反映了不同形成通道的竞争，这些结果对评估DNS并合对宇宙r过程富集和引力波/千新星事件的贡献具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7bfb",
+   "title": "Kinematic Signatures of a Binary-rich Population in the Pleiades",
+   "abstract": "Abstract Binary stars can influence the dynamical evolution of open clusters by acting as internal energy sources. Using Gaia DR3 astrometry together with the Pleiades binary catalog of Liu et al., we investigate the projected internal kinematics of single stars and a binary-rich population in the inner Pleiades. We identify three related observational signatures. First, in the cluster core, the binary-rich sample shows a larger plane-of-sky velocity dispersion than single stars of comparable system mass, suggestive of a kinematic excess. Second, the projected anisotropy profile of the binary-rich population changes with radius, from tangentially biased motions in the inner region to more radially biased motions at larger projected radii. Third, after strict common-support mass matching, the projected radial distributions of the binary-rich and single-star samples are statistically indistinguishable. A parallax-based three-dimensional radius comparison suggests a larger apparent extent for the binary-rich sample, but this signal is dominated by the line-of-sight coordinate and is associated with parallax and renormalized unit weight error differences. We therefore use the projected radius as the fiducial coordinate for the proper-motion-based kinematic analysis. Taken together, the results suggest that the binary-rich population is kinematically distinct from cospatial single stars, although the present data do not uniquely establish a single dynamical transport mechanism.",
+   "authors": [
+    "Huanbin 焕斌 Chi 迟",
+    "Feng 锋 Wang 王"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7bfb",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用Gaia DR3天体测量数据和Pleiades双星目录，通过比较单星和双星系统的内部动力学特征，在昴星团中发现了三个关键的运动学特征：双星系统在星团核心表现出比同等系统质量单星更大的平面速度弥散度，其速度各向异性随半径变化（内部切向偏向，外部径向偏向），且两样本的投影径向分布在严格质量匹配后无统计差异。研究结果表明双星富集群体在运动学上与共空间单星存在明显差异，暗示二元星系统作为内部能量源对星团动力学演化产生了显著影响，但未能唯一确定具体的动力学输运机制。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae81ae",
+   "title": "JWST Reveals How Black Holes are Fed: Kiloparsec-scale Multiphase Filaments Feed Subkiloparsec Circumnuclear Disks",
+   "abstract": "Abstract The Centaurus cluster is one of the most important archetypes of radio-mode active galactic nucleus (AGN) feedback, with its central galaxy, NGC 4696, launching powerful jets that inflate X-ray cavities and regulate cooling and star formation. NGC 4696 lies within a spectacular multiphase nebula of filaments extending over tens of kiloparsecs and spanning 6 decades in temperature, from hot (10 8 K) X-ray-emitting plasma to cold molecular gas. Owing to its proximity, Hubble Space Telescope H α imaging reveals a striking S-shaped ionized-gas swirl within the black hole’s sphere of influence—the first such structure identified in a cluster core. Here we present the first JWST observations of NGC 4696 with NIRSpec, probing the inner 618 × 618 pc at 10 pc resolution. These data reveal that the ionized swirl is a rotating, multiphase circumnuclear disk (CND) physically and kinematically connected to the larger-scale filamentary network. This provides the long-sought missing link between kiloparsec-scale cooling flows and black hole accretion on <100 pc scales. Strikingly, the observed morphology and kinematics are reproduced by tailored magnetohydrodynamic simulations, in which filamentary gas condenses from the hot atmosphere, loses angular momentum, and feeds a rotating CND that mediates accretion onto the black hole. A similar structure in NGC 1275, the Perseus cluster’s central galaxy, together with our results on NGC 4696—two prototypical radio-mode AGN feedback systems—points to a common mechanism: multiphase filaments transport gas from cluster scales down to the vicinity of the black hole via a CND, closing the AGN feedback loop and establishing a physically grounded framework for self-regulated galaxy evolution.",
+   "authors": [
+    "Julie Hlavacek-Larrondo",
+    "Hyunseop 현섭 Choi 최",
+    "Minghao 明浩 Guo 郭",
+    "Mathieu Marquis",
+    "Olivia Pereira",
+    "G. Mark Voit",
+    "Loïc Albert",
+    "Jorge Barrera-Ballesteros",
+    "Rebecca E. A. Canning",
+    "Francesco D’Eugenio",
+    "Megan Donahue",
+    "Andrew C. Fabian",
+    "Gary J. Ferland",
+    "John S. Gallagher",
+    "Marie-Lou Gendron-Marsolais",
+    "Pierre Guillard",
+    "Nina Hatch",
+    "Ralf Kotulla",
+    "Yuan Li",
+    "Roberto Maiolino",
+    "Allison Man",
+    "Michael A. McDonald",
+    "B. R. McNamara",
+    "Valeria Olivares",
+    "Marine Prunier",
+    "Michael Reefe",
+    "Christopher S. Reynolds",
+    "Carter Rhea",
+    "Annabelle Richard-Laferrière",
+    "Helen R. Russell",
+    "Philippe Salomé",
+    "Ming Sun",
+    "Prathamesh Tamhane",
+    "Gregory Taylor",
+    "Auriane Thilloy",
+    "Grant R. Tremblay",
+    "Benjamin Vigneron",
+    "Stephen A. Walker"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae81ae",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用JWST NIRSpec观测Centaurus星系团中心星系NGC 4696的核心区域，发现了连接千秒差距尺度冷却流与黑洞吸积的缺失环节：离子化气体形成旋转的多相核盘(CND)，在动力学上与大尺度细丝网络相连。磁流体力学模拟表明，热晕中的细丝状气体通过失去角动量凝聚形成CND，进而向黑洞供给物质，解释了射电模式AGN反馈中从星系团尺度到黑洞附近的气体运输机制，为自调节星系演化提供了物理框架。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae81a9",
+   "title": "Nowhere Left to Hide: Revealing Realistic Gravitational-wave Populations in High Dimensions and High Resolution with PixelPop",
+   "abstract": "Abstract The origins of merging compact binaries observed by the LIGO–Virgo–KAGRA gravitational-wave detectors remain uncertain, with multiple astrophysical channels possibly contributing to the merger rate. Formation processes can imprint nontrivial correlations in the underlying distribution of source properties, but current understanding of the overall population relies heavily on simplified and uncorrelated parametric models. In this work, we use P ixel P op —a high-resolution Bayesian nonparametric model with minimal assumptions—to analyze multidimensional correlations in the astrophysical distribution of masses, spins, and redshifts of black-hole mergers from mock gravitational-wave catalogs constructed using population-synthesis simulations. With full parameter estimation on 400 detections at current sensitivities, we show explicitly that neglecting population-level correlations biases inference. In contrast, modeling all significant correlations with P ixel P op allows us to correctly measure the astrophysical merger rate across all source parameters. We then propose a nonparametric method to distinguish between different formation channels by comparing the P ixel P op results back to astrophysical simulations. For our simulated catalog, we find that only formation channels with significantly different physical processes are distinguishable, whereas channels that share evolutionary stages are not. Given the substantial uncertainties in source formation, our results highlight the necessity of multidimensional astrophysics-agnostic models like P ixel P op for robust interpretation of gravitational-wave catalogs.",
+   "authors": [
+    "Sofía Álvarez-López",
+    "Jack Heinzel",
+    "Matthew Mould",
+    "Salvatore Vitale"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae81a9",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "population synthesis"
+   ],
+   "summary_zh": "本研究用高分辨率贝叶斯非参数模型PixelPop分析了引力波探测的黑洞并合事件在质量、自旋和红移空间中的多维相关性，通过群体合成模拟构造的模型目录进行了验证。研究表明忽视群体层面的相关性会导致推断偏差，而完整建模所有显著相关性能准确测量天体物理并合率，同时提出了通过与模拟结果对比来区分不同形成通道的方法。结果表明仅物理过程显著不同的形成通道可被区分，而共享演化阶段的通道无法区分，强调了多维无偏见模型对引力波观测的鲁棒性诠释的必要性。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae7a5c",
+   "title": "A Long Period Stellar-mass Black Hole Binary in ω Centauri",
+   "abstract": "Abstract Modern simulations of stellar dynamics in globular clusters peg a dominant role for stellar-mass black holes, but direct evidence for black holes in clusters remains limited. We present the discovery of an astrometric stellar-mass black hole–main sequence star binary in ω Centauri, the most massive Galactic globular cluster, using Hubble Space Telescope data from the oMEGACat project and additional JWST data that span a total of 23 yr. The luminous companion to the black hole is a main-sequence turnoff star, and has a period of 9 4 − 42 + 63 yr, a semimajor axis of 3 1 − 12 + 15 au, and an eccentricity of e = 0.7 2 − 0.13 + 0.08 . Since we observe the binary during periastron, the mass of the black hole is well constrained even though we only observe a partial orbit: the inferred black hole mass is 4.4 6 − 1.01 + 1.22 M ⊙ . We call this black hole oMEGACat BH-2. This is the first astrometric discovery of a stellar-mass black hole in a globular cluster, and is the longest-period black hole binary system yet discovered. The low mass of this black hole is perhaps surprising given the low metallicity of the cluster, and shows that at least some low-mass black holes form at metallicity Z < 10 −3 . We find that the binary is almost certainly dynamically formed and is soft, with an expected binary disruption timescale of ∼800 Myr. While the total number of black hole binaries in ω Centauri is uncertain, we show that existing surveys only cover a small area of parameter space, and that the presence of additional detectable black hole binaries is likely.",
+   "authors": [
+    "Matthew Whitaker",
+    "Evan Kerr",
+    "Anil Seth",
+    "Maximilian Häberle",
+    "Jay Strader",
+    "Jay Anderson",
+    "Andrea Bellini",
+    "Callie Clontz",
+    "Zack Freeman",
+    "Massimo Griggio",
+    "Sebastian Kamann",
+    "Mattia Libralato",
+    "Nadine Neumayer",
+    "Elena González Prieto",
+    "Carl L. Rodriguez",
+    "Sara Saracino",
+    "Peter Smith",
+    "Glenn van de Ven",
+    "Zixian Wang"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae7a5c",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用哈勃空间望远镜和詹姆斯韦伯空间望远镜23年的观测数据，在球状星团ω人马座中发现了首个通过天体测量法确认的恒星级黑洞-主序星双星系统oMEGACat BH-2，其轨道周期为94-171年、黑洞质量约4.5太阳质量。这一发现表明低金属丰度环境下确实能形成低质量黑洞，且该系统是迄今发现的最长周期黑洞双星，其动力学形成的软双星预期寿命约800百万年。研究结果表明球状星团中黑洞双星的数量可能远多于现有观测所示，未来调查需要覆盖更广的参数空间才能获得全面认识。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae84bf",
+   "title": "Multiheight Identification of Sausage and Fluting Eigenmodes in a Solar Pore",
+   "abstract": "Abstract Magnetic pores are compact, strongly magnetized waveguides in the lower solar atmosphere and therefore provide favorable conditions for identifying magnetohydrodynamic (MHD) wave modes. Earlier seeing-free observations revealed concurrent sausage, kink, and fluting modes in photospheric pores, but only at a single sampled layer. In this letter, we exploit the dense spectral sampling of the near-ultraviolet 327–329 nm window observed by the S unrise-iii UV Spectropolarimeter and Imager (SUSI) to investigate how pore wave modes behave across multiple photospheric and low-chromospheric heights spanning roughly 500 km. We analyze ∼75 min of a S unrise-iii /SUSI time series containing a small solar pore. From eight selected spectral lines sampling different estimated formation heights, we identify the pore boundary at each line and time step and apply proper orthogonal decomposition (POD) to the boundary oscillations. In all eight lines, the first POD mode is consistently identified as an axisymmetric sausage mode, with dominant power at ∼1–2 mHz, and carries the dominant normalised eigenvalue fraction, typically about 66%–86%, while the second mode is a fluting mode with azimuthal wave number m = 2, dominant at ∼2–3.5 mHz, and contributes about 4%–10%. Cross-line wavelet phase analysis of the temporal coefficients shows that the sausage mode remains close to zero phase difference across the sampled heights, consistent with standing or near-standing behaviour, whereas the fluting mode displays a modest but systematic increase in phase with height, reaching about 50°, indicative of an upward-propagating component. These observations provide the first multiheight identification and phase characterisation of sausage and fluting modes inferred from pore-boundary oscillations.",
+   "authors": [
+    "Shahin Jafarzadeh",
+    "David B. Jess",
+    "Marco Stangalini",
+    "Luiz A. C. A. Schiavo",
+    "Timothy J. Duckenfield",
+    "Suzana S. A. Silva",
+    "Gary Verth",
+    "Viktor Fedun",
+    "Sami K. Solanki",
+    "H. N. Smitha",
+    "Andreas Lagg",
+    "Achim Gandorfer",
+    "Alex Feller",
+    "Francisco A. Iglesias",
+    "Tino L. Riethmüller",
+    "Bianca Grauf",
+    "Johannes Hoelken",
+    "Yukio Katsukawa",
+    "Pietro Bernasconi",
+    "Thomas Berkefeld",
+    "Alberto Álvarez-Herrero",
+    "Masahito Kubo",
+    "David Orozco Suárez",
+    "Michael Carpenter",
+    "Alexander Bell",
+    "Valentín Martínez Pillet",
+    "Francisco Javier Bailén",
+    "Julian Blanco Rodríguez",
+    "Juan Sebastián Castellanos Durán",
+    "Edvarda Harnes",
+    "Ryohtaroh T. Ishikawa",
+    "Yusuke Kawabata",
+    "Takuma Matsumoto",
+    "Takayoshi Oba",
+    "Azaymi L. Siu-Tapia",
+    "Hanna Strecker",
+    "Dušan Vukadinović"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae84bf",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用Sunrise-III/SUSI紫外分光仪在327-329 nm波段的高光谱分辨观测，通过对太阳黑点边界在多个高度层（跨越约500 km）的时间序列应用proper orthogonal decomposition (POD)方法，识别了轴对称的鱼肠模式（dominant frequency 1-2 mHz）和m=2的凹槽模式（dominant frequency 2-3.5 mHz）。小波相位分析表明鱼肠模式在采样高度间表现为近似驻波特征，而凹槽模式显示出随高度增加约50°的系统性相位增加，指示存在向上传播的分量。这是首次通过黑点边界振荡对鱼肠和凹槽模式进行的多高度识别和相位表征。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae7bf1",
+   "title": "Solar Flare Ribbons Structured by Uncombed Chromospheric Loops",
+   "abstract": "Abstract A part of the magnetic energy released during a flare is transported to the lower atmosphere. High-resolution observations show that flare ribbons, sites of energy deposition at the footpoints of flaring loops that appear bright in the chromosphere and transition region, are structured on small spatial scales on the order of 100 km. Based on idealized numerical models of flares it is suggested that the ribbon fine structures could originate from a tearing instability and the development of plasmoids in current sheets. Here we report on Fe i 5250.6 Å and Mg i b 2 5173 Å spectral observations of a solar flare from the Tunable Magnetograph on board the S unrise iii balloon-borne mission that reveal an intricate link between the flare ribbon structure and the ambient chromosphere. We identified uncombed chromospheric loops and nonflaring fine structures that are interspersed among brighter flare ribbon threads. These loops remain stable on timescales of minutes. Spectral lines from these regions show reduced emission or self-reversal in the line core compared with the immediately adjacent flare ribbons. We discuss the potential role of these structures in the onset of a flare. Furthermore, we suggest that irrespective of the complexities in the flaring current sheet, uncombed chromospheric loops and nonflaring fine structure might play a role in spatially modulating the flare energy deposition in the lower atmosphere.",
+   "authors": [
+    "L. P. Chitta",
+    "E. R. Priest",
+    "David Orozco Suárez",
+    "Azaymi L. Siu-Tapia",
+    "Jose Carlos del Toro Iniesta",
+    "Francisco Javier Bailén",
+    "Julian Blanco Rodríguez",
+    "Alberto Álvarez-Herrero",
+    "Maria Balaguer Jiménez",
+    "Esteban Sanchis Kilders",
+    "Ignacio Torralbo",
+    "Christoph Kuckein",
+    "Sami K. Solanki",
+    "Andreas Lagg",
+    "Achim Gandorfer",
+    "Yukio Katsukawa",
+    "Pietro Bernasconi",
+    "Thomas Berkefeld",
+    "Alex Feller",
+    "Tino L. Riethmüller",
+    "Masahito Kubo",
+    "H. N. Smitha",
+    "Bianca Grauf",
+    "Michael Carpenter",
+    "Alexander Bell",
+    "Valentín Martínez Pillet",
+    "Juan Sebastián Castellanos Durán",
+    "Edvarda Harnes",
+    "Johannes Hoelken",
+    "Francisco A. Iglesias",
+    "Ryohtaroh T. Ishikawa",
+    "Yusuke Kawabata",
+    "Takuma Matsumoto",
+    "Takayoshi Oba",
+    "Hanna Strecker",
+    "Dušan Vukadinović"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae7bf1",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用Sunrise III气球任务的高分辨率光谱观测,揭示了太阳耀斑色球层能量沉积的精细结构与背景磁场的耦合关系。观测发现耀斑核心区域中存在结构复杂的未梳理色球环和非耀斑细丝,它们与明亮的耀斑带线条交织分布,在分钟时间尺度上保持稳定。研究表明这些色球环结构可能通过空间调制作用影响耀斑能量在低层大气中的沉积分布,对理解耀斑能量释放和输运机制具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae63d0",
+   "title": "Multiline Wave Signatures in a Sunspot from Near-ultraviolet S unrise iii /SUSI Observations",
+   "abstract": "Abstract Magnetohydrodynamic waves redistribute energy in magnetic structures of the lower solar atmosphere, yet constraints on how wave power and dominant frequencies are organized above sunspots remain limited, because most studies use only a few well-separated diagnostics. Here, we present multiline wave signatures in a sunspot from near-ultraviolet (near-UV) spectroscopy with the S unrise-iii UV Spectropolarimeter and Imager (SUSI). We analyse a 2 hr time series of repeated raster scans of a sunspot near disc center in the 327–329 nm spectral window (>100 lines). From these, we select 44 lines that radiative-transfer calculations suggest sample effective formation heights within the umbral core, from the deep photosphere toward the low chromosphere. For each line, we extract line-core intensity and line-of-sight velocity time series using a dedicated multiline fitting routine and compute Morlet wavelet power spectra. The refined global wavelet spectra show that most lines (in both intensity and velocity) are genuinely multifrequency, with a dominant peak and substantial statistically significant power up to 12 mHz. Unsupervised clustering of the normalized spectra groups lines into families with similar spectral shapes and reveals a progression of dominant frequencies from ∼2 to ∼10 mHz across the ensemble, for both intensity and velocity (not necessarily in the same lines). This behavior is not reproduced by a simple formation-height ranking, suggesting that uncertainties in the formation-height estimates and line-dependent diagnostic response together shape the ordering. These S unrise-iii /SUSI observations open a new regime for near-UV multiline wave studies and provide the first systematic characterization of frequency-structured sunspot wave behaviour in this spectral region.",
+   "authors": [
+    "Shahin Jafarzadeh",
+    "David B. Jess",
+    "Marco Stangalini",
+    "Richard J. Morton",
+    "Tobias Felipe",
+    "Michele Berretti",
+    "Sami K. Solanki",
+    "H. N. Smitha",
+    "Andreas Lagg",
+    "Achim Gandorfer",
+    "Alex Feller",
+    "Francisco A. Iglesias",
+    "Tino L. Riethmüller",
+    "Bianca Grauf",
+    "Johannes Hoelken",
+    "Yukio Katsukawa",
+    "Pietro Bernasconi",
+    "Thomas Berkefeld",
+    "Alberto Álvarez-Herrero",
+    "Masahito Kubo",
+    "David Orozco Suárez",
+    "Michael Carpenter",
+    "Alexander Bell",
+    "Valentín Martínez Pillet",
+    "Francisco Javier Bailén",
+    "Julian Blanco Rodríguez",
+    "Juan Sebastián Castellanos Durán",
+    "Edvarda Harnes",
+    "Ryohtaroh T. Ishikawa",
+    "Yusuke Kawabata",
+    "Takuma Matsumoto",
+    "Takayoshi Oba",
+    "Azaymi L. Siu-Tapia",
+    "Hanna Strecker",
+    "Dušan Vukadinović"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae63d0",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用Sunrise-iii/SUSI近紫外分光仪对黑子进行多谱线观测,分析了100多条谱线在2小时内的强度和视向速度时间序列,通过小波分析提取了从深光球到低色球的波动功率谱。研究发现黑子中的磁流体力学波具有多频率特征,主导频率在2-10 mHz范围内变化,且频率分布呈现沿高度的渐进性演化,反映了谱线形成高度和诊断响应对波动特性的共同影响。这项工作首次系统刻画了黑子区域的频率结构化波动行为,为低层太阳大气中磁结构能量再分配过程提供了新的观测约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7c73",
+   "title": "An Automated Probabilistic Asteroid Prediscovery Pipeline",
+   "abstract": "Abstract We present an automated and probabilistic method to make prediscovery detections of near-Earth asteroids (NEAs) in archival survey images, with the goal of reducing orbital uncertainty immediately after discovery. We refit the Minor Planet Center's astrometry and propagate the full six-parameter covariance to survey epochs to define search regions. We build low-threshold source catalogs for viable images and evaluate every detected source in a search region as a candidate prediscovery. We eliminate false positives by refitting a new orbit to each candidate and probabilistically linking detections across images using a likelihood ratio. Applied to the Zwicky Transient Facility's (ZTF) imaging, we identify approximately 3000 recently discovered NEAs with prediscovery potential, including a doubling of the observational arc for about 500. We use archival ZTF imaging to make prediscovery detections of the potentially hazardous asteroid 2021 DG1, extending its arc by 2.5 yr and reducing future apparition sky plane uncertainty from many degrees to arcseconds. We also recover 2025 FU24 nearly 7 yr before its first known observation, when its sky plane uncertainty covers hundreds of square degrees across thousands of ZTF images. The method is survey agnostic and scalable, enabling rapid orbit refinement for new discoveries from Rubin, NEO Surveyor, and NEOMIR.",
+   "authors": [
+    "Sage Li",
+    "Alex Geringer-Sameth",
+    "Nathan Golovich"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7c73",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究开发了一种自动化概率方法，通过在巡天归档图像中进行小行星prediscovery探测来降低近地小行星发现后的轨道不确定性。该方法通过重新拟合小行星中心的天体测量数据并将完整的六参数协方差传播到巡天历元来定义搜索区域，利用似然比概率关联多幅图像中的探测源并通过轨道重拟合消除假正例。将该方法应用于Zwicky瞬变天体设施数据，成功为约500颗小行星延长了观测弧长，并将潜在危险小行星2021 DG1的观测弧延长2.5年，将未来表观位置的不确定性从数度降低到角秒级，该方法具有巡天无关性和可扩展性。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae82f1",
+   "title": "Probing the Atmospheres of Young Long-period Sub-Neptune Progenitors with ELT/ANDES",
+   "abstract": "Abstract High-resolution cross-correlation spectroscopy (HRCCS) has become a powerful ground-based technique for detecting and characterizing exoplanet atmospheres. While highly successful for ultrahot and hot Jupiters, next-generation facilities such as the Extremely Large Telescope (ELT)/ANDES will observe smaller and longer-period planets, including young sub-Neptunes and their progenitors. We investigate whether HRCCS with ELT/ANDES can robustly recover orbital parameters and atmospheric signals for the long-period sub-Neptunes V1298 Tau b and TOI-451 c. In long-period systems, the slow Doppler drift during a single night limit separation between planetary and telluric signals, increasing the risk of signal loss during detrending. We therefore quantify the impact of including out-of-transit exposures on signal recovery and parameter estimation. We simulate YJH -band transmission observations using the Ratri pipeline and analyze them with the HRCCS detrending and cross-correlation framework Upamana . For V1298 Tau b, injected atmospheric models are consistent with Hubble Space Telescope, Spitzer, and JWST constraints. For TOI-451 c, we explore subsolar to supersolar C/O ratios to test compositional sensitivity. Incorporating out-of-transit exposures significantly improves detectability, provided detrending effects are consistently propagated to the template spectra prior to cross correlation. Without this step, orbital parameters can deviate from injected values and detection significance decreases. For V1298 Tau b, >4 σ detections of H 2 O, H 2 S, and CO are achievable at ≲10 hr (minimum 2 nights). For TOI-451 c, distinguishing subsolar and solar from supersolar C/O requires ∼17 hr (minimum 4 nights). HRCCS with ELT/ANDES will therefore be a key tool for atmospheric characterization of young, long-period sub-Neptunes in the ELT era.",
+   "authors": [
+    "Spandan Dash",
+    "Dwaipayan Dubey",
+    "Liton Majumdar"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae82f1",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过模拟ELT/ANDES的高分辨率交叉相关分光法(HRCCS),探测长周期亚海王星V1298 Tau b和TOI-451 c的大气成分,发现在长周期系统中包含掩食外数据能显著改善信号恢复和轨道参数估计的精度。研究表明ELT/ANDES可在10-17小时内实现对H₂O、H₂S、CO等分子的>4σ探测,并能区分不同C/O比的大气组成。这证明HRCCS将成为ELT时代表征年轻长周期亚海王星大气的关键工具,为行星形成和大气演化研究提供重要约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7c74",
+   "title": "Parameter Estimation from the Transit Light Curve Including Gravitational Lensing Effects",
+   "abstract": "Abstract We study transit light curves of exoplanets, incorporating gravitational lensing effects, and explore the possibility of estimating planetary masses using only the transit light curve. We analyze existing data for planets with relatively large orbital distances (> 1 au) from Kepler and TESS to evaluate how well their masses can be constrained. For six exoplanets, we derive 2 σ upper limits of 200–2000 Jupiter masses. We also construct mock data to assess the feasibility of determining masses for exoplanets with larger orbital radii than currently known. Our results show that a precision of 3 × 10 −6 is required to recover the true masses of planets with 10 (5) Jupiter masses at orbital radii of a = 20 (100) au. Furthermore, we demonstrate that neglecting gravitational effects can lead to underestimation of exoplanet radii, particularly for planets with large orbital separations. Using mock data with a precision of 2 × 10 −4 , assuming a 30 minutes cadence with Kepler for a K p = 14 mag star, we find that the estimated radii can be underestimated by 1%–20% for 5 and 10 Jupiter-mass planets with a = 10–100 au. These results highlight the importance of including microlensing effects when modeling transit light curves of wide-orbit planets.",
+   "authors": [
+    "Shinta Kasuya",
+    "Akihiko Fukui",
+    "Ayana Suzuki",
+    "Naomi Tsuji"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7c74",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究将引力透镜效应纳入系外行星凌日光变曲线分析,探讨仅利用凌日数据估计行星质量的可行性。通过分析Kepler和TESS数据中轨道距离>1 au的行星样本,以及构造模拟数据,结果表明在3×10⁻⁶的精度下可以恢复10木星质量、轨道半径20 au行星的真实质量,同时表明忽视引力微透镜效应会导致宽轨道行星的半径被低估1%-20%。研究强调了在模型化远轨行星凌日光变时考虑微透镜效应的重要性。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7de3",
+   "title": "Evidence of Inverse Mass Segregation in Dynamically Unevolved Young Open Clusters: A Three-dimensional Analysis Based on Gaia DR3",
+   "abstract": "Abstract The primordial spatial distribution of massive stars in star clusters records early fragmentation and assembly processes within molecular clouds. We investigate mass segregation in 871 dynamically unevolved open clusters ( τ = Age/ t rh < 1, where t rh is the half-mass relaxation time) using Gaia DR3 astrometry. To mitigate biases from 2D projection effects, we perform a three-dimensional (3D) reconstruction using Bayesian distance inference. Mass segregation is quantified through the minimum spanning tree ratio, Λ MSR . Our 3D analysis reveals widespread inverse mass segregation, with a median Λ MSR = 0.72 for the N = 5 most massive stars. Approximately 56% of clusters satisfy the criterion Λ MSR + σ < 1, where σ is the standard deviation of the random Minimum Spanning Tree length distribution, rising to ∼72% for N = 20. In contrast, 2D projected analyses yield a median Λ MSR = 0.86 and a detection rate of only ∼10%. The persistence of inverse configurations across the τ < 1 regime suggests that dispersed massive-star distributions may be primordial rather than produced by two-body relaxation. A probabilistic posterior sampling analysis of clusters within 600 pc ( N = 119) confirms a significant positive correlation between τ and Λ MSR (Spearman r = 0.252, p = 0.006), providing independent validation. Our results suggest that formation models predicting primordial central concentration may need revision, and highlight the necessity of 3D analysis in cluster dynamics.",
+   "authors": [
+    "Su 苏 Zhang 张",
+    "Zhengke 正科 Deng 邓",
+    "Wenchang 文昌 Zhao 赵",
+    "Huanbin 焕斌 Chi 迟",
+    "Jing 婧 Chen 陈"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7de3",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用Gaia DR3数据对871个动力学演化不足的年轻星团进行三维质量分离分析，通过贝叶斯距离推断消除二维投影效应。研究发现这些星团中普遍存在逆质量分离现象（56-72%的星团显示质量最大的恒星分散分布），而二维分析仅检测到10%，表明分散的大质量恒星分布可能是原始的而非来自双体弛豫。结果表明需要修正预测质量大恒星原始中心聚集的形成模型，并强调了三维分析在星团动力学研究中的必要性。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7712",
+   "title": "Piercing Through the Haze: Characterizing Titan-like Terrestrial Exoplanets with JWST",
+   "abstract": "Abstract As we enter a new era of using JWST to characterize exoplanet atmospheres, a top priority is defining observational needs and parameters in the search for life on an exoplanet. Although some studies have begun to consider Titan-like exoplanet atmospheres, more work is needed to prepare for the potential discovery and characterization of Titan analogues with JWST and future missions. We explore the effectiveness of exoplanet atmospheric retrieval methodologies on the Cassini/VIMS-IR spectrum of Titan assuming agnostic haze properties and tholin hazes, as well as a self-consistent photochemical model. We compare our retrieved chemical abundances and haze profiles against fiducial values and Cassini/ISS-NAC UV observations and the forward modeled truths. We generalize these findings to a Titan-like exoplanet in the TRAPPIST-1 system and find that JWST-like observations have limited potential to identify features beyond methane in a Titan-like atmosphere, but may be able to identify the presence of the haze to a few hundred kilometers. The diagnostic features which would differentiate between different haze model (scattering) properties are shortward of 1 μ m and further demonstrate the important role of nUV—optical observatories in constraining the properties of exoplanet atmospheres. We also find that agnostic priors for the bulk atmosphere can lead to a degeneracy in which a spectrally active gas (CH 4 ) is erroneously favored as the dominant atmospheric constituent over a spectrally inactive molecule (N 2 ).",
+   "authors": [
+    "L. C. Mayorga",
+    "Jacob Lustig-Yaeger",
+    "Andrew P. Lincowski",
+    "Kathleen E. Mandt",
+    "Ryan C. Felton",
+    "Adrienn Luspay-Kuti",
+    "Kristin S. Sotzen",
+    "Cameron A. Gutgsell"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7712",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用大气逆向检索方法，基于Cassini/VIMS-IR光谱数据和自洽光化学模型，评估JWST对类泰坦系外行星大气的表征能力。研究发现JWST观测在识别甲烷以外的大气特征方面能力有限，但可在数百千米的高度范围内探测到霾的存在，且紫外-光学波段观测对约束霾的物理性质至关重要。同时揭示了无约束先验条件下可能导致光谱活跃气体甲烷被错误地优先于氮气而被识别为主要大气成分的简并问题。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae77f1",
+   "title": "The Roasting Marshmallows Program with IGRINS on Gemini South. V. Atmosphere of MASCARA-1 b Is Enriched in Refractory Elements",
+   "abstract": "Abstract Ultrahot Jupiters (UHJs; T eq ≳ 2000 K) enable simultaneous detection of volatile (ice-forming) and refractory (rock-forming) elements in planetary atmospheres, providing a powerful diagnostic of planet formation and atmospheric processing. We present a comprehensive high-resolution cross-correlation spectroscopy analysis of the UHJ MASCARA-1 b ( T eq ≈ 2600 K) using the IGRINS and IGRINS-2 spectrographs. We detect robust (signal-to-noise ratio > 4) signals from H 2 O, CO, OH, Fe i , Mg i , Ca i , and Ti i , marking the most complete atmospheric inventory of MASCARA-1 b to date. Using a chemically consistent atmospheric inference framework, we constrain elemental abundances to a typical precision of ≈0.2 dex, retrieving a solar atmospheric metallicity ([M/H] ⊙ = 0.0 7 − 0.13 + 0.17 ≈1.2 × solar), a C/O ratio (C/O = 0.6 5 − 0.08 + 0.08 ) consistent with solar value (C/O = 0.59), an enhanced refractory abundance ([ R /H] ⊙ = 0.4 0 − 0.17 + 0.23 ≈ 2.5 × solar; ≈3.8 × stellar), and a moderately supersolar refractory-to-volatile ratio ([ R / V ] ⊙ = 0.3 6 − 0.09 + 0.11 ≈ 2.3× solar). Comparison with formation models suggests that MASCARA-1 b most likely accreted material between the soot–H 2 O or H 2 O–CO snowlines (at 68% confidence). We additionally find stellar values for atmospheric Ti/Fe and Ca/Fe ratios (at 68% confidence). The Mg/Fe is also found to be consistent with stellar value at 95% confidence. Therefore, we do not find strong indication of nightside cold trapping in MASCARA-1 b. As homogeneous refractory-to-volatile measurements expand across the UHJ population, particularly with upcoming Extremely Large Telescopes, these diagnostics will enable statistically robust tests of emerging trends in giant planet formation and atmospheric evolution.",
+   "authors": [
+    "Krishna Kanumalla",
+    "Michael R. Line",
+    "Martina Chiarella",
+    "Matteo Brogi",
+    "Peter C. B. Smith",
+    "Jorge A. Sanchez",
+    "Yayaati Chachan",
+    "Joshua Lothringer",
+    "Joost P. Wardenier",
+    "Hayley Beltz",
+    "Carlos Saffe",
+    "Emily K. Deibert",
+    "Megan Weiner Mansfield",
+    "Stefan Pelletier",
+    "Vivien Parmentier",
+    "Yeon-ho Choi",
+    "Swaetha Ramkumar",
+    "Arjun B. Savel",
+    "Luis Welbanks",
+    "Jacob L. Bean",
+    "Vatsal Panwar",
+    "Tomás Azevedo Silva",
+    "Lorenzo Pino",
+    "Yuya Hayashi",
+    "Dongwook Lim",
+    "Cicero X. Lu",
+    "Venu M. Kalari",
+    "Teo Močnik",
+    "Mark G. Rawlings",
+    "Heeyoung Oh",
+    "Ruben J. Diaz",
+    "Chan Park",
+    "Jae-Joon Lee",
+    "Sanghyuk Kim",
+    "Ueejeong Jeong",
+    "Hye-In Lee",
+    "Woojin Park",
+    "Youngsam Yu",
+    "Yunjong Kim",
+    "Moo-Young Chun",
+    "Jae Sok Oh",
+    "Sungho Lee",
+    "Jeong-Gyun Jang",
+    "Bi-Ho Jang",
+    "Hyeon Cheol Seong",
+    "Hyun-Jeong Kim",
+    "Cynthia B. Brooks",
+    "Gregory N. Mace",
+    "Hanshin Lee",
+    "John M. Good",
+    "Daniel T. Jaffe",
+    "Kang-Min Kim",
+    "In-Soo Yuk",
+    "Narae Hwang",
+    "Byeong-Gon Park",
+    "Hwihyun Kim",
+    "Brian Chinn",
+    "Francisco Ramos",
+    "Pablo Prado",
+    "John White",
+    "Andres Olivares",
+    "Valentina Oyarzun",
+    "Emma Kurz",
+    "Hawi Stecher",
+    "Carlos Quiroz",
+    "Ignacio Arriagada",
+    "Thomas L. Hayward",
+    "Hyewon Suh",
+    "Jen Miller",
+    "Siyi Xu",
+    "Emanuele Paolo Farina",
+    "Charlie Figura",
+    "Andrew Stephens",
+    "Bryan Miller",
+    "Kathleen Labrie",
+    "Paul Hirst",
+    "Edo Tapia",
+    "Zachary Hartmann"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae77f1",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究使用高分辨率交叉相关光谱学对超热木星MASCARA-1 b的大气进行综合分析,首次同时检测到H₂O、CO、OH、Fe、Mg、Ca和Ti等挥发性和难熔元素,精确约束了大气金属丰度、C/O比和难熔/挥发元素丰度比。研究发现该行星大气的难熔元素丰度显著超过太阳值(≈2.5倍),难熔/挥发比约为2.3倍太阳值,与行星在H₂O-CO雪线附近吸积物质的形成模型相符,表明行星大气化学成分对其形成位置具有重要诊断意义。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660017",
+   "title": "Geophysical and atmospheric implications of fO_2-dependent melting on rocky exoplanets",
+   "abstract": "The geochemical evolution of long-lived magma oceans is strongly regulated by the volatile exchange between the molten mantle and the atmosphere. For planets inside the runaway-greenhouse limit, this coupled evolution can persist for billions of years, governing bulk density, surface conditions, and long-term geodynamics. However, most existing studies assume Earth-like (oxidized) conditions and neglect the influence of the redox state on melt thermodynamics and volatile release. We quantified how experimentally derived, oxygen-fugacity-dependent melting curves implemented within the coupled interior-atmosphere framework propagate into the thermal structure, melt fraction, and rheological evolution of rocky exoplanet interiors, and applied this to the short-period super-Earth GJ 1132 b. We found strongly non-linear thermal responses to variations in melting curves. In volatile-poor systems, reduced melting curves (fO_2 łeq IW, where IW denotes the iron--wüstite buffer) promote earlier deep-mantle crystallization relative to oxidized (IW+2.0) and Earth-like (IW$+4.0) cases (range IW-4.0 to IW+4.0), favouring late-stage surface magma oceans sustained by greenhouse warming, while oxidized melting curves maintain higher melt fractions and a vertically extended magma ocean. Reduced mantles produce massive H_2-CO-rich atmospheres; oxidized mantles favour thinner H_2O-CO_2$ envelopes. In volatile-rich systems, the interior reaches radiative equilibrium at high melt fractions, sustaining a steady-state global magma ocean in which melting curve variations do not significantly influence solidification timing. This indicates a hierarchical control: volatile inventory and surface oxygen fugacity act as the primary regulators of thermal state, while oxygen-fugacity-dependent melting relations provide a secondary modulation. These contrasting regimes produce distinct atmospheric compositions and formation timescales, offering testable spectral predictions for close-in rocky exoplanets evaluable with forthcoming JWST observations. PROTEUS",
+   "authors": [
+    "Mariana Sastre",
+    "Tim Lichtenberg",
+    "Laurent Soucasse",
+    "Dan J. Bower",
+    "Harrison Nicholls",
+    "Inga Kamp"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660017",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过在耦合内部-大气框架中实现实验推导的氧逸度依赖熔融曲线,量化了熔融曲线变化对类地系外行星内部热结构、熔融分数和流变演化的影响,并应用于近距离超级地球GJ 1132b。研究发现氧逸度变化对热响应呈强非线性,在挥发物贫瘠系统中还原型熔融曲线促进深部地幔早期结晶并维持晚期地表岩浆洋,而挥发物丰富系统中内部达到辐射平衡并维持稳态全球岩浆洋。这些对比的体制产生不同的大气组成和形成时标,为利用JWST观测近距离类地行星提供可检验的光谱预测。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659229",
+   "title": "Exploration of the inner region of the system HD 142527",
+   "abstract": "HD 142527 is a well-studied intermediate-mass T Tauri star surrounded by a transitional disk with a large dust cavity, spiral structures, and an accreting low-mass companion. Despite extensive observations, the system’s inner regions remain poorly understood, particularly regarding their influence on disk morphology and planet formation. This study aims to investigate the inner region of HD 142527 (separation < 50 au) with high detection sensitivity thanks to dedicated post-processing methods to search for undetected components and explore their potential role affecting the disk’s structure and evolution. We analyze high-contrast imaging data obtained with the SPHERE instrument at the Very Large Telescope (VLT). To enhance detection sensitivity, we applied the and algorithms, dedicated respectively to the detection of point-like sources and to the reconstruction of circumstellar disks with high reliability, while exploiting both angular and spectral variations. PACO REXPACO We revisit the known companion HD 142527 B and update its photometry, astrometry, and accretion rate estimates. Furthermore, we identify a new candidate companion (CC) at an angular separation of ̊ho (∼14 au). Though it is shown as a point-like object, the possibility that CC is a disk feature remains. Otherwise, it could be a young gas-giant planet or a brown dwarf with a mass of 12--50 M Additionally, we report the discovery of a tightly wound Hα spiral feature in the inner disk, reconstructed for the first time by high contrast imaging. The spiral implies varying accretion dynamically linked to the known companion B and possibly to CC, suggesting ongoing interactions that influence the disk’s structure. Our findings provide new insights into the complex interactions within the HD 142527 system, highlighting the role of multiple companions in driving disk asymmetries and facilitating planet formation. Future high-resolution observations and dynamical modeling will be essential to fully understand the system's architecture and evolution.",
+   "authors": [
+    "T. M. H. Tran",
+    "M. Langlois",
+    "O. Flasseur",
+    "J.-C. Augereau",
+    "A. Boccaletti",
+    "P. Delorme",
+    "R. Gratton",
+    "A. Kaszczyc",
+    "A.-M. Lagrange"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659229",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用VLT/SPHERE高对比成像和专门的后处理算法（PACO和REXPACO）探测HD 142527系统内部区域（<50 au），以揭示该过渡盘内伴星和行星对盘结构的影响。研究确认了已知伴星HD 142527 B的性质，新发现一个质量为12-50 MJ的候选伴星，并首次通过高对比成像重建了与伴星B动力学相关的Hα螺旋结构。这些发现表明多个伴星通过动力学相互作用驱动盘的不对称结构，对该系统的行星形成和演化具有重要影响。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660185",
+   "title": "A population view of transiting hot giant exoplanets: Tracing Fe and Ti chemistry with ESPRESSO and MAROON-X",
+   "abstract": "Hot and ultra-hot Jupiters offer a unique laboratory for studying atmospheric chemistry at the population level using ground-based high-resolution spectroscopy. Iron (Fe) and titanium (Ti) are key tracers of thermal and chemical structures, yet they exhibit markedly different observational trends across the population. We present a homogeneous re-analysis of high-resolution transmission spectra for ten hot and ultra-hot Jupiters observed with ESPRESSO on ESO’s Very Large Telescope and MAROON-X on Gemini-North. We searched for neutral Fe and Ti absorption and performed injection–recovery tests using forward models spanning a range of Ti-depletion levels and temperature–pressure profiles. To enable direct comparison across planets observed with different instruments and signal-to-noise ratios, we introduced the relative cross-correlation metric, Δ_ Ti - Fe . We detect Fe in seven planets and Ti in four planets at significances above 5σ. Across the population, Δ_ Ti - Fe decreases sharply towards lower equilibrium temperatures. Under the assumption of equal Ti depletion across planets, isothermal models fail to reproduce this trend, instead requiring a temperature-dependent depletion of Ti that increases towards cooler planets, consistent with cold-trapping processes in cooler atmospheres. Models with inverted temperature–pressure profiles naturally reproduce the decline without invoking such temperature-dependent depletion. In these atmospheres, Ti is converted into TiO in deeper, cooler layers and subsequently removed from the gas phase through condensation into Ti-bearing species, leading to a strong suppression of the observable atomic Ti signal while Fe remains largely atomic. Nevertheless, even in these gradient models, an additional overall depletion of Ti relative to Fe is required to match the hottest planets. Our results demonstrate that the observable refractory chemistry is governed by the interplay of molecular partitioning, ionisation, condensation, and cold-trapping processes, as well as the vertical structure of ultra-hot Jupiter atmospheres. Although these results reveal clear population-level trends, additional observations will be necessary to distinguish between temperature-dependent cold-trapping and overall depletion scenarios. Expanding homogeneous high-resolution surveys to larger and more diverse samples, targeting both emission and transmission observations, will refine these constraints and provide critical insights into the chemistry of strongly irradiated giant planets.",
+   "authors": [
+    "Bibiana Prinoth",
+    "Vivien Parmentier",
+    "Stefan Pelletier",
+    "Daniel Kitzmann",
+    "Julia V. Seidel",
+    "Adrien Simonnin",
+    "Valentin De Lia",
+    "Sydney Vach",
+    "Jens Kammerer",
+    "Matteo Brogi",
+    "Florian Debras",
+    "Michael R. Line"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660185",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究采用ESPRESSO和MAROON-X高分辨率传输光谱对十颗炽热木星进行了同质化分析，搜寻中性铁和钛的吸收特征，并通过包含不同钛耗尽水平和温度-压力廓线的正向模型进行了注入-恢复测试。研究发现，随着平衡温度降低，钛相对于铁的信号显著减弱，这一种群趋势无法用等温模型解释，而是需要考虑冷凝陷阱过程导致的温度相关的钛耗尽，或者具有反演温度廓线的模型才能再现。这些结果揭示了超炽热木星大气中的难熔化学主要由分子配分、电离、冷凝和冷陷阱等过程以及大气竖直结构共同控制。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659789",
+   "title": "Investigation of high-quality spectra of a sample of high-radial-velocity stars",
+   "abstract": "Old, metal-poor stars are perfect tracers of the formation of the Milky Way. The combination of chemical and kinematic investigations into them provides an insight into accretion episodes in the past history of our Galaxy. We present here a detailed chemical abundance analysis of 16 metal-poor stars, selected from the RAVE survey, which are characterised by a high radial velocity. We derived stellar parameters from Gaia photometry and parallaxes. Using high-resolution spectra obtained with UVES at the ESO-VLT, we determined elemental abundances for α-, iron-peak, and neutron-capture elements using the pipeline. Departures from local thermodynamic equilibrium, where available, were investigated. We used the SPInS bayesian inference pipeline to derive ages for all the stars. Actions and other dynamical quantities were computed using the MyGIsFOS galpy pipeline applying the Galactic potential MWPotential2014, in order to classify the stars kinematically. The stars span a wide metallicity range (-1.2 łesssim łesssim -2.9) and exhibit kinematic properties consistent with the outer halo population. Star C0213360-505024, Fe/H Fe/H =--1.4, appears to have an age of 1.3,Gyr and a mass of 1.6,M_⊙. Based also on its kinematics and line broadening, which we attribute to stellar rotation, we argue that this star is young and not an evolved blue straggler. The available evidence points towards an accreted origin for this star and we speculate about its possible progenitor. The other 15 stars have ages compatible with an old population.",
+   "authors": [
+    "J. M. K. Alazzawi",
+    "E. Caffau",
+    "P. Bonifacio",
+    "S . Çal",
+    "L. Monaco",
+    "L. Sbordone",
+    "L. Lombardo"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659789",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过ESO-VLT的UVES高分辨率光谱对16颗来自RAVE巡天的高径向速度贫金属星进行了详细的化学丰度分析，并利用Gaia数据、SPInS贝叶斯管道和MyGIsFOS动力学管道确定了它们的恒星参数、年龄和轨道动力学性质。研究表明这些恒星大多属于外晕老星群，但其中星体C0213360-505024年龄仅1.3Gyr且质量为1.6M☉，结合其运动学特性和恒星自转证据，可能起源于被吸积星系，代表了银河系过去吸积历史的痕迹。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202558766",
+   "title": "Milky Way open cluster age determination with spectroscopic priors and machine learning-accelerated inference",
+   "abstract": "Open clusters are excellent tracers of the Galactic thin disk, providing insights into its formation and evolution. Precise cluster age determination is essential for studying cluster evolution as well as the evolution of the disk as a whole. With this work, our aim was to produce an updated catalog of cluster parameters (age, extinction, distance) by constraining cluster ages via newly available spectroscopic measurements of metallicity. Using high-quality astrometry from Gaia Data Release 3, we derived new cluster memberships via a machine learning-based clustering algorithm (AstroLink). We compiled metallicity measurements from multiple ground-based spectroscopic surveys (Gaia-ESO, GALAH DR3, APOGEE-OCCAM) and Gaia GSP-Spec into a uniform scale. The ages of 320 clusters were determined using a machine learning-accelerated approximate Bayesian isochrone-fitting code (based on ASteCA), adopting a multiband approach that incorporates Gaia XP and synthetic photometry. This work resulted in a robust sample of open clusters with precisely determined parameters and uncertainties. In addition, this catalog may provide a foundation for machine learning models to infer parameters for a larger sample of objects without spectroscopic data, which is to be explored in future work.",
+   "authors": [
+    "I.N. Kallimanis",
+    "A. Vallenari",
+    "D. Bossini",
+    "A. Bragaglia",
+    "M. Pasquato",
+    "R. Carrera",
+    "C. Boeche",
+    "D. Hatzidimitriou"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202558766",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用Gaia DR3高精度天体测量数据和多项地基分光巡天的金属丰度测量，采用机器学习聚类算法(AstroLink)重新确定银河系疏散星团的成员星，并通过机器学习加速的贝叶斯等龄线拟合方法(基于ASteCA)精确测定了320个星团的年龄、消光和距离等参数。本工作为研究银河系薄盘的形成和演化提供了一个鲁棒的疏散星团参数目录，为后续利用机器学习模型推断缺乏分光数据的更大样本星团参数奠定基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557734",
+   "title": "The GAPS programme with HARPS-N at TNG. LXXVII. Occurrence rates of small close-in planets in the presence of cold Jupiters",
+   "abstract": "The architecture of our Solar System, with inner small planets (ISPs) and outer giants, may or may not be common. Understanding whether a correlation exists between ISPs and outer cold giants is key to evaluating how common systems with a similar architecture to our own are. This study aims to build a large, homogeneous sample of systems hosting cold Jupiters (CJs, a_ peri > 1 au, m i > 0.1 detected via radial velocities (RVs), and to assess the presence of additional ISPs (P < 400 d, 3 łeq m i łeq 31.7 studying the correlation between these two types of objects. We selected 137 stars known to host a CJ, including 23 that also harbour a hot Jupiter and were treated separately. Data from various instruments were compiled, including unpublished data gathered with the High Accuracy Radial velocity Planet Searcher for the Northern hemisphere (HARPS-N) within the Global Architectures of Planetary Systems (GAPS) programme, and consistently fitted using PyORBIT. We derived RV detection maps and calculated occurrence rates for ISPs, cross-validating results with two independent codes. The sample was divided into subgroups to evaluate how system parameters influence planet occurrence. We confirmed the 213 already known planets in the 137 systems and also identified six new candidates. We divided them, based on mass and period, into Neptunes (10 < m i < 31.7 and super-Earths (3 < m i łeq 10 and into hot (1 łeq P łeq 10 d), warm (10 < P łeq 100 d), and cool (100 < P łeq 400 d). We found occurrences of ∼ 5%, ∼ 13%, and ∼ 12% for hot, warm, and cool Neptunes, respectively, and ∼ 11% and ∼ 16% for hot and warm super-Earths, respectively. Systems with dynamically stable inner regions show higher rates of small planets. These findings are consistent with previous studies showing no strong correlation between ISPs and CJs at average stellar metallicity and mass, and suggest that hot Jupiters may be more commonly associated with external giants.",
+   "authors": [
+    "A. Ruggieri",
+    "S. Desidera",
+    "M. Pinamonti",
+    "D. Barbato",
+    "A. Sozzetti",
+    "A. S. Bonomo",
+    "L. Naponiello",
+    "M. Damasso",
+    "S. Benatti",
+    "I. Carleo",
+    "R. Gratton",
+    "K. Biazzo",
+    "A. F. Lanza",
+    "G. Piccinini",
+    "N. Nari",
+    "G. Mantovan",
+    "J. Maldonado",
+    "D. Nardiello",
+    "A. Fiorenzano",
+    "A. Ghedina",
+    "A. Bignamini"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557734",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究通过整合HARPS-N等多个仪器的径向速度数据，对137颗已知存在冷木星的恒星系统进行了系统分析，以评估小型近日行星与冷木星之间的相关性。研究确认了213颗已知行星，并新发现6颗行星候选体，计算得出不同类型小型行星（热海王星~5%、温海王星~13%、冷海王星~12%、热超地球~11%、温超地球~16%）的发生率。研究未发现小型近日行星与冷木星之间存在强相关性，反而暗示热木星与外部巨行星的关联更强，这对理解类似太阳系结构的行星系统的普遍性具有重要启示。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557350",
+   "title": "Gaia DR3 variable white dwarfs vetted by ZTF",
+   "abstract": "The publication of data releases DR2 and DR3 have brought major improvements in stellar astrometry and photometry, particularly regarding the description of the white dwarf sequence. In particular, DR2 enabled the detection of variability in white dwarfs based solely on averaged astrometric and photometric quantities; namely, the five astrometric parameters (positions, proper motion, and parallax) and general photometric properties in the G, BP, and RP bands (mean, standard deviation, and number of measurements). Gaia Gaia We identify and classify variable white dwarfs using DR3 data and Transient Facility (ZTF) DR23 observations. The objective is to construct a catalogue of pulsating white dwarf candidates with robust selection criteria. Gaia Zwicky We defined a new sample of candidate variable white dwarfs using DR3 astrometric and photometric data. We cross-matched this sample with the ZTF DR23 catalogue and applied a multi-band Lomb-Scargle periodogram analysis to detect periodic variability. We then used the unsupervised clustering algorithm to group and classify the confirmed periodic stars. Gaia OPTICS We identified 1423 variable white dwarf candidates from DR3 with an estimated false-positive rate of 32%. Of the 1423 candidates, 864 have ZTF time series available. Among these, 141 present significant periodicity. Using unsupervised clustering techniques, we classified these objects into known categories, including ZZ,Ceti stars, V777 Her stars, and white dwarf–main sequence (WD–MS) binaries. Our analysis reveals several confirmed periodic stars, including three ZZ Ceti stars, one V777 Her, and 24 WD–MS binaries. Furthermore, our work reveals a significant population of potentially variable stars, although their periodicities have not yet been detected. Finally, we note that several variables displayed unusual properties and we highlighted these objects for follow-up studies. Gaia Our catalogue of candidate variable white dwarfs includes variability status, periodicity, and classification information for the 864 sources in our sample with ZTF time-series photometry, with 519 of them being newly identified, including 67 new periodic stars. This catalogue is publicly available through the VizieR database to support future investigations of white dwarf variability.",
+   "authors": [
+    "Timour Jestin",
+    "Thịnh Hữu Nguyễn",
+    "Laurent Eyer",
+    "Lorenzo Rimoldini",
+    "Ashish Mahabal",
+    "Marc Audard",
+    "Pedro García-Lario",
+    "Panagiotis Gavras",
+    "Krzysztof Nienartowicz"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557350",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用Gaia DR3的测光测量数据和ZTF时间序列观测，通过Lomb-Scargle周期图分析和无监督聚类算法识别并分类脉动白矮星候选体。研究确认了141颗具有显著周期性的变星，包括3颗ZZ Ceti星、1颗V777 Her星和24个白矮星-主序星双星系统，共864个源中519个为新发现。该工作构建了一个公开的白矮星变星目录，为后续白矮星变率研究奠定基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660369",
+   "title": "What does the local thin disc HRD tell us about the mass function, star formation history, and binary population? A Bayesian population synthesis study using the Gaia Catalogue of Nearby Stars",
+   "abstract": "The solar neighbourhood encodes three of the most fundamental quantities in Galactic astrophysics: the initial mass function (IMF), the star formation history of the Milky Way thin disc, and the statistical properties of binary stars. We present a simultaneous, self-consistent determination of all three from the full 2D Hertzsprung--Russell diagram of 305,213 stars in a cylindrical volume of radius 100 pc and height 600 pc drawn from the Gaia Catalogue of Nearby Stars (GCNS). We correct for magnitude incompleteness via 1/V_ weighting and for kinematic depletion of older stars beyond the survey boundary using the local age--velocity dispersion relation. A forward-modelled synthetic population is fitted via Bayesian Markov chain Monte Carlo across all stellar evolutionary phases, with all 11 parameters recovered simultaneously. The high-mass IMF slope α = 2.23^ +0.21 _ -0.21 is consistent with Kroupa (2001), confirming IMF universality in the local thin disc, while the sub-solar slope β = 0.64^ +0.19 _ -0.22 is shallower than the canonical Kroupa value. The unresolved binary fraction rises steeply with primary mass, from 0.40 _ at 0.3,M_⊙ to 0.54 = 10.97^ at 1,M_⊙. The local star formation rate is broadly flat; our four coarse age bins do not resolve gigayear-scale episodes. Treating the disc age as a free parameter and applying a probabilistic kinematic thin-disc filter, we recover $τ_ ̊m thin +2.03 -2.09 $ Gyr from the white dwarf luminosity function faint end. This complete sample approach delivers sub-gigayear disc age precision from photometry alone.",
+   "authors": [
+    "S. Dawson",
+    "K.-P. Schröder"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660369",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "population synthesis"
+   ],
+   "summary_zh": "本研究利用盖亚近星星表中305,213颗恒星的赫罗图,通过贝叶斯马尔可夫链蒙特卡洛方法同时反演了本地薄盘的初始质量函数、银河系恒星形成历史和双星统计性质三个基本参数。结果表明高质量端的IMF幂律指数与Kroupa标准值一致(证实IMF的普遍性),而亚太阳质量端的IMF更浅,双星比例随主星质量单调上升,本地恒星形成率基本平坦。通过白矮星亮度函数的暗端,该研究还以仅1-2 Gyr的精度约束了薄盘年龄,展示了利用完整样本方法从光度数据提取高精度动力学信息的潜力。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659978",
+   "title": "Hide and seek with Gaia: Detectability of predicted thin-disc metal-rich RR Lyrae binaries in DR3 and DR4 Gaia",
+   "abstract": "RR Lyrae stars (RRLs) are classical tracers of old stellar populations, yet growing evidence suggests the presence of a metal-rich (mathrm Fe/H ≳-0.5), intermediate-age (2--7 Gyrs) sub-population in the Milky Way disc. Binary evolution, particularly stable mass transfer, has been proposed as a viable formation channel, which predicts that most metal-rich (mathrm Fe/H ≳-0.5), intermediate-age (t_ age łesssim9 Gyr) RRLs should reside in binaries with orbital periods of ∼900–2000 days. However, no genuine RRL binaries have been robustly identified, including in the Data Release 3 (DR3) astrometric binary catalogues, despite being sensitive to the predicted orbital-period range. We investigate whether the lack of detections in DR3 reflects an intrinsically low binary fraction or instead arises from observational biases. We analysed a carefully selected sample of 100 DR3 RRLs designed to trace the metal-rich population with thin-disc kinematics and compared them with predictions from binary evolution models. We generated realistic observation mocks, including variability-induced astrometric biases, and assessed the detectability of binaries and the posterior constraints on the hidden binary fraction using astrometric quality indicators, such as ůwe, and a robust Bayesian inference. While current uncertainties prevent a definitive rejection of a high fraction of hidden binaries, our results reveal tensions between existing binary evolution predictions and the DR3 non-detections. This suggests either the presence of unaccounted systematics in the modelling of observations or the need to revise assumptions in binary evolution models. We predict that DR4 will significantly improve the binary detectability and provide powerful new constraints on the post-interaction binary populations. Gaia Gaia Gaia Gaia Gaia Gaia Gaia Gaia",
+   "authors": [
+    "Giuliano Iorio",
+    "Pranav Nagarajan",
+    "Alexey Bobrick",
+    "Kareem El-Badry",
+    "Elena Pancino",
+    "Vasily Belokurov",
+    "HanYuan Zhāng",
+    "Valentina D'Orazi",
+    "Cecilia Mateu",
+    "Sara Rastello",
+    "Mark Gieles"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659978",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究调查了银河系薄盘中金属丰富的中等年龄RR Lyrae星是否大量存在于双星系统中,采用观测模拟和贝叶斯推断方法分析了Gaia DR3数据中100颗精选RRL样本的双星可探测性,对比了二元演化模型预言。研究发现,虽然当前数据精度无法明确排除高双星比例,但DR3的非探测结果与现有双星演化预言存在张力,提示可能需要修订观测建模中的系统误差或双星演化模型的假设,预期Gaia DR4将显著提高双星可探测性并对后相互作用双星种群施加有力约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557585",
+   "title": "The GAPS programme at TNG. LXXV. Validating and confirming Gaia sub-stellar astrometric candidates with HARPS-N",
+   "abstract": "The astrometric measurements provided by the Gaia space mission represent a key advancement in the search for and characterisation of exoplanets, helping in particular to solve the mass degeneracy intrinsic to the radial velocity (RV) method. The fact that a fraction of astrophysical false positives contaminates the current catalogue of astrometric candidate solutions requires an RV follow-up to validate and confirm such candidates. Within the Global Architecture of Planetary Systems (GAPS) programme, we observed a selected sample of 14 stars with Gaia astrometric solutions compatible with the presence of a sub-stellar companion. The immediate aim of this survey is to identify astrophysical false positives and provide the first RV validation and confirmation of the remaining candidates. We analysed data collected with the HARPS-N spectrograph to identify stellar binary systems from the spectral cross correlation function profiles. The remaining astrometric candidates were characterised via Markov chain Monte Carlo analysis searching for the best-fit RV solution. Among the stars in our sample with astrometric candidate solutions, we identify six as originating from close binary companions mimicking the astrometric motion of distant sub-stellar companions, from which we can estimate an updated value of 43_ -11 ^ +13 % for the binary contamination fraction in the Gaia DR3 catalogue of astrometric candidates. We validate and confirm the remaining eight solutions, corresponding to giant and brown dwarf companions with minimum masses between 8 and 62 M_ Jup and semi-major axes between 0.76 and 1.42 au, providing the first RV characterisation for six of these candidates and updated orbital solutions for two previously confirmed ones.",
+   "authors": [
+    "D. Barbato",
+    "M. Pinamonti",
+    "A. Sozzetti",
+    "S. Desidera",
+    "V. D'Orazi",
+    "J. Maldonado",
+    "K. Biazzo",
+    "L. Naponiello",
+    "A. F. Lanza",
+    "A. Bignamini",
+    "A. S. Bonomo",
+    "M. Brogi",
+    "L. Cabona",
+    "M. Damasso",
+    "R. Gratton",
+    "L. Mancini",
+    "G. Mantovan",
+    "D. Nardiello",
+    "M. Rainer",
+    "G. Guilluy",
+    "P. Giacobbe",
+    "L. Malavolta",
+    "R. Cosentino",
+    "W. Boschin",
+    "R. Claudi"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557585",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过HARPS-N分光仪对Gaia天体测量候选体进行径向速度跟踪观测,以区分真实的亚恒星伴星与双星系统产生的虚假正信号。研究发现Gaia DR3天体测量候选星表中约43%的污染来自近距双星,同时验证确认了8个真实的巨行星和褐矮星伴星(质量8-62木星质量,轨道半长轴0.76-1.42天文单位)。该成果为利用天体测量精确测量系外行星质量和轨道参数提供了重要验证,推进了行星系统的动力学刻画。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660961",
+   "title": "The GAPS programme at TNG. LXXVI. TOI-1533: A compact system hosting a super-Neptune-mass pair with disparate radii",
+   "abstract": "The present-day architecture of planetary systems contains information about their formation and migration histories. The origin of hot Jupiters (HJs; P łesssim 10 d, R_ ̊m p > 8 R_⊕) has long been a matter of debate. While most of them are found to be `lonely', there is a rare population of HJs hosting small inner-orbit companions (eight known as of May 2026). Their peculiar architecture suggests a gentle disc-migration mechanism. In this study, we present the discovery and characterisation of the multi-planet system TOI-1533, comprising an inner sub-Neptune (TOI-1533 b, P_ ̊m orb = 3.63 d, R_ ̊m p = 3.15 R_⊕) and an outer hot giant planet (TOI-1533 c, P_ ̊m orb = 8.06 d, R_ ̊m p > 7.5 R_⊕) with substantial H/He by mass (ρ_ ̊m p < 0.48 g cm -3 $), both transiting an active K-dwarf star (T_ ̊m eff ≈ 5130 K; V (mag) ≈ 11). Our joint modelling of stellar activity and planetary signals from radial velocities (HARPS-N) and transits (TESS) allowed us to detect the planetary Keplerian signals (approximately 10 σ) and isolate the stellar modulation. The inclusion of simultaneous photometry in the multi-dimensional Gaussian processes formalism was a fundamental addition to the spectroscopic activity indicators, enabling the disentanglement of stellar activity from planetary signals. The mass ratio of the two confirmed planets (M_ ̊m b / M_ ̊m c about 0.8), together with the super-Neptune mass of the large outer companion ($M_ ̊m c ≈ 40 M_⊕), makes this system unusual compared to the other known HJs with low-mass inner companions.",
+   "authors": [
+    "G. Mantovan",
+    "V. Nascimbeni",
+    "S. Desidera",
+    "L. Malavolta",
+    "J. J. Lissauer",
+    "P. Leonardi",
+    "T. Azevedo Silva",
+    "C. Guerra",
+    "D. Polychroni",
+    "L. Borsato",
+    "M. Baratella",
+    "K. Biazzo",
+    "D. Nardiello",
+    "K. A. Collins",
+    "M. Damasso",
+    "J. De Leon",
+    "M. E. Everett",
+    "D. Gandolfi",
+    "S. Giacalone",
+    "L. Naponiello",
+    "G. Piotto",
+    "G. Scandariato",
+    "K. Stassun",
+    "S. W. Yee",
+    "L. Affer",
+    "F. Amadori",
+    "A. Bignamini",
+    "S. Colombo",
+    "M. D'Arpa",
+    "C. D. Dressing",
+    "A. Fukui",
+    "A. Ghedina",
+    "J. Higuera",
+    "K. Ikuta",
+    "Kawauchi",
+    "J. Korth",
+    "V. Lorenzi",
+    "L. Mancini",
+    "M. Mori",
+    "F. Murgas",
+    "N. Narita",
+    "E. Palle",
+    "H. Parviainen",
+    "A. Ruggieri",
+    "A. Savel",
+    "R. P. Schwarz",
+    "A. Shporer",
+    "G. Srdoc",
+    "Stockdale",
+    "D. Watanabe",
+    "R. Zambelli",
+    "T. Zingales"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660961",
+   "source": "Astronomy & Astrophysics",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究通过HARPS-N径向速度和TESS凌星数据的联合分析,发现并表征了TOI-1533系统,该系统包含一颗内轨道亚海王星(周期3.63天)和一颗外轨道热巨行星(周期8.06天),后者具有显著的H/He包层。通过在高维高斯过程框架中融合同时测光数据和光谱活动指标,成功从活跃K型矮星的噪声中分离出行星信号,确定两颗行星质量比约0.8,外行星质量约40地球质量。这一紧凑系统的独特构型(低质量内伴星+超海王星级外行星)为温和盘迁移机制提供了新的观测证据,扩展了热木星形成和演化理论的认识。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659806",
+   "title": "Distance to Sh2-106 from Gaia DR3 and its embedded radio population: Implications for a candidate explosive outflow",
+   "abstract": "Sh2-106 has recently been proposed as a candidate explosive molecular outflow, but the physical interpretation of the region depends critically on its distance. Published estimates span a wide range, leading to large uncertainties in the inferred size, energetics, and evolutionary timescale of the system. Using Gaia data release 3 (DR3) astrometry, we identified a kinematically coherent stellar population associated with Sh2-106 and derived a cluster parallax of ϖ_ ̊m corr =0.607 relative to the cluster centroid. The Gaia-based cluster distance, therefore, significantly revises the physical scale and energetics of Sh2-106 and provides the observational framework required to test whether the region represents an older analog of the Orion BN/KL dynamical disintegration or a distinct explosive phenomenon. corresponding to a distance of 1.65 ,erg and placing Sh2-106 in the same order-of-magnitude energetic regime as the Orion BN/KL explosive event, although at a substantially older dynamical age (sim3500,yr). Archived 5.8,GHz Karl G. Jansky Very Large Array observations reveal ten compact radio sources in the central region, identifying embedded stellar objects that are suitable for future multi-epoch radio astrometry. No unambiguous high-velocity stellar ejecta are detected in DR3, although S106,IR shows a modest peculiar transverse velocity of sim5,km,s This value is significantly larger than the commonly adopted extinction-break estimate of 1.09,kpc. At this revised distance, the inferred kinetic energy of the expanding ionized nebula increases by a factor of sim6.5, reaching E_ ̊m exp 48 Gaia -1",
+   "authors": [
+    "Sergio A. Dzib"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659806",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用盖亚DR3数据精确测定了Sh2-106星形成区的距离为1.65 kpc，通过识别该区域运动学相干的恒星群体并导出集团视差。修正后的距离使该区域的物理尺度和能量输出增加约6.5倍，将其动能置于与猎户座BN/KL爆炸事件相同的量级，同时提示这是一个年龄更老（~3500岁）的类似现象。通过VLA 5.8 GHz观测发现10个致密射电源，为该区域内嵌入的恒星天体及其多时期射电天体测量研究提供了基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660419",
+   "title": "The role of accretion efficiency, natal kicks, and angular momentum transport in the formation of the black holes",
+   "abstract": "has the potential to deliver several tens of new dormant black holes (BHs) with low-mass stellar companions (hereafter, BHs) in the upcoming fourth data release. Three BHs are already known, but their formation pathways remain uncertain. Here, we perform a large parametric study to explore the formation of BHs from isolated binary systems with the population-synthesis code and compare our models with the properties of the three already reported BHs. Specifically, we explore the impact of accretion efficiency, mass transfer stability, natal kicks, angular momentum transport, and core-collapse supernova prescriptions. We find that models in which stable mass transfer is highly non-conservative and angular momentum is lost as a wind from the donor surface (Jeans mode) maximize the probability of forming dormant systems that match the properties of the observed BHs in terms of both orbital period and eccentricity, because such assumptions prevent the initial orbit from shrinking too much when the BH progenitor fills its Roche lobe. If we allow for common-envelope evolution, we find that models with common-envelope ejection efficiency α < 1 predict dormant systems with orbital periods that are too short compared to the observed BHs. The eccentricity of the observed BHs, when combined with information about orbital period and BH mass, favors relatively large natal kicks, similar to those inferred from Galactic neutron stars. Finally, models in which BH natal kicks are low -- e.g. because they are modulated by fallback -- result in the formation of a large population of dormant BHs with long orbital periods (P_ Gaia ̊m orb >10^4 days), which will be tested soon by the fourth data release.",
+   "authors": [
+    "Michela Mapelli",
+    "Cecilia Sgalletta",
+    "Johanna Müller-Horn",
+    "Giuliano Iorio",
+    "Stefano Rinaldi",
+    "Christian Burt",
+    "Daniel Marín Pina",
+    "Amedeo Romagnolo"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660419",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "population synthesis"
+   ],
+   "summary_zh": "本研究通过人口合成代码探索孤立双星系统形成低质量伴星黑洞的途径，系统参数化研究了吸积效率、质量转移稳定性、本初速度、角动量输运等因素的影响。研究发现，高度非守恒质量转移结合Jeans模式角动量损失的模型最能解释已观测到的三个黑洞的轨道周期和偏心率特征，而较大的本初速度（与银河系中子星相似）和低本初速度模型分别对应不同的黑洞种群特性，将通过即将发布的Gaia第四数据版本检验。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660600",
+   "title": "EWOCS-VI. Probing the hidden intermediate-mass population of Westerlund 1",
+   "abstract": "Westerlund 1 (Wd1), the most massive young star cluster in the Milky Way, is an excellent laboratory for studying star formation and early stellar evolution in a starburst-like environment. However, high extinction restricts studies of its stellar content, and a focus on high-mass stars limits our knowledge of the full spatial extent of the cluster. We characterize the near-infrared (NIR) variability of the stellar population of Wd1, filling the mass gap between massive stars traced by and very low-mass stars from previous Extended Westerlund 1 and 2 Open Clusters Survey (EWOCS) studies, to provide a more complete view of cluster membership across solar and super-solar masses. Gaia We exploited data from the VISTA Variables of the Vía Láctea survey and its extension (VVVX), using NIR point-spread-function photometry and astrometric solutions from its latest data release, namely the VIRAC2 catalogs, mainly in the K_ clustering algorithm in a 6D parameter space to differentiate cluster members from field contaminants, assessing robustness through Monte Carlo simulations. Variable sources along the line of sight were also identified and characterized. s band. Their large spatial coverage enables the study of both the central regions and outskirts of the cluster. We applied the HDBSCAN We identify 1286 high-probability candidate members (12 łeq J łeq 18, ) spanning ∼ 1.5--20,M_⊙, adopting both PARSEC 5 and 6, =0.6, , d=4.23, band, providing a membership catalog suitable for future kinematic studies. mag isochrones (A_ K_ s mag A considerable fraction (∼ 34%) show statistically significant flux variations. We present, for the first time, a parametric analysis of variability modes of Wd1 candidate members in the K_ s",
+   "authors": [
+    "C. Ordenes-Huanca",
+    "A. Bayo",
+    "M. Guarcello",
+    "M. Zoccali",
+    "A. Rojas-Arriagada",
+    "V. Almendros-Abad",
+    "M. Andersen",
+    "R. Bonito",
+    "V. Guzmán",
+    "E. Moraux",
+    "K. Muzic",
+    "L. Prisinzano",
+    "S. Sciortino",
+    "N. J. Wright"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660600",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过VISTA近红外测光和Gaia天体测量数据，采用HDBSCAN聚类算法在6维参数空间中识别了韦斯特伦德1星团中1286个中等质量恒星候选成员（1.5-20 M☉），填补了之前高质量和超低质量恒星研究之间的质量空隙。研究利用NIR变星特性首次系统刻画了该星团中等质量恒星的变率特征，约34%的候选成员显示显著的光学变化，为后续运动学研究提供了完整的成员星表。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202558781",
+   "title": "Far-ultraviolet flux distribution in Orion and its relation to stellar accretion",
+   "abstract": "Context. Orion is the closest region hosting active star formation and young OBA stars. Accurately determining the far-ultraviolet (FUV) flux at its stellar population is essential to connect stellar and protoplanetary disc properties to the environment. Aims. We (1) accurately estimated the FUV flux and its distribution at a numerous stellar population of Orion by statistically accounting for the uncertainty in parallax measurements, and (2) investigated the relation between stellar accretion and external FUV radiation field by comparing observations and disc evolution models. Methods. We selected a large stellar population in Orion (within a 6^̧irc radius of the Orion Nebula Cluster core), assigned sub-cluster memberships, and used the two-dimensional sub-cluster geometry to infer three-dimensional separations from OBA stars and compute the FUV flux (and its uncertainty) at each stellar position. We studied the accretion luminosities (L_ acc ) inferred from H_α emission in XP spectra of Orion sources and determined their detection fraction as a function of age and FUV flux. We compared the results with population synthesis models of viscous discs experiencing external photoevaporation. Gaia Results. We provided a publicly available table of FUV fluxes at ∼ 8600 stars in Orion. Most of this stellar population is weakly FUV irradiated, $<10^ 2 G _ $, sim35% is intermediately irradiated, 10^ 2 -10^ 4 G _ , and only ∼ 5% has FUV fluxes $> 10^ 4 G _ $. Gaia -based L_ acc decreases with age, and H_α detection fraction declines more rapidly in regions with strong FUV fluxes (≳ 10^ 2 G _ ) than in regions exposed to weaker FUV fluxes (łesssim10^ 2 G _ ), broadly consistent with the model. This result may suggest that external photoevaporation efficiently depletes strongly FUV irradiated accretion discs, but it is not sufficient to reliably confirm this conclusion. Conclusions. The tools we provided for accurately computing FUV fluxes at the Orion stellar population will be essential for targeting sources in future observations aimed at assessing the role of external photoevaporation on protoplanetary disc. Our study highlights the need for additional measurements of stellar and disc properties across the Orion population, covering the FUV flux range 1-10^ 5 G _ .",
+   "authors": [
+    "Rossella Anania",
+    "Andrew J. Winter",
+    "Miguel Vioque",
+    "Giovanni P. Rosotti",
+    "Giacomo Beccari",
+    "Giuseppe Lodato",
+    "Lorenzo A. Malanga",
+    "Lara Piscarreta",
+    "Alice Somigliana",
+    "Leonardo Testi",
+    "Claudia Toci"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202558781",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc",
+    "disc evolution",
+    "population synthesis"
+   ],
+   "summary_zh": "本研究利用Gaia视差数据准确计算了猎户座约8600颗恒星所受的远紫外（FUV）辐射通量分布，并通过比较H_α观测与粘性盘外部光蒸发模型，探究了恒星吸积与外部FUV辐射场的关系。结果表明H_α探测率在强FUV辐射区域（≳10²G₀）随年龄下降更快，支持外部光蒸发有效耗散强辐射盘的理论，为未来系统评估光蒸发对原行星盘演化的影响提供了重要工具和观测指向。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660462",
+   "title": "Center-to-limb variations of solar active regions. Observations of spots, faculae, and network in the 6173 Å continuum",
+   "abstract": "Accurate modeling of stellar active regions (ARs) remains a major bottleneck for radial-velocity and transmission-spectroscopy studies aimed at finding Earth-like planets. While much effort has been devoted to AR modeling, their center-to-limb variations (CLVs) have been largely overlooked. We took a step toward remedying this by measuring the CLV of the 6173 Å continuum intensity for sunspots (the whole spot, separate umbrae, and penumbrae), faculae, network, and the quiet Sun using the Helioseismic and Magnetic Imager (HMI) on board the Solar Dynamics Observatory (SDO). This study is based on four simple round α-sunspots and their surroundings, as well as one strongly evolving region. After correcting for stray light, we find that relative to the quiet Sun, all components except for the umbra display reduced darkening toward the limb. Additionally, strongly evolving ARs do not appear to display significantly altered CLV profiles compared to stable ARs. Faculae and network show contrast enhancements that peak near μ ≈ 0.3 before declining toward the limb, reaching maxima of approximately 4% and 2%, respectively, in contrast excess relative to the quiet Sun, while the spot-to-quiet-Sun contrast rises to approximately 15% near the limb. For both types of AR, this change in CLV behavior near the limb is likely related to the 3D structure of the ARs and the rapidly changing viewing geometry. This behavior is not captured by synthetic CLVs based on PHOENIX and ATLAS model atmospheres with solar values and a different effective temperature, underscoring the need for more realistic treatments of stellar activity.",
+   "authors": [
+    "A.G.M. Pietrow",
+    "S. Sumra",
+    "D.J.M. Petit dit de la Roche",
+    "E. J. Lößnitz",
+    "C. Denker",
+    "M. Aßmus"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660462",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过SDO/HMI观测测量了6173 Å连续谱中太阳黑子、亮斑、网络等活动区成分的中心到边缘变化(CLV),发现除本影外所有成分相对于宁静太阳都显示向边缘减弱的暗化,亮斑和网络的对比度增强在μ≈0.3处达到峰值。这些CLV行为的改变主要源于活动区的三维结构和观测几何变化,而现有PHOENIX和ATLAS大气模型合成的CLV无法准确再现这一特征,表明恒星活动模型需要更真实的处理方式。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1324",
+   "title": "Characterising the Kinematics and Evolution of Young Stellar Groups within 1 kpc of the Sun Using Gaia DR3",
+   "abstract": "Abstract Star-forming regions are key to understanding the formation and early evolution of stars. Young stellar objects (YSOs) form groups with distinct kinematic and spatial properties, inherited from the turbulent dynamics of their parent molecular clouds. The high-precision astrometry and photometry from Gaia Data Release 3 (DR3) enable detailed studies of these groups’ three-dimensional motions and their evolutionary stability. This study aims to investigate the kinematic properties and evolutionary consistency of YSO associations in the solar neighbourhood. Here, we show that HDBSCAN clustering of Gaia DR3 data yields 145 YSO groups comprising 5713 stars within 1 kpc, with a derived Larson’s relation of σv = (1.10 ± 0.13) × r0.38 ± 0.03, consistent across age bins up to 20 Myr. This slope aligns with the canonical value of 0.38 and typical ranges of 0.4–0.5. The stable Larson’s relation across ages indicates that the inherited turbulent structure from parent clouds persists without significant disruption. These findings establish a benchmark for studying the kinematic legacy of star-forming regions.",
+   "authors": [
+    "Long-Fei Ding",
+    "Yun-Qian Li",
+    "Bing-Qiu Chen",
+    "Guang-Xing Li",
+    "Hai-Bo Yuan"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1324",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用Gaia DR3数据，通过HDBSCAN聚类算法识别太阳周围1 kpc内145个年轻星群，包含5713颗恒星，并建立了这些星群的运动学速度与空间尺度关系。研究发现Larson关系σv = (1.10 ± 0.13) × r^(0.38 ± 0.03)在至少20 Myr的时间内保持稳定，表明年轻星群从母分子云继承的湍流结构在演化过程中基本保留。这一结果为理解星形成区的运动学遗产及其长期动力学演化提供了基准。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1277",
+   "title": "CHEOPS observations of V1298 Tau: updated planetary densities and implications on the early evolution of the young system",
+   "abstract": "Abstract The young (10-30 Myr) multi-planet system V1298 Tau presents a unique opportunity to probe the early formation and evolution of young systems. We present new CHEOPS observations of the three innermost planets, yielding high-precision planetary radii (~5-11 R⊕) and improving the radius ratios ($\\rm R_{\\mathrm{p}}/R_{\\mathrm{s}}$) by 30-71 % compared to previous multiple TESS observations. Combined with refined period and mass determinations from transit-timing variation (TTV) measurements, we derive revised bulk densities (0.06-0.23 $\\rm g/cm^3$) for these planets. We find that the innermost planet c is denser compared to the outermost planet at the 3.4-σ level, while the bulk densities of the three outermost planets are consistent within the reported uncertainties. These bulk densities suggest differing envelope mass fraction across the system, indicating differential atmospheric evolution in the young system. We further assess the early dynamical state of the V1298 Tau system and find that within the range of simulations performed we find no evidence for present-day mean-motion resonance trapping. As an independent diagnostic, we compute the forced eccentricities and low Normalized Angular Momentum Deficit (NAMD) exhibited by the system. Our simulations suggest that no past dynamical excitation is required to explain the present orbital architecture.",
+   "authors": [
+    "Hinna Shivkumar",
+    "Sérgio Gomes",
+    "Jean-Michel Désert",
+    "John Livingston",
+    "John Lopez",
+    "Vatsal Panwar",
+    "James Sikora",
+    "Saugata Barat",
+    "Pierre F L Maxted",
+    "Thomas G Wilson",
+    "Antonija Oklopčić",
+    "Silvia Toonen"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1277",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "transit timing"
+   ],
+   "summary_zh": "本研究利用CHEOPS卫星对年轻多行星系统V1298 Tau进行高精度观测,结合TTV测量获得三颗内行星的改进密度值(0.06-0.23 g/cm³),发现系统内行星密度存在梯度变化,暗示不同的大气演化历史。通过动力学模拟表明该系统目前不处于平均运动共振,且低NAMD值和被迫离心率表明系统不需要经历过去的动力学激发即可解释其当前的轨道结构,为理解年轻系统的早期演化提供了关键约束。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1313",
+   "title": "VV Corvi: a benchmark eclipsing binary in a hierarchical multiple system",
+   "abstract": "Abstract Eclipsing binaries in hierarchical multiple systems provide fundamental laboratories for testing stellar evolution models, tidal interactions, and the dynamical evolution of multiple stellar systems. We present a new analysis of the detached eclipsing binary VV Crv, a member of the hierarchical multiple system STF 1669, based on TESS photometry, published radial velocities, eclipse timings, and archival astrometry. We derive a revised apsidal-motion solution from eclipse-timing variations, with a period of 241 ± 23 yr, and obtain accurate absolute parameters of M1 = 1.970 ± 0.009 M⊙, M2 = 1.497 ± 0.007 M⊙, R1 = 3.329 ± 0.018 R⊙, R2 = 1.646 ± 0.022 R⊙, T1 = 6500 ± 300 K, T2 = 6638 ± 300 K, L1 = 17.8 ± 3.3 L⊙, and L2 = 4.7 ± 0.9 L⊙. Comparison with MIST evolutionary models indicates a slightly supersolar metallicity of [Fe/H] = +0.25 ± 0.05 and an age of 1.09 ± 0.05 Gyr. The observed internal-structure constant is in good agreement with theoretical predictions. The astrometric properties of STF 1669AB are consistent with VV Crv being part of a hierarchical multiple system that also includes the astrometric component HD 110318 and the distant visual companion BD−12 3675, with an outer orbital period of several thousand years. The persistence of a significant orbital eccentricity despite the evolved age of this close binary system suggests that long-term dynamical perturbations within the wider hierarchical configuration may have played an important role in its evolution.",
+   "authors": [
+    "Halil Çetinkaya",
+    "Ahmet Erdem"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1313",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过TESS光度测量、径向速度、食变计时和天体测量数据对分层多星系统STF 1669中的食双星VV Crv进行了详细分析，得到了精确的恒星质量、半径和有效温度等参数，并从食变计时变化推导出近星点进动周期为241±23年。通过与MIST演化模型对比，确定该系统的金属丰度为[Fe/H]=+0.25±0.05，年龄为1.09±0.05 Gyr，且观测到的内部结构常数与理论预测相符。天体测量结果表明VV Crv是包含HD 110318和BD−12 3675的四星系统成员，其在相对高年龄下仍保持明显偏心率的特征表明外层分层轨道的长期动力学扰动对该近密双星的演化产生了重要影响。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1322",
+   "title": "Plasma chemistry and electron-moderated pathways in substellar atmospheres: a new perspective on the L/T transition",
+   "abstract": "Abstract The long-standing puzzle of the CO/CH4 transition in brown dwarfs endures. Although the bulk spectral evolution across an atmosphere can be accounted for through thermal equilibrium cloud models, the behaviour in the NIR remains unaccounted for, indicating that additional, non-thermal processes may influence atmospheric chemistry alongside conventional pathways. We explore cloud-driven electrical activation, where low-energy sparks to full lightning discharges, unlocks non-equilibrium reaction pathways inaccessible under thermal conditions alone. To quantify this, the aim of this paper is to model the electron-moderated atmospheric chemistry with SPARCKS, a bespoke zero-dimensional code that solves the coupled set of particle balance equations for substellar plasma activation and reaction kinetics, focusing on the key CO–CH4 electron-moderated chemistry across the parameter ranges Tgas ∈ [700, 1600] K and Te ∈ [2, 5] eV. We simulate a 1 microsecond pulse, representing a short dart-stepped leader; and, two pulsed systems with (ton, toff) = (10−8 s, 10−6 s) and (10−9 s, 10−9 s), representing small-scale inter-grain discharges, consistent with a typical characteristic substellar atmosphere. Our results show that even modest, physically plausible energies can strongly perturb atmospheric composition: an electron energy of 3.0 eV is sufficient to halve the CH4/CO ratio in our sample atmosphere within one microsecond. Beyond the CO–CH4 system, electron-moderated plasma chemistry exerts a far-reaching influence on substellar atmospheric composition.",
+   "authors": [
+    "Matthew I Swayne",
+    "Declan A Diver",
+    "Craig R Stark"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1322",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过开发SPARCKS零维模型，模拟了褐矮星大气中由闪电放电驱动的电子调控等离子体化学反应，探讨了非热平衡过程对CO/CH4转变的影响。结果表明，即使是物理上合理的低能放电（3.0 eV）也能在微秒级时间内显著改变大气组成，使CH4/CO比值降低50%，这为L/T转变时的近红外光谱异常提供了新的解释机制。该研究揭示了电子调控化学过程对褐矮星大气成分的广泛影响，超越传统热平衡云模型的预测范畴。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1305",
+   "title": "Planetary systems in the light of asteroseismology: metallicity threshold for the planetary systems and age-metallicity relation",
+   "abstract": "Abstract We compiled data for 127 hosts (plus six candidates) and used them as constraints to construct interior models of the hosts using the MESA code. Two significant conclusions emerge from these models. First, except for a few stars, the hosts’ metallicity (Z0) is greater than 0.007. This suggests a possible suppression of the occurrence of planets below Z0 ≈ 0.007. Second, it concerns how chemical evolution unfolds in the galactic disk. For a given Z0 value, considering the oldest stars, there is a linear relationship between Z0 and age (t9). This line is around t9=13.4 Gyr at Z0=0, a value consistent with the age of the Galaxy. The linear relationship continues until around t9=6 Gyr, and the maximum value of Z0 remains constant between t9=2-6 Gyr. We further modeled 12 hosts classified as red clump (RC) stars in the literature, explicitly accounting for mass loss along the red giant branch. These models highlight the critical role of mass-loss assumptions in determining the initial masses and ages of RC hosts, and their implications for the survival and evolution of close-in planets. Another key outcome of this study is the discovery of the relationship between Z0 and the observed metallicity (Zs) for the hosts. We obtain a useful expression for Z0, the input parameter for the models, as a function of stellar mass, radius, and Zs. This expression can be used to estimate Z0 based on the reduced surface metallicity due to microscopic diffusion. We also derive an expression for planetary mass relative to the orbital semi-major axis and host mass. This expression may indicate a mass distribution near the inner disk where these planets formed, except for hot-Jupiters. Planet radii appear to depend on the planet’s mass and irradiation energy, as well as the orbital period.",
+   "authors": [
+    "M Yıldız",
+    "A Demirkol",
+    "S Örtel",
+    "T Çakır Alsaç",
+    "T Daylan"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1305",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究编译了127颗行星宿主星的数据，利用MESA代码构建内部模型，发现行星宿主星的金属丰度存在约0.007的下限阈值，暗示低于该值的恒星可能难以形成行星系统。通过年龄-金属丰度关系分析，揭示了银河系盘面的化学演化规律，并建立了初始金属丰度与恒星表面观测金属丰度的转换关系。此外，该研究还发现了行星质量与轨道半长轴、宿主星质量之间的相关性，以及行星半径与其质量、辐照能和轨道周期的依赖关系，为理解行星形成和演化提供了新的约束条件。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1292",
+   "title": "Probing viscosity of the intracluster medium using ram-pressure stripping",
+   "abstract": "Abstract Galaxies falling into galaxy clusters can leave imprints on both the corona of galaxies and the intracluster medium (ICM) of galaxy clusters. Throughout this infall process, the galaxy’s atmosphere is subjected to ram pressure from a headwind, leading to the stripping morphology observed in its tail. The morphological evolution is affected by the properties of the surrounding ICM such as magnetic fields and viscosity. In this paper, we perform 3D Braginskii-magnetohydrodynamic simulations using the FLASH code with varied ICM viscosity models. Specifically, we explore four models: an inviscid case, unsuppressed isotropic viscosity, unsuppressed anisotropic viscosity, and anisotropic viscosity suppressed by plasma instabilities. Our findings indicate that the isotropic viscosity case effectively suppresses hydrodynamic instabilities and shows strong viscous heating and the least mixing with the ICM, enabling the formation of long, coherent tails. The inviscid model has the shortest tail due to vigorous mixing, and the models with anisotropic viscosity are in between. The model with suppressed anisotropic viscosity due to plasma instabilities exhibits enhanced turbulence in the galactic tail and a concurrent limitation in viscous heating compared to the model neglecting plasma instabilities. These findings highlight the significant impact of ICM plasma physics on the processes of ram pressure stripping of galaxies.",
+   "authors": [
+    "Yung-Hsuan Tseng",
+    "Hsiang-Yi Karen Yang",
+    "Ryan Farber",
+    "Mateusz Ruszkowski"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1292",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过三维Braginskii磁流体动力学模拟，探究了星系团内部介质(ICM)的粘度性质对星系受压剥离过程的影响，比较了无粘性、各向同性粘性、各向异性粘性及考虑等离子体不稳定性抑制的模型。研究发现各向同性粘度能有效抑制流体动力学不稳定性并形成长尾结构，而各向异性粘度模型中等离子体不稳定性会增强尾部湍流并限制粘性加热。这些结果表明ICM等离子体物理特性对星系受压剥离过程具有重要影响。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1294",
+   "title": "RedDots: Magnetic field of the nearby active M dwarf GJ 729, and a search for companions",
+   "abstract": "Abstract M dwarfs are prime targets for discovering exoplanets, and the nearest M dwarfs to the Sun provide among the best opportunities for follow-up detailed exoplanet characterization. GJ 729, the seventh closest M dwarf to the Sun, presents significant challenges for exoplanet detection due to its high levels of magnetic activity. To address this, we present a detailed analysis of GJ 729’s magnetic field and its variability, followed by a search for exoplanets beneath the activity-induced noise in the stellar radial velocity. The geometry of GJ 729’s large-scale magnetic field was reconstructed using new and archival spectropolarimetric data for a total of four epochs spanning 10 years. Results indicate a weak large-scale field ranging from 50 to 145 G, and an evolving non-axisymmetric field geometry that varies from poloidal dominated to a near-equal poloidal-toroidal configuration. We modeled activity-induced radial velocity variations using Gaussian Process Regression and activity diagnostics, and searched for planetary companions using ∼90 d of high-cadence spectra taken contemporaneously with the high-precision CARMENES and HARPS spectrographs. Activity-only and activity + Keplerian models offered statistically equivalent fits, with a consistently preferred Keplerian period of ∼7 d and amplitude of $\\sim 1.9\\rm {\\, m\\, s}^{-1}$ across a range of activity modeling approaches. This could relate to an Earth-mass or Super-Earth planet, or residual stellar activity with power concentrated at a multiple of the rotation half-period. Our findings provide insight into the magnetic behaviour of fully convective M dwarfs, and highlight the potential and challenges of detecting Keplerian RV signatures that are only a fraction of activity amplitudes.",
+   "authors": [
+    "E L Brown",
+    "S V Jeffers",
+    "S C Marsden",
+    "F Liebing",
+    "S Bellotti",
+    "J R Barnes",
+    "C A Haswell",
+    "V Koseleva"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1294",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过四个历元的光谱偏振观测重构了近邻活动M矮星GJ 729的磁场结构,发现其大尺度磁场较弱(50-145 G)且几何结构随时间演变。利用高斯过程回归对恒星活动诱导的径向速度进行建模,并采用CARMENES和HARPS高精度光谱搜索行星伴星,发现一个周期~7天、半径速度振幅~1.9 m/s的开普勒信号,可能对应地球质量或超地球行星,或周期为自转半周期整数倍的残余活动。研究揭示了全对流M矮星的磁场行为特征,并强调了在磁活动掩盖下检测行星径向速度信号的机遇与挑战。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1309",
+   "title": "A search for circumstellar gas in pre-main-sequence debris discs using absorption spectroscopy",
+   "abstract": "Abstract Gas in debris discs is thought to be either inherited from the protoplanetary stage or released from the solid, rocky content of planetesimal belts. Its presence can impact planetary atmospheres and their potential for habitability, which stresses the need to ascertain its origin and composition. Most detections to date are around main-sequence stars, with only a few gas-bearing debris discs identified around pre-main-sequence stars, mainly through millimetre CO line searches. We investigate narrow gas absorption features superimposed on the photospheric Ca ii K & H and Na i D1 & D2 lines in a sample of 125 pre-main sequence and 5 relatively young (&lt; 17 Myr) stars. All stars are associated with IR excess emission indicative of presence of a debris disc. By comparing their residual spectra (photosphere-subtracted) to those of nearby stars, interstellar cloud velocities, and stellar radial velocities, we test whether interstellar absorption is the culprit and ascertain circumstellar gas origin. Using these methods, out of the 130 targets, we identified two new gas-bearing debris discs: TYC 7879-1373-1, which exhibits stable absorption, and HIP 30414, which shows variable gas absorption features linked likely to ongoing accretion. Both these systems are pre-main-sequence stars younger than 5 Myr. TYC 6822-283-1 has absorption features of inconclusive origin. This study increases the number of currently known very young (&lt; 10 Myr) debris discs with circumstellar gas to eight, paving the path to future systematic studies of objects caught in transition from protoplanetary to debris disc stages.",
+   "authors": [
+    "Karolina M Szewczyk",
+    "D P Iglesias",
+    "O Panić"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1309",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过Ca ii K & H和Na i D1 & D2谱线的吸收光谱学方法,对130颗具有红外超额辐射的前主序星和年轻主序星样本进行了系统搜索,以识别碎片盘中的气体成分并确定其起源。研究新发现了两个气体承载的碎片盘系统(TYC 7879-1373-1和HIP 30414),两者均为年龄小于5 Myr的前主序星,其中HIP 30414显示出与持续吸积相关的变化性气体特征。这项工作将已知的极年轻(<10 Myr)、具有环星气体的碎片盘总数增加到8个,为研究原行星盘向碎片盘演化阶段的动力学过程提供了关键样本。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117207",
+   "title": "Orbit determination of the Emirates Mission to the Asteroid Belt flyby target asteroids using Minor Planet Center (MPC) and Gaia focused product release astrometry",
+   "abstract": "",
+   "authors": [
+    "Harold Ulotu",
+    "Runsong Lu",
+    "Wutong Gao",
+    "Wanling Yang",
+    "Jianguo Yan",
+    "Hakim Saibi",
+    "Jean-Pierre Barriot"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117207",
+   "source": "Icarus",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用小行星中心(MPC)和盖亚焦点产品发布的天体测量数据,对阿联酋小行星带探测任务的飞掠目标小行星进行了精确的轨道测定。通过整合多源高精度位置观测数据和改进的轨道拟合方法,获得了目标小行星的精确轨道参数和长期轨道演化预报。研究结果表明,结合盖亚高精度天体测量数据可显著提高飞掠小行星的轨道确定精度,为近地天体碰撞风险评估和深空探测任务规划提供了重要的动力学基础。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117214",
+   "title": "Optimal locations and times for in situ methane measurements in Gale crater based on atmospheric transport",
+   "abstract": "",
+   "authors": [
+    "Guixin Xing",
+    "Yangcheng Luo",
+    "Michael A. Mischna",
+    "Yuk L. Yung"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117214",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过三维大气传输模型模拟了盖尔撞击坑内甲烷的时空分布特征,确定了在火星甲烷源强度、输送过程和测量能力约束下,原位甲烷观测的最优地点与时间窗口。研究结果表明,撞击坑中心的局地大气环流与地形诱导的风场显著影响甲烷浓度梯度分布,为火星甲烷探测任务的科学规划提供了定量指导。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117196",
+   "title": "Oxidation constraints on terrestrial planet formation from a ring",
+   "abstract": "",
+   "authors": [
+    "Katherine I. Dale",
+    "Alessandro Morbidelli",
+    "Gabriel Nathan",
+    "Jason Woo",
+    "David Nesvorný",
+    "David C. Rubie"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117196",
+   "source": "Icarus",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "# 行星形成过程中原始盘的氧化还原状态通过影响金属-硅酸盐分馏行为,对类地行星的核幔分异和成分演化起关键控制作用。本研究通过模拟原始吸积盘中的化学反应动力学,定量评估了不同氧化环境对行星铁核形成和挥发元素分配的制约,揭示了盘的局部氧化条件如何决定了类地行星最终的内部结构和成分特征。这些发现表明,类地行星的大规模物质差异主要源于它们在盘中所处不同氧化环境的影响。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117194",
+   "title": "The role of source geometry and atmospheric propagation in global bolide infrasound detectability",
+   "abstract": "",
+   "authors": [
+    "M. Ronac Giannone",
+    "E.A. Silber"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117194",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过建立详细的源几何模型和大气传播模型,系统研究了火流星爆炸产生的次声在全球范围内的可探测性。采用结合声射线追踪和大气动力学模型的数值模拟方法,评估了源参数(如爆炸高度、能量、方向)和大气条件对次声信号全球传播和地面检测的影响。研究表明源几何特征和平流层风场结构是决定次声全球可探测范围的关键因素,为火流星能量估计和行星防护监测提供了重要的物理约束。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117170",
+   "title": "Revisiting the CO2 stability problem of the Martian atmosphere with a three-dimensional climate-photochemistry model",
+   "abstract": "",
+   "authors": [
+    "Yangcheng Luo",
+    "François Forget",
+    "Franck Lefèvre"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117170",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究采用三维气候-光化学耦合模型重新评估了火星大气中CO2的稳定性问题,系统分析了CO2冰冻淀积、光化学损耗与大气动力学之间的相互作用。主要结论表明,三维大气循环和极区动力学过程对CO2的长期稳定性有重要影响,该研究为理解火星古气候演变和大气保留机制提供了新的约束条件。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117162",
+   "title": "Astrometric observations of six Jovian irregular satellites based on Gaia DR3 in 2019–2025",
+   "abstract": "",
+   "authors": [
+    "D. Yan",
+    "R.C. Qiao",
+    "H.Y. Zhang",
+    "Y. Yu",
+    "X.J. Xi"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117162",
+   "source": "Icarus",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用盖亚DR3数据对六颗木星不规则卫星在2019-2025年期间的位置进行了精密测量,并通过与轨道预报的比较分析了这些卫星的动力学特性。研究发现这些不规则卫星的观测位置与现有理论轨道模型存在显著偏差,这些偏差可能源于卫星之间的引力扰动、木星系统的摄动效应或初始轨道参数的不确定性。研究结果为改进木星不规则卫星的长期轨道预报和理解其动力学演化提供了重要的观测约束。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117168",
+   "title": "Infrared transmission spectra of Ryugu samples and their adsorption properties",
+   "abstract": "",
+   "authors": [
+    "Yoko Kebukawa",
+    "Hikaru Yabuta",
+    "Hisayoshi Yurimoto",
+    "Tomoki Nakamura",
+    "Takaaki Noguchi",
+    "Ryuji Okazaki",
+    "Hiroshi Naraoka",
+    "Kanako Sakamoto",
+    "Shogo Tachibana",
+    "Toru Yada",
+    "Masahiro Nishimura",
+    "Aiko Nakato",
+    "Akiko Miyazaki",
+    "Kasumi Yogata",
+    "Masanao Abe",
+    "Tatsuaki Okada",
+    "Tomohiro Usui",
+    "Makoto Yoshikawa",
+    "Takanao Saiki",
+    "Satoshi Tanaka",
+    "Fuyuto Terui",
+    "Satoru Nakazawa",
+    "Sei-ichiro Watanabe",
+    "Yuichi Tsuda"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117168",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过红外透射光谱分析了龙宫小行星样品的物质成分和表面吸附性质,利用光谱学方法表征了样品中矿物相的特征吸收带及其物理化学性质。主要发现龙宫样品具有强烈的含水矿物特征和明显的吸附能力,这些特性对理解小行星表面风化过程和行星形成早期的水热变质作用具有重要意义,为后续的行星动力学模型提供了关键的物质学基础数据。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117152",
+   "title": "The reactions of N(2D) with monocyclic and polycyclic aromatic hydrocarbons and their role in the atmospheric chemistry of Titan",
+   "abstract": "",
+   "authors": [
+    "Luca Mancini",
+    "Nadia Balucani",
+    "Marzio Rosi"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117152",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过实验和理论计算方法研究了激发态氮原子N(²D)与单环和多环芳香烃的反应动力学及机制,揭示了这些反应在泰坦大气化学中的重要作用。研究发现N(2D)与芳香烃的反应具有较高的反应速率常数,可以有效地将含氮物种引入复杂的有机化学网络。这些反应对泰坦高层大气中有机物的形成和演化过程具有重要影响,为理解泰坦大气中化学复杂性的形成机制提供了关键数据支撑。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117110",
+   "title": "Depletion of moderately volatile elements by pebble accretion in Earth-like planets",
+   "abstract": "",
+   "authors": [
+    "Peter L. Olson",
+    "Zachary D. Sharp",
+    "Susmita Garai"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117110",
+   "source": "Icarus",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "pebble accretion"
+   ],
+   "summary_zh": "本研究通过数值模拟小行星盘演化过程,探究了行星形成早期小颗粒(卵石)吸积对类地行星挥发性元素丰度的影响。结果表明,在卵石吸积阶段,由于小颗粒优先从行星形成区域向内迁移,导致中等挥发性元素(如硫、氯等)相对于难挥发性元素被显著耗尽。这一机制可以解释地球和火星等岩质行星中观测到的中等挥发性元素亏损现象,为理解行星化学组成提供了新的物理约束。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117138",
+   "title": "Baroclinic pressure oscillations in the Martian atmosphere from surface observations",
+   "abstract": "",
+   "authors": [
+    "Joonas Leino",
+    "Ari-Matti Harri",
+    "Robert John Wilson",
+    "Tanguy Bertrand",
+    "Don Banfield",
+    "Terhi Mäkinen",
+    "Mark Paton",
+    "Hannu Savijärvi",
+    "German Martínez",
+    "José Antonio Rodríguez-Manfredi"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117138",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用火星表面气象站观测数据,检测并分析了火星大气中的斜压压力振荡现象,揭示了这些振荡与大气动力学过程的关联机制。通过时间序列分析和动力学诊断,我们识别了主导的振荡周期和空间结构,并阐明了斜压不稳定性在火星大气中的作用。这些发现深化了对火星大气环流、天气系统和气候变率的理解,为行星大气动力学研究提供了重要观测证据。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117101",
+   "title": "A systematic survey of von Zeipel–Lidov–Kozai resonances among trans-Neptunian objects: Empirical confirmation of the coupling with mean motion resonances",
+   "abstract": "",
+   "authors": [
+    "Evgeny Smirnov",
+    "Ivana Milić Žitnik"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117101",
+   "source": "Icarus",
+   "category": "散射与动力学演化",
+   "matched": [
+    "von Zeipel-Lidov-Kozai",
+    "Kozai"
+   ],
+   "summary_zh": "本研究通过系统扫描跨海王星天体,揭示了von Zeipel–Lidov–Kozai(VLK)共振与平均运动共振(MMR)之间的耦合机制,采用长期数值积分和轨道稳定性分析的方法,经验验证了这两类共振的相互作用如何塑造跨海王星天体的轨道架构。研究结果表明,VLK-MMR耦合显著影响了高倾角天体的长期动力学演化,为理解太阳系外围天体的轨道分布提供了重要约束。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117083",
+   "title": "Models of the structure and atmospheric flight of double-peaked meteors",
+   "abstract": "",
+   "authors": [
+    "Mária Paprskárová",
+    "Juraj Tóth",
+    "Leonard Kornoš",
+    "Tomáš Paulech",
+    "Pavol Zigo"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117083",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过建立双峰流星的物理模型，采用数值模拟方法研究了其大气飞行特征。研究发现双峰流星的亮度分布与其复杂的碎裂过程和空气动力学性质密切相关，两个峰值分别对应流星体的初始分裂和后续碎片的相互作用。该工作为理解小行星和彗星碎片在地球大气中的消融过程提供了新的动力学见解。"
+  },
+  {
+   "id": "doi:10.1038/s41550-026-02913-7",
+   "title": "Non-gravitational acceleration indicative of cometary activity of near-Earth object",
+   "abstract": "Abstract The activity of comets when they approach the Sun usually manifests visibly with the appearance of a dust and gas coma, and in turn non-gravitational accelerations perturbing their motion. However, there exist objects that are morphologically inactive and yet exhibit non-gravitational accelerations. Here we show that astrometry from 1998 to 2025 of near-Earth object (875163) 1998 SH 2 reveals orbital perturbations consistent with cometary outgassing. Although no cometary activity was evident in archival images, large-aperture telescopic observations show a weak low-surface-brightness tail and prove that 1998 SH 2 is indeed a cometary object. When cometary activity is weak, outgassing may remain undetected for decades. Our results show that non-gravitational perturbations apparent over long astrometric data arcs provide a diagnostic for identifying comets and suggest that more near-Earth objects currently classified as asteroids could in fact be comets. Therefore, our findings prompt searches to detect additional near-Earth objects exhibiting weak cometary activity. The motion of these weak comets can be more strongly perturbed than that of asteroids, influencing assessment of their Earth impact hazard and our understanding of the delivery of water to Earth.",
+   "authors": [
+    "D. Farnocchia",
+    "O. R. Hainaut",
+    "D. Z. Seligman",
+    "R. Weryk",
+    "L. A. M. Benner",
+    "M. Brozović",
+    "L. Denneau",
+    "A. Galád",
+    "J. D. Giorgini",
+    "K. Hornoch",
+    "M. Micheli",
+    "S. P. Naidu",
+    "R. S. Park",
+    "P. Pravec",
+    "R. J. Wainscoat"
+   ],
+   "link": "https://doi.org/10.1038/s41550-026-02913-7",
+   "source": "Nature Astronomy",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过1998-2025年期间近地天体(875163) 1998 SH 2的测天数据分析,发现其轨道摄动与彗星放气现象相符,并通过大口径望远镜观测确认该天体确实是一颗活跃彗星。研究表明,长期测天数据中的非万有引力摄动可作为识别弱活动彗星的诊断工具,暗示许多目前被分类为小行星的近地天体实际上可能是彗星。这些发现对评估近地彗星的撞击风险和理解水向地球的输运具有重要意义。"
+  }
+ ],
  "2026-07-14": [
   {
    "id": "arxiv:2606.20789",
    "title": "Dynamical Tides during High-Eccentricity Migration produces the Hot Jupiter Pile-up, Neptune Ridge, and Neptune Desert",
    "abstract": "The period distribution of hot gaseous exoplanets depends strongly on mass. Clustering between the orbital periods of ~3 to ~5-6 days is seen for sub-Saturns (\"Neptune ridge\") and Jovians (\"hot Jupiter pile-up\"), contrasting with a sharp deficit interior to 3 days for sub-Saturns, not seen for Jovians (\"Neptune desert\"). During high-eccentricity migration, tidally-excited fundamental-modes (f-modes) act as a reservoir for orbital energy, and can take gaseous planets formed beyond several AU and place them at short separations. Here, we show how f-modes can not only circularize orbits — causing clustering near the Neptune ridge and hot-Jupiter pile-up — but can also shock and unbind mass, leaving sub-Saturn cores in the Neptune desert. Our hydrodynamical simulations demonstrate that close approaches tidally excite f-modes, whose super-sonic velocities shock gaseous envelopes. Shocks that diffusively cool circularize and bunch orbits near the hot Jupiter pile-up and Neptune ridge, while shocks that drive outflows unbind envelopes and place gas giant cores in the Neptune desert. Sub-Saturns that dwell in the desert are predicted to arrive with large spin-orbit misalignments after producing luminous flares.",
-   "authors": ["J. J. Zanazzi", "Morgan MacLeod", "Marta L. Bryan", "Suvrath Mahadevan"],
+   "authors": [
+    "J. J. Zanazzi",
+    "Morgan MacLeod",
+    "Marta L. Bryan",
+    "Suvrath Mahadevan"
+   ],
    "link": "https://arxiv.org/abs/2606.20789",
    "source": "arXiv (astro-ph.EP)",
    "category": "散射与动力学演化",
-   "matched": ["high-eccentricity migration", "spin-orbit misalignment"],
+   "matched": [
+    "high-eccentricity migration",
+    "spin-orbit misalignment"
+   ],
    "summary_zh": "这项工作用流体动力学模拟研究了高偏心率迁移过程中潮汐激发的基频模(f-模)如何塑造短周期气态行星的周期分布。作者发现近星点掠过激发的 f-模会以超声速激波加热行星包层:浅层激波通过辐射冷却使轨道圆化,形成热木星堆积和海王星脊;深层激波则驱动外流剥离包层,把亚土星的裸核留在海王星沙漠中。模型还预言沙漠中的亚土星应带有大的自旋-轨道失准角,并在到达时产生可观测的亮耀发。"
   },
   {
    "id": "arxiv:2606.20803",
    "title": "Planet-Planet Secular Migration Predicts a Stellar Obliquity-Period Anti-Correlation",
    "abstract": "Stellar obliquities provide a fossil record of hot Jupiter (HJ) migration. An emerging observational trend in single-star systems is that strongly misaligned HJs are largely confined to short orbital periods, while longer-period HJs are preferentially aligned. We show that secular high-eccentricity migration driven by a distant planetary companion naturally produces such an obliquity-period correlation. In our simulations, the shortest-period HJs tend to be produced by the von Zeipel-Lidov-Kozai mechanism driven by highly inclined companions, which results in a broad range of final stellar obliquities. The longest-period HJs are produced over longer timescales by coplanar high-eccentricity migration, which preserves low obliquities. We predict that the shortest-period HJs should have distant planetary companions with broadly distributed mutual inclinations, whereas the companions of longer-period HJs should reside in nearly coplanar orbits. Upcoming Gaia astrometric constraints will provide a key test of this picture.",
-   "authors": ["Hareesh Gautham Bhaskar", "Cristobal Petrovich", "Diego J. Muñoz"],
+   "authors": [
+    "Hareesh Gautham Bhaskar",
+    "Cristobal Petrovich",
+    "Diego J. Muñoz"
+   ],
    "link": "https://arxiv.org/abs/2606.20803",
    "source": "arXiv (astro-ph.EP)",
    "category": "散射与动力学演化",
-   "matched": ["high-eccentricity migration", "von Zeipel-Lidov-Kozai", "Kozai"],
+   "matched": [
+    "high-eccentricity migration",
+    "von Zeipel-Lidov-Kozai",
+    "Kozai"
+   ],
    "summary_zh": "针对观测上\"强失准热木星集中在短周期、长周期热木星倾向对齐\"的趋势,作者用模拟证明由远距离行星伴星驱动的长期高偏心率迁移能自然产生这种倾角-周期反相关:最短周期的热木星多由高倾角伴星通过 von Zeipel-Lidov-Kozai 机制形成,末态恒星倾角分布很宽;而长周期热木星由共面高偏心率迁移缓慢形成,保持低倾角。该图景预言短周期热木星的远距离伴星应有宽泛的相互倾角分布,可由即将发布的 Gaia 天体测量数据检验。"
   },
   {
    "id": "arxiv:2606.23815",
    "title": "Interpreting the scattering surface in protoplanetary disks",
    "abstract": "In recent years, extreme adaptive optics have enabled high-resolution, high-contrast scattered-light observations of protoplanetary disks. Interpreting these observations requires an understanding of the scattering surface, which is shaped by the distribution of small dust grains. We aim to exploit measurements of the scattering surface height to directly constrain the masses of small dust grains in disks. Starting from radiative transfer principles, we developed a semi-analytical model of the stellar radiation path and its interaction with the disk, deriving the height of the scattering surface as a function of disk parameters. We validated our predictions against the radiative transfer code MCFOST. Using measured scattering heights, we inferred the mass of the dust in small grains and the particle size distribution for a sample of ten disks. We confirmed that the scattering surface coincides with the surface where the integrated optical depth along the stellar path is of order unity. Applying our model to observations, we measured small dust mass fractions on the order of 10^-3 globally, typical for modest amounts of grain growth and power-law indices of the grain size distribution ~3-3.5, as commonly found in grain growth models.",
-   "authors": ["Massimiliano Bolchini", "Giovanni Rosotti", "Marion Villenave", "Antonio Garufi", "Myriam Benisty", "Tilman Birnstiel", "Stefano Facchini", "Leonardo Testi"],
+   "authors": [
+    "Massimiliano Bolchini",
+    "Giovanni Rosotti",
+    "Marion Villenave",
+    "Antonio Garufi",
+    "Myriam Benisty",
+    "Tilman Birnstiel",
+    "Stefano Facchini",
+    "Leonardo Testi"
+   ],
    "link": "https://arxiv.org/abs/2606.23815",
    "source": "arXiv (astro-ph.EP)",
    "category": "行星形成与盘演化",
-   "matched": ["protoplanetary disk"],
+   "matched": [
+    "protoplanetary disk"
+   ],
    "summary_zh": "散射光观测中原行星盘的表观形态由散射面决定,而散射面受小尘埃颗粒分布控制。作者从辐射转移原理出发建立了散射面高度与盘质量、温度、不透明度等参数关系的半解析模型,经 MCFOST 辐射转移程序验证后应用于十个盘的实测散射高度,得到小颗粒尘埃质量占比约 10^-3。这一数值与温和颗粒生长(尺寸分布幂指数约 3-3.5)的模型预期一致,为约束盘中小尘埃含量提供了新途径。"
   },
   {
    "id": "arxiv:2606.23899",
    "title": "Hydrogen airglow from an escaping ultrahot Jupiter atmosphere",
    "abstract": "Intense high-energy irradiation of close-in gaseous exoplanets drives the rapid escape of their atmospheres, fundamentally shaping planetary demographics. Here we report the first detection of atomic hydrogen emission from the escaping atmosphere of a gas giant. Using high-resolution spectroscopy of the ultrahot Jupiter KELT-9 b, we detect a hydrogen Balmer line (H-alpha 6564.6 A) emission signature originating from the planetary dayside. The emission line profile features a distinctive double-peaked shape with 0.1-0.15% peak amplitudes at ±30 km/s and central self-absorption. This profile breaks transmission degeneracies, providing direct observational constraints on the vertical thermal structure, excited-state hydrogen populations, and wind dynamics in the upper atmosphere of KELT-9 b. Initial modeling reveals a vigorous outflow with a mass-loss rate above 10^13 g/s, among the highest measured to date for gaseous exoplanets. Our results establish hydrogen airglow emission as a powerful diagnostic of atmospheric escape.",
-   "authors": ["Yapeng Zhang", "Chenliang Huang", "Aaron Householder", "James E. Owen", "Fei Dai"],
+   "authors": [
+    "Yapeng Zhang",
+    "Chenliang Huang",
+    "Aaron Householder",
+    "James E. Owen",
+    "Fei Dai"
+   ],
    "link": "https://arxiv.org/abs/2606.23899",
    "source": "arXiv (astro-ph.EP)",
    "category": "行星大气",
-   "matched": ["atmosphere", "atmospheric escape", "airglow"],
+   "matched": [
+    "atmosphere",
+    "atmospheric escape",
+    "airglow"
+   ],
    "summary_zh": "作者用 Keck/KPF 高分辨率光谱首次探测到逃逸行星大气的氢原子发射:超热木星 KELT-9 b 日面的 Hα 气辉呈双峰加中心自吸收的独特轮廓。结合 NLTE 外流模型,该轮廓打破了透射光谱中温度与质量损失率的简并,给出质量损失率 ≥10^13 g/s——迄今气态行星中的最高纪录之一,并支持 A 型星的近紫外辐射驱动 Balmer 逃逸的机制。这一结果为研究极端辐射环境下行星大气的长期演化打开了新窗口。"
   }
- ]
+ ],
+ "2026-07-13": []
 }
