@@ -1,0 +1,37 @@
+name: 每日文献更新
+
+on:
+  schedule:
+    - cron: "47 23 * * *"   # 北京时间 07:47 主班
+    - cron: "23 2 * * *"    # 北京时间 10:23 兜底班
+  push:
+    paths: ["config.yaml"]   # 修改配置后自动重跑
+  workflow_dispatch: {}       # 也可在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: 抓取并生成页面
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/build.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "paper-daily-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs data
+          git diff --cached --quiet || git commit -m "更新 $(date -u +%F)"
+          git push
