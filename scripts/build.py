@@ -423,8 +423,8 @@ body {{ margin:0; color:var(--ink); background:var(--paper);
     "PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
   -webkit-font-smoothing:antialiased }}
-.sheet {{ max-width:960px; margin:22px auto 34px; padding:0 14px }}
-@media (min-width:800px) {{ .frame {{ padding:30px 44px 34px }} }}
+.sheet {{ max-width:none; margin:22px auto 34px; padding:0 16px }}
+@media (min-width:800px) {{ .frame {{ padding:30px 48px 36px }} }}
 .plate-top {{ display:flex; justify-content:space-between; gap:8px;
   font-size:11.5px; color:var(--faint); font-style:italic;
   padding:0 4px 5px; letter-spacing:.5px }}
@@ -434,7 +434,7 @@ body {{ margin:0; color:var(--ink); background:var(--paper);
   padding:22px 22px 26px }}
 @media (max-width:480px) {{ .frame {{ padding:16px 13px 22px }} }}
 header {{ text-align:center; margin-bottom:8px }}
-.emblem {{ margin:0 0 16px }}
+.emblem {{ max-width:980px; margin:0 auto 16px }}
 .emblem svg {{ width:100%; height:auto; display:block }}
 h1 {{ font-size:30px; font-weight:700; letter-spacing:14px; text-indent:14px;
   margin:6px 0 4px; font-family:"PingFang SC","Hiragino Sans GB","Helvetica Neue",
