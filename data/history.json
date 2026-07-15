@@ -1,6 +1,330 @@
 {
  "2026-07-15": [
   {
+   "id": "arxiv:2607.12972",
+   "title": "When Stabilizing Feedbacks Wreak Havoc in Habitable Planets: Chaos at the Freezing Point in a Four-Feedback Climate Model",
+   "abstract": "The long-term habitability of Earth-like planets is governed by the balance of positive and negative climate feedbacks that regulate surface temperature and atmospheric composition. While some feedbacks, such as ice-albedo and silicate weathering, are thought to operate on many terrestrial planets, the number and strength of additional climate feedbacks may vary substantially from world to world. An important open question is whether and how the introduction of an additional climate feedback influences long-term climate evolution and complexity. To investigate this question, we extended a low-order climate model including outgoing longwave radiation, ice--albedo, and carbonate--silicate weathering, with an additional generalized feedback. Across 35,864 simulations, we characterized dynamical behavior using the largest Lyapunov exponent (LLE). While 10.4% of explored parameter combinations exhibited positive LLEs, indicating chaos, the fraction rose to 25.6% within the stabilizing, near-freezing regime. This suggests that chaotic behavior is preferentially concentrated where a strong stabilizing feedback operates in the same temperature regime as a strong destabilizing feedback, contrary to the expectation that additional negative feedbacks should increase climate stability. Increasing normalized volcanic outgassing shifts the chaotic regime toward lower stellar flux and partially suppresses chaos at high instellation.",
+   "authors": [
+    "Chaucer Langbert",
+    "Dániel Apai",
+    "Renu Malhotra"
+   ],
+   "link": "https://arxiv.org/abs/2607.12972v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过扩展包含四个气候反馈机制的低阶气候模型，利用最大Lyapunov指数对35,864个参数组合进行了数值模拟，探究额外气候反馈对类地行星长期气候演化的影响。研究发现，在冰点附近的稳定反馈区域，混沌行为的出现概率显著升高至25.6%，揭示了稳定反馈与不稳定反馈在相近温度范围内竞争可能导致气候混沌，这与传统的负反馈增强稳定性的预期相悖。火山出气速率的增加会改变混沌制度的恒星辐射阈值，提示不同系外行星的宜居性可能因反馈耦合强度而呈现复杂的非线性特征。"
+  },
+  {
+   "id": "arxiv:2607.12618",
+   "title": "Direct Retrieval of Protoplanetary Disk Dust Properties using Auto-differentiable Gaussian Processes and Its Application to the HD 169142 Disk",
+   "abstract": "Retrieving dust properties in protoplanetary disks, including the surface density distribution, temperature, and grain size distribution, is a fundamental task in observational studies of planet formation. While multi-wavelength analysis of the spectral energy distribution (SED) using interferometers such as the Atacama Large Millimeter/submillimeter Array (ALMA) is a powerful diagnostic tool, traditional methods are often hindered by strong biases arising from a limited imaging beamsize. In this paper, we present a new retrieval framework for dust disk properties designed to overcome this challenge. We assume that the underlying physical structures are expressed as sample paths from Gaussian processes, compute the radial intensity distributions at observed wavelengths, and produce one-dimensional visibility models. The models are compared with the observed data and the posterior distributions are sampled via the Markov-Chain Monte-Carlo method. The whole procedure is implemented in JAX, which enables end-to-end auto-differentiation and significantly accelerates the inference. We validate our methodology using mock datasets, and find that the results are not strongly biased and better reproduce the input profiles. We also demonstrate its capabilities through an application to ALMA Band 3, 6, and 9 observations of the HD 169142 disk, revealing a new complex structure. Our developed code is publicly available as a Python module, FRAP (Flexible Radial Analysis of Protoplanetary disks). This framework provides a next-generation infrastructure for disk SED modeling, enabling high-precision studies of the physical environments in which planets form.",
+   "authors": [
+    "Tomohiro C. Yoshida",
+    "Enrique Macías",
+    "Giovanni Rosotti",
+    "Stefano Facchini",
+    "Elena Viscardi",
+    "Kiyoaki Doi"
+   ],
+   "link": "https://arxiv.org/abs/2607.12618v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究针对原行星盘尘埃性质反演中的光束大小偏差问题,提出了一个基于自微分高斯过程的新框架,通过将物理结构表示为高斯过程样本路径、计算观测波长处的径向强度分布并生成一维可见度模型,结合马尔可夫链蒙特卡罗采样进行贝叶斯推断。在HD 169142盘的ALMA多波段观测应用中,该方法成功揭示了复杂的盘结构,相比传统方法获得了更少偏差的反演结果,为行星形成环境的高精度研究提供了新一代基础设施。"
+  },
+  {
+   "id": "arxiv:2607.12088",
+   "title": "TESS Photometry and Radial Velocity Analysis of the sub-Neptune Exoplanet π Mensae c and the Wider π Mensae Planetary System",
+   "abstract": "Exoplanet characterization relies on precise measurements of planetary orbital and physical parameters. This is particularly important for planetary dynamics and atmospheric evolution, as orbital parameters help constrain system evolution, resolve ambiguities, and gauge atmospheric retention. The first exoplanet discovered by the Transiting Exoplanet Survey Satellite (TESS), $π$ Men c, is a warm sub-Neptune orbiting a bright Sun-like star in a system containing (at least) one other planet with a wildly different period and size. Lying near the 1.5-2.0 $R_{\\oplus}$ radius gap, $π$ Men c is expected to have lost its primordial hydrogen and helium, but kept heavier compounds like H$_2$O and CO$_2$. The $π$ Men system is well observed with decades of radial velocity measurements, and TESS has continued to observe $π$ Men c, yielding six years and 21 sectors of photometry. We present a comprehensive analysis of these TESS data and 22 years of radial velocity measurements to provide updated orbital ephemerides for $π$ Men b, c, and the proposed third planet, $π$ Men d. Our newly derived $π$ Men c period error margins are an order of magnitude improved from previous estimates, and we estimate the mass range of $π$ Men d to be 13.4 $\\leq$ M$_d$ $<$ 20 M$_{\\oplus}$. We find that $π$ Men c is a uniquely interesting target for future transmission spectroscopy studies with JWST, and that existing radial velocity data are consistent with the existence of a third planet.",
+   "authors": [
+    "Skylar S. Larsen",
+    "Jake D. Turner",
+    "Nikole K. Lewis",
+    "Maryame El Moutamid",
+    "Diana Solano-Oropeza",
+    "Lili Alderson",
+    "V. Abby Boehm",
+    "Daniel A. Yahalomi",
+    "Emily K. Deibert",
+    "Ray Jayawardhana",
+    "Dong Lai",
+    "Adam B. Langeveld",
+    "Kyle A. Pearson"
+   ],
+   "link": "https://arxiv.org/abs/2607.12088v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用TESS六年的光度测量数据和22年的径向速度观测，对π Mensae行星系统进行了综合分析，显著改进了亚海王星行星π Men c的轨道周期测量精度（降低一个数量级），并约束了第三颗行星π Men d的质量范围（13.4–20 M⊕）。研究结果表明π Men c位于行星半径间隙附近，应已失去原始氢氦但保留了水和二氧化碳等重元素化合物，是JWST凌日光谱观测研究大气演化的独特目标。这些改进的轨道参数为理解该多行星系统的动力学演化和长期稳定性提供了关键约束。"
+  },
+  {
+   "id": "arxiv:2607.12081",
+   "title": "MOA-2020-BLG-108Lb: A Giant Planet Beyond the Snow Line of a Low-Mass Lens Near the Lower Boundary of the Mass-Ratio Desert",
+   "abstract": "We present an analysis of the microlensing event MOA-2020-BLG-108, which was discovered in June 2020 by the MOA collaboration toward the Galactic bulge. The observed light curve shows significant deviations from the standard single-lens single-source model. We find two degenerate binary-lens single-source solutions, corresponding to the wide and close configurations, with a companion-to-host mass ratio of $q\\sim0.02$ and projected host--companion separations of $s=1.33\\pm0.01$ and $s=0.76\\pm0.01$, respectively. These solutions improve the fit by $Δχ^2>4430$ compared to the single-lens model. We detected the finite-source effect in the light curve and obtained the angular Einstein radius of $θ_{\\rm E} = 0.7\\pm0.1\\:\\mathrm {mas}$, which provides a mass--distance relation for the lens. We conducted a Bayesian analysis to estimate the physical parameters of the lens system. The results indicate that the lens system consists of a host star with a mass of $M_{\\rm L,H} \\sim 0.6\\:M_\\odot$ at a distance of $D_{\\rm L}\\sim5$ kpc and a giant planet with a mass of $M_{\\rm L,C}\\sim10\\:M_{\\rm {Jup}}$ orbiting beyond the snow line. Conventional planet formation theories suggest that giant planets are unlikely to form around low-mass stars. Furthermore, several statistical studies have suggested the existence of a companion-to-host mass-ratio desert in the range $0.02 \\lesssim q \\lesssim 0.05$, and the companion in the lens system discovered in this work lies near the lower boundary of this desert. Objects near the planet-brown dwarf boundary may form through multiple pathways, and this discovery provides an additional data point for understanding their formation mechanisms.",
+   "authors": [
+    "Yuki K. Satoh",
+    "David P. Bennett",
+    "Takahiro Sumi",
+    "Ian A. Bond",
+    "Nicholas J. Rattenbury",
+    "Daisuke Suzuki",
+    "Naoki Koshimoto",
+    "Shota Miyazaki",
+    "Rintaro Kirikawa",
+    "Fumio Abe",
+    "Aparna Bhattacharya",
+    "Ryusei Hamada",
+    "Stela Ishitani Silva",
+    "Yuki Hirao",
+    "Yutaka Matsubara",
+    "Yasushi Muraki",
+    "Tutumi Nagai",
+    "Kansuke Nunota",
+    "Greg Olmschenk",
+    "Clément Ranc",
+    "Sean K. Terry",
+    "Paul J. Tristram",
+    "Aikaterini Vandorou",
+    "Hibiki Yama"
+   ],
+   "link": "https://arxiv.org/abs/2607.12081v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过微引力透镜事件MOA-2020-BLG-108的光曲线分析发现了一个质量比q~0.02的双透镜系统,其中包含一颗质量~0.6太阳质量的低质量主星和一颗质量~10木星质量、位于雪线外的巨行星。利用有限源效应和贝叶斯分析获得了系统的物理参数(距离~5 kpc),该发现挑战了传统行星形成理论关于低质量星周围巨行星形成的预测,并为质量比沙漠下界附近的伴星形成机制研究提供了重要观测证据。"
+  },
+  {
+   "id": "arxiv:2607.12070",
+   "title": "I Can Do It With A Broken Planetesimal: Characterising the planetary debris in heavily polluted cool white dwarfs",
+   "abstract": "We present the analysis of four cool and strongly metal-polluted H-atmosphere white dwarfs observed with X-shooter. We compared their atmospheric parameters obtained from spectroscopy, photometry and a hybrid method, finding a difference of up to $\\simeq160$ K in $T_\\mathrm{eff}$, and $\\simeq0.3$ dex in $\\log g$, between the three analyses. We adopt the $T_\\mathrm{eff}$ and $\\log g$ from the photometric analysis, and subsequently measured the metal abundances of the photospheric elements from spectroscopic modelling, analysing their compositions. We identified from five to eleven unique metals in the photospheres of the four white dwarfs, with total accretion rates ranging from $10^{8}$ to $10^{9}$ $\\mathrm{g~s^{-1}}$. The compositional analysis of WD J035826.49$+$215726.16 suggests an accreted planetesimal akin to a core-rich differentiated body, with a core mass fraction of 70 per cent, placing it among the most core-rich objects known to be accreted by white dwarfs. The parent body accreted by WD J042643.98$-$415341.44 shows an enhancement in Na compared to that of the Earth, making it most similar to primitive chondrites. The photosphere of WD J013222.88$+$052923.71 is greatly depleted in core-like material, and its composition resembles that of pure crust/mantle material. WD J232428.21$-$021643.65 has accreted the most Fe-rich planetesimal, with an Fe mass fraction of 67 per cent. We compare these results to other published studies and conclude that these white dwarfs are among the most heavily polluted cool DAZs studied to date, increasing the sample of cool H-dominated white dwarfs with five or more metals by 50 per cent.",
+   "authors": [
+    "Anna-Maria Cutolo",
+    "Boris T. Gänsicke",
+    "Andrew Swan",
+    "Andrew M. Buchan",
+    "Jamie T. Williams",
+    "Detlev Koester",
+    "Paula Izquierdo",
+    "Mark A. Hollands",
+    "James A. Blake",
+    "Nicola P. Gentile Fusillo"
+   ],
+   "link": "https://arxiv.org/abs/2607.12070v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过X-shooter观测分析了四颗金属污染严重的冷白矮星，采用光度测量方法确定大气参数，通过光谱建模测量光球金属丰度，识别出五至十一种独特金属元素，吸积速率达10^8-10^9 g/s。通过成分分析表明这些白矮星吸积了成分各异的行星体碎片，包括核心富集型分化天体（核心质量分数70%）、原始球粒陨石型和纯壳幔物质型等，其中最富铁行星体的铁质量分数达67%。研究结果显示这些白矮星是迄今为止污染最严重的冷DAZ白矮星，显著扩展了金属丰度超五种的冷白矮星样本。"
+  },
+  {
+   "id": "arxiv:2607.12017",
+   "title": "Biosignature detectability on transiting habitable worlds with ELT/ANDES",
+   "abstract": "The search for life beyond the Solar System is at a turning point, transitioning from theoretical predictions to observations enabled by next-generation observatories. The Extremely Large Telescope (ELT) will host the ArmazoNes high Dispersion Echelle Spectrograph (ANDES), optimized for visible-to-near-infrared high-resolution spectroscopy. We present a simulation--detection pipeline and evaluate the detectability of CO$_2$, H$_2$O, and the biosignature gases O$_2$ and CH$_4$ in high-resolution transmission spectroscopy of transiting habitable-zone rocky planets with ANDES. Assuming cloud-free, modern Earth-like atmospheres, we model transmission spectra using noise estimates from the ANDES Exposure Time Calculator, based on the latest preliminary instrument design in seeing-limited mode. We introduce a novel Bayesian cross-correlation function (CCF) framework that incorporates molecule-specific kernels and a new autoregressive model to account for correlations in the CCF. We apply our framework to 18 known potentially habitable transiting exoplanets and estimate the number of transits required for a decisive detection ($\\log_{10} B \\ge 2.0$). We find that H$_2$O is the most accessible species, with potential detections in 10-19 transits for the TRAPPIST-1 planets and 30 transits for LHS 1140 b. CO$_2$, CH$_4$, and O$_2$ are more difficult to detect, requiring approximately 1.5, 3, and 4 times as many transits as H$_2$O. These estimates are lower limits that assume favorable observing conditions, perfect detrending, and the absence of systematics, yet still imply large observing campaigns. Alternative approaches, such as reflected-light high-dispersion coronagraphy of nearby nontransiting planets, may offer a promising complementary route for biosignature searches.",
+   "authors": [
+    "E. Kurzawa-Ferrandez",
+    "A. Bello-Arufe",
+    "R. Hu"
+   ],
+   "link": "https://arxiv.org/abs/2607.12017v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究利用ELT/ANDES高分辨率传输光谱，通过贝叶斯交相关函数方法模拟了18颗宜居带类地行星大气中CO₂、H₂O、O₂和CH₄等生物特征气体的可探测性。研究发现H₂O最易探测（TRAPPIST-1行星需10-19次凌星，LHS 1140 b需30次），而CO₂、CH₄和O₂分别需要约1.5、3和4倍的观测次数。研究表明即使在理想观测条件下，生物特征气体的确定性探测仍需大规模观测计划，反射光高分辨日冕分光法可作为补充手段。"
+  },
+  {
+   "id": "arxiv:2607.12005",
+   "title": "Probing the Innermost Region of the V883 Ori Disk Using ALMA Band 1 Methanol Line Observations",
+   "abstract": "The snowlines of major volatiles in protoplanetary disks play a pivotal role in dust evolutions and volatile delivery to nascent planetary systems. In this paper, we report the Atacama Large Millimeter/submillimeter Array Band 1 ($\\approx7.5\\,\\mathrm{mm}$) observations of methanol (CH$_3$OH) emission lines in the disk around the FU-Ori type star V883 Ori, where accretion outburst heats the disk and the majority of ices has sublimated. We detect three CH$_3$OH emission lines at an angular resolution of $\\approx0.\\!\\!^{\\prime\\prime}2$. The stacked CH$_3$OH image exhibits a centrally-peaked morphology in contrast to the previous (sub-)mm observations that show a central depression. By fitting radially-resolved line profiles, we derive the radial intensity profile of the CH$_3$OH emission where we find a steep increase at $\\lesssim40\\,\\mathrm{au}$. The column density of CH$_3$OH reaches at least $\\sim10^{19}\\mathrm{-}10^{20}\\,\\mathrm{cm^{-2}}$ at $\\sim10\\,\\mathrm{au}$. This provides direct evidence that a significant amount of warm gaseous methanol is present in the innermost region of the disk where its emission has been suppressed in previous (sub-)mm observations due to the optically thick dust emission. The steep increase in the intensity profile may indicate that the CH$_3$OH snowline in the midplane is located at $\\sim30\\mathrm{-}55\\,\\mathrm{au}$, or that the CH$_3$OH emission traces the temperature structure given that the emission is likely optically thick. Our results demonstrate the capability and significance of (sub-)cm observations in probing the innermost opaque region of disks, paving the way for the future observations with upcoming facilities.",
+   "authors": [
+    "Yoshihide Yamato",
+    "Shota Notsu",
+    "Rui Zhuang",
+    "Yuri Aikawa",
+    "Nami Sakai"
+   ],
+   "link": "https://arxiv.org/abs/2607.12005v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "我们利用ALMA Band 1毫米波观测探测了FU-Ori型星V883 Ori原行星盘中的甲醇发射线，在吸积爆发加热的盘内获得了内部区域（~10 au）的高空间分辨率图像。甲醇柱密度达到10^19-10^20 cm^-2，陡峭的径向强度分布表明甲醇冰线位于30-55 au处。这项研究证明了亚厘米波观测在探测盘内光学厚区域的优势，为揭示原行星盘内部挥发物分布和行星形成环境提供了新途径。"
+  },
+  {
+   "id": "arxiv:2607.12007",
+   "title": "Modeling the Evolution of Protoplanetary Disks: Two Pathways from Gravitational Instability to MHD Wind-Driven Accretion",
+   "abstract": "The global evolution of protoplanetary disks sets the initial conditions for planet formation. However, most models focus on individual evolutionary phases, with idealized initial conditions and oversimplified prescriptions for angular momentum transport and thermodynamics. We present a more realistic semi-two-dimensional ($1+1$D) model incorporating gravitational instability (GI), magnetohydrodynamic (MHD) winds, magneto-rotational instability (MRI), stellar irradiation, self-shadowing, and radiation transport. The radial distribution of large-scale magnetic flux drives two different pathways of disk evolution. When the vertical field is spatially uniform, a puffed-up, MRI-heated inner rim shadows the disk beyond it, sustaining a massive, gravitationally unstable region for $\\sim 1$ Myr and, for several Myr, a compact ($\\lesssim 10$ AU), cold ($\\sim10$ K), low-turbulence ($α_\\mathrm{SS}\\sim10^{-4}$), high-density ($Σ\\gtrsim300\\,\\mathrm{g\\,cm^{-2}}$), optically thick reservoir, so that the disk mass inferred from mm-continuum emission can be greatly underestimated. When the field instead scales with midplane gas pressure, it drives stronger transport in the inner disk and eventually strips the shadow, leaving an extended, flared disk whose observable mass closely traces the true mass. Our results connect GI-dominated Class~0/I disks to MHD wind-driven Class~II disks, and point to three broader conclusions: (i) disk physics is strongly inhomogeneous in space and time, so constant-$α$ treatments miss essential physics; (ii) thermodynamics plays an active role, with self-shadowing simultaneously preserving GI and weakening MHD winds; and (iii) the distribution of large-scale magnetic flux is the key uncertainty, closely linked to whether the shadow is maintained. The two pathways align, respectively, with observations of compact, shadowed disks and extended, irradiated disks.",
+   "authors": [
+    "Yang Ni",
+    "Wenrui Xu",
+    "Xue-Ning Bai"
+   ],
+   "link": "https://arxiv.org/abs/2607.12007v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过半二维磁流体动力学模型,耦合引力不稳定性、磁流体风、磁旋转不稳定性和辐射传输,揭示了原行星盘从引力不稳定主导向磁流体风驱动吸积演化的两条路径,其分岐由大尺度磁通的径向分布决定。当磁场均匀分布时,盘内阴影区维持高密度、低湍流的引力不稳定状态,导致可观测质量被严重低估;当磁场随气体压力缩放时,强磁传输最终破坏阴影,形成扩展盘面。这一框架连接了Class 0/I阶段的引力不稳定盘与Class II阶段的磁风驱动盘,强调了盘内物理的时空非均质性和自阴影在调控引力不稳定性与磁流体动力学之间竞争中的关键角色。"
+  },
+  {
+   "id": "arxiv:2607.11841",
+   "title": "Ice Deposition Fronts In Porous Bodies From Transient Heating Events In a Protoplanetary Disk",
+   "abstract": "Using a 1D mass and heat transport model, we numerically integrate heat flow and gas transport in a porous body exposed to a transient heating event while embedded in a protoplanetary disk. When small icy grains are heated, volatiles sublimate, enriching the disk with volatile gases. When a porous body enters this heated, volatile-rich environment, volatile gases diffuse throughout the cool, porous body and deposit ice where the partial pressure of a volatile exceeds its vapor pressure. We simulate sublimation and deposition fronts of water, carbon dioxide, and carbon monoxide. Our simulations show that an ice deposition front forms and moves deeper into the porous body as the body warms. The amount of nebular gas deposited in an initially dry body is usually extremely low; however, in an initially icy body, an ice deposition front contains locally sublimated volatiles. In this case, the front can increase the ice volume fraction (by a factor of 2) in a thin layer below the surface. We find that the propagation speed, propagation strength, and final depth of an ice deposition front primarily depend on pore size. We propose that nebular heating events can alter the subsurface morphology and physical properties of porous icy objects embedded in a protoplanetary disk.",
+   "authors": [
+    "Stephen Li",
+    "Alice C. Quillen",
+    "Adam E. Rubinstein",
+    "Dominique Segura-Cox",
+    "Kevin Righter"
+   ],
+   "link": "https://arxiv.org/abs/2607.11841v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过一维质量和热传输模型，模拟了原行星盘中多孔天体在瞬时加热事件中的挥发物升华和冰沉积过程。研究发现，当多孔天体进入加热的挥发物丰富环境时，冰沉积锋会向天体内部传播，其传播速度、强度和深度主要取决于孔隙大小，在初始含冰天体中可使表层下浅层的冰体积分数增加一倍。这表明原行星盘中的加热事件能够显著改变多孔冰质天体的内部形态和物理性质，对行星形成过程中固体演化具有重要影响。"
+  },
+  {
+   "id": "arxiv:2607.11728",
+   "title": "Modeling the Impact of Starspot Inhomogeneity on Spectroscopic Retrievals of Directly-Imaged Planets",
+   "abstract": "Stellar activity is a major complication in the detection and characterization of exoplanets by both radial velocities and transits, and the upcoming Habitable Worlds Observatory (HWO) invites us to also consider its effect on direct imaging. Spectra of directly-imaged planets can vary with the activity of their host stars because the face of the star we see is not the same as the face reflected by the planet. This discrepancy could potentially result in inaccurate measurements of the planet's radius and unexpected, externally-caused variability in its contrast spectrum with the star. To assess the scientific capabilities and requirements of HWO, it is important that the magnitude of these effects be quantified. We present results of model retrievals of Earth-like exoplanets observed with an HWO-style survey, as they would appear when affected by starspots, using the ExoVista code for spectrum generation and the BARBIE code for spectroscopic retrieval. Both Solar-type stellar activity and highly active rapid rotators are considered and compared with an idealized quiescent host star. In the quiescent case, ${\\rm SNR}\\approx5$ is needed to detect atmospheric water vapor at 0.9 microns and ${\\rm SNR}\\approx13$ at 0.74 microns. We find that for Solar-type activity, the effect on retrievals will be negligible, but it could present problems for certain highly-active stars at limiting geometries. For an extreme case with a single large spot with 10\\% coverage not visible to the observer, the SNR required for water detection increases to ${\\rm SNR}\\approx8$ at 0.9 microns and ${\\rm SNR}\\approx18$ at 0.74 microns. It also decreases the accuracy of the retrieved albedo, resulting in a value $\\sim2/3$ of the true value. In light of these results, we estimate the impact that stellar variability and starspots may have on an HWO-style survey.",
+   "authors": [
+    "Alex R. Howe",
+    "Natasha Latouf",
+    "Christopher C. Stark",
+    "Avi M. Mandel",
+    "Veselin Kostov"
+   ],
+   "link": "https://arxiv.org/abs/2607.11728v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究通过ExoVista和BARBIE代码建立谱线检索模型,量化了恒星黑子不均匀性对直接成像类地行星大气表征的影响。研究对比了静谐恒星、太阳型活动和高活跃快速自转恒星三种情景,发现太阳型活动对谱线检索结果影响可忽略,但高活跃恒星在特定观测几何下可能造成显著偏差。极端情况下(10%黑子覆盖且观测不可见),水蒸气检测所需信噪比从0.9微米处的SNR≈5上升到≈8,同时检索的反照率精度显著降低至真实值的2/3左右。"
+  },
+  {
+   "id": "arxiv:2607.11677",
+   "title": "Water gas discs in exo-asteroid belts",
+   "abstract": "Observations of tens of secondary CO gas discs associated with cold exo-Kuiper belts together with other arguments have led Kral et al (2024) to propose that water ice could also sublimate in exo-asteroid belts, suggesting a new pathway for the delivery of water to terrestrial planets, including Earth. We aim to model such water vapour discs and to characterise their physical properties across a range of extrasolar systems with different host stars. We further investigate the implications for the accretion of this water by potential planets located in the inner regions of these systems. We adapt and extend the model of Kral et al (2024) to follow the outgassing, photodissociation, and viscous evolution of water vapour discs. We perform a suite of simulations exploring the parameter space, focusing on the stellar mass, the mass of the parent belt, and its orbital location. We additionally include an inner planet to estimate the mass of water accreted as a function of disc properties and system architecture. We find that systems hosting Sun's mass (and higher) stars produce water vapour very efficiently, sublimating nearly all of the ice initially present in the belt. In most cases, the bulk of the gas mass is generated early, when the stellar luminosity is highest. The amount of water accreted by inner planets can approach the initial ice mass of the belt, leading to planets with water inventories comparable to or exceeding those of Earth, potentially creating ocean planets. We find that water outgassing occurs early after the protoplanetary disc dissipates in systems containing exo-asteroid belts. ALMA, JWST and ELT are capable of detecting this water vapour for several tens of millions of years, even in relatively low-mass water discs. Hence, if such water gas discs are present, they should be detectable with current facilities.",
+   "authors": [
+    "Paul Huet",
+    "Quentin Kral",
+    "Louis Manchon"
+   ],
+   "link": "https://arxiv.org/abs/2607.11677v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究模拟了系外小行星带中水冰升华产生的水汽盘的物理性质，通过适应和扩展前人模型追踪水蒸气的逃逸、光解和粘性演化过程，探索了不同恒星质量、母带质量和轨道位置的参数空间。研究发现，绕太阳质量或更高质量恒星运行的系统能高效产生水汽，内行星可吸积的水质量可达或超过地球水含量，形成海洋行星，且该水汽盘在系外小行星带形成后数千万年内可被ALMA、JWST和ELT等现有设施探测到。"
+  },
+  {
+   "id": "arxiv:2607.11642",
+   "title": "Latitudinal chemical and cloud variations in the atmosphere of a brown dwarf",
+   "abstract": "Brown dwarfs are massive analogues of extrasolar giant planets. Compared to exoplanets whose observations are generally limited by the presence of their bright host star, brown dwarfs are ideal targets for studying substellar atmospheric physics, chemistry and dynamics. Previous observations and simulations of their atmospheres suggest preferential cloud formation around the equator, associated with an equator-pole thermal gradient. Here we show that this atmospheric structure should induce latitudinal chemical variations detectable by the Doppler effect. We introduce a new method - Differential Molecular Rotational Broadening - which consists in comparing the apparent rotational broadening of individual molecules from high-resolution spectra. Application of this approach to VLT-CRIRES observations for different molecules (CO, H2O, CH4 and NH3) in the atmosphere of the brown dwarf DENIS J0255-4700 confirms the existence of latitudinal chemical variations. Our data suggest a depletion of CH4 and NH3 at low latitudes, consistent with an equatorial cloud belt. Our method could be applied to multiple brown dwarfs and exoplanets to map their atmospheres and to study various atmospheric processes.",
+   "authors": [
+    "Benjamin Charnay",
+    "Sam de Regt",
+    "Matthieu Ravet",
+    "Lucas Teinturier",
+    "Flavien Kiefer",
+    "Gaël Chauvin",
+    "Allan Denis",
+    "Mickaël Bonnefoy",
+    "Paulina Palma-Bifani",
+    "Alice Radcliffe",
+    "Arthur Vigan"
+   ],
+   "link": "https://arxiv.org/abs/2607.11642v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过新开发的差分分子旋转展宽方法，利用VLT-CRIRES高分辨率光谱观测褐矮星DENIS J0255-4700中的多种分子(CO、H2O、CH4和NH3)，检测并确认了其大气中存在的纬向化学变化。观测结果表明赤道地区CH4和NH3含量相对耗尽，与赤道云带的存在相一致，证实了大气动力学驱动的纬向结构。该方法可推广应用于多个褐矮星和系外行星，为绘制其三维大气图谱和研究大气动力过程提供了新的观测手段。"
+  },
+  {
+   "id": "arxiv:2607.11531",
+   "title": "Evolution and Observable Properties of Rocky Planet Atmospheres",
+   "abstract": "The atmospheric composition of rocky exoplanets offers an important tool for constraining the properties of the interior of this type of planet, beyond what is possible from measurements of their mass and radius alone. However, the interpretation of these observations requires an understanding of the complex interplay of a larger number of coupled planetary and atmospheric processes. This review provides an overview of the current state of knowledge regarding rocky exoplanet atmospheres, beginning with their formation and escape mechanisms. We specifically highlight the importance of long-term interaction between the atmosphere, the surface, and the interior on rocky planets. Furthermore, this review addresses the influence of biological activity and photochemical reactions on the atmospheric compositions. Consequently, establishing how these different processes contribute to shaping the atmospheres of rocky exoplanets during their evolution is fundamental for the characterization of these planets with future space missions and ground-based surveys.",
+   "authors": [
+    "Marie-Luise Steinmeyer",
+    "Lena Noack",
+    "Philipp Baumeister",
+    "Keiko Hamano",
+    "Michael J. Way",
+    "Doris Breuer",
+    "Kanako Seki",
+    "Caroline Brachmann",
+    "Fabrice Gaillard",
+    "Manuel Scherf",
+    "Svetlana V. Berdyugina",
+    "Brice-Olivier Demory"
+   ],
+   "link": "https://arxiv.org/abs/2607.11531v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究综合评述了岩石系外行星大气的形成、逃逸机制及其与行星内部和表面的长期相互作用过程,重点阐明生物活动和光化学反应对大气组成的影响。研究表明,理解这些耦合的行星过程对于利用大气成分推断岩石行星内部性质至关重要,且这一认识将为未来空间任务和地基观测中对这类行星的表征奠定基础。"
+  },
+  {
+   "id": "arxiv:2607.11507",
+   "title": "Discovering and Characterising Exoplanets and Ultracool Dwarfs with the Square Kilometre Array",
+   "abstract": "The majority of the Solar System planets are sources of bright radio emission, driven by energetic electrons trapped within each planet's magnetic field. Detection of this emission from exoplanets provides a unique opportunity to characterise their magnetic fields, which is key to determining the atmospheric evolution of exoplanets. However, a conclusive detection of radio emission from an exoplanet remains at large, primarily due to a lack of sensitivity at low radio frequencies. On the other hand, planet-like radio signatures have been detected on objects called ultracool dwarfs (UCDs) for over two decades. UCDs are of comparable sizes to Jupiter, but are more massive. They also possess similar interior structures to Jupiter, the region where magnetic fields are generated. Therefore, UCDs are ideal targets to study to advance our understanding of how magnetic fields manifest at planetary scales. In this Chapter, we outline the revolutionary role that the Square Kilometre Array will play in the study of exoplanets and UCDs. We anticipate that it will facilitate the first detection of radio emission from giant exoplanets with strong magnetic fields, and will deliver thousands of detections of UCDs within a few hundred parsecs. Combined with very long baseline interferometry, we also expect that astrometric monitoring will enable the detection of planets of a few Earth masses orbiting nearby radio-emitting UCDs. These findings will open a new window into how planets form and evolve in extrasolar systems.",
+   "authors": [
+    "Robert D. Kavanagh",
+    "Juan B. Climent",
+    "Philippe Zarka",
+    "Joseph R. Callingham",
+    "Yuka Fujii",
+    "Corentin K. Louis",
+    "Laurent Lamy",
+    "Mayank Narang",
+    "J. Sebastian Pineda",
+    "Harish K. Vedantham",
+    "Sanne Bloot",
+    "Jean-Mathias Grießmeier",
+    "Jose Carlos Guirado",
+    "Simranpreet Kaur",
+    "T. Joseph W. Lazio",
+    "Miguel Pérez-Torres",
+    "Alice Zurlo"
+   ],
+   "link": "https://arxiv.org/abs/2607.11507v2",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用平方公里阵列(SKA)在低频射电波段探测系外行星和超冷矮星的射电发射,通过表征行星磁场来研究其大气演化机制。研究方法包括直接探测巨行星的磁层辐射和超冷矮星的行星信号,以及采用甚长基线干涉测量技术进行天体测量监测。主要结论是SKA将实现对强磁场系外巨行星的首次射电探测,发现数千颗超冷矮星,并通过位置监测发现环绕射电超冷矮星的地球质量行星,为理解系外行星的形成和演化开启新的观测窗口。"
+  },
+  {
    "id": "doi:10.3847/1538-4357/ae7bf9",
    "title": "The Limits of Line Broadening: Modeling Stellar Spectra and Formation Temperatures at High Resolution",
    "abstract": "Abstract The modeling of stellar spectra is pervasive in astronomy. Conventionally, the shapes of absorption lines are modeled by convolving thermal profiles (computed given some model stellar atmosphere and line list) with broadening kernels intended to account for the effects of rotation and other nonthermal sources of broadening (i.e., macroturbulence). Here, we show that the assumptions that permit this convolution can break down at high spectral resolution and produce appreciable errors in the modeled flux. We then consider the effects of rotation, microturbulence, and macroturbulence on the intensity and flux contribution functions, which astronomers use to map individual spectral segments to quasi-physical formation “locations” in the stellar atmosphere. We show that proper consideration of (1) the distinction between intensity and flux and (2) the inclusion of rotation and macroturbulence in the contribution function can dramatically change the modeled formation temperatures. To complement this analysis, we provide a package— FormationTemperatures.jl —which quickly computes model line contribution functions and formation parameters given bulk stellar properties as input. In closing, we emphasize the assumptions inherent to this analysis, consider in which regimes the convolution expression for flux should be avoided, and caution how the concept of a singular “formation temperature” can oversimplify some realities of radiative transfer.",
