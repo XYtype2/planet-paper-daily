@@ -54,6 +54,9 @@ def classify(title, abstract):
         if _norm(ex) in t_title:
             return None, []
     text = _norm(title + " " + abstract)
+    req = CONFIG.get("require_any") or []
+    if req and not any(_norm(w) in text for w in req):
+        return None, []
     best, best_hits = None, []
     for cat in CONFIG["categories"]:
         hits = [kw for kw in cat["keywords"] if _norm(kw) in text]
