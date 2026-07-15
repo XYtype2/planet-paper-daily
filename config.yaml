@@ -79,6 +79,13 @@ categories:
 # 排除词:标题中出现以下任意词的文献直接跳过(现为空)
 # 用法示例:想屏蔽某方向,加一行如 - "brown dwarf"
 exclude_title: []
+# 行星门槛:标题+摘要必须含以下任一词才收录,挡住恒星等非行星论文
+require_any:
+  - "planet"
+  - "asteroid"
+  - "comet"
+  - "Kuiper"
+  - "trans-Neptunian"
 
 # arXiv 设置
 arxiv:
