@@ -1,4 +1,386 @@
 {
+ "2026-07-16": [
+  {
+   "id": "arxiv:2607.13867",
+   "title": "Cradle of Life: From the Formation of Stars to Habitable Worlds with the SKAO",
+   "abstract": "This chapter provides an overview of the different science cases covered by the \"Cradle of Life\" working group, which aims to leverage the capabilities of the Square Kilometre Array Observatory (SKAO) to trace the physical and chemical pathways toward stars and planets formation, how such stars impact their planets, and whether life could exist in such conditions. At its highest frequencies, the SKAO will probe the earliest stages of the raw material fuelling planet formation, while enabling deep, unprecedented searches for prebiotic molecules both in high-mass and solar-type protostars. Concurrently, the lowest frequencies will be deployed to detect and characterize exoplanetary magnetic fields via their auroral radio emission, and the type of space weather a planet experiences from its host star. Across the entire frequency range, the SKA telescopes will conduct systematic searches of technosignatures. Together, these high-impact research areas establish a comprehensive roadmap for the SKAO to uncover the origins of life in the universe.",
+   "authors": [
+    "Eleonora Bianchi",
+    "Joseph R. Callingham",
+    "the Cradle of Life working group"
+   ],
+   "link": "https://arxiv.org/abs/2607.13867v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究综述了SKAO在行星动力学研究中的应用,涵盖恒星和行星形成的物理化学过程、恒星对行星的影响以及潜在宜居条件的探测。SKAO将通过高频段探测行星形成的原始物质和有机分子,通过低频段探测系外行星磁场及其经历的空间天气,全频段搜索技术特征信号。这些研究为揭示宇宙中生命起源提供了全面的观测路线图。"
+  },
+  {
+   "id": "arxiv:2607.13740",
+   "title": "GRACE-DG: A Discontinuous Galerkin method-based code for general non-linear coagulation-fragmentation equations",
+   "abstract": "Dust plays a crucial role in protoplanetary disks (PPDs) evolution and planet formation, influencing disk dynamics through gas-dust coupling, regulating disk temperature by dominating continuum opacity, and altering disk ionization fraction by capturing free electrons. In this work, we develop a high-order discontinuous Galerkin (DG) method-based open-source code GRACE-DG to solve the collision-induced coagulation-fragmentation equations. In particular, we have derived a new conservative formulation for the non-linear fragmentation term, which enables the DG method to capture the mass transfer process. The new solver exhibits good convergence in coupled aggregation and breakage simulations, making it highly suitable for future integration into hydrodynamic codes.",
+   "authors": [
+    "Jing Yang",
+    "Zhuo Chen",
+    "Xue-Ning Bai"
+   ],
+   "link": "https://arxiv.org/abs/2607.13740v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究针对原行星盘中尘埃演化过程，开发了基于间断Galerkin方法的高阶数值求解器GRACE-DG，用于求解碰撞诱导的非线性凝聚-破碎方程。关键创新在于推导了新的保守形式的破碎项表述，使该方法能准确捕捉质量传递过程。该求解器在聚合与破碎耦合模拟中表现出良好的收敛性，为未来集成到流体动力学模型中奠定了基础。"
+  },
+  {
+   "id": "arxiv:2607.13629",
+   "title": "Advanced Techniques in Stability Analysis of Trans-Neptunian Objects",
+   "abstract": "The trans-Neptunian region (30-50 AU) is a dynamically structured reservoir of icy planetesimals whose orbital architecture reflects resonant dynamics, chaotic transport, and long-term gravitational sculpting by the giant planets. This review synthesizes recent developments in the dynamical investigation of trans-Neptunian objects (TNOs), with an emphasis on mean-motion and secular resonances, as well as chaotic diffusion, in a system whose growing observational census makes it an ideal testbed for chaos detection methods. Classical indicators, including Lyapunov exponents, MEGNO, SALI/GALI, and frequency map analysis, provide the quantitative backbone for mapping TNO phase space and are complemented by modern approaches such as Lagrangian descriptors, the FAIR resonance identification method, entropy-based chaos indicators, and recurrence plot divergence methods. An anomalous diffusion framework, in which mean squared displacement scales as a power law in time, further enables classification of sub- and superdiffusive orbital transport. Machine learning has emerged as a powerful complement to traditional dynamical methods: surrogate classifiers, deep neural network solvers, and hybrid physics-data-driven frameworks together extend reliable prediction horizons in chaotic regimes and open new routes for Bayesian inference of migration scenarios. The review concludes that the most promising path forward lies in hybrid dynamical-statistical frameworks anchored to Hamiltonian dynamics, enabling efficient exploration of high-dimensional parameter spaces informed by the expanding body of trans-Neptunian observations.",
+   "authors": [
+    "Tamás Kovács"
+   ],
+   "link": "https://arxiv.org/abs/2607.13629v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究综合了跨海王星天体(TNOs)轨道稳定性分析的最新进展，采用Lyapunov指数、MEGNO、Lagrangian描述子、频率图分析等多种混沌指示方法，结合异常扩散框架来刻画共振动力学和混沌输运过程。研究引入机器学习、深度神经网络和物理-数据混合驱动框架等现代技术，扩展了高维参数空间中的预报能力并支持巨行星迁移情景的贝叶斯推断。研究提出融合哈密顿动力学与统计方法的混合框架为未来发展方向，为利用不断增长的观测数据约束跨海王星区域的长期动力学结构提供了系统工具。"
+  },
+  {
+   "id": "arxiv:2607.13545",
+   "title": "SaNDi-SHoP: Searching for Satellites'N'Disks with a Star-Hopping Program II. Spectrophotometric analysis and orbital monitoring of directly imaged companions",
+   "abstract": "Over the past decade, advances in high-contrast imaging instrumentation, coupled with extreme adaptive optics systems, have enabled the discovery of tens of planets and brown dwarfs orbiting at wide separations from their host stars (a larger than 10 au). The existence of companions at these separations challenges current planet-formation paradigms, highlighting the importance of high-contrast imaging as the only technique capable of directly probing this region of planetary systems. In this paper, we present a survey of thirteen planets and brown dwarfs observed with VLT/SPHERE between June 2023 and July 2025. These data provide updated photometry in the 1.0-1.7 micron range and new high-precision astrometry, enabling tighter constraints on their orbital properties. We used the IRDIS subsystem to acquire dual-band H2H3 images (H2 = 1.593 microns, H3 = 1.667 microns) for all companions in our sample. For the three objects located within the IFS field of view (GQ Lup B, PZ Tel B, and HD 984 B), we additionally obtained low-resolution (R ~ 50) near-infrared (0.96-1.34 micron) spectra. We combined our new astrometric measurements with those available in the literature to derive updated orbital solutions. The orbital fitting was performed using the orbitize! Python package. For CT Cha b, HIP 78530 B, HIP 64892 B, and RX J1609.5-2105 b, this work provides the first orbital solutions to date. We derived new photometry for all objects, which, when compared with field dwarfs in color-magnitude diagrams, indicates spectral types ranging from mid-M to mid-L. For the companions observed with IFS, their spectra are best matched by those of M6-M8.5 field dwarfs. Our updated orbital fits provide tighter constraints for nearly all companions and are consistent with non-circular orbits in all cases, potentially disfavoring core-accretion formation within their circumstellar disks.",
+   "authors": [
+    "Andrea Bernardi",
+    "Alice Zurlo",
+    "Cecilia Lazzoni",
+    "Silvano Desidera",
+    "Dino Mesa",
+    "Sebastian Pérez",
+    "Pedro Henrique Nogueira",
+    "Domenico Barbato",
+    "Anuroop Dasgupta"
+   ],
+   "link": "https://arxiv.org/abs/2607.13545v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用VLT/SPHERE高对比成像观测了13个宽轨道分离的系外行星和褐矮星伴星，在1.0-1.7微米波段获取了更新的测光数据和高精度位置天文学测量，并利用orbitize!软件包结合文献数据推导了它们的轨道解。研究发现这些伴星的光谱类型范围从中M型到中L型，新的轨道拟合结果表明所有伴星均具有非圆形轨道特征，这可能不利于它们在原行星盘内的核心吸积形成机制。"
+  },
+  {
+   "id": "arxiv:2607.13333",
+   "title": "Revisiting TOI-4438 and TOI-442 planetary systems with new observations from SPIRou and TESS",
+   "abstract": "We present a comprehensive re-analysis of two star-planet systems: TOI-4438, an M3.5V star hosting a mini-Neptune in a 7.4-day orbit, and TOI-442, an M1V star with a 4-day period planet located within the hot Neptune desert. Both systems were originally identified as transiting planet candidates by TESS and subsequently validated through the radial velocity (RV) method. Our work incorporates new TESS transit data and high-resolution spectroscopy from the SPIRou near-infrared spectropolarimeter. We detect a persistent and relatively strong Zeeman signature in TOI-442, while TOI-4438 exhibits weaker and intermittent magnetic activity, and we infer the stellar rotation periods of both stars from the variability of the longitudinal magnetic field. We jointly fit photometry and RV models for each system. For TOI-4438\\,b we combine archival CARMENES data with 81 SPIRou observations and five TESS sectors. This yields a refined planetary mass of $M_{\\rm p} = 4.11^{+0.40}_{-0.38}\\,M_{\\oplus}$ and a radius of $R_{\\rm p} = 2.40^{+0.09}_{-0.10}\\,R_{\\oplus}$, consistent with the previous estimate within 1.1$σ$ while improving by 53\\% the precision on the mass and 22\\% on the radius. For TOI-442\\,b, we add 29 SPIRou RV measurements to an extensive archival dataset, significantly extending the temporal baseline. With a new TESS sector, we tighten the mass to $M_{\\rm p} = 28.38^{+0.77}_{-0.73}\\,M_{\\oplus}$ and radius to $R_{\\rm p} = 4.25^{+0.10}_{-0.08}\\,R_{\\oplus}$, which agrees to the previous values within 1.5$σ$ and improves the precisions by 46\\% and 67\\% respectively. We find no clear signs of additional planets in the available RV data, although we detect a single-transit event in the TOI-4438 light curve. We compare various RV models and find that those accounting for stellar variability-induced signals yield improved constraints on the planetary parameters.",
+   "authors": [
+    "J. Serrano Bell",
+    "G. Hébrard",
+    "E. Martioli",
+    "R. F. Díaz",
+    "L. de Almeida",
+    "D. Lorenzo-Oliveira",
+    "A. Salmi",
+    "C. Dorn",
+    "M. Valatsou",
+    "A. Carmona",
+    "M. Ould-Elhkim",
+    "L. Arnold",
+    "É. Artigau",
+    "I. Boisse",
+    "X. Bonfils",
+    "C. Cadieux",
+    "Z. Chakir",
+    "N. J. Cook",
+    "X. Delfosse",
+    "J. -F. Donati",
+    "R. Doyon",
+    "N. Heidari",
+    "J. M. Jenkins",
+    "F. Kiefer",
+    "S. Lafrance",
+    "A. L'Heureux",
+    "C. Moutou",
+    "J. Morneau",
+    "X. Vandelac"
+   ],
+   "link": "https://arxiv.org/abs/2607.13333v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究综合利用TESS新增凌星观测数据和SPIRou高分辨率光谱，对两个M矮星行星系统TOI-4438和TOI-442进行了重新分析，通过联合拟合光度和径向速度数据，同时考虑恒星磁活动诱导的信号，分别将TOI-4438b和TOI-442b的质量精度提高了53%和46%，半径精度提高了22%和67%。研究发现TOI-442具有持续的磁场信号而TOI-4438磁活动较弱间歇，这些磁活动特征对精确约束行星参数有重要影响，为理解M矮星附近迷你海王星和热海王星的形成提供了关键约束。"
+  },
+  {
+   "id": "arxiv:2607.13167",
+   "title": "Probing Planet Formation with JWST Spectroscopy of IC348: Sustained Diversity but Limited Chemical Evolution and Pebble Drift",
+   "abstract": "Inner disk chemistry offers a valuable window onto disk evolution and planet formation. Key planet formation processes, including pebble drift, planetesimal and planet formation, dust traps, and snow lines, determine the delivery rates of oxygen and carbon to the inner disk. As a result, measurements of molecules sensitive to the gas-phase C/O ratio, in disks over a range of ages, can constrain the relative importance and time evolution of these processes. Here we report JWST/MIRI observations of T Tauri disks in the young cluster IC 348, extending to older ages previous studies of disks. Like younger disks, IC 348 sources show a broad range of molecular ratios, indicating diverse planet formation histories. However, the similar HCN/H$_2$O and C$_2$H$_2$/H$_2$O flux ratio distributions of IC 348 (2--5 Myr old) and Taurus (1--2 Myr old) sources imply little to no evolution in the inner disk C/O ratio over this time interval, even as disk masses decline by a factor of 5 on average. This result contradicts the general prediction of increasing C/O ratio with time in models of disk chemical evolution, indicating the need to better understand the interplay between (and efficiencies of) planet formation and disk evolution processes. We also find that the cold-to-warm water flux ratios show no evolution and do not correlate with the hydrocarbon-to-water ratios. These results suggest that most inner T Tauri disks are not dominated by rapid icy pebble drift and avoid the ''meter-size barrier problem'' once thought to be an obstacle to planet formation.",
+   "authors": [
+    "John S. Carr",
+    "Joan R. Najita"
+   ],
+   "link": "https://arxiv.org/abs/2607.13167v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "disk evolution",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI观测年轻星团IC 348中不同年龄(2-5 Myr)的T Tauri盘,通过测量HCN/H₂O、C₂H₂/H₂O等对气相C/O比敏感的分子来探测行星形成过程(如小行星漂移、尘埃陷阱、雪线等)对内盘化学演化的影响。研究发现IC 348和Taurus盘的分子比例分布相似,表明在盘质量下降5倍的情况下,内盘C/O比在1-5 Myr时间尺度上基本无演化,且冷水和温水的通量比也无明显演化,这与现有盘化学演化模型的预测相悖,同时表明大多数T Tauri盘中小行星快速漂移不占主导,有利于行星形成避免米粒大小障碍。"
+  },
+  {
+   "id": "arxiv:2607.13133",
+   "title": "Photometric Variability and Rotation of Beta Pictoris b from JWST NIRCam Coronagraphic Imaging",
+   "abstract": "We report the detection of photometric variability in the directly imaged super-Jupiter $β$ Pictoris b. Using JWST NIRCam dual-band coronagraphic imaging, we conducted a 16-hour continuous photometric monitoring campaign in the F210M and F410M filters. We developed and validated a time-series photometry framework that combines PSF subtraction, principal component analysis for systematic noise removal, and injection-and-recovery tests to confirm signal fidelity. Both light curves show consistent sinusoidal variability at $\\sim$5$σ$ and $\\gg 5σ$ significance in the F210M and F410M bands, respectively. A joint sinusoidal fit yields a rotation period of $P_{\\rm rot} = 9.00 \\pm 0.13$ hr and variability amplitudes of $0.85 \\pm 0.07\\%$ and $0.89 \\pm 0.04\\%$ in F210M and F410M, respectively. The near-identical amplitudes and periods in both bands confirm a common astrophysical origin in a heterogeneous atmosphere. Combining $P_{\\rm rot}$ with the previously measured projected rotational velocity, we constrain the line-of-sight spin axis inclination of $β$ Pic b. The result favors an equator-on viewing geometry, consistent with line-of-sight spin-orbit alignment: the planetary spin axis, orbital plane, debris disk, and stellar equator are all mutually aligned. This stands in sharp contrast to the large obliquities of wide-separation companions that are likely formed via gravitational fragmentation. Together with the system's young age, this observation provides independent dynamical evidence that $β$ Pic b formed via core accretion. This result constitutes the first detection of rotational modulation in a close-in, high-contrast exoplanet that likely formed via core accretion, demonstrating that time-series coronagraphic imaging with JWST opens a powerful new window onto the rotation, atmospheric dynamics, and spin-orbit architecture of this population.",
+   "authors": [
+    "Yifan Zhou",
+    "Beth A. Biller",
+    "Aarynn L. Carter",
+    "Marshall D. Perrin",
+    "Michael Poon",
+    "Genaro Suárez",
+    "Ben J. Sutlieff",
+    "Johanna M. Vos",
+    "Jason J. Wang",
+    "William O. Balmer",
+    "Marta L. Bryan",
+    "Anthony Boccaletti",
+    "Julien H. Girard",
+    "Eileen C. Gonzales",
+    "Jens Kammerer",
+    "Jarron M. Leisenring",
+    "Paulina Palma-Bifani",
+    "Kevin R. Wagner",
+    "Daniel Apai",
+    "Mickaël Bonnefoy",
+    "Brendan P. Bowler",
+    "Kyle Franson",
+    "Pengyu Liu",
+    "Marcio Meléndez",
+    "Stanimir A. Metchev",
+    "Simon Petrus",
+    "Laurent Pueyo",
+    "Isabel Rebollido",
+    "Andrew J. Skemer",
+    "Xianyu Tan",
+    "Niall Whiteford"
+   ],
+   "link": "https://arxiv.org/abs/2607.13133v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用JWST NIRCam冕状观测对直接成像超木星β Pictoris b进行了16小时连续双波段测光监测，通过PSF减除、主成分分析和注入恢复测试开发了可靠的时间序列光度计框架。研究检测到该行星在两个波段均存在显著的正弦型光度变化，拟合得出自转周期为9.00±0.13小时，据此约束了该行星自转轴倾角为接近赤道面的几何配置，与自转轴-轨道面对齐一致。这一结果与核心吸积成因预言的小倾角形成对比，为β Pic b通过核心吸积而非引力碎裂形成提供了独立的动力学证据，同时展示了JWST时间序列冕状成像在研究类地行星自转和自轨道结构方面的潜力。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8255",
+   "title": "Modeling the Curved Dust Sublimation Front in Protoplanetary Disks: A Potential Probe of Midplane Turbulence",
+   "abstract": "Abstract We present a new approach to calculate the geometry and emission of the dust inner wall in disks around T Tauri stars. This calculation follows a self-consistent approach given the disk structure and adopts a density-dependent sublimation temperature for the dust. We built spectral energy distributions (SEDs) of disk models with curved walls around a 0.5 M ⊙ star, finding that the curved wall starts at a radius of ∼0.11 au and extends to ∼0.38 au. The dependence on mass accretion rate, dust settling, and disk inclination on the resulting SEDs is explored, as well as the impact of the height of the midplane layer containing large millimeter-sized grains. To test our models, we compare synthetic near-IR colors from a grid of disk models with observed colors for a large sample of disk-bearing T Tauri stars located in Taurus, IC 348, and the Orion complex. Most of the observed colors can be explained by combinations of mass accretion rates, dust settling, and inclinations within the expected ranges for T Tauri stars. However, populating the regions where observed JHK colors are most concentrated, requires the millimeter-size grains be spread up to 0.5–3 scale heights above the midplane. This result contradicts expectations of rapid dust settling and suggests a high degree of turbulence capable of lifting large grains toward the upper disk layers. These findings provide insight into the dynamical conditions of the disk midplane near the star.",
+   "authors": [
+    "Ezequiel Manzo-Martínez",
+    "Ramiro Franco Hernández",
+    "Nuria Calvet",
+    "Jesús Hernández",
+    "Paola D’Alessio",
+    "Rosa M. Torres"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8255",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过自洽计算考虑密度依赖的升华温度，建立了T Tauri星周原行星盘尘埃内壁的几何和辐射模型，计算得到弯曲壁面从~0.11 au延伸至~0.38 au。通过对比大样本T Tauri星的观测近红外颜色与模型预测，发现毫米级尘埃需要被湍流抬升至0.5-3个标高高度才能解释观测数据，这表明盘中面存在强湍流，可作为研究行星形成区湍流动力学的潜在探针。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae80a0",
+   "title": "Direct Imaging Discovery of Giant Exoplanet β Pictoris d: A Decade-long Game of Hide-and-seek",
+   "abstract": "Abstract We report the direct imaging discovery of a third exoplanet in the β Pictoris ( β Pic) system. We detect β Pictoris d ( β Pic d) in noncoronagraphic observations obtained with the Very Large Telescope (VLT) Enhanced Resolution Imager and Spectrograph (ERIS), as well as multi-epoch archival datasets from the JWST Near Infrared Camera (NIRCam) and VLT/SPHERE. Astrometric measurements over an 11 yr baseline demonstrate that it is consistent with a gravitationally bound source with orbital motion. Joint multi-planet orbit fits of all three planets in the system yield a semimajor axis of 26 . 0 − 6.1 + 2.2 au and inclination 89 . 0 − 0.6 + 0.7 deg for planet d. β Pic d has a larger orbital semimajor axis than the other known planets in the system, but is coplanar with the inner two planets, and its orbit is consistent with sculpting the inner edge of the debris disk. β Pic d has a contrast of Δ L ′ = 12.11 ± 0.15 mag, with colors and luminosity that closely match those of 51 Eri b, another exoplanet in the β Pic moving group. Its VLT/ERIS and JWST/NIRCam colors are distinct from those of free-floating planetary-mass objects of a similar age and temperature. Its red F410M − F444W color indicates strong CO 2 absorption in its atmosphere and suggests significant enhancement in metals compared to free-floating objects. From the ATMO hot-start evolutionary models, we estimate an effective temperature of 60 0 − 60 + 45 K and mass of 2.4 ± 0.6 M Jup , which also closely matches similar estimates for 51 Eri b. β Pic d is among the lowest-mass exoplanets imaged from the ground. This discovery highlights the deep sensitivity achievable with ground-based imaging in the mid-infrared and the discovery potential of future high-contrast observations with the Extremely Large Telescope.",
+   "authors": [
+    "Ben J. Sutlieff",
+    "Markus J. Bonse",
+    "Valentin Christiaens",
+    "Clémence Fontanive",
+    "Elisabeth C. Matthews",
+    "Luke T. Parker",
+    "Tim D. Pearce",
+    "Jayne L. Birkby",
+    "Beth A. Biller",
+    "Trent J. Dupuy",
+    "Emily O. Garvin",
+    "Leyla Iskandarli",
+    "Jens Kammerer",
+    "Yifan Zhou",
+    "Robert J. De Rosa",
+    "Aarynn L. Carter",
+    "Sasha Hinkley",
+    "Matthew A. Kenworthy",
+    "William O. Balmer",
+    "Iain Hammond",
+    "James Mang",
+    "Caroline V. Morley",
+    "Mark J. Neeser",
+    "Olivier Absil",
+    "Anthony Boccaletti",
+    "Mariangela Bonavita",
+    "Brendan P. Bowler",
+    "Xueqing Chen",
+    "Felix A. Dannert",
+    "Julien H. Girard",
+    "Markus Kasper",
+    "Anne-Marie Lagrange",
+    "Pengyu Liu",
+    "Gilles Orban de Xivry",
+    "Michael Poon",
+    "Sascha P. Quanz",
+    "Benoît Serra",
+    "Johanna M. Vos",
+    "Kevin Wagner",
+    "Jason Wang",
+    "Bernhard Schölkopf",
+    "Guido Agapito",
+    "Alex Agudo Berbel",
+    "Dániel Apai",
+    "Andrea Baruffolo",
+    "Martin Black",
+    "Marco Bonaglia",
+    "Runa Briguglio",
+    "Yixian Cao",
+    "Luca Carbonaro",
+    "Lee Chapman",
+    "Giovanni Cresci",
+    "Yigit Dallilar",
+    "Richard Davies",
+    "Matthias Deysenroth",
+    "Ivan Di Antonio",
+    "Amico Di Cianno",
+    "Gianluca Di Rico",
+    "David Doelman",
+    "Mauro Dolci",
+    "Frank Eisenhauer",
+    "Simone Esposito",
+    "Debora Ferruzzi",
+    "Helmut Feuchtgruber",
+    "Natascha Förster-Schreiber",
+    "Kyle Franson",
+    "Reinhard Genzel",
+    "Stefan Gillessen",
+    "Eileen C. Gonzales",
+    "Michael Hartl",
+    "Jean Hayoz",
+    "Heinrich Huber",
+    "Christoph Keller",
+    "Kateryna Kravchenko",
+    "Jarron Leisenring",
+    "John Lightfoot",
+    "David Lunney",
+    "Dieter Lutz",
+    "Mike Macintosh",
+    "Filippo Mannucci",
+    "Stanimir Metchev",
+    "Thomas Ott",
+    "David Pearson",
+    "Alfio Puglisi",
+    "Sebastian Rabien",
+    "Christian Rau",
+    "Armando Riccardi",
+    "Bernardo Salasnich",
+    "Taro Shimizu",
+    "Frans Snik",
+    "Eckhard Sturm",
+    "Genaro Suárez",
+    "Linda Tacconi",
+    "Xianyu Tan",
+    "William Taylor",
+    "Christopher Waring",
+    "Marco Xompero"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae80a0",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过VLT/ERIS、JWST/NIRCam和VLT/SPHERE的多历元观测，利用11年基线的天体测量数据直接成像发现了β Pictoris系统中的第三颗系外行星β Pic d，轨道拟合表明其半长轴为26.0 au、轨道倾角89.0°，质量约2.4 MJup，与该系统内两颗行星共面。β Pic d的大气色彩特征（强CO2吸收）和金属丰度与自由浮动行星质量天体显著不同，其轨道与碎屑盘内边界的形成相符，代表了地基成像在探测低质量系外行星中的极限能力。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae801b",
+   "title": "Discovery of an Exterior Third Planet Orbiting β Pictoris",
+   "abstract": "Abstract We report the discovery of β Pictoris d ( β Pic d), a third giant planet in the β Pictoris system, which now becomes only the second directly imaged system with more than two confirmed planets. β Pic d was serendipitously detected in JWST/NIRSpec integral field unit observations. A second epoch of NIRSpec and MIRI medium-resolution spectrometer observations confirms the initial discovery. The extracted spectrum shows clear CH 4 , CO, and H 2 O absorption features, and the planet’s measured radial velocity is consistent with its orbital position. Radial velocity and astrometry measurements combined with orbital stability simulations suggest a semimajor axis >30 au, consistent with β Pic d being responsible for carving the inner edge of the β Pictoris debris disk. Using effective temperature estimates from atmospheric model grid fits combined with evolutionary models, we estimate a mass of ∼2–4 M Jup . β Pic d is the first planet discovered using spectral template matching with moderate-resolution spectroscopy, highlighting its sensitivity to planetary molecular features hidden within bright extrasolar debris disks that are difficult to access with broadband imaging.",
+   "authors": [
+    "Aidan Gibbs",
+    "Jean-Baptiste Ruffio",
+    "Alexis Bidot",
+    "Travis S. Barman",
+    "Clarissa R. Do Ó",
+    "Quinn M. Konopacky",
+    "Marshall D. Perrin",
+    "Aneesh Baburaj",
+    "Beck Dacus",
+    "Bruce Macintosh",
+    "Alex Madurowicz",
+    "Jerry W. Xuan"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae801b",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "astrometry"
+   ],
+   "summary_zh": "本研究通过JWST/NIRSpec积分视场单元观测在β Pictoris系统中发现了第三颗巨行星β Pic d，利用光谱特征匹配、径向速度和天体测量数据约束其轨道参数（半长轴>30 au）和质量（~2–4 MJup），该行星可能负责雕刻碎屑盘内边界。这一发现展示了中分辨率光谱学在明亮碎屑盘中探测行星分子特征的敏感性，使β Pictoris成为第二个确认拥有三颗以上行星的直接成像系统。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659612",
+   "title": "MUSE imaging spectroscopy of the fullerene planetary nebula Tc 1",
+   "abstract": "The planetary nebula Tc 1 (PN G345.2 -08.8), one of the rare group of Galactic PNe showing fullerene emission in the infrared, is spatially extended with high a surface brightness. Optical imaging spectroscopy enables the line and continuum structure and diagnostics to be examined, and permits a search for any correlations to the presence of fullerene dust. Tc 1 was observed with MUSE wide field mode with adaptive optics, wavelength range 4700--9300,Å, at three exposure levels to ensure unsaturated emission lines. Extinction, electron temperature (T_ e), and density (N_ e) diagnostic images are presented from collisionally excited and recombination line ratios. The nebula has a high surface brightness core, with a diameter 12$''$, an elliptical ring of major axis 2.8$''$ around the central star and some low ionization knots, and an extended halo of 55$''$ in diameter; between the core and halo is an annulus with intermediate properties, including a higher T_ e and a lower N_ 7281/6678,Å line ratio, possibly caused by a contaminating line, but none have been conclusively identified; its origin remains unresolved. Spectra over extended regions were also analysed and distinct enhancement of the continuum above the expected nebular continuum (as also seen in some other PNe observed with MUSE) was found. e than in the core. The spectrum of the central star was extracted and fitted by a 31000,K model atmosphere and is of type O7.5I(f). The image of optical extinction from H Balmer line ratios is highly structured, and shows an annulus, which is adjacent to the core, of low extinction, with values lower than the line-of-sight interstellar extinction. Instrumental effects to account for this anomalously low extinction area were investigated and intrinsic effects from the scattering properties of the nebular dust; neither can entirely explain the low-extinction region and the most likely cause is a local non-standard dust reddening law. This low extinction region additionally shows an anomalously high He I The annulus of low extinction occurs outside the region of strongest fullerene emission, in the zone where N_ e declines and T_ e rises. A change in dust properties linked to conditions in this transition region between the higher density core nebula and lower density halo is deduced.",
+   "authors": [
+    "J. R. Walsh",
+    "M. J. Barlow",
+    "A. Monreal-Ibero",
+    "J. Cami",
+    "E. Peeters",
+    "R. Wesson",
+    "J. Bernard-Salas",
+    "N. L. J. Cox",
+    "G. F. J. Watt"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659612",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究使用MUSE积分视场光谱仪观测了富勒烯行星状星云Tc 1，获得了其消光、电子温度和密度的诊断图像，揭示了该星云具有复杂的多层结构（致密核心、低电离丝状体、中间圆环和扩展晕）。研究发现星云中间圆环区域存在异常低消光现象，这与该区域独特的尘埃特性和富勒烯分布有关，表明星云中心致密区向外围低密度晕的过渡区存在尘埃性质变化。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117246",
+   "title": "Implantation of icy planetesimals into the main asteroid belt due to the growth and outward migration of giant planets",
+   "abstract": "",
+   "authors": [
+    "Tomoki Takeichi",
+    "Sei-ichiro Watanabe"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117246",
+   "source": "Icarus",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过N体数值模拟探讨了巨行星增长和向外迁移过程中，冰质小行星体如何被注入主小行星带的动力学机制。模拟结果表明，在巨行星轨道扩张阶段，来自更外层的冰质小行星体可被有效地散射和捕获进入主小行星带，这一过程对现今小行星带的组成结构产生了重要影响。该研究揭示了早期太阳系动力学演化与小行星带化学多样性的内在联系。"
+  }
+ ],
  "2026-07-15": [
   {
    "id": "arxiv:2607.12972",
