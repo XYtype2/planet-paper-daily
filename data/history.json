@@ -1,4 +1,59 @@
 {
+ "2026-07-21": [
+  {
+   "id": "doi:10.3847/1538-4357/ae801f",
+   "title": "GEMS JWST: A Subsolar Metallicity Atmosphere for Giant Planet TOI-5293 A b Orbiting a Rapidly Changing M Dwarf",
+   "abstract": "Abstract The growing sample of giant exoplanets around M dwarf stars (GEMS) helps probe the extremes of giant planet formation. Comparing the properties of this sample with their FGK counterparts can help us understand how planet formation and migration depend on stellar mass. We initiated a large Cycle 2 JWST transmission spectroscopy survey of seven GEMS. Here we present the atmospheric characterization using two JWST transits of TOI-5293 A b, a 0.5 M Jup planet orbiting an early M dwarf with a period of ∼3 days. The two NIRSpec/PRISM transits indicate the planet is eclipsing a rapidly changing (heterogeneous) stellar photosphere. We see that Visit 1 had heterogeneity crossings across the entire transit chord, rendering inferences from it to be unreliable. The Visit 1 spectrum exhibits a downward slope at <1 μ m suggestive of stellar contamination from faculae. In contrast, for Visit 2 we are able to model the heterogeneity crossings and obtain a transmission spectrum free from stellar contamination. We therefore limit our conclusions to a detailed analysis of Visit 2, and using Bayesian free chemistry retrievals, we find a low atmospheric metallicity ( log [ M / H ] = − 1.0 3 − 0.44 + 0.53 × solar) and supersolar C/O ratio ( 1.2 3 − 0.75 + 2.94 ). The retrievals yield Bayes factors that indicate strong evidence for CH 4 as well as low-significance detections of CO 2 , H 2 O, and NH 3 . Finally, using thermal evolution models we find that the radius of TOI-5293 A b is inflated above theoretical expectations (∼1.07 R Jup ), despite it having an temperature of ∼700 K, and hence we were unable to constrain its bulk composition.",
+   "authors": [
+    "Shubham Kanodia",
+    "Caleb I. Cañas",
+    "Jacob Lustig-Yaeger",
+    "Giannina Guzmán Caloca",
+    "Nicole L. Wallack",
+    "Simon Müller",
+    "Ravit Helled",
+    "Knicole D. Colón",
+    "Ian Czekala",
+    "Megan Delamer",
+    "Te Han",
+    "Jessica Libby-Roberts",
+    "Anjali A. A. Piette",
+    "Kevin B. Stevenson",
+    "Guđmundur Stefánsson",
+    "Johanna Teske"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae801f",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究利用JWST对绕M矮星TOI-5293 A的巨行星进行了两次凌星传输光谱观测,发现该行星大气具有远低于太阳丰度的金属量(约0.01倍太阳丰度)和超太阳C/O比,强烈检测到甲烷并弱检测到CO₂、H₂O和NH₃。虽然恒星异质性污染使第一次观测数据不可靠,但通过建模消除污染后的第二次观测揭示了行星的低金属量大气组成,尽管热演化模型难以解释其膨胀的半径,这为M矮星周围巨行星的形成机制研究提供了重要约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7d0f",
+   "title": "Toward Instrument-agnostic Exoplanet Candidate Prioritization",
+   "abstract": "Abstract We have developed a novel machine learning (ML) approach for predicting the likelihood of exoplanet candidate confirmation equally capable of performance on both Transiting Exoplanet Survey Satellite (TESS) and Kepler data. From the NASA exoplanet archival postprocessed Kepler and TESS databases, we chose six parameters that we assessed to be predictive to the planet transit signature: planet orbital period ( P ), planet radius ( R p ), stellar temperature ( T eff ), stellar radius ( R ⋆ ), planet transit depth ( δ ), and planet transit duration ( t d ). We used these parameters to evaluate eleven different ML models on all possible train/test combinations of TESS and Kepler data, using the confirmed planet and false positive (FP) labels as our training targets. We found that, due to substantially different distributions of our chosen parameters in Kepler and TESS databases, models trained with data from one instrument have difficulty predicting the other. However, models trained jointly with both TESS and Kepler data can perform well on both. We combined our best models into a statistically robust ensemble to evaluate the planet candidates in both Kepler and TESS, and we provide a list of the top candidates predicted by our model for each. Confirmed planets and FPs that have been resolved since the completion of our analysis demonstrate the effectiveness of our model and suggest that our top candidates are likely to be confirmed if they are further analyzed by the community. With the upcoming launch of the Nancy Grace Roman Space Telescope (Roman) and the expected order-of-magnitude increase in planet candidates, we suggest that our method can be extended to Roman data for robust and effective prioritization for analysis.",
+   "authors": [
+    "Vivaswan Kopparapu",
+    "Sibasish Laha",
+    "Brian P. Powell",
+    "Veselin Kostov",
+    "Rajarshi Basak",
+    "Samuel Verbrugge"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7d0f",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究开发了一种机器学习方法，利用行星轨道周期、半径、恒星有效温度、半径、凌日深度和持续时间等六个参数，在联合TESS和Kepler数据训练下实现了对系外行星候选体确认可能性的仪器无关预测。研究发现单一仪器数据训练的模型难以跨平台应用，但联合训练的集合模型在两个数据集上均表现良好，能够有效识别高优先级的行星候选体。该方法可扩展到未来的Roman望远镜数据，为大规模行星候选体的优先级排序提供了可靠的工具。"
+  }
+ ],
  "2026-07-19": [],
  "2026-07-18": [
   {
