@@ -1,4 +1,49 @@
 {
+ "2026-07-23": [
+  {
+   "id": "doi:10.3847/1538-4357/ae839b",
+   "title": "The Architecture of the 14 Herculis System Suggests Primordial Ejection of a Massive Planet",
+   "abstract": "Abstract The 14 Herculis (14 Her) system hosts two super-Jupiters on eccentric, significantly misaligned orbits. This orbital architecture represents a dynamical puzzle that demands explanation. In this work, we reproduce the system’s dynamical history and current architecture using a large suite of N -body simulations of planet–planet scattering. Our results demonstrate that planet–planet scattering is able to reproduce 14 Her’s peculiar orbital architecture, but only if additional massive bodies were initially present in the system that were subsequently ejected. The mass of any such ejected planet can in turn constrain the system’s initial configuration. We also analyze the present-day secular evolution of the system and conclude that while there are most likely nontrivial eccentricity and inclination oscillations currently occurring, the magnitudes of these oscillations are not strong enough to allow tidal forces to meaningfully alter the system’s architecture. Finally, we discuss how forthcoming observations from future Gaia data releases and the Roman mission may situate 14 Her’s dynamical history within a broader, population-level framework.",
+   "authors": [
+    "Tiger 均 Lu 陆",
+    "Sarah C. Millholland",
+    "Malena Rice",
+    "Brennen Black",
+    "Daniella C. Bardalez Gagliuffi",
+    "William O. Balmer",
+    "Laurent Pueyo",
+    "Mark R. Giovinazzi",
+    "Timothy D. Brandt"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae839b",
+   "source": "The Astrophysical Journal",
+   "category": "散射与动力学演化",
+   "matched": [
+    "planet-planet scattering",
+    "ejected planet"
+   ],
+   "summary_zh": "本研究通过大规模N体行星-行星散射模拟再现了14 Herculis系统中两颗超木星高离心率且显著失调轨道的动力学历史,结果表明该系统独特的轨道构型只有在初始存在额外的大质量行星随后被弹出时才能解释。通过约束被弹出行星的质量,可以进一步限制系统的初始构型;同时分析表明目前系统中虽存在非平凡的偏心率和倾角振荡,但其幅度不足以使潮汐力显著改变系统结构。未来Gaia和Roman任务的观测数据将有助于在种群水平上理解该系统的动力学演化。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1363",
+   "title": "Disc Fragmentation. III. The need for a new paradigm for formation of planets within close binary systems",
+   "abstract": "Abstract Dozens of planets and brown dwarfs are known to orbit one component of tight stellar binaries (abin ≲ 20 au), despite circumstellar discs in such systems being truncated to radii of only ~(0.2 − 5) au. This presents a challenge to classical planet formation models, which assume planets form after their host stars within stable discs. We propose instead that planet formation and binary formation are concurrent outcomes of gravitational fragmentation in massive circumstellar discs. In this scenario, rapid disc growth driven by infall from the parent molecular cloud leads to fragmentation at radii of tens of au, producing planetary-mass objects that migrate inward. Continued disc growth produces a dominant ”oligarch” fragment that undergoes accretion runaway to become the secondary star. During this process, dynamical interactions eject many lower-mass planets, producing free-floating planets (FFPs), while others survive if they migrate sufficiently close to the primary star before destabilisation. Using numerical simulations, we show that survival depends strongly on formation time and mass. Planets formed early and those with masses ≳ 1 − 3 MJ are preferentially retained, whereas lower-mass planets (≲ 0.1 MJ) are typically ejected. This mechanism naturally explains why low-mass planets are more deficient in tight binaries than gas giants, and predicts that FFPs have a steeper mass function than bound planets within binaries.",
+   "authors": [
+    "Luyao Zhang",
+    "Sergei Nayakshin",
+    "Clement Baruteau",
+    "Philippe Thebault",
+    "Eduard I Vorobyov"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1363",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "散射与动力学演化",
+   "matched": [
+    "free-floating planet"
+   ],
+   "summary_zh": "本研究提出了紧密双星系统中行星形成的新范式：行星和伴星并发产生于大质量原行星盘的引力碎裂，而非传统的盘内顺序成长模型。通过数值模拟，我们证明早期形成的大质量行星（≳1-3 MJ）倾向于存活并向内迁移至主星附近，而低质量行星（≲0.1 MJ）则常被动力学相互作用抛出，形成自由浮动行星。该机制自然解释了为何低质量行星在紧密双星中的亏损现象，并预测自由浮动行星的质量函数陡峭于束缚行星。"
+  }
+ ],
  "2026-07-22": [
   {
    "id": "arxiv:2607.18683",
