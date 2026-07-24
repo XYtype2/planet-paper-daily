@@ -1,4 +1,388 @@
 {
+ "2026-07-24": [
+  {
+   "id": "arxiv:2607.21350",
+   "title": "Magnetohydrodynamical opening of dust traps in protoplanetary disks",
+   "abstract": "Observed ring-like structures in protoplanetary disks are often interpreted as local pressure maxima, which induce efficient dust concentration. We revisit this paradigm, considering the effect of the large-scale magnetic field stresses on the gas rotation speed. Our simulations show that the magnetic field can be dynamically strong and cause $1-2$% deviation from the Keplerian rotation at the periphery of a typical turbulent disk with dust grains of size $> 1\\,μ$m. This effect increases the inward drift speed of large grains characterized by Stokes number of $0.01-0.1$ by up to two times in our simulations. Importantly, such MHD deviation from the Keplerian rotation does not depend on the local gas pressure gradient and leads to drift towards the star only. The fast drift induced by this effect can cancel out the outward drift caused by the positive pressure gradient at the inner edge of a ring and open up the dust trap. For the disks with turbulence parameter $α=10^{-3}$, this effect appears in the rings with a half-width of $10$ au and a density contrast up to $60$% ($200$% for $α=10^{-2}$). Thus, the presence of a large-scale magnetic field in protoplanetary disks either completely prevents or imposes stricter conditions for dust accumulation and the onset of the streaming instability in the density rings in protoplanetary disks.",
+   "authors": [
+    "Sergey Khaibrakhmanov",
+    "Vitaly Akimkin"
+   ],
+   "link": "https://arxiv.org/abs/2607.21350v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过磁流体动力学模拟揭示了大尺度磁场对原行星盘中尘埃陷阱的影响机制:磁场应力导致气体偏离开普勒旋转(1-2%),使大颗粒(Stokes数0.01-0.1)的向内漂移速度增加高达两倍,足以抵消压力梯度诱导的向外漂移,从而破坏尘埃浓聚。结果表明磁场的存在对原行星盘中密度环内的尘埃积累和流不稳定性起始设置了更严格的条件,可能完全阻止尘埃陷阱的形成。"
+  },
+  {
+   "id": "arxiv:2607.20747",
+   "title": "The Effects of Magnetic Accretion on the Spatial Extent of White Dwarf Pollution",
+   "abstract": "Many white dwarfs are polluted by metals, which are generally understood to be the accreted remnants of a planetary system. Modeling these systems typically assumes that the metal concentration is homogeneous throughout the white dwarf's atmosphere. However, the magnetic fields of a white dwarf may affect the accretion geometry of the white dwarf via magnetospheric accretion. Convection in the white dwarf's photosphere will then transport the metals across the surface, with a structure set by the relative sinking versus spreading timescales. In this work, we construct models for the accretion geometry, subsequent spreading, and observed pollution of magnetic white dwarfs. We show that the magnetic fields will initially concentrate the pollution into a narrow region of the white dwarf's surface. The relative spreading and sinking timescales determine whether the metals become uniformly distributed or remain confined to localized patches. If the magnetic field and spin poles are misaligned, then patchy white dwarfs exhibit periodically variable pollution signatures, which enable constraints on the patch area. We explore this model as a possible explanation for the recent detection of periodically variable pollution signatures in magnetic white dwarfs. Finally, we also demonstrate that the concentration of material due to the magnetic field may lead to systematic underestimates of the mass accretion rate onto these objects.",
+   "authors": [
+    "Dang Pham",
+    "Aster G. Taylor",
+    "Tim Cunningham"
+   ],
+   "link": "https://arxiv.org/abs/2607.20747v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究调查了磁场对白矮星吸积几何结构和污染分布的影响，通过构建磁化吸积、光球对流扩散和表面污染分布的耦合模型，揭示磁场会将吸积金属初步集中在白矮星表面狭窄区域，其后续扩散取决于金属下沉与扩散时间尺度的相对大小。研究表明，当磁轴与自转轴不对齐时，白矮星表面的斑块结构会导致周期性变化的污染特征，从而能够解释最近观测到的磁白矮星污染变化周期性现象，同时揭示磁场浓聚效应可能导致对这些天体质量吸积率的系统性低估。"
+  },
+  {
+   "id": "arxiv:2607.20673",
+   "title": "Statistics on the population of distant substellar companions to nearby stars",
+   "abstract": "Context. Wide substellar companions provide important benchmarks for studying the formation and evolution of brown dwarfs and giant planets. Their association with stellar primaries also provides age and metallicity constraints that are difficult to obtain for isolated objects. Aims. We investigate the population of wide substellar companions to nearby main-sequence stars using proper motions derived from multi-epoch WISE imaging. Our sample includes 2103 stars within 20 pc and is sensitive to companions down to $\\sim300$ K at separations up to 20,000 AU. Methods. We use a Bayesian Markov Chain Monte Carlo (MCMC) analysis to constrain the companion mass and semi-major axis distributions while accounting for observational selection effects, including the reduced detectability of faint companions. We assume power-law distributions, $d^2n \\propto M^αa^βdM da$. Results. We derive $α=-0.21^{+0.31}_{-0.27}$, $β=-1.38\\pm0.32$, and an occurrence rate of $1.07^{+0.31}_{-0.24}\\%$ for companions with masses of 5--80 $M_J$ at separations of 1,000--20,000 AU. The occurrence rate increases towards smaller separations and for more massive host stars. Conclusions. The inferred companion mass distribution is consistent with previous direct imaging surveys despite differences in target selection. The power-law distributions in both mass and separation also agree with those of stellar binaries. Our sample is about an order of magnitude larger than those of previous imaging surveys, providing the most robust statistical characterisation of wide substellar companions to date. These results support the interpretation that wide substellar companions represent the low-mass extension of the stellar binary population rather than a direct extension of close-in giant planets.",
+   "authors": [
+    "Souleymane Ouedraogo",
+    "Étienne Artigau",
+    "Sié Zacharie Kam",
+    "Orlagh L. Creevey",
+    "Clémence Fontanive",
+    "Neil J. Cook",
+    "René Doyon",
+    "Fabrice Bado"
+   ],
+   "link": "https://arxiv.org/abs/2607.20673v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究利用多历元WISE成像导出的自行数据,对2103颗20 pc内主序星的广角亚恒星伴星种群进行了统计分析,采用贝叶斯MCMC方法在考虑观测选择效应的条件下约束了伴星质量和半长轴分布。结果表明伴星(5-80 $M_J$, 1000-20000 AU分离)的发生率为1.07%,质量和分离的幂律分布指数分别为α=-0.21和β=-1.38,与恒星双星分布一致。这表明广角亚恒星伴星代表恒星双星种群的低质量延伸,而非近距巨行星的直接延伸。"
+  },
+  {
+   "id": "arxiv:2607.20649",
+   "title": "A Quiet Host in an Active Planet-Forming Disk: Optical Spectroscopy of WISPIT",
+   "abstract": "WISPIT 2 is a young pre-main-sequence star hosting a multi-ringed transition disk and two directly imaged protoplanets, including the accreting WISPIT 2b, making it the closest known analogue to PDS 70. We present the first optical spectrum of its central star, obtained with HFOSC on the 2-m Himalayan Chandra Telescope, and derive its atmospheric parameters, test its youth, and constrain its accretion state. We analyse low-resolution spectra with iSpec and validate the pipeline at HFOSC resolution against Gaia FGK Benchmark Stars and K-type pre-main-sequence templates. We measure T_eff = 4551 +/- 150 K, log g = 4.32 +/- 0.18, and a low-resolution, model-dependent global metallicity [M/H] = -0.17 +/- 0.16. The surface gravity and Li I equivalent width support the pre-main-sequence nature of the host. H-alpha remains in net absorption but is partially filled by weak emission at only 1.5-2.0 sigma, approximately 1.1 dex below the expected chromospheric-noise level and therefore consistent with chromospheric activity rather than detectable accretion. We place a 95% upper limit on the stellar accretion rate of 3.6 x 10^-11 solar masses per year, below even the lowest monitored value for PDS 70 and implying a host-to-planet accretion-rate ratio below approximately 18. Both known double-protoplanet hosts therefore show strongly suppressed or undetectable stellar accretion. Larger spectroscopic samples are needed to determine whether this is common in multi-protoplanet transition disks.",
+   "authors": [
+    "C. Swastik",
+    "M. Bestha",
+    "L. S. Sonith",
+    "S. Facchini",
+    "T. Sivarani",
+    "R. K. Banyal",
+    "Z. Wahhaj",
+    "A. Choudhary",
+    "M. Gopinathan",
+    "P. Saraf",
+    "A. Mallick",
+    "M. P. Navaneeth",
+    "S. Biswas",
+    "K. Khushbu"
+   ],
+   "link": "https://arxiv.org/abs/2607.20649v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过喜马拉雅钱德拉望远镜的光学分光观测获得了WISPIT 2系统中心星的首份光谱，测定了其有效温度、表面重力和金属丰度等大气参数，并推断其前主序星性质。研究发现该星的氢-α线主要呈吸收特征，仅有弱发射成分，其恒星吸积率的上限（<3.6×10⁻¹¹ M☉/yr）低于PDS 70，显著低于行星吸积率，表明多原行星系统中恒星吸积被强烈抑制。这一发现为理解行星形成过程中物质在原行星盘中的分布提供了重要约束。"
+  },
+  {
+   "id": "arxiv:2607.20643",
+   "title": "Evidence for a giant companion orbiting Tabby's star",
+   "abstract": "KIC 8462852, also known as Tabby's star, shows deep, irregular flux variations up to 20 per cent in its Kepler light curve. These unusual events show no apparent periodicity. Multi-wavelength observations show the dips are consistent with transiting dust, although its origin remains uncertain. The leading explanation is that dust may originate from a family of exocomets or planetesimal fragments. TESS data reveal a unique, symmetric transit event consistent with a planet or brown dwarf. This would support the theory that incoming exocometary bodies may result from orbital perturbations by a planet. The analysis of the TESS and, archival and newly obtained radial velocity (RV) data, suggests that a companion could orbit around Tabby's star with a period of at least ~1030 d. When combined with the constraints imposed by Kepler and other photometric surveys, we find only five orbital period windows are possible. We conduct observations to follow-up the first two windows, significantly reducing the allowed ranges. Fitting the TESS transit using exocometary models produces a poor fit or the need of physically unrealistic parameters, favouring the giant companion hypothesis. A 2.3 $σ$ detection of $M=9.4^{+4.9}_{-4.1}$ M$_{\\mathrm{Jup}}$ (3$σ$ upper limit < 28.0 M$_{\\mathrm{Jup}}$) at the transit orbital period provides tentative evidence of the companion, but more RV observations are required. Along with the radius $R=1.7\\pm0.1$ R$_{\\mathrm{Jup}}$, the companion would lie in the giant planet-brown dwarf regime. In the future Gaia DR4 astrometry will reveal the nature of this object.",
+   "authors": [
+    "Cristina Madurga-Favieres",
+    "P. A. Strøm",
+    "Thomas G. Wilson",
+    "Neda Heidari",
+    "Flavien Kiefer"
+   ],
+   "link": "https://arxiv.org/abs/2607.20643v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "astrometry"
+   ],
+   "summary_zh": "本研究通过TESS对神秘的Tabby星(KIC 8462852)的观测,发现了一个对称的凌星事件,结合开普勒和径向速度数据分析,提出该星周围可能存在轨道周期~1030天的巨行星或褐矮星伴星。通过排除彗星尘埃模型的物理解释,该伴星假说更好地解释了观测现象,径向速度数据给出了质量为9.4(+4.9/-4.1)木星质量的2.3σ证据。未来的Gaia DR4数据将进一步确认这一伴星的性质,为系外彗星轨道扰动理论提供重要支持。"
+  },
+  {
+   "id": "arxiv:2607.20271",
+   "title": "Planetesimal Formation Across the Stellar Mass Spectrum and its Influence on Exoplanet-Inherited Volatile Budgets",
+   "abstract": "Protoplanetary discs emerging from collapsing molecular clouds are capable of forming planetesimals at the water snowline during both the cloud collapse and Class II disc phases; such a scenario could be responsible for creating the carbonaceous/non-carbonaceous (CC/NC) heterogeneity observed in the Solar System, and bears important implications for emergent planetary compositions. We use 1D simulations of a viscously evolving disc coupled with cloud collapse and planetesimal formation to explore how planetesimal formation during disc build-up varies across the stellar mass spectrum. We find a keen sensitivity of planetesimal formation timing, location, and outcomes on stellar mass. Discs around all investigated stellar masses form planetesimals in the Class II phase, but only the disc around low-mass M-dwarfs ($M_{\\star}=0.1 M_{\\odot}$) fails to form them during the infall phase. There is also a clear chemical heterogeneity in planetesimal populations (water-wet and dry) in discs born from clouds of $M_{\\rm{cloud}} \\geq 0.3M_{\\odot}$ . Discs around low-mass M-dwarfs form and undergo extremely fast pebble drift (t < 2 Myr), forming planetesimals well within the half-life of Aluminium-26. This leads to dehydrated planetesimals in all M-dwarf disc formation cases considered. We argue that the variation in disc evolution across stellar mass makes it hard to pinpoint a common t = 0 for all discs, and that exoplanets emerging from dehydrated planetesimals around low-mass M-dwarfs will be born volatile-poor - potentially explaining the lack of rocky world atmospheres seen by JWST.",
+   "authors": [
+    "Joe Williams",
+    "Sebastiaan Krijt",
+    "Joanna Drążkowska",
+    "Tim Lichtenberg"
+   ],
+   "link": "https://arxiv.org/abs/2607.20271v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc",
+    "disc evolution",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过1D粘性盘演化模拟耦合云坍缩过程,探讨不同恒星质量下原行星盘中微行星形成的时空特征及其对系外行星挥发物含量的影响。研究发现微行星形成的时间、位置和结果对恒星质量高度敏感,特别是在低质量M矮星周围,极快的卵石漂移(t<2 Myr)导致微行星脱水,最终形成的系外行星将呈现挥发物贫乏的特征。这一结果可能解释了JWST观测到的低质量恒星周围岩石行星大气稀缺的现象。"
+  },
+  {
+   "id": "arxiv:2607.20260",
+   "title": "Microlensing Detection and Inference via Learned Bayes Factors",
+   "abstract": "We present a unified framework for gravitational microlensing event detection and parameter inference. Traditional pipelines use deterministic hard cuts on photometric statistics, systematically missing low-magnification events in the finite-source regime. We instead frame detection as Bayesian model comparison using Evidence Networks, which learn calibrated Bayes factors from binary-labeled simulations, and combine this with Neural Posterior Estimation (NPE) for amortized parameter inference. Both share a transformer encoder that handles irregularly-sampled time series without imputation. On simulated Roman Space Telescope data, our Evidence Network achieves $99.9\\%$ detection efficiency with a false-positive rate below $6\\times10^{-4}$ on simulated data with augmentation and noise, but no astrophysical confounders. Gains are most dramatic in the extreme finite-source regime ($ρ\\gtrsim 5$), where detection rates reach ${\\sim}95\\%$ versus ${\\sim}65\\%$ for hard cuts, precisely the short-duration free-floating planet events most constraining for formation scenarios. Our NPE provides calibrated posteriors, working towards real-time analysis at survey scale.",
+   "authors": [
+    "Nolan Smyth",
+    "Laurence Perreault-Levasseur",
+    "Yashar Hezaveh"
+   ],
+   "link": "https://arxiv.org/abs/2607.20260v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "free-floating planet"
+   ],
+   "summary_zh": "本研究提出了一个统一的贝叶斯框架用于引力微透镜事件的检测和参数推断，通过Evidence Networks学习校准的贝叶斯因子进行模型比较，结合神经后验估计实现参数推断，共享变压器编码器以处理不规则采样的时间序列。在模拟的罗曼太空望远镜数据上，该方法在有限源体制（特别是ρ≳5）中的检测效率达到~95%，远超传统方法的~65%，对短时间尺度的自由漂浮行星事件的检测能力显著提升。该方法提供校准的后验分布，为大规模巡天的实时分析奠定基础。"
+  },
+  {
+   "id": "arxiv:2607.20158",
+   "title": "Dust and Gas Transport in Substructured Nonideal MHD Wind-Launching Disks with Embedded Planets",
+   "abstract": "Radial dust transport in protoplanetary disks is a key process shaping planet formation and disk chemistry. We investigate how this transport, along with gas transport, is regulated in wind-launching disks with embedded planets using three-dimensional nonideal MHD simulations. We find that disk substructures do not act as absolute barriers to transport. Low-mass planets leave the disk structure dominated by the magnetic wind, while a Jupiter-mass planet opens a deep gap and drives spiral shocks. However, even in this regime, wind-driven accretion persists; the planet reshapes rather than replaces the magnetically driven flow, leaving the gap intrinsically time-dependent and partially permeable. Early-phase suppression of inward transport is followed by the development of localized, azimuthally intermittent inflow channels that enable continued cross-gap transport. This transport is strongly size-dependent: small grains remain coupled to the gas and readily penetrate the gap, whereas larger grains are efficiently trapped outside the planet. Consequently, a giant planet acts as an efficient but incomplete filter rather than a perfect barrier. These results support a \"leaky gap\" scenario, where radial transport is regulated rather than halted by substructures. Volatile-rich material can be delivered to the inner disk both before gap opening and via continued leakage, providing a natural explanation for the diverse inner disk compositions inferred from JWST. Similarly, pebble isolation during core growth should be viewed as a gradual filtering process rather than a binary transition. More generally, disk substructures are dynamically evolving features whose transport efficiency depends on their physical origin (magnetic versus planet-driven).",
+   "authors": [
+    "Chun-Yen Hsu",
+    "Zhi-Yun Li",
+    "Xiao Hu",
+    "Yisheng Tu",
+    "Min-Kai Lin"
+   ],
+   "link": "https://arxiv.org/abs/2607.20158v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过三维非理想磁流体动力学模拟,调查了具有嵌入行星的风驱动原行星盘中尘埃和气体的径向输运如何被调控。研究发现,盘亚结构并非绝对的输运障碍:低质量行星对磁风驱动流的影响较小,而木星质量行星虽能开启深间隙并驱动螺旋激波,但风驱动吸积仍然持续,行星只是改变而非替代磁驱动流,使间隙保持时间依赖和部分通透。小颗粒与气体耦合易于穿过间隙,而大颗粒被有效困在行星外,表明巨行星作为高效但不完全的筛选器而非完美屏障,支持了\"漏泄间隙\"情景。这一发现解释了JWST观测到的内盘成分多样性,同时表明盘亚结构的输运效率取决于其物理起源。"
+  },
+  {
+   "id": "arxiv:2607.19775",
+   "title": "A Search for Exoplanets around Northern Circumpolar Stars X. The origin of radial velocity variations in the evolved star HD 216595",
+   "abstract": "Detecting planetary companions around evolved stars, particularly asymptotic giant branch (AGB) stars, is challenging due to intrinsic stellar variability such as surface convection, pulsations, and mass loss, which can produce radial velocity (RV) signals that mimic Keplerian motion. We investigate the origin of long-period, low-amplitude RV variations observed in the AGB star HD 216595 based on high-resolution spectroscopic data spanning approximately 16 years obtained with the Bohyunsan Optical Astronomy Observatory Echelle Spectrograph (BOES) and the Las Cumbres Observatory Network of Robotic Echelle Spectrographs (NRES) instruments. The RV measurements reveal a statistically significant periodic signal at 567 days that can be described by a Keplerian model consistent with a substellar companion. However, no strong correlations are found between the RV variations and stellar activity indicators, including line bisectors, chromospheric activity, and photometric variability, although weak signals at similar timescales are present in some diagnostics. Given the stellar properties of HD 216595 and similarities to previously reported cases, the observed RV variations are likely related to intrinsic stellar processes, although a companion-induced origin cannot be definitively ruled out. Further progress will require improved diagnostics and more sophisticated modeling to disentangle stellar variability from genuine orbital signals.",
+   "authors": [
+    "Sang-Hee Kim",
+    "Byeong-Cheol Lee",
+    "Shenghong Gu",
+    "Jae-Rim Koo",
+    "Beomdu Lim",
+    "Myeong-Gu Park",
+    "Huan-Yu Teng",
+    "Yeon-Ho Choi",
+    "David Mkrtichian",
+    "Tae-Yang Bang",
+    "Hyeong-Ill Oh",
+    "Heon-Young Chang"
+   ],
+   "link": "https://arxiv.org/abs/2607.19775v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过16年的高分辨率光谱观测数据调查演化星HD 216595中长周期低振幅径向速度变化的起源，在567天周期发现了与开普勒轨道运动相符的统计显著信号。然而，径向速度变化与恒星活动指标（如线平分线、色球活动和测光变率）之间缺乏强相关性，表明观测信号可能主要源于恒星本身的内禀过程（如对流和脉动）而非行星伴星，但行星起源也不能完全排除。"
+  },
+  {
+   "id": "arxiv:2607.19756",
+   "title": "CAFE follow-up of TESS hot Jupiter candidates left behind: I. Five newly confirmed planets and a false positive",
+   "abstract": "Hot Jupiters are key targets for understanding planet formation, migration, and atmospheres. Yet, most ground-based follow-up resources for the TESS mission are focused on confirming low-mass planet candidates, leaving many giant planets without mass determinations or definitive confirmation. We use the \\cafe{} spectrograph at Calar Alto Observatory to monitor the radial velocity of stars hosting hot-Jupiter candidates that have received little follow-up, aiming to confirm their planetary nature. We present results for seven candidates. We monitored the radial velocity of TOI-603, TOI-1137, TOI-1837, TOI-2114, TOI-4492, TOI-5806, and TOI-5811, jointly modeling the CAFE radial velocities and TESS photometry to determine the nature and properties of the transiting objects. We confirm five new planets: TOI-603 b ($33.0^{+6.5}_{-6.2}$ M$_{\\oplus}$, $16.2$ d), TOI-2114 b ($1.01^{+0.14}_{-0.12}$ M$_{\\rm Jup}$, $6.2$ d), TOI-4492 b ($5.92^{+0.67}_{-0.64}$ M$_{\\rm Jup}$, $4.4$ d), TOI-5806 b ($2.77^{+0.34}_{-0.32}$ M$_{\\rm Jup}$, $3.2$ d), and TOI-5811 B b ($0.81^{+0.11}_{-0.10}$ M$_{\\rm Jup}$, $6.3$ d). TOI-603 b lies in the \"Neptune savanna\", whereas the other four are hot Jupiters orbiting slightly evolved stars. We find TOI-5811.01 to be a planet transiting the nearby bound companion TOI-5811 B (hence TOI-5811 B b), and identify a stellar companion to TOI-5806 at a projected separation of 248 au, making both S-type planetary systems. TOI-1837.01 is an eclipsing binary, while TOI-1137.01 remains inconclusive. The five confirmed planets orbit bright stars (${\\rm G}=8.6-10.2$~mag), and four are excellent targets for atmospheric studies, with transmission spectroscopy metrics above 90. These results highlight the importance of intensive follow-up observations to establish the nature of transiting planet candidates.",
+   "authors": [
+    "J. Lillo-Box",
+    "C. Cifuentes",
+    "O. Balsalobre-Ruza",
+    "B. Montesinos",
+    "D. Latham",
+    "K. A. Collins",
+    "D. Ciardi",
+    "G. Hébrard",
+    "S. W. Yee",
+    "E. W. Guenther",
+    "H. Bouy",
+    "J. N. Winn",
+    "S. B. Howell",
+    "C. Ziegler",
+    "M. E. Everett",
+    "B. Safonov",
+    "F. Murgas",
+    "N. Narita",
+    "L. D. Nielsen",
+    "A. Abreu",
+    "J. Aceituno",
+    "J. F. Agüí Fernández",
+    "M. Azzaro",
+    "D. Barrado",
+    "P. Benni",
+    "A. Bieryla",
+    "A. Chontos",
+    "C. A. Clark",
+    "E. Delgado-Mena",
+    "S. J. Deveny",
+    "R. Forés-Toribio",
+    "J. Flores-Martín",
+    "A. Garmash",
+    "S. Góngora",
+    "J. D. Hartman",
+    "C. Haukes",
+    "N. Heidari",
+    "I. J. Helm",
+    "J. F. Kielkopf",
+    "J. Köhler",
+    "C. Littlefield",
+    "M. B. Lund",
+    "B. Massey",
+    "A. Masson",
+    "J. McCormac",
+    "M. Morales-Calderón",
+    "M. Mori",
+    "J. A. Muñoz",
+    "E. Pallé",
+    "P. Plavchan",
+    "M. Reefe",
+    "J. E. Schlieder",
+    "G. Srdoc",
+    "C. Stockdale",
+    "J. C. van Eyken",
+    "R. G. West",
+    "F. P. Wilkin",
+    "J. Wittrock",
+    "D. -V. Zora"
+   ],
+   "link": "https://arxiv.org/abs/2607.19756v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究使用CAFE径向速度光谱仪对TESS遗漏的热木星候选体进行跟踪观测,联合径向速度和TESS光度数据建立联合模型以确定过境天体的性质。研究确认了五颗新行星(包括四颗热木星和一颗海王星草原行星),识别了两个S型双星行星系统,同时排除了一个食双星和一个不确定候选体。这些确认的行星绕着较亮的恒星运行,其中四颗具有优良的大气层传输光谱观测条件,突出了密集跟踪观测对确定过境行星候选体性质的重要性。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae80b7",
+   "title": "Simultaneous Observations of 1 Hz Waves Upstream of the Martian Bow Shock by MAVEN and Tianwen-1",
+   "abstract": "Abstract Low-frequency waves are ubiquitous upstream of planetary bow shocks and contribute significantly to solar wind energy transfer and dissipation. This study presents the first simultaneous observations of 1 Hz waves upstream of the Martian bow shock, obtained by both the Mars Atmosphere and Volatile EvolutioN probe and the Tianwen-1 orbiter. During a limited overlap window, both spacecraft detected coincident, discrete narrow-band wave signals with properties consistent with 1 Hz waves, although minor differences were observed. Wave vector estimates suggest independent generation at spatially distinct locations. Bi-Maxwellian fitting of dispersion relations indicates a nonlocal generation mechanism, potentially explaining observed frequency differences between the observed two waves. These results support the generality of 1 Hz wave generation across diverse plasma environments and imply a relatively localized source region closely associated with the shock surface.",
+   "authors": [
+    "Taifeng Jin",
+    "Binbin Ni",
+    "Song Fu",
+    "Xiaotong Yun",
+    "Fuhao Qiao",
+    "Limin Wang",
+    "Shuyue Pang"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae80b7",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用MAVEN和天问一号探测器的同步观测，首次获得了火星弓形激波上游1 Hz波的多星观测数据，两颗卫星在有限的重叠窗口内探测到相似的离散窄带波信号，波矢分析表明这些波在空间不同位置独立产生。通过双Maxwellian拟合色散关系，研究发现了非局地生成机制，解释了观测到的频率差异，支持1 Hz波在不同等离子体环境中普遍存在的特点，暗示其源区相对局限且与激波面紧密相关。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae80c5",
+   "title": "The Capability of CSST in Characterizing Planetary Atmospheres. I. Transmission Spectroscopy of Hot Jupiters",
+   "abstract": "Abstract Transmission spectroscopy has become a primary tool for probing exoplanetary atmospheres, enabling constraints on their chemical compositions and providing limited information on their thermal properties. We assess the potential of the upcoming Chinese Space Station Telescope (CSST) for exoplanet atmospheric characterization through transmission spectroscopy. Theoretical spectra of hot gas planets are generated and used to simulate slitless spectroscopic observations with the CSST across the ultraviolet-to-near-infrared range. Atmospheric retrievals performed on the simulated data are compared with the input models to assess the robustness and accuracy of parameter determinations. We find that multiband observations across three wavelength channels, each with two transits, can place meaningful constraints on key atmospheric parameters. For multiband observations that account for correlated (red) noise, future CSST observations are expected to achieve constraints that are comparable to, or in some cases slightly weaker than, those of the Hubble Space Telescope, depending on the noise level and observing strategy. We conclude that CSST will provide unique and complementary constraints on the chemical compositions and physical properties of exoplanetary atmospheres, particularly for atomic species, metal-bearing molecules, and scattering processes accessible in the UV and optical, thereby complementing JWST’s infrared sensitivity to molecular species.",
+   "authors": [
+    "Zibo Liu",
+    "Wei Wang",
+    "Meng Zhai",
+    "Jinpeng Wang",
+    "Qinglin Ouyang",
+    "Fei Yan",
+    "Guo Chen",
+    "Dongdong Ni",
+    "Yong Zhao",
+    "Yujuan Liu",
+    "Fei Zhao",
+    "Gang Zhao"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae80c5",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过模拟中国空间站望远镜(CSST)的无狭缝分光观测,评估其通过凌星光谱法表征热木星大气的能力。我们生成理论大气谱并进行大气反演,对比模拟观测数据与输入模型以验证参数确定的稳健性。研究表明CSST三波段、各两次凌星的多波段观测能对关键大气参数施加有意义的约束,在考虑红噪声情况下其性能可与哈勃空间望远镜相当,特别是在紫外和光学波段对原子物种、含金属分子和散射过程的探测中具有独特优势,将有效补充詹姆斯韦伯空间望远镜对分子物种的红外敏感性。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae75de",
+   "title": "Magnesium Silicate Clouds in the Atmosphere of HD 209458b from a Rule-based Tree-structured Data Reduction",
+   "abstract": "Abstract HD 209458b is the canonical hot Jupiter: the first to have its atmosphere measured and the first to hint at the role of aerosols in exoplanet atmospheres through the muting of Na absorption signatures in the optical. Here, we present JWST Mid-InfraRed Instrument (MIRI) Low Resolution Spectrograph (LRS) transmission observations of HD 209458b from 5 to 12 μ m, directly measuring the absorption signatures of its clouds for the first time. The observations indicate the presence of magnesium silicates, most likely Mg 2 SiO 4 or a mixture of Mg 2 SiO 4 +MgSiO 3 . We also present a new methodology to reduce observational data, whereby the analysis is formulated as a rule-based model with a tree structure, enabling key decisions to be identified and uncertain decisions to be incorporated into subsequent modeling. With this data reduction, and using a combination of ARCiS free retrievals and PICASO+Virga self-consistent forward models, we are able to show that amorphous Mg 2 SiO 4 clouds explain the LRS data to high significance over either a clear (Δ ln ( Z ) = 16.63) or gray cloud atmosphere (Δ ln ( Z ) = 22.26). By combining the LRS dataset with archival JWST NIRCam and Hubble Space Telescope optical and near-infrared observations, we are able to more robustly constrain the properties of the magnesium silicate condensates, finding particle sizes of approximately 0.1 μ m and atmospheric pressures of the clouds of roughly 1–10 mbar. Our results add to the growing detections of silicate clouds as a dominant atmospheric component of hot Jupiters, with the exact silicate species contextualizing the atmospheric chemistry and potentially the formation conditions of these planets.",
+   "authors": [
+    "Katy L. Chubb",
+    "David Grant",
+    "Hannah R. Wakeford",
+    "Sarah E. Moran",
+    "Natasha E. Batalha",
+    "Arika Egan",
+    "Charlotte Fairman",
+    "Diana Powell",
+    "Kevin B. Stevenson",
+    "Lili Alderson",
+    "Peter Gao",
+    "Tiffany Kataria",
+    "Nikole K. Lewis",
+    "Ryan J. MacDonald",
+    "Mark Marley",
+    "Elijah Mullens",
+    "David K. Sing",
+    "Jeff A. Valenti"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae75de",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "aerosol"
+   ],
+   "summary_zh": "本研究利用JWST中红外观测数据首次直接测量了热木星HD 209458b大气中的云层吸收特征,并通过树状结构的规则化数据处理方法结合自由检索和自洽前向模型,确认其大气中存在非晶态硅酸镁(Mg₂SiO₄)云。结合多波段观测数据的联合约束,研究确定了云粒子大小约为0.1微米、云层压强约为1-10毫巴,为理解热木星大气化学组成和行星形成条件提供了新的约束。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1397",
+   "title": "The Maximum Density of a Collisionally-Produced Planet is A Function of its Mass and Orbital Period",
+   "abstract": "Abstract There are many different theoretical explanations for the formation of high-density Mercury-like planets, but concrete evidence for any of these formation mechanisms remains elusive. A popular explanation for dense planets is the collisional hypothesis, which states that iron-rich planets can be formed as the products of high-energy, mantle-stripping impacts. Planetesimal collision simulations predict that higher-velocity collisions can form higher-density planets. Motivated by the characteristics of the high-density, short-period (P ≈ 0.3d) GJ 367 b, we study the results of previously-published smoothed-particle hydrodynamics (SPH) simulations on exoplanet collisions, combining these with models describing the likely collision velocities of these objects, to investigate the relationship between the core mass fractions (CMFs) of exoplanets, their masses, and their orbital periods. We predict that collisionally-produced super-Mercuries should be more common (and more dense) at low masses and short orbital periods. This correlation may enable us to pinpoint the formation mechanism of super-Mercuries as the population of observed targets grows. Afterwards, we connect our hypothesis to the observed Mercury-like population of high-density exoplanets, and find that GJ 367 b is the best exoplanetary candidate for collisional formation.",
+   "authors": [
+    "Madison Brady",
+    "Darryl Z Seligman"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1397",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过结合光滑粒子流体动力学（SPH）碰撞模拟和轨道动力学模型，探究了碰撞形成的高密度行星（超级水星型）的核心质量分数与行星质量和轨道周期之间的关系。研究预测碰撞产物的最大密度应随着行星质量降低和轨道周期缩短而增加，这一相关性可用于识别超级水星型行星的形成机制。基于该预测，作者发现已观测的短周期高密度行星GJ 367 b是碰撞形成假说的最佳候选体。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1386",
+   "title": "Exoplanets in ancient stellar populations: occurrence constraints and hot-Jupiter candidates in the Galactic halo",
+   "abstract": "Abstract The Galactic halo preserves a record of the Milky Way’s earliest assembly and contains both in-situ stars and stars accreted from dwarf galaxies. Possible planets around these stars, therefore, probe formation in ancient, metal-poor environments, including systems of extragalactic origin. We present a search for short-period transiting planets around kinematically selected halo dwarfs using Gaia DR3 and TESS, focusing on planets with periods of 1 &lt; P &lt; 10 days. We identify two hot-Jupiter (HJ) candidates, one in the in-situ and one in the accreted halo, although the latter is highly grazing and excluded from the occurrence analysis. The accreted halo planet candidate, if confirmed, would orbit the most metal-poor HJ host known ([Fe/H] ≈−1). Using injection–recovery tests and automated vetting, we constrain occurrence in the full halo, in-situ, and accreted samples. In the HJ regime (8 R⊕ &lt; Rp &lt; 22 R⊕, 1 day &lt; P &lt; 10 days), the non-grazing candidate implies an overall halo occurrence rate of $0.13^{+0.12}_{-0.07}\\%$ if planetary, while the absence of confirmed detections gives a corresponding 1σ upper limit of &lt;0.14%. For the in-situ halo, we infer $0.17^{+0.17}_{-0.10}\\%$ (or &lt;0.19% assuming no detections), while for the accreted halo we derive an upper limit of &lt;0.56%. These rates lie well below the corresponding short-period giant-planet occurrence measured in the Galactic disc. A forward model assuming Kepler-like occurrence also predicts 10 ± 3 detections compared with at most one observed. We find no significant occurrence difference between the in-situ and accreted halo populations, strengthening the evidence that close-in giant planets are rare across the old, metal-poor halo.",
+   "authors": [
+    "Dolev Bashi",
+    "Michelle Kunimoto",
+    "Kevin K Hardegree-Ullman",
+    "Tianjun Gan",
+    "Sharon X Wang",
+    "Zhen Yuan"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1386",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "occurrence rate",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用Gaia DR3和TESS数据,在银晕中的动力学选择的矮星周围搜索周期为1-10天的短周期凌星系统,并识别了两个热木星候选体。通过注入-恢复测试,研究发现银晕中热木星的出现率(0.13+0.12-0.07%)远低于银盘中的对应速率,且在原位和吸积银晕子样本之间无显著差异,表明贴近的巨行星在古老、低金属丰度的环境中形成罕见。这一结果对理解不同星族和星系起源中的行星形成条件具有重要启示。"
+  }
+ ],
  "2026-07-23": [
   {
    "id": "doi:10.3847/1538-4357/ae839b",
