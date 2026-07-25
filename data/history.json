@@ -1,4 +1,129 @@
 {
+ "2026-07-25": [
+  {
+   "id": "doi:10.3847/1538-4357/ae8763",
+   "title": "Puffed-up Edges of Planet-opened Gaps in Protoplanetary Disks. II. The Role of the Planet’s Orbital Eccentricity",
+   "abstract": "Abstract Eccentric planets constitute a large population of the known exoplanets and may drive significant substructures in protoplanetary disks through planet–disk interactions if their eccentricities are excited early in the planet formation process. In this paper, we investigate the impact of a planet’s orbital eccentricity on gas and dust structures in protoplanetary disks using three-dimensional multifluid hydrodynamic simulations. We find that an eccentric planet can drive stronger meridional gas circulation around the planet-opened gap, which significantly enhances the dust puff-up feature at the gap edge relative to the circular-orbit case. The planet-induced gap can also become highly leaky to dust grains when the planet is eccentric, allowing dust grains to be transported radially and thereby fill the gap. Furthermore, dust rings composed of pebble-sized grains are expected to become both larger and radially wider when the planet is eccentric, with this trend becoming more pronounced at higher planet eccentricities. Overall, our results suggest that a planet’s orbital eccentricity can play a significant role in shaping gas and dust structures in protoplanetary disks, with important implications for planet formation theory and disk observations of the WISPIT 2 system.",
+   "authors": [
+    "Jiaqing 嘉擎 Bi 毕",
+    "Min-Kai 明楷 Lin 林"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8763",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过三维多流体动力学模拟，探究行星轨道离心率对原行星盘气体和尘埃结构的影响。研究发现离心行星能够驱动更强的子午向气体循环，显著增强行星开口间隙边缘的尘埃堆积特征，同时使间隙对尘埃粒子的泄漏性增强，导致尘埃环在更高离心率下变得更宽更大。这些结果表明行星离心率在塑造原行星盘结构中起重要作用，对行星形成理论和WISPIT 2系统的观测具有重要启示。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae83a7",
+   "title": "The Influences of Hydrogen–Silicate–Iron Miscibility on the Demographics of Sub-Neptunes and Super-Earths",
+   "abstract": "Abstract Models based on variable miscibility among hydrogen, molten silicate, and molten iron, coupled with atmospheric escape, can reproduce the observed occurrence density structure of sub-Neptunes and super-Earths in mass–radius space. The models are also consistent with the radius gap and the observed radius–period relationship exhibited by these planets. The degree of overlap between the predicted and observed planetary occurrences suggests that hydrogen–silicate–iron miscibility may serve as a unifying concept for the formation and evolution of these planet classes. The well-defined equilibrium conditions at the boundary between supercritical magma oceans and the overlying hydrogen-rich envelopes are important features of the models. Planets formed with less than ∼1% hydrogen by mass develop discrete, terrestrial-like metallic cores, while those accreting greater hydrogen concentrations are predicted to have fully miscible interiors and no discrete metal cores. Hydrogen–silicate–iron miscibility provides an overarching explanation for the full range of sub-Neptune and super-Earth architectures based on the accreted hydrogen mass fraction and the phase equilibria governing silicate, iron metal, and H 2 miscibility.",
+   "authors": [
+    "Edward D. Young",
+    "Aaron Werlen"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae83a7",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究通过结合氢-硅酸盐-铁三相体系变变溶性和大气逃逸过程的模型，成功再现了亚海王星和超地球在质量-半径空间中的观测分布特征，包括半径间隙和半径-周期关系。研究发现，吸积氢质量分数小于~1%的行星会形成离散金属核，而吸积氢浓度更高的行星具有完全互溶的内部结构且无离散金属核，这种氢-硅酸盐-铁互溶性可作为解释亚海王星和超地球多样化结构的统一理论框架。该工作通过超临界岩浆洋与氢富集包层边界的平衡条件，揭示了行星内部相变过程在行星形成和演化中的关键作用。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae84cc",
+   "title": "The First Remotely Detected Biosignature May Not Be the Most Common: Implications for JWST and HWO",
+   "abstract": "Abstract The first detected member of a new astronomical class is often not representative of the underlying population, but instead reflects the selection effects of the observing technique that found it. We apply this idea to the first remote detection of biosignatures with two leading near-future strategies: JWST transmission spectroscopy and Habitable Worlds Observatory (HWO) reflected light direct imaging. Using the known signal scalings of the two methods together with a simple detectability model, we show how a rare but observationally favored planet class can dominate early detections even when it is intrinsically uncommon. For JWST, an early biosignature detection is most likely to arise from a detectability-favored outlier, such as a sub-Neptune or other atmosphere-rich planet around a nearby M dwarf, rather than from a true Earth analog. For HWO, the situation is subtler. Among accessible habitable-zone targets around FGK-type stars, differences in maximum observable distance and hence in effective survey volume may be smaller than in the JWST case, weakening the volume bias. At the same time, stellar-type-dependent photochemistry can alter biosignature abundances, so the first HWO biosignature may emerge from a balance between photochemical enhancement and geometric accessibility. Nevertheless, within the accessible sample, planets with stronger biosignature features and higher reflected light contrast may still be favored in early detections. A first HWO biosignature could be a selection-favored outlier and should not be assumed to represent inhabited rocky planets in general. Crucially, the longest-lived biosphere on a planet is not necessarily its most spectrally detectable one. If the first detection turns out to be an outlier, that may still suggest that a broader range of habitable environments awaits discovery.",
+   "authors": [
+    "Ravi Kopparapu"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae84cc",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究探讨首次远程生物特征检测的代表性问题，采用可观测性模型比较JWST凌日光谱和HWO反射光直接成像两种方法的选择效应。研究表明，首次生物特征检测很可能来自观测上有利但内禀稀有的行星类型（如近邻M矮星周围的亚海王星），而非真正的类地行星。研究强调最长寿的生物圈在光谱上未必最易检测，因此首次检测的离群值检测不应被视为宜居行星一般性特征，反而可能预示更广泛宜居环境有待发现。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae875c",
+   "title": "Four Cold Giant Planets Discovered by High-cadence Microlensing Surveys",
+   "abstract": "Abstract We report the discovery of four cold giant planets identified through the analysis of microlensing events detected by high-cadence surveys: OGLE-2016-BLG-0261, KMT-2025-BLG-0026, KMT-2025-BLG-0030, and KMT-2025-BLG-2272. The planetary signals appear as short-duration anomalies in the light curves and are well described by binary-lens single-source models with mass ratios between the lens components of order q ∼ 10 −3 . Finite-source effects are securely measured in three out of four events, enabling determinations of the angular Einstein radius. A Bayesian analysis incorporating the measured event timescale and angular Einstein radius yields host masses of ∼0.07–0.6 M ⊙ and companion masses of ∼0.2–2.5 M Jup , confirming that all companions lie in the giant-planet regime. The projected separations are ∼0.7–6 au, placing all planets at or beyond the snow lines of their host stars. The inferred lens distances span ∼6.6–7.9 kpc, with all systems consistent with bulge lenses. These detections expand the sample of cold giant planets from homogeneous high-cadence surveys and highlight the sensitivity of microlensing to planetary systems beyond the snow line, providing further constraints on the occurrence and properties of giant planets around low-mass stars.",
+   "authors": [
+    "Cheongho Han",
+    "Chung-Uk Lee",
+    "Andrzej Udalski",
+    "Ian A. Bond",
+    "",
+    "Michael D. Albrow",
+    "Sun-Ju Chung",
+    "Andrew Gould",
+    "Youn Kil Jung",
+    "Kyu-Ha Hwang",
+    "Yoon-Hyun Ryu",
+    "Yossi Shvartzvald",
+    "In-Gu Shin",
+    "Jennifer C. Yee",
+    "Weicheng Zang",
+    "Hongjing Yang",
+    "Doeon Kim",
+    "Dong-Jin Kim",
+    "Seung-Lee Kim",
+    "Dong-Joo Lee",
+    "Sang-Mok Cha",
+    "Yongseok Lee",
+    "Byeong-Gon Park",
+    "Richard W. Pogge",
+    "",
+    "Przemek Mróz",
+    "Michał K. Szymański",
+    "Jan Skowron",
+    "Radosław Poleski",
+    "Igor Soszyński",
+    "Paweł Pietrukowicz",
+    "Szymon Kozłowski",
+    "Krzysztof A. Rybicki",
+    "Patryk Iwanek",
+    "Krzysztof Ulaczyk",
+    "Marcin Wrona",
+    "Mariusz Gromadzki",
+    "Mateusz J. Mróz",
+    "",
+    "David P. Bennett",
+    "Chihiro Ueda",
+    "Ryusei Hamada",
+    "Yuki Hirao",
+    "Shuma Makida",
+    "Shota Miyazaki",
+    "Tutumi Nagai",
+    "Seiya Nakayama",
+    "Kansuke Nunota",
+    "Ryo Ogawa",
+    "Ryunosuke Oishi",
+    "Hideaki Ose",
+    "Nicholas J. Rattenbury",
+    "Yuki K. Satoh",
+    "Takahiro Sumi",
+    "Daisuke Suzuki",
+    "Motohide Tamura",
+    "Takuto Tamaoki",
+    "Hibiki Yama",
+    ""
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae875c",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过高时间分辨率微引力透镜巡天探测到的异常光变曲线，发现了四颗围绕低质量恒星运行的冷巨行星，其轨道半径位于或超越雪线。采用双透镜单光源模型分析光变数据，并结合有限源效应测量和贝叶斯分析，确定了主星质量约为0.07-0.6太阳质量，行星质量约为0.2-2.5木星质量。这些发现扩展了微引力透镜巡天对雪线外巨行星系统的探测样本，对低质量恒星周围巨行星的形成和分布规律提供了新的约束。"
+  }
+ ],
  "2026-07-24": [
   {
    "id": "arxiv:2607.21350",
