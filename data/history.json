@@ -1,4 +1,28 @@
 {
+ "2026-07-26": [
+  {
+   "id": "doi:10.1093/mnras/stag1412",
+   "title": "Towards understanding stellar variability at the sub m/s level: granulation-induced variability across the optical spectrum",
+   "abstract": "Abstract Detecting the radial velocity signal of Earth-mass exoplanets requires the characterisation and removal of granulation-induced radial velocity variability from spectroscopic observations. By coupling state-of-the-art three-dimensional (3D) hydrodynamic (HD) simulations to a radiative transfer code, we can isolate and study the effect of granulation on stellar lines. In this study we isolated the impact of granulation on spectral line shapes and shifts for the largest and most diverse synthetic spectral line sample to date. Our aims were twofold. First, we quantified how granulation affects the temporal evolution of shapes and shifts of 72 unblended spectral lines in two wavelength regions: 5500 − 5600 Åand 6100 − 6200 Å, from disc centre to the stellar limb. Second, we investigated if spectral lines behave coherently in their line shape variability and, if so, can lines be grouped together that behave similarly. We find that weak lines show the largest radial-velocity variability due to granulation, up to 40 m s−1 at disc centre and 50 m s−1 at the stellar limb. On the other hand, strong lines exhibit larger variability in equivalent width than weak lines across the stellar disc. In addition, the equivalent width and line depth of a spectral line are strongly linearly correlated with its radial velocity. While granulation affects all three of these quantities, planet-induced Doppler shifts only affect radial velocities, opening the door to new granulation-mitigation methods. Lastly, we find that the radial velocity and equivalent width of most spectral lines in our sample evolve coherently in time, with the Fe i and Ca i lines behaving the most similarly. Due to the coherency, line blends will not significantly affect the temporal behaviour of RV and line shape, as induced by granulation. Besides, the coherency between spectral lines offer the opportunity to create disc-integrated spectra of many lines simultaneously, which will be explored in future work.",
+   "authors": [
+    "Cis Lagae",
+    "Ginger Frame",
+    "Heather M Cegla",
+    "Veronika Witzke",
+    "René Holzreuter",
+    "Sergiy Shelyag",
+    "Christopher Watson",
+    "Alexander Shapiro"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1412",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过耦合三维流体动力学模拟和辐射传输计算，系统研究了恒星表面颗粒运动对72条光谱线形状和位移的影响，涵盖两个波长区域并考虑了从星盘中心到星缘的变化。研究发现弱线受颗粒诱导的径向速度变化最大（达40-50 m/s），而强线的等效宽度变化更显著，且光谱线的径向速度与等效宽度存在强相关性——这为区分行星信号与恒星噪声提供了新机制。最后发现大多数光谱线在时间演化上表现出相干性，特别是Fe I和Ca I线，这种相干性表明可以开发新的消除颗粒噪声的方法来改进地球质量系外行星的探测。"
+  }
+ ],
  "2026-07-25": [
   {
    "id": "doi:10.3847/1538-4357/ae8763",
