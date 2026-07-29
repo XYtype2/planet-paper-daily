@@ -1,4 +1,78 @@
 {
+ "2026-07-29": [
+  {
+   "id": "doi:10.3847/2041-8213/ae86f0",
+   "title": "A Search for Narrowband Technosignatures from LTT 3780 with the Allen Telescope Array and the Karl G. Jansky Very Large Array",
+   "abstract": "Abstract The LTT 3780 system hosts two known exoplanets—LTT 3780 b, a rocky super-Earth, and LTT 3780 c, a temperate sub-Neptune—orbiting a nearby M dwarf on opposite sides of the radius valley. LTT 3780 c has been proposed as a candidate Hycean world, making the system an important target for astrobiological investigation, particularly in light of recent JWST atmospheric observations. Although biosignature and technosignature searches both seek evidence of life beyond Earth, these approaches have historically been pursued independently. Well-characterized exoplanet systems provide an opportunity to combine these complementary search strategies. In this work, we conducted radio technosignature observations of the LTT 3780 system using both the Allen Telescope Array and the Karl G. Jansky Very Large Array (VLA). The two facilities provide complementary observational capabilities, with the ATA optimized for wide-band multibeam postprocessing analyses and the VLA enabling high-sensitivity real-time interferometric searches. Across ∼30 hr of total observing time, we searched for narrowband Doppler-drifting signals in the frequency range ∼1–10 GHz. After applying comprehensive radio-frequency interference mitigation and multibeam consistency tests, no candidate signals consistent with astrophysical or technosignature origins were identified. We place minimum detectable effective isotropic radiated power limits of 4.7 × 10 12 –3.6 × 10 13 W across the observed bands and facilities. Although no technosignatures were detected, this work demonstrates how complementary observation and analysis strategies can be applied to exoplanets of astrobiological interest and serves as a pathfinder for future combined biosignature and technosignature investigations.",
+   "authors": [
+    "Chenoa D. Tremblay",
+    "Sofia Z. Sheikh",
+    "Vishal Gajjar",
+    "Nikku Madhusudhan",
+    "Isabel Gerrard",
+    "Daniel Czech",
+    "Talon Myburgh",
+    "David E. MacMahon",
+    "Ross A. Donnachie",
+    "Andrew P. V. Siemion",
+    "Matthew Lebofsky",
+    "Alex W. Pollak"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae86f0",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究针对宜居的LTT 3780系统（包含超地球和亚海王星两颗系外行星）进行了射电技术信号搜寻，利用Allen望远镜阵列和VLA在1-10 GHz频段进行了约30小时的窄带多普勒漂移信号观测。通过射频干扰消除和多波束一致性检验，未发现任何技术信号候选，设定了4.7×10^12-3.6×10^13 W的最小可探测有效全向辐射功率上限。本工作展示了如何将互补的观测和分析策略应用于有天体生物学意义的系外行星系统，为未来结合生物特征和技术特征搜寻奠定了基础。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8850",
+   "title": "Uniform Metallicity Measurements of M Dwarf Planet Hosts Support Metallicity-dependent Sub-Neptune Formation",
+   "abstract": "Abstract M dwarfs are the most common sites of planet formation in the Milky Way. Planet occurrence and composition are closely linked with the availability of metals in protoplanetary disks, which can be probed by measuring the metallicity of planet host stars. In this work, we measure the metallicities ([M/H] and [Fe/H]) of 59 M dwarfs hosting 76 planets and candidates using medium-resolution near-infrared spectra collected with IRTF/SpeX. We combine these results with literature metallicity measurements for planet-hosting cool dwarfs, and present a sample of 86 stars hosting 142 candidate, validated, and confirmed planets with homogeneously derived stellar parameters. Using our updated stellar radii, we calculate planet radii from TESS transit depths for both the confirmed ( N = 51, 0.6–12.5 R ⊕ , median R p = 1.8 R ⊕ ) and candidate ( N = 25, 0.6–7.2 R ⊕ , median R p = 2.1 R ⊕ ) planets. We compare the metallicity distributions of super-Earth and sub-Neptune host stars, finding that M dwarfs hosting sub-Neptunes are statistically more metal-rich than those hosting super-Earths. This result is robust to the radius valley prescription used and is likely not due to differences in the stellar samples considered. This result supports the hypothesized formation pathway whereby sub-Neptunes form beyond the water ice line where they can accrete volatiles before migrating inward to their observed locations. The enhanced inventories of refractory elements throughout the disk and of volatiles beyond the ice line in metal-rich disks around low-mass stars may contribute to the preference seen in the observed planet sample for sub-Neptunes to orbit metal-rich M dwarfs.",
+   "authors": [
+    "Emma V. Turtelboom",
+    "Steven Giacalone",
+    "Rebecca Gore",
+    "Courtney D. Dressing",
+    "Ryan Cloutier",
+    "Karina Kimani-Stewart",
+    "Aida Behmard",
+    "C. M. Lisse",
+    "M. L. Sitko"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8850",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究使用中等分辨率近红外光谱对59颗宿主行星的M矮星进行了均一的金属丰度测量，结合文献数据构建了86颗星、142颗行星的同质参数样本。通过比较超地球和亚海王星宿主星的金属丰度分布，发现宿主亚海王星的M矮星显著富金属于宿主超地球的M矮星，支持亚海王星在冰线外吸积挥发物后向内迁移的形成机制。这一发现表明低质量恒星周围的富金属原行星盘中，整个盘面上难熔元素的丰富以及冰线外挥发物的充足，有利于亚海王星的形成。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117270",
+   "title": "A theoretical evaluation of cyclostrophic balance in the Venusian atmosphere using the Venus Planetary Climate Model",
+   "abstract": "",
+   "authors": [
+    "Jayadev Pradeep",
+    "S.V. Sunilkumar",
+    "N. Koushik",
+    "Varun Nikam",
+    "K.R. Lakshmi",
+    "S. Sijikumar",
+    "K. Kishore Kumar",
+    "Govindan Kutty"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117270",
+   "source": "Icarus",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究采用金星行星气候模型对金星大气中的旋转风平衡进行了理论评估，通过对比地转风平衡和旋转风平衡的效应来揭示金星大气动力学特征。研究发现旋转风平衡在金星高速风系中起主导作用，特别是在超强自转风带区域，该平衡机制对理解金星异常快速的大气动力循环至关重要。这一发现表明在高曲率、强非线性的行星大气系统中，传统的地转平衡理论需要补充以旋转风平衡的考虑，为深入理解类地行星大气动力学提供了新的物理视角。"
+  }
+ ],
  "2026-07-28": [
   {
    "id": "doi:10.3847/2041-8213/ae89a6",
