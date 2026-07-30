@@ -1,4 +1,156 @@
 {
+ "2026-07-30": [
+  {
+   "id": "doi:10.3847/1538-4357/ae84bb",
+   "title": "Theoretical Determination of the Binding Energies of Methanol and Related Species onto Amorphous Solid Water Ice",
+   "abstract": "Abstract The formation and survival of complex organic molecules (COMs) in cold interstellar environments depends on their interactions with icy dust grain surfaces. Methanol, a key COM detected in cold cores and protoplanetary disks, is believed to form on amorphous solid water (ASW) through surface reactions and reside there until it is desorbed into the gas phase. We present a theoretical study of the binding energies (BEs) of methanol and its photolysis-derived species on ASW clusters by means of dispersion-corrected density functional theory using a refined protocol implemented in the Binding Energy Evaluation Platform. Molecules capable of hydrogen bonding, such as H 2 O, CH 3 OH, HCOOH, and OH, exhibit high BEs and broad BE distributions that reflect the structural heterogeneity of the ASW surface. In contrast, weakly interacting volatiles including CO, CO 2 , CH 4 , and CH 3 display narrower distributions dominated by dispersion interactions. Open-shell radicals such as CH 2 OH and OH bind more strongly than HCO and CH 3 due to their ability to form directional hydrogen bonds. Incorporation of our BEs into an astrochemical model, in conjunction with a recalculation of the pre-exponential factor using transition state theory, demonstrates the sensitivity of model results to the method of calculation of the grain-surface reaction rates. The new approach generally predicts a higher abundance of radicals on the ice that are key reactants for the formation of COMs when surface diffusion is assumed to be efficient. These findings emphasize the importance of incorporating BEs that have been determined in a self-consistent manner into astrochemical models, and provide reliable theoretical benchmarks for species with limited experimental data.",
+   "authors": [
+    "Aneesa Ahmad",
+    "Catherine Walsh",
+    "Stefan Vogt-Geisse",
+    "Gabriela Silva-Vera",
+    "Felix Sainsbury-Martinez"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae84bb",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究采用色散校正密度泛函理论计算了甲醇及其光解产物在非晶固态水冰表面的结合能,揭示了具有氢键能力的分子(如H₂O、CH₃OH)表现出高结合能和宽分布,而弱相互作用挥发物(如CO、CO₂)的分布更窄。研究将理论结合能与过渡态理论相结合,建立了更准确的表面反应速率计算方法,预测在有效表面扩散条件下,冰面上激进基团丰度更高,为星际化学模型提供了自洽的理论基准。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae819b",
+   "title": "A Hybrid Origin for the Multiple Ring-gap Structures in the Large Protoplanetary Disk V1094 Sco: A Low-mass Planet and Secular Gravitational Instability",
+   "abstract": "Abstract High spatial resolution observations reveal that some protoplanetary disks host multiple ring–gap pairs at large stellocentric radii, yet their physical origin remains unsettled. We present a multiwavelength analysis of the V1094 Sco disk using Atacama Large Millimeter/submillimeter Array Band 6 continuum and 12 CO and 13 CO J = 2–1 emission, together with a Very Large Telescope/SPHERE near-infrared scattered-light image. The continuum image shows four narrow dust ring–gap pairs extending to exceptionally large radii ( r ∼ 380 au), while the CO isotopologues trace a spatially extended gas disk ( r ∼ 760 au) in Keplerian rotation. From the dust ring widths, we place conservative upper limits on the turbulent viscosity parameter, α ≲ 10 −3 and potentially ≲10 −4 , implying weak turbulence. The ensemble of gap widths and depths is inconsistent with a simple one-planet-per-gap interpretation. At r ≃ 100 au, a double gap and its scattered-light counterpart are consistent with multigap excitation by a single low-mass companion of (55 ± 35) M ⊕ . At r ≃ 170–230 au, the outer ring system shows regular spacing and no clear scattered-light counterpart, indicating mechanisms that operate primarily at the disk midplane. These outer rings are quantitatively compatible with secular gravitational instability. V1094 Sco therefore supports a hybrid pathway in which weak turbulence in an extended disk allows secular gravitational instability to assemble long-lived midplane dust concentrations that can cradle planet formation beyond ∼100 au, alongside planet-driven substructures at intermediate radii.",
+   "authors": [
+    "Masayuki Yamaguchi",
+    "Masahiro N. Machida",
+    "Ryosuke T. Tominaga",
+    "Jinshi Sai",
+    "Takayuki Muto",
+    "Michihiro Takami",
+    "Hauyu Baobab Liu",
+    "Ayumu Shoshi",
+    "Takashi Tsukagoshi",
+    "Shu Ishibashi"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae819b",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过ALMA和VLT多波段观测V1094 Sco原行星盘，发现其延伸至380 au的多个尘埃环间隙结构，并通过轨道动力学模拟和稳定性分析表明这些结构起源于混合机制。在100 au处的双间隙由单颗低质量伴星（55±35 M⊕）激发，而170-230 au外层规则间隔的环结构则由世俗引力不稳定性产生，后者在弱湍流条件下可形成长寿命尘埃浓聚区。该研究揭示了原行星盘大尺度次结构的混合起源机制，为超过100 au处行星形成过程提供了新的动力学通道。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae74cd",
+   "title": "Gaia Exoplanet Orbits, Demographics, and Evolution Survey (GEODES). I. Characteristics of Three Long-period Companions Accelerating their Host Stars",
+   "abstract": "Abstract The upcoming release of Gaia DR4 will yield thousands of giant planet candidates, eventually enabling studies of giant planet eccentricities, masses, and occurrence rates across a broad range of stellar host masses, metallicities, and ages. However, some of these planet candidates are expected to be false positives and even genuine detections will require additional observations to precisely determine their orbits and masses. We present here the first results of the Gaia Exoplanet Orbits, Demographics, and Evolution Survey, an observational campaign to identify the most promising planet candidate hosts for pre-DR4 vetting and post-DR4 validation and characterization. In this paper, we showcase three systems from our broader sample exhibiting both tangential and radial accelerations, each representing a distinct outcome of our survey strategy. We combine Hipparcos, Hipparcos-Gaia, Gaia DR2, and Gaia DR3 absolute astrometry with adaptive optics (AO) imaging and precision radial velocities (RVs) to constrain companion masses and orbits. HIP 18512, a nearby (15.3 pc) K4V dwarf, hosts a low-mass stellar companion at 10 . ″ 87 ± 0 . ″ 07 (166 au) which produces significant RV and astrometric accelerations on its host star. The RV trend and astrometric acceleration of the nearby (24.2 pc) K4V star HIP 45839, together with an AO imaging nondetection, constrain the companion to a = 17 . 9 − 2.7 + 4.8 au ( P = 70–127 yr) and M = 45 . 2 − 12.7 + 10.5 M Jup . In the case of HIP 81991 (43.8 pc, G5V), the astrometric and RV data indicate that the companion has a separation of 6 . 4 − 0.3 + 0.6 au ( P = 14.4–17.7 yr) and a mass of 9 . 5 − 2.2 + 5.4 M Jup , and is more likely a planet (65%) than a brown dwarf (35%).",
+   "authors": [
+    "Judah Van Zandt",
+    "Brendan P. Bowler",
+    "Erik A. Petigura",
+    "Kyle Franson",
+    "Jerry W. Xuan",
+    "Marvin Morgan",
+    "Lauren I. Biddle",
+    "Rocio Kiman",
+    "Jingwen Zhang",
+    "Howard Isaacson",
+    "Benjamin Fulton",
+    "Andrew W. Howard",
+    "Justin R. Crepp",
+    "William Thompson",
+    "Dori Blakely"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae74cd",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric",
+    "occurrence rate",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用Hipparcos、Gaia多个数据版本的绝对星位测量与自适应光学成像、精密径向速度相结合，对三个展现切向和径向加速的伴星系统进行了轨道和质量约束。三个案例分别展示了不同的科学结果：HIP 18512宿主低质量恒星伴星(~166 au)、HIP 45839包含一个轨道周期为70-127年的~45木星质量伴星、HIP 81991包含一个轨道周期为14.4-17.7年且更可能为行星(65%)的~9.5木星质量伴星。这些结果为即将发布的Gaia DR4巨行星候选样本的前期筛选和后期表征提供了有效的观测策略和验证方法。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae8af1",
+   "title": "Stellar Multiplicity of M Dwarfs with Short-period Giant Planets, and the Characterization of TOI-5628Ab",
+   "abstract": "Abstract Binary stars are ubiquitous; yet it remains unclear how wide-orbit stellar companions influence the formation of hot Jupiters, particularly around M dwarfs. Here, we first report the discovery of TOI-5628Ab, a giant planet transiting a midtype M dwarf ( M * = 0.36 ± 0.02 M ⊙ ) every 4.34 days, accompanied by an associated white dwarf TOI-5628B ( M WD = 0.59 ± 0.16 M ⊙ ) at a projected distance of about 2500 au. Using TESS, ground-based photometry, and SPIRou radial velocities, we constrain the planet radius to 0.74 ± 0.04 R J and mass to 0.09 ± 0.04 M J , with a 3 σ upper limit of 0.22 M J . Building on this system, we further conduct a homogeneous systematic search for comoving stellar companions with projected semimajor axes between 100 and 10,000 au around all M dwarfs with confirmed giant planets with periods smaller than 10 days and radii larger than 0.7 R J , as well as a group of field M stars with stellar properties similar to the planet sample, based on the stellar kinematics from Gaia DR3. We measure a stellar multiplicity of 34.2% ± 9.5% for M dwarfs hosting short-period giant planets, which is substantially higher than the fraction of 5.3% ± 3.7% for the field M stars by approximately a factor of 6. Our results suggest that wide-orbit stellar companions tend to promote the formation of short-period gas giants around M stars with masses 0.21 ≤ M * ≤ 0.64 M ⊙ , and high-eccentricity migration may play an important role in producing such systems.",
+   "authors": [
+    "Tianjun Gan",
+    "Alexandrine L’Heureux",
+    "Charles Cadieux",
+    "Shude Mao",
+    "Enric Pallé",
+    "Sharon X. Wang",
+    "Keivan G. Stassun",
+    "Steve B. Howell",
+    "Benjamin V. Rackham",
+    "Steffani M. Grondin",
+    "Khalid Barkaoui",
+    "Luc Arnold",
+    "Étienne Artigau",
+    "Artem Burdanov",
+    "Adam J. Burgasser",
+    "Douglas A. Caldwell",
+    "David R. Ciardi",
+    "Karen A. Collins",
+    "Neil J. Cook",
+    "René Doyon",
+    "Georgina Dransfield",
+    "Akihiko Fukui",
+    "Michaël Gillon",
+    "Emmanuel Jehin",
+    "Felipe Murgas",
+    "Norio Narita",
+    "Federico R. Noguer",
+    "Howard M. Relles",
+    "Avi Shporer",
+    "Molly N. Simon",
+    "Abderahmane Soubkiou",
+    "Christopher A. Theissen",
+    "Mathilde Timmermans",
+    "Amaury H. M. J. Triaud",
+    "Robert T. Zellem",
+    "S. Zúñiga-Fernández",
+    "Celso P. Machado",
+    "Ian R. Mason",
+    "Michele T. Mazzucato",
+    "Jingyuan Zhao"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae8af1",
+   "source": "The Astrophysical Journal Letters",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration"
+   ],
+   "summary_zh": "本研究通过TESS、地面测光和径向速度观测发现了环绕M矮星的短周期巨行星TOI-5628Ab，并系统调查了所有已知短周期巨行星M矮星的宽轨道伴星，基于Gaia DR3的运动学数据进行了均一的同行星伴星搜索。研究发现短周期巨行星M矮星的恒星多重度（34.2%±9.5%）约为视场M矮星（5.3%±3.7%）的6倍，表明宽轨道伴星趋向于促进0.21≤M*≤0.64M⊙的M矮星周围短周期气态巨行星的形成。这些结果暗示高偏心率迁移机制在短周期巨行星系统的形成中发挥了重要作用。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1437",
+   "title": "Exploring the Impact of Tilted Magnetic Dipoles on the Atmospheric Dynamics of Hot Jupiters: Towards an Improved Magnetohydrodynamic Framework",
+   "abstract": "Abstract The atmospheres of hot Jupiters lie in a dynamical regime without a solar system analogue. The strongly irradiated daysides reach temperatures sufficiently hot for substantial thermal ionization of atmospheric species, resulting in flows that can interact with the planetary magnetic field. These magnetic effects can significantly impact wind speeds, atmospheric temperatures, and large-scale circulation patterns. Previous work combining 3D atmospheric models and magnetic prescriptions has shown the impact of magnetic effects on temperature and velocity profiles are dependent on local atmospheric properties as well as the set of assumptions employed by the magnetic prescription. In this work, we examine a commonly employed magnetic model—a perfectly aligned dipole—in 3D General Circulation Models (GCMs) and extend this framework to allow for tilting of the deep-seated internal magnetic dipole field relative to the axis of rotation. We find that the inclusion of a tilted dipole introduces pronounced north-south asymmetries into the temperature profile leading to latitudinally shifted hotpots and deflection of winds that would otherwise be axially symmetric. We additionally simulate JWST/NIRSpec phase curves. We find that the strength of the magnetic field has the most significant effect on the simulated phase curves, with stronger magnetic fields increasing the amplitude of the phase curve and reducing the hot spot offset. Our model can provide qualitative insight into how the magnetic dipole strength or orientation may influence the large scale atmospheric dynamics and represents one of the most sophisticated incorporations of magnetic effects in GCMs for hot Jupiter atmospheres to date.",
+   "authors": [
+    "James S Fecanin",
+    "Hayley Q Beltz",
+    "John R T Allen",
+    "Thaddeus D Komacek"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1437",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过三维大气环流模型(GCM)探究倾斜磁偶极子对热木星大气动力学的影响,扩展了以往仅考虑完全对齐磁偶极子的框架。研究发现倾斜磁偶极子会在温度分布中引入显著的南北不对称性,导致热点位置偏移和风场偏转,且磁场强度对模拟的JWST相位曲线振幅和热点偏移具有最显著的影响。该工作提供了磁场强度和方向如何调控热木星大气大尺度动力学的定性认识,代表了迄今最精细的磁效应在系外行星大气GCM中的应用。"
+  }
+ ],
  "2026-07-29": [
   {
    "id": "doi:10.3847/2041-8213/ae86f0",
