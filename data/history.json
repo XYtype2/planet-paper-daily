@@ -1,4 +1,475 @@
 {
+ "2026-08-01": [
+  {
+   "id": "arxiv:2607.28393",
+   "title": "Segment-level thermal sensitivity analysis for exo-Earth coronagraphy with segmented space telescopes",
+   "abstract": "Direct imaging and characterization of Earth-like planets require ultra-stable wavefronts to achieve a starlight suppression level of 100 parts per trillion (ppt) in the coronagraphic dark region of the host star. Thermal drifts in the telescope may affect the wavefront stability. In this context, we present a segment-level thermal stability error budget for segmented space telescopes crucial to Earth-like planet detection and specify requirements for an ultra-stable telescope. Our study utilizes multiple segmented primary mirror architectures, each with their respective apodizer solution developed by the Segmented Coronagraph Design & Analysis research team at the Space Telescope Science Institute, tailored to an off-axis ~6 m-aperture space telescope design. Using a detailed finite element model provided by L3Harris Technologies, we relate the temperature gradient at the location of the primary mirror to wavefront variations on each segment. We allocate both static and dynamic thermal tolerances for each segment using the Pair-based Analytical model for Segmented Telescope Imaging from Space sensitivity approach, and a batch-estimation algorithm respectively. Our analysis shows a non-uniform tolerance allocation across all segments of the primary mirror, as a result of apodization, and generally, with an increase in segment numbers, the tolerances for outer segments become less stringent. We observe trade-offs between segment size, tolerance relaxation and optimal wavefront sensing time to achieve a desired dark-hole contrast.",
+   "authors": [
+    "Ananya Sahoo",
+    "Laurent Pueyo",
+    "Iva Laginja",
+    "Bryony F. Nickson",
+    "Leonid Pogorelyuk",
+    "Laura E. Coyle",
+    "Rémi Soummer",
+    "Matthew East"
+   ],
+   "link": "https://arxiv.org/abs/2607.28393v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究为分割式空间望远镜的类地行星直接成像建立了分段级热稳定性误差预算模型，通过有限元分析将主镜温度梯度与各分段波前变化相关联。研究结果表明，由于光阑化设计的影响，不同分段的热公差分配存在非均匀性，且随着分段数增加，外围分段的公差要求相对放松。该工作揭示了分段尺寸、公差松弛度与波前传感频率之间的权衡关系，为实现100 ppt级星光抑制的超稳定望远镜设计提供了关键的热控需求指导。"
+  },
+  {
+   "id": "arxiv:2607.28357",
+   "title": "Kilometre-scale Jovian moon characterized for a potential JUICE flyby",
+   "abstract": "Jupiter's irregular satellites are thought to be relics of early Solar System planetesimals. However, their small sizes, large distances from Earth and close angular proximity to Jupiter make them difficult to characterize remotely. Here we report multi-instrument observations of kilometre-sized Kallichore, the only irregular moon of Jupiter amenable to a close flyby by ESA's Jupiter Icy Moons Explorer (JUICE), whose astrometric and physical properties were still poorly constrained. We used Hubble photometry and astrometry, followed by a ground-based, multi-site stellar occultation campaign and astrometric and photometric observations with the 10.4-m Gran Telescopio Canarias. We reduced Kallichore's orbital uncertainty by up to approximately 80% and determined its shape: an elongated object with a minimum semi-axis ratio of a/b = 1.53 +/- 0.10, an area-equivalent diameter of 3.8 (+2.3/-0.3) km and a dark surface with a geometric albedo of 3.7% (+0.7/-2.2). No close companions were detected. These new constraints provide a viable pathway towards a JUICE flyby once the spacecraft arrives in the Jupiter system in 2031.",
+   "authors": [
+    "Juan Luis Rizos",
+    "Jose Maria Gomez-Limon",
+    "Yucel Kilic",
+    "Altair R. Gomes-Junior",
+    "Jose Luis Ortiz",
+    "Nicolas Morales",
+    "Alvaro Alvarez-Candal",
+    "Pasquale Palumbo",
+    "Luisa M. Lara",
+    "Simon Porter",
+    "Benjamin Proudfoot",
+    "Evelyn Christiny M. Prais",
+    "Jean Marc Christille",
+    "Stefano Sartor",
+    "Antonio Cabrera",
+    "Stefan Geier",
+    "Alessia Spolon",
+    "Alice Lucchetti",
+    "Andrea Soffiantini",
+    "Anne Verbiscer",
+    "Armin Behrend",
+    "Elena Mazzotta Epifani",
+    "Jean-Louis Dumont",
+    "Luca Zampieri",
+    "Mike Skrutskie",
+    "Maurizio Pajola",
+    "Michel Boutet",
+    "Michele Fiori",
+    "Raoul Behrend",
+    "Stefano Sposetti",
+    "Vadim Nikitin",
+    "Fabien Cavaille",
+    "Jocelyn Serot",
+    "Laurent Miralabe",
+    "Marc Buie",
+    "Mehmed Naim Bagiran",
+    "Metin Altan",
+    "Mohammad Niaei",
+    "Noel Robichon",
+    "Orhan Erece",
+    "Pierre-Louis Phan",
+    "Raphael Lallemand",
+    "Suleyman Fisek",
+    "Valentin Etienne",
+    "Valery Lainey",
+    "Yavuz Guney",
+    "Yusuf Avcioglu",
+    "Francois Poulet",
+    "Paul Hartogh",
+    "Oliver Witasse",
+    "Pablo Santos-Sanz",
+    "Julia de Leon",
+    "Flavia L. Rommel",
+    "Fernando Tinaut-Ruano"
+   ],
+   "link": "https://arxiv.org/abs/2607.28357v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究采用哈勃望远镜测光测星、地基多点恒星掩星观测和大型地面望远镜观测等多手段，对木星不规则卫星卡利克瑞进行了详细表征，将其轨道不确定度降低80%，确定其为长轴比为1.53的细长体，直径约3.8 km，表面几何反照率仅3.7%。这些约束条件为欧空局木星冰月探测器(JUICE)在2031年到达木星系统后对该卫星的近距离飞掠观测提供了重要的科学和工程支持。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8799",
+   "title": "Magnetic Reconnection inside a Martian Ion Plume: MAVEN Observations",
+   "abstract": "Abstract The Martian ion plume is an important escape channel that influences the long-term evolution of the planet’s atmosphere, yet the small-scale dynamics within plumes remain poorly constrained by in situ observations. Using magnetic-field and plasma measurements from the Mars Atmosphere and Volatile EvolutioN (MAVEN) spacecraft, we report the first identification of a collisionless magnetic reconnection event within a molecular oxygen ion ( O 2 + ) plume at low altitude (∼600–750 km). The observations show a clear current sheet embedded in the plume. Minimum variance analysis of the magnetic field indicates that the sheet is quasi-two-dimensional, and a characteristic bipolar Hall magnetic-field signature is present. Concurrently, O 2 + ions undergo substantial heating and acceleration, forming a field-aligned ion beam that is distinctly different from the classic pickup ion populations. Walén tests further provide evidence for quasi-Alfvénic reconnection outflows. This event reveals a new dynamical pathway in the solar-wind–plume interaction. Plume reconnection may redistribute local heavy-ion transport between plume-like, tailward, and possibly return-flow pathways, and thus may influence the net escape in a localized manner. These results indicate that Martian ion plume escape involves complex dynamical and kinetic coupling.",
+   "authors": [
+    "Pu Yang",
+    "Xiaojun Xu",
+    "Hengyan Man",
+    "Xing Wang",
+    "Siqi Yi",
+    "Lei Luo",
+    "Zhongyi Liu",
+    "Zilu Zhou"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8799",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用MAVEN航天器的磁场和等离子体测量数据,在火星低空(~600-750 km)的O₂⁺离子羽流中首次识别出无碰撞磁重联事件。观测结果显示羽流内存在明确的电流片结构,具有典型的Hall磁场双极特征,同时O₂⁺离子经历显著加热加速并形成磁场对齐离子束。这一发现揭示了太阳风与火星离子羽流相互作用的新动力学机制,磁重联可能通过改变重离子在不同流动路径间的分配而影响大气逃逸速率,表明火星离子羽流逃逸过程涉及复杂的动力学和动理学耦合。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae7a39",
+   "title": "Ultraviolet Imaging of SR 12 c with HST/WFC3: Accretion and Variability of a Giant Planet at the End Stages of Growth",
+   "abstract": "Abstract Many details of the gas accretion phase during giant planet formation remain untested. We present new 0.2–0.7 μ m UV-through-red optical imaging of the young, wide-orbit planetary-mass companion SR 12 c from the Wide Field Camera 3 (WFC3) instrument on board the Hubble Space Telescope. SR 12 c exhibits strong accretion-related continuum excess blueward of ∼5000 Å and clear signs of the Balmer jump at 3646 Å. We derive a total accretion luminosity of 1.65 ± 0.19 × 10 −5 L ⊙ and a mass accretion rate of 8 ± 2 × 10 −12 M ⊙ yr −1 . Based on its mass and age, SR 12 c will not grow by an appreciable amount at its current accretion rate; it is at the end stages of assembly. No accretion variability is evident between the two epochs of the WFC3 observations spanning a month-long baseline, but the H α emission line strength decreases by 90% compared to the reported flux from five years earlier. Combined with previous observations of SR 12 c, we assemble one of the most complete spectral energy distributions of a young giant planet to date, spanning the UV through sub-mm wavelengths (0.2–880 μ m). This adds SR 12 c to the small yet growing sample of planets with detailed accretion and disk constraints, which together are beginning to establish the diversity of timescales and physical processes governing the formation of giant planets.",
+   "authors": [
+    "Claire O. Finley",
+    "Brendan P. Bowler",
+    "Ya-Lin Wu",
+    "Adam L. Kraus",
+    "Yifan Zhou",
+    "Yuhiko Aoyama",
+    "William Best",
+    "Ian Czekala",
+    "Catherine C. Espaillat",
+    "Katherine B. Follette",
+    "Gregory J. Herczeg",
+    "Raquel A. Martinez",
+    "Connor E. Robinson",
+    "Quang H. Tran",
+    "Kimberly Ward-Duong"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae7a39",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究利用哈勃太空望远镜WFC3在0.2-0.7 μm紫外至光学波段对年轻巨行星SR 12 c进行成像观测，通过紫外超量和Balmer跳跃特征约束其吸积光度（1.65 ± 0.19 × 10⁻⁵ L⊙）和质量吸积率（8 ± 2 × 10⁻¹² M⊙ yr⁻¹）。结果表明SR 12 c处于巨行星形成末期，月尺度内无吸积变率，但H α发射线在五年内衰减90%，反映吸积过程的长期演化。该研究结合多波段观测（0.2-880 μm）构建了迄今最完整的年轻巨行星谱能量分布，为理解巨行星形成中的多样化吸积过程提供重要观测约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae88fc",
+   "title": "Disk Candidates in IC 2395: A WISE Survey of the Kinematically Confirmed Membership",
+   "abstract": "Abstract Circumstellar disk dissipation timescales constrain the window available for planet formation. At ∼9 Myr, IC 2395 lies at a critical epoch in primordial disk evolution, yet no kinematically selected disk census exists beyond the inner cluster core. A wide-field survey of IC 2395, extending to a 2° radius, establishes a kinematically selected disk census and evaluates the frequency of planet-forming environments in the outer cluster field. Using a high-purity catalogue of 173 members identified via Gaia DR3 kinematics, mid-infrared excesses are identified using AllWISE photometry. Candidates are classified into two tiers: cross-validated (corroborated by Gaia variability) and single-band detections. 21 disk candidates are identified, 90% of which lie beyond the footprint of prior Spitzer surveys. The candidates are concentrated among low-mass members (0.31–0.68 M ⊙ ), with no significant correlation between mass and excess (Spearman ρ = +0.07, p = 0.84). A secure disk fraction of 4.0% ± 1.5% is established by the cross-validated subsample, independently confirmed by Gaia DR3 young stellar object variability classification; a photometric 3 σ significance cut yields a consistent estimate of 2.9% ± 1.3%. An upper bound of 12.1% ± 2.5% is derived from all 21 W1 − W2 excess candidates, with a background-subtracted value of ∼10.1%. Gaia DR3 epoch photometry reveals diverse variability morphologies, including a dramatic dipper and multiple bursters, confirming ongoing magnetospheric accretion. By extending the survey radius, this work demonstrates that infrared excess sources indicative of inner-disk emission in IC 2395 are more abundant and widely distributed than previously recognized. The survival of these disks in the lower-density outer field provides a well-characterised sample for studying the final stages of disk evolution and planet formation.",
+   "authors": [
+    "Dan Rose"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae88fc",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过Gaia DR3运动学确认的173个IC 2395成员星的WISE中红外测光,建立了该~9 Myr年龄星团外围区域的原行星盘普查,识别出21个盘候选体,其中90%超出了先前Spitzer巡天范围。研究确定可靠盘率为4.0% ± 1.5%,主要分布于低质量恒星中,并通过Gaia DR3历元测光揭示了多样的吸积变率现象,证实了内盘磁层吸积过程仍在进行。该工作表明行星形成环境在低密度外场中的存活状况优于预期,为研究行星形成的最终演化阶段提供了关键观测约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661259",
+   "title": "Refined parameters, formation, and dynamical stability of the wild exoplanet system K2-312≡HD 80653",
+   "abstract": "The architecture of planetary systems hosting ultra-short-period (USP) planets is a key diagnostic for understanding formation and migration scenarios. The presence of outer giant companions in these systems is of particular interest to test theories regarding dynamical effects and pebble accretion. We present an extended radial velocity (RV) monitoring of the bright star K2-312≡HD,80653, known to host a rocky USP super-Earth (P_b=0.720,d). Previous studies identified a long-term trend and subsequently a Keplerian signal due to an outer highly eccentric giant planet, K2-312,c. We aim to refine the orbital parameters of K2-312,c by precisely monitoring its periastron passage and to model the formation and dynamical evolution of the system. We analyzed a set of 237 HARPS-N high-resolution spectra, extending the observation baseline of previous literature by almost 4 years. We performed a joint analysis of the RVs together with K2 and TESS photometry to refine the ephemerides and properties of the two planets. To account for stellar activity, we coupled the Keplerian models with a Gaussian processes regression. K2-312,c is a cold Jupiter on a wide orbit (orbital period refined to P_c=871.32,d), with a minimum mass of M_c i ∼ 5,M_ ̊m Jup and a refined eccentricity of e_c ∼ 0.85. It is among the most eccentric cold Jupiters known in multi-planet systems, and the only one that is highly eccentric and has a USP planet companion. Our simulations suggest that planet-planet scattering between two giant planets could have driven K2-312,c to its current high eccentricity, ejected the other giant, and still allowed for the survival of K2-312,b. The extended observation baseline further allowed us to identify the stellar rotation period and a long activity cycle, while a new K2 reduction improved the significance of the secondary eclipse detection for K2-312,b.",
+   "authors": [
+    "L. Naponiello",
+    "E. Poretti",
+    "K. Rice",
+    "A. S. Bonomo",
+    "L. Malavolta",
+    "M. Stalport",
+    "A. Vanderburg",
+    "C. Ziegler",
+    "L. Affer",
+    "M. Cecconi",
+    "A. Collier Cameron",
+    "R. Cosentino",
+    "M. Damasso",
+    "X. Dumusque",
+    "Y. N. E. Eschen",
+    "A. Ghedina",
+    "D. W. Latham",
+    "M. López-Morales",
+    "T. Lu",
+    "A. Massa",
+    "A. Mortier",
+    "B. A. Nicholson",
+    "L. Palethorpe",
+    "F. A. Pepe",
+    "A. Sozzetti",
+    "S. Udry",
+    "T. G. Wilson"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661259",
+   "source": "Astronomy & Astrophysics",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "eccentric giant planet"
+   ],
+   "summary_zh": "本研究通过扩展的HARPS-N径向速度监测结合K2和TESS光度学数据，精确确定了K2-312系统中外层高离心冷木星K2-312c的轨道参数（周期871.32天，离心率~0.85），该系统因同时托管超短周期超级地球而具有独特的动力学意义。数值模拟表明行星-行星散射机制可以解释K2-312c的极高离心率形成、另一颗巨行星的逐出以及内层超级地球的幸存，为超短周期行星系统的形成和迁移理论提供了关键约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557082",
+   "title": "Planetary atmospheric escape and disk formation around WDJ0914+1914",
+   "abstract": "The spectrum of the white dwarf WD,J091405.30+191412.25 displays the absorption and double-peaked emission lines of the volatiles hydrogen, oxygen, and sulfur. This unique characteristic has been interpreted as evidence of this white dwarf accreting mass from a circumstellar disk that had formed from atmospheric material evaporating off a close-in Neptune-like or super-puff mass planet. Thus far, however, the orbital separation of the planet and its mass-loss rate have only been estimated using simple analytical approximations. In this work, we tested the outlined scenario by determining the mass-loss rate of the irradiated planet through hydrodynamical simulations and by studying in detail the formation and evolution of the disk, as well as the resulting mass accretion rates onto the white dwarf. We used 3D radiative-hydrodynamic simulations of a pure hydrogen atmosphere under the influence of extreme UV (XUV) radiation from the white dwarf to determine the mass loss rates for Neptune-like and super-puff planets at different orbital separations. The escaping material was assumed to feed a circumstellar disk, whose viscous evolution was then modeled using 1D radial disk calculations to determine the resulting accretion rates in each case. For the explored cases, the planetary mass loss rates span a narrow range of ∼ (1.8 -4.0) g s 12 -1 . This material forms a disk around the star that stabilizes in łesssim 10^5 years, as a result of the balance between continuous mass injection from the evaporating planet and viscous mass loss onto the central star. The accretion rates at this stage are on the order of a few times 10^ 9 –10^10 g s -1 , in agreement with previous observational estimates. Our simulations suggest that the disk extends beyond the planet position, in contrast to the size derived from observations. We conclude that a planet with a gaseous envelope at a distance of sim15 R_⊙ will indeed suffer from photoevaporation and that the material escaping the planet will form a gaseous disk around WD,J0914+1914, most likely extending beyond the location of the planet. Our results confirm the possibility that the observed spectral features of WD,J0914+1914 can be explained by an evaporating gas-rich planet.",
+   "authors": [
+    "C. Villarreal D'Angelo",
+    "M. P. Ronco",
+    "M. R. Schreiber",
+    "O. Toloza",
+    "A. Esquivel",
+    "B. T. Gänsicke"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557082",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape",
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究通过三维辐射流体动力学模拟和一维盘演化计算,研究了白矮星WDJ0914+1914周围类海王星行星的大气光蒸发及其形成的吸积盘。模拟结果表明,距白矮星约15个太阳半径处的含气行星会经历强烈的光蒸发,逃逸气体质量损失率为1.8-4.0 g/s,足以形成稳定的吸积盘,其吸积率(~10^9-10^10 g/s)与观测估计相符。研究确认了该白矮星的独特光谱特征(挥发性元素的吸收和发射线)可由蒸发气体盘解释,证实了行星大气逃逸驱动盘形成的物理机制。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659973",
+   "title": "Parametrizing the projected wind fields of ultra-hot Jupiters in thermal emission: An application to GCM spectra of WASP-76b",
+   "abstract": "High-resolution thermal emission spectroscopy provides a powerful probe of atmospheric circulation in ultra-hot Jupiters (UHJs), with Doppler shifts encoding information about the 3D wind field across the planet disk. Retrieving these wind properties from phase-dependent emission spectra requires a forward model that is both physically motivated and computationally tractable. We aim to investigate what 3D wind information is contained in the thermal emission spectra of UHJs in the first place, and whether the complicated 3D atmospheric structure of these planets can be captured by a simplified forward model with a small number of parameters. We present , a new forward model that parametrizes the projected line-of-sight velocity field on the planet disk using four wind parameters (an equatorial jet speed v_ dopplerkernel and width σ_ a source-to-sink flow speed v_ and a flow convergence longitude ̌arphi_ and constructs a broadening kernel via weighted kernel-density estimation. We applied this framework in a Bayesian retrieval to synthetic K-band emission spectra of WASP-76b generated from three global circulation models (GCMs) that span a range of atmospheric drag strengths. We performed retrievals across multiple spectral resolutions and orbital phase coverages. Our retrievals successfully recovered the equatorial jet in the drag-free GCM to within ∼1 km/s of the zonal mean and infer day-to-night wind speeds in good agreement with GCM averages at 1--10 mbar for all three drag regimes. We find that spectral resolutions of R ∼ 100 , 000 offer an optimal trade-off: sufficient to resolve global wind features while avoiding spurious detections caused by model--data mismatches at higher resolution. Combining pre- and post-eclipse phases yields more reliable constraints than either alone, particularly on the orientation of the source-to-sink flow. Experiments with more complex weight functions reveal a degeneracy between the velocity field and the thermal weighting, cautioning against overparametrization. A parametric broadening-kernel model with a small number of physically interpretable parameters can accurately reproduce the phase-dependent line shifts, shapes, and strengths in UHJ emission spectra. However, the fundamental degeneracy between the velocity distribution and the thermal weight function means that adding model complexity does not necessarily improve wind inference and may introduce spurious features. Bayesian model comparison is essential when applying this framework to real observations.",
+   "authors": [
+    "Joost P. Wardenier",
+    "Romain Allart",
+    "Georgia Mraz",
+    "Louis-Philippe Coulombe",
+    "Frédéric Genest",
+    "Vigneshwaran Krishnamurthy",
+    "Enola Quenet",
+    "Vincent Yariv"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659973",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "emission spectr",
+    "atmospheric circulation"
+   ],
+   "summary_zh": "本研究开发了一个参数化模型来描述超热木星热发射谱中的投影风场，使用四个物理参数（赤道喷流速度、源汇流速和汇聚经度等）通过加权核密度估计构建展宽核函数。通过对WASP-76b三个全球环流模型的贝叶斯反演，我们发现该简化模型能准确恢复全球风场特征，赤道喷流精度达~1 km/s，日夜风速与GCM结果相符，且R~100,000的光谱分辨率提供最优的约束。关键发现是速度场与热权重函数之间存在简并性，表明过度参数化反而会引入虚假特征，因此应用于实测数据时需谨慎使用贝叶斯模型比较。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660109",
+   "title": "The JWST weather report: Unravelling the atmospheric variability of isolated worlds using principal component analysis",
+   "abstract": "Brown dwarf variability directly probes atmospheric dynamics beyond the Solar System, and recent time-resolved spectroscopy has opened a new window into these processes. Principal component analysis (PCA) offers a data-driven framework to identify the dominant, independent patterns of spectral variability of variable targets without relying on prior atmospheric assumptions. James Webb Space Telescope (JWST) simp ( ) is a young, T2.5, brown dwarf at the planetary-mass boundary, making it an ideal analogue for directly imaged exoplanets. We analysed one rotation of /NIRSpec PRISM time-series spectroscopy to investigate the drivers of its variability using PCA. Prior analyses of these data revealed wavelength-dependent variability consistent with multi-layer atmospheric structure and thermal variations atop patchy clouds, motivating a complementary, model-independent approach. Our PCA showed that the variability is intrinsically low dimensional. Two principal components are sufficient to reduce the residual spectra to the propagated noise floor, indicating that the detectable coherent spectroscopic variability is captured by the first two components. The leading principal component captures broadband variability consistent with temperature changes, while the second traces chromatic variability linked to vertical cloud structure. The existence of two dominant components implies that the spectra can be described as mixtures of three distinct atmospheric states. We identified these three extreme spectral states from PCA projections and mapped their relative contributions as a function of rotational phase. The observed spectra are described as evolving linear combinations of these states, indicating that the variability arises from the changing visibility of spatially distinct atmospheric regions. By projecting Sonora Diamondback forward models into the same principal component space, we found that the eigenspectra capture a large fraction of the model variance, demonstrating that the same physical processes govern much of the model grid and observed variability. These results show that changes in temperature and cloud vertical structure account for most of the variability in , and establish PCA as a computationally efficient, physically interpretable framework for analysing time-resolved spectroscopy of substellar atmospheres. simp JWST simp JWST",
+   "authors": [
+    "Merle A. Schrader",
+    "Johanna M. Vos",
+    "Evert Nasedkin",
+    "Jennifer Kestell",
+    "Nicolas B. Cowan",
+    "Roman Akhmetshyn",
+    "Samuel Beiler",
+    "Beth A. Biller",
+    "Ben Burningham",
+    "Jacqueline Faherty",
+    "Eileen C. Gonzales",
+    "Allison M. McCarthy",
+    "Caroline V. Morley",
+    "Barry O'Donovan",
+    "Cian O'Toole",
+    "Genaro Suárez",
+    "Xianyu Tan",
+    "Channon Visscher",
+    "Niall Whiteford",
+    "Yifan Zhou"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660109",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用主成分分析（PCA）这一数据驱动方法，分析JWST对年轻棕矮星SIMP的近红外时间分辨光谱，在不依赖大气模型假设的前提下揭示其光谱变异的主导模式。研究发现该棕矮星的变异本质上是低维的，仅需两个主成分就能将残差谱降至噪声水平，其中第一主成分反映温度变化导致的宽波段变异，第二主成分追踪与云层垂直结构相关的色度变异。这些结果表明棕矮星大气可由三个不同的光谱态的线性组合描述，温度和云结构的变化是造成可观测变异的主要原因，同时确立了PCA作为分析亚恒星大气时间分辨光谱的高效且物理可解释框架的有效性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202658993",
+   "title": "Magnetic reconnection inside the Martian nightside ionosphere during the disappearing solar wind event",
+   "abstract": "We report the first in-situ observation of magnetic reconnection within the nightside ionosphere of Mars during the disappearing solar wind (DSW) event on 26 December, 2022, a region where such processes were previously not expected. Data from the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission reveal that this event occurs between two open magnetic field lines. This event exhibits a complete set of reconnection signatures, which include changes in the magnetic field topology, clear Hall magnetic field reversal, ion acceleration, and sub-Alfvén outflow. Furthermore, we observed a notable similarity in the pitch angle distributions of photoelectrons and suprathermal electrons. We attribute this phenomenon to the radial expansion of the ionosphere, which caused the upward migration of ionospheric ions and neutrals. This upward movement allowed nightside ionospheric regions above the reconnection site to be illuminated by extreme ultraviolet radiation, leading to the generation of photoelectrons. These photoelectrons subsequently propagated towards the planetary surface along open magnetic field lines together with suprathermal electrons from the solar wind. This process underscores the profound reshaping of magnetosphere-ionosphere coupling dynamics that can occur under extreme solar wind conditions on Mars.",
+   "authors": [
+    "Hengyan Man",
+    "Xiaojun Xu",
+    "Pu Yang",
+    "Lei Luo",
+    "Zilu Zhou",
+    "Siqi Yi",
+    "Xing Wang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202658993",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用MAVEN卫星数据，在火星夜侧电离层首次原位观测到磁重联现象，该现象发生在太阳风消失事件期间，发生位置为两条开放磁场线之间。观测到的磁重联事件具有完整的特征签名，包括磁场拓扑变化、霍尔磁场反向、离子加速和亚阿尔芬喷流，并发现光电子与超热电子的俯仰角分布相似，表明电离层向外辐向膨胀导致离子和中性粒子向上迁移，使夜侧电离层被极紫外辐射照射产生光电子。这一发现揭示了极端太阳风条件下火星磁层-电离层耦合过程的动力学重塑机制。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659730",
+   "title": "A robust super-time-stepping scheme for Ohmic and ambipolar diffusion",
+   "abstract": "Nonideal magnetohydrodynamics (MHD) is a key tool for modeling magnetic flux transport in astrophysical systems such as molecular clouds, protostellar cores, and protoplanetary disks. Conventional explicit methods for nonideal MHD diffusion are severely limited by timestep constraints, and sub-stepping approaches can be unstable due to truncation errors near boundaries and strong magnetic-field gradients. Our main goal is to address these limitations by developing robust super-time-stepping methods for Ohmic and ambipolar diffusion. We present a super-time-stepping method based on the stability of the Gegenbauer polynomials. The method is designed to enhance robustness in the presence of strongly anisotropic resistivity and to reduce sensitivity to truncation errors near boundaries. We implemented the scheme in the PLUTO code and assessed its performance through dedicated Ohmic and ambipolar diffusion tests. We also tested this novel numerical scheme by applying it to two common astrophysical problems, namely magnetic reconnection and the magnetorotational instability. The novel Runge-Kutta-Gegenbauer scheme retains computational efficiency beyond purely explicit schemes while providing excellent stability compared with other traditional sub-stepping methods. It remains stable in the presence of strongly anisotropic diffusion, enabling accurate magnetic-field evolution in the regimes characteristic of protoplanetary disks and collapsing dense cores. Benchmark tests, including magnetic reconnection and magnetorotational-instability setups, confirm the method's accuracy, efficiency, and suitability for large-scale nonideal MHD simulations.",
+   "authors": [
+    "G. Mattia",
+    "M. Flock",
+    "D. Melon Fuksman",
+    "A. Tzouvanou",
+    "V. Berta",
+    "D. Crocco"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659730",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究针对非理想磁流体动力学中欧姆扩散和双极扩散的数值求解问题,基于Gegenbauer多项式的稳定性发展了鲁棒的超时间推进方法,该方案在PLUTO代码中实现并通过磁重联和磁旋转不稳定性等天体物理模型测试验证。相比传统显式和亚步进方法,该Runge-Kutta-Gegenbauer格式在保持计算效率的同时提供了更好的稳定性,特别是在处理强各向异性扩散时表现出色,使其适用于原行星盘和坍缩密集核等环境中的大规模非理想磁流体动力学模拟。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661682",
+   "title": "Alkali lines at extreme densities and their impact on giant planet interior structure",
+   "abstract": "Alkali lines, in particular the sodium Na D (5891 Å, 5897 Å) and potassium K D (7667 Å, 7701 Å) resonance doublets, are dominant opacity sources in giant planets over a wide range of temperatures (≳ 1000 ̊m K). Their strong pressure-broadened wings significantly influence the thermal structure of giant planets, especially at high pressures. Most detailed line-profile calculations have so far been limited to perturber densities up to 21 ̊m cm^ -3 . However, conditions in the deep atmospheres and interiors of giant planets can reach significantly higher densities, making the temperature gradients increasingly uncertain. We determined how physically consistent collisional broadening of the Na D and K D lines at extreme densities affects opacity calculations and consequently the inferred interior structure of giant planets. We computed detailed Na D and K D line profiles using unified line theory, extending to molecular hydrogen perturber densities of n_ ̊m H_2 = 5 ̊m 10^ 22 -3 , which translates to pressures up to ∼ 20 ̊m kbar. The revised cross sections were incorporated into Rosseland mean opacity tables, which were then used to evaluate their effect on planetary thermal structures. At densities n_ ̊m H_2 > 10^ 21 ̊m -3 , the line profiles predicted by unified line theory exhibit significantly stronger and more extended wings than commonly used Voigt profiles, as well as density-dependent line shifts. The revised line profiles increase Rosseland mean opacities by a factor of 2 at 10^3 ̊m bar and by an order of magnitude at 10^4 ̊m bar. Consequently, the radiative-convective boundary of warm and hot giant planets can shift to lower pressures, producing warmer interior adiabats and increasing inferred core masses by up to 9 ̊m M_ ̊m earth . We further find that Jupiter is highly unlikely to host a stable radiative layer at the present time or throughout most of its evolution, as the required Na and K abundances for this are well below observational constraints. Our new opacity tables span metal mass fractions Z ∈ 0.0044, 0.696 and are publicly available.",
+   "authors": [
+    "L. Siebenaler",
+    "N. F. Allard",
+    "E. A. van Dijk",
+    "Y. Miguel"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661682",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过统一线理论计算了极端密度条件下Na D和K D碱金属谱线的详细轮廓(H₂密度达5×10²²cm⁻³,压强~20 kbar),发现在高密度区域这些谱线的翼部比常用Voigt轮廓显著更强且更宽,导致Rosseland平均不透明度在10³和10⁴ bar处分别增加2倍和1个数量级。这些修正的不透明度表被用于评估对巨行星热结构的影响,结果表明辐射-对流边界向更低压力移动,使得暖木星和热木星的内部绝热线更温暖,推断的行星核心质量可增加高达9个地球质量,且木星在其演化历程中不太可能维持稳定的辐射层。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661622",
+   "title": "A quiet host in an active planet-forming disk: Optical spectroscopy of WISPIT 2",
+   "abstract": "WISPIT 2 is a young pre-main-sequence star hosting a multi-ringed transition disk and two directly imaged protoplanets. One of them, WISPIT 2b, has been confirmed to be accreting. This makes WISPIT 2 the closest known analogue to PDS 70; however, prior to this work, no optical spectrum of the central star had been published. Population-synthesis models predict that stellar accretion can be strongly suppressed once two or more giant planets have formed, so characterising the atmospheric and accretion properties of such hosts is essential. We present the first optical spectrum of WISPIT 2 and use it to derive the host atmospheric parameters, test its youth spectroscopically, and constrain its stellar accretion state relative to PDS 70 and to the embedded planets. We analysed low-resolution HFOSC spectra (R for Grism 7 and R , validating the pipeline at HFOSC resolution against Gaia FGK Benchmark Stars and K-type pre-main-sequence templates from the public Manara et al. library. The Hα residual filling was measured relative to synthetic photospheric profiles and compared with the expected chromospheric-noise level. for Grism 8) from the 2-m Himalayan Chandra Telescope with iSpec Hα remains in net absorption, but is partially filled in by emission; the weak residual filling (1.5--2.0σ) lies ∼1 dex below the chromospheric-noise level, consistent with chromospheric emission and no detectable accretion. We place a 95% upper limit dot M _ ̊m acc <3.6 ,M_⊙, ^ -11 ̊m yr -1 , below even the lowest epoch of PDS 70's monitoring and implying a host-to-planet ratio dot M _⋆/ _ M ̊m 2b łesssim18. We also measure T_ ̊m eff =4551 =-0.17 equivalent width (EW) support the pre-main-sequence nature of the host. K and a first, low-resolution, model-dependent global metallicity mathrm M/H the surface gravity and Li, i Both known double-protoplanet hosts, PDS 70 and WISPIT 2, therefore appear to show strongly suppressed or undetectable stellar accretion. Larger spectroscopic samples are needed to test whether this is common in multi-protoplanet transition disks.",
+   "authors": [
+    "C. Swastik",
+    "M. Bestha",
+    "L. S. Sonith",
+    "S. Facchini",
+    "T. Sivarani",
+    "R. K. Banyal",
+    "Z. Wahhaj",
+    "A. Choudhary",
+    "M. Gopinathan",
+    "P. Saraf",
+    "A. Mallick",
+    "M. P. Navaneeth",
+    "S. Biswas",
+    "K. Khushbu"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661622",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "population synthesis"
+   ],
+   "summary_zh": "本研究通过喜马拉雅钱德拉望远镜获取WISPIT 2的首个光学光谱，测定其恒星大气参数（Teff=4551 K，log g=-0.17）并约束其吸积状态，发现其Hα残差填充极弱（1.5-2.0σ），吸积率上限<3.6×10⁻¹¹ M☉/yr，远低于类似系统PDS 70。这一结果表明在双原行星宿主系统中恒星吸积被强烈抑制，与行星形成模型关于多个巨行星出现后吸积受阻的预测一致，但需要更大样本验证此现象在多原行星过渡盘中的普遍性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660714",
+   "title": "Magnetically guided accretion and extremely slow rotation in a metal-enriched white dwarf",
+   "abstract": "White dwarfs that show atmospheric metal enrichment offer a direct window into the bulk composition of exoplanetary material and provide some of the most direct constraints on the building blocks of rocky exoplanetary systems. Recent work has suggested that magnetic fields may influence how this material is accreted, potentially channelling debris along field lines and retaining it near magnetic poles rather than allowing it to be redistributed uniformly across the stellar surface. Here we report the discovery of photometric, spectroscopic, and spectropolarimetric variability in the magnetic DZ white dwarf WD,1532+129, revealing a rotation period of about 289,d, by far the longest directly measured for any degenerate star thus far. The observed period may result from the combined effect of angular-momentum loss during the evolution leading to the white-dwarf stage and an unusually slowly rotating progenitor, perhaps a magnetic Ap star. The white dwarf exhibits surface abundance inhomogeneities, with metals concentrated near both magnetic poles, and the observed modulation is consistent with localised metal-rich regions aligned with the magnetic geometry. WD,1532$+$129 is the third of four known magnetic DZ white dwarfs within 20,pc to show evidence of polar metal enhancement, indicating that magnetically guided inhomogeneities are a common property of magnetic metal-enriched white dwarfs.",
+   "authors": [
+    "S. Bagnulo",
+    "M. A. Stroet",
+    "C. P. Folsom",
+    "M. A. Hollands",
+    "J. D. Landstreet",
+    "G. Ramsay"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660714",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过测光、分光和磁偶极谱偏振观测发现磁白矮星WD 1532+129具有约289天的超长自转周期（已知最长的简并星自转周期），并揭示其大气金属富集呈现极地浓聚现象，表明行星碎片物质沿磁场线被导向并聚集在磁极附近。这一发现表明磁场对金属吸积的引导作用是磁白矮星的普遍性质，为理解岩质系外行星物质在演化末期白矮星上的沉积过程提供了新的约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660320",
+   "title": "Absorption spectra of SO + in the ultraviolet region",
+   "abstract": "The potential energy curves (PECs), transition dipole moments (TDMs), spectroscopic constants, and spin--orbit coupling (SOC) matrix elements for eight doublet states (X 2 Π$, A^ 2 Π, 1^ 2 Φ, C^ 2 Π, 1^ 2 Δ, B^ 2 Σ^ - , 1^ 2 Σ^ + , and 2^ 2 Σ^ + ) and two quartet states (a^ 4 Π and b^ 4 Σ^ - ) of the sulfur monoxide cation were calculated using the multireference configuration interaction (MRCI) method. Furthermore, the PECs of the X^ 2 Π and A^ 2 Π states were refined by fitting to the experimentally measured vibrational energy levels. Based on these data, the absorption cross sections arising from the A^ 2 Π--X^ 2 Π transition within the 30,000--50,000 cm^-1 range were simulated, and a comprehensive spectral analysis was performed. Moreover, the absorption cross sections for a total of six 2 Π--X^ 2 Π, B^ 2 Σ^ - --X^ 2 Π, C^ 2 Π--X^ 2 Π, 2^ 2 Σ^ + --X^ 2 Π, 1^ 2 Σ^ + --X^ 2 Π, and 1^ 2 Δ--X^ 2 Π---were computed to simulate the absorption spectra of SO$^ + in cosmic atmospheres. It is expected that the spectroscopic data presented in this work will facilitate the characterization of exoplanet atmospheres in future observational missions.",
+   "authors": [
+    "Rujie Gu",
+    "Di Liu",
+    "Qinghui Wei",
+    "Tong Wang",
+    "Siyaolitu An",
+    "Boris F. Minaev",
+    "Hans Ågren",
+    "Bing Yan"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660320",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究采用多参考组态相互作用(MRCI)方法计算了SO⁺离子十个电子态的势能曲线、跃迁偶极矩、自旋轨道耦合等关键参数,并通过实验振动能级进行了优化。基于这些数据,研究者模拟计算了SO⁺在30,000-50,000 cm⁻¹范围内及多条吸收跃迁的吸收截面谱。这些高精度的分子光谱数据可用于系外行星大气的遥感观测分析。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202556715",
+   "title": "Asteroseismic models of the magnetic binary HD 156424",
+   "abstract": "HD 156424 is a hot magnetic star in the Sco OB4 association and has previously been identified as part of a binary system. Spectropolarimetric results show that the companion star is also strongly magnetic, and thus this is a rare example of a doubly magnetic hot binary. In this work, we aim to present a more detailed analysis of Transiting Exoplanet Survey Satellite data including phase variation. We find short-term phase variation consistent with an oblique magnetic rotator, as well as long-term phase variation consistent with the third element proposed previously. We performed asteroseismic modelling of the star and determined that the pulsations are most likely associated with the primary of the system. Our best-fit models are universally young, and we find that the star is well fitted by a model with M=7.5 M_⊙.",
+   "authors": [
+    "C.C. Lovekin",
+    "S. Davis",
+    "V. Khalack"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202556715",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究对双磁性热星双星系统HD 156424进行了详细的TESS数据分析和星震学建模。研究发现该系统存在与斜磁旋转子一致的短期位相变化和与第三天体相符的长期位相变化,并通过星震学模型确定脉动主要来自主星。最优拟合模型表明主星质量约为7.5太阳质量且年龄较轻,为研究双星系统中磁场与恒星结构之间的相互作用提供了重要观测约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660315",
+   "title": "Circular polarization as a probe of cloud properties and asymmetries in giant exoplanet atmospheres",
+   "abstract": "Polarimetry is a promising method for characterizing clouds in exoplanetary atmospheres. For planets in the Solar System, circular polarization measurements complement linear polarimetry by providing additional information on cloud particle properties. As the disk-integrated circular polarization is zero for symmetric planets, observing intrinsic circular polarization of spatially unresolved exoplanets requires stable spatial asymmetries such as circumplanetary rings. We investigated the potential of circular polarization measurements at optical and near-infrared wavelengths to determine optical properties of cloud particles in the atmospheres of giant exoplanets and characterize asymmetries. For 20 selected cloud condensates that cover a large range of refractive indices, we calculated optical properties assuming Mie scattering theory. The circular polarization of starlight scattered by cloudy exoplanets was calculated with Monte Carlo radiative transfer simulations. To explain the connection between optical properties and planetary circular polarization, we derived an interpretative model of the first two scattering orders. Planetary hemispheres with atmospheres including cloud particles with a large imaginary part, k, of the refractive index show distinct circular polarization phase curves dominated by scattering first by gaseous molecules and then by cloud particles. The intrinsic degree of circular polarization, P_ . When the cloud particles have a low k, they instead induce even smaller but more predictable circular polarization dominated by scattering solely by cloud particles. The predictability allows for a characterization of the underlying asymmetry. For example, this could be used to determine which half of the planet is covered by a circumplanetary ring. is at most 3⋅ 10^ -4 Circular polarization of starlight reflected by giant exoplanets is sensitive to cloud particle composition and large-scale asymmetries but remains a subtle signal. While promising for characterizing clouds under favorable conditions, practical detection requires technological advances in polarimetry and careful disentanglement from stellar background signals.",
+   "authors": [
+    "M. B. Michaelis",
+    "S. Wolf"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660315",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过蒙特卡洛辐射转移模拟计算了20种云凝聚物对恒星光的圆偏振响应,揭示了圆偏振与云粒子光学性质(特别是折射率虚部)和行星非对称结构之间的关系。研究表明,高吸收云粒子会产生明显的圆偏振相位曲线,而低吸收粒子则产生更可预测的信号,可用于表征行星环等大尺度非对称性。虽然圆偏silon信号微弱(最大3×10⁻⁴),但在合适条件下对于表征巨行星大气云特性和环状结构具有应用潜力,其实现需要偏振测量技术进步和背景噪声分离方法的改进。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1387",
+   "title": "Silicate Clouds, SiO, and Molecular Trends across the L–T Sequence: A JWST /MIRI LRS Spectral Library of Brown Dwarfs",
+   "abstract": "Abstract We present the results of a survey program with JWST’s MIRI LRS that obtained 5–14 μm R~100 spectra of twenty-three L0–T6 dwarfs. This spectral type range spans the formation, growth, and sedimentation of silicate condensate clouds, as well as the appearance of methane and ammonia in the atmospheres of brown dwarfs. The initial onset of silicate absorption at spectral type L0 as well as the evolution of this feature with spectral type are both examined in unprecedented detail. We detect 7.5–9.5 $\\umu$m gas-phase SiO absorption for the first time in dwarf stars, with detections in M5.5–L2.5 dwarfs from combined Spitzer IRS and JWST spectra. This feature has previously been detected in K and M giants, with stronger absorption in these giants than in higher-gravity M dwarfs. In contrast, low-gravity L dwarfs show weaker SiO absorption than field-gravity L dwarfs. We also confirm water, ammonia, and methane absorption trends with spectral type previously seen in Spitzer IRS observations. We report the possible detection of CS2 in a T3.5 dwarf, although confirmation would require higher-dispersion spectroscopy. We find two newly resolved binaries, confirm two near-equal flux unresolved candidate binaries, and identify two additional possible non-equal flux binaries. After accounting for contamination by resolved and candidate binaries, we find that single field dwarfs are ~0.15–0.20 mag underluminous compared to existing empirical relations. The presented spectral library offers a spectrophotometrically calibrated basis for future interpretation of JWST MIRI spectra of brown dwarfs or of directly imaged or transiting exoplanets.",
+   "authors": [
+    "Sam Barber",
+    "Stanimir Metchev",
+    "Genaro Suárez",
+    "Samantha Lambier",
+    "Paulo A Miles-Páez",
+    "Étienne Artigau",
+    "Beth Biller",
+    "Adam J Burgasser",
+    "Jacqueline Faherty",
+    "Gregory Mace",
+    "Caroline V Morley",
+    "Johanna M Vos"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1387",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI LRS对23颗L0-T6型褐矮星进行了5-14 μm中分辨率光谱巡测,首次在矮星中探测到气态SiO吸收特征,并详细追踪了硅酸盐云的形成、生长及沉降过程中的光谱演化规律。研究发现低重力L型褐矮星的SiO吸收弱于场旋转L型褐矮星,同时确认了水、氨和甲烷等分子特征随光谱型的演变趋势。该校准的光谱库为未来JWST褐矮星观测以及系外行星大气研究提供了重要参考基准。"
+  }
+ ],
  "2026-07-31": [
   {
    "id": "arxiv:2607.28121",
