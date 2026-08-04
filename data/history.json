@@ -1,4 +1,223 @@
 {
+ "2026-08-04": [
+  {
+   "id": "doi:10.3847/1538-4357/ae84b9",
+   "title": "How Late Solid Enrichment Shapes Atmospheric Abundances in Giant Planets",
+   "abstract": "Abstract Atmospheric abundance measurements of giant exoplanets are increasingly used to infer their formation histories, motivating upcoming population studies with facilities such as the ESA Ariel mission. We present a population synthesis study of giant planet formation that combines pebble accretion, planetesimal formation with migration-driven accretion, and an inheritance-based C–O chemistry model. We compare disks in which angular momentum transport is dominated either by turbulent viscosity or by magnetically driven disk winds. Wind-driven disks produce systematically more massive giant planets, but the atmospheric composition of those planets is otherwise similar to that of planets formed in viscous disks. In the absence of significant late-time solid pollution, atmospheric abundances such as C/H, O/H, and C/O retain sensitivity to the formation and migration history of simulated planets. When planetesimals efficiently enrich the envelope during migration, the abundance distributions collapse onto narrower sequences that are largely insensitive to the underlying disk accretion model. They remain correlated with formation and migration history, though with a smaller dynamic range in abundance. The resulting C/O distributions depend on planet mass in a way that agrees qualitatively well with observations, while the predicted range of C/H and O/H abundances is substantially narrower than observed. This suggests that there is a greater range in the amount of envelope pollution than represented in this simple model.",
+   "authors": [
+    "Michael L. Balogh",
+    "Yuvan Sooryakumar",
+    "Sachen Gombu",
+    "Francis J. Poulin",
+    "Pluto Jiang",
+    "Safwan Khan",
+    "Anthony Girmenia"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae84b9",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "population synthesis",
+    "pebble accretion",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过结合鹊粒吸积、类地行星形成与迁移驱动吸积以及基于继承的C-O化学模型,对巨行星形成进行了群体合成研究,比较了湍流粘性与磁驱动盘风两种角动量输运机制对大气丰度的影响。研究发现,晚期固体污染(行星迁移期间的类地行星吸积)会导致大气C/H、O/H和C/O等丰度分布发生显著坍缩,使其对盘吸积模型的敏感性降低,但仍与形成和迁移历史相关。模型预测的C/O分布与观测在行星质量相关性上定性一致,但C/H和O/H丰度范围远窄于观测,提示真实行星可能经历了比模型所示更大范围的包层污染过程。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae83a3",
+   "title": "Comprehensive Ab Initio Quantum Computations of CO 2 –H 2 and CO 2 –He Collisional Properties",
+   "abstract": "Abstract We present comprehensive ab initio fully quantum calculations of CO 2 –H 2 and CO 2 –He collisional properties. Our framework combines CCSD(T) potential-energy-surface calculations with close-coupling dynamical scattering in the Yumi framework to derive elastic and inelastic cross sections, rate coefficients, and pressure broadening parameters. We characterize the rotational dependence of the broadening coefficients up to j = 25 for CO 2 –H 2 and j = 40 for CO 2 –He, and their temperature dependence over 40–800 K. We also provide Padé fits as a function of rotational quantum number, enabling extrapolation and integration into spectroscopic databases, including HITRAN and HITEMP. The resulting pressure broadening coefficients reproduce available experimental measurements on an absolute scale, without empirical correction factors, and meet the ∼10% precision requirement identified for JWST-era exoplanet atmospheric studies. These calculations provide a substantial update to the pressure-broadening parameters commonly used in exoplanet atmospheric retrievals. The improvement is most important at elevated temperatures ( T ≥ 400 K), where existing database values such as those from HITRAN can fall outside the desired precision by up to a factor of five. All derivations, computed collisional properties, and database-ready products are provided with this manuscript. This methodology demonstrates the power of the next-generation quantum dynamics computations for spectroscopic needs across planetary atmospheres, combustion, health sciences, and fusion-plasma diagnostics.",
+   "authors": [
+    "Prajwal Niraula",
+    "Laurent Wiesenfeld",
+    "Nejmeddine Jaïdane",
+    "Julien de Wit",
+    "Robert J. Hargreaves",
+    "Jeremy Kepner",
+    "Deborah Woods",
+    "Cooper Loughlin",
+    "Iouli E. Gordon"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae83a3",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用第一性原理量子动力学方法，结合CCSD(T)势能面计算和近耦合散射理论，系统计算了CO₂–H₂和CO₂–He碰撞的弹性/非弹性截面、速率系数和压力增宽参数，覆盖40–800 K温度范围和高转动量子数。所得压力增宽参数在40–800 K范围内无需经验修正因子即可达到~10%精度，特别改进了≥400 K高温区域的预测，相比现有HITRAN数据库值精度提高5倍以上。该工作为系外行星大气遥感反演、HITRAN/HITEMP光谱数据库和类似高温环境应用提供了关键的碰撞参数更新。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae89b6",
+   "title": "Probing the Magnetic Activity of GJ 398 through TESS Flare Detection and uGMRT Radio Observations",
+   "abstract": "Abstract GJ 398 is a highly active mid-M dwarf (M4V) located at ≈15 pc, with a long history of reported X-ray and radio activity. Lying near the transition between partially and fully convective interiors, it occupies a key regime within the active-M-dwarf population and serves as a benchmark target for understanding multiwavelength magnetic energy release in active mid-M dwarfs. We analyzed the flaring activity of GJ 398 to investigate its stellar atmosphere and magnetic properties using 2 minute short-cadence photometry from the Transiting Exoplanet Survey Satellite and radio observations from the upgraded Giant Metrewave Radio Telescope (uGMRT), noting that the radio and photometric datasets were obtained at different epochs. Interestingly, we report for the first time specifically on GJ 398 a high super-flare event of 2.6 × 10 34 erg with a duration of ≈90 minutes, for which solar-based scaling relations suggest an associated magnetic field strength of at least 362 G to power it. We correlate flare duration with its energy, △ t ∝ E bol 0.51 ± 0.03 , indicating a characteristic coronal magnetic field of ≈60 G for GJ 398, with localized >200 G fields required only to power the most energetic superflare. This reveals a discrepancy with solar flares in that, despite a solar-like duration–energy scaling, stellar superflares require substantially stronger localized magnetic fields, suggesting a difference in the magnetic environment. There was no detectable radio emission during uGMRT observations, which consisted of 56 minutes of on-source integration in both Bands 4 and 5. We cannot draw a definitive conclusion regarding the cause of nondetection without more dedicated observing time.",
+   "authors": [
+    "Diya Ram",
+    "Soumen Mondal",
+    "Dusmanta Patra",
+    "Anandmayee Tej",
+    "Ariful Hoque",
+    "Samrat Ghosh",
+    "Rajib Kumbhakar"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae89b6",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过TESS短周期测光和uGMRT射电观测探测活跃中M型矮星GJ 398的耀斑活动和磁场性质，首次报告了其能量为2.6×10³⁴ erg、持续时间约90分钟的超级耀斑，以及耀斑持续时间与能量的幂律关系(Δt∝E₀.₅₁±₀.₀₃)。研究表明GJ 398的特征日冕磁场强度约为60 G，而最强超级耀斑需要>200 G的局部磁场，这与太阳耀斑相比显示出磁环境的重大差异。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8ae7",
+   "title": "Clustering Smoothed Particle Hydrodynamics Debris into N -body Fragments: A Collisional Code for Planet Formation",
+   "abstract": "Abstract Giant impacts among planetary embryos generate long-lived debris that feed back on late-stage terrestrial planet growth, yet most N -body models either assume perfect merging or treat fragments in ad hoc ways. We present SHARD , a collision-resolution framework that couples a hybrid integrator (REBOUND + mercurius ) to a six-dimensional catalog of smoothed particle hydrodynamics (SPH) outcomes spanning impact speed, geometry, total mass (up to 2 M ⊕ ), mass ratio, and target-to-projectile water fractions. For each detected impact we multilinearly interpolate to return the two largest remnants with self-consistent kinematics and volatile budgets, and we reconstruct the unresolved fragment population by aggregating nearby SPH debris snapshots and compressing them with mass-weighted k -means in velocity space into a tractable number of fragments above a tunable minimum mass. Exact conservation of total mass and water mass is enforced across survivors and debris, with immediate, energy-based reaccretion checks performed within the time step. Debris interpolation is constrained to the tabulated SPH grid (no extrapolation), and special handling of hit-and-run and catastrophic regimes is included. We benchmark our code against SyMBA in a Mercury-formation experiment and find broad qualitative agreement, though our final embryo distribution is dynamically hotter and more top heavy in mass. The benchmark outcome suggests that debris clustering is dynamically consequential: fragment resolution controls reaccretion, damping, and volatile retention. This SPH-anchored debris treatment provides a drop-in, compositionally aware alternative to perfect merging, enabling late-stage accretion studies that retains fragment feedback without saturating the integrator.",
+   "authors": [
+    "Samuele Crespi",
+    "Mohamad Ali-Dib",
+    "Ian Dobbs-Dixon"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8ae7",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究开发了SHARD碰撞求解框架，将N体积分器与大规模SPH模拟数据库耦合，通过多线性插值获取碰撞产物的两个主要残骸及其运动学特性，并利用速度空间中的k-means聚类方法重构未解析的碎片群体。研究表明碎片聚类对动力学演化具有重要影响，碎片分辨率控制着再吸积、阻尼和挥发分保留过程，为晚期行星吸积研究提供了保留碎片反馈效应的成分感知替代方案。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660025",
+   "title": "Global distribution of carbon monoxide in the Martian atmosphere derived from ExoMars-TGO/NOMAD measurements and interpretation with the GEM-Mars model",
+   "abstract": "We use carbon monoxide (CO), a long-lived species in the Martian atmosphere, as a tracer to constrain atmospheric transport by characterizing its vertical distribution from the near-surface to an altitude of about 120 km altitude. We retrieved CO vertical profiles from solar occultation (SO) spectra acquired by the SO channel of the Nadir and Occultation for MArs Discovery (NOMAD) instrument on board the ExoMars Trace Gas Orbiter (TGO). The dataset covers L_s=160^̧irc in Mars year (MY) 34 to L_s=120^̧irc in MY 36, enabling analyses over broader altitude and seasonal ranges than in previous works. We validated the retrievals using co-located measurements from the from Atmospheric Chemistry Suite (ACS) instrument on board TGO. The retrieved CO volume mixing ratio (VMR) is enhanced above 40 km at both poles during seasonal spring and autumn. In summer and winter, the enhancement is largely confined to the winter polar region. These variations are in quantitative agreement with earlier observations and are consistent with seasonal changes in the meridional circulation. We also find larger CO number densities near the morning terminator during local winter in the 80–100 km altitude range, consistent with a modulation of the transport by a semidiurnal tide. During the MY 34 planet-encircling dust event, enhanced CO VMRs are confirmed at 80–110 km in altitude, but no corresponding enhancement in the CO number density is seen, suggesting that the apparent VMR variation is driven primarily by changes in atmospheric dynamics, rather than by photochemistry.",
+   "authors": [
+    "N. Yoshida",
+    "S. Aoki",
+    "F. Daerden",
+    "A. C. Vandaele",
+    "H. Nakagawa",
+    "J. Erwin",
+    "I. Thomas",
+    "L. Trompet",
+    "T. Imamura",
+    "I. Murata",
+    "M. A. López-Valverde",
+    "A. Brines",
+    "L. Neary",
+    "N. Terada",
+    "A. Fedorova",
+    "G. L. Villanueva",
+    "G. Liuzzi",
+    "A. Modak",
+    "Y. Kasaba",
+    "M. R. Patal",
+    "B. Ristic",
+    "G. Bellucci",
+    "J. J. López-Moreno"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660025",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用火星长寿命示踪物一氧化碳(CO),通过ExoMars-TGO/NOMAD仪器的日光掩星光谱反演其从近地表到120 km高度的垂直分布,约束火星大气输送过程,数据覆盖火星年34-36的广泛季节范围。研究发现CO在极地春秋季40 km以上高度增强,在夏冬季主要限于冬极区,这些变化与季节性子午环流变化定量一致;同时发现晨昏线附近80-100 km高度存在半日潮调制的CO密度变化,而火星尘暴期间CO体积混合比增强主要由大气动力学而非光化学变化驱动。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1463",
+   "title": "Comparative white light flare activity of young and old planet hosting M dwarfs: AU Mic and Proxima Centauri",
+   "abstract": "Abstract We present a comparative study of the white light flare activity of the young planet hosting M dwarf AU Mic and the old, fully convective planet hosting M dwarf Proxima Cen using TESS photometry. We identified 249 flare events on AU Mic and 276 flare events on Proxima Cen. The relation between flare equivalent duration and total flare duration was modelled by the one phase exponential association (OPEA) formalism. The OPEA parameters reveal a variability in both targets, while AU Mic shows higher Plateaus, which are calculated with both flare equivalent duration and flare energy, and a more persistently high flare frequency than Proxima Cen. As a secondary test, we searched for possible planet related modulation by examining the orbital phase dependence of flare occurrence rate, total equivalent duration rate, and median equivalent duration. After accounting for the TESS observing window and stellar rotational modulation, we find no robust enhancement of either the total flare occurrence or the total equivalent duration rates at the orbital phases of the known planets. The median equivalent duration distributions show phase-dependent signals at the adopted AU Mic d and Proxima Cen d periods; however, because these signals are not accompanied by enhancements in either the flare occurrence rate or the total equivalent duration rate, we regard them as suggestive rather than conclusive evidence for planet-related modulation.",
+   "authors": [
+    "E Yoldaş",
+    "H A Dal"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1463",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究利用TESS光度数据比较了年轻行星宿主M矮星AU Mic和年老行星宿主M矮星Proxima Centauri的白光耀斑活动,分别识别了249和276个耀斑事件,通过单相指数关联模型分析耀斑等效时长与总时长的关系,发现AU Mic表现出更高的耀斑频率和能量释放水平。通过轨道相位分析搜索行星相关调制效应,虽然在特定轨道相位检测到中值等效时长的信号,但缺乏耀斑发生率或总等效时长增强的支持,因此未能得出行星对耀斑活动有显著调制作用的确凿证据。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1462",
+   "title": "The Fe i 4377 ÅLine as a Solar Faculae Indicator: Insights from Spectral Ratio Analysis",
+   "abstract": "Abstract Faculae are a dominant source of stellar activity noise in radial velocity measurements, yet their low contrast and broad surface distribution make them difficult to track in disc-integrated observations. We apply Spectral Ratio Analysis (SRA) to HARPS-N Sun-as-a-star observations to isolate and characterize the spectral imprint of facular regions over rotational timescales. The resulting SRA spectra show coherent, line-dependent variability sensitive to surface magnetic activity, with the Fe i 4377 Å line exhibiting a particularly strong diagnostic response to facular coverage. We interpret the observed signatures using two complementary synthetic frameworks: composite PHOENIX spectra, from which we derive best-fit facular temperature contrasts in the range 200-400 K, and MPS-ATLAS spectra synthesized using MURaM simulations of the quiet Sun including a small-scale dynamo and magnetically-enhanced facular analogues with initial mean vertical magnetic fields of 100G, 200G, and 300G. Both approaches are benchmarked against facular filling factors measured from Solar Dynamics Observatory (SDO) disc-resolved images. We find good agreement between SDO-measured and SRA-inferred filling factors using the Fe i 4377 Å line, with Pearson R coefficients of 0.587-0.927 across models and timescales. The estimated filling factors track the solar activity cycle, rising from ∼ 1.5 % at lower activity to ∼ 5.5 % at higher activity, consistent with SDO-measured filling factors. These results demonstrate that SRA offers a means to reliably track surface magnetic activity in disc-resolved spectra, which is necessary for mitigating the effects of activity on RV characterization of exoplanet masses and atmospheres at modern precision.",
+   "authors": [
+    "Katlyn L Hobbs",
+    "Christopher A Watson",
+    "Jean C Costes",
+    "Yvonne Unruh",
+    "Dana Clarice Yaptangco",
+    "Krishnamurthy Sowmya",
+    "Mitchell E Young",
+    "Ernst J W de Mooij",
+    "Alexander G M Pietrow",
+    "Pál Váradi Nagy",
+    "Alexander I Shapiro",
+    "Veronika Witzke",
+    "Federica Rescigno",
+    "Ryan A Rubenzahl",
+    "Megan Bedell",
+    "Andrew Collier Cameron",
+    "Xavier Dumusque",
+    "Sean M O’Brien",
+    "Benjamin M J Cadell",
+    "Baptiste Klein",
+    "Niamh Mallaghan",
+    "Niamh K O’Sullivan",
+    "Toby Rodel",
+    "Sara Tavella"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1462",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究利用光谱比分析方法应用于HARPS-N日面观测数据,通过Fe i 4377 Å谱线的变化特征来追踪太阳耀斑活动,并结合PHOENIX和MURaM合成光谱模型对耀斑温度对比和磁场强度进行了约束。研究发现Fe i 4377 Å谱线与太阳动力学观测卫星(SDO)测量的耀斑覆盖因子具有良好的相关性(Pearson R系数为0.587-0.927),且推导的覆盖因子随太阳活动周期变化(从低活动期的~1.5%升至高活动期的~5.5%)与SDO观测结果一致。该方法为在高精度系外行星质量和大气表征中消除恒星活动噪声提供了新的手段。"
+  },
+  {
+   "id": "doi:10.3847/psj/ae8790",
+   "title": "Multiyear Ground-based Survey Photometry of Active Comet 103P/Hartley 2 and Centaur (2060) Chiron: A Tale of Two Comets in the Pre-LSST Era",
+   "abstract": "Abstract Comets and Centaurs trace the evolution of trans-Neptunian objects (TNOs) into the inner solar system. Their activity reflects the interplay between volatile sublimation, dust dynamics, and, in some cases, ring scattering. Yet the long-term behavior of individual objects remains less constrained. To probe this evolutionary transition, we use wide-field survey photometry from the Asteroid Terrestrial-impact Last Alert System (ATLAS), Zwicky Transient Facility, and targeted Las Cumbres Observatory observations of the Jupiter-family comet (JFC) 103P/Hartley 2 during its 2023/24 apparition, and the Centaur (2060) Chiron across 2020–2025, including its 2021 outburst. For 103P, heliocentric activity slopes are asymmetric about perihelion, with a steep inbound index ( n r , pre = − 3.48 ± 0.08 ) and flatter outbound value ( n r ,post = −1.16 ± 0.04), consistent with enhanced relative dust contribution postperihelion. With reduced brightness versus prior apparitions, this behavior matches reported secular fading trends. Dust mass-loss rates are ∼4–16 kg s −1 for assumed grain properties. Colors exhibit a blueward trend near perihelion, consistent with enhanced gas contamination of the g band, with possible phase-dependent scattering. Periodogram analysis recovers a ∼18.7 hr activity-linked period near perihelion. For Chiron, subtracting a quiescent baseline reveals exponential decay from the 2021 outburst on a ∼1.4 yr timescale. Seasonal phase curves flatten from β o = 0.150 ± 0.034 mag deg −1 in 2021 to ≲0.09 mag deg −1 by 2023–2025, converging with quiescent behavior. Broadband colors remain unchanged at ATLAS ( c − o ) = 0.22 ± 0.09 mag. The extended duration of this activity suggests a new epoch of persistent, low-level activity and/or evolving ring scattering. These two objects bracket the TNO-to-JFC evolutionary sequence, with 103P near the volatile-depleted end, and Chiron still volatile-rich and capable of episodic activity.",
+   "authors": [
+    "Joseph Murtagh",
+    "Megan E. Schwamb",
+    "Michael S. P. Kelley",
+    "Matthew M. Knight",
+    "Thomas Lehmann",
+    "Giannantonio Milani",
+    "A. Fraser Gillan",
+    "Alan Fitzsimmons",
+    "Ryan R. Lyttle",
+    "Matthew M. Dobson",
+    "Carrie E. Holt",
+    "Tim Lister",
+    "Joseph P. Chatelain",
+    "Sarah Greenstreet",
+    "Quanzhi 泉志 Ye 叶",
+    "Henry H. Hsieh",
+    "Denis Bodewits",
+    "Tracy X. Chen",
+    "Richard G. Dekany",
+    "Matthew J. Graham",
+    "Steven L. Groom",
+    "George Helou",
+    "Mansi M. Kasliwal",
+    "Ashish A. Mahabal",
+    "Reed Riddle"
+   ],
+   "link": "https://doi.org/10.3847/psj/ae8790",
+   "source": "The Planetary Science Journal",
+   "category": "行星大气",
+   "matched": [
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究利用ATLAS、ZTF和LCO等多年地基巡天测光数据，分别观测2023/24年间的木星族彗星103P/Hartley 2和2020-2025年间的半人马小天体(2060) Chiron，以探究外海王星天体向内太阳系演化过程中的活动性演变。103P显示近日点前后不对称的活动斜率（近日点前-3.48、近日点后-1.16），表现出后近日点相对尘埃贡献增加的特征，而Chiron的2021年爆发在~1.4年时间尺度上呈指数衰减，其季节相位曲线逐年变平，暗示持续的低水平活动或环散射演变。这两个天体分别代表TNO向JFC演化序列的两端：103P处于挥发物耗尽阶段，而Chiron仍富含挥发物且具有间歇性活动能力。"
+  }
+ ],
  "2026-08-03": [],
  "2026-08-02": [],
  "2026-08-01": [
