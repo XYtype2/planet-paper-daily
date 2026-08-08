@@ -1,4 +1,102 @@
 {
+ "2026-08-08": [
+  {
+   "id": "doi:10.3847/1538-4357/ae8198",
+   "title": "Reinterpreting the JWST Observations of 55 Cancri e with a Nongray General Circulation Model",
+   "abstract": "Abstract Recent observations of 55 Cancri e suggest an atmosphere rich in CO or CO 2 ; other observations indicate the planet’s eclipse depth is highly variable. So far, these observations have only been interpreted using 1D models without self-consistent heat redistribution, as the planet’s extreme temperatures make it inaccessible to most 3D models. Here we perform cloud-free general circulation model simulations of 55 Cancri e using custom correlated- k coefficients developed from the ExoMol database. Our best-fit simulations match the JWST spectra from R. Hu et al. well, favoring an atmosphere that is both thick (≥10 bar) and CO 2 -rich (>1% CO 2 volume mixing ratio), while ruling out thin (<10 bar) and pure-CO/CO 2 -poor atmospheres, which were previously proposed based on 1D models. We also find that large-scale atmospheric dynamics, i.e., weather, is insufficient to explain the observed variability. A thick, CO 2 -rich atmosphere implies that 55 Cancri e likely formed with significantly more volatiles than Earth and Venus. In addition, a thick atmosphere makes it unlikely that the planet’s variability is caused by transient outgassing, favoring other variability mechanisms (e.g., clouds). Our work provides model constraints for upcoming JWST observations of 55 Cancri e and highlights the importance of interpreting thermal emission observations with self-consistent 3D models.",
+   "authors": [
+    "Ruizhi Zhan",
+    "Daniel D.B. Koll"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8198",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用三维非灰大气环流模型模拟了超级地球55 Cancri e的大气，使用ExoMol数据库开发的相关k系数与JWST观测光谱进行拟合，结果表明该行星大气厚度≥10 bar且CO₂丰度>1%，排除了先前基于一维模型提出的薄大气和CO/CO₂贫乏大气的假说。研究发现大尺度大气动力学不足以解释观测到的日食深度变异性，而厚CO₂富大气表明该行星在形成时富含挥发物，且变异性更可能由云等其他机制引起而非瞬时出气。这项工作强调了用自洽三维模型诠释热辐射观测对系外行星大气研究的重要性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660737",
+   "title": "Identification and dynamical characterization of all numbered asteroids in the von Zeipel-Lidov-Kozai resonance inside Jupiter's orbit",
+   "abstract": "The von Zeipel-Lidov-Kozai (ZLK) mechanism drives secular oscillations of the eccentricity and inclination that can reshape the orbital architecture of small bodies throughout the Solar System. While the mechanism has been studied in detail for trans-Neptunian objects (TNOs), giant-planet satellites, and individual near-Earth objects, no systematic census of ZLK-resonant (ZLKR) asteroids inside Jupiter's orbit has been carried out. We aim to (i) identify all numbered asteroids with semimajor axes below the orbit of Jupiter that are currently trapped in the ZLK resonance for at least 100 kyr without leaving the resonance; (ii) test whether the universal coupling between the ZLK resonance and mean-motion resonances (MMRs) found for TNOs extends to the inner Solar System; and (iii) characterize the libration centers, libration periods, and dynamical peculiarities of the ZLKR population. We integrated the orbits of all 863,471 numbered asteroids with a < 4.9 au from the AstDyS catalog using the resonances Python package and the IAS15 adaptive-step integrator in a full N-body model that includes the Sun, the eight planets, and Pluto. The resonant angle of the ZLK resonance, σ ≡ ω, was analyzed in three integration phases (100 kyr automated, 500 kyr manual, and 100 kyr MMR identification for all candidates) and classified as regular, irregular, transient, slow-circulating, chaotic, or nonresonant. Two-body MMRs up to an order of 50 and three-body MMRs up to an order of 10 were then searched for with respect to every ZLKR candidate. We identified 201 asteroids ($<0.02%$ of the sample) that are currently in the ZLK resonance. Of these, 163 exhibit clean libration with a stable period and amplitude (i.e., regular), 38 formally librate but display evolving parameters (i.e., irregular), and an additional 26,309 objects fall into the broader ``possible'' category. The ZLKR population is strongly concentrated in the near-Earth region (144 objects with perihelion q<1.3 au) and among Mars-crossers (28 objects with 1.3łe q<1.66 au); the main belt is almost empty. In the contrast to the TNO region, where every known ZLKR object is simultaneously trapped in an MMR, only 11 of the 201 confirmed ZLKR asteroids are in a two-body or three-body MMR; meanwhile, the MMR--ZLK coupling is not only weak but appears decoupled inside Jupiter's orbit. About one-third of the confirmed ZLKR asteroids have inclinations below the classical quadrupole critical value of ∼ ̧irc and several confirmed librators reach c_1 = (1-e^2)̧os^2 i > 3/5. ZLKRs within 5 au behave differently from ZLK capture in the Kuiper belt: it is an overwhelmingly planet-crossing phenomenon that is decoupled from the MMR network and it extends below the classical critical inclination. The overall number of librators is significantly lower than in the TNO region. It appears that the interplay and overlapping between different resonances in the main belt suppresses long-lived ZLK libration.",
+   "authors": [
+    "Evgeny Smirnov",
+    "Ivana Milić Žitnik"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660737",
+   "source": "Astronomy & Astrophysics",
+   "category": "散射与动力学演化",
+   "matched": [
+    "von Zeipel-Lidov-Kozai",
+    "Kozai"
+   ],
+   "summary_zh": "本研究通过全N体数值积分对所有863,471颗小行星进行系统搜索,识别出201颗位于木星轨道内且在ZLK谐振中稳定捕获至少100 kyr的小行星,其中163颗表现为规则的离心率-倾角振荡。与TNOs不同,木星轨道内的ZLK谐振小行星主要集中在近地小行星和火星穿越者中,与平均运动谐振(MMR)的耦合极弱,且许多ZLKR天体的倾角低于经典四极临界值,表明内太阳系的ZLK机制表现出与柯伊伯带显著不同的特征,主要带中多个谐振的重叠与竞争抑制了长期的ZLK捕获。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557917",
+   "title": "Searching for substellar companion candidates with Gaia. IV. New planetary-mass companions found in debris disks",
+   "abstract": "When spatially resolved, debris disks often exhibit structures (gaps, rings, and spirals) that may indicate the presence of unseen planetary-mass companions. However, such planets have not been detected in most cases. opens a new mass-separation parameter space for detecting unseen planets. A tool named GaiaPMEX has been developed to detect and characterize companions to stars. It is based on two binarity indicators derived from the DR3: the astrometric signature, and, when the sources were also observed by , the - proper motion anomaly. Gaia Gaia Hipparcos Gaia Hipparcos We search for companions in resolved debris disks using absolute astrometry. We used GaiaPMEX on 94 stars hosting resolved debris disks to search for companions. When companions were identified, we combined GaiaPMEX results with high-contrast imaging and radial velocity data to further constrain their mass and orbital properties. GaiaPMEX found stellar or substellar companions around five targets (HD 54341, HD 146897, HD 206893, HD 107146, and HD 106906) and indications (2σ ) for companions around three additional targets (BD+45° 598, TWA 7, and HD 120326). The companion to the 150 Myr star HD 107146, which harbors a ring-like dust disk, is found to be a 2-6M_J planet orbiting between 2-10 au. A massive 3-20M_J companion is found 3-10 au from the close binary HD 106906, which already hosts a remote planet orbiting at more than 700 au, and an edge-on disk. The tentative companions to TWA 7 and HD 120326 are planetary-mass companions at 1-3 au. Both stars host a multiple-ring system. We finally provide meaningful upper limits on the possible presence of companions in the range of 0-100 au around a few emblematic stars (49 Cet, AU Mic, Pic, and Eri) and stars hosting well-defined ring-like structures. These newly detected planets or candidates belong to complex systems and give us the opportunity for detailed dynamical modeling of planet-disk and planet-planet interactions. Current or upcoming facilities, VLTI/Gravity, JWST/AMI, or ELT, will provide an improved orbital and possibly spectral characterization of these companions. From a methodological point of view, these results demonstrate the synergy between absolute astrometry, radial velocity, and direct imaging for detecting new bodies with planetary masses orbiting a few astronomical units away from their stars, or for determining significant constraints on unseen planets.",
+   "authors": [
+    "A.-M. Lagrange",
+    "S. Toucheboeuf",
+    "F. Kiefer",
+    "P. Rubini",
+    "J. Milli",
+    "L. Matrà",
+    "H. Beust",
+    "C. Perrot",
+    "M. Mâlin",
+    "A. Boccaletti",
+    "C. Wilkinson",
+    "P. Delorme"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557917",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "radial velocity",
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用盖亚空间望远镜的绝对天体测量数据和GaiaPMEX工具,在94颗具有可分解碎屑盘的恒星周围搜索行星质量伴星,通过测量星历信号和自行异常来检测和表征伴星。研究在5颗恒星(包括HD 107146和HD 106906)周围确认发现了恒星或亚恒星伴星,其中包括数颗2-20木星质量的行星候选体,轨道距离在2-10天文单位范围内;还为其他恒星提供了伴星存在的显著约束。这些新发现的行星和候选体位于复杂的多体系统中,为行星-盘相互作用和行星间动力学建模提供了重要机会,展示了绝对天体测量、视向速度和直接成像联合观测在探测近距离行星质量伴星中的协同优势。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202451221",
+   "title": "Searching for substellar companion candidates with Gaia. III. Search for companions of members belonging to young associations",
+   "abstract": "Absolute astrometry with Gaia is expected to allow us to detect and characterize the orbits of thousands of exoplanets in the coming years. The GaiaPMEX tool was recently developed to characterize multiple systems based on two binarity indicators derived from the DR3 astrometric solution: the astrometric signature in linear motion residuals in Gaia-only data and, with respect to sources that were also observed by Hipparcos), the astrometric signature in the Gaia-Hipparcos proper motion anomaly (PMa). Our aim is to identify the close (i.e., less than about 20 au) stellar and substellar companion candidates of star members belonging to nearby young associations that had previously been monitored in radial velocity (RV) surveys. We wish to compare the detection capabilities of absolute astrometry and spectroscopy, and to characterize planetary-mass companions, combining the astrometric data with direct imaging and RV data. We used GaiaPMEX to identify binary stars that are members of close young associations and to constrain the mass and semimajor axes (smas) of possible companions. For companion masses that are plausibly in the planetary range, we used direct imaging and (when possible) RV data as well to further constrain their nature and orbital properties. For each of our targets, we provide a diagnosis on its binarity based on absolute astrometry. When no binary was detected, GaiaPMEX provides detection limits in the sma and mass space. We identified several companions with possible masses down to the brown dwarfs (BDs; 50+) or planetary masses (13). Around the M-type star G80-21, we detected a new companion orbiting at less than 1-2 au. Adding RV and high-contrast imaging data shows this companion is a giant planet. In the other two cases, AB Pic and HD 14082 B, we confirmed the presence of substellar companions and determined the first robust solutions for their mass and orbital properties. We further identified nine potentially interesting candidates for planetary mass companions, which remain to be studied. Finally, a detailed treatment of noises in Gaia astrometric measurements shows that there is no evidence at a 2--σ level of two exoplanet detections that had previously been reported in the literature based on the same set of data. Our approach allowed us to detect all stellar mass companions with sma values in the range 0.1-10 au. For separations below 0.1 au, however, spectroscopy was shown to outperform absolute astrometry. Therefore, combining GaiaPMEX and RV data is perfectly suited to a full exploration of the 0.01-10 au sma range when searching for stellar companions. In addition, such an approach can increase the expected rate of detections derived from RV surveys. Moreover, in the 0.5 to 5 au domain, GaiaPMEX has an excellent sensitivity to BDs and a good sensitivity to planetary mass planers for this sample.",
+   "authors": [
+    "A.-M. Lagrange",
+    "F. Kiefer",
+    "P. Rubini",
+    "V. Squicciarini",
+    "A. Chomez",
+    "J. Milli",
+    "A. Zurlo",
+    "J. Bouvier",
+    "P. Delorme",
+    "H. Beust",
+    "J. Mazoyer",
+    "O. Flasseur",
+    "N. Meunier",
+    "L. Mignon",
+    "G. Chauvin",
+    "P. Palma-Bifani"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202451221",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "radial velocity",
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用Gaia DR3天体测量数据和GaiaPMEX工具,通过线性运动残差和自行异常两个指标,搜寻近邻年轻星协成员的близких亚恒星伴星候选体,并将天体测量结果与径向速度和直接成像数据相结合来表征其轨道性质。研究在G80-21周围发现一颗新的巨行星伴星,确认了AB Pic和HD 14082 B的亚恒星伴星,并识别出9个潜在的行星质量候选体;同时表明天体测量在0.1-10 au的轨道距离范围内对恒星级伴星具有优势,而在0.01 au以下时分光学方法更优,两种方法结合可有效探测0.01-10 au范围内的伴星系统。"
+  }
+ ],
  "2026-08-07": [
   {
    "id": "arxiv:2608.06207",
