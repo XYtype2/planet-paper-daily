@@ -1,4 +1,26 @@
 {
+ "2026-08-09": [
+  {
+   "id": "doi:10.1093/mnras/stag1502",
+   "title": "A chemo-dynamical search for planet-candidate hosts of possible extragalactic origin",
+   "abstract": "Abstract To date, all known exoplanetary systems have been identified around stars currently residing in the Milky Way, whereas planets formed in external galaxies remain largely unexplored. Such systems would offer a unique probe of planet formation in galactic environments distinct from the Milky Way. We combine a literature-compiled sample of Kepler, K2, and TESS planet-candidate host stars with Gaia DR3 astrometry and radial velocities, and incorporate metallicities and [Mg/Fe] abundances from the LAMOST DR9 DD-Payne catalogue, to search for candidate accreted-halo planet hosts. We identify 11 planet-candidate hosts with halo-like kinematics, five of which have reliable chemical abundance measurements. Among these, four systems exhibit low metallicities ([Fe/H] &lt; −0.7) and low [Mg/Fe] ratios that are inconsistent with the canonical Milky Way thick-disc sequence, indicative of enrichment histories characteristic of accreted dwarf galaxies. We further carry out a uniform false-positive assessment using Gaia RUWE, Gaia DR3 neighbourhood checks, odd–even transit-depth comparisons, secondary-eclipse searches, independent BLS period recovery, and comparison with ExoFOP and available follow-up information. This vetting identifies EPIC 211407755 and TIC 239541449 as the most plausible, although still unvalidated, planet-candidate systems. TIC 293432942 is more likely associated with a blended or otherwise binary-related false positive, whereas TIC 184739529 remains a high-risk giant-companion candidate whose planetary nature is uncertain. If confirmed, EPIC 211407755 and TIC 239541449 would suggest that planetary systems can form in dwarf-galaxy environments and subsequently survive accretion into the Milky Way.",
+   "authors": [
+    "Tiancheng Sun",
+    "Xunzhou Chen",
+    "Maosheng Xiang",
+    "Jianzhao Zhou",
+    "Zixuan Lu"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1502",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究结合Gaia DR3天体测量数据、径向速度和LAMOST化学丰度,在已知的系外行星候选体中搜索可能源自银河系外的晕族行星宿主星。研究识别了11个具有晕族运动学特征的行星候选宿主,其中5个具有可靠的化学丰度测量,4个系统显示出与银河系厚盘不一致的低金属丰度和低[Mg/Fe]比值,表明其来自吸积矮星系的富集历史。通过多维度的假正例评估,EPIC 211407755和TIC 239541449被确定为最可信的候选系统,若得到确认,将表明行星系统可以在矮星系环境中形成并在吸积过程中存活。"
+  }
+ ],
  "2026-08-08": [
   {
    "id": "doi:10.3847/1538-4357/ae8198",
