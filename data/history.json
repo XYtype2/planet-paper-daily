@@ -1,4 +1,149 @@
 {
+ "2026-08-13": [
+  {
+   "id": "arxiv:2608.11087",
+   "title": "Intense but Harmless: Exo-Space Weather Around an M Dwarf with a Single-Hemisphere Dynamo",
+   "abstract": "M dwarfs are among the most promising host stars in the search for habitable exoplanets. However, their active atmospheres drive intense magnetic activity, including energetic flares and possibly coronal mass ejections (CMEs), which may pose serious threats to planetary habitability. In this study, we perform three-dimensional magnetohydrodynamic (MHD) simulations of CMEs on a fully convective M dwarf with a rotation period of 30 days, corresponding to the moderate-rotation regime. The magnetic topology driving our simulations is adopted from an exploratory global dynamo simulation of a fully convective low-mass star exhibiting a single-hemisphere magnetic configuration, which is not yet observationally confirmed. The large-scale magnetic field is mostly restricted to a single hemisphere and characterized by high-latitude polarity inversion lines (PILs), with the implication that most CMEs should originate from high latitudes. We find that these high-latitude CMEs propagate radially and away from the equatorial plane, producing only weak and spatially limited disturbances along the equatorial orbits of exoplanets. Moreover, low-latitude CMEs experience stronger drag within the dense and slow stellar wind near the equator, which significantly reduces both their propagation speeds and their overall impact on exoplanets. The resulting dynamic pressure enhancements on equatorial exoplanets caused by these CMEs are within two orders of magnitude above the quiescent conditions, much lower than those reported in previous M-dwarf CME simulations. These results indicate that, if such magnetic topologies indeed exist on M dwarfs, they may produce a relatively benign CME environment, which could be favorable for planetary habitability at face value.",
+   "authors": [
+    "Zheng Sun",
+    "Julián D. Alvarado-Gómez",
+    "Hui Tian",
+    "Ofer Cohen",
+    "Jeremy J. Drake",
+    "Katja Poppenhäger",
+    "Yue-Hong Chen"
+   ],
+   "link": "https://arxiv.org/abs/2608.11087v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过三维磁流体动力学模拟研究了具有单半球偶极子磁场拓扑的M型矮星上日冕物质抛射(CMEs)的传播特性和对宜居行星的影响。研究发现,这种磁场拓扑下的高纬度CMEs向外辐向传播并远离赤道面,对赤道轨道行星的扰动微弱;而低纬度CMEs则因稠密恒星风的阻力作用而传播速度降低,对行星的动压增强值远低于以往模拟结果。该结果表明,若M型矮星确实存在这种磁场拓扑,其CME环境相对温和,可能有利于行星宜居性的维持。"
+  },
+  {
+   "id": "arxiv:2608.10707",
+   "title": "Toward a unified framework for helium observations and interpretation of atmospheric escape",
+   "abstract": "Atmospheric escape is considered a key process in shaping exoplanet demographics and evolution. The near-infrared metastable helium triplet (HeI at ~10833Å) is one of the most powerful tracers of hydrodynamical outflows. In recent years, a large variety of instruments have been used to detect and characterize expanding upper atmospheres. High-resolution (HR) spectrographs, which can spectrally resolve the lines of the triplet, have been mostly used to probe the dynamics of atmospheric escape. More recently, JWST (low-resolution, LR) detected extended outflows that were missed by previous ground-based observations due to night-length constraints. Since the observed transmission spectrum is computed from the ratio of stellar spectra degraded by instrumental convolution, we demonstrate that directly convolving a theoretical transmission spectrum with the instrument's profile leads to inference biases as resolution decreases. This conclusion is particularly important for atmospheric escape studies but also holds in the more general context of LR atmospheric retrievals. Following the proper comparison methodology, we then investigated the complementarity of HR and LR observations for atmospheric escape measurements, comparing the capability of three instruments (NIRPS, JWST/NIRSpec, and JWST/NIRISS) to detect and characterize outflows. We find that NIRPS and JWST/NIRISS are mostly sensitive to the same helium signatures, while JWST/NIRSpec improves the detection limit of excess absorption for faint targets. Studying different outflow configurations, we show that LR space-based measurements cannot be used to infer the dynamics of the upper atmosphere close to the planet, and are best employed to measure the spatial extent of outflowing tails. We thus highlight the complementarity between HR and LR observations of atmospheric escape, the latter improving baseline reconstruction.",
+   "authors": [
+    "Carteret Yann",
+    "Bourrier Vincent"
+   ],
+   "link": "https://arxiv.org/abs/2608.10707v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究建立了系统的框架来统一解释高分辨率和低分辨率光谱仪对系外行星大气逃逸的观测,特别是利用氦三重态线作为示踪剂。我们证明了直接卷积理论模型会在低分辨率下产生偏差,并通过比较NIRPS、JWST/NIRSpec和JWST/NIRISS三个仪器的观测能力,揭示了地基高分辨率观测善于探测近行星的大气动力学,而JWST低分辨率观测则更适合测量外流尾部的空间延展。研究强调了高低分辨率观测的互补性,为未来系外行星大气逃逸研究奠定了统一的解释框架。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae909d",
+   "title": "Thermally Regulated Viscoelastic Tidal Migration of Eccentric Planets",
+   "abstract": "Abstract A growing population of short-period Neptune-like planets has nonzero eccentricities and, in some cases, large stellar obliquities, suggestive of high-eccentricity migration. Modeling this evolution requires a prescription for tidal dissipation, which in Neptune-like planets may be dominated by rocky or icy cores rather than by extended gaseous envelopes as often assumed for gas giants. We study the coupled orbital and thermal evolution of eccentric Neptune-like planets whose tidal dissipation is controlled by a viscoelastic Maxwell core. We compute the full harmonic tidal response, follow the equilibrium spin state, and evolve the core temperature; the changing thermal state feeds back on the orbit by modifying the viscosity and hence the frequency-dependent tidal response. We find that the coupled evolution is self-regulated: tidal heating initially drives cold, weakly dissipative cores toward efficient dissipation, but the resulting temperature increase lowers the viscosity, shifts the tidal response toward the fluid-like side of the Maxwell peak, and slows the subsequent migration. This feedback drives the system toward a quasi-steady heating-cooling balance, produces long-lived eccentric phases, and weakens the otherwise steep dependence of circularization time on final orbital distance. Thermally regulated tides therefore offer a natural explanation for how observed hot Neptunes can remain eccentric across a broad range of orbital distances, where a single fixed tidal efficiency would either erase eccentricity too efficiently close in or fail to damp it farther out.",
+   "authors": [
+    "Cristobal Petrovich",
+    "Hareesh Gautham Bhaskar"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae909d",
+   "source": "The Astrophysical Journal Letters",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration",
+    "tidal migration"
+   ],
+   "summary_zh": "本研究通过耦合轨道和热演化模型,探讨了具有粘弹性核心的离心海王星级行星的潮汐迁移过程,考虑了核心温度变化对粘度和频率相关潮汐响应的反馈作用。研究发现潮汐加热存在自调节机制:初期加热使冷核心变热并提高耗散效率,但温度升高随后降低粘度、减缓轨道迁移速率,系统趋向热平衡状态。这一热调控反馈机制能解释观测到的热海王星如何在宽广的轨道距离范围内保持离心率的现象,克服了固定潮汐效率模型存在的局限性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660127",
+   "title": "Results from the first spectropolarimetric survey of γ Dor pulsators",
+   "abstract": "Magnetic fields can have an important influence on stellar structure and evolution. In intermediate-mass (A- and F-type) stars, there are many known stars with directly measured strong, globally organized magnetic fields, as well as indications of weak and/or small-scale variable fields. However, among the intermediate-mass γ Dor pulsators, there are no known stars with strong surface magnetic fields. The broad goal of this work is to search for evidence of strong, globally organized fields at the surface of γ Dor pulsators. We identified objects consistent with being γ Dor pulsators based on an analysis of space photometry from the Transiting Exoplanet Survey Satellite (TESS) mission. A spectropolarimetric survey was then conducted on a subset of 47 of these objects, with a precision sufficient to detect dipolar surface magnetic fields down to a threshold of about 10 -- 100 G. We detected strong magnetism in three targets. However, upon closer inspection, none of these appear to be genuine γ Dor pulsators. We found no evidence of surface magnetism in any of the remaining 44 objects. We conclude that either strong, globally organized magnetic fields and γ Dor pulsation are mutually exclusive, or that such stars are exceedingly rare. A possible explanation is that strong global fields inhibit the excitation mechanism, which prevents γ Dor pulsations from being driven in strongly magnetic intermediate-mass stars. The dipolar surface magnetic field strength upper limits we derive for this sample (łesssim 50 -- 100 G) provide valuable constraints for surface boundary conditions for asteroseismic models that include magnetism for γ Dor stars.",
+   "authors": [
+    "J. Labadie-Bartz",
+    "R. Ouazzani",
+    "C. Neiner",
+    "V. Antoci",
+    "P. Stanley",
+    "T. Natan",
+    "K. Thomson-Paressant",
+    "S. D. Chojnowski",
+    "B. Mas Sanz",
+    "O. Dürfeldt Pedros",
+    "V. Petit"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660127",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过TESS光度数据识别γ Dor脉动星,并对47颗候选天体进行了光谱偏振测量调查,灵敏度可检测10-100G量级的偶极磁场。研究未在任何真正的γ Dor脉动星中探测到强全局磁场,表明强磁场与γ Dor脉动可能相互排斥,或此类星系极其罕见。这一发现提示强全局磁场可能抑制了中等质量星中γ Dor脉动的激发机制,同时为包含磁场的γ Dor星震学模型提供了表面磁场上限约50-100G的约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659928",
+   "title": "A tale of two isotopes. Spatial variation in HCN fractionation toward young cores",
+   "abstract": "Isotopic fractionation can serve as a powerful tracer of chemical evolution during star and planet formation. To accurately interpret observations, it is crucial to identify the dominant pathways of nitrogen and carbon fractionation at different evolutionary stages. We aim to study nitrogen and carbon fractionation in a sample of young cores at the onset of star formation. We mapped H 13 CN and HC^15N around one starless and three pre-stellar cores. We computed the N$(H^13CN)/N(HC^15N) column density ratio across the cores and compared the distribution with N(H_2) maps from /SPIRE. In addition, we calculated ^14N/$^ Herschel 15 N maps using the double isotope method for comparison with earlier studies. We compared these results with astrochemical modeling of carbon and nitrogen fractionation for a 1D pre-stellar core model. The computed N(H13CN)/N$(HC^15N) ratio exhibits clear spatial variation across the maps. This variation correlates with N(H$_2) in three out of four cores. Our analysis reveals a correlation between the H 13 CN/HC^15N ratios and the N$(H_2) maps. According to the astrochemical model, the correlation is mainly due to variations in the ^12C/^13C ratio. Consequently, the results caution against applying the double-isotope method to derive ^14N/^15N ratios without independently assessing possible spatial variations in ^12C/$^ 13 C. Furthermore, the leading cause of the isotopic variation in the model is not isotope-selective photodissociation, but rather more efficient fractionation through exchange reactions at lower temperatures in the denser regions of the cores.",
+   "authors": [
+    "S. S. Jensen",
+    "S. Spezzano",
+    "O. Sipilä",
+    "P. Caselli",
+    "L. Colzi",
+    "E. Redaelli"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659928",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过Herschel观测映射了四个年轻核中H¹³CN和HC¹⁵N的空间分布,发现N(H¹³CN)/N(HC¹⁵N)比值与柱密度N(H₂)存在明显的空间相关性,这种变化主要源于¹²C/¹³C比值的空间变异而非光解过程。研究强调在利用双同位素方法推导¹⁴N/¹⁵N比值时需谨慎,必须独立评估碳同位素比值的空间变化,为恒星形成早期阶段的碳氮分馏过程提供了新认识。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1486",
+   "title": "Three new exoplanet systems from the Dispersed Matter Planet Project",
+   "abstract": "Abstract We present a radial velocity analysis of three bright, low-activity stars identified by the Dispersed Matter Planet Project (DMPP). We use a Bayesian framework to compare purely Keplerian models with models incorporating stellar activity via a quasi-periodic Gaussian Process (GP). DMPP-7 (HD 118006) is a slightly evolved star that harbours a single 0.72 Saturn-mass giant (mp sin i =69 M⊕) with an orbital period of P = 4.93 d. A longer 21 d – 22 d period cannot be conclusively confirmed as a stellar rotation signature rather than a purely Keplerian signal. For HD 67200, which exhibits Ca ii H&K variability, a model with only a GP is strongly favoured over a purely dynamical model. The GP model shows moderate evidence for a single Keplerian with P = 2.67 d. For HD 2134, a 21 d – 32 d rotation period signal is associated with tentative FWHM variability. A model with a GP is not conclusively favoured, but all models considered show moderate evidence for an additional single Keplerian with P = 2.78 d. Despite our target selection favouring near edge-on orbital geometries, we find no evidence for transits in TESS photometry. DMPP-7 b lies at the transition between the high-radius population and the Neptunian ridge and savannah regions. Further observations are required to establish whether the coherent short-period HD 67200 and HD 2134 signals are stellar or dynamical in origin. If planetary, the signals correspond to minimum masses of mp sin i =2.07 M⊕ and mp sin i =2.86 M⊕.",
+   "authors": [
+    "J R Barnes",
+    "C A Haswell",
+    "Z O B Ross",
+    "E Rutherford",
+    "M R Standing",
+    "A T Stevenson",
+    "D Staab",
+    "L Fossati",
+    "J S Jenkins",
+    "D Alves"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1486",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究采用贝叶斯框架对分散物质行星项目识别的三颗低活动性亮星进行径向速度分析,通过对比开普勒模型与包含恒星活动的准周期高斯过程模型来识别行星信号。研究发现DMPP-7包含一个0.72木星质量的巨行星,而HD 67200和HD 2134各显示出2.67 d和2.78 d周期的候选行星信号,但这些短周期信号的行星起源仍需进一步观测确认。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1524",
+   "title": "The impact of internal versus external perturbations on close-in exoplanet architectures",
+   "abstract": "Abstract Young planetary systems are subjected to different dynamical effects that can influence their orbital architecture over time. In systems with more than one planet, other planets can internally influence each other, for example, through planet-planet scattering. External perturbing effects also need to be taken into account, as stars do not form by themselves but together with other stars in high-density young star-forming regions. This birth environment can externally affect young multi-planet systems through stellar fly-bys. Previous work has shown that the absence/presence and location of an outer giant planet around a close-in planet system do not change how these inner planets react to a single fly-by with another star. We further explore this by comparing the effects of these external perturbations on four close-in sub-Neptune planets to those caused by a situation where only the distant giant is perturbed by the same kind of encounter. Our results indicate that the close-in planet systems have a “preferred” end state after 500 Myr, which is reached regardless of how it was perturbed. In addition, the mass of the giant appears not to impact the reaction of the inner planet system in the scenario of an external perturbation in our tested set-ups, i.e. either a single 1 or 5 MJup giant placed at 2.5, 5, 10 or 20 au. However, the mass affects the subsequent evolution of the inner planets if only internal perturbations by the giant are considered. The reduction in mass leads to an absence of collisions during the 500 Myr.",
+   "authors": [
+    "Christina Schoettler",
+    "James E Owen"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1524",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "散射与动力学演化",
+   "matched": [
+    "planet-planet scattering"
+   ],
+   "summary_zh": "本研究比较了外部扰动（恒星飞掠）与内部扰动（巨行星引力）对近距离亚海王星系统轨道结构的影响，通过数值模拟追踪500 Myr内的动力学演化。研究表明近距离行星系统具有与扰动方式无关的\"偏好\"终态，且外部扰动情景下巨行星质量对内层行星响应影响有限，但内部扰动情景下较小质量的巨行星能够避免行星碰撞。该结果揭示了外部环境效应与系统内部相互作用在塑造密集行星系统动力学演化中的不同作用机制。"
+  }
+ ],
  "2026-08-12": [
   {
    "id": "arxiv:2608.09896",
