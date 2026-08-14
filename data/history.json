@@ -1,4 +1,236 @@
 {
+ "2026-08-14": [
+  {
+   "id": "arxiv:2608.11984",
+   "title": "Evolutionary tracks of giant planets formed by disk instability",
+   "abstract": "The evolution of giant planets depends on their formation history. While several evolutionary models self-consistently link planet formation by core accretion to long-term evolution, such models for planets formed by disk instability are lacking. We simulate the evolution of giant planets formed by disk instability and follow their evolution including the pre-collapse phase, dynamical collapse, and long-term contraction in a unified numerical framework. The evolution is simulated using the MESPA code with modifications that allow us to model gas clumps in the pre-collapse phase. We consider masses between 1 and 12 Jupiter masses and metallicities ranging from 0.5 to 2 times the protosolar value. We confirm that the pre-collapse timescale strongly depends on the planetary mass, and that after dynamical collapse the objects reach a state of long-term contraction which lasts for billions of years. We show that metallicity is a major source of uncertainty in mass estimates derived from the age-luminosity relations. For the metallicity range considered here, we find that for a given measurement of age and luminosity the difference in the inferred mass can be up to 1.5 Jupiter masses. We find that our evolution tracks predict masses that are consistent with the measured dynamical mass constraints for HR 8799 e, AF Lep b, Beta Pic b and Beta Pic c. We also show that both core accretion and disk instability can lead to very similar long-term evolutionary tracks. The agreement between our models and dynamical mass measurements suggests that disk instability remains a viable formation pathway for giant exoplanets. The luminosity evolution alone cannot distinguish between the two formation pathways. Finally, we suggest that planetary metallicity must be taken into account when inferring the masses of young giant planets from their luminosities, as it significantly affects their evolution.",
+   "authors": [
+    "Mirco Bussmann",
+    "Ravit Helled"
+   ],
+   "link": "https://arxiv.org/abs/2608.11984v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "core accretion"
+   ],
+   "summary_zh": "本研究使用改进的MESPA代码在统一框架内模拟了盘不稳定性形成的巨行星从坍缩前、动力学坍缩到长期收缩的完整演化过程,考虑了1-12木星质量和0.5-2倍原太阳金属量的范围。研究表明金属量是年龄-光度关系推导质量的主要不确定源,同一观测条件下不同金属量可导致推断质量差异达1.5木星质量,且盘不稳定性形成的演化轨迹与HR 8799 e、AF Lep b、Beta Pic b/c等系统的动力学质量测量相符。核吸积和盘不稳定性两种形成途径产生的长期演化轨迹极其相似,光度演化无法区分两者,因此在从亮度推断年轻巨行星质量时必须考虑行星金属量。"
+  },
+  {
+   "id": "arxiv:2608.11881",
+   "title": "Chemical Tracers for 3D Atmospheric Asymmetries on WASP-69 b",
+   "abstract": "Warm giant exoplanets exhibit strong three-dimensional temperature contrasts that can significantly alter atmospheric chemistry through quenching and photochemistry, yet transmission spectra are commonly interpreted using one-dimensional, limb-averaged models. Such simplifications may bias inferred atmospheric properties, particularly metallicity and C/O ratio. In this work we investigate the relative influence of atmospheric composition and three-dimensional thermal structure on atmospheric chemistry and transmission spectra using WASP-69b as a test case. WASP-69b is a ~900K warm Saturn, residing in a thermal regime especially sensitive to disequilibrium chemistry. We use three-dimensional general circulation model derived pressure-temperature profiles as inputs for a one-dimensional photochemical-kinetics model to resolve longitudinal and latitudinal chemical asymmetries across the atmosphere. We find that CH4 exhibits strong latitudinal variations linked to deep quench temperatures, while SO2 shows longitudinal asymmetries driven by upper-atmospheric photochemistry and irradiation geometry. In contrast, CO2 remains comparatively insensitive to spatial thermal variations and emerges as a robust tracer of atmospheric metallicity. Synthethic transmission spectra reveal that three-dimensional chemical asymmetries can produce spectral variations comparable to those induced by metallicity itself, demonstrating that limb-averaged interpretations can mask substantial spatial structure in warm giant exoplanet atmospheres.",
+   "authors": [
+    "Nidhi Bangera",
+    "Ludmila Carone",
+    "Vikas Soni",
+    "Kenneth Goodis Gordon",
+    "Luca Fossati",
+    "Helena Lecoq-Molinos",
+    "Paul B. Rimmer",
+    "Peter Woitke",
+    "Christiane Helling"
+   ],
+   "link": "https://arxiv.org/abs/2608.11881v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究以WASP-69b这颗~900K温暖土星为例，采用三维大气循环模型驱动的一维光化学动力学模型，系统调查了大气成分和三维热结构对大气化学及透射光谱的影响。研究发现CH4表现出与深层淬火温度相关的强纬向变化，SO2呈现由上层大气光化学驱动的经向不对称，而CO2对空间热变化不敏感，可作为金属丰度的稳健示踪剂。三维化学不对称性产生的光谱变异可与金属丰度效应相当，说明采用球对称一维模型可能掩盖温暖巨行星大气中的显著空间结构。"
+  },
+  {
+   "id": "arxiv:2608.11696",
+   "title": "Altered Cosmic Organics as Venus' Ultraviolet Absorbers",
+   "abstract": "Venus' ultraviolet (UV) absorbers significantly contribute to the atmosphere's energy budget. However, the composition of these absorbers remains a mystery. Here, we show that mixtures of polycyclic aromatic hydrocarbons (PAHs) and iron-bearing compounds, analogs of altered cometary dust, excellently match Venus' spectra from the cloud tops to the sub-cloud atmosphere across the UV and visible wavelengths. The molecular compositions for the cloud tops (5-10 ring PAHs and ferric chloride), decomposed cloud aerosols (3-4 ring PAHs and acid ferric sulfate), and sub-cloud atmosphere (5-10 PAHs and ferric hydroxy sulfates) are consistent with the stepwise alteration of cosmic dust. These steps include sourcing of the PAHs and iron from thermally unablated and ablated dust particles, respectively, reactions with sulfuric acid in the clouds, and thermal decomposition below the clouds. Geologically short timelines of cosmic influx (minimum of 600 and 3 kyr) would respectively yield the cloud top carbon and iron concentrations. Hence, we propose a unified origin for Venus' absorbers, which may arise from cometary dust via altitude-dependent alteration pathways from the mesosphere to the surface, with PAHs serving as the primary UV absorbers and iron compounds as the dominant absorbers by mass.",
+   "authors": [
+    "Rakesh Mogul",
+    "Mikhail Yu. Zolotov",
+    "Michael J. Way",
+    "Sanjay S. Limaye"
+   ],
+   "link": "https://arxiv.org/abs/2608.11696v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "aerosol"
+   ],
+   "summary_zh": "本研究通过光谱匹配分析，提出多环芳烃（PAHs）和含铁化合物的混合物（经过改变的彗星尘埃类似物）是金星紫外吸收体的主要成分，并根据不同高度的化学成分变化推断了其形成机制。研究表明，从云顶到亚云层大气，PAHs和铁的逐步变化反映了宇宙尘埃经历热分解、硫酸反应等一系列改变过程，其中PAHs是主要的紫外吸收物质，含铁化合物是按质量计的主要吸收物质。基于宇宙尘埃输入的地质学时标（数百至数千年），该研究建立了金星大气吸收体的统一起源框架，表明其可能源于彗星尘埃在中层大气至表面间的高度依赖性改变过程。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8bab",
+   "title": "Photometric Variability and Rotation of β Pictoris b from JWST NIRCam Coronagraphic Imaging",
+   "abstract": "Abstract We report the detection of photometric variability in the directly imaged super-Jupiter β Pictoris b ( β Pic b). Using JWST NIRCam dual-band coronagraphic imaging, we conducted a 16 hr continuous photometric monitoring campaign in the F210M and F410M filters. We developed and validated a time-series photometry framework that combines point-spread function subtraction, principal component analysis for systematic noise removal, and injection-and-recovery tests to confirm signal fidelity. Both light curves show consistent sinusoidal variability at ∼5 σ and ≫5 σ significance in the F210M and F410M bands, respectively. A joint sinusoidal fit yields a rotation period of P rot = 9.00 ± 0.13 hr and variability amplitudes of 0.85% ± 0.07% and 0.89% ± 0.04% in F210M and F410M, respectively. The near-identical amplitudes and periods in both bands confirm a common astrophysical origin in a heterogeneous atmosphere. Combining P rot with the previously measured projected rotational velocity, we constrain the line-of-sight spin axis inclination of β Pic b. The result favors an equator-on viewing geometry, consistent with line-of-sight spin–orbit alignment: the planetary spin axis, orbital plane, debris disk, and stellar equator are all mutually aligned. This stands in sharp contrast to the large obliquities of wide-separation companions that are likely formed via gravitational fragmentation. Together with the system’s young age, this observation provides independent dynamical evidence that β Pic b formed via core accretion. This result constitutes the first detection of rotational modulation in a close-in, high-contrast exoplanet that likely formed via core accretion, demonstrating that time-series coronagraphic imaging with JWST opens a powerful new window onto the rotation, atmospheric dynamics, and spin–orbit architecture of this population.",
+   "authors": [
+    "Yifan Zhou",
+    "Beth A. Biller",
+    "Aarynn L. Carter",
+    "Marshall D. Perrin",
+    "Michael Poon",
+    "Genaro Suárez",
+    "Ben J. Sutlieff",
+    "Johanna M. Vos",
+    "Jason J. Wang",
+    "William O. Balmer",
+    "Marta L. Bryan",
+    "Anthony Boccaletti",
+    "Julien H. Girard",
+    "Eileen C. Gonzales",
+    "Jens Kammerer",
+    "Jarron M. Leisenring",
+    "Paulina. Palma-Bifani",
+    "Kevin R. Wagner",
+    "Dániel Apai",
+    "Mickäel Bonnefoy",
+    "Brendan P. Bowler",
+    "Kyle Franson",
+    "Pengyu Liu",
+    "Marcio Meléndez",
+    "Stanimir A. Metchev",
+    "Simon Petrus",
+    "Laurent Pueyo",
+    "Isabel Rebollido",
+    "Andrew J. Skemer",
+    "Xianyu Tan",
+    "Niall Whiteford"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8bab",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用JWST NIRCam冠状图像在F210M和F410M波段对直接成像超木星β Pic b进行了16小时连续光度监测，通过点扩散函数减法、主成分分析和注入恢复测试开发了可靠的时间序列测光框架。联合正弦拟合结果显示该行星的自转周期为9.00±0.13小时，两个波段的光变幅度一致（~0.85%-0.89%），表明其源自异质大气的共同起源，进而约束了自转轴倾角为近赤道视角，与自旋-轨道对齐一致。这与引力碎裂形成的宽轨距伴星的大倾角形成对比，为β Pic b通过核心吸积形成提供了独立的动力学证据，首次展示了JWST时间序列冠状图像在研究核心吸积行星的自转、大气动力学和自旋轨道构型中的强大潜力。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557984",
+   "title": "Historic microlensing events in the Euclid Galactic Bulge Survey",
+   "abstract": "Microlensing campaigns have a long history of observations covering the Galactic bulge, whereby thousands of detections have been obtained, including many exoplanetary systems. The Euclid Galactic Bulge Survey (EGBS) represents a unique opportunity to revisit a large number of past events and attempt a lens-source resolution of known events falling in the covered area. As the analysis of individual events requires significant effort, it is important to establish priorities among all possible targets by identifying specific candidates with a higher chance for a successful resolution of the lens from the source and with the greatest scientific interest. Drawing from the databases of the three main microlensing surveys (OGLE, MOA, and KMTNet), we compiled the complete catalog of past microlensing events in the Euclid survey footprint up to the year 2023, containing 7801 entries. By remodeling all events and cross-checking with Galactic models, we were able to estimate the relative lens-source proper motions for all events. Taking into account all uncertainties, for each microlensing event, we were also able to estimate the probability of the lens being separated from the source by more than a given angular distance threshold. We then ranked all events by their resolution probability, providing additional useful information that will guide future analyses of the most promising candidates. In particular, special attention was dedicated to the 51 known planetary microlensing events.",
+   "authors": [
+    "V. Bozza",
+    "L. Salmeri",
+    "P. Rota",
+    "E. Bachelet",
+    "J.-P. Beaulieu",
+    "A.A. Cole",
+    "J.C. Cuillandre",
+    "E. Kerins",
+    "I. McDonald",
+    "P. Mróz",
+    "M. Penny",
+    "C. Ranc",
+    "N. Rektsini",
+    "E. Thygesen",
+    "H. Verma",
+    "",
+    "A. Udalski",
+    "R. Poleski",
+    "J. Skowron",
+    "M. K. Szymański",
+    "I. Soszyński",
+    "P. Pietrukowicz",
+    "S. Kozłowski",
+    "K. Ulaczyk",
+    "K.A. Rybicki",
+    "P. Iwanek",
+    "M. Wrona",
+    "M. Gromadzki",
+    "M.J. Mróz",
+    "",
+    "F. Abe",
+    "D.P. Bennett",
+    "A. Bhattacharya",
+    "I.A. Bond",
+    "R. Hamada",
+    "Y. Hirao",
+    "A. Idei",
+    "S. Ishitani Silva",
+    "S. Miyazaki",
+    "Y. Muraki",
+    "T. Nagai",
+    "K. Nunota",
+    "G. Olmschenk",
+    "N.J. Rattenbury",
+    "Y.K. Satoh",
+    "T. Sumi",
+    "D. Suzuki",
+    "T. Tamaoki",
+    "S.K. Terry",
+    "P.J. Tristram",
+    "A. Vandorou",
+    "H. Yama"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557984",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究编制了欧几里得星系隆起巡天(EUCLID)观测区域内7801个历史微引力透镜事件的完整目录,采用再建模和银河系模型交叉验证的方法估算了所有事件的透镜-源相对自行及透镜与源分离的概率。研究按分离概率对事件进行排序,并特别关注了51个已知行星微引力透镜事件,为EUCLID数据中透镜与源的成功分离提供了优先级指导,有助于识别高科学价值的行星动力学研究候选体。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660120",
+   "title": "Planet--moon ejections in close stellar encounters",
+   "abstract": "Free-floating planet–moon pairs (FFPMs) may form when planetary systems experience close stellar encounters. We aim to quantify moon-retention probabilities and ejection cross-sections for planets and planet–moon systems subject to close stellar encounters, and to identify the orbital conditions most favorable for forming FFPMs. We conducted extensive numerical scattering experiments to compute ejection cross-sections on a grid in the orbital separation of the planet (a_p) and the moon (a_m), marginalizing over all other initial parameters. The simulations tracked both planetary and lunar fates across a wide range of encounter geometries. FFPM cross-sections depend primarily on the moon's semi-major axis, a_m, decreasing gradually until a sharp drop near a_m Planet-only ejection cross-sections instead decline steadily with a_p. Moon survival remains near unity for Io-like orbits (a_m = 0.008,R_H) and falls steeply beyond 0.4,R_H. Compared with planet–planet scattering, stellar encounters preserve moons more effectively across all separations. Surviving moons at a_młesssim 0.4,R_H retain near-circular, low-inclination orbits, while wide-orbit moons show stronger dynamical excitation. Applying our cross-section maps to the microlensing system MOA-2011-BLG-262Lb suggests possible progenitor semi-major axes between a_p ∼ 1.3,au and ∼ 5.9 au for a solar-mass host. Even though uncertainties remain large and the probability distribution is rather flat, we prefer $a_p ∼ 5.2$,au. Stellar encounter ejections constitute a viable channel for producing FFPMs whose orbital and survival properties differ from those formed by planet–planet scattering. Moon retention and orbital excitation patterns provide promising diagnostics of ejection history. Current and upcoming microlensing and direct-imaging surveys may be capable of detecting Galilean-mass exomoons around rogue planets, offering new tests of dynamical formation pathways.",
+   "authors": [
+    "Y. Badoux",
+    "S. Portegies Zwart"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660120",
+   "source": "Astronomy & Astrophysics",
+   "category": "散射与动力学演化",
+   "matched": [
+    "planet-planet scattering",
+    "free-floating planet",
+    "rogue planet"
+   ],
+   "summary_zh": "本研究通过大规模数值散射模拟量化了行星-卫星系统在恒星近距离遭遇中的月球保留概率和弹射截面,识别了形成自由漂浮行星-月球对(FFPMs)的最优轨道条件。研究发现月球保留概率主要依赖于月球半长轴,在0.4倍希尔半径附近出现急剧下降,近圆形低倾角的月球轨道得以保留,而恒星遭遇对月球的保留效应优于行星-行星散射。将研究结果应用于微引力透镜系统MOA-2011-BLG-262Lb,推断其可能的行星半长轴在1.3-5.9 au之间,月球轨道激发模式为弹射历史提供了有望的诊断指标,为微引力透镜和直接成像巡天探测流浪行星周围的卫星提供了新的理论基础。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1543",
+   "title": "Measuring masses of transiting Earth-like planets: first insights from the PLATO RV Data Challenge",
+   "abstract": "Abstract The PLATO Stellar Variability Mitigation Working Group designed a radial-velocity (RV) data challenge to assess the precision and accuracy achievable on RV semi-amplitudes in the context of the future PLATO follow-up. Using Sun-as-a-star observations obtained with HARPS-N, we generated three multi-planet systems with realistic sampling, an effective signal-to-noise ratio of S/N ~ 450, an exposure time of Texp = 15 minutes, and a total of N ~ 1000 observations. The resulting data set is publicly available and can serve as a benchmark for the community to test and compare RV analysis methods. Eight independent teams participated in the challenge, aiming to recover the semi-amplitudes of both transiting and non-transiting planets. A meta-analysis of the submitted results shows that, with current data analysis methods, HARPS-N-like stability and the observing strategy studied in this paper, achieving a precision on semi-amplitudes better than 10% for habitable-zone signals around a solar-type star is challenging, and is typically limited to planets with masses of ~8–10 $\\rm{$\\mathrm{M}_{\\oplus }$}$. This performance is expected to improve for K dwarfs, where planets down to ~2–5 $\\rm{$\\mathrm{M}_{\\oplus }$}$ may be characterized at a similar level of precision. Finally, based on the results of this challenge and the occurrence of false positives, we derive an empirical detection threshold for RV surveys, which can be used to distinguish robust planetary detections from candidates.",
+   "authors": [
+    "M Cretignier",
+    "N C Hara",
+    "S Aigrain",
+    "S Sulis",
+    "F Bouchy",
+    "S T Hodgkin",
+    "J Blanco-Pozo",
+    "A Collier-Cameron",
+    "M Damasso",
+    "E C GonÃ§alves",
+    "L Malavolta",
+    "G Mantovan",
+    "D Nardiello",
+    "M Perger",
+    "I Ribas",
+    "Y Zhao",
+    "X Dumusque",
+    "A Mortier",
+    "K Al Moulla",
+    "S C C Barros",
+    "N C Santos",
+    "C S N Martinez",
+    "C Watson",
+    "T Wilson",
+    "S Udry"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1543",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过PLATO径向速度数据挑战赛,利用类太阳HARPS-N观测数据评估了在未来系外行星跟踪观测中恢复行星质量半振幅的精度和准确度,八个独立团队采用不同方法参与了包含约1000次观测的多行星系统数据分析。结果表明,采用当前数据分析方法和HARPS-N级别的仪器稳定性,对太阳型恒星宜居带行星的质量测量精度优于10%具有挑战性(仅限~8-10地球质量),而在K矮星周围可达到~2-5地球质量的精度,同时建立了经验性径向速度检测阈值以区分真实行星信号与候选体。"
+  }
+ ],
  "2026-08-13": [
   {
    "id": "arxiv:2608.11087",
