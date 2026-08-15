@@ -1,4 +1,24 @@
 {
+ "2026-08-16": [
+  {
+   "id": "doi:10.1051/0004-6361/202660768",
+   "title": "Formation of multiple dust rings and gaps in protoplanetary discs by a single migrating planet. A parameter study in locally isothermal discs",
+   "abstract": "ALMA observations reveal that large protoplanetary discs usually contain multiple concentric dust rings separated by dark gaps. A natural explanation is dust-trapping at the edges of gaps opened by newly formed planets. However, planets are known to migrate inward on timescales shorter than the typical disc lifetime, seemingly at odds with observations of rings at large radii. We wish to investigate the conditions under which migrating planets can form long-lived, multi-ringed structures out to r∼ 150, . Thus, we intend to constrain the viable parameter space for the planetary origin hypothesis of the rings. au We used the hydrodynamics code and set up two-dimensional models of locally isothermal protoplanetary discs with a single migrating planet. We varied key parameters such as the disc aspect ratio (temperature), viscous parameter (α), and planetary mass. FargoCPT In all our models, the planet eventually stalls in a deep gap. At alphałeq 10^ -4 , secondary spirals launched by the planet have the capacity to open additional gaps at smaller radii. When planets exceed twice the local thermal mass prior to the stall, they enter a regime of alternating slow and type-III rapid migration, which leaves partial gaps outside the planet's orbit. The gap edges consistently feature pressure maxima capable of dust trapping. While these start out as large-scale vortices at alphałeq 10^ -4 , they gradually smear out into ring-like structures prior to their dissipation. The 'remnant' rings left by type-III migration quickly dissipate at α=10^-3, but persist for at least 300 500, at alphałeq 10^ -- kyr -4 . Both the smear-out and dissipation timescales increase with lower α. Our results indicate that migrating planets can reproduce the observed multi-ringed structures in discs with alphałesssim 10^ -4 through their stall (rłesssim 50, ), secondary gap-opening (rłesssim 20, ), and type-III migration remnants (extending to r∼ 150, for Jupiter-mass planets in sufficiently massive discs). Longer simulations will be required to compare the statistics of ring-to-vortex occurrence to observations. au au au",
+   "authors": [
+    "S. C. Meiners",
+    "K. M. Weiskopf",
+    "T. Rometsch",
+    "C. P. Dullemond"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660768",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究通过二维局部等温盘流体动力学模拟，探究单个迁移行星如何形成多环多间隙结构，并通过改变盘厚度、粘性参数和行星质量等关键参数确定可行的参数空间。研究发现，在低粘性参数(α≲10^-4)条件下，行星停滞、次级螺旋和III型迁移留下的\"残余环\"可在大半径处(~150 au)产生长寿命的尘埃捕获结构，与ALMA观测的多环形态相符。该结果支持行星起源假说可解释原行星盘中观测到的环隙系统。"
+  }
+ ],
  "2026-08-15": [
   {
    "id": "arxiv:2608.13527",
