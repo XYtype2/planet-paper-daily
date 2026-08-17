@@ -1,4 +1,124 @@
 {
+ "2026-08-18": [
+  {
+   "id": "doi:10.3847/1538-4357/ae89b5",
+   "title": "Assessing the Impact of Varying HSO Cross Sections on Photochemical Models: Implications for the Spectral Characterization of Terrestrial Exoplanets",
+   "abstract": "Abstract Characterization of exoplanet atmospheres requires a close interplay between observations, modelling, and experimental data. The accuracy of input data used in atmospheric models is essential because it impacts our interpretation of planetary spectra with retrieval codes. Molecular absorption cross sections in the UV–visible range are fundamental input parameters, determining chemical kinetics, particularly on temperate terrestrial planets. However, several atmospheric species remain poorly, or even entirely, uncharacterized. This is the case for HSO, a radical with unconstrained photolysis cross sections, often approximated by hydroperoxyl (HO 2 ). Sulphur chemistry can strongly influence the composition of rocky exoplanets, particularly in anoxic environments where volcanic SO 2 —the main source of HSO—is more efficiently photolyzed, and sulphur aerosols such as S 8 can form. HSO photolysis contributes to the formation of such sulphur chains, which have been proposed as indirect signatures of volcanic outgassing. Assessing the sensitivity of photochemical models to different UV–visible cross section prescriptions for HSO is therefore important for guiding its prioritization among poorly characterized atmospheric species. Here, we derive an updated HSO cross-section prescription from simulated HSO 2 data, providing a more reliable representation of HSO photolysis than HO 2 . We compare results from these new cross sections to the default prescription for temperate terrestrial planets with Archean-like atmospheres. We find that our updated HSO cross-section prescription enhances aerosol scattering and absorption signatures in transmission, emission, and reflection spectra for planets orbiting G- and K-type stars.",
+   "authors": [
+    "Alexandre Branco",
+    "Clara Sousa-Silva",
+    "Wynter Broussard",
+    "Edward W. Schwieterman",
+    "Sukrit Ranjan",
+    "Vera Topcik",
+    "Olivier D. S. Demangeon",
+    "Pedro Machado"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae89b5",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "aerosol"
+   ],
+   "summary_zh": "本研究通过模拟HSO₂数据导出更新的HSO紫外-可见光吸收截面，替代传统的HO₂近似，评估了不同HSO光解截面处方对光化学模型的敏感性影响。研究对比了新截面与默认处方在类地系外行星（具有类太古代大气）中的效果，发现更新的HSO截面处方可增强行星绕G型和K型恒星运行时的传输、发射和反射光谱中的气溶胶散射和吸收特征。这一工作强调了约束HSO等缺乏表征大气物种的光学参数对于准确解释系外行星光谱特征的重要性。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae9305",
+   "title": "A Climate-constrained Bayesian Inverse Method for JWST Rocky Exoplanet Eclipse Spectra: Case Study of LTT 1445A b",
+   "abstract": "Abstract Determining whether temperate rocky exoplanets orbiting M stars retain atmospheres is currently a central goal of exoplanet astronomy. To this end, the James Webb Space Telescope has begun searching for atmospheres on these worlds with MIRI secondary eclipse spectroscopy and photometry. Here, we develop a novel climate-constrained Bayesian inference framework that yields atmospheric pressure and composition constraints from these datasets, while accounting for planetary, stellar, and model uncertainties. Our approach fits observations with model spectra derived from self-consistent pressure-temperature profiles at radiative–convective equilibrium, thus maximizing the information extracted from the data and providing more robust inferences than retrievals that use parameterized pressure–temperature profiles. We demonstrate the framework on the existing MIRI LRS eclipse spectrum of LTT 1445A b (1.34 R ⊕ and T eq ≈ 431 K). An atmosphere does not need to be invoked to explain the data, meaning a bare rock model produces an adequate fit. If the planet has an atmosphere, the 2 σ upper limits on surface partial pressures are ≲1 bar for an optically thin gas like O 2 , N 2 , or CO, ≲0.1 bar for CO 2 , ≲10 −3 bar for H 2 O, and ≲10 −4 bar for SO 2 . Scheduled MIRI F1500W observations could detect one of the thicker atmospheres permitted by the existing data (1 bar O 2 and 0.01 bar CO 2 ), if a precision of 20 ppm or better is achieved. This case study demonstrates that climate-constrained Bayesian inversion can turn rocky-planet eclipse spectra into the quantitative constraints necessary to test population-level atmospheric retention hypotheses, like the cosmic shoreline.",
+   "authors": [
+    "Nicholas F. Wogan",
+    "Natasha E. Batalha",
+    "Jegug Ih",
+    "Jacob Lustig-Yaeger",
+    "Kevin B. Stevenson"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae9305",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究开发了一个气候约束贝叶斯反演框架，通过JWST/MIRI次级日食光谱数据推断岩石系外行星的大气压力和成分，该方法使用自洽的辐射-对流平衡温压廓线而非参数化廓线，提高了推断的稳健性。以LTT 1445A b为案例，研究表明该行星无需存在大气即可解释现有观测数据，若存在大气则对各气体分压给出了严格的上限约束。该气候约束反演方法可将岩石行星日食光谱转化为定量约束，用于检验行星大气保留的群体水平假说（如\"宇宙海岸线\"）。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8a50",
+   "title": "Confirmation of the Low-eccentricity Warm Jupiter HD 278555 b with NEID",
+   "abstract": "Abstract The study of warm Jupiters is crucial to understanding the processes that govern giant-planet formation and migration. These planets sit at the boundary between cold giant planets and hot Jupiters, and studying their orbital properties, including period, eccentricity, and spin–orbit alignment, can offer insights into their past evolution and migration histories. We report the discovery and confirmation of a transiting warm Jupiter, HD 278555 b, which was first detected as a single transit event in a light curve from the Transiting Exoplanet Survey Satellite (TESS). We confirm the planetary nature of the signal using additional TESS data and ground based radial velocity (RV) follow-up observations from the NEID spectrograph, and we characterize the planet via a joint fit to the transit and RV signals. HD 278555 b has a mass of 0.8 4 − 0.10 + 0.10 M J and a radius of 0.98 0 − 0.035 + 0.036 R J , and orbits an F8-type star with a period of 28.8 4 − 0.000046 + 0.000045 days and a very low eccentricity of 0.08 5 − 0.049 + 0.047 . These orbital parameters suggest the planet had a quiescent formation history, and either formed in situ or formed beyond the ice line and underwent a smooth inward migration process such as disk-driven migration. This discovery adds to the growing population of well characterized warm Jupiters that will inform planet migration theory.",
+   "authors": [
+    "James Ball",
+    "Arvind F. Gupta",
+    "Diana Dragomir",
+    "Mark R. Giovinazzi",
+    "Keivan G. Stassun",
+    "Daniel J. Stevens",
+    "Paul A. Dalba",
+    "Jiayin Dong",
+    "Nolan Grieves",
+    "Samuel Halverson",
+    "Daniel M. Krolikowski",
+    "Sarah E. Logsdon",
+    "Suvrath Mahadevan",
+    "Joe P. Ninan",
+    "Leonardo A. Paredes",
+    "Paul Robertson",
+    "Arpita Roy",
+    "Christian Schwab",
+    "Gudmundur Stefansson",
+    "Steven Villanueva",
+    "Jason T. Wright"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8a50",
+   "source": "The Astronomical Journal",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter",
+    "warm Jupiter"
+   ],
+   "summary_zh": "本研究通过TESS光学观测和NEID径向速度测量，发现并确认了温木星HD 278555 b，其质量为0.84 MJ，轨道周期为28.84天，离心率极低（0.085），表明该行星经历了平静的形成历史。这些轨道特征提示该行星可能原地形成或经历了圆盘驱动迁移等平稳的内向迁移过程，为理解巨行星形成与迁移机制提供了重要约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661981",
+   "title": "Numerical estimation of the capture ability of Neptunian mean motion resonances. II. Influence of eccentricity and inclination",
+   "abstract": "Evaluating the ability of Neptunian mean-motion resonances (MMRs) to capture small bodies is an important step in reconstructing the evolutionary history of the early Solar System. Building on a previous planar model, this study extends the investigation of MMR capture during Neptune's migration to the three-dimensional case, systematically analyzing the effects of the small objects' eccentricity, e, and inclination, i. Through numerical simulations with different migration rates, we obtain the distribution of capture probabilities for 12 MMRs on the e-i plane. The results show that increasing i narrows the ``inevitable capture zone'' (strong MMRs and/or slow migration) and raises the lower e threshold for capture (weak MMRs and/or fast migration), while it may also expand the upper e limit for capture. When the resonance order reaches three, the e-i plane further differentiates into several regions, which are closely related to the types of resonant angles. The emerging i-dominated region, along with its inevitable capture zone, makes third-order MMRs the most likely to benefit from higher inclination, as well as the most likely to host mixed-type resonators. Finally, using a hypothetical planetesimal distribution, we calculated the capture probability and efficiency for each MMR, finding that a cold disk favors strong MMRs, whereas a hot disk reduces differences among MMRs and across migration rates. In the future, a better determination of the population associated with different MMRs and different types of objects will help us understand the dynamical excitation state of the primordial disk in the early Solar System.",
+   "authors": [
+    "Hailiang Li",
+    "Li-Yong Zhou",
+    "Xiaoping Zhang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661981",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过三维数值模拟扩展了海王星迁移过程中平均运动共振捕获能力的研究,系统分析了小天体偏心率和倾角对12个海王星共振捕获的影响,得到了共振捕获概率在偏心率-倾角平面上的分布。结果表明倾角增大会压缩\"不可避免捕获区\"并提高捕获偏心率阈值,而三阶及更高阶共振更容易从高倾角中受益并可容纳混合型共振体。最后基于假设的原始星子分布,发现冷盘倾向于强共振,而热盘则弱化了不同共振和迁移速率间的差异,为重建早期太阳系动力学演化历史提供了重要约束。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1555",
+   "title": "Effects of Pebble Accretion Isolation Mass on Observable Exoplanet Properties",
+   "abstract": "Abstract The Kepler Mission has discovered a plethora of planetary systems with super-Earth sized planets. These systems exhibit many properties, from widely-spaced planets with non-negligible eccentricities and inclinations, to tightly-spaced, coplanar, and nearly circular multi-planet systems. The observable properties of these systems, such as planet-planet spacings, multiplicity and orbital morphology, can be strongly influenced by the initial conditions of formation. These conditions affect the early growth of planetary embryos in the gas disk phase through pebble and/or planetesimal accretion, which then affects the planets' final growth during the giant impact stage. In this work, we investigate how assumptions of different limiting embryo isolation masses during early stages of planet formation affect the final properties of super-Earth planets within the inner disk, comparing our mock-observed results to each other, as well as to the Kepler sample. We test several models of pebble accretion isolation mass, including pebble isolation, flow isolation, and migration feedback isolation and otherwise adopt the same parameters for the gas disk. We find that while each model can match at least one distribution of observables in the Kepler catalog, they fall short of matching all distributions simultaneously, even with extreme reweighting. Our inability to match all observations suggests that the initial conditions and/or modeled effects in our simulations that we held fixed should be investigated. This exploration sheds light on how planetary systems evolve and the processes that influence the wide range of system parameters we observe today, helping place our own Solar System in context.",
+   "authors": [
+    "Lucas Brefka",
+    "Rebekah I Dawson",
+    "Mariah G MacDonald",
+    "Phoebe Sandhaus",
+    "Eric B Ford"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1555",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "pebble accretion",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过N体数值模拟调查了行星形成早期碎石吸积隔离质量的不同假设如何影响超级地球的最终轨道性质，比较了包括碎石隔离、流体隔离和迁移反馈隔离等多种模型的结果与Kepler样本。研究发现，虽然各个隔离质量模型都能匹配Kepler目录中至少一种观测分布，但都无法同时再现所有观测特征，表明当前固定的初始条件和物理过程需要进一步改进。这些结果揭示了行星系统演化机制和形成过程的多样性，有助于理解超级地球系统的多样性来源。"
+  }
+ ],
  "2026-08-17": [],
  "2026-08-16": [
   {
