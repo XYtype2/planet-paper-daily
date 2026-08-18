@@ -1,4 +1,186 @@
 {
+ "2026-08-19": [
+  {
+   "id": "arxiv:2608.16816",
+   "title": "Eclipse Timing of the Eccentric Planet HD 80606b with JWST: Constraints on a Second Planet and other Dynamical Effects",
+   "abstract": "A variety of effects can perturb the orbital properties of single planets in close orbits around their host stars. HD80606 b is a highly eccentric ($ε$=0.93) exoplanet orbiting its host G5V star, HD80606. HD80606 b became a compelling target for exoplanet research after (Laughlin et al 2009) discovered that the 4.16 MJup planet transits and is eclipsed by HD80606, thereby enabling photometric and spectroscopic observations to yield a wealth of information about the object. The exquisite precision of recent JWST eclipse timing offers an opportunity to investigate whether the orbit of HD80606 b is modified due to a variety of mechanisms, including General Relativity, tidal torques, or the presence of a second perturbing planet. We have used over 25 years of radial velocity data plus eclipse and transit observations to place limits on the precession of HD80606 b's orbit and to assess which of these effects, if any, are observable. The new models are consistent with constant values of period, eccentricity and the argument of periastron, $ω$, with a limit on $\\dotω$ at the level of the predicted GR drift. The PRV and timing data limit the mass and location of a second planet external to HD80606b. Timing offsets between JWST eclipses relative to the Pearson et al (2022) predictions are attributed to the poor constraints on $\\sqrtε (\\cos\\ ω, \\sin\\ ω)$ with only the single eclipse measurement available (Spitzer 2009) in that analysis and to an over-weighting of the eclipse timing in that earlier analysis.",
+   "authors": [
+    "Charles Beichman",
+    "Billy Quarles",
+    "B. J. Fulton",
+    "Nikole Lewis",
+    "Ryan Challener",
+    "Julien de Wit",
+    "Malena Rice",
+    "Julie Inglis",
+    "Tiffany Kataria"
+   ],
+   "link": "https://arxiv.org/abs/2608.16816v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究利用超过25年的径向速度数据和JWST精密日食计时观测，调查高离心率系外行星HD80606b的轨道是否受到广义相对论、潮汐力矩或第二颗行星等因素的扰动。研究结果表明轨道周期、离心率和近日点幅角保持不变，近日点幅角的进动速率限制在广义相对论预测水平，并对外部第二颗行星的质量和位置进行了约束。JWST与早期预测的计时偏差主要源于对轨道参数√ε(cosω, sinω)约束不足和早期分析中对单次日食观测的过度加权。"
+  },
+  {
+   "id": "arxiv:2608.16301",
+   "title": "Characterizing Stellar Flares in Ariel Targets: Activity Analysis and Transit Contamination",
+   "abstract": "Stellar flares are sudden releases of magnetic energy that can distort exoplanet transit photometry and transmission spectroscopy, biasing planet radius estimates, transit timings, and atmospheric characterization. Understanding flare activity in Ariel targets is therefore essential to identify stars where flares may compromise observations and to characterize the radiation environment affecting atmospheric escape and photochemistry. We analyzed 290 Ariel target stars using TESS light curves. Flares were identified via iterative Gaussian process detrending, and their energy distributions were modeled with two-segment power laws. We performed injection-recovery tests by adding synthetic flares to detrended light curves and running the full pipeline to quantify completeness and detection biases. We detected 15,857 flares across 1,638 TESS sectors, with 2-86 events per sector. We defined a normalized flare index GF.01 to compare activity across stellar luminosities. Near 3% of the sample exhibits enhanced flare activity (GF.01 > 1). AU Mic and HD 28109 show a high likelihood of flare contamination during transit observations. GF.01 correlates negatively with stellar bolometric luminosity, indicating higher relative flare output in lower-luminosity stars. AU Mic is an extreme case: four of five observed transits of AU Mic b are affected by flares, consistent with statistical expectations. We validate the framework by comparing predicted flare-contamination probabilities with observed flare occurrences in a representative subset of transits, finding agreement within uncertainties. These results confirm that energetic flares can significantly impact transit observations and provide quantitative guidance for Ariel target selection and analysis strategies.",
+   "authors": [
+    "G. Galletta",
+    "S. Colombo",
+    "G. Micela"
+   ],
+   "link": "https://arxiv.org/abs/2608.16301v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过TESS光变曲线分析290颗Ariel目标星的恒星耀斑活动，采用高斯过程去趋势和幂律拟合识别15857次耀斑事件，并通过注入-恢复测试量化探测偏差。研究发现约3%的样本显示增强耀斑活动，耀斑指数GF.01与恒星光度负相关，低光度星表现出更强的相对耀斑输出，AU Mic等高活动性恒星的行星过境观测受耀斑污染风险显著。这些结果为Ariel任务的目标选择和凌星观测数据分析提供了定量指导，有助于准确获取系外行星的大气特征和动力学信息。"
+  },
+  {
+   "id": "arxiv:2608.16204",
+   "title": "The dust-rich, gas-depleted protosolar disk as the birthplace of chondrules",
+   "abstract": "Chondrules are the primary components of primitive meteorites known as chondrites, and understanding their formation and accumulation is essential for elucidating the history of planet formation in the Solar System. Although a variety of chondrule formation mechanisms have been proposed, it remains challenging to satisfy the key constraints on chondrule abundance, formation timing, and mineralogical and chemical characteristics within a single model. In particular, the planetesimal bow-shock model, once considered one of the leading candidates, now faces a fundamental difficulty: Jupiter's formation likely depleted gas in the protosolar disk, potentially lowering the gas density below that required for efficient chondrule formation by planetesimal bow shocks. Here we propose an alternative mechanism that can occur in a gas-depleted environment: heavy bombardment of eccentric planetesimals by debris dust. After Jupiter formed in the protosolar disk, the region interior to its orbit became gas-depleted, leading to the formation of a geometrically thin debris-dust layer. When planetesimals enter the dust layer at high speed, large quantities of molten silicate droplets are produced. These droplets cool and solidify into chondrules and are reincorporated into the dust layer. Using analytical calculations, we find that our model can potentially explain the abundance, formation timing, and mineralogical and chemical characteristics of chondrules. This study links the formation of Jupiter and the accompanying evolution of the protosolar disk to the origin of terrestrial planets, asteroids, and meteorites, thereby offering a new framework for the formation of the Solar System.",
+   "authors": [
+    "Sota Arakawa",
+    "Hidekazu Tanaka",
+    "Toshihiko Kadono",
+    "Takayuki Ushikubo",
+    "Makiko Nagasawa",
+    "Hiroshi Kobayashi"
+   ],
+   "link": "https://arxiv.org/abs/2608.16204v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究针对球粒陨石中球粒的形成机制提出新假说，通过分析木星形成后原始太阳盘气体耗尽的环境，提出偏心小行星与碎屑尘埃高速碰撞产生熔融硅酸盐液滴的机制。使用解析计算方法，该模型能够解释球粒的丰度、形成时间及其矿物学和化学特征，为太阳系内行星、小行星和陨石的形成提供了统一的动力学框架。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8f48",
+   "title": "Formation and Evolution Pathways of Planets. I. Comparison between Theory and Observations",
+   "abstract": "Abstract Discoveries of numerous exoplanets by various methods enable detailed characterization, including bulk density. Formation and evolution pathways of planets can thus be probed in the mass–radius and mass–density diagrams. We develop a framework to identify dominant processes shaping parameter space in these diagrams by integrating previous studies. These include interior structure models, gas accretion/retention recipes, and photoevaporative and collisional mass losses. We find that the distribution of planets in the diagrams is diversified by two evolution processes: photoevaporative and collisional mass losses, and the properties of planets before experiencing these processes are consistent with predictions of standard core accretion. In particular, collisional mass growth and loss move planets to the parameter space, which is otherwise occupied by water-dominated (i.e., nearly pure water) planets, gathering nonnecessity of invoking such planets. A potentially high abundance of water-rich planets is possible with the ice-to-rock ratio capped at one-third, similar to solar system comets. We propose a new classification scheme and apply it to observed exoplanets. The classification scheme recovers four canonical planet types widely used in the literature and is expanded to eight classes in total due to evolution processes. We divide formation and evolution pathways into four stages (core formation, gas accretion, collisional mass growth and loss, and photoevaporation) and trace how planets populate the mass–radius and mass–density diagrams with time. We apply the framework to habitable zone planets and discuss possible predictions. This work emphasizes the importance of precise mass and radius measurements, especially for small-sized, potentially habitable planets.",
+   "authors": [
+    "Yasuhiro Hasegawa",
+    "Renyu Hu",
+    "Amine Bouzerzour"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8f48",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "core accretion"
+   ],
+   "summary_zh": "本研究通过整合内部结构模型、气体吸积/保留机制和光蒸发/碰撞质量损失等过程，建立了行星质量-半径和质量-密度参数空间的形成演化框架，以解释系外行星观测分布的多样性。研究表明行星参数空间分布主要由光蒸发和碰撞质量损失过程塑造，而这些过程前的行星性质与标准核吸积理论预测相符，尤其是碰�risque撞质量增长和损失可将行星移入原本需要纯水行星来解释的参数空间。基于此框架，作者提出了扩展的行星分类方案（8类），将形成演化分为4个阶段，并强调精确测量小型宜居带行星的质量和半径对深入理解行星形成演化路径的重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8adf",
+   "title": "A New Strategy for Using Spectroscopic Phase Curves to Characterize Nontransiting Planets",
+   "abstract": "Abstract We introduce a new time-series analysis strategy for combined-light exoplanet spectroscopic phase curves called the variable planetary infrared excess (VPIE) method. VPIE can be used to extract information about the planetary flux contribution without the need for the planet to transit or the use of a stellar spectral model. VPIE utilizes a linear combination of a small set of individual spectra to produce an empirical model of the stellar contribution at each time step, thereby normalizing each spectrum and leaving only an imprint of the planet’s flux in the residual data. We demonstrate the effectiveness of VPIE through simulated James Webb Space Telescope (JWST) observations of three known exoplanets orbiting late-type M stars: the warm giant TOI-519 b, the warm sub-Neptune GJ 876 d, and the temperate rocky planet Proxima Centauri b. Our results indicate that though VPIE is less sensitive to very efficient heat redistribution, it can successfully distinguish between various atmospheric circulation regimes (low, moderate, or high heat redistribution) and constrain planetary radii for nonunity day–night temperature ratios. While current performance for cooler targets may be limited by JWST spectroscopic capabilities at longer wavelengths, future VPIE improvements or new instrumentation could enable characterization of potentially habitable planets. VPIE offers a promising new framework for pulling back the veil on the population of nontransiting planets around nearby M stars that are otherwise inaccessible to current techniques.",
+   "authors": [
+    "Ted M. Johnson",
+    "Avi M. Mandell"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8adf",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric circulation"
+   ],
+   "summary_zh": "本研究提出了变行星红外超额(VPIE)方法,一种无需凌星观测或恒星光谱模型即可从组合光谱相位曲线中提取非凌星行星通量信息的新时间序列分析策略。通过JWST模拟观测三颗环绕M矮星的系外行星(TOI-519 b、GJ 876 d和比邻星b),研究表明VPIE能够有效区分不同的大气环流机制并约束行星半径,尽管对高效热重分布的敏感性有限。该方法为研究近邻M矮星周围不可见的非凌星行星群体提供了新的途径。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659777",
+   "title": "Seasonal nonlinear controls on semidiurnal tides at the southern high latitudes of Mars",
+   "abstract": "Thermal tides are a fundamental component of Martian atmospheric variability and play a key role in the vertical coupling between the lower and middle atmosphere. Semidiurnal tides are of particular interest at high latitudes, where background wind conditions favor their vertical propagation and polar-orbiting spacecraft provide enhanced local-time sampling. These combined physical and observational advantages make the southern high latitudes a unique region for constraining the seasonal evolution, vertical structure, and dynamical interactions of semidiurnal tides. Here we exploit multi-local-time measurements from the Mars Climate Sounder (MCS) to provide observational constraints on the seasonal evolution and vertical structure of semidiurnal tides in the southern high latitudes. The aim of this study is to investigate the seasonal evolution and vertical structure of thermal semidiurnal tides at southern high latitudes (60--65̧ircS), with a focus on the underlying dynamical processes shaping their variability. We analyzed multi-local-time temperature and aerosol extinction measurements from MCS to derive the amplitudes and phases of thermal semidiurnal tides, stationary planetary waves, and dust-related diurnal variability at southern high latitudes (60--65̧ircS). During the southern winter, the coexistence and phase relationships among the migrating semidiurnal tide with zonal wavenumber 2 (SW2), the stationary planetary wave with zonal wavenumber 1 (SPW1), and the non-migrating semidiurnal tides with zonal wavenumbers 1 and 3 (SW1 and SW3) are consistent with nonlinear interaction between SW2 and SPW1, particularly for SW3. During regional dust storms, the enhanced diurnal variability of dust may contribute to an effective semidiurnal thermal response through its interaction with the diurnal cycle of solar radiation. Southern high-latitude semidiurnal tides on Mars exhibit seasonally distinct nonlinear controls, reflecting the interplay between nonlinear wave--wave interaction during the southern winter and dust--radiation interaction during the dusty season.",
+   "authors": [
+    "Mengzhen Yuan",
+    "Chengyun Yang",
+    "Dexin Lai",
+    "Zhaopeng Wu",
+    "Xin Fang",
+    "Tao Li"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659777",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "aerosol"
+   ],
+   "summary_zh": "本研究利用火星气候探测仪(MCS)的多地方时温度和气溶胶数据,分析了火星南高纬地区(60-65°S)半日潮的季节变化和垂直结构。研究发现,南半球冬季半日潮受到迁移半日潮(SW2)与静止行星波(SPW1)的非线性波-波相互作用控制,而尘暴季节则受到增强的尘埃-辐射相互作用的影响。这些结果表明火星南高纬半日潮存在明显的季节性非线性调制机制,为理解行星大气中热潮汐的动力学过程提供了重要约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660970",
+   "title": "Hydrodynamics modeling of the water snow line in young protoplanetary disks with dust-size-dependent opacities",
+   "abstract": "The water snow line in protoplanetary disks plays an important role in the planet formation process. However, most studies are focused on its properties in the advanced stages of disk evolution. We investigated the properties of the water snow line during the early stages of disk evolution, paying particular attention to the effects of gravitational instability and dust growth on the snow line's shape and position. We used the FEOSAD numerical hydrodynamics code to simulate the disk formation and evolution in the thin-disk limit. The simulations incorporate the coevolution of gas, dust, and volatiles, including dust growth, volatile phase transitions, and dust-size-dependent opacities. The position of the water snow line is highly nonsteady during the considered disk evolution period, first moving outward during the disk build-up and then retreating back as the disk cools. Its form in the disk midplane deviates strongly from a circular shape in the early gravitationally unstable phase of disk evolution. An increase in the amounts of grown dust and water ice as well as in the maximum dust size just beyond the snow line, as is readily observed in one-dimensional viscous disk evolution models, in our hydrodynamic models occurs only after gravitational instability diminishes. Dust-growth-induced opacity changes have a profound effect on the position of the water snow line, shifting it closer to the star by almost a factor of two compared to models that do not take this effect into account. The shape, position, and properties of the water snow line in young, gravitationally unstable disks differ from those of older, axisymmetric disks. Our results highlight the importance of taking into account the dependence of opacity on dust size when studying disk evolution.",
+   "authors": [
+    "Eduard I. Vorobyov",
+    "Anastasiia Topchieva",
+    "Aleksandr Skliarevskii",
+    "Yaroslav Pavlyuchenkov",
+    "Konstanze Zwintz"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660970",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过FEOSAD流体动力学数值模拟探究了原行星盘早期演化阶段水雪线的性质,重点考察了引力不稳定性和尘埃生长对雪线形状和位置的影响。结果表明,水雪线位置在盘形成过程中非定常变化,在引力不稳定阶段形状偏离圆形;考虑尘埃大小相关的不透明度效应能使雪线位置相对于恒星更近移动约两倍,强调了这一效应对盘演化研究的重要性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659974",
+   "title": "Accretion across scales: Streamers, surface-layer transport, and rapid replenishment in young protoplanetary discs",
+   "abstract": "Protoplanetary discs evolve around newly formed stars through an interplay of infall from surrounding turbulent cloud material, accretion towards the young star, and outflow-driven mass loss. Determining whether discs are fed predominantly through infall along the disc midplane or along the poles is a key challenge, along with the question of whether accretion occurs in a steady or burst-like fashion. Here, we present a suite of 3D ideal magnetohydrodynamic (MHD) simulations of protoplanetary disc formation and evolution in a dynamic, large-scale molecular cloud environment using the adaptive mesh refinement framework . We focus on nine stellar systems, with their discs resolved down to a scale of 0.8,au. Across the sample, stellar accretion proceeds at rates of ∼10-5,M_⊙$,yr^-1 over 10^5 yr, with significant variability. Discs grow to 100,au scales and remain gravitationally stable in time, with disc-to-star mass ratios below 10,%. Transient high-density streamers, with 10,kyr infall times, have the capacity to drive anisotropic mass delivery at rates comparable to the background accretion flow. Their interaction with discs typically results in a temporary reduction of the disc size by half and disc mass by 40,%. During later quiescent disc evolution stages ($t≳50,kyr), accretion predominantly occurs through the midplane and disc surface layers. This is associated with the development of a toroidal magnetic field morphology, which includes field reversals across both disc surfaces. In this way, the full disc mass reservoir is replenished on timescales of 10,kyr. These findings support the notion that when the outer parts of very young discs are well-ionised and close to the ideal MHD regime, they are not yet conducive to planet formation, due to high replenishment rates, strong turbulence, and disruptive streamer infall events. dispatch",
+   "authors": [
+    "C. Granzow Holm",
+    "M. Lambrechts",
+    "M. Kuffmeier",
+    "A. Johansen",
+    "T. Haugbølle",
+    "Å. Nordlund"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659974",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disc",
+    "disc evolution"
+   ],
+   "summary_zh": "本研究通过三维理想磁流体力学模拟研究了年轻原行星盘在动态分子云环境中的形成与演化,重点关注吸积过程的多尺度机制。研究发现,盘的物质补充同时通过短周期高密度流线体(~10 kyr)的各向异性输运和长期的中面层/表面层稳定吸积进行,后者伴随环形磁场的发展使整个盘质量在~10 kyr内得以更新。这些高频补充率和流线体扰动事件表明,外盘在高电离状态下不利于行星形成,为理解原行星盘早期演化和固体成长的困难提供了新的物理图景。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1561",
+   "title": "Triggered Fragmentation in Self-Gravitating Protoplanetary discs: Cooling, Mass Movement and Instability",
+   "abstract": "Abstract Previous three-dimensional hydrodynamical simulations of gravitationally unstable discs have shown that the formation of a single fragment can trigger the formation of subsequent fragments. This behaviour was attributed to changes in the surface mass density caused by the interaction between the first fragment and the disc material. This study reanalyses those simulations to see if the surface mass density was the sole driver. Our results reveal that both surface mass density and sound speed can contribute to the formation of additional fragments. Beyond the general cooling typical of such discs, the inwards movement of cool material from the outer disc, driven by the formation of the first fragment, can enhance fragmentation in the inner regions. We also identify that interactions between the midplane gas and the cooler upper layers of the disc can facilitate additional cooling. Triggered fragmentation can create a unique planet-formation environment by redistributing material across the disc, potentially leading to chemically distinct fragments from those formed in-situ.",
+   "authors": [
+    "Pratishtha Rawat",
+    "Farzana Meru",
+    "Rebecca Nealon"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1561",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究通过三维流体动力学模拟重新分析了自引力原行星盘中的触发碎裂现象，揭示表面密度和声速变化都能驱动后续碎片形成，且第一个碎片引起的冷物质向内流动和中层气体与冷上层的相互作用可进一步增强内部碎裂。触发碎裂通过重新分配盘内物质创造了独特的行星形成环境，可能产生与原位形成碎片化学成分不同的多个碎片。"
+  }
+ ],
  "2026-08-18": [
   {
    "id": "doi:10.3847/1538-4357/ae89b5",
