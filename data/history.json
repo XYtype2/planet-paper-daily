@@ -1,4 +1,390 @@
 {
+ "2026-08-20": [
+  {
+   "id": "arxiv:2608.17985",
+   "title": "The Roman Coronagraph Community Participation Program: data reduction pipeline astrometric calibration",
+   "abstract": "The Nancy Grace Roman Space Telescope will be equipped with a Technology Demonstration Coronagraph Instrument that will push the current limits of high contrast imaging for exoplanets ($10^{-9}$ contrast). The Roman Coronagraph Community Participation Program has developed corgidrp, a python-based data reduction pipeline for the Roman Coronagraph Instrument that will perform essential data processing and calibration steps for coronagraphic observations. The astrometric calibration function within corgidrp allows us to understand the on-sky angular size and distance scale of science observations by characterizing essential detector parameters: boresight, plate scale, north angle, and optical distortion. Measuring these astrometric calibration products not only helps us understand the science output of our data, but it is what allows us to point the Roman coronagraph accurately at our science target in the first place. Here, we describe the techniques used within the astrometric calibration and demonstrate that our algorithm meets Technology Demonstration Threshold Requirements: (1) compute the on-sky location of the center of CGI EXCAM detector to better than 30 [mas] and (2) compute the on-sky position angles of the camera axes to within 0.3 [deg].",
+   "authors": [
+    "Amanda Chavez",
+    "Jason Wang",
+    "Vanessa P. Bailey",
+    "Maxwell Millar-Blanchaer",
+    "Julien Girard",
+    "John Krist",
+    "Julia Milton",
+    "Marie Ygouf"
+   ],
+   "link": "https://arxiv.org/abs/2608.17985v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "Roman空间望远镜冠状仪将采用本研究开发的corgidrp数据处理管道进行高对比度成像观测(10^-9对比度),其中天体测量校准功能通过表征焦点平面、像素尺度、北角和光学畸变等关键探测器参数,实现对科学观测角尺度和距离刻度的精确理解。研究通过相应的天体测量校准算法验证了系统满足技术演示阈值要求:探测器中心位置精度优于30毫角秒,相机轴向位置角精度优于0.3度,为冠状仪的精确指向和系外行星探测奠定了基础。"
+  },
+  {
+   "id": "arxiv:2608.17734",
+   "title": "A Catalog of Homogeneously Derived Stellar Parameters for Spectroscopic Survey Stars",
+   "abstract": "Uniformly derived stellar parameters are vital for exoplanet demographic studies because they directly influence the inferred planetary masses, radii, and bulk densities. This study presents a new homogeneous catalog of physical stellar parameters for 5533 single stars observed by the HARPS, HIRES, and CARMENES radial-velocity (RV) surveys. Stellar parameters are determined using a Bayesian framework with two independent sets of stellar evolutionary models: MIST and PARSEC, using published spectroscopic parameter estimates and catalog values as priors. The resulting stellar effective temperatures, masses, radii, and surface gravities are compared and evaluated for consistency with stellar parameters listed in major exoplanet catalogs. While our estimates show consistency with those listed in external catalogs, we identify method-dependent differences in stellar masses for low-mass and pre-main-sequence stars, as well as G and K giants, where isochrone-based solutions may be affected by age-mass degeneracies. For low-mass stars such as M-dwarfs, the catalog provides masses derived from established mass-luminosity empirical relations, which tend to be more reliable. This catalog provides the largest uniformly derived stellar reference sample for Doppler survey targets and also illustrates the applicability and limitations of stellar-parameter homogenisation methods for future RV exoplanet demographics studies.",
+   "authors": [
+    "Stefan Y. Stefanov",
+    "Evelina Zaharieva",
+    "Djemma Ruseva",
+    "Milen Minev",
+    "Denitza Stoeva",
+    "Volker Perdelwitz",
+    "Lev Tal-Or",
+    "Jerusalem T. Teklu",
+    "Elena Vchkova Bebekovska",
+    "Desislava Antonova",
+    "Vladimir Bozhilov",
+    "Trifon Trifonov"
+   ],
+   "link": "https://arxiv.org/abs/2608.17734v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "exoplanet demographics"
+   ],
+   "summary_zh": "本研究基于贝叶斯框架和两套独立的恒星演化模型（MIST和PARSEC），为HARPS、HIRES和CARMENES径向速度巡天的5533颗单星均一导出了有效温度、质量、半径和表面重力等物理参数。这些均一化的恒星参数通过与现有系外行星数据库的对比验证，揭示了不同方法在低质量星、前主序星及G、K巨星上的系统差异，特别是年龄-质量简并问题。本工作为系外行星宇宙学研究提供了最大规模的均一恒星参数参考样本，同时阐明了参数均一化方法在径向速度系外行星统计研究中的适用性和局限性。"
+  },
+  {
+   "id": "arxiv:2608.17387",
+   "title": "Discovery of an Eccentric Hot Super-Jupiter Leaving the Transiting Geometry of the Early-A-type star TOI-1355",
+   "abstract": "Hot Jupiters orbiting hot stars ($T_\\mathrm{eff} > 7000$ K) are suggested to have experienced high-eccentricity migration, often evidenced by the tendency for misaligned orbits, despite their circular orbits. In this paper, we present the discovery of TOI-1355 b: an eccentric ($e\\sim0.22$) hot Jupiter with a mass of $m_{\\mathrm{p}}\\sim5.8M_J$ and a radius of $R_{\\mathrm{p}}\\sim 1.4R_J$ orbiting an A-type star with a period of about $2.17$ days, identified from the TESS transit survey and subsequent follow-up observations. We measured the stellar parameters using the data from the high-resolution spectrograph Seimei/GAOES-RV and obtained the planetary parameters from the photometric data acquired by TESS and ground-based telescopes. This is one of the rare eccentric hot Jupiters around hot stars. This system could be undergoing high-eccentricity migration. We detected nodal precession by measuring the change in its impact parameter. This implies that its transit will no longer be observable from the middle of 2033. Nevertheless, TOI-1355 b is anticipated to be a compelling target for future atmospheric observations, given the hint of atmospheric variability detected in this study.",
+   "authors": [
+    "Noriharu Watanabe",
+    "Norio Narita",
+    "Akihiko Fukui",
+    "Bun'ei Sato",
+    "Keisuke Isogai",
+    "John H. Livingston",
+    "Jerome P. de Leon",
+    "Daniel Huber",
+    "Yugo Kawai",
+    "Yuya Hayashi",
+    "Masashi Omiya",
+    "Hideyuki Izumiura",
+    "Akito Tajitsu",
+    "Keivan G. Stassun",
+    "Eric Girardin",
+    "Giuseppe Marino",
+    "Antonio Frasca",
+    "Giovanni Catanzaro",
+    "Javier Alonso-Santiago",
+    "Manfred Raetz",
+    "Stephanie Striegel",
+    "Nobuhiko Kusakabe",
+    "Motohide Tamura"
+   ],
+   "link": "https://arxiv.org/abs/2608.17387v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration"
+   ],
+   "summary_zh": "本研究通过TESS测光和地面追踪观测发现了绕早型A星TOI-1355的偏心热木星(e~0.22, 周期2.17天),利用高分辨率光谱仪Seimei/GAOES-RV精确测定了恒星和行星参数。通过检测行星撞击参数的变化,我们发现了显著的节点进动现象,表明该系统可能正经历高偏心轨道迁移,预计2033年中期后将无法观测其凌星现象,但该目标具有重要的大气观测价值。"
+  },
+  {
+   "id": "arxiv:2608.17369",
+   "title": "The Roman Coronagraph Community Participation Program: calibration strategy for the Mueller matrix using on-sky sources",
+   "abstract": "The Nancy Grace Roman Space Telescope Coronagraph Instrument will provide space-based polarimetric observations of circumstellar disks and exoplanetary systems. Accurate reconstruction of the linear polarization fraction requires calibration of the instrumental Mueller matrix using polarized and weakly polarized standard stars. We constructed a candidate catalog by combining published optical polarimetry with Gaia DR3 astrometry and photometry and selected separate samples for coronagraphic calibration observations and observations using a neutral-density filter. Precursor $VRI$-band polarimetry of 18 faint candidates was obtained with HONIR on the 1.5-m Kanata telescope. The wavelength dependence of their normalized Stokes parameters was modeled using the Serkowski law to predict their polarization properties in \\cgi\\ Bands~1 and 4, and 2 sets of 3 calibrators were selected for the 2 calibration scenarios. We then estimated the achievable LPF reconstruction accuracy using Monte Carlo simulations that include uncertainties in the calibrator polarization properties, photometric noise, and residual detector-response errors. A dithered observing configuration was also simulated to reduce differential detector-response errors among the calibrators. The current estimates indicate LPF reconstruction errors at the few-percentage-point level, with a small bias arising from treating a weakly polarized calibrator as unpolarized. Finally, we present progress toward an end-to-end test using \\texttt{corgisim} and \\texttt{corgiDRP}, including successful processing of simulated datasets from Level~1 through Level~2b.",
+   "authors": [
+    "Toshiyuki Mizuki",
+    "Justin Hom",
+    "Bertrand Mennesson",
+    "Ramya M. Anche",
+    "Maxwell A. Millar-Blanchaer",
+    "Vanessa P. Bailey",
+    "Koji Kawabata",
+    "Mitsuhiko Takeuchi",
+    "Motohide Tamura",
+    "Naoshi Murakami",
+    "John Livingston",
+    "Jason J. Wang",
+    "Schuyler G. Wolff",
+    "Guillermo Gonzalez",
+    "Eric Shen",
+    "Tsutsumi Nagai",
+    "Taichi Uyama"
+   ],
+   "link": "https://arxiv.org/abs/2608.17369v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "The Nancy Grace Roman Space Telescope Coronagraph Instrument需要使用极化标准星对Mueller矩阵进行精确定标,以实现对系外行星盘偏振观测的准确重建。本工作通过结合Gaia数据和地面偏振测光,构建了标准星候选表,并利用Serkowski模型预测了不同波段的偏振特性,通过蒙特卡洛模拟评估了线偏振分数重建精度约为百分点级。该定标策略和仪器模型验证为Roman望远镜的行星系统偏振成像观测奠定了基础。"
+  },
+  {
+   "id": "arxiv:2608.17348",
+   "title": "The Roman Coronagraph Community Participation Program: early calibration plan and pilot observation of a companion",
+   "abstract": "Roman is set to launch in weeks! The Coronagraph Instrument - technology pathfinder for future direct imaging missions - is ready to fly too. According to predictions, laboratory tests and high fidelity simulations, it will open a new contrast regime enabling the imaging of mature, giant planets in visible reflected light. The Community Participation Program is responsible for preparing a comprehensive observing program with associated data processing software and calibrations. We give a brief update about the on-going \"baseline\" calibration plan for the first months. Additionally, we describe a pilot program aiming for the stellar companion HD 29992 B at moderate ~1e-5 to ~1e-6 Band 1 (575 nm) contrast, to be carried out as soon as the instrument is operational. The idea is to generate a canonical data set with a self luminous companion that is easily recoverable. This functional checkout will be precious to best prepare our community, exercise our calibration plan and suite of tools.",
+   "authors": [
+    "Julien H. Girard",
+    "Eric Cady",
+    "Neil T. Zimmerman",
+    "Clarissa R. Do Ó",
+    "Jingwen Zhang",
+    "Guillermo Gonzalez",
+    "Bijan Nemati",
+    "Vanessa P. Bailey",
+    "Alexis Lau",
+    "Sophie Noiret",
+    "John Krist",
+    "Julia Milton",
+    "Marie Ygouf",
+    "Ramya M. Anche",
+    "Schuyler Wolff",
+    "Justin Hom",
+    "Amanda Chavez",
+    "Jason J. Wang",
+    "Maxwell A. Millar-Blanchaer",
+    "Jessica Gersh-Range",
+    "Matthias Samland",
+    "Macarena Vega-Pallauta",
+    "Wolfgang Brandner",
+    "Toshiyuki Mizuki",
+    "Masayuki Kuzuhara",
+    "Susan Redmond",
+    "Kevin Ludwick",
+    "Jaren N. Ashcraft",
+    "William O. Balmer",
+    "Rusland Belikov",
+    "Beth Biller",
+    "Sarah Blunt",
+    "Ellis Bogat",
+    "Oscar Carrión-González",
+    "Gael Chauvin",
+    "Alexandra Z. Greenbaum",
+    "Sebastiaan Haffert",
+    "Jim Ingalls",
+    "Brian Kern",
+    "Bertrand Mennesson",
+    "Laurent Pueyo",
+    "Dmitry Savransky",
+    "Dan Sirbu",
+    "Peter Williams",
+    "Chen Xie"
+   ],
+   "link": "https://arxiv.org/abs/2608.17348v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "Roman空间望远镜日冕仪将首次实现可见光波段直接成像成熟木星质量行星，其社区参与计划制定了综合观测计划和数据处理校准方案。研究团队计划在仪器投入运行后的初期阶段执行基线校准，随后对HD 29992 B伴星进行试点观测，在约1e-5至1e-6的对比度下获取规范数据集。这一试点项目将验证校准方案的可行性，为更广泛的系外行星直接成像科学观测做准备。"
+  },
+  {
+   "id": "arxiv:2608.17226",
+   "title": "JWST-MIRI's multi-dimensional view of mass loss in the irradiated disks of NGC 1977",
+   "abstract": "The evolution of protoplanetary disks, and consequently the outcomes of planet formation, are thought to be significantly altered in regions containing massive stars. Extreme cases in the Orion Nebula Cluster (ONC) demonstrate the impact of external irradiation (FUV$\\gtrsim10^{4}$ G$_{0}$) on disk evolution, but intermediate environments remain less observationally constrained. We present JWST/MIRI Medium Resolution Spectroscopy (MRS) observations of seven proplyds in NGC 1977 exposed to an external FUV field of $10^{3}-10^{5}$ G$_{0}$ from the B1V star 42 Orionis (42 Ori). We characterize emission from molecular (H$_{2}$) and atomic (e.g., [Ne II], [Ar II], HI) species, and in some cases, MIRI reveals extended emission tracing the proplyd ionization front and wind. The closest disk to 42 Ori, KCFF#1, is undergoing extreme mass loss, traced by a 1000s-of-au-long dusty tail, and lacks clear H$_{2}$ or HI emission, indicating an advanced stage of dispersal. The remaining six disks exhibit two-temperature components of H$_{2}$ emission (500--700 K and 1000--1500 K), likely tracing the disk molecular layer and a photoevaporative wind, alongside HI lines which are used to estimate mass accretion rates. When comparing KCFF#2 and #6, which have similar host stars, KCFF#2 (closer to 42 Ori) is dominated by externally driven mass loss, with extended molecular and atomic emission, whereas KCFF#6 only shows extended H$_{2}$ emission, with roughly equal contributions from accretion and external mass loss. While the sample is small, this work demonstrates how JWST/MIRI can assess environmental impacts on disk evolution, with NGC 1977 bridging strongly irradiated disks in the ONC and the more local population.",
+   "authors": [
+    "Alice S. Booth",
+    "Qijia Zhou",
+    "Jinyoung Serena Kim",
+    "Karin Öberg",
+    "Jenny Calahan",
+    "Klaus Pontoppidan",
+    "Thomas J. Haworth",
+    "Ilaria Pascucci",
+    "Ryan Boyden",
+    "Mayank Narang",
+    "Karina Maucó",
+    "Aditya M. Arabhavi",
+    "Nicholas Ballering"
+   ],
+   "link": "https://arxiv.org/abs/2608.17226v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI中分辨率光谱对NGC 1977中七个受到中等强度外部紫外辐射（10³-10⁵ G₀）影响的原行星盘进行了观测，通过分子氢、原子谱线等多维诊断工具表征了这些盘的质量损失过程。结果表明，距离辐射源最近的盘经历极端质量损失并处于高度耗散阶段，而其他盘则显示出双温度分量的H₂发射和显著的光蒸发风，反映了外部辐照与吸积过程对盘演化的竞争影响。该工作展示了JWST的优势在于量化中等辐照环境中外部因素对行星形成区域盘演化的影响。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae89ad",
+   "title": "Direct Retrieval of Protoplanetary Disk Dust Properties Using Auto-differentiable Gaussian Processes and Their Application to the HD 169142 Disk",
+   "abstract": "Abstract Retrieving dust properties in protoplanetary disks, including the surface density distribution, temperature, and grain size distribution, is a fundamental task in observational studies of planet formation. While multiwavelength analysis of the spectral energy distribution (SED) using interferometers such as the Atacama Large Millimeter/submillimeter Array (ALMA) is a powerful diagnostic tool, traditional methods are often hindered by strong biases arising from a limited imaging beam size. In this paper, we present a new retrieval framework for dust disk properties designed to overcome this challenge. We assume that the underlying physical structures are expressed as sample paths from Gaussian processes, compute the radial intensity distributions at observed wavelengths, and produce one-dimensional visibility models. The models are compared with the observed data and the posterior distributions are sampled via the Markov Chain Monte Carlo method. The whole procedure is implemented in JAX , which enables end-to-end auto-differentiation and significantly accelerates the inference. We validate our methodology using mock datasets, and find that the results are not strongly biased and better reproduce the input profiles. We also demonstrate its capabilities through an application to ALMA Band 3, 6, and 9 observations of the HD 169142 disk, revealing a new complex structure. Our developed code is publicly available as a Python module, Flexible Radial Analysis of Protoplanetary Disks. This framework provides a next-generation infrastructure for disk SED modeling, enabling high-precision studies of the physical environments in which planets form. ✎ 📗",
+   "authors": [
+    "Tomohiro C. Yoshida",
+    "Enrique Macías",
+    "Giovanni Rosotti",
+    "Stefano Facchini",
+    "Elena Viscardi",
+    "Kiyoaki Doi"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae89ad",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究开发了一个基于自微分高斯过程的原行星盘尘埃性质反演框架，通过在傅里叶空间直接与ALMA干涉观测数据比较，避免了传统波束卷积偏差问题。该方法利用JAX自动微分加速推理过程，在模拟数据和HD 169142的真实观测中验证了其有效性，揭示了该盘的复杂径向结构。该研究提供了新一代的盘SED建模基础设施，将显著提升行星形成环境的物理诊断精度。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8fc9",
+   "title": "Turbulence Can Persist in the Inner Regions of Weakly Ionized Planet-forming Disks",
+   "abstract": "Abstract Identifying the mechanisms responsible for angular momentum transport in protoplanetary disks, and the extent to which those mechanisms produce turbulence, is crucial in understanding planet formation. The bulk of a disk is weakly ionized, which leads to the emergence of three nonideal effects: ohmic diffusion, ambipolar diffusion, and the Hall effect. These low-ionization processes can in some cases suppress turbulence driven by the magnetorotational instability (MRI). However, it has recently been shown that these nonideal terms can affect the gas dynamics in ways other than simple diffusion. To further study the role of low ionization on disk gas dynamics, we carry out a 3D local shearing box simulation with ohmic and ambipolar diffusion and an additional simulation with the Hall effect included. The gas ionization is representative of that at a radius of 5 au in a realistic protoplanetary disk. We find the Hall effect increases the saturation strength of the magnetic field, but does not necessarily drive turbulence, consistent with previous work. However, interactions between ambipolar diffusion and the Keplerian shear lead to the ambipolar diffusion shear instability (ADSI), which can drive the initial growth, not damping, of magnetic perturbations. To our knowledge, this is the first work that explicitly demonstrates the viability of the ADSI in the nonlinear regime within protoplanetary disks. At later times, the MRI (reduced in strength by ambipolar diffusion) may also be present in regions of weak magnetic field between concentrations of vertical magnetic flux and sustain turbulence locally in protoplanetary disks.",
+   "authors": [
+    "David G. Rea",
+    "Jacob B. Simon"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8fc9",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过三维局部剪切盒模拟探究弱电离原行星盘内部的湍流机制，考虑了欧姆耗散、安培扩散和霍尔效应等非理想磁流体效应。研究发现安培扩散与开普勒剪切的相互作用可激发安培扩散剪切不稳定性(ADSI)，驱动磁扰动增长而非阻尼，同时磁场弱区域的MRI可维持局部湍流。这项工作首次在原行星盘的非线性体制中证实了ADSI的可行性，表明即使在弱电离条件下，内盘区域仍可通过多种机制维持有效的角动量输运。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9095",
+   "title": "HD 715 b, a Warm Jupiter Orbiting a Massive Subgiant Discovered from a Single TESS Transit*",
+   "abstract": "Abstract Transiting warm Jupiters orbiting bright stars are scarcely known, but a substantial number of these planets have been uncovered by the TESS mission. In this work, we report the discovery and confirmation of a transiting warm Jupiter orbiting the bright ( V = 8.70) subgiant star HD 715 (TOI-6893). HD 715 b was originally identified from a single transit event in TESS Sector 70. We acquired two seasons of radial velocity follow-up using the PFS, TRES, and MINERVA-Australis spectrographs, which clearly detect the planetary orbit. At M * = 1.60 ± 0.04 M ⊙ , HD 715 thus becomes one of the most massive stars known to host a transiting warm Jupiter. From a joint fit to the TESS transit and our RVs, we find that HD 715 b has a 56.4 0 − 0.23 + 0.19 day orbital period and measure a precise mass and radius of 0.635 ± 0.056 M J and 1.07 ± 0.04 R J , rendering it a relatively typical member of the warm Jupiter population. The moderate orbital eccentricity of 0.2 1 − 0.08 + 0.07 contrasts with the higher eccentricities of other similar warm Jupiters orbiting evolved stars, indicating a greater diversity in orbital eccentricities than previously known. The absence of additional transits in preceding TESS observations in Sectors 42 and 43 allows us to further refine the range of possible orbital periods to [56.01, 56.35] days. Though the ephemeris uncertainty remains substantial, future photometric observations may nonetheless allow for recovery of the transit of HD 715 b.",
+   "authors": [
+    "Alexander Venner",
+    "Robert A. Wittenmyer",
+    "Andrew Vanderburg",
+    "Karen A. Collins",
+    "David W. Latham",
+    "Allyson Bieryla",
+    "Tyler R. Fairnington",
+    "Chelsea X. Huang",
+    "Timothy R. Bedding",
+    "Samuel Grunblatt",
+    "Sydney Jenkins",
+    "R. Paul Butler",
+    "Jeffrey D. Crane",
+    "Jhon Yana Galarza",
+    "Jonathan Horner",
+    "Steve B. Howell",
+    "Marc Huten",
+    "Stephen R. Kane",
+    "David Osip",
+    "Marcelo Said Tala Pinto",
+    "Samuel N. Quinn",
+    "Johanna Teske",
+    "Steve Shectman",
+    "Shreyas Vissapragada",
+    "Duncan Wright",
+    "George Zhou"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9095",
+   "source": "The Astronomical Journal",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "warm Jupiter"
+   ],
+   "summary_zh": "本研究报告了TESS任务在单次凌星事件基础上发现的系外行星HD 715 b，通过两季度的径向速度追踪观测（PFS、TRES和MINERVA-Australis光谱仪）确认了该行星的存在。HD 715 b是绕最大质量（1.60±0.04 M☉）主序后恒星的温木星之一，具有56.4日轨道周期、0.635±0.056 MJ质量和1.07±0.04 RJ半径，其中等偏心率（0.21）显示了演化恒星周围温木星的轨道离心率多样性比已知情况更丰富。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659856",
+   "title": "Tracing outer planetary systems through white dwarf pollution in wide binaries",
+   "abstract": "White dwarf (WD) atmospheric metal pollution provides strong evidence for the presence of remnant planetary material, and it can be used as an indirect tracer of outer planetary systems. We analyze whether the presence of a wide stellar companion affects the occurrence of outer planetary systems by comparing the incidence of calcium pollution in hydrogen-atmosphere WDs in wide binaries and in apparently single stars. We constructed two sample pairs: a large homogeneous SDSS low-resolution spectroscopic set (4844 single WDs; 322 WDs in wide binaries) and a smaller high-resolution sample (83 single WDs; 34 WDs in wide binaries). For each WD, we measured calcium abundances or upper limits and computed detectability-corrected cumulative pollution fractions that account for variations in effective temperature, signal-to-noise ratio, and spectral resolution. In the SDSS-based samples, we find pollution fractions below ∼1%, defined as the fraction of white dwarfs with detected Ca relative to the total number of white dwarfs, for both single WDs and WDs in wide binaries. After correcting for detectability, the cumulative abundance distributions of the two populations are statistically consistent. The same conclusion was obtained for the higher-resolution samples, despite their different raw detection fractions. These results are subject to limitations, including sampling T_ eff mismatches, magnitude-dependent selection effects, possible unresolved binaries, He-atmosphere classification difficulties below sim13,000 K, and coarse model grid precision. Our results indicate no statistically significant difference in the occurrence rate of remnant outer planetary systems between single stars and stars with wide (≳200 au) companions, within the current uncertainties. These uncertainties are significant because the samples contain only a small number of polluted WDs. The corrected detectability cumulative fraction approach used here provides a framework for comparing samples with different detection sensitivities and can be extended to larger spectroscopic datasets. Such samples will be required to determine whether wide stellar companions affect the survival and delivery of planetary material and to search for more subtle trends, for example, as a function of companion separation.",
+   "authors": [
+    "Carolina Lizana-Vidal",
+    "Claudia Aguilera-Gómez",
+    "Laura K. Rogers",
+    "Amy Bonsor",
+    "María Ignacia Muñoz-Arriagada",
+    "Patrick Dufour",
+    "Constanza Bravo-Parra",
+    "Ema Salugova"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659856",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过比较单星和宽双星系统中白矮星大气钙污染的发生率，间接追踪外行星系统的存在，以探测宽伴星是否影响外行星系统的保存。利用SDSS低分辨率光谱样本（4844颗单星WD，322颗双星WD）和高分辨率样本（83颗单星WD，34颗双星WD），通过测量钙丰度并计算可探测性校正的累积污染分数，发现单星和宽双星（≳200 au）中的外行星系统发生率在统计上无显著差异。该研究建立的可探测性累积分数框架可用于比较不同探测灵敏度的样本，为后续研究大样本数据集中伴星分离如何影响行星物质保存和传递提供了方向。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661598",
+   "title": "The Stellar Observations Network Group (SONG). A legacy archive of stellar time-domain spectroscopy",
+   "abstract": "The Stellar Observations Network Group (SONG) network has operated for more than a decade, providing long-baseline high-cadence spectroscopic observations of bright stars and the Sun. The observations from 2014 through 2025 constitute a substantial archive of high-resolution spectra and precise radial velocities suitable for a broad range of time-domain stellar astrophysics. We present an overview of the current status, instrumentation, and scientific capabilities of the SONG network and describe the scope and accessibility of the SONG data archive (SODA). We further illustrate the breadth of science enabled by SONG observations, including asteroseismology, stellar variability studies, binary-star characterisation, and exoplanet research. We summarise the operational status and observing strategies of the SONG facilities, describe the available data products and archive infrastructure, and outline procedures for accessing archival observations and proposing new observations within the SONG community framework. The SODA archive currently contains more than 580,,000 spectra of 3091 stars obtained with SONG using either iodine-cell or thorium–argon wavelength calibration. The archive spans more than a decade of observations and includes extensive high-cadence time-series data for bright targets spanning a wide range of stellar types and variability classes. Access to the archive is available to members of the SONG community, which remains open to new participants who agree to follow the community policies. The SONG archive has developed into a major long-baseline resource for stellar spectroscopy and radial velocity time-series analysis. Continued expansion of the archive, together with coordinated observations obtained contemporaneously with TESS and future PLATO observations, is expected to enable new studies of stellar oscillations, variability, and exoplanet host stars through combined radial velocity and photometric analyses.",
+   "authors": [
+    "M. N. Lund",
+    "F. Grundahl",
+    "M. S. Fredslund",
+    "P. L. Pallé",
+    "S. Simon-Diaz",
+    "J. Christensen-Dalsgaard",
+    "R. A. Wittenmyer",
+    "L. Deng",
+    "J. Jackiewicz",
+    "H. Kjeldsen",
+    "V. Antoci",
+    "H. Korhonen",
+    "S. H. Albrecht",
+    "K. Wang",
+    "J. Rudrasingam",
+    "R. Handberg",
+    "T. R. Bedding",
+    "J. L. Rørsted",
+    "P. M. Sørensen",
+    "D. J. Wright",
+    "J. A. Holtzman",
+    "J. Klusmeyer",
+    "S. Frandsen",
+    "E. Weiss",
+    "J. Jessen-Hansen",
+    "P. Heeren",
+    "R. Tronsgaard",
+    "T. Arentoft",
+    "P. G. Beck",
+    "U. G. Jørgensen",
+    "A. N. Sørensen",
+    "M. I. Andersen",
+    "P. Kjærgaard",
+    "M. Bizzarro",
+    "R. P. Butler",
+    "E. Corsaro",
+    "R. A. García",
+    "D. Stello",
+    "S. Murphy",
+    "J. Horner",
+    "S. Martell",
+    "M. J. Martínez González",
+    "L. Casagrande",
+    "J. Lattanzio"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661598",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "SONG网络在过去十多年积累了超过58万条高分辨率光谱和精确径向速度测量数据，涵盖3091颗星的长基线、高时间分辨率分光观测。该档案库支持小行星震荡学、恒星变异性、双星表征和系外行星研究等多个领域，特别是通过与TESS和PLATO等测光巡天的联合分析，可以显著提升对系外行星宿主星的径向速度和光度变化的联合约束能力。SONG社区已建立开放的数据获取和观测申请机制，使其成为行星动力学研究中获取精确恒星参数和行星轨道解的重要资源。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1564",
+   "title": "Dust trapping, collisional velocity and velocity dispersion in gravito-turbulent discs",
+   "abstract": "Abstract High-resolution ALMA observations indicate that planet formation is already well underway in the earliest stages of disc evolution, when discs are typically massive enough to be regulated by gravitational instability (GI). In this regime, the interplay between dust dynamics and GI may enable rapid core formation, but the conditions under which this process operates remain poorly constrained. In this work, we use three-dimensional global SPH simulations to investigate the dynamics of dust particles in gravitationally unstable discs over a wide range of Stokes numbers. We focus on three key quantities that regulate early planet formation: dust trapping in spiral arms, collisional velocities between dust grains, and the dust velocity dispersion. We find that particles with Stokes numbers in the range St ≃ 0.1—1 undergo the strongest concentration within spiral arms while simultaneously exhibiting low velocity dispersion. This combination makes this aerodynamic regime the most favourable for the onset of dust-driven gravitational instability and direct dust collapse. Where direct comparisons of collision velocities are possible, our three-dimensional results are in excellent agreement with previous two-dimensional studies and are consistent with a picture in which grains are partially coupled to a Kolmogorov-like turbulent velocity field in the gas. Our results indicate that, in young self-gravitating discs, dust particles in this intermediate coupling regime provide a natural pathway to the formation of planetary cores.",
+   "authors": [
+    "Cristiano Longarini",
+    "Cathie J Clarke",
+    "Richard A Booth",
+    "Cat Leedham"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1564",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "disc evolution"
+   ],
+   "summary_zh": "本研究通过三维SPH模拟调查了引力不稳定盘中不同Stokes数尘埃粒子的动力学特性,重点分析了尘埃在螺旋臂中的聚集、碰撞速度和速度弥散三个关键物理量。研究发现St≃0.1-1范围内的粒子在螺旋臂中浓聚最强且速度弥散最低,这一气动学机制最有利于尘埃驱动的引力不稳定性和直接尘埃坍缩,为年轻自引力盘中的行星核形成提供了自然途径。"
+  }
+ ],
  "2026-08-19": [
   {
    "id": "arxiv:2608.16816",
