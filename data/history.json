@@ -1,4 +1,157 @@
 {
+ "2026-08-22": [
+  {
+   "id": "arxiv:2608.19892",
+   "title": "Quasi-diurnal Kelvin Wave Observed in the Atmosphere of Mars by the Pressure Sensor on the InSight Lander",
+   "abstract": "During the initiation phase of Martian dust storms, a spectral signature of a zonal wavenumber 1 normal mode Kelvin wave (K1) has been observed in several surface pressure records. However, the K1 signal has not been extracted directly since its eigenfrequency is close to that of the diurnal tide, making their separation difficult. We apply singular spectrum analysis to more than one Martian year of InSight surface pressure observations, including the MY34 C dust storm (C34). This analysis enables us to directly extract the transient K1 signal. Clear K1 signals appear during the Northern-Hemisphere spring and autumn with the average amplitudes of around 2 Pa. They reach 8 Pa during the C34 storm, which is substantial compared with a simultaneous diurnal signal (S1) maximum of 39 Pa. Near the peak time, K1 and S1 are in phase, and unexpectedly the S1 period shortens to 23.5 Mars hours. Subsequently, K1 rapidly decays and the S1 period recovers to 24 Mars hours. The phase relation between K1 and S1 as well as the S1 period shortening indicates that a resonance occurred between S1 and K1. Comparison with simulations at the model grid point closest to the InSight landing site shows that the Mars Planetary Climate Model realistically reproduces the observed characteristics of the surface pressure variations.",
+   "authors": [
+    "Anzu Asumi",
+    "Jorge Hernández-Bernal",
+    "Kaoru Sato",
+    "Aymeric Spiga"
+   ],
+   "link": "https://arxiv.org/abs/2608.19892v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用InSight着陆器的气压传感器超过一个火星年的观测数据,采用奇异谱分析方法成功直接提取了火星大气中准日周期开尔文波(K1)信号,该信号在火星北半球春秋季平均振幅约2帕,在MY34C尘暴期间增强至8帕。研究发现K1与日潮(S1)在尘暴峰值时同位相且S1周期异常缩短至23.5火星小时,表明两者发生了共振耦合,而火星气候模型的模拟结果与观测特征相符。这项研究揭示了火星大气波动的耦合机制,对理解火星动力学过程有重要意义。"
+  },
+  {
+   "id": "arxiv:2608.19786",
+   "title": "Origin of nucleosynthetic isotope variability in the NC reservoir: Evidence from Ti, Cr, and Mo isotopes",
+   "abstract": "Nucleosynthetic isotope anomalies allow distinguishing between non-carbonaceous (NC) and carbonaceous (CC) type meteorites, and have revealed correlated isotope variations especially among NC bodies. Understanding the origin of this NC trend is important for identifying the processes that produced the NC isotope heterogeneity, and for using these isotope anomalies to reconstruct the early evolution of the solar protoplanetary disk. We report mass-independent Ti, Cr, and Mo isotope compositions for a comprehensive set of previously not or only poorly investigated meteorites, as well as acid leachates obtained from the sequential digestion of primitive ordinary chondrites. Some of the samples investigated in this study fill previously identified apparent gaps in the NC trend, suggesting these gaps reflect unrepresentative sampling of a more continuous isotopic trend. Bulk meteorites and leachates exhibit distinct isotope systematics, indicating that the NC isotope variability does not reflect selective thermal processing of presolar carriers in the disk. The NC trend also cannot reflect the continuous addition of CC dust from the outer to the inner disk, because early- and late-formed NC meteorites display largely overlapping isotopic compositions. Instead, we find that the NC isotope heterogeneity is best accounted for by fractionation and mixing among chemically and isotopically distinct dust components, similar to the processes that produced the isotopic variability among carbonaceous chondrites. On this basis we argue for the presence of substructures in the inner disk, which facilitated fractionation and mixing among distinct dust components, and helped preserve a long-lived dust reservoir from which NC planetesimals accreted over an extended period of time.",
+   "authors": [
+    "Elias Wölfer",
+    "Christoph Burkhardt",
+    "Gerrit Budde",
+    "Christian A. Jansen",
+    "Jonas Pape",
+    "Thorsten Kleine"
+   ],
+   "link": "https://arxiv.org/abs/2608.19786v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过测定Ti、Cr、Mo同位素组成,发现非碳质陨石(NC)中的核合成同位素异常反映了内盘面内化学和同位素不同尘埃成分的分馏和混合过程,而非选择性热处理或碳质陨石尘埃连续输入。这些结果表明早期太阳原行星盘内圈存在亚结构,促进了不同尘埃成分的分馏混合,并维持了一个长寿命的尘埃储库,为NC行星体在较长时间跨度内的吸积提供了物质基础。"
+  },
+  {
+   "id": "arxiv:2608.19756",
+   "title": "Asymmetric Aerosol Distribution on the Terminators of the Warm Saturn WASP-69 b Revealed by JWST NIRISS/SOSS",
+   "abstract": "How aerosols form, are transported, and cycle between condensation and evaporation across exoplanet temperature regimes remains poorly understood. Recent models and observations suggest that warm giant planets near $800$--$1000$ K may span a transition between homogeneous and longitudinally heterogeneous aerosol distributions. We present a robust detection of aerosol asymmetry in a giant planet with $T_{\\rm eq}\\lesssim1000$ K, using the $0.86$--$2.82~μ$m JWST NIRISS/SOSS transmission spectrum of WASP-69 b. The evening limb shows prominent 1.4 $μ$m H$_2$O absorption ($Δ\\mathrm{BIC}_{\\rm H_2O}=+22.7$), whereas H$_2$O is not detected on the morning limb ($Δ\\mathrm{BIC}_{\\rm H_2O}=-8.7$). Atmospheric retrievals reveal significant aerosol opacity on both limbs, with high-altitude, optically thick clouds muting molecular features on the morning limb and lower cloud opacity allowing H$_2$O to emerge on the evening limb. The evening terminator is hotter by $304^{+62}_{-91}$ K, consistent with morning-limb condensates partially evaporating during transport toward the evening limb. This mechanism is independently verified with 3D general circulation models. Stellar contamination or aerosols dominated by photochemical haze do not readily explain the asymmetry. From a limb-resolved analysis, we infer a stellar-to-superstellar atmospheric metallicity, with $\\rm[M/H]=0.11^{+0.40}_{-0.46}$ from the equilibrium retrieval and [O/H]$=1.38^{+0.44}_{-0.79}$ from the free retrieval. We also detect an escaping metastable-helium tail extending to $3.08^{+0.50}_{-0.45}\\,R_p$. WASP-69 b anchors the cooler edge of the emerging population of planets with asymmetric aerosol distributions and suggests that substantial aerosol opacity may persist on both limbs across this transition.",
+   "authors": [
+    "Le-Chris Wang",
+    "Sagnick Mukherjee",
+    "Stephen P. Schmidt",
+    "Kevin B. Stevenson",
+    "Mei Ting Mak",
+    "Patrick McCreery",
+    "Harry Baskett",
+    "Carlos Gascón",
+    "David K. Sing",
+    "Katharine A. Bennett",
+    "Duncan A. Christie",
+    "Guangwei Fu",
+    "Mercedes López-Morales",
+    "Joshua D. Lothringer",
+    "Nathan J. Mayne",
+    "Lakeisha M. Ramos Rosado",
+    "Zafar Rustamkulov",
+    "Kevin C. Schlaufman",
+    "Kristin S. Sotzen"
+   ],
+   "link": "https://arxiv.org/abs/2608.19756v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "transmission spectr",
+    "aerosol"
+   ],
+   "summary_zh": "本研究利用JWST NIRISS/SOSS在0.86-2.82 μm波段对系外行星WASP-69 b进行了凌星光谱观测，揭示了其晨昏两侧气溶胶分布的显著不对称性：晨侧高海拔厚云层抑制了H₂O吸收特征，而傍晚侧云层光学厚度较低使H₂O信号清晰可见，且傍晚侧温度高304 K，表明晨侧凝聚物在大气输送过程中逐渐蒸发。三维大气环流模型独立验证了这一物理机制，排除了恒星污染和光化学霾的影响。该研究表明温暖类土星行星在气溶胶从均匀分布向纬向异质分布过渡的温度区间可能同时存在两侧可观的气溶胶不透明度。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8d1b",
+   "title": "Distribution of Chemically Processed Dust in a Viscously Evolving Protoplanetary Disk: Application to Crystalline Silicates in Comets",
+   "abstract": "Abstract Dust particles undergo chemical reactions in protoplanetary disks according to their environments, producing compositional diversity in planetary materials. Extraterrestrial records of irreversible reactions, such as crystallization of amorphous silicates, provide particularly strong constraints on the early evolution of the protosolar disk. In this study, we investigate such irreversible reactions and the spatiotemporal distribution of reacted dust in a viscously evolving disk using Monte Carlo particle-tracking simulations. We extend a predictive formula for the temperature at which irreversible reactions proceed efficiently (“reaction line”), originally developed for steady accretion disks, to viscously expanding disks. The spatiotemporal distribution of reacted dust is governed by the relative locations of the reaction line and the stagnation line, which separates inward and outward advection in the disk. The reaction line moves inward as the disk cools, while the stagnation line moves outward owing to the radial viscous spreading of the disk. When the reaction line lies far inside the stagnation line, the reacted dust remains inside the reaction line. On the other hand, when the reaction line lies near or beyond the stagnation line, the reacted dust located near the stagnation line or between the two lines is transported outward efficiently. It results in a radially broad distribution of reacted dust throughout the disk, including the outer regions where the temperatures remain too low for reactions. We assessed the disk conditions consistent with the crystalline silicates observed in solar system comets and found that the protosolar disk was likely compact, moderately massive, and not strongly turbulent.",
+   "authors": [
+    "Lily Ishizaki",
+    "Shogo Tachibana",
+    "Shigeru Ida"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8d1b",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过蒙特卡洛粒子追踪模拟，研究了粘性演化的原行星盘中非可逆化学反应（如非晶硅酸盐结晶）产生的尘埃分布，建立了反应线在粘性膨胀盘中的预测公式，并通过反应线与停滞线的相对位置关系解释了反应尘埃的空间-时间分布规律。研究发现，当反应线接近或超越停滞线时，反应尘埃会被有效地向外输运至低温区域，形成全盘宽分布。根据彗星中结晶硅酸盐的观测特征，推断原始太阳星云应为紧凑、中等质量且弱湍流结构。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae7105",
+   "title": "The Curious Case of Dark Faculae on M Dwarf Stars",
+   "abstract": "Abstract The study of exoplanet atmospheres has brought a renewed interest in stellar astrophysics. Specifically, stellar magnetic activity from the host star contaminates exoplanet atmosphere transmission spectra, as evidenced by observations from the James Webb Space Telescope. Stellar surface magnetic features in the form of dark spots caused by large concentrations of surface magnetic fields and the more diffuse, extended faculae caused by small-scale magnetic field concentrations change the apparent size of the star in a wavelength-dependent way. These spot and faculae contributions to the change in transit depth contaminate the planetary signal. Here, we study the transition from bright faculae on G and K dwarfs to dark faculae on M dwarfs. This dark appearance of faculae is in significant contrast to the conventional picture that faculae are brighter than the quiet star region as they are on the Sun. We use the 3D radiative magnetohydrodynamics code MURaM to simulate faculae and calculate their spectra with the MPS-ATLAS radiative transfer code. We present a qualitative explanation for the transition from bright to dark faculae, attributing it to shallower flux tubes and reduced vertical temperature gradients at the surfaces of M dwarfs relative to the Sun.",
+   "authors": [
+    "A. I. Shapiro",
+    "Sara Seager",
+    "Sami K. Solanki",
+    "Nadiia Kostogryz",
+    "Veronika Witzke",
+    "K. Sowmya",
+    "Tanayveer Bhatia",
+    "Yvonne C. Unruh",
+    "Robert Cameron"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae7105",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过3D辐射磁流体动力学模拟,探讨了M矮星上暗耀斑现象的物理成因,这与太阳上的亮耀斑形成对比。研究发现M矮星表面较浅的磁通管结构和较小的垂直温度梯度导致了耀斑从G/K矮星上的亮特征转变为暗特征。这一发现对理解M矮星宿主星的磁活动如何污染系外行星大气透射光谱具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9155",
+   "title": "Atmospheric Escape Rates of Planets in Stellar Tidal Fields from 3D Hydrodynamic Simulations",
+   "abstract": "Abstract Thermally driven atmospheric escape, including photoevaporation and core-powered mass loss, plays a key role in shaping the evolution of close-in exoplanets, yet most current models rely on simplified one-dimensional (1D) descriptions of atmospheric escape. In this work, we perform 3D hydrodynamic simulations of atmospheric outflows from a Jupiter-sized planet embedded in the gravitational potential of a solar-type host star, and compare these results with 1D models to identify the regimes where they perform well and where they break down. We explore a range of configurations by varying the degree of Roche-lobe filling and the thermal state of the outflow. We find that systems with weak tidal influence and high-temperature winds produce nearly spherical and isotropic outflows, whereas more Roche-lobe-filling and cooler winds develop strong anisotropy and form two-tailed structures. We show that the commonly used 1D Parker wind model performs well only in the weak-tides regime, while including tidal corrections yields reasonable estimates of mass-loss rates and captures the mean radial density profile across all regimes, but fails to reproduce the intrinsically three-dimensional, angle-dependent nature of the flow as the outflow transitions from spherical to tidally structured tails. Motivated by these results, we develop a physically informed Mixture Model , calibrated using our 3D simulations, that accurately predicts mass-loss rates across the parameter space explored and outperforms the 1D model with tidal corrections.",
+   "authors": [
+    "Ritika Sethi",
+    "Morgan MacLeod",
+    "Sarah Millholland"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9155",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape",
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究通过三维流体力学模拟研究了恒星潮汐场中类木行星大气逃逸过程，对比分析了三维模型与传统一维Parker风模型的性能差异。研究发现在弱潮汐和高温风的条件下大气逃逸呈球对称，而强潮汐填充和低温风则导致各向异性的双尾结构；一维模型仅在弱潮汐制度下表现良好，但在强潮汐制度下无法捕捉三维流动特征。基于三维模拟结果，研究开发了混合物理模型，能够准确预测整个参数空间内的质量丧失率，优于现有的一维模型修正方案。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae91d1",
+   "title": "The Edges of Planetary Systems: Falling Off the Kuiper Cliff in a Dissipating Gas Disk",
+   "abstract": "Abstract Probably the last planetesimals to have formed from dust in the solar nebula are cold classical Kuiper Belt Objects (CCKBOs). To the extent that they are isolated and unchanged since birth, CCKBOs offer direct insights into nebular processes. Their population density drops abruptly beyond a heliocentric radius of ∼47 au, a feature known as the “Kuiper Cliff.” We show with global, 1D (radial), time-dependent models how gaseous protoplanetary disks that disperse from magnetic and photoevaporative winds leave behind planetesimal disks with Cliff-like outer edges. The gas disperses from the inside out, creating transitional disks whose inner cavities expand from ≲1 au to ≳100 au. Gas at the cavity boundary presents a pressure maximum toward which dust particles drift, triggering the streaming instability which clumps dust into planetesimals massive enough to decouple from gas. The receding cavity wall thus paves a disk of planetesimals, which truncates when dust and gas are spent. With no fine-tuning, we show how a generic gas disk clearing from the inside out reproduces the Kuiper Cliff and the CCKB surface density. Connecting these global 1D results with published local 3D simulations of dust and gas, we see how many properties of the CCKB—its radial extent, total mass, individual object sizes, and binary statistics—follow from the streaming instability at work in a late-stage transition disk.",
+   "authors": [
+    "Rixin 日新 Li 李",
+    "Eugene 詒曾 Chiang 蔣"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae91d1",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过全局一维辐向时间依赖模型，揭示了磁风和光蒸发风驱动的原行星盘从内向外逐步耗散的过程如何在盘外缘形成类似\"库伯悬崖\"的陡峭截断结构。研究表明，盘腔边界处的压力最大值触发流动不稳定性，促使尘埃通过恒星形成聚集成足够质量的行星体，随着空腔边界内缩而逐步堆积成行星盘，最终在气体耗尽时形成截断边缘。该机制无需精细调参即可重现冷古典柯伊伯带天体的观测特征，包括其径向范围、总质量、个体尺度和双星统计性质。"
+  }
+ ],
  "2026-08-21": [
   {
    "id": "arxiv:2608.19120",
