@@ -1,4 +1,215 @@
 {
+ "2026-08-21": [
+  {
+   "id": "arxiv:2608.19120",
+   "title": "No Persistent Helium Absorption in LHS 1140 b: Four JWST/NIRISS SOSS Transits and Multi-epoch Stellar He I Variability",
+   "abstract": "The search for atmospheres on temperate terrestrial planets is important for understanding how these objects form and evolve, and their potential habitability. Recent transit observations of LHS 1140 b, a temperate ($T_{\\rm eq}=226$ K) planet straddling the radius valley ($R_{\\rm p}\\approx1.7 R_\\oplus$), with the WINERED high-resolution spectrograph yielded a detection of planetary atmospheric escape through the measurement of excess absorption ($1.24\\pm0.23\\%$) in the metastable helium triplet, although a later second visit resulted in a non-detection. We analyze four transits of LHS 1140 b and two of LHS 1140 c observed with JWST/NIRISS SOSS. We find no evidence of helium absorption in either planet, with all amplitudes consistent with zero within $1σ$. For LHS 1140 b, we derive $3σ$ upper limits of $0.72$--$1.21\\%$. Individual visits disfavor the reported WINERED absorption at $2.6$--$3.7σ$, while their joint constraint disfavors a persistent signal at $4.5σ$. We find that the stellar He I line of LHS 1140 varies substantially between NIRPS and WINERED epochs, with both its strength and fractional variability consistent with the behavior of other M dwarfs. We also identify a moderate correlation between the 2024 He I depth and seeing, suggesting a possible seeing-dependent instrumental contribution. If the high-resolution detection is indeed planetary, the rate of such atmospheric loss events must be relatively low ($f=22_{-12}^{+17}\\%$). Alternatively, stellar He I variability may contribute to the reported excess absorption. Additional high-resolution observations, both in and out of transit, are required to distinguish between these scenarios.",
+   "authors": [
+    "Amélie Gressier",
+    "Charles Cadieux",
+    "René Doyon",
+    "Louis-Philippe Coulombe",
+    "Romain Allart",
+    "Étienne Artigau",
+    "François Bouchy"
+   ],
+   "link": "https://arxiv.org/abs/2608.19120v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究通过JWST/NIRISS SOSS对系外行星LHS 1140 b的四次凌星观测，检验了先前用高分辨率光谱仪报告的氦大气逃逸信号，但未能检测到显著的氦吸收特征（3σ上限为0.72-1.21%）。我们发现宿主星He I谱线在不同观测期间存在显著变化，与其他M型矮星的行为一致，且可能对先前的行星大气逃逸检测产生贡献。这些结果表明，要么LHS 1140 b的大气逃逸事件发生频率较低，要么之前的检测信号可能源于恒星活动的影响，需要后续的高分辨率凌星和非凌星观测进一步甄别。"
+  },
+  {
+   "id": "arxiv:2608.19100",
+   "title": "Wet Removal and Cloud Enhancement: The Microphysics of Cloud-Haze Interactions on Sub-Neptunes",
+   "abstract": "Aerosols are a near-ubiquitous feature of sub-Neptune atmospheres, yet their microphysical nature remains poorly understood. Both condensate clouds and photochemical hazes have been proposed to explain observations, but have largely been studied in isolation. Here we present a new bin-scheme microphysical model, adapted from CARMA, that couples cloud and haze formation through heterogeneous nucleation - the dominant mode of cloud formation in the Solar System - in which haze particles act as cloud condensation nuclei (CCN). Applying this model to KCl clouds on GJ 1214 b-like warm sub-Neptunes, we find that the microphysical contact angle $θ$ between cloud and haze particles governs distinct regimes of aerosol behavior: at moderate contact angles ($25^\\circ \\lesssim θ\\lesssim 70^\\circ$), hazes are efficiently removed from the upper atmosphere through \"wet removal\" as they seed gravitationally-settling clouds; at small contact angles ($θ\\lesssim 25^\\circ$), heterogeneous nucleation instead produces an enhanced population of mixed cloud-haze particles at high altitudes, dramatically increasing aerosol optical depth (\"cloud enhancement\"). These structural changes produce differences of up to four scale heights in transmission spectra, with strong effects at optical and near-infrared wavelengths relevant to JWST NIRISS/SOSS, while wavelengths beyond about 3 microns remain comparatively unaffected. We map these effects across orders of magnitude in metallicity, haze production rate, and vertical mixing strength, establishing their generality across sub-Neptune parameter space. Because heterogeneous nucleation is a universal phase-change process, this framework extends naturally to other exoplanet atmospheres and potentially any astrophysical environments where condensation onto foreign substrates may occur, including protoplanetary disks and stellar outflows.",
+   "authors": [
+    "Vighnesh Nagpal",
+    "Maria Steinrueck",
+    "Diana Powell",
+    "Peter Gao",
+    "Dominic Samra",
+    "Wolf Cukier"
+   ],
+   "link": "https://arxiv.org/abs/2608.19100v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr",
+    "aerosol"
+   ],
+   "summary_zh": "本研究建立了耦合云和霾微物理过程的模型,通过异质核化机制研究了亚海王星大气中气溶胶粒子的行为。研究发现,云-霾粒子间的接触角控制了两种不同的气溶胶演化模式:中等接触角时霾粒子被云凝聚核高效\"湿清除\"至大气下层,小接触角时产生高空混合云-霾粒子群导致气溶胶光学厚度显著增强。这些微物理过程在JWST可观测的波段产生高达4个标高的传输谱差异,该框架适用于整个亚海王星参数空间及其他系外行星大气环境。"
+  },
+  {
+   "id": "arxiv:2608.19030",
+   "title": "A Search for helium in the atmospheres of three sub-Neptunes and a super-Earth around M-dwarfs",
+   "abstract": "Thousands of sub-Neptunes have been discovered mainly through space-based surveys such as Kepler and TESS. Their bulk compositions and internal structures are thought to reflect their formation and evolutionary pathways, and atmospheric observations provide constraints on these processes. The near-infrared helium triplet is a potential tracer of extended, escaping H/He atmospheres. Recent models that include geometric effects suggest that planets orbiting nearby late M dwarfs may offer favorable conditions for detecting this signal. Nevertheless, helium has been reported for only three planets around M dwarfs to date. We conducted high-resolution transmission spectroscopy of three sub-Neptunes (TOI-2136b, TOI-654b, and LP 791-18c) and a super-Earth (TOI-1634b) orbiting M dwarfs with the InfraRed Doppler (IRD) spectrograph on the Subaru Telescope. We find no statistically significant helium absorption in any target; accordingly, we derive 95% confidence upper limits on the helium line depth of 1.36%, 0.60%, 2.07%, and 3.00%, and on the equivalent width of 7.3, 2.1, 7.4, and 9.1 mÅ, for TOI-2136b, TOI-1634b, TOI-654b, and LP 791-18c, respectively. We further explored constraints on the upper-atmospheric temperature and mass-loss rate by comparing these results with isothermal Parker-wind models. While we have compared with self-consistent ATES models of primordial H/He atmospheres spanning a range of assumed X-ray luminosities, changes in the assumed XUV flux do not appear to account for the non-detections. The results suggest that these planets have metal-enriched H/He primary atmospheres or non-primordial atmospheres, such as water-rich envelopes. Future observations of other absorption lines, such as Lyman-$α$, H-$α$, and H$_2$O, may provide further constraints on these atmospheres.",
+   "authors": [
+    "Kiyoe Kawauchi",
+    "Norio Narita",
+    "Yuichi Ito",
+    "Akifumi Nakayama",
+    "Teruyuki Hirano",
+    "Masayuki Kuzuhara",
+    "Mayuko Mori",
+    "Izuru Fukuda",
+    "Akihiko Fukui",
+    "Yuya Hayashi",
+    "Yasunori Hori",
+    "Masahiro Ikoma",
+    "Kai Ikuta",
+    "Taiki Kagetani",
+    "Yugo Kawai",
+    "Tadahiro Kimura",
+    "Vigneshwaran Krishnamurthy",
+    "Huan-Yu Teng",
+    "Noriharu Watanabe",
+    "Yujie Zou",
+    "Hiroki Harakawa",
+    "Klaus Hodapp",
+    "Tomoyuki Kudo",
+    "Takashi Kurokawa",
+    "Jun Nishikawa",
+    "Masashi Omiya",
+    "Motohide Tamura",
+    "Akitoshi Ueda",
+    "Sébastien Vievard"
+   ],
+   "link": "https://arxiv.org/abs/2608.19030v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr",
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究利用Subaru望远镜的高分辨率传输光谱学观测了绕M矮星运行的三颗亚海王星和一颗超地球的近红外氦三重线，以探测其逃逸大气的信号。研究未在任何目标行星中检测到显著的氦吸收，通过与等温Parker风模型的对比分析，约束了上层大气温度和质量损失率。研究结果表明这些行星可能具有金属丰富的原始H/He大气或非原始大气（如富水包层），而不是传统的原始氢氦包层。"
+  },
+  {
+   "id": "arxiv:2608.18830",
+   "title": "A metallicity sweet spot for disc fragmentation and planet formation",
+   "abstract": "Fragmentation of gravitationally unstable discs offers an alternate formation mechanism for gas giant planets and brown dwarfs on wide orbits. Metallicity plays a key role in disc evolution from the onset of gravitational instability to the formation of planets. We aim to determine the effect of metallicity on disc fragmentation and on the properties of disc-instability planets. We model gravitationally unstable discs with varying metallicity ($0.01-10 \\,\\rm Z_{\\odot}$) using the Smoothed Particle Hydrodynamics code PHANTOM. Our simulations reveal a \"sweet spot\" for fragmentation at $0.3 \\,\\rm Z_{\\odot}$, where cooling is most efficient, with fragmentation also happening less vigorously at higher and lower metallicities. However, further away from the sweet spot, fragmentation becomes more difficult and is eventually suppressed at extreme low and high metallicities ($0.01 \\,\\rm Z_{\\odot}$ and $10 \\,\\rm Z_{\\odot}$, respectively), where the disc cools inefficiently. Discs with metallicities close to the sweet spot form more planets per disc, faster, and with lower initial masses than fragmenting discs with higher or lower metallicities. Our results may explain the slight overabundance of wide-orbit giant planets observed around metal-poor stars; these planets may have formed via disc fragmentation.",
+   "authors": [
+    "Ethan J. Carter",
+    "Dimitris Stamatellos",
+    "George Blaylock-Squibbs",
+    "Alison Young",
+    "Ken Rice"
+   ],
+   "link": "https://arxiv.org/abs/2608.18830v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "disc evolution"
+   ],
+   "summary_zh": "本研究通过光滑粒子流体动力学模拟探讨了盘金属丰度(0.01-10 Z☉)对引力不稳定盘碎裂和行星形成的影响。研究发现在0.3 Z☉处存在一个碎裂\"最优区间\",该金属丰度下冷却最有效,促进行星快速形成且初始质量较低,而极端低金属丰度(0.01 Z☉)和高金属丰度(10 Z☉)条件下碎裂则被抑制。这一结果可能解释了观测到的贫金属星周围宽轨道巨行星的过量丰度现象,表明这些行星可能通过盘碎裂机制形成。"
+  },
+  {
+   "id": "arxiv:2608.18626",
+   "title": "Looking for TRAPPIST-1 external planets' emission in JWST archival data",
+   "abstract": "The TRAPPIST-1 system has been thoroughly observed with JWST. Unfortunately, stellar contamination issues strongly limit the interpretation of transit observations. As for emission observations, only the two closest planets have been observed through five dedicated JWST programs. We gathered all these emission observations and tried to detect the combined emission of the external planets in previous JWST MIRI observations of TRAPPIST-1; this paper presents our approach and our results. We could not achieve sufficient precision to detect the thermal emission of the outer planets and to discriminate between an all-bare rocks and an all-atmospheres scenario. However, we show that a~60 hours continuous observations at a specific phase range, when the gradient of thermal flux from the outer planets is maximum, could allow us to achieve this goal.",
+   "authors": [
+    "Louis-Julien Cartigny",
+    "Alice Maurel",
+    "Elsa Ducrot",
+    "Taylor J. Bell"
+   ],
+   "link": "https://arxiv.org/abs/2608.18626v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究收集了JWST对TRAPPIST-1系统的全部发射光谱观测数据,尝试在MIRI观测中探测外行星的联合热辐射信号。通过分析热流梯度最大的特定观测阶段,我们表明约60小时的连续观测可能足以区分外行星是裸露岩石还是具有大气的情景,尽管现有数据精度仍不足以实现这一目标。"
+  },
+  {
+   "id": "arxiv:2608.18457",
+   "title": "Stellar Abundances as Probes of Rocky Exoplanet Interiors: The Mantle Composition and Mineralogy of GJ 486b",
+   "abstract": "Over the past three decades, hundreds of rocky exoplanets have been discovered. Some of these show atmospheric signatures indicative of diverse chemical compositions. Interpreting these atmospheres requires a physically grounded understanding of planetary interiors, as interior composition and mineralogy govern the formation and evolution of secondary atmospheres. Rocky terrestrial exoplanets are expected to inherit the refractory composition of their host stars, providing a direct pathway to constrain their bulk composition and mineralogy. However, a large fraction of these planets orbit M-type stars, whose compositions remain poorly constrained because of limited and uncertain stellar abundance measurements. Here, we present a physically consistent framework that connects stellar abundances to the interior structure and mineralogy of rocky exoplanets by combining stellar abundance inference, devolatilization modeling to estimate bulk and mantle elemental abundances, interior structure calculations to derive pressure-temperature profiles, and thermodynamic equilibrium modeling of mantle mineralogy. We first benchmark the framework against Earth and then apply it to the super-Earth GJ 486b using chemically consistent abundances derived from ensembles of similar M-dwarf hosts. We find that GJ 486b likely hosts an iron-rich and silica-poor mantle relative to Earth while preserving the major mantle phase transitions. Sensitivity analyses show that the overall mineralogical structure is robust to variations in bulk composition and pressure-temperature profiles, with temperature primarily modulating phase proportions near key transitions. Finally, our results show that stellar-abundance inference combined with devolatilization models constrains the interior composition of rocky exoplanets and provides a foundation for linking planetary interiors to atmospheric characterization.",
+   "authors": [
+    "Harshit Krishna",
+    "Asmit Gupta",
+    "Sneha Bhowmik",
+    "Chandan K. Sahu",
+    "Sudipta Mridha",
+    "Liton Majumdar"
+   ],
+   "link": "https://arxiv.org/abs/2608.18457v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究建立了从恒星丰度到岩石系外行星内部结构和矿物学的物理框架,结合恒星丰度推断、脱挥发性建模、内部结构计算和热力学平衡矿物学模型。应用于超地球GJ 486b,发现其地幔相对于地球富铁贫硅,但保留主要的相变特征,表明矿物学结构对本体组成变化具有鲁棒性。该方法为联系行星内部组成与大气特征提供了基础框架,有助于约束M型星系统岩石行星的内部性质。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae907c",
+   "title": "Planet Formation at Cosmic Dawn: Planetesimals in H 2 O-rich Disks around Low-mass Stars",
+   "abstract": "Abstract Primordial, or Population III (Pop III), supernovae (SNe) were the first nucleosynthetic engines in the Universe, forging the heavy elements required for the later formation of planets and life. Past studies suggest that the rise of planet formation was gradual, and did not peak until about half of the present age of the Universe, after cosmic mean metallicities exceeded a critical value. However, Pop III pair-instability (PI) SNe, which can eject over 100 M ⊙ of metals, locally enriched gas to metallicities of up to 1 Z ⊙ at Cosmic Dawn, just 100 Myr after the Big Bang. Here we show that planetesimals, the precursors of terrestrial planets, can form around low-mass, long-lived stars in the debris of such explosions, before the first galaxies and far earlier than previously thought. We modeled the collapse of a dense core with a Jeans mass of just 1–2 M ⊙ from a PI SN remnant and found that a protoplanetary disk formed with several Earth masses of planetesimals 0.5–1.0 au from their parent star, within its water snow line. The disk has H 2 O mass fractions that are only a factor of a few less than in the solar system today, raising the possibility of enrichment of the first planets in the Universe with water in direct analogy to Earth in the solar system.",
+   "authors": [
+    "Eduard I. Vorobyov",
+    "Daniel J. Whalen",
+    "Muhammad A. Latif",
+    "Alexander Skliarevskii",
+    "Christopher Jessop",
+    "Ryoki Matsukoba",
+    "Takashi Hosokawa",
+    "Devesh Nandal"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae907c",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过数值模拟模拟了第三星族对恒星超新星爆发遗迹中致密核心的坍缩过程,探究了早期宇宙中围绕低质量恒星的原行星盘形成条件。研究发现,在宇宙黎明时期(大爆炸后1亿年),超新星爆发产生的金属丰富环境中,可在恒星雪线内形成数个地球质量的小行星,且其水含量与现代太阳系相当。这表明液态水丰富的类地行星形成可能远早于既往认知,甚至早于第一批星系的诞生。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8c32",
+   "title": "Exploring Long-period Architectures: Four New Planet Candidates from Kepler with Periods >342 days",
+   "abstract": "Abstract The Kepler detection pipeline, as well as the transit method, have a bias towards shorter periods, leaving a dearth of detections at longer orbital periods. This relative lack of detections has left an incomplete picture of the architectures of exoplanet systems within the long-period regime. We have built a single transit detection pipeline, utilizing a classification convolutional neural network and the onboard spacecraft diagnostics of the Kepler spacecraft, to detect long-period planets. We apply our pipeline to all currently known planetary systems in the Kepler field hosting at least one planet with an orbital period longer than 6 days. We manually vet all new signals from our pipeline, and identify four new planetary candidates, all of which are in systems where the inner planets exhibit transit timing variations (TTVs). Two of these candidates, Kepler 1752.02 and Kepler 199.03, cause two transit events that are consistent with periods of 777.7 8 − 0.02 + 0.01 and 505.49 5 − 0.004 + 0.004 days, and radii of 3.5 5 − 0.15 + 0.15 and 2.7 4 − 0.05 + 0.05 R ⊕ , respectively. Our remaining two candidates, Kepler 1897.02 and Kepler 1811.02, are single transit candidates with radii 4.8 1 − 0.19 + 0.20 and 3.2 5 − 0.30 + 0.28 R ⊕ , respectively. The shortest orbital periods for these candidates, consistent with the Kepler dataset (gaps and coverage), are 342 days for Kepler 1897.02 and 544 days for Kepler 1811.02. The new planetary candidates, on their own, are incapable of reproducing the observed TTV signals in the inner system. Although difficult to schedule, follow-up observations are needed to further constrain the new candidates and potentially discover the planets causing the perturbations.",
+   "authors": [
+    "Matthew T. Hansen",
+    "Jason A. Dittmann"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8c32",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transit timing",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究针对开普勒任务在长周期行星探测中的系统偏差，开发了结合卷积神经网络分类器和航天器诊断数据的单凌日探测管道，从已知至少包含一颗轨道周期>6天行星的系统中识别出四个新行星候选体，其中两个具有明确的双凌日特征（周期分别为777.7和505.5天），另两个为单凌日候选体（最短周期≥342天）。这些候选体均出现在内层行星存在凌日时间变化（TTV）信号的系统中，但它们本身无法完全解释观测到的TTV扰动，表明系统内可能存在更多未被发现的行星。该研究有助于完善长周期行星系统构架的图景，并为后续观测提供了重要的科学目标。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1577",
+   "title": "Can the Long-Term Impact of Stellar M-Dwarf Flares Alter the Spectral Features of a Giant Gaseous Exoplanet?",
+   "abstract": "Abstract In this work, we model the long-term impact of recurrent stellar flares on the atmospheres of metal-rich gaseous exoplanets. Using synthetic flare spectra from a fiducial flare model integrated with a photochemical kinetics code, we track the changes in atmospheric composition with time. We further analyze the spectral variability by feeding these abundance profiles into a radiative transfer code at various time steps. Our simulations showed variability and persistent changes in key atmospheric species, such as CH4, CO2, and SO2, when compared to their quiescent state. Extreme flare events cause rapid depletion of molecules in the upper atmosphere and a temporary disappearance of spectral features, especially the SO2 feature at 7-8 microns, which shifted by about 75 ppm. Many species did not fully return to their quiescent state after flares, resulting in lasting changes in abundance, especially for SO2 and CO2, key species when inferring the atmospheric metallicty. We also explored the cumulative effects of recurrent flares, showing that species like H2O and CH4 followed a decreasing abundance trend, with half-lives of around 28 to 31 years. These results indicate that flare activity plays a significant role in shaping both the short- and long-term atmospheric composition and spectral features of giant gaseous exoplanets orbiting M-dwarf stars, underscoring the need to account for stellar activity when characterising such atmospheres. Our findings also highlight that the atmosphere of the modelled planet is not static, suggesting that a probabilistic approach to atmospheric abundances may be more appropriate than static retrievals, particularly for gaseous planets orbiting active stars.",
+   "authors": [
+    "Amy J Louca",
+    "Shang-Min Tsai",
+    "Yamila Miguel"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1577",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过耦合恒星耀斑合成光谱、光化学动力学模型和辐射转移计算,模拟了M矮星耀斑对金属丰富类木行星大气的长期影响。模拟结果表明,极端耀斑事件会导致上层大气分子快速耗尽和谱特征临时消失,而多次复现耀斑会引起CH₄、H₂O等关键物种丰度的持久衰减(半衰期~28-31年),其中SO₂和CO₂等金属示踪物的变化尤为显著。研究强调在表征绕活跃M矮星运行的类木行星大气时必须考虑恒星活动影响,并建议采用概率方法而非静态反演来处理其大气丰度。"
+  }
+ ],
  "2026-08-20": [
   {
    "id": "arxiv:2608.17985",
