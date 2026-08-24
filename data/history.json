@@ -1,4 +1,206 @@
 {
+ "2026-08-25": [
+  {
+   "id": "doi:10.3847/1538-4357/ae95f4",
+   "title": "Substellar Strange Quark Matter Objects: Predicting a New Class of Highly Compact Candidates",
+   "abstract": "Abstract We investigate the existence of highly compact substellar objects composed of strange quark matter (SQM), focusing on finite-size strangelets with baryon number A ≤ 100. Motivated by the emergence of mass–radius outliers in the Gaia DR3 era, we employ a Bayesian exploration of the MIT bag model parameter space, explicitly accounting for finite-size surface and curvature contributions that become relevant at low baryon number. Enforcing the bulk absolute stability requirement for SQM ( E / A < 930 MeV), we find that self-gravitating equilibrium sequences are confined to the substellar regime, with typical masses ∼10 −6 –10 −2 M ⊙ and characteristic radii of order 10 2 –∼10 3 km. We further show that rapid rotation, treated through a self-consistent framework that incorporates relativistic thermodynamics, can substantially inflate the equatorial radius and extend the accessible mass–radius domain. Although rotation does not eliminate the intrinsic high-density compactness of these configurations, it shifts the most extended models closer to the observational parameter space of massive exoplanets. A comparison with objects from the NASA Exoplanet Archive reveals a pronounced density gap separating standard atomic-matter planets and brown dwarfs from the strangelet-rich branch predicted here. We conclude that light strangelets cannot account for solar-mass white dwarfs, but they robustly predict a previously unexplored population of highly compact substellar objects, offering testable targets for future microlensing searches and high-cadence photometric surveys.",
+   "authors": [
+    "Jonathan Joás Zapata Campos",
+    "Rodrigo Negreiros"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae95f4",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过贝叶斯方法探索MIT袋模型参数空间,系统研究了由奇异夸克物质组成的亚恒星质量奇异夸克物质球(A ≤ 100)的存在条件,特别考虑了有限尺度效应。研究发现,满足绝对稳定性条件的自引力平衡序列局限于亚恒星区间(质量~10⁻⁶–10⁻²M☉,半径~10²–10³km),快速自转可显著扩展质量-半径参数空间。结论表明这类高密度紧致天体与标准行星和褐矮星存在显著的密度间隙,代表了一个可通过微引力透镜和高时间分辨率测光观测探测的新型亚恒silon星population。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae9612",
+   "title": "The Orbital Eccentricity–Radius Distribution for Warm, Single Planets in TESS",
+   "abstract": "Abstract We characterize the radius-dependent observed transiting eccentricity distribution of 219 warm ( P = 8–50 days) systems with only one transiting planetary candidate identified during Sectors 1–69 of the Transiting Exoplanet Survey Satellite (TESS) mission. Using the “photoeccentric effect” in a hierarchical Bayesian framework, we first model the population using discrete planetary size bins (sub-Neptunes, sub-Saturns, and Jovians). We then develop a continuous mixture model with weights governed by a logistic sigmoid function of radius. We find that the warm-single population is best described by two components: a dominant low-eccentricity mode (〈 e low 〉 = 0.03 9 − 0.038 + 0.018 ) and a secondary dynamically excited mode (〈 e high 〉 = 0.46 6 − 0.068 + 0.067 ). The fraction of planets belonging to this high-eccentricity component increases strongly with planet radius, characterized by a transition at a break radius of R br = 9 . 2 − 1.1 + 1.9 R ⊕ . This trend places warm sub-Saturns predominantly on the same low-eccentricity track as sub-Neptunes. In contrast, warm Jovians (8–16 R ⊕ ) are frequently eccentric, with 6 5 − 12 + 13 % of the population in the high-eccentricity mode. Under the assumption of a two-component model, we see tentative evidence for a bimodal Jovian distribution at ∼2.7 σ . Finally, we identify a nonnegligible tail of highly eccentric sub-Neptunes (1–4 R ⊕ ), which comprise 16 . 2 − 6.4 + 5.2 % of the population, consistent with excitation by nontransiting external companions.",
+   "authors": [
+    "Tyler R. Fairnington",
+    "Jiayin Dong",
+    "Chelsea X. Huang",
+    "Emma Nabbie",
+    "George Zhou",
+    "Duncan Wright",
+    "Karen A. Collins",
+    "David Ciardi",
+    "Jon M. Jenkins",
+    "David W. Latham",
+    "George Ricker",
+    "Samuel N. Quinn",
+    "Sara Seager",
+    "Avi Shporer",
+    "Roland Vanderspek",
+    "Joshua N. Winn",
+    "Khalid Barkaoui",
+    "Allyson Bieryla",
+    "Lars Buchhave",
+    "Dmitry Cheryasov",
+    "Jessie Christiansen",
+    "Courtney Dressing",
+    "Akihiko Fukui",
+    "Alexey Garmash",
+    "Steven Giacalone",
+    "Eric G. Hintz",
+    "Steve B. Howell",
+    "Keisuke Isogai",
+    "Jerome de Leon",
+    "Jorge Lillo-Box",
+    "Felipe Murgas",
+    "Norio Narita",
+    "Louise D. Nielsen",
+    "Enric Palle",
+    "Markus Rabus",
+    "Benjamin V. Rackham",
+    "Richard P. Schwarz",
+    "Gregor Srdoc",
+    "Denise C. Stephens",
+    "Gavin Wang",
+    "Noriharu Watanabe",
+    "Francis P. Wilkin",
+    "Joe Williams"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae9612",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用TESS观测的219个单行星暖木星系统，通过\"光离心效应\"在贝叶斯框架下刻画了行星半径依赖的轨道离心率分布，发现温暖行星群体由低离心率模式（e~0.039）和高离心率模式（e~0.466）两个分量组成。关键发现是高离心率分量的比例随行星半径显著增加，在R_br=9.2地球半径处出现转折，表明温暖木星（尤其是大质量行星）经常具有较高离心率，而次海王星则主要居住在低离心率轨道上，这一趋势为行星形成和动力学演化机制提供了重要约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae947a",
+   "title": "JWST Edge-on Disk Ice (JEDIce): Vibrationally Hot, Rotationally Cold H 2 in the Outer Disk of Oph 163131 Nonthermally Excited by Ultraviolet and Cosmic Rays",
+   "abstract": "Abstract Constraining ionization and excitation processes in protoplanetary disks is essential for understanding the chemical structure and evolution of disk material, shaping planet formation pathways. We present JWST/NIRSpec integral-field-unit observations of the edge-on disk Oph 163131, which reveal an unusual rovibrational H 2 spectrum dominated by the 1–0 O(2) line (2.627 μ m), with suppressed higher- J emission despite excitation to v = 2 and 3. This vibrationally hot, rotationally cold H 2 emission is spatially extended, broadly following the molecular disk traced by CO( J = 2–1), with emission increasing above and below a thin midplane dark lane and extending radially beyond ∼200 au, where near-IR scattered-light emission is no longer dominant. We interpret the observed H 2 emission as arising from nonthermal excitation in cold, dense outer-disk gas, where collisions depopulate higher- J rotational levels within each vibrational manifold prior to emission, producing the characteristic “ v -hot, J -cold” spectrum. We consider both ultraviolet irradiation and cosmic-ray excitation as contributors to the H 2 emission and find that their combined action, together with collisional deexcitation of high- J level populations, broadly reproduces the observed line ratios and morphology. Within this framework, we infer a rather high effective cosmic-ray ionization rate of ∼(1–10) × 10 −15 s −1 in the presence of a moderate UV field ( χ UV = 100−1000, in Draine units). These results for disks, together with the recent findings by Bialy et al. for the lower-density starless core B68, highlight the potential of ro-vibrational H 2 emission as a novel probe of cosmic-ray ionization.",
+   "authors": [
+    "Korash Assani",
+    "Zhi-Yun Li",
+    "Jennifer B. Bergner",
+    "David A. Neufeld",
+    "Daniel Harsono",
+    "Maria N. Drozdovskaya",
+    "Marco Padovani",
+    "Emmanuel Dartois",
+    "Jennifer A. Noble",
+    "Nicole Arulanantham",
+    "Alice S. Booth",
+    "Yao-Lun Yang",
+    "Mayank Narang",
+    "Will E. Thompson",
+    "Elizabeth Yunerman",
+    "Karin I. Öberg",
+    "Julia C. Santos",
+    "Charles Mentzer",
+    "Jon P. Ramsey",
+    "Lukas Welzel",
+    "Klaus M. Pontoppidan",
+    "Melissa McClure"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae947a",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究利用JWST观测边缘倾斜的原行星盘Oph 163131，发现了特异的H₂振动-转动发射光谱，表现为高振动态(v=2-3)但低转动态(J)的特征，通过光谱模型和空间形态分析，表明这种非热激发是由紫外辐射和宇宙射线共同作用在冷密集的外盘区域产生的。研究推导出盘中约(1-10)×10⁻¹⁵ s⁻¹的宇宙射线电离率，证明了H₂振动-转动发射作为探测原行星盘宇宙射线电离过程和化学结构演化的新颖诊断工具的潜力。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659903",
+   "title": "Conditions for planetesimal formation via the streaming instability persist under turbulence driven by magnetorotational instability",
+   "abstract": "Strong dust clumping by the streaming instability (SI) is the leading proposed mechanism for forming planetesimals, the building blocks of terrestrial planets and giant-planet cores. The critical dust-to-gas density ratio above which the SI leads to dust concentration strong enough to result in gravitational collapse depends on local dust properties and disk conditions. These conditions include the particle Stokes number, pressure gradient, and turbulence. The role of turbulence has recently drawn attention because simulations have shown that even modest levels of istropically forced turbulence can significantly increase the critical dust-to-gas ratio. However, we show that this does not hold for turbulence self-consistently generated by magnetorotational instability (MRI). We present the first parameter study of the SI in 3D shearing-box simulations including nonideal magnetohydrodynamics with ambipolar diffusion. Modest turbulence yields a clumping boundary as low as pure hydrodynamical cases, while stronger turbulence increases the critical dust-to-gas density ratio, though appreciably less than in the models where turbulence is isotropically forced. Particle concentration occurs inside zonal flows, large-scale structures generated by the MRI. Our results suggest that self-consistent, MRI-driven turbulence does not necessarily inhibit planetesimal formation.",
+   "authors": [
+    "Linn E. J. Eriksson",
+    "Ziyan Xu",
+    "Jeonghoon Lim",
+    "Chao-Chin Yang",
+    "Pinghui Huang",
+    "Mordecai-Mark Mac Low"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659903",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过包含非理想磁流体动力学的三维剪切盒模拟，首次系统研究了磁旋转不稳定性(MRI)驱动湍流对流动不稳定性(SI)形成行星体的影响。研究发现MRI自洽生成的湍流对SI的抑制作用远弱于各向同性强迫湍流，颗粒浓聚发生在MRI产生的大尺度环形流内部。这些结果表明自洽的MRI湍流不会显著阻碍流动不稳定性诱发的微行星引力坍缩，为行星形成提供了更有利的条件。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660390",
+   "title": "Density-driven dust growth in binary systems: Inhibition of dust settling and growth in circumbinary discs",
+   "abstract": "Stellar multiplicity alters the density structure of protoplanetary discs and thereby the initial conditions of planet formation. Yet, the interplay between companion-disc interactions and dust growth remains poorly understood. The goal of this work is to investigate to what extent the density structure of a disc undergoing tidal interactions with a companion star promotes or inhibits the growth of dust grains. We performed a set of hydrodynamical simulations of protoplanetary discs orbiting one or both stars of a binary, including dust growth and fragmentation. We explored a range of companion orbits and compared the results with a single-star reference case. We find that dust growth is mainly driven by local accumulations of dust. In circumbinary discs, the maximum grain size is up to five times smaller than in isolated discs. This result likely originates from the perturbations the inner binary, which prevent dust grains . As a consequence, the conditions required to trigger strong clumping driven by the streaming instability are difficult to achieve. In contrast, circumstellar discs in binary systems exhibit grain sizes similar to those in isolated discs, leading to comparable conditions for strong clumping by the streaming instability. of caused by to properly settle and drift from properly settling and drifting Planet formation through core accretion seems challenging in circumbinary discs harbouring binaries larger than a few astronomical units, suggesting that circumbinary planets observed near the dynamical stability limit did not form in situ. Conversely, perturbations from external companions only marginally affect density-driven dust growth compared to isolated systems.",
+   "authors": [
+    "Antoine Alaguero",
+    "Nicolás Cuello",
+    "Jean-François Gonzalez",
+    "Daniel J. Price",
+    "Maxime Lombart",
+    "Jeremy L. Smallwood",
+    "Philippe Thébault"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660390",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disc",
+    "core accretion"
+   ],
+   "summary_zh": "本研究通过流体动力学模拟结合尘埃生长模型,探究双星系统中伴星与原行星盘的潮汐相互作用如何影响尘埃颗粒的生长动力学。研究发现,环双星盘中的内二元扰动阻止了尘埃的有效沉降和漂移,导致最大颗粒尺寸比孤立盘小5倍,从而抑制了流动不稳定性驱动的团块化;而环星盘中的尘埃生长与孤立系统相当。该结果表明,在几个天文单位以上的双星系统中,通过核心吸积形成环双星行星极具挑战性,暗示观测到的环双星行星不是原位形成的。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661932",
+   "title": "HD 148797: A bright F-type star with two moderate-period low-density sub-Jovian planets. Compact multi-planet architectures are common in the Neptunian savanna",
+   "abstract": "We report the confirmation and characterisation of two moderate-period sub-Jovian planets transiting the bright F-type star HD,148797 (G=9.4 mag, ̊m eff =6441 _ K). Using photometric time series from TESS and CHEOPS, we determined orbital periods of 42.1 d for HD,148797 b and 68.2 d for HD,148797 c, putting the period ratio very close to the golden mean at 1.619 and therefore near several strong harmonics, and we measured planetary radii of 8.25 ± 0.37 and 8.37 ± 0.38 respectively. We detected significant anti-correlated transit-timing variations for both planets, which contain enough harmonic information to yield photodynamical masses of 39.3^ +13 -8.5 for HD,148797 b and 39.6 ± 9.3 for HD,148797 c. The corresponding bulk densities, 0.39 ± 0.12 and 0.377 ± 0.084 place both planets among the low-density sub-Jovians of the Neptunian savanna. The architecture of HD,148797 is not unusual within this regime: we find that detected multi-system fractions in the savanna remain at sim70--90%, and that most savanna multi-planet systems contain at least one adjacent planet pair with P_ ̊m out /P_ ̊m in <3. This pattern suggests that savanna sub-Jovians are commonly found in dynamically cold systems, consistent with smoother migration pathways such as disk-driven migration rather than disruptive high-eccentricity tidal migration. As a bright, co-evolved system hosting two warm savanna sub-Jovians with similar radii and masses, HD,148797 is also a promising target for comparative atmospheric characterisation.",
+   "authors": [
+    "J.M. Almenara",
+    "A. Castro-González",
+    "R. Mardling",
+    "T. Guillot",
+    "X. Bonfils",
+    "L. Thomas",
+    "L. Gauvrit",
+    "L. Abe",
+    "A. Agabi",
+    "J. Aubert",
+    "F. Bouchy",
+    "C. Cadieux",
+    "D.R. Ciardi",
+    "A. Deline",
+    "S. Deveny",
+    "R.F. Díaz",
+    "D. Ehrenreich",
+    "T. Forveille",
+    "A. Heitzmann",
+    "P. Hirling",
+    "R.M. Hoogenboom",
+    "S.B. Howell",
+    "A. Leleu",
+    "M. Lendl",
+    "C. Littlefield",
+    "D. Mékarnia",
+    "S. Pelletier",
+    "A. Psaridi",
+    "E. Rea",
+    "X. Song",
+    "O. Suárez",
+    "A.H.M.J. Triaud",
+    "S. Udry"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661932",
+   "source": "Astronomy & Astrophysics",
+   "category": "散射与动力学演化",
+   "matched": [
+    "tidal migration"
+   ],
+   "summary_zh": "本研究通过TESS和CHEOPS的光测时间序列数据，确认并表征了绕亮F型星HD 148797的两颗中周期亚木星行星，测得它们的轨道周期比接近黄金比例（1.619），并利用显著的反相关过境时间变化测定了两颗行星的光动力学质量和低密度特征。研究发现Neptunian savanna区域的多行星系统普遍存在相邻行星对周期比小于3的紧密构型，这表明该区域的亚木星行星主要形成于动力学冷系统，更可能经历类似盘驱动迁移而非高偏心率潮汐迁移的平滑迁移过程。"
+  }
+ ],
  "2026-08-24": [],
  "2026-08-23": [],
  "2026-08-22": [
