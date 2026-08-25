@@ -1,4 +1,217 @@
 {
+ "2026-08-26": [
+  {
+   "id": "arxiv:2608.23548",
+   "title": "Preparing for the Early eVolution Explorer: The Impact of Flare Temperature on Ozone Column Depth in Earth-Like Atmospheres",
+   "abstract": "Atmospheric photochemical models incorporating the impacts of stellar flares often assume a $\\sim$9,000 K spectrum at ultraviolet-optical wavelengths. Recent multiwavelength observations, however, reveal a more complex picture with temperature measurements spanning 4,000-40,000 K, although the occurrence rates for flares with different temperatures remain unknown. Here, we model the evolution of a Proterozoic Earth-like world with 0.01 bar of O$_2$ under repeated flaring to identify the impact of flare effective temperatures. We explore four scenarios - two host star types (K2V and M2.5V) and two flare temperatures (9,000 K and 19,000 K) - selected to bound the potential parameter space. The hotter flares have a larger impact on O$_3$ photochemistry for both stellar types. M-star planetary atmospheres are more volatile and exhibit rapid changes in their O$_3$ production and destruction rates. Meanwhile, K-star planetary atmospheres are more stable and are only impacted by the hottest flares, proving advantageous for biosignature searches. We simulate 0.2-1.0 $μ$m reflected light spectra for all four scenarios, and find that 19,000 K flares can result in either production or destruction of O$_3$ depending on the host star spectral type increasing the 0.2 $μ$m feature by $\\sim$2$\\times$ for the K2V star but decreasing it by 50% for the M2.5V star. Future missions such as the EVE SMEX mission concept will provide robust flare temperature constraints for young FGKM stars, which will serve as inputs to improve photochemical models to inform future HWO observations.",
+   "authors": [
+    "Jaime S. Crouse",
+    "Nicholas F. Wogan",
+    "Ward S. Howard",
+    "Meredith A. MacGregor",
+    "Guadalupe Tovar Mendoza",
+    "Jacob Lustig-Yaeger",
+    "Evgenya L. Shkolnik"
+   ],
+   "link": "https://arxiv.org/abs/2608.23548v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过大气光化学模型模拟了不同耀斑温度（9,000 K和19,000 K）对类地行星臭氧柱深度的影响，分别考虑了K2V和M2.5V型主星。研究发现，较热的耀斑对两类恒星的臭氧光化学过程影响更大，M型星行星大气对耀斑更敏感而K型星大气更稳定，两者在反射光谱特征上的响应相反。这些结果对未来系外行星宜居性评估和生物特征搜索具有重要意义，为即将到来的EVE SMEX和HWO任务提供了关键的大气光化学约束。"
+  },
+  {
+   "id": "arxiv:2608.23277",
+   "title": "Intra-system Uniformity through Planetary Embryo Accumulation",
+   "abstract": "Intra-system uniformity is a key trend in observed exoplanet systems. Understanding the physical mechanisms which sculpt planetary systems into uniform or non-uniform configurations will help constrain theories of planet formation. Motivated by previous work showing that intra-system uniformity is a natural consequence of proto-planetary systems dissipating energy and settling into lower energy configurations, this paper explores the energy minimization hypothesis using $N$-body simulations. We find that the accumulation of planetary embryos through inelastic mergers generally dissipates a substantial fraction of the system energy, but the systems do not always reach the global energy minimum. Analytic predictions indicate that planetary pairs have nearly equal masses in their lowest energy state when the total mass falls below a mass threshold. With larger total mass, one member of the pair tends to accrete most of the mass. Our numerical simulations show that pairs with masses above the threshold tend towards non-uniformity, but that the full realization of the effect occurs at a larger mass scale, a factor of $\\sim4$ above the threshold. In any case, however, the low-mass planet pairs are generally more uniform than pairs with high mass, in agreement with previous work. Finally, we compare our results to the observed sample of exoplanets and find overall agreement.",
+   "authors": [
+    "Donald Liveoak",
+    "Fred C. Adams"
+   ],
+   "link": "https://arxiv.org/abs/2608.23277v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过N体数值模拟探索能量最小化假说对行星系统均匀性的影响,发现行星胚胎通过非弹性碰撞累积会耗散大量系统能量,但不一定达到全局最小能量态。理论预测和模拟结果表明,当系统总质量低于阈值时,行星对趋向于质量均等,超过阈值时则趋向非均匀性,且这一效应在约4倍阈值质量处才能充分实现。研究结果与已知系外行星样本观测特征相符,支持了低质量行星对更均匀的结论。"
+  },
+  {
+   "id": "arxiv:2608.23208",
+   "title": "Potential sublimating exocomets around the young star PDS 70",
+   "abstract": "Recent observations by the James Webb Space Telescope (JWST) have indicated the presence of water in the inner regions of the disc around the young protostar PDS 70, but the origin of this water remains unclear. Here we report the discovery of variable absorption lines of neutral sodium in archival High Accuracy Radial velocity Planet Searcher (HARPS) spectra of PDS 70. These lines vary strongly and stochastically on a daily basis, in amplitude, number, and radial velocity. Our measurements indicate that this gas tends to be optically thick, and partially cover the stellar disc, meaning this fast-moving gas is often spatially confined. We explore several hypotheses for the origin of these lines, and conclude that a likely source of the observed sodium is sublimation of planetesimals that transit the star on highly elliptical orbits, reminiscent of the exocomet phenomenon seen in other seen in other extrasolar systems. These sublimating exocomets could play a role in sourcing the previously observed water in the inner, terrestrial-planet forming region of the PDS 70 system.",
+   "authors": [
+    "Aline Novais",
+    "H. Jens Hoeijmakers",
+    "Alexandra Stockwell Murphy",
+    "Bibiana Prinoth",
+    "Anders Johansen",
+    "Klaudia Jaworska",
+    "Luan Ghezzi"
+   ],
+   "link": "https://arxiv.org/abs/2608.23208v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过分析PDS 70的HARPS光谱档案数据,发现了变化性的中性钠吸收线,其在振幅、数量和径向速度上表现出强烈的随机日变特征,表明该气体光学厚度高且部分遮挡恒星盘面。通过排除其他假设,作者推断这些钠线源于在高椭圆轨道上过境恒星的行星体升华,即系外彗星现象。该发现表明升华的系外彗星可能是该系统内部陆地行星形成区域中先前观测到的水的重要来源。"
+  },
+  {
+   "id": "arxiv:2608.22781",
+   "title": "Thermochemical constraints on a primordial-origin of gas-rich debris disks",
+   "abstract": "Recent observations have revealed gas-rich debris disks around intermediate-mass stars at ages of tens of Myr. The origin of this gas remains unclear: it may be primordial, retained from the protoplanetary phase, or secondary, released from volatile-rich solids. Secondary-origin models reproduce CO emission but often overpredict neutral carbon. Recent observations and disk-evolution models suggest that primordial gas may survive longer than previously assumed, motivating thermochemical tests of the primordial-remnant scenario. We test the previously unexplored possibility that primordial-origin disks satisfy the observational constraints on gas-rich debris disks. Specifically, we determine under what conditions a disk around a $2\\,M_{\\odot}$ star reproduces substantial CO, low CI/CO ratios, and weak HCO+ emission consistent with current non-detections. We post-processed 20-40 Myr structures from 1D disk-evolution models with Cloudy, varying irradiation geometry, dust-to-gas mass ratio (DTG), and cosmic-ray ionisation rate. In the dust-poor models (DTG $=10^{-4}$), CO remains optically thick around $R\\sim100$~au. The models yield low disk-integrated CI/CO mass ratios. Our model produces CO radial intensities of the observed order of magnitude, but its CI-emitting region is more extended than observed. The standard CR model overproduces HCO+, whereas the weak CR model brings its predicted luminosity within current observational limits. These results demonstrate that a primordial origin remains chemically viable for CO-rich debris disks. The main remaining tension is the excessive radial extent of the CI emission, although it may reflect our simplified modelling. Further testing of the primordial-origin scenario will require multidimensional, self-consistent modelling, spatially resolved CI observations, and deeper searches for HCO+.",
+   "authors": [
+    "H. Mitani",
+    "W. Ooyama",
+    "R. Nakatani",
+    "R. Kuiper",
+    "T. Hosokawa"
+   ],
+   "link": "https://arxiv.org/abs/2608.22781v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过热化学模型检验了原始气体起源假说是否能解释观测到的富气碎片盘现象，采用后处理Cloudy程序对1D盘演化模型（覆盖2 M☉恒星周围20-40 Myr的结构）进行了参数扫描，改变辐照几何、尘气比和宇宙射线电离率。结果表明在低尘埃模型下，原始气体残存可在观测约束条件内再现CO富集、低CI/CO比和弱HCO+发射，但CI发射区域的径向延展过度是主要存在的问题，后续需多维自洽模型、空间分辨CI观测和更深的HCO+搜索来进一步验证。"
+  },
+  {
+   "id": "arxiv:2608.22680",
+   "title": "On the formation of retrograde S-type planets in binaries with a polar circumbinary disk",
+   "abstract": "Retrograde S-type planets have been observed in several binary systems, yet their formation pathway remains poorly understood. With high-resolution hydrodynamic simulations, we demonstrate that a polar circumbinary disk around an eccentric, unequal-mass binary can form and sustain a retrograde mini disk around the primary star. This provides a direct in-situ formation channel for retrograde S-type planets. The mini disk forms via a sub-Keplerian accretion stream that is slightly misaligned from the polar disk. The mini disk initially undergoes von Zeipel-Kozai-Lidov (ZKL) oscillations, driving coupled eccentricity and inclination evolution. Rather than oscillating indefinitely, the inner mini disk evolves past the critical ZKL inclination, decouples from the outer disk, and settles into a stable retrograde orbit. This evolution is sensitive to numerical resolution: the retrograde configuration is absent in previous lower-resolution simulations, where the mini disk accretion timescale is too short to sustain ZKL-driven evolution. For a higher disk viscosity, the mini disk remains near-polar due to a shorter accretion timescale. Since protoplanetary disks typically have low viscosity, our results suggest that retrograde S-type planets can form in-situ from retrograde mini disks around polar circumbinary disks, and their occurrence rate may be higher than currently estimated.",
+   "authors": [
+    "Cheng Chen",
+    "Philip J. Armitage",
+    "C. J. Nixon",
+    "Stephen H. Lubow",
+    "Rebecca G. Martin"
+   ],
+   "link": "https://arxiv.org/abs/2608.22680v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "Kozai"
+   ],
+   "summary_zh": "本研究通过高分辨率流体动力学模拟揭示了双星系统中逆行S型行星的形成机制：极向环双星盘可在离心的不等质量双星周围形成，并通过次开普勒速度的吸积流在主星周围产生逆行迷你盘。迷你盘初期经历von Zeipel-Kozai-Lidov振荡，最终越过临界倾角并稳定在逆行轨道上，这一演化过程对数值分辨率敏感，低粘度的原行星盘条件下逆行S型行星的形成效率可能被低估。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8f49",
+   "title": "Hunting for “Oddballs” with Machine Learning: Detecting Anomalous Exoplanets Using a Deep-learned Low-dimensional Representation of Transit Spectra with Autoencoders",
+   "abstract": "Abstract This study explores the application of autoencoder-based machine learning techniques for anomaly detection to identify exoplanet atmospheres with unconventional chemical signatures using a low-dimensional data representation. We use the Atmospheric Big Challenge database, a publicly available dataset with over 100,000 simulated exoplanet spectra, to construct an anomaly detection scenario by defining CO 2 -rich atmospheres as anomalies and CO 2 -poor atmospheres as the normal class. We benchmarked four different anomaly detection strategies: autoencoder reconstruction loss, one-class support vector machine, K -means clustering, and local outlier factor. Each method was evaluated in both the original spectral space and the autoencoder’s latent space using receiver operating characteristic curves and area-under-the-curve metrics. To test the performance of the different methods under realistic conditions, we introduced Gaussian noise levels ranging from 10 to 50 ppm. Our results indicate that anomaly detection is consistently more effective when performed within the latent space across all noise levels. Specifically, K -means clustering in the latent space emerged as a stable and high-performing method, being robust to noise levels up to 30 ppm and remaining viable even at 50 ppm. On the other hand, the performance of the anomaly detection methods applied directly in the raw spectral space degrades significantly with increasing level of noise. We also considered dimensionality reduction via principal component analysis and showed that its performance is inferior relative to the deep-learned latent representation. This suggests that autoencoder-driven dimensionality reduction offers a robust methodology for flagging chemically anomalous targets in large-scale surveys.",
+   "authors": [
+    "Alexander Roman",
+    "Emilie Panek",
+    "Roy T. Forestano",
+    "Eyup B. Unlu",
+    "Katia Matcheva",
+    "Konstantin T. Matchev"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8f49",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用自编码器构建低维潜在空间表示,应用四种异常检测方法(自编码器重构损失、单类支持向量机、K-均值聚类和局部异常因子)来识别具有异常化学特征的系外行星大气。通过在包含超过100,000个模拟光谱的大气数据库中定义CO₂富集大气为异常样本,并在0-50 ppm噪声水平下进行评估。研究表明在自编码器潜在空间中进行异常检测的性能显著优于原始光谱空间,其中K-均值聚类表现最稳健,在30 ppm噪声以下保持高性能,这为大规模系外行星巡天中的异常目标识别提供了鲁棒的深度学习方法。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae9743",
+   "title": "An Evolving Cosmic Shoreline and Sandbar Bounding the Rocky Airless Valley",
+   "abstract": "Abstract Recent JWST observations challenge the traditional “cosmic shoreline” from both sides, revealing thick volatile atmospheres on the hottest close-in “lava worlds,” where irradiation should drive the most extreme escape, and bare rocky surfaces on cooler terrestrial planets around M dwarfs, where atmospheres would be expected to survive. Using a coupled atmosphere-interior evolution model, we show that atmosphere retention is governed not by a single escape boundary but by two: a hot, outgassing-regulated “cosmic sandbar” and a cooler, escape-regulated “cosmic shoreline,” separated by an “airless valley” that may mark a graveyard of stripped sub-Neptune cores. The sandbar arises because long-lived magma oceans, sustained further by tidal heating from secular eccentricity excitation in multi-planet systems, keep most volatiles dissolved and expose only a small atmospheric reservoir to escape, whereas cooler planets solidify, sequestering volatiles in the deep solid mantle while overexposing the rest to loss. This two-regime structure recasts the single cosmic shoreline as two boundaries set by distinct physics: outgassing and escape. We provide time-evolving fits for both boundaries across G, K, and M stellar types as a function of volatile inventory, planetary mass, age, and tidal heating. Lava worlds with thick atmospheres are unlikely around stars cooler than K-type unless sustained by extreme tidal and/or other interior heating. This framework links atmosphere survival from ultra-short-period planet lava worlds to habitable zone planets, informing target selection and interpretation for TRAPPIST-1 and JWST Director’s Discretionary Time characterization.",
+   "authors": [
+    "Barron K. Nguyen",
+    "Laura K. Schaefer",
+    "Xuan 璇 Ji 纪",
+    "Christopher A. Theissen",
+    "Fei 飞 Dai 戴",
+    "Bo 博 Peng 彭",
+    "Yao 尧 Tang 唐",
+    "Andrea Zorzi",
+    "Michelle Hill",
+    "Megan Weiner Mansfield"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae9743",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过耦合大气-内部演化模型，挑战了传统的\"宇宙海岸线\"概念，发现大气保留由两个独立边界控制：高温的\"宇宙沙洲\"（由岩浆海洋出气调控）和较冷的\"宇宙海岸线\"（由大气逃逸调控），两者间存在\"无大气谷\"可能是剥离的亚海王星核心的坟场。该框架考虑了潮汐加热对长期岩浆海洋维持和挥发物释放的影响，为不同恒星类型（G、K、M）的大气保留提供了时间演化的定量预测，可用于指导类似TRAPPIST-1系统的行星大气特征观测。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9089",
+   "title": "JWST/MIRI Reveals the Evolution from Molecular to Atomic Disk Winds",
+   "abstract": "Abstract The evolution and dispersal of protoplanetary disks—governed by accretion, magnetically launched jets and winds, and photoevaporative winds—fundamentally shape planetary systems. Determining how these mass-loss processes coevolve is crucial for constraining planet formation pathways. We analyze archival James Webb Space Telescope (JWST) Mid-Infrared Instrument (MIRI) integral field unit data of 72 inclined ( i > 40°), mostly Class II disks to identify and characterize spatially resolved jets and winds, focusing on [Ne II ] and H 2 lines. Extended emission in H 2 S(1), S(3), S(5), S(7), and/or [Ne II ] is detected toward 66 disks, revealing diverse morphologies. We develop a framework to identify conical H 2 winds and high-velocity [Ne II ] jets perpendicular to the disk, detecting them toward 46 and 40 disks, respectively. All sources with [Ne II ] jets exhibit a corresponding wind traced in either H 2 (85%) or [O I ], establishing a connection between jets and winds. The detection fractions of [Ne II ] jets and H 2 winds correlate positively with mass accretion rate, with no dependence on disk inclination or stellar mass. Conversely, marginally resolved low-velocity [Ne II ] winds are found preferentially toward lower accretors. Among sources with H 2 winds, detection of hotter winds traced by S(7) and S(5) declines more rapidly with decreasing accretion rate than that of the colder S(1) component. Comparison with high-resolution [O I ] 6300Å spectroscopy reveals [O I ] low-velocity components and extended H 2 wind detections preferentially toward moderate-to-high accretors ( ≳ 1 0 − 8.5 M ̇ ⊙ yr − 1 ), whereas lower accretors exhibit only [O I ] and [Ne II ] winds. Together, these results indicate that atomic jets and atomic+molecular winds, consistent with an MHD disk-wind origin, dominate during early, actively accreting disk phases, while at lower accretion rates, jets weaken and winds become predominantly atomic.",
+   "authors": [
+    "Naman S. Bajaj",
+    "Ilaria Pascucci",
+    "Sylvie Cabrit",
+    "Suzan Edwards",
+    "Gabriele Cugno",
+    "Andrew D. Sellek",
+    "Joan R. Najita",
+    "Ke Zhang",
+    "Richard Alexander",
+    "Gregory J. Herczeg",
+    "Uma Gorti",
+    "Sophie C. Clark",
+    "Tracy L. Beck"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9089",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI对72个倾斜原行星盘进行了积分视场分光观测,通过[Ne II]和H₂发射线识别并表征了空间分辨的喷流和风,揭示了不同吸积率下喷流和风的演化规律。研究发现高吸积率阶段以磁流体动力学(MHD)驱动的原子喷流和原子+分子风为主,而随着吸积率降低,喷流逐渐减弱,风演化为主要由原子成分组成,这表明质量损失机制与吸积过程紧密耦合,对行星形成途径有重要制约。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659633",
+   "title": "X-ray activity of the RS CVn-type star σ Gem from the first-year observations of the Einstein Probe",
+   "abstract": "Stellar flares are energetic events driven by the sudden release of magnetic energy in the stellar atmosphere. Compared to the Sun, the diversity of stellar types and environments leads to a richer variety of flaring phenomena. Studying these flares is crucial for understanding their impact on exoplanets, the circumstellar environment, and stellar evolution itself. The launch of the Einstein Probe ( offers a unique opportunity to systematically detect such events. We present a systematic analysis of the flaring activity of the active RS CVn-type binary σ Gem, utilizing the first-year monitoring data from the Wide-field X-ray Telescope (WXT) aboard Our goals are to demonstrate the unique capability of in monitoring stellar X-ray activity and detecting flares by identifying and characterizing extreme X-ray flares on σ Gem and estimating their occurrence rate. We developed a data‑processing pipeline to select and extract observations, producing a background-subtracted, vignetting-corrected light curve. We employed the Bayesian blocks method to detect significant flares in the long-term X-ray light curve. The key detection parameter was optimized through extensive simulations. For each identified flare, we performed light curve and spectral fitting to derive its duration, peak luminosity, total energy, and plasma properties (e.g., temperature and emission measure). Between October 2024 and April 2025, WXT detected six distinct flares from σ Gem. These lasted from 21 hours to 3 days, with peak X-ray luminosities (0.5--4 keV) of 3.7 to 7.0 $ and total energies of 1.1 erg s -1 to $4.4 erg, placing them among the “superflare” class. 37 Using σ Gem as a case study, we demonstrate an analysis process for flare detection and analysis with data, which has rapidly expanded the catalog of known X-ray flares for this star and provides new statistical constraints on its flaring behavior. Applying this methodology to the growing stellar archive promises to yield a vast sample of X-ray flares, which will significantly advance our understanding of stellar magnetic activity.",
+   "authors": [
+    "X. Mao",
+    "G. Micela",
+    "F. Favata",
+    "W. Yuan",
+    "H. Liu",
+    "H. Cheng"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659633",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究利用爱因斯坦探针卫星的广视场X射线望远镜对活跃RS CVn型双星σ Gem进行了为期半年的监测，采用贝叶斯分块法检测长期X射线光变曲线中的耀斑事件，并通过光变和谱拟合获取耀斑的持续时间、峰值光度、总能量和等离子体性质。研究在6个月内探测到6次显著耀斑事件，其X射线能量达到1.1×10³³–4.4×10³⁷ erg范围，属于\"超级耀斑\"类别，为理解恒星磁活动对系外行星环境的影响提供了重要的统计约束。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1526",
+   "title": "Pyrat Bay 2.0: an Upgraded Framework for Exoplanet Atmosphere Modeling in the JWST Era",
+   "abstract": "Abstract This article presents a major update to the open-source Pyrat Bay modeling framework (version 2.0), tailored for the characterization of exoplanet atmospheres with the observational capabilities of current facilities, such as the James Webb Space Telescope (JWST), and future missions. The upgraded framework introduces a standalone chemistry package, chemcat, enabling the modeling of exoplanet atmospheres via thermochemical-equilibrium calculations with custom compositions, self-consistent radiative-equilibrium thermal profiles, and equilibrium-chemistry retrievals. Other key implementations include nested sampling via MultiNest, isotopic-ratio fitting, transit light source modeling, and free-chemistry parameterization allowing vertical variations in volume mixing ratios. We validated the thermochemical- and radiative-equilibrium modules via comparisons with the GGchem, FastChem, and helios codes. We present an application of the new modeling framework by conducting an atmospheric characterization study using simulated transmission spectra of high signal-to-noise observations for a gas-giant exoplanet. We found that vertical abundance variations in planetary atmospheres can be accurately recovered using data of JWST quality. In such cases, retrievals that neglect these variations may result in biased abundance constraints, e.g., when employing the commonly used free-chemistry approach assuming constant abundance profiles. The results highlight the potential of JWST to study the multi-dimensional nature of exoplanetary atmospheres and their underlying physical processes.",
+   "authors": [
+    "Patricio E Cubillos",
+    "Jasmina Blecic",
+    "Denis Shulyak",
+    "Luca Fossati"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1526",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "Pyrat Bay 2.0框架通过整合热化学平衡计算、自洽辐射平衡热结构以及允许丰度垂直变化的自由化学参数化，为JWST时代的系外行星大气建模提供了升级工具。研究采用多重嵌套采样和模拟JWST质量的凌日光谱数据对气态巨行星进行大气表征，验证了该框架相对于其他国际代码的精准性。研究表明JWST观测数据能够精确恢复行星大气的垂直丰度变化，而忽视这些变化的传统检索方法可能导致元素丰度约束产生偏差。"
+  }
+ ],
  "2026-08-25": [
   {
    "id": "doi:10.3847/1538-4357/ae95f4",
