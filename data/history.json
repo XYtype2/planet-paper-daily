@@ -1,4 +1,356 @@
 {
+ "2026-08-27": [
+  {
+   "id": "arxiv:2608.26097",
+   "title": "The Isotopic and Elemental Abundances of Planet-Host Star TRAPPIST-1",
+   "abstract": "Elemental and isotopic abundances are key tracers of planet formation, stellar evolution, and Galactic chemical evolution. Very low-mass stars are particularly interesting in this regard, because unlike more massive or evolved stars their photospheric abundances retain the star's natal composition. Cool dwarf spectra have historically been challenging to use for measurements of chemical abundances because of the blending of molecular and atomic features. However, recent advances in molecular line lists, atmospheric models, fitting techniques and IR spectrographs have enabled the successful measurement of elemental and isotopic ratios in a few dozen very low-mass stars. Here, we present near-infrared high-resolution spectroscopy of TRAPPIST-1 covering the fundamental and overtone bands of carbon monoxide and its prominent isotopologues. From the joint analysis of the $K$-band (CFHT/SPIRou) and $M$-band (Keck/NIRSPEC) spectra, we derive the first stellar C/O ratio and the first carbon and oxygen isotope ratios for this star. We obtain a metallicity of $[\\mathrm{M/H}] = 0.00 \\pm 0.06$, a C/O ratio of $0.60 \\pm 0.02$, $^{12}\\mathrm{C}/^{13}\\mathrm{C} = 154{}^{+17}_{-16}$, and $^{16}\\mathrm{O}/^{18}\\mathrm{O} = 490{}^{+78}_{-64}$. TRAPPIST-1 has generally solar-like elemental abundances, with a $^{12}\\mathrm{C}/^{13}\\mathrm{C}$ ratio that is higher than the solar value and may be modestly elevated relative to some nearby cool dwarfs at similar metallicity. While C/O is most tightly constrained by the $K$-band, the isotopic detections are driven by the $M$-band data.",
+   "authors": [
+    "Darío González Picos",
+    "Ian J. M. Crossfield",
+    "David Coria",
+    "Joshua Lothringer",
+    "Eric Gaidos",
+    "Elisabeth A. C. Mills",
+    "Sam de Regt",
+    "Donatella Romano",
+    "Ignas Snellen"
+   ],
+   "link": "https://arxiv.org/abs/2608.26097v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究利用近红外高分辨率光谱法（CFHT/SPIRou和Keck/NIRSPEC）对行星宿主星TRAPPIST-1进行元素和同位素丰度分析，通过联合分析K波段和M波段的一氧化碳及其同位素特征，首次获得了该星的碳氧比和碳、氧同位素比。研究发现TRAPPIST-1具有太阳相似的元素丰度([M/H]=0.00±0.06)和C/O比(0.60±0.02)，但其12C/13C比值(154+17-16)高于太阳值，这些结果为理解该系统行星形成环境和宿主星化学演化提供了关键约束。"
+  },
+  {
+   "id": "arxiv:2608.25993",
+   "title": "JWST color sequence of transiting exoplanets and directly imaged substellar objects",
+   "abstract": "Color-magnitude diagrams (CMDs) have been foundational across astrophysics, from galaxies and stars to brown dwarfs, and JWST now extends them to transiting exoplanets and self-luminous substellar objects at overlapping temperatures. We compile JWST dayside emission spectra for 13 transiting giant planets, 57 self-luminous objects, and the irradiated brown dwarf ZTF J0038+2030 B, spanning ~350-2600 K and log g = 2.5-5.5, plus ~2150 SPHEREx ultracool dwarfs, converted to synthetic photometry in 2MASS J/Ks and five NIRCam medium bands isolating H2O, CH4, CO2, and CO. Low gravity and inflated radii make transiting planets resemble young substellar objects, with shallower features and redder colors from high-altitude clouds that raise the photosphere. Transiting planets follow the L-dwarf sequence on the J versus J-K CMD, with WASP-80 b (T_eq~800 K) showing no T-dwarf-like blueward turn, suggesting a delayed or suppressed L/T transition in irradiated, low-gravity atmospheres. Methane onset is delayed from substellar to transiting-planet atmospheres, and cloudy radiative-convective models indicate that lower gravity and cloud back-warming shift atmospheres toward CO-dominated chemistry, suppressing photospheric CH4. The irradiated but old, high-gravity brown dwarf ZTF J0038+2030 B (T_day = 1049 K, log g = 5.4) shows a deep, field-T-dwarf-like dayside methane band, implicating gravity rather than irradiation as the dominant control. CO2-to-CO diagnostics place transiting and directly imaged planetary-mass companions at stronger relative CO2 absorption than field brown dwarfs, consistent with metallicity enhancement from planetesimal accretion. These CMD sequences provide a unified, model-testable map for self-luminous and irradiated atmospheres.",
+   "authors": [
+    "Guangwei Fu",
+    "Joshua D. Lothringer",
+    "Sagnick Mukherjee",
+    "David K. Sing",
+    "Elena Manjavacas",
+    "Kevin B. Stevenson",
+    "William Balmer"
+   ],
+   "link": "https://arxiv.org/abs/2608.25993v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究编译了JWST的凌日巨行星、自发光亚恒星天体和辐照褐矮星的测光数据，构建了颜色-星等图，跨越温度范围350-2600 K和重力加速度log g=2.5-5.5。研究发现低重力和充满云层的凌日行星大气导致其沿L型矮星序列分布，甲烷起始延迟，且重力而非辐照是控制大气化学的主要因素，CO2/CO诊断指示行星质量伴星具有更强的相对CO2吸收特征。这些颜色序列为自发光和辐照大气提供了统一的、可验证模型的地图。"
+  },
+  {
+   "id": "arxiv:2608.25795",
+   "title": "STXM-XANES and TEM analysis of UltraCarbonaceous Antarctic MicroMeteorites (UCAMMs)",
+   "abstract": "The Concordia micrometeorite collection contains UltraCarbonaceous Antarctic MicroMeteorites (UCAMMs) of probable cometary origin. Eight FIB sections of UCAMMs were studied by Scanning Transmission X-ray Microscopy - X-ray Absorption Near Edge Structure and (Scanning)Transmission Electronic Microscopy. Three different phases of organic matter (OM) exist in UCAMMs and small mineral aggregates are distributed in the OM. Two OMs share spectral features with those of insoluble organic matter (IOM) of carbonaceous chondrites and of cometary grains returned by the Stardust mission. The third OM is N-rich (N/C at. ratios up to 0.22) and has only a few equivalents in extraterrestrial OM analyzed so far, such as in cometary particles collected during the Stardust mission, Interplanetary Dust Particles (IDPs) and UCAMMs collected near the Dome Fuji Station. This N-rich OM could have formed by irradiation of N-rich ices in the outer regions of the protoplanetary disk. UCAMMs contain variable amounts of minerals, consisting of crystalline Mg-rich silicates, Fe(Ni) sulfides and Fe oxides, which can be cemented in a Si-rich groundmass. Hypocrystalline mineral assemblages are also observed. Glassy phases showing morphological resemblance to GEMS are also found in some UCAMMs. This mineralogy is mainly consistent with that of previous UCAMM analyses, and is close to what is observed in Chondritic Porous IDPs, which are also considered as cometary dust particles. A mineral exhibiting a phyllosilicate texture has been observed in this work, and raises the question of the possibility of aqueous alteration on comets. Overall, UCAMMs' mineralogical and organic characterization implies a complex formation history of UCAMMs, and the presence of large-scale radial mixing in the early solar system, to transport their mineral components to the outer parts of the protoplanetary disk.",
+   "authors": [
+    "B. Guérin",
+    "C. Engrand",
+    "C. Le Guillou",
+    "H. Leroux",
+    "E. Dartois",
+    "J. Duprat",
+    "S. Bernard",
+    "K. Benzerara",
+    "L. Delauche",
+    "D. Troadec"
+   ],
+   "link": "https://arxiv.org/abs/2608.25795v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过扫描透射X射线显微镜和透射电镜分析了南极超碳质微陨石的有机物和矿物组成,发现其含有三种不同有机相(包括一种富氮有机物)和多种矿物组合,与彗星尘埃特征相符。这些微陨石的复杂矿物学和有机学特征表明早期太阳系中存在大规模的径向物质混合,将外部形成的物质运输到原行星盘外层。"
+  },
+  {
+   "id": "arxiv:2608.25451",
+   "title": "Assessing the Climate and Habitability of Tidally Locked Rocky Exoplanets",
+   "abstract": "Tidally locked exoplanets orbiting M dwarf stars are prime targets in the search for habitable worlds, yet their complex climate dynamics challenge conventional models of habitability. We homogeneously estimated the liquid-water habitability of exoplanets with the highest up-to-date Earth-similarity index. We modified the climate model PLASIM to apply it to tidally locked exoplanets across a range of parameters. We systematically classified and compared potentially habitable exoplanets and selected among the ones featuring the highest Earth-similarity index in the conservative sample of the Habitable Wolds Catalog, both relative to each other and as a function of atmospheric pressure. Our analysis revealed three main climate regimes: Snowball, Hot, and Eyeball planets-the latter having a warm and habitable substellar region with T > 273 K and a localized hydrological cycle. Although surface temperature generally increases with pressure, Eyeball planet climates remain stable in a wide pressure range. Complex atmospheric dynamics govern the behavior of the climate, highlighting the need for detailed climate simulations to guide future observations.",
+   "authors": [
+    "Erica Bisesi",
+    "Giuseppe Murante",
+    "Jost von Hardenberg",
+    "José A. Caballero",
+    "Michele Maris",
+    "Daniela Billi",
+    "Nicoletta La Rocca",
+    "Laura Silva"
+   ],
+   "link": "https://arxiv.org/abs/2608.25451v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用改进的气候模型PLASIM系统评估了潮汐锁定类地系外行星的宜居性,通过地球相似度指数对比分析了M矮星周围可能宜居的系外行星。研究识别出三种主要气候体制(雪球态、炽热态和眼球态),其中眼球态行星在恒星对面保持温暖宜居区域,且气候在较宽的大气压力范围内保持稳定。结果表明复杂的大气动力学过程对潮汐锁定行星的气候特征起决定性作用,强调了详细气候模拟对未来系外行星观测的重要指导意义。"
+  },
+  {
+   "id": "arxiv:2608.25296",
+   "title": "Centimeter-wave OH observations of comets 12P/Pons-Brooks and C/2023 A3 (Tsuchinshan-ATLAS) with FAST",
+   "abstract": "We present centimeter-wave spectroscopic observations of the OH 18-cm lines in two bright comets, 12P/Pons-Brooks and C/2023 A3 (Tsuchinshan-ATLAS), conducted with the Five-hundred-meter Aperture Spherical radio Telescope (FAST) during their 2024 apparitions. For the Halley-type comet 12P/Pons-Brooks, five epochs of OH observations were obtained. The main OH lines at 1665 and 1667 MHz were robustly detected in absorption during one pre-perihelion epoch, while upper limits were derived for two post-perihelion epochs. For the dynamically new Oort Cloud comet C/2023 A3 (Tsuchinshan-ATLAS), six epochs of OH observations were obtained. The 1665 and 1667 MHz lines were robustly detected in absorption during two epochs immediately following the comet's closest approach to Earth. We also reported a tentative detection of the 1721 MHz satellite line in one of these two epochs. The low OH detection rates for these two bright comets are primarily attributable to their unfavorable heliocentric radial velocity during the observations, which resulted in the anti-maser negative inversion mode of the OH excitation. We calculated the OH production rates for both comets and found that, after considering the small beam size of FAST and the collisional quenching effect, production rates are consistent with the data from literature. Specifically, this matches the power-law fit of the OH production rates for comet 12P/Pons-Brooks, as well as the production rates at comparable heliocentric distances among comet C/2023 A3 (Tsuchinshan-ATLAS) and four other dynamically new Oort Cloud comets.",
+   "authors": [
+    "Long-Fei Chen",
+    "Juncen Li",
+    "Zhen Wang",
+    "Jian-Yang Li",
+    "Wing-Huen Ip",
+    "Zhong-Yi Lin",
+    "Bin Yang",
+    "Chao-Wei Tsai"
+   ],
+   "link": "https://arxiv.org/abs/2608.25296v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究利用FAST望远镜对2024年近日点附近的两颗亮彗星(12P/Pons-Brooks和C/2023 A3)进行了羟基(OH)厘米波谱线观测,通过吸收线检测和上限值约束来获取彗星的OH生产率。研究发现,这两颗彗星的OH检测率较低主要归因于观测期间不利的日心径向速度导致了反激射负反演模式,但经过考虑FAST的小波束和碰撞淬灭效应后,计算得到的OH生产率与已有文献数据相符。该结果为理解彗星挥发性物质释放规律和彗星动力学演化提供了观测约束。"
+  },
+  {
+   "id": "arxiv:2608.25208",
+   "title": "Discovery and Characterization of the TOI-4468 Planetary System: A Transiting Hot Jupiter With a Lone Nearby Outer Companion",
+   "abstract": "We report the discovery of two planets, a hot Jupiter and a nearby outer sub-Neptune, orbiting the star TOI-4468. This system is unique among the current exoplanet census in that it features a close outer companion to a hot Jupiter without an accompanying inner companion. By jointly fitting radial velocity measurements taken with the NEID spectrograph and transit photometry from TESS and several ground-based observatories, we constrain the orbital periods, masses, and radii of these two planets. We confirm the planetary nature of the hot Jupiter TOI-4468 b ($R = 1.01 R_J$, $m = 0.54 M_J$, $P = 2.77$ days). We also validate the outer planet TOI-4468 c ($R = 0.28 R_J$, $P = 7.01$ days) statistically, incorporating constraints from ground-based observations. We also identify, but cannot confirm, an additional radial velocity signal which may be due to an outer giant in this system with an orbital period of 624 days. From the observed geometry of this system, we argue that it must never have encountered an early secular resonance that is thought to excite the mutual inclination of other hot Jupiter/outer companion systems. We discuss the possibility of an undetected inner companion, as well as potential implications for hot Jupiter formation.",
+   "authors": [
+    "Joseph R. Livesey",
+    "Benjamin J. Hord",
+    "Juliette Becker",
+    "Andrew Vanderburg",
+    "Joseph E. Rodriguez",
+    "Elise Koo",
+    "Chelsea X. Huang",
+    "Gudmundur Stefánsson",
+    "Karen A. Collins",
+    "Ivan A. Strakhov",
+    "Zijun He",
+    "Maxwell A. Kroft",
+    "Robert Aloisi",
+    "Khalid Barkaoui",
+    "Fabian Rodriguez Frustaglia",
+    "Alyssa Jankowski",
+    "Kinga Kasprzyk",
+    "Judith Korth",
+    "Coleman Nelson",
+    "Hannu Parviainen",
+    "Adam Popowicz",
+    "Manfred Raetz",
+    "Richard P. Schwarz",
+    "Eva Stafne",
+    "Keivan G. Stassun",
+    "Thomas G. Beatty",
+    "Paul Foster",
+    "Thomas MacLean",
+    "Devansh Mathur",
+    "Lizhou Sha",
+    "Melinda Soares-Furtado"
+   ],
+   "link": "https://arxiv.org/abs/2608.25208v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究报告了TOI-4468系统中两颗行星的发现：一颗热木星和一颗邻近的外部亚海王星，通过NEID径向速度测量与TESS及地面观测的联合拟合，确定了两颗行星的轨道周期、质量和半径。该系统独特之处在于热木星外侧伴星的存在而缺乏内侧伴星，这与典型的热木星-外伴星系统不同，表明该系统未经历早期世俗共振事件而保持低相互倾角。研究讨论了未被探测内伴星的可能性及其对热木星形成机制的启示。"
+  },
+  {
+   "id": "arxiv:2608.25035",
+   "title": "Kepler-50: Two Planets in Close Resonance Perturbed by a Non-transiting Planet",
+   "abstract": "Kepler-50 has two transiting planets close to the 6:5 commensurability. We analyze transit times measured from Kepler data with dynamical fits. We attribute the residual signal to a near-resonance non-transiting third planet in the system. The parameters of the third planet are degenerate. We identified 55 (15) regions of interest for an exterior (interior) perturber, and characterize system parameters in each region of interest with posterior sampling. We find that removing samples that are not long-term stable provides few additional constraints on posteriors, and that the transit times do not confirm the likely 2-body resonant state of the transiting planets as $\\approx$ 68\\% of posterior samples that are likely stable are also likely in libration. We identify a small fraction of samples that are in 3-body libration. Despite the degeneracies, we recover robust, tightly constrained masses for Kepler-50 b and c ($2.35^{+0.48}_{-0.43}$ $M_{\\oplus}$ and $4.43^{+0.45}_{-0.49}$ $M_{\\oplus}$, respectively) and strongly detected non-zero relative eccentricity for Kepler-50 b and c with ($e_c\\cos\\varpi_c$ - $e_b\\cos\\varpi_b$) = -0.045 $\\pm 0.003$, and ($e_c\\sin\\varpi_c$ - $e_b\\sin\\varpi_b$) = -0.030 $\\pm 0.004$. These close neighbors are in the radius valley and sub-Neptune by size, respectively ($1.750 \\pm 0.038$ $R_{\\oplus}$ and $2.079 \\pm 0.060$ $R_{\\oplus}$). With one of the closest planet pairs known and one of the closest to first-order commensurability, the Kepler-50 system is an especially valuable benchmark for planet formation theory.",
+   "authors": [
+    "Daniel Jontof-Hutter",
+    "Jason F. Rowe",
+    "Jack J. Lissauer",
+    "Daniel C. Fabrycky"
+   ],
+   "link": "https://arxiv.org/abs/2608.25035v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过开普勒凌日时间数据进行动力学拟合,分析了Kepler-50系统中接近6:5共振的两颗凌日行星,并将残差信号归因于一颗近共振的非凌日第三行星。研究识别了55个(15个)外(内)扰动子的关键区域,通过后验采样表征了每个区域的系统参数,发现长期稳定性约束对后验分布影响有限,且约68%稳定样本处于共振库仑状态。尽管参数存在简并性,研究稳健地确定了Kepler-50 b和c的质量(分别为$2.35^{+0.48}_{-0.43}$和$4.43^{+0.45}_{-0.49}$地球质量)和相对偏心率,揭示了这对距离最近、最接近一阶共振的行星之一,为行星形成理论提供了重要基准。"
+  },
+  {
+   "id": "arxiv:2608.24874",
+   "title": "Flyby-induced high-eccentricity migration and the prevalence of hot Jupiters in M67",
+   "abstract": "Few planetary systems form in isolation. Rather, interactions in their birth environments may sculpt their architectures or drive them into unstable configurations. Here we study the role of environmental perturbations in triggering dynamical instabilities leading to hot Jupiter formation in dense clusters, focusing on whether the elevated occurrence rate of hot Jupiters in the open cluster M67 can be explained through flyby-induced high-eccentricity migration. We develop a hybrid method for modelling the secular and tidal evolution of planetary systems under external perturbations by passing stars using a combination of analytic and numerical approaches. We evolve 10,000 realizations each of systems with either a single planet, two planets, or a planet and a stellar companion for $\\sim$4 Gyr in an M67-like cluster, comparing outcome statistics against a control sample without flybys. In single- and two-planet systems, the rate of flyby-induced hot Jupiter formation is negligible. However, in systems with an initially isotropically oriented stellar companion, the cluster environment boosts hot Jupiter formation by a factor of $\\sim$2, accompanied by a factor of $\\sim$3 increase in the rate of planets undergoing tidal disruption. Based on observationally motivated estimates of primordial populations, our hot Jupiter yields are consistent with both field and M67 occurrence rates, provided the primordial wide binary fraction among solar-type stars is close to $\\sim$50 per cent, binary-driven high-eccentricity migration is the dominant formation pathway, and a substantial fraction of tidally disrupted systems survive as hot Jupiters through partial mass loss.",
+   "authors": [
+    "Mika V. Kontiainen",
+    "Cathie J. Clarke",
+    "Andrew J. Winter"
+   ],
+   "link": "https://arxiv.org/abs/2608.24874v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration"
+   ],
+   "summary_zh": "本研究通过混合解析-数值方法模拟稠密星团中的飞掠扰动对行星系统的长期影响，考察飞掠诱发高离心率迁移是否能解释M67星团中热木星丰度异常的现象。对包含单行星、双行星或行星-伴星系统的10000组配置进行~4 Gyr演化，结果表明在具有各向同性伴星的系统中，星团环境将热木星形成率提升约2倍，同时行星潮汐摧毁率增加3倍。基于观测约束的原始种群估计，该模型产生的热木silon丰度与M67和主序星场的观测一致，前提是原始宽双星比例约50%且双星驱动的高离心率迁移为主导形成途径。"
+  },
+  {
+   "id": "arxiv:2608.24803",
+   "title": "Atmospheric Retrieval of Combined JWST, HST, and Ground-Based Observations Reveals a Featureless Transmission Spectrum for GJ 1132 b",
+   "abstract": "We present a panchromatic transmission spectrum of GJ1132b spanning $0.71$--$5.16~μ$m, combining published transit observations from Magellan/LDSS3C, HST/WFC3 G141, and JWST/NIRSpec (G395H and G395M). Using petitRADTRANS and PyMultiNest, we perform Bayesian atmospheric retrievals, comparing a flat-line, Gaussian-feature models, and clear and cloudy atmospheric scenarios, including tests with and without the first JWST visit flagged as a potential outlier in a previous study. The inclusion of shorter-wavelength spectra shifts the marginal molecular preference from H$_2$O (JWST-only) to NH$_3$ (panchromatic). Of the seven molecules tested (NH$_3$, CO$_2$, CO, CH$_4$, H$_2$O, HCN, and N$_2$O), only NH$_3$ shows a marginal preference, which is weakened when the JWST first visit is excluded. Cloudy atmospheres yield higher Bayesian evidence than high-mean-molecular-weight clear models, but none provides compelling evidence over the flat-line scenario. A thin ($P_{\\rm ref} \\sim 10^{-3}$~bar), N$_2$-dominated atmosphere ($μ\\sim 16$~amu) with traces of NH$_3$, H$_2$O, and CH$_4$, combined with a grey, optically thin power-law cloud (opacity at 350~nm $\\le 10^{-3}~{\\rm cm^2\\,g^{-1}}$), remains indistinguishable from the flat-line model when the first JWST visit is included and is further disfavoured when it is excluded, strengthening a bare-rock interpretation. We conclude that current spectra show no evidence for an atmosphere on GJ1132b. The observations are best explained by a bare rocky planet with $R_{\\rm p} = 1.129 \\pm 0.002\\,R_\\oplus$, though a tenuous, obscured atmosphere cannot be excluded when the JWST first visit is included.",
+   "authors": [
+    "Mohammad Senobar",
+    "Sareh Ataiee"
+   ],
+   "link": "https://arxiv.org/abs/2608.24803v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究结合JWST、HST和地基观测数据,对系外行星GJ 1132b进行了0.71-5.16 μm的全波段透射光谱大气检索分析。通过贝叶斯反演方法,比较了平坦谱线、高斯特征和晴朗/多云大气模型,结果表明该行星的观测光谱与无大气的裸岩行星模型无法区分,不支持存在可探测大气的结论。研究强烈暗示GJ 1132b可能是一颗大气极其稀薄或完全缺失大气的岩石行星,其半径约为1.129 R⊕。"
+  },
+  {
+   "id": "arxiv:2608.24407",
+   "title": "Volatile depletion in rocky planets as a chemical fingerprint of hybrid accretion",
+   "abstract": "Volatile depletion in rocky planets relative to their host stars is commonplace in both the Solar System and exoplanetary systems, yet the connections between planet formation and composition remain elusive. Here we model devolatilization during pebble accretion in combination with collisional growth from volatile-depleted planetesimals to explore the formation pathways of Earth and Mars. Using Bayesian inference, we find that bulk silicate Earth is best reproduced by ${\\gtrsim}$75% contribution from two protoplanets formed via pebble accretion, supplemented by up to $\\sim$25% material from planetesimals that are compositionally akin to the asteroid Vesta. Using instead a planetesimal volatile-depletion curve that is not observed among known meteorite parent bodies would allow the planetesimal contribution to reach 40$^{+15}_{-14}$%. In comparison, bulk silicate Mars reflects 27$\\pm$5% pebble-accreted material and 73${\\pm}$5% Vesta-like planetesimals. We identify volatile depletion as a chemical fingerprint of hybrid accretion, in which both pebble accretion and collisional assembly contribute to terrestrial planet growth. By quantitatively linking formation pathways to volatile budgets, our findings demonstrate how planetary accretion histories can be inferred from elemental signatures, with broad implications for interpreting the chemical diversity of rocky exoplanets.",
+   "authors": [
+    "Haiyang S. Wang",
+    "Anders Johansen",
+    "Ziyan Xu",
+    "Marie-Luise Steinmeyer",
+    "Michiel Lambrechts",
+    "Elishevah van Kooten",
+    "Chao-Chin Yang",
+    "Zhaohuan Zhu",
+    "Dante S. Lauretta",
+    "Martin Bizzarro"
+   ],
+   "link": "https://arxiv.org/abs/2608.24407v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "pebble accretion",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过建模小行星吸积过程中的挥发分损耗，结合贝叶斯推断方法，量化了行星形成过程中挥发分耗损与物质来源的关联。研究发现地球主要由两个通过砾石吸积形成的原行星（≳75%）和类似灶神星的小行星体（~25%）组成，而火星则主要由小行星体贡献（73±5%），表明挥发分耗损特征反映了砾石吸积和碰撞集合的混合模式。这项工作通过elemental signatures反演行星吸积历史，为解释类地系外行星的化学多样性提供了新的框架。"
+  },
+  {
+   "id": "arxiv:2608.24311",
+   "title": "The Hot Neptune Initiative (HONEI) III. An ultra-hot super Neptune orbiting the metal-rich subgiant star TOI-5646: the largest host for a desert dweller",
+   "abstract": "We report the confirmation of the TESS transiting-planet candidate orbiting the metal-rich F8\\,IV-V subgiant star TOI-5646 (V=11.38 mag; T=6136 K). The planetary nature of TOI-5646b was confirmed by means of HARPS-N follow-up radial velocity measurements. We determined that the planet has an orbital period of 2.4277 days and an orbital eccentricity compatible with zero. With a mass of 45.9 Earth masses, a radius of 6.6 Earth radii, and an equilibrium temperature of 1935 K, it is one of the hottest super-Neptune exoplanets ever discovered in the Neptune desert. Its density, 0.87 g cm^-3, is lower than that of most other desert dwellers, but still appears to follow the trend that the desert is populated by dense planets than those in the ridge and savanna. The metallicity of the parent star ([Fe/H]=0.32) follows the trend whereby the host stars of Neptune-sized exoplanets in the desert and the ridge are generally richer in metal than those in the savanna. The log{g} of the parent star (4.09) suggests that the host is an evolved star, making this a peculiar system: TOI-5646 is the largest star (1.8 Solar radii) ever discovered to host a Neptune-sized planet in the desert. Internal structure modelling revealed that TOI-5646b is highly enriched in metals, with an inferred bulk metallicity between 0.7 and 0.95. Atmospheric evolution simulations indicate that the planet has undergone significant mass loss (6-16%) through intense XUV irradiation from its host star. These results indicate a peculiar formation history (potentially involving early protoplanetary disk dispersal), a planetary collision, or a late tidal destruction event, to explain its current state as a low-density survivor in the Neptune desert.",
+   "authors": [
+    "L. Mancini",
+    "F. Manni",
+    "D. Kubyshkina",
+    "E. A. van Dijk",
+    "L. Naponiello",
+    "M. Damasso",
+    "V. D'Orazi",
+    "K. Biazzo",
+    "A. V. Bonomo",
+    "L. Fossati",
+    "Y. Miguel",
+    "J. de Leon",
+    "M. E. Everett",
+    "W. Fong",
+    "A. Fukui",
+    "D. Gandolfi",
+    "S. B. Howell",
+    "D. W. Latham",
+    "M. Lopez-Morales",
+    "P. MacQueen",
+    "F. Murgas",
+    "N. Narita",
+    "E. Palle",
+    "M. Pinamonti",
+    "T. Pugh",
+    "A. Sozzetti",
+    "S. Vissapragada",
+    "S. W. Yee"
+   ],
+   "link": "https://arxiv.org/abs/2608.24311v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究通过TESS凌星观测和HARPS-N径向速度测量确认了围绕富金属亚巨星TOI-5646运行的超海王星系外行星TOI-5646b，该行星轨道周期2.4277天、质量45.9地球质量、半径6.6地球半径、平衡温度1935K，是海王星沙漠中最炽热的超海王星之一。通过内部结构模型和大气演化模拟表明，TOI-5646b具有高金属丰度（0.7-0.95），经历了显著的质量丧失（6-16%），这表明其可能经历了早期原行星盘快速耗散、行星碰撞或晚期潮汐破坏等特殊形成历史。该研究首次发现已知最大的主星（1.8太阳半径）托管海王星沙漠中的行星系统，为理解超海王星的演化机制提供了新的约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8f35",
+   "title": "Ammonium Salt Formation and Abundance in Protoplanetary Disks",
+   "abstract": "Abstract Ammonium salts may represent an important reservoir of volatile species in solar system primitive bodies, but the question of how and when these salts can form during the star formation process remains unknown. In this paper, we use thermochemical models to study the formation of ammonium salts during the protoplanetary disk stage. We show that ammonium salts form efficiently in the inner disk midplane (i.e., r ≲ 50 au), inside the comet-forming region. In this region, our model predicts that almost all the available nitrogen is in the form of salts (i.e., mainly in ammonium cyanate) at the surface of grains after evolving for 10 Myr. For sulfur, we show that almost all the available S is in the form of ammonium hydrosulfide in the inner disk midplane. We show that, inside r ∼ 30 au, ammonium salt formation is enhanced by a cosmic-ray-driven sink effect that progressively converts gas-phase CO and N 2 into carbon dioxide and salts, respectively, at the surface of grains on a timescale ≳1 Myr. This impacts the location of the CO and N 2 radial snowlines, both of which shift closer to the star as a function of time.",
+   "authors": [
+    "Maxime Ruaud",
+    "Jean-Christophe Loison",
+    "Uma Gorti"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8f35",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究采用热化学模型探讨了原行星盘阶段铵盐的形成机制，发现铵盐在内盘(r≲50 au)有效形成，其中宇宙射线驱动的过程在10 Myr内将几乎所有可用的氮转化为表面铵盐(主要为氰酸铵)，同时硫主要以硫化氢铵形式存在。该过程通过逐步转化气相CO和N₂为二氧化碳和盐类，使CO和N₂雪线随时间向星体靠近，可能对行星形成的初始化学环境产生重要影响。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae95fa",
+   "title": "The False Spin of an Exo-Venus",
+   "abstract": "Abstract Direct imaging of terrestrial exoplanets will enable rotational and atmospheric characterization through time-resolved photometry and high-dispersion spectroscopy. However, the velocity field inferred from reflected light does not necessarily correspond to the rotation of the solid planet, but rather to the motion of the layer from which the photons emerge. Venus provides a crucial solar system example of this ambiguity: the solid planet rotates slowly, whereas the cloud-level atmosphere exhibits superrotation with a period of only several days. Here, we investigate the observational degeneracy between rapid planetary rotation and atmospheric superrotation. We construct a disk-integrated reflected-light velocity model that includes solid-body rotation, zonal winds, and phase-dependent illumination. We show that, for a single spectral tracer probing a narrow range of pressures, a zonal wind field whose latitude dependence is similar to solid-body rotation can exactly mimic the line profile of a rapidly rotating planet. The degeneracy can be broken by measuring the apparent rotational velocity as a function of wavelength or line formation pressure. For a Venus-like wind profile, the apparent period can vary from hundreds of days in the lower atmosphere to ∼4–5 days at the cloud deck. We estimate the resolving power and signal-to-noise ratio (S/N) required to measure this vertical shear. The most robust diagnostic of atmospheric superrotation is not a single value of v sin i , but an altitude-dependent “false-spin” signature across multiple spectral tracers. These results have direct implications for interpreting rotational measurements of Venus-like worlds with the Habitable Worlds Observatory (HWO) and complementary high-dispersion facilities.",
+   "authors": [
+    "Stephen R. Kane"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae95fa",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过构建包含行星自转、纬向风和相位相关照明的圆盘积分反射光速度模型,揭示了类金星系外行星的观测退化现象:大气超级旋转的纬度风场结构可完全模拟快速自转行星的谱线轮廓。通过测量视自转速度随波长或谱线形成高度的变化,可以突破这种退化;对于类金星风剖面,视自转周期从下层大气的数百天变化到云顶的4-5天。本研究表明,诊断大气超级旋转最稳健的方法是识别多条谱线示踪剂上的高度相关\"虚假自转\"特征,而非单一的正弦纬度投影速度值,这对宜居星球天文台对类金星行星的观测解释具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9283",
+   "title": "The JWST Search for Earth–Luna Analogs: Upper Limits on Exomoons and Refined Ephemerides for TOI 700 d and e",
+   "abstract": "Abstract While no conclusive detections of exomoons have been reported to date, planet formation theories predict that Luna-analog satellites should be a common outcome of the collisional dynamics in early extrasolar systems. Such satellites have the potential to unlock new avenues to learn about exoplanet systems, speaking to topics of habitability, tidal heating, planet formation, late-stage growth, planetary compositions, and more. Here we describe the results of our JWST program to search for Luna-analog exomoons around the rocky, habitable-zone M-dwarf planets TOI 700 d and e. We refine the ephemerides of both worlds, providing an order-of-magnitude improvement in period precision and a factor of 2–3 improvement in planetary radii. We identify a strong correlated noise signal with a timescale of 16 ± 4 minutes and an amplitude of 46 ± 4 parts per million (ppm); similar signals have been observed in previous JWST analyses of other stars and have been ascribed to stellar granulation. This noise source inflates our error by a factor of 4 relative to photon-noise expectations in 10 minute bins and limits our sensitivity to moons: we determine that our observations are sensitive mainly to moons larger than Ganymede on periods longer than 2 days (i.e., moons larger than our solar system’s natural satellites). If this noise could be corrected, we would be sensitive to Luna-analog moons. Future work to address this noise source will thus be critical for detecting exomoons in stellar transits, as well as for all other science cases that hope to take advantage of JWST white-light curves in the photon-noise limit.",
+   "authors": [
+    "Emily K. Pass",
+    "David Charbonneau",
+    "Andrew Vanderburg",
+    "Jacob L. Bean"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9283",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究使用JWST对类地行星TOI 700 d和e进行了月球类似卫星的搜寻，通过凌星光度学精化了两颗行星的星历表（周期精度提高一个数量级，半径精度提高2-3倍），但发现了16±4分钟的相关噪声信号（振幅46±4 ppm），该噪声源可能来自恒星对流，限制了对月球级卫星的探测灵敏度。研究表明当前观测仅能探测木卫四级别以上、周期超过2天的大卫星，若该噪声能被校正，未来有望检测到类月卫星，这对凌星法探测系外卫星和JWST白光曲线科学应用至关重要。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660890",
+   "title": "Competing effects of hydrogen, carbon, and sulfur degassing onthe redox evolution of rising melts on terrestrial (exo)planets",
+   "abstract": "Volcanic degassing is a key process controlling the formation and chemical evolution of secondary atmospheres on terrestrial planets. The redox state of ascending magma, commonly expressed as oxygen fugacity (f_ O _2 ), strongly influences the composition of degassed volatiles and the resulting atmospheric chemistry. However, most geodynamical models assume a constant oxygen fugacity for the mantle and do not account for redox changes induced by volatile degassing. We investigate how degassing of volatiles in the H–C–O–S system influences the oxygen fugacity of ascending magma and how this feedback affects the composition of the released gases. We developed a numerical model that simulates open- and closed-system degassing of ascending magma while explicitly tracking redox evolution through oxygen exchange between volatile species and iron-bearing melt components (Fe, FeO, and ). A series of simulations was performed for different initial oxygen fugacities, iron contents, and volatile abundances in order to quantify the redox effects of hydrogen, carbon, and sulfur degassing. Fe2O3 Our results show that volatile degassing can significantly modify the redox state of ascending melts. Hydrogen degassing oxidizes reduced melts through the release of . Carbon degassing also produces oxidation, although its effect is limited in reduced systems due to the strong redox dependence of carbon speciation in silicate melts. Sulfur exhibits both oxidizing and reducing behavior depending on its dominant valence state in the melt ( or ). The magnitude of these effects depends on volatile abundance, melt iron content, and degassing pressure. Under extremely low iron contents combined with high sulfur concentrations, our simulations further indicate the possibility of minor degassing. H2 S^ 2- S^ 6+ O2",
+   "authors": [
+    "C. Brachmann",
+    "L. Noack",
+    "F. Gaillard"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660890",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过数值模型模拟上升岩浆中H-C-O-S体系挥发分的开放和闭合系统脱气过程,追踪铁质组分与挥发体的氧交换,定量评估氢、碳、硫脱气对岩浆氧逸度(fO₂)演化的影响。研究发现挥发分脱气可显著改变上升岩浆的氧化还原状态:氢脱气通过H₂释放产生氧化作用,碳脱气亦产生氧化效应但在还原体系中受限,而硫则因其赋存价态不同(S²⁻或S⁶⁺)表现出氧化与还原的双重行为。这些脱气反馈效应的强度依赖于挥发分丰度、岩浆铁含量和脱气压力,在极低铁含量和高硫浓度条件下甚至可能引发O₂脱气现象。研究结果表明需在地球行星次生大气演化的地球动力学模型中考虑脱气诱导的氧逸度变化,以更准确地预测火山释气组分与大气化学特征。"
+  }
+ ],
  "2026-08-26": [
   {
    "id": "arxiv:2608.23548",
