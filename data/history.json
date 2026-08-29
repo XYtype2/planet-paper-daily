@@ -1,4 +1,23 @@
 {
+ "2026-08-29": [
+  {
+   "id": "doi:10.1051/0004-6361/202661190",
+   "title": "Self-induced edge rings in protoplanetary disks",
+   "abstract": "Observations with a high angular resolution by ALMA have revealed that substructures are ubiquitous in protoplanetary disks. Axisymmetric dust rings are the most common morphology. The profiles of some observed disks, including young disks, are smooth overall, with a localized dip or bump near the outer edge of the continuum disk that manifests as an edge ring. While embedded planets might contribute to these structures, their physical origin remains unclear. We investigated the possibility that these edge rings arise purely from radiative transfer effects at the outer edge of a protoplanetary disk. A steep surface density dust gradient at the outer edge of the disk allows stellar irradiation to penetrate more efficiently beyond the disk edge, producing a non-monotonic temperature profile characterized by a dip that is followed by a bump. We tested whether this non-monotonic temperature structure can generate and maintain a localized continuum enhancement. We coupled radiative transfer and dust evolution by iterating between the Monte Carlo radiative transfer code RADMC-3D and the dust evolution code DustPy. This framework self-consistently follows the coupled evolution of temperature, grain growth, and dust dynamics. Thermodynamic feedback at the disk edge can naturally generate and maintain localized dust enhancements resembling the edge rings that are observed in some extremely young disks. Without invoking planets or additional dynamical perturbations, this mechanism offers a plausible explanation for the first-generation ring formation. Our results highlight the importance of coupling thermodynamics and dust evolution when modeling protoplanetary disks, suggesting that thermodynamic feedback probably plays a role in shaping disk substructures.",
+   "authors": [
+    "Massimiliano Bolchini",
+    "Haochang Jiang",
+    "Jiaqing Bi"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661190",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过耦合辐射转移和尘埃演化模型,探讨了原行星盘外边缘的非单调温度结构是否能自发产生观测到的边缘环结构。研究发现,盘外边缘陡峭的表面密度梯度导致恒星辐射在盘边产生温度凹陷后突起的特征,这种热力学反馈机制能够自洽地生成并维持局部尘埃增强结构,为年轻盘中的边缘环提供了不依赖行星扰动的新解释。该结果强调了热力学与尘埃演化耦合对原行星盘亚结构形成的重要性。"
+  }
+ ],
  "2026-08-28": [
   {
    "id": "arxiv:2608.27437",
