@@ -1,4 +1,30 @@
 {
+ "2026-08-31": [
+  {
+   "id": "doi:10.1051/0004-6361/202660777",
+   "title": "A semi-analytical surrogate model for giant planet evolution. Bypassing ordinary differential equation solvers with localised thermodynamics, softplus asymptotes, and B-spline photometry",
+   "abstract": "Evolutionary models translate the observable luminosity, temperature, and colours of giant planets and brown dwarfs into mass and age. Generating their cooling tracks normally requires integrating the internal energy over time with an ordinary differential equation (ODE) solver coupled to pre-computed atmospheric grids, which becomes numerically stiff at sharp transitions such as cloud condensation and the onset of electron degeneracy, and is fragile inside Bayesian retrievals. We aim to generate continuous cooling tracks and photometric light curves directly from discrete atmospheric grids, without an ODE solver. We mapped the grids into a logarithmic thermodynamic space and extracted localised surrogate models with Gaussian-weighted regressions at fixed planetary parameters. We fitted the entropy and cooling rate against the internal temperature using bounded piecewise softplus functions to capture structural and cooling-rate transitions; the radius was fitted on the same temperature axis; and band photometry was represented with fixed-knot cubic B-splines. The age followed from numerical integration of these analytic functions, and uncertainties were propagated from the residual scatter of each fit. The surrogate, , reproduces the transition into electron degeneracy and the L-to-T spectral-type transition in the colour--magnitude diagram, converges on Solar System benchmarks, and evaluates a full evolutionary track in milliseconds on a standard desktop CPU. CoolTrack By removing the forward-modelling bottleneck, is suitable for direct use in Bayesian retrieval pipelines, where the age, mass, and formation entropy of a planet can be inferred jointly with its atmospheric properties. CoolTrack",
+   "authors": [
+    "C. Wilkinson",
+    "J. Wehrung-Montpezat",
+    "B. Charnay",
+    "M. Mâlin",
+    "L. Delaye",
+    "A.-M. Lagrange",
+    "V. Squicciarini",
+    "J. Mazoyer",
+    "S. Mazevet",
+    "B. Perrier"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660777",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究开发了一个半解析代理模型CoolTrack，用局部热力学、softplus渐近函数和B样条光度法直接从大气网格生成巨行星冷却轨迹和测光曲线，绕过了传统ODE求解器在云凝聚和简并态等陡峭转变处的数值刚性问题。该模型通过Gaussian加权回归在对数热力学空间中构建局部代理，能在毫秒量级计算完整演化轨迹，准确再现电子简并和L-T谱型转变。CoolTrack移除了前向建模瓶颈，特别适用于贝叶斯反演管道，可同时推断行星的年龄、质量、形成熵和大气性质。"
+  }
+ ],
  "2026-08-30": [],
  "2026-08-29": [
   {
