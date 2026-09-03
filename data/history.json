@@ -1,4 +1,26 @@
 {
+ "2026-09-03": [
+  {
+   "id": "doi:10.3847/1538-4357/ae969c",
+   "title": "Characterizing the Bolometric-photoevaporative Transition in Young Sub-Neptunes with Radiation-hydrodynamic Simulations",
+   "abstract": "Abstract Hydrodynamic atmospheric escape plays a central role in shaping the demographics of small, close-in exoplanets. Two mechanisms have been proposed to drive mass loss: photoevaporation, powered by UV irradiation, and core-powered mass loss, in which a bolometrically heated wind is sustained by cooling from the planetary interior. Although each mechanism can independently reproduce observed exoplanet demographics, both likely operate simultaneously. To quantify their combined impact, we use AIOLOS, a hydrodynamic radiative transfer code, coupled to a planetary evolution model to self-consistently compute atmospheric escape and planetary evolution. We find that as a typical sub-Neptune contracts, it evolves through distinct escape regimes. The youngest, most inflated planets drive a core-powered, bolometrically heated wind because UV radiation cannot reach the bolometric sonic point. This is followed by a transitional regime shaped by both bolometric and UV heating. As radii decrease further, escape rates approach the purely photoevaporative energy limit. We derive analytic scalings for the transition between these regimes, showing that it occurs at smaller radii for lower-mass and more highly irradiated planets, where core-powered escape dominates. Coupling both processes enhances escape even in more massive, cooler sub-Neptunes. We present the first combined mass-loss rates for a range of planet masses and XUV luminosities and show that the thermal structure below the UV absorption radius—set by atmospheric composition—also affects escape rates. These results integrate core-powered and photoevaporative escape into a unified framework, demonstrating that a self-consistent treatment of atmospheric composition, escape, and evolution is essential for understanding small exoplanets.",
+   "authors": [
+    "William Misener",
+    "Matthäus Schulik",
+    "Hilke E. Schlichting",
+    "James E. Owen"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae969c",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape",
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究利用辐射流体动力学模拟程序AIOLOS,耦合行星演化模型,自洽计算亚海王星大气逃逸过程,揭示了行星冷却过程中从核心动力驱动风向紫外光蒸发的过渡机制。研究发现,低质量和高辐照行星的过渡发生在更小半径处,核心动力逃逸占主导,两种机制的耦合作用可增强整体质量损失率。该工作首次建立了核心动力和光蒸发逃逸的统一框架,强调了大气成分和热结构对亚海王星演化的重要性,对理解小行星人口统计至关重要。"
+  }
+ ],
  "2026-09-02": [
   {
    "id": "arxiv:2609.00428",
