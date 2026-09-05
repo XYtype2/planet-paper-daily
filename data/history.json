@@ -1,4 +1,189 @@
 {
+ "2026-09-05": [
+  {
+   "id": "arxiv:2609.03975",
+   "title": "Detection of hydrocarbons in Titan using high-resolution cross-correlation spectroscopy",
+   "abstract": "High-resolution cross-correlation spectroscopy (HRCCS) is a powerful technique for detecting molecules whose individual spectral lines are too weak to be identified directly, but its sensitivity is limited by the availability and quality of high-resolution opacity data. Many molecules of atmospheric and astrobiological interest lack complete line lists, restricting traditional template-based searches. In this work, we use Titan as a controlled testbed to develop and validate a new cross-section-based methodology for HRCCS template construction. We analyse K-band CRIRES+ observations of Titan (1.99 - 2.48 μm), and compute cross-correlation functions using both line-by-line and cross-section-based templates. Our analysis recovers known hydrocarbons such as methane (CH4) and acetylene (C2H2), and yields the first HRCCS detection of ethane (C2H6) with a significance of SNRpeak = 5.17 {\\pm} 0.07. The ethane detection was made possible exclusively through cross-section-based templates, as no high-resolution line list currently exists for this molecule. These results demonstrate that cross-section-based template construction is a practical and powerful strategy for extending HRCCS to molecules that currently lack reliable line lists, and establish Titan as a benchmark for calibrating molecular detection techniques that can be applied to both solar system and exoplanet atmospheres. Future applications of this approach to other ground-based high-resolution spectrographs, as well as to JWST's highest-resolution modes and next-generation facilities such as the ELT, could significantly expand the inventory of molecules detectable in planetary atmospheres.",
+   "authors": [
+    "Maria Coelho",
+    "Rafael Rianço-Silva",
+    "Diogo Gonçalves",
+    "Pedro Machado",
+    "Zita Martins"
+   ],
+   "link": "https://arxiv.org/abs/2609.03975v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究针对高分辨率交叉相关光谱法(HRCCS)在缺乏完整谱线数据的分子检测中的局限性,采用基于吸收截面的模板构建方法,以泰坦大气为测试平台进行验证。通过分析CRIRES+观测数据(1.99-2.48 μm),成功检测到已知的烃类分子(甲烷、乙炔)并首次以SNRpeak=5.17±0.07的显著性检测到乙烷,其中乙烷检测仅通过截面模板实现。该研究证明截面模板法是扩展HRCCS应用范围的有效策略,为太阳系行星和系外行星大气分子探测提供了可靠方法论。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae939e",
+   "title": "Observation of Spontaneous N-bearing PAH Formation Using an Ion Trap: A New Formation Pathway in the Interstellar Medium",
+   "abstract": "Abstract Nitrogen-bearing polycyclic aromatic hydrocarbons (N-PAHs) are key precursors to complex organic molecules in both the interstellar medium and the nitrogen-rich planetary atmospheres. Despite the recent detections of nitrogen-functionalized astromolecules, their formation pathways remain an open question. The discrepancies between their predicted and observed abundances point to unknown mechanisms such as ion-molecule reactions that govern their evolution in the astrophysical environments. Employing an ion trap technique in conjunction with electronic structure calculations, we unravel multiple barrier-less reactions between gas-phase pyrimidine cations (C 4 H 4 N 2 + ) and acetylene (C 2 H 2 ) which form a hitherto unreported endocyclic- N-PAH (C 8 H 7 N 2 + ) at room temperature. The present measurements on reactions involving a double-nitrogen substituted aromatic heterocycle have implications on the astrochemistry of both Titan’s atmosphere and the interstellar medium.",
+   "authors": [
+    "Siddhartha S. Payra",
+    "Pratikkumar Thakkar",
+    "Shiv Gupta",
+    "Ruth Ann Mathews",
+    "Yash Lenka",
+    "Saurav Dutta",
+    "Nihar Ranjan Behera",
+    "Krishna R. Nandipati",
+    "G. Aravind"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae939e",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过离子阱实验和电子结构计算,揭示了吡rimidine阳离子与乙炔之间的无势垒反应能够在室温下形成含氮PAH分子的新途径。这些发现表明离子-分子反应是控制星际介质和类木行星大气中含氮复杂有机分子演化的关键过程,有助于解释观测到的含氮有机分子丰度与预测值之间的显著偏离。该研究对理解行星大气(特别是土卫六)和星际介质中的有机化学演化具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae96aa",
+   "title": "A Physically Driven Parameterization of Multidimensional Atmospheres: Application to the JWST Phase Curve of WASP-121b",
+   "abstract": "Abstract Understanding the multidimensional structure of strongly irradiated exoplanets is essential for interpreting their atmospheric dynamics, chemistry, and energy transport, yet current analyses remain limited by the difficulty of extracting reliable phase-resolved spectra and by the lack of physically interpretable parameterizations for retrievals. We present a framework combining a data-driven eclipse-normalization method for phase-resolved emission spectra with an analytical three-dimensional temperature parameterization, derived from radiative, advective, and diffusive energy balance and controlled by a small set of characteristic timescales. Applied to JWST/NIRSpec G395H observations of WASP-121b, the method yields spectra consistent with conventional phase-curve fitting, while the parameterization reproduces the large-scale thermal structures predicted by general circulation models. The preferred retrieval reveals a pronounced day–night contrast, a dayside thermal inversion extending to both limbs, an inversion over part of the nightside, and limb temperatures differing by several hundred kelvin. Dynamical transport strengthens with pressure, and the hotspot offset increases from ∼4° to ∼9° across the pressures probed by G395H. The confined dayside hot region and the small, pressure-dependent offsets lie closer to the ∼3 G general circulation model than to its nonmagnetic counterpart, although Rayleigh drag cannot be excluded. The spectra also favour distinct dayside and nightside chemical states, with more nightside CH 4 than the lower temperatures alone can explain, pointing to disequilibrium chemistry. The retrieved thermal structure further implies an inhomogeneous cloud distribution, with condensation favoured on the nightside and the cooler morning limb. The framework provides a computationally efficient, physically interpretable path from spectroscopic phase curves to multidimensional atmospheric structure.",
+   "authors": [
+    "Yuanheng Yang",
+    "Guo Chen",
+    "Xianyu Tan",
+    "Thaddeus D. Komacek",
+    "Xi Zhang",
+    "Thomas M. Evans-Soma",
+    "Fei Yan",
+    "Chengzi Jiang",
+    "Fei Dai"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae96aa",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究结合数据驱动的日食归一化方法与基于辐射、平流和扩散能量平衡的三维解析温度参数化框架，对JWST观测到的超高温木星WASP-121b的相位曲线进行了检索分析。结果表明该行星存在显著的昼夜温度对比、日侧热逆温、压力相关的热点偏移(4°-9°)以及非平衡化学特征，这些特征与总环流模型预测更为一致。该框架为从分光相位曲线提取多维大气结构提供了计算高效且物理可解释的方法。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9a87",
+   "title": "Effects of Superrotating Jets on Phase-resolved Transmission Spectra at High Spectral Resolution",
+   "abstract": "Abstract Hot Jupiter atmospheric circulation can be shaped by a range of processes and planetary parameters, including rotation rate, irradiation gradients from tidal synchronization, magnetic effects, gravity, and clouds. Observations of exoplanetary spectral Doppler shifts as a function of phase, made possible with high-resolution spectrographs, can now probe the effects of exoplanetary winds at several points throughout transit. However, these measurements are difficult to interpret, given the variety of relevant atmospheric mechanisms. In this work, we generate high-resolution transmission spectra from two sets of circulation models: self-consistent dynamical models and idealized models that isolate circulation components. We identify how the strength of the jet—or the absence of one—alters the resultant net Doppler shifts. We find that the jet strength most prominently affects Doppler shifts during ingress and egress. During midtransit, the strength of the jet linearly influences the Doppler shifts’ slope; however, this effect is generally secondary to the overall blueshifting from planetary rotation. The slope induced by equatorial jets contrasts with the effect of pure day–night flows, which tend to add constant offsets to Doppler shifts during transit. Our modeling shows that jets also impact the cross correlation function width; faster jets increase velocity dispersion across the limbs. We complement our simulations with semianalytical arguments indicating that first-order changes of the cross correlation function centroid and width (but not amplitude) probe thermal and velocity asymmetries. This work provides recommendations for interpreting net Doppler shifts in transmission and connecting these shifts with exoplanets’ atmospheric circulation.",
+   "authors": [
+    "Hayley Beltz",
+    "Arjun B. Savel"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9a87",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "transmission spectr",
+    "atmospheric circulation"
+   ],
+   "summary_zh": "本研究通过自洽动力学模型和理想化模型生成高分辨率传输光谱,系统研究了热木星大气中超旋转急流对相位分辨多普勒偏移的影响。研究发现急流强度在凌日进出阶段对多普勒偏移影响最显著,在凌日中段则主要影响偏移的斜率,而赤道急流的效应与纯白昼-黑夜环流产生的恒定偏移形成对比;急流还通过增加边缘速度离散来影响互相关函数宽度。该工作为利用高分辨率光谱的多普勒测量解释系外行星大气循环特征提供了定量指导。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae9b0a",
+   "title": "Leveraging Impact Parameter to Mitigate the Transit Light Source Effect: Early Insights from TRAPPIST-1",
+   "abstract": "Abstract Stellar activity complicates exoplanet transmission spectra, particularly for smaller planets around M dwarfs with JWST. The transit-light-source (TLS) effect, the imprinting of spectral differences between the average stellar disk and the occulted transit chord onto the transmission spectrum, makes it challenging to directly use the out-of-transit spectrum to correct for stellar contamination. Theory and observations suggest that spots may concentrate toward higher latitudes when the Coriolis force is substantial relative to buoyancy, leaving the equatorial region relatively quiet. Here, we evaluate how the latitudinal distribution of active regions shapes the strength of the TLS effect for planets spanning a range of impact parameters ( b ), using TRAPPIST-1 as a testbed. We first construct a fiducial model to illustrate two distribution regimes. With our model, the moderate- b outer TRAPPIST-1 planets (f, g, h) occult a more typical region of the stellar disk than the inner planets and are thereby less affected by the TLS effect, though their bias may vary more from visit to visit as these active regions evolve with time. More generally, our results imply an impact parameter “sweet spot” for atmospheric characterization, independent of the sign of the active-region temperature contrast, whose location depends on the distribution of active regions. The distribution may be revealed by transit residuals as multiple planets probe different latitudes, while longitudes are sampled in time, such that the variance and frequency of the correlated scatter could constrain active-region filling factors, sizes, and separations.",
+   "authors": [
+    "Ana Glidden",
+    "Alexander I. Shapiro",
+    "Sara Seager",
+    "Nadiia Kostogryz",
+    "Valeriy Vasilyev",
+    "Roeland P. van der Marel",
+    "J. de Wit",
+    "Benjamin V. Rackham",
+    "Prajwal Niraula",
+    "Natalie H. Allen",
+    "Jingcheng Huang",
+    "Nikole K. Lewis",
+    "Zifan Lin",
+    "Jacob Lustig-Yaeger",
+    "Ryan J. MacDonald",
+    "Brett M. Morris",
+    "Elijah Mullens",
+    "Kevin B. Stevenson",
+    "Jeff A. Valenti",
+    "Daniel Valentine",
+    "Hannah R. Wakeford",
+    "C. Matt Mountain"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae9b0a",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过TRAPPIST-1系统探究了行星凌日参数(impact parameter)如何影响恒星活动区的纬度分布对凌日光源效应(TLS)的影响,利用理论模型和观测数据建立了活动区纬度分布与TLS强度的定量关系。研究发现外行星(f、g、h)由于凌日参数较大,遮挡的恒星盘区域更代表性,受TLS效应影响更小,同时揭示了存在一个与活动区分布无关的凌日参数\"最优区间\"有利于大气表征。该工作还提出可以通过多行星凌日残差来约束恒星活动区的填充因子、大小和分布特征,为系统地缓解JWST观测中的恒星污染问题提供了新的途径。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660463",
+   "title": "New substellar candidates identified through deep learning in the F150 sample of the large-scale SHINE direct imaging survey",
+   "abstract": "The SPHERE High-contrast Imaging survey for Exoplanets (SHINE) represents one of the largest and most sensitive direct imaging campaigns conducted to date with the VLT, targeting over 400 young, nearby stars with the goal of detecting and characterizing giant exoplanets and brown dwarfs. This extensive dataset offers a unique opportunity to revisit observations using modern, data-driven approaches, potentially uncovering new substellar candidates that may have been overlooked by classical analysis techniques. In this context, our study focuses on reprocessing and re-analysing the so-called F150 sample, a well-defined subset of 150 main-sequence stars within 100 pc observed in the H band with VLT/SPHERE as part of the SHINE survey. We applied , a supervised deep learning model specifically tailored for detecting faint planetary signals in angular differential imaging (ADI) sequences. Designed to model local noise properties by capturing spatio-temporal correlations, produces network-confidence detection maps that push the detection of faint companions closer to the noise floor than classical S/N-based approaches. To translate the model's pixel-wise confidence maps into actionable detections, we introduced a novel thresholding strategy that selects, for each annulus, the confidence threshold maximizing the F_1 score (the harmonic mean of precision and recall) from injection-recovery experiments. This principled approach balances sensitivity and specificity, addressing a key limitation in current deep learning-based methods. NA-SODINN NA-SODINN NA-SODINN recovers all known companions and some of the debris disks in the F150 sample, and it identifies 13 new substellar candidates not reported in previous studies: ten detected in both the H2 and H3 bands, and three in only one band. For the ten sources detected in both bands, we used the H2--H3 colour–magnitude diagram to perform a first assessment of their nature. Based on this analysis, we identified two ambiguous cases and three photometrically promising candidates. However, in light of the currently available multi-epoch SPHERE data, only the candidate around Smethells 20 remains a strong target for follow-up.",
+   "authors": [
+    "C. Cantero",
+    "M. Sabalbal",
+    "O. Absil",
+    "M. Van Droogenbroeck",
+    "D. Ségransan",
+    "P. Delorme"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660463",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究利用深度学习模型NA-SODINN重新处理SHINE直成像巡天的F150样本（150颗100pc内的主序星），通过改进的角微分成像分析方法和基于F1分数的阈值策略，在H波段观测中识别了13个新的亚恒星候选体。这些候选体中10个在H2和H3波段均被探测到，通过色等级图初步评估了其物理性质，其中围绕Smethells 20的候选体最具后续观测价值。该工作表明数据驱动的深度学习方法能够从已有的大规模直成像数据中挖掘新的行星和褐矮星信号，推动对年轻星系统中伴星种族的认识。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661714",
+   "title": "Rotational broadening of exoplanet spectra in arbitrarily oriented systems: Application to reflected light",
+   "abstract": "Exoplanet reflection spectra contain a wealth of information, which we are now beginning to access. At a high spectral resolution, the rotation of both the star and the planet affects the shape of the reflected spectral lines. This effect must be accounted for in high-resolution analyses and could be used to measure the orbital alignment of systems. In this work, we derive the rotational broadening kernels for arbitrarily aligned systems, both for the stellar spectrum viewed by the planet and for the reflected component of the planet's spectrum. We then determine the relation between the parameters of the kernels and the standard orbital parameters of an exoplanet system. Finally, we show examples of these kernels, compare them with previous models, and investigate the limitations imposed by our assumptions. We find that the difference in the rotational broadening of a non-aligned system relative to the broadening expected from a prograde aligned orbit can be of the order of SI 50 įlo . We also highlight how the equations and kernels presented in this work could be modified for other uses, such as thermal emission spectra.",
+   "authors": [
+    "Sophia R. Vaughan",
+    "Laura Kreidberg"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661714",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "emission spectr"
+   ],
+   "summary_zh": "本研究推导了任意取向系统中行星反射光谱的旋转展宽核函数，建立了展宽参数与行星系统标准轨道参数的关系，并通过对比分析揭示了系统轨道倾斜度对反射谱线形状的影响可达~50%。该工作为高分辨率反射光谱观测提供了关键理论工具，可用于测量系统的轨道对齐情况，并为热发射谱等其他应用奠定了基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202557881",
+   "title": "Cross-correlation transmission spectroscopy of ultra-hot Jupiters WASP-189b, HAT-P-57b, KELT-17b, and KELT-21b with GIANO-B",
+   "abstract": "Since the discovery of the first exoplanet, significant efforts have been made to characterise their atmospheres. Ultra-hot Jupiters (UHJs) are of particular interest due to their extended and hot atmospheres. Although previous studies have focused on the detection of atomic species at optical wavelengths, near-infrared (NIR) observations offer the potential to detect molecules. In our study, we applied the cross-correlation technique to NIR transmission spectra from GIANO-B. The analysis focuses on the search for H 2 O, CO, CO 2 , CH 4 , HCN, FeH, TiO, VO and OH molecular signals in the atmospheres of four UHJs: HAT-P-57 b, KELT-17 b, KELT-21 b, and WASP-189 b. For the first time, we report results on the NIR transmission spectra of KELT-17b, KELT-21b, and WASP-189b. We report a tentative detection (3.8 σ ) of H 2 O in HAT-P-57 b and a detection (5.3 σ ) of FeH in KELT-17 b, which is the third FeH detection ever in a UHJ and with the lowest equilibrium temperature. No molecular signals were found in KELT-21b and WASP-189b, or for other molecules in HAT-P-57b and KELT-17b. The cross-correlation results for HAT-P-57 b, KELT-17 b, KELT-21 b, and WASP-189 b in transmission align with the species detected in the UHJ population. This work underscores the need for further observations to confirm and expand the transmission study of UHJs in the NIR, and the capabilities of high-resolution spectrographs on 4-m-class telescopes.",
+   "authors": [
+    "P. Meni-Gallardo",
+    "J. Orell-Miquel",
+    "G. Fernández-Rodríguez",
+    "H. Parviainen",
+    "M. Basilicata",
+    "E. Pallé",
+    "M. Stangret",
+    "I. Carleo",
+    "P. Giacobbe"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202557881",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究采用互相关技术分析GIANO-B近红外传输光谱数据，在超热木星HAT-P-57b、KELT-17b、KELT-21b和WASP-189b的大气中搜寻H₂O、CO、CO₂等9种分子信号。研究首次报告了后三颗行星的近红外传输光谱结果，在HAT-P-57b中首次探测到H₂O（3.8σ），在KELT-17b中探测到FeH（5.3σ，为超热木星中第三次FeH探测且平衡温度最低）。这些结果与超热木星种群中已知物种一致，表明需要进一步的NIR观测和4米级望远镜高分辨率光谱仪的持续支持。"
+  }
+ ],
  "2026-09-04": [
   {
    "id": "arxiv:2609.03759",
