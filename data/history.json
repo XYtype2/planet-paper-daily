@@ -1,4 +1,34 @@
 {
+ "2026-09-06": [
+  {
+   "id": "doi:10.1051/0004-6361/202660500",
+   "title": "Dust characterization of the HD 163296 disk with high-resolution multiwavelength ALMA observations",
+   "abstract": "Planets form through the growth and accumulation of dust grains in protoplanetary disks. The observational characterization of dust properties such as dust size, surface density, and temperature is key to understanding the planet formation process. We characterized the dust properties of the protoplanetary disk around HD 163296 by performing spectral energy distribution (SED) fitting of multiwavelength high-resolution observations. We present new high-resolution ALMA Band 9 (0.45 mm) observations, which are sensitive to the temperature. We performed SED fitting at a common resolution of 0 using these new Band 9 observations along with archival ALMA Band 3, 4, 6, and 7 observations. We also compared the fitted results with VLA observations. We explored multiple dust models with different optical constants and porosities. The Band 9 image shows the central disk, two rings at 0 and 1 and outer extended emission previously seen at other wavelengths. At higher frequencies, the rings appear wider, the gaps appear shallower, and the extended emission appears brighter, which can be explained by optical-depth effects and/or size segregation. We characterized the dust properties, including temperature, surface density, and dust size, for each dust model. However, the inferred dust properties are dependent on the dust model, and the ALMA data alone do not allow us to determine which dust model is preferred. We identified DSHARP Zubko (porous) as the preferred model based on a comparison with the VLA profiles and its consistency with other physical and observational constraints. The estimated temperature in the outer ring is lower than predicted by a passively irradiated disk model, suggesting shadowing by the inner ring. Although the estimated surface density and dust size are dependent on the dust model, the preferred model indicates that the central disk, both major rings, and the extended disk each contains more than a few Earth masses of dust.",
+   "authors": [
+    "Kiyoaki Doi",
+    "Myriam Benisty",
+    "Akimasa Kataoka",
+    "Haochang Jiang",
+    "Francesco Zagaria",
+    "Hauyu Baobab Liu",
+    "Carsten Dominik",
+    "Ryo Tazaki",
+    "Takahiro Ueda",
+    "Tomohiro C. Yoshida",
+    "Takashi Tsukagoshi",
+    "Yoshihide Yamato",
+    "Ryuta Orihara"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660500",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过多波段ALMA高分辨率观测对HD 163296原行星盘进行光谱能量分布拟合,表征了尘埃粒度、表面密度和温度等关键性质。研究发现外环温度低于被动辐照模型预测值,表明存在内环遮挡效应;采用多种尘埃模型对比分析后,认为具有孔隙性的Zubko模型最优,据此估算中心盘、两个主环及外延伸区域均含有数个地球质量以上的尘埃。该工作揭示了尘埃结构与行星形成过程的关联,为理解盘内行星诱导的尘埃演化提供了重要约束。"
+  }
+ ],
  "2026-09-05": [
   {
    "id": "arxiv:2609.03975",
