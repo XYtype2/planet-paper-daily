@@ -1,4 +1,341 @@
 {
+ "2026-09-09": [
+  {
+   "id": "doi:10.3847/1538-3881/ae975e",
+   "title": "High-resolution Dayside Spectroscopy of the Ultrahot Jupiter WASP-178 b with Gemini South/GHOST",
+   "abstract": "Abstract We present high-resolution dayside spectroscopy of the ultrahot Jupiter WASP-178 b obtained with the Gemini High-resolution Optical SpecTrograph (GHOST) at the Gemini South Observatory. The observations cover pre- and posteclipse orbital phases, lasting approximately 9 hr in total, and represent the first published high-resolution optical dayside emission spectroscopy of WASP-178 b’s atmosphere, complementing previous near-IR dayside spectroscopy. We verify the presence of a thermal inversion in the dayside atmosphere with a high-significance (8.3 σ ) detection of neutral iron emission via the Doppler cross-correlation technique, alongside hints of neutral Si and Ca emission. We also carry out model injection–recovery tests for other atmospheric species, which indicate that we do not expect to detect the majority of species searched for in this work, assuming our models are accurate representations of the planet’s atmosphere. Finally, we place our results into context with previous work, showing how our tentative detection of neutral Si complements existing space-based observations and adds a new data point to previous detections of Si in ultrahot Jupiter atmospheres. Our high-resolution observations provide important context about the dayside of WASP-178 b, shedding light on 3D atmospheric processes and the extreme conditions present in ultrahot Jupiter atmospheres.",
+   "authors": [
+    "Caitlin E. Bell",
+    "Emily K. Deibert",
+    "Adam B. Langeveld",
+    "Ernst de Mooij",
+    "Ray Jayawardhana",
+    "Laura Flagg",
+    "Jake D. Turner"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae975e",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究使用Gemini南台GHOST高分辨率光谱仪观测超热木星WASP-178 b的白昼侧大气，通过多普勒互相关技术以8.3σ的显著性检测到中性铁的发射线，证实该行星白昼侧大气存在热反演结构，同时发现中性硅和钙的发射迹象。通过模型注入恢复测试和与前期近红外观测的对比，阐明了超热木星极端大气环境中的三维大气过程和物质组成分布。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae907f",
+   "title": "The Luminosity Function of Ultrafaint Trans-Neptunian Objects Detected by JWST",
+   "abstract": "Abstract We present a definitive discovery of 27 trans-Neptunian objects (TNOs) using the Near-Infrared Camera aboard the James Webb Space Telescope (JWST). By employing a shift-and-stack technique and a machine learning network geared specifically to identifying false-positive detections in JWST images produced through the shift-and-stack process, we achieved a 40% detection threshold of m F150W2 = 28.8 mag (corresponding to m r ∼ 29.8 mag) across a sky area of 0.05 deg 2 . This marks the deepest solar system survey to date, reaching magnitudes that allow us to explore never-before-seen regions of the TNO size distribution. Our faintest detection has m F150W2 = 29.3 mag and a diameter of ∼10 km (assuming 15% albedo). Within our sample, we find that both the cold and hot TNO subpopulations exhibit a power-law slope. The distribution of apparent magnitudes of our nominal sample (detections at all epochs) is well fit by a single power law dN / dm ∝ 10 αm with α = 0.2 9 − 0.07 + 0.08 . The dynamically hot and cold subsamples in our discovery set are consistent with the same power law, suggesting that the planetesimal formation process yields similar slopes despite the differing disk conditions at the presumed ∼25 and ∼45 au formation regions of the two populations.",
+   "authors": [
+    "Marielle R. Eduardo",
+    "Anastasia N. Morgan",
+    "Wesley C. Fraser",
+    "David E. Trilling",
+    "Gary M. Bernstein",
+    "John A. Stansberry",
+    "Bryan Hilbert",
+    "Matthew J. Holman",
+    "William M. Grundy",
+    "Thomas L. Storer",
+    "Kevin J. Napier"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae907f",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究利用詹姆斯·韦伯太空望远镜的近红外相机和移位堆叠技术结合机器学习算法,首次发现27个超暗弱的海王星外天体,达到m_F150W2 = 28.8等的前所未有的深度,探测到直径仅~10 km的小天体。研究发现冷热两个柯伊伯带亚群体的天体亮度均遵循幂律分布(α = 0.29 ± 0.08),表明尽管形成区域位置不同(分别在~25和~45 au),行星体形成过程对两个种群产生了相似的尺度分布。这一结果为理解太阳系早期行星体形成机制提供了重要观测证据。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9858",
+   "title": "GEMS JWST: Hold on to Your HATS(-6 b), a Subsolar-metallicity Giant Planet with Water, Methane, and Ammonia in its Atmosphere",
+   "abstract": "Abstract HATS-6 b is one of several recently discovered giant exoplanets orbiting M dwarf stars (GEMS) and is part of a JWST survey that aims to compare bulk and atmospheric properties of these rare planets against their FGK star counterparts. HATS-6 b is a warm ( T eq ∼ 700 K), Saturn-mass ( M p ∼ 0.3 M Jup ), Jupiter-radius ( R p ∼ 1 R Jup ) planet that transits its star every ∼3 days. In this study, we present the transmission spectrum of HATS-6 b obtained with two transits using the PRISM mode of JWST Near Infrared Spectrograph (NIRSpec), spanning a wavelength range of 0.6−5.3 μ m. Analyzing these JWST observations using an iterative approach between forward modeling and free chemistry retrievals, we derive a low-metallicity ( log [ M / H ] = − 1.9 9 − 0.2 + 0.2 ) subsolar-C/O ( log [ C / O ] = − 0.4 6 − 0.2 + 0.2 ) atmosphere, and find strong evidence for H 2 O, CH 4 , and NH 3 at volume mixing ratios (in log [ X ] ) of − 4.8 8 − 0.24 + 0.25 , − 5.3 8 − 0.19 + 0.18 , and − 6.0 3 − 0.19 + 0.18 , respectively. We consistently retrieve a significantly lower T eq than predicted from the orbital configuration of HATS-6 b, which was impervious to any data reduction and retrieval choices, suggesting a nonzero Bond albedo. Our planetary interior models retrieve bulk metallicities 3 orders of magnitude larger than our retrieved atmospheric metallicity, also suggesting that the atmosphere is not well mixed. We find an excess feature around 3 μ m, and expand on possible explanations for this, such as the presence of HCN or hydrocarbons like C 2 H 4 . Yet, due to the degeneracies present for hydrocarbon features in this wavelength region, we do not draw any conclusions about the excess feature and instead encourage further observations and follow-up of this intriguing target.",
+   "authors": [
+    "Giannina Guzmán Caloca",
+    "Caleb I. Cañas",
+    "Nicole L. Wallack",
+    "Erin M. May",
+    "Shang-Min Tsai",
+    "Simon Müller",
+    "Ravit Helled",
+    "Shubham Kanodia",
+    "Jacob Lustig-Yaeger",
+    "Knicole D. Colón",
+    "Ian Czekala",
+    "Megan Delamer",
+    "Peter Gao",
+    "Te Han",
+    "Jessica Libby-Roberts",
+    "Suvrath Mahadevan",
+    "Anjali A. A. Piette",
+    "Guđmundur Stefánsson",
+    "Kevin B. Stevenson"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9858",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究利用JWST NIRSpec获取了环绕M矮星的土星质量系外行星HATS-6 b的传输光谱,通过正向模型和自由化学反演分析揭示其大气具有低金属丰度(log[M/H]=-1.99)和亚太阳C/O比,并检测到H₂O、CH₄和NH₃的明确信号。研究发现该行星的有效温度低于轨道预测值且大气-内部金属丰度存在显著差异,表明其大气分层且具有非零的Bond反照率,为理解M矮星系统中巨行星的形成和演化提供了关键约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9864",
+   "title": "Systematic KMTNet Planetary Anomaly Search. XIII. Complete Sample of 2021 Prime Field Planets",
+   "abstract": "Abstract The Systematic KMTNet Planetary Anomaly Search series was conducted using the KMTNet data archived from 2016–2019. From this first phase of the series, we reported a total of 50 planetary systems hidden in the data archive, which represent about 35% of the total microlensing planets discovered from 2016–2019, demonstrating that this semi-machine-based search is a crucial channel for building a complete microlensing planet sample. We continue this series for 2021 and beyond to expand the microlensing planet sample. In this work for the 2021 KMTNet high-cadence fields (Prime fields), we find seven hidden planetary systems and three planet candidates. These new planets represent about 33% of the total microlensing planets discovered within the Prime fields observed during the 2021 bulge season. While the by-eye search is the primary channel for detecting microlensing planets (i.e., two-thirds of microlensing planet discoveries), this work clearly shows that a systematic search series is still necessary for constructing a complete microlensing planet sample. Such a sample is essential for conducting unbiased statistical studies of planet demographics in our Galaxy. Datasets for all of the events used for analyses in this work are publicly available: doi: https://zenodo.org/records/21472225 .",
+   "authors": [
+    "In-Gu Shin",
+    "Jennifer C. Yee",
+    "Weicheng Zang",
+    "Cheongho Han",
+    "Andrew Gould",
+    "Shude Mao",
+    "Chung-Uk Lee",
+    "Yoon-Hyun Ryu",
+    "Ian A. Bond",
+    "Takahiro Sumi",
+    "",
+    "Michael D. Albrow",
+    "Sun-Ju Chung",
+    "Kyu- Ha Hwang",
+    "Youn Kil Jung",
+    "Yossi Shvartzvald",
+    "Hongjing Yang",
+    "Sang-Mok Cha",
+    "Dong-Jin Kim",
+    "Seung-Lee Kim",
+    "Dong-Joo Lee",
+    "Yongseok Lee",
+    "Byeong-Gon Park",
+    "Richard W. Pogge",
+    "",
+    "Fumio Abe",
+    "David P. Bennett",
+    "Aparna Bhattacharya",
+    "Ryusei Hamada",
+    "Yuki Hirao",
+    "Stela Ishitani Silva",
+    "Shota Miyazaki",
+    "Yasushi Muraki",
+    "Kansuke NUNOTA",
+    "Greg Olmschenk",
+    "Clément Ranc",
+    "Nicholas J. Rattenbury",
+    "Yuki K. Satoh",
+    "Daisuke Suzuki",
+    "Takuto Tamaoki",
+    "Sean K. Terry",
+    "Paul J. Tristram",
+    "Aikaterini Vandorou",
+    "Hibiki Yama",
+    ""
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9864",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究对KMTNet 2021年观测数据进行系统性行星异常搜索,采用半机器化搜索方法在质量透镜事件中发现了7个行星系统和3个行星候选体。这些新发现约占2021年Prime观测场发现微透镜行星总数的33%,与人工搜索(占67%)形成互补,证明系统性搜索对于构建完整的银河系行星样本至关重要,从而支撑无偏差的行星统计学研究。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662067",
+   "title": "Electron impact on molecular oxygen: Emission spectrum and cross-sections",
+   "abstract": "Electron impact reactions with molecules occur in a variety of astrophysical environments, including planetary and small body atmospheres. The resulting emission could be used to probe local plasma conditions and to reveal the presence of neutral molecular oxygen, which has no dipole moment and, hence, no strong emission features on its own. However, there is a serious lack of data on emission cross-sections at various energies. The study aims to improve the understanding of the electron induced fluorescence of O_2 and its fragments by investigating the spectra of O_2 at different electron energies. The research also emphasises the importance of comprehending the O_2^+ cation to interpret the ultraviolet-visible (UV-VIS) spectra accurately, filling a gap in the modelling of such emission spectra. We experimentally determined absolute emission cross-sections at near-UV and near-infrared (NUV-NIR) wavelengths (200 -- 930 nm). Quantum chemical calculations were performed to obtain the potential energy curves of O_2^+ states with internuclear distance in the range of 0.85 -- 10.0 Å. The resulting energy levels were used for spectrum simulations, considering the X 2Π_g$, A ^2Π_u, and a $^4Π_u states and incorporating vibrational effects through numerical integration of the 1D nuclear Schrödinger equation based on SO-X2C-MRCISD+Q/aug-ccpCV6Z-X2C potential energy curves. Simple models were also constructed to analyse the optical emission from molecular reaction products. The main result of the work is the rich data set of emission cross-sections for energies og 30 eV, 40 eV, 50 eV, and 100 eV. The experimental spectra of O_2^+ (A 2Π_u$ -- X $^2Π_g) were compared to the ab initio calculated spectra. Even though electron-induced oxygen emission has been studied relatively extensively, this work reports a wider range of experimentally determined emission cross-sections at four different electron impact energies. The data agree well with the two largest previously published datasets: one in the UV-VIS range and one in the VIS-IR range.",
+   "authors": [
+    "B. Stachová",
+    "D. Bodewits",
+    "S. J. Bromley",
+    "J. W. Noonan",
+    "S. Kozáková",
+    "L. F. Pašteka",
+    "I. Černušák",
+    "Š. Matejčík",
+    "J. Országh"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662067",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究通过实验测量和量子化学计算，获得了电子碰撞O₂分子在30-100 eV能量范围内的发射截面数据（200-930 nm波段），并通过势能曲线和光谱模拟准确表征了O₂⁺离子的紫外-可见光谱特征。这些结果填补了行星和小天体大气中电子诱导荧光建模的关键数据空白，为通过发射光谱诊断局部等离子体条件和探测中性分子氧提供了重要的参考数据库。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660552",
+   "title": "3D physical structure of the H-deficient ejecta of the born-again planetary nebulae A 30 and A 78",
+   "abstract": "Born-again planetary nebulae (PNe), produced by a very late thermal pulse (VLTP) that reignites post-asymptotic giant branch (post-AGB) evolution, eject hydrogen-deficient material within the surrounding, older hydrogen-rich nebula. The born-again ejecta exhibit complex morphologies and kinematics, which provide information on the physics of the outburst and subsequent shaping. The archetypal born-again PNe A,30 and A,78 are prime examples of this phenomenon. While high-resolution imaging studies have revealed their intricate morphology and ground-based spectroscopic observations have supplied radial velocity information, a comprehensive study is missing, preventing a definitive three-dimensional (3D) reconstruction of the ejecta. We aim to determine the 3D location and space velocity of the hydrogen-deficient ejecta knots in A,30 and A,78. Their complete 3D structure allows us to investigate their spatio-kinematic properties to constrain the geometry and dynamics of the VLTP event. We combined multi-epoch Hubble Space Telescope images with high-dispersion integral-field spectroscopic GTC MEGARA observations to determine the space velocity and position of the hydrogen-poor knots in A,30 and A,78. We present the first assumption-free 3D reconstruction of the hydrogen-deficient ejecta of the born-again PNe A,30 and A,78. The equatorial knots are not confined to a plane but are distributed in a disrupted thick disk with concave surfaces. The bipolar outflows seem misaligned with respect to the mean plane defined by the equatorial knots, but they are approximately orthogonal to the observed concave surfaces. The knot space velocity increases with distance from the central star, reaching up to simeq230 km -1 . The velocity increase rate is larger for the inner, equatorial regions, decreasing at larger distances. The expansion velocity of the equatorial knots appears to reveal two spatially coexisting kinematic populations. The kinematical ages of the structures cover a wide range, 500--1500 yr for A,30 and 500--1300 yr for A,78. The velocity-distance relation and the broad range of kinematical ages indicate that the ejecta do not follow a homologous expansion. The stellar wind and ionising flux seem to cause strong dynamical effects on the closest knots to the star.",
+   "authors": [
+    "B. Montoro-Molina",
+    "M. A. Guerrero",
+    "J. A. Toalá",
+    "E. Santamaría",
+    "J. B. Rodríguez-González"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660552",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究利用哈勃太空望远镜多时期成像和GTC积分视场光谱观测，首次无假设地重建了再生行星星云A30和A78中缺氢喷出物的三维结构和速度场。研究发现赤道喷出物分布在具有凹面的破裂厚盘中，双极喷流与赤道喷出物平均面近似正交，且喷出物速度随距中心星距离增加而非均质膨胀，速度-距离关系和500-1500年的广泛运动学年龄表明极晚热脉冲事件的复杂几何和动力学过程。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661276",
+   "title": "That's no moon: Exomoon survival and detection limitations",
+   "abstract": "While moons are ubiquitous in the Solar System, exomoons have not yet been unambiguously confirmed despite the discovery of over 5,600 exoplanets. We investigated the reasons for this lack of detections by reviewing high-impact literature searches, assessing dynamical stability and detectability constraints, and comparing these with the moon population in the Solar System. We compiled a homogeneous catalogue of 24 proposed exomoon candidates, including stellar, planetary, and inferred lunar parameters. For each case we applied Hill, Roche, and Laplace stability criteria and estimated detectability limits for current and forthcoming instruments. In addition, we tested 6038 confirmed exoplanets against the same stability and mission-specific observational filters for a given range of moon parameters. A large fraction of the potential exomoon candidates investigated in the literature are either inconsistent with long-term stability or produce signals below Kepler sensitivity. Only 8 of the 13 candidates meet at least one of the stability criteria. Our extended analysis highlights 27 promising targets for exomoon searches with PLATO, while moons with Solar-System-like properties remain below current thresholds. The lack of exomoon detections is likely due to a combination of the inefficient formation of stable massive moons and limited instrumental sensitivity. Other processes, such as early moon loss during planetary migration or giant impacts, may also influence moon survival. Future searches should prioritise systems that combine long-term dynamical stability with favourable observational conditions for next-generation photometric and astrometric facilities.",
+   "authors": [
+    "Alicia Pérez-Rodrigo",
+    "Isabel Rebollido"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661276",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过应用Hill、Roche和Laplace稳定性判据,对24个已提议的系外卫星候选体及6038个确认系外行星进行了动力学稳定性和可探测性分析。结果表明,大多数候选体要么不满足长期稳定条件,要么产生的信号低于Kepler灵敏度阈值,仅8个候选体符合至少一项稳定准则。研究认为系外卫星未被发现的主要原因是稳定大质量卫星的低效形成和当前仪器灵敏度限制,同时行星迁移过程中的卫星丧失和巨撞击可能也会影响卫星存活,并为PLATO等下一代观测设备识别了27个有前景的搜寻目标。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660850",
+   "title": "Fizzy water ice in space: CO_2 adsorption, binding energies, and its fate in a protoplanetary disk",
+   "abstract": "CO_2 is the third most abundant ice component found on dust grains in star-forming regions and is a common ingredient of exoplanet atmospheres. The characterisation of its adsorption properties on ices through the binding energy (BE) is essential for accurate astrochemical modelling and understanding chemical inheritance in planet formation. We aim to derive an accurate and statistically relevant BE distribution of CO_2 on water ices, considering both single molecule and multi-molecule adsorption scenarios. Our goal is to understand the impact of the BE distribution on the abundance of gaseous and frozen CO_2 in a generic protoplanetary disk and the spectral absorption features of frozen CO_2. The ACO-FROST procedure was used to compute the BE distribution, where CO_2 molecules are adsorbed on several sites of an amorphous water-ice grain model The BEs were computed using an ONIOM scheme, ON(DLPNO-CCSD(T)/aug-cc-pvtz:GFN2)//ON(B97-3c:GFN2), which was chosen based on a detailed benchmark. The BEs of CO_2 follow a bimodal Gaussian distribution characterised by the following parameters: μ_1 = 1648K, σ_1=229K, μ_2=2339K, and σ_2=274K. For each BE bin, the pre-exponential factor was estimated using two models (Tait and Campbell) and the Polanyi-Wigner relationship. Comparisons with previous studies, both experimental and computational, show good agreement on the range of the BEs. We evaluated the impact of the adsorption on water ice on the spectral features of CO_2 molecule. The coverage simulation shows the non-wetting properties of CO_2 on the water-ice surface. We finally discuss the impact of using a BE distribution and different pre-exponential factors to calculate the partitioning between the ice and gas fractions in a generic protoplanetary disk. We confirm that the use of BE distribution to model the gas and ice fractionation in a protoplanetary disk causes the gas fraction to be significantly more extended. Furthermore, we show that the prefactor has a significant impact on where the snow line forms and on the final extent of the gas fraction in the disk.",
+   "authors": [
+    "A. Bulik",
+    "V. Bariosco",
+    "E. Mates-Torres",
+    "P. Ugliengo",
+    "K. Furuya",
+    "C. Ceccarelli",
+    "A. Rimola"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660850",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过量子化学计算(ONIOM方法)获得了CO₂在非晶水冰表面的结合能分布,得到双峰高斯分布(两个峰值分别为1648K和2339K),并基于Polanyi-Wigner关系估算了前指数因子。研究评估了CO₂吸附性质对原行星盘中气体与冰相分配的影响,发现使用结合能分布模型和不同的前指数因子会显著改变CO₂雪线位置和气体在盘中的延伸范围,这对理解行星形成过程中的化学继承具有重要意义。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659933",
+   "title": "Searching for molecular signatures in 14 transiting exoplanets with SPIRou",
+   "abstract": "High-resolution spectroscopy provides unique constraints on exoplanet atmospheric composition and dynamics. The past decade of ground-based campaigns has accumulated extensive public archives, but many observations remain to be analyzed. We present a homogeneous blind-search analysis of 50 SPIRou transits spanning 14 exoplanets, ranging from super-Earths to ultrahot Jupiters, combining data from large program and public archived observations. Using an automated data reduction and atmospheric retrieval via nested sampling validated by cross-correlation function analysis, we confirm previous and detections in HD,189733,b, WASP-76,b, and WASP-127,b, report tentative H2O CO H2S detections in HD,189733,b and TOI-1807,b, a tentative detection of the GJ,3470,b atmosphere, and provide upper limits for non-detections. This work demonstrates a scalable method for systematic archive analysis, providing a first step toward ground-based support of large space-based atmospheric characterization programs and the study of atmospheric diversity across exoplanet populations from a statistical perspective.",
+   "authors": [
+    "A. Masson",
+    "S. Vinatier",
+    "B. Bézard",
+    "F. Debras",
+    "A. Carmona",
+    "J. Lillo-Box",
+    "N. B. Cowan",
+    "V. Yariv",
+    "R. Allart"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659933",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用高分辨率光谱仪SPIRou对14颗凌日系外行星的50次过境观测进行了系统的盲搜索分析,结合自动数据处理和嵌套抽样大气反演方法,确认了多个行星的分子特征(如HD 189733b、WASP-76b和WASP-127b中的水、一氧化碳和硫化氢),为未探测行星提供了上限约束。该研究建立了一套可扩展的地基观测档案分析方法,为支持空间望远镜的大气表征和从统计角度研究系外行星大气多样性奠定了基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661077",
+   "title": "Signatures of rocky debris accretion in AF-type planet hosts",
+   "abstract": "The gas giant--planet metallicity correlation plays a fundamental role in our understanding of planet formation. However, that correlation is mostly derived from observations of solar-type stars. We aim to test whether the correlation between the metallicity and chemical abundances of the star and the presence of giant planets for solar-type stars still holds for early-type (spectral types A and early F) stars. We determined the metallicity and individual abundances of a large sample of A and early-F stars in a homogeneous way, with and without known planetary companions; in this paper, we discuss their abundance distribution and trends. Our methodology is based on the analysis of high-resolution échelle spectra. It includes the calculation of the fundamental stellar parameters by fitting the profiles of the Balmer lines, as well as individual abundances of different elements such as C, O, Mg, Si, Ca, Ti, Fe, Ni, and Ba via a multi-parameter fitting procedure of selected spectral regions. We find that stars with planets generally exhibit higher abundances of both iron-peak and volatile elements compared to stars without known planets, although in most cases this tendency is not statistically significant. The rm C/O ratio remains similar between both samples, while the rm Mg/Si ratio is shifted towards higher values in the general planet host sample. When the sample is limited to fully radiative stars (spectral type earlier than F5), the statistical significance of carbon overabundances vanishes. In contrast, elements such as O and Ni remain significantly overabundant. The rm C/O and rm Mg/Si ratios in this radiative sub-sample are statistically indistinguishable from that of the comparison sample. The persistent overabundance of O and Ni, combined with rm C/O and rm Mg/Si ratios similar to those of stars without planets in fully radiative hosts, points to the ongoing surface pollution by volatile-poor, silicate-rich rocky debris, rather than the accretion of gas giants. These findings might position early-type main-sequence stars as a crucial dynamical missing link in the chemical life cycle of planetary systems; such a link would bridge the initial dust-trapping phase in pre-main-sequence transition discs, the dilution of this superficial pollution during the fully convective red giant phase, and the eventual dynamically driven accretion of asteroid material observed in polluted white dwarfs.",
+   "authors": [
+    "J. Maldonado",
+    "I. Mendigutía",
+    "S. Barceló Forteza",
+    "G. M. Mirouh",
+    "B. Montesinos",
+    "E. Villaver"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661077",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过高分辨率光谱分析A型和早F型恒星样本的金属丰度和元素丰度,检验了气体巨星与恒星金属性相关性在早型星中是否成立。研究发现有行星的早型恒星表现出氧和镍的过量丰度,结合其C/O和Mg/Si比值与无行星恒星相似,指示岩石碎屑污染而非气体巨星吸积是造成这些特征的原因。这些结果表明早型主序星在行星系统的化学演化中扮演关键角色,连接了前主序过渡盘的尘埃捕获阶段与污染白矮星观测到的小行星物质吸积。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1700",
+   "title": "Dust Substructures and Line Perturbations driven by a Forming Planet in J16120",
+   "abstract": "Abstract Hints of planet formation have been independently reported within the gap of the disc around 2MASS J16120668-301027 from millimetre continuum, infrared, and Hα observations. In this work, we present new evidence for ongoing planet formation based on Atacama Large Millimeter/submillimeter Array (ALMA) Band 7 observations, detecting 0.87 mm dust continuum emission together with 12CO (J=3-2) and 13CO (J=3-2) line emission. Visibility modelling of the continuum data reveals an inner disc and two dust rings peaking at 23 and 75 au. The continuum morphology is better reproduced by an eccentric disc model (e ~ 0.1) than by an axisymmetric disc. We further investigate the gas kinematics through modelling of the 12CO channel maps. The residual line-width map shows a localised increase in velocity dispersion at the position of a previously reported circumplanetary disc candidate (deprojected radius ~32 au, position angle ~170○) and along its orbit. This signal is spatially coincident with kink-like features and a transition from sub-Keplerian to super-Keplerian velocities. In addition, the velocity residual map exhibits an arc-like structure extending outward from the planet candidate, while the gas kinematics-despite substantial uncertainties-is consistent with inflow towards the candidate’s orbital radius. The observed increase in velocity dispersion agrees with predictions from planet-disc interaction simulations, which produce enhanced turbulence both at the planet location and along its orbital path. Taken together, the continuum morphology and gas kinematic signatures provide compelling new evidence for ongoing planet formation within the disc gap.",
+   "authors": [
+    "Anibal Sierra",
+    "Andrés F Izquierdo",
+    "Paola Pinilla",
+    "Kan Chen",
+    "Myriam Benisty",
+    "Laura Pérez",
+    "Teresa Paneque-Carreño",
+    "Carolina Agurto-Gangas",
+    "Jaehan Bae",
+    "John Carpenter",
+    "Luca Cieza",
+    "Dingshan Deng",
+    "Stefano Facchini",
+    "Camilo González-Ruilova",
+    "Nicolás Kurtovic",
+    "Aleksandra Kuznetsova",
+    "Carlo F Manara",
+    "James Miley",
+    "Álvaro Ribas",
+    "Giovanni Rosotti",
+    "Miguel Vioque"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1700",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用ALMA Band 7观测探测了J16120周围原行星盘的0.87 mm尘埃连续谱和CO气体发射，通过能见度建模发现内盘和两个尘埃环（分别位于23 au和75 au），其偏心率约0.1的盘模型更好地解释了观测数据。通过CO通道图运动学分析，研究发现在行星候选体位置及其轨道上存在局部速度弥散增加、速度残差的弧形结构和向内流入信号，这些特征与行星-盘相互作用模拟预测的湍流增强现象相一致，为进行中的行星形成提供了有力证据。"
+  },
+  {
+   "id": "doi:10.1038/s41550-026-02914-6",
+   "title": "Planetary shielding and surface precipitation of solar energetic particles during BepiColombo’s close Mercury flyby",
+   "abstract": "Abstract Planetary magnetic fields act as protective barriers, shielding a planet’s atmosphere and surface from energetic charged particles originating from its parent star and outer space. During its fourth flyby of Mercury on 4 September 2024, the ESA/JAXA BepiColombo mission passed within just 165 km of the planet’s surface. This close approach coincided with the elevated fluxes of high-energy charged solar particles, providing an opportunity to study shielding processes of a planet in close proximity to its star. Here, utilizing observations from the Solar Intensity X-Ray and Particle Spectrometer (SIXS) onboard BepiColombo, we investigate the penetration of high energy particles from the Sun into Mercury’s magnetosphere. The variations in energetic particle fluxes depend on the particle type, direction and energy. Our analysis reveals that the disappearance of protons is related to magnetic shadowing by the planet, while electrons dropouts occur due to a wide magnetic loss cone. These findings show that sustained high-energy particle precipitation can occur during solar energetic particle events on weakly magnetized rocky planets orbiting close to their parent star. Such processes probably play a significant role in regolith alteration and exospheric variability, with broader implications for surface geochemistry and potential habitability.",
+   "authors": [
+    "Emilia K. J. Kilpua",
+    "Rami Vainio",
+    "Manuel Grande",
+    "Liam Edwards",
+    "Monica Laurenza",
+    "Eero Esko",
+    "Arto Lehtolainen",
+    "Christian Palmroos",
+    "Jan Gieseler",
+    "Philipp Oleynik",
+    "George Ho",
+    "David J. Lawrence",
+    "Scige John Liu",
+    "Stefano Massetti",
+    "Daniel Heyner",
+    "Kristin Pump",
+    "Beatriz Sanchez-Cano",
+    "Juhani Huovelin"
+   ],
+   "link": "https://doi.org/10.1038/s41550-026-02914-6",
+   "source": "Nature Astronomy",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用BepiColombo在2024年9月近距离掠过水星时搭载的SIXS仪器观测数据，调查了太阳高能粒子对水星磁层的穿透过程。研究发现质子消失与行星磁影相关，而电子丧失则源于宽磁损失锥，揭示了弱磁化的近日岩石行星在太阳高能粒子事件中会经历持续的高能粒子沉淀现象。这些过程对行星表面风化、外逝层变化及其宜居性具有重要影响。"
+  }
+ ],
  "2026-09-08": [
   {
    "id": "doi:10.1093/mnras/stag1694",
