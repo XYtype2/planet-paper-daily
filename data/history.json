@@ -1,4 +1,297 @@
 {
+ "2026-09-11": [
+  {
+   "id": "arxiv:2609.10850",
+   "title": "Constraining Tidal Migration with the Hot Jupiter Population",
+   "abstract": "Hot Jupiters with orbital periods shorter than a few days have probably been affected by tidal orbital migration. We develop an analytical framework for constraining tidal migration from the present-day hot Jupiter period distribution, taking into account the uncertain rate and period distribution of hot Jupiters produced by mechanisms such as high-eccentricity migration or disk-driven migration. Assuming the tidal migration timescale is proportional to $P^{χ_τ}$, solutions with $χ_τ\\simeq 3, 1.7,$ and 5.6 are all compatible with the present-day period distribution. The $χ_τ\\simeq 3$ solution is consistent with equilibrium tides with suppression of dissipation at short periods, and implies that newly circularized hot Jupiters have periods concentrated near $3-4$ days, as predicted in some high-eccentricity migration models. The $χ_τ\\simeq 1.7$ solution is also compatible with the $3-4$ day peak but has no clear counterpart in existing tidal theories and is more finely tuned. The $χ_τ\\simeq 5.6$ solution is compatible with enhanced short-period equilibrium tidal dissipation or weakly nonlinear gravity-wave dissipation, but requires circularization at unexpectedly short periods. Thus, we find the model with $χ_τ\\simeq 3$ most appealing. Transit timing of individual systems and observational constraints on the rate of hot Jupiter engulfment provide additional constraints, which are presently inconclusive but should improve with future data. Improved measurements of the occurrence of short-period planets as a function of planet mass and system age could also help to sharpen the constraints on tidal migration.",
+   "authors": [
+    "Linhao Ma",
+    "Yubo Su",
+    "Samuel W. Yee",
+    "Caleb Lammers",
+    "Eliot Quataert",
+    "Joshua N. Winn"
+   ],
+   "link": "https://arxiv.org/abs/2609.10850v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration",
+    "tidal migration"
+   ],
+   "summary_zh": "本研究通过解析框架利用现有热木星周期分布来约束潮汐迁移，考虑了高偏心率迁移或盘驱动迁移等机制产生的热木星速率和周期分布的不确定性。研究发现潮汐迁移时标与周期的幂律关系χ_τ≃3最具物理吸引力，与平衡潮汐理论和短周期耗散抑制相符，预测新近环化的热木silon具有3-4天的集中周期分布。过渡时序测量和热木星吞噬速率的观测约束提供了额外证据支持，而短周期行星与行星质量和系统年龄关系的改进测量将进一步深化对潮汐迁移的认识。"
+  },
+  {
+   "id": "arxiv:2609.10719",
+   "title": "WASP-43b TESS Phase Curve Mapping: Evidence for a Hot Interior",
+   "abstract": "Phase-curve mapping probes various atmospheric properties depending on wavelength: thermal phase curves are dominated by atmospheric emission, while visible and near-infrared phase curves include reflected light. The measured planetary phase curve offset--the longitudinal offset of the hemisphere of peak brightness from the substellar point--is therefore sensitive to differing atmospheric processes in emission-dominated vs. reflection-dominated bands. In particular, planets with partial western-dayside reflective cloud coverage show a westward reflected-light phase-curve offset relative to the thermal wavelengths. In this work, we analyze five sectors of TESS phase curve observations of the hot Jupiter WASP-43b and compare to previous published multi-band analyses to investigate dayside cloud coverage. We measure a mid-eclipse depth of 130 $\\pm$ 34 ppm, indicating excess TESS planetary brightness above expectations based on observed and modeled thermal emission. Attributing this excess flux to reflection, we estimate a low geometric albedo of $A_g$ $\\approx$ 0.05 - 0.10. These findings support previous conclusions that WASP-43b lacks any significant cloud coverage on its dayside. Phase-curve mapping reveals a large eastward phase curve offset of 44 $\\pm$ 18 degrees, significantly eastward of offsets measured at longer wavelengths with JWST, providing evidence for a cloud-free dayside. Both the detection of excess emission in the TESS band and the large measured eastward phase-curve offset support the conclusion that WASP-43b has a hot deep atmosphere that is probed at short wavelengths.",
+   "authors": [
+    "Maura Lally",
+    "Ryan C. Challener",
+    "Elspeth Lee",
+    "Nikole Lewis"
+   ],
+   "link": "https://arxiv.org/abs/2609.10719v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过TESS多个观测周期分析热木星WASP-43b的相位曲线，在光学波段测得过量的行星亮度和显著向东的相位曲线偏移（44±18度），这与更长波长JWST观测的偏移存在显著差异。通过排除云覆盖的影响，研究结论表明WASP-43b具有无云的白昼面和炽热的深层大气，在短波长处可以探测到该行星的内部热辐射特征。"
+  },
+  {
+   "id": "arxiv:2609.10663",
+   "title": "Small-Body Science with the Nautilus Space Observatory: From Cislunar Space Resilience to Mapping the Kuiper-Belt-to-Oort-Cloud Transition",
+   "abstract": "A new generation of space-based observatories can transform small-body science from the local Earth-Moon environment to the Solar System's dynamical frontier, where planetary control gives way to Galactic tides and stellar encounters. Mapping this frontier would reveal how planetesimals were scattered during giant-planet formation, how many primordial bodies survived in distant reservoirs, and whether large objects remain undiscovered in the inner Oort Cloud. At the same time, meter- to decameter-scale natural objects traversing the Earth-Moon system are frequent but poorly characterized. As human and robotic activity expands, their operational relevance depends not simply on abundance but on object size, encounter geometry, exposed infrastructure, warning time, and available response. Lunar impacts and impact-generated ejecta provide one class of events, while fading objects with unresolved Earth or lunar impact probabilities provide another. Here, we explore a two-layer small-body program combining a 4.0 m-diameter Nautilus Quattro Imaging (NQI) unit with an illustrative distributed cislunar layer of ~50 cm-class wide-field optical telescopes. The cislunar layer would characterize the nearby natural-object population, support rapid classification and selective custody of high-interest objects, and monitor lunar impacts and ejecta; the NQI deep-search layer would provide precise astrometry and synthetic tracking for faint-object recovery and distant-Solar-System surveys. Together, the two layers would constrain the small-impactor population, resolve fading planetary-defense targets, and survey the distant Solar System to Vmag ~30, enabling tests of the Kuiper-Belt-to-Oort-Cloud transition while advancing Earth-Moon space resilience.",
+   "authors": [
+    "J. de Wit",
+    "A. Y. Burdanov",
+    "P. McGill",
+    "D. Apai",
+    "S. N. Hasler",
+    "S. Cambioni"
+   ],
+   "link": "https://arxiv.org/abs/2609.10663v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究提出了一个两层小天体观测系统来研究从近地月空间到柯伊伯带-奥尔特云过渡区的小天体种群动力学。该系统结合了4.0米口径的深空成像单元和约50厘米级的分布式近地月望远镜阵列,用以表征近地天体丰度与性质、提供精确天体测量、快速分类与追踪,以及进行深空小天体巡天。该综合观测方案能够制约小撞击体种群、约束巨行星形成期间的行星体散射历史、揭示柯伊伯带到奥尔特云过渡区的动力学结构,同时提升近地月空间操作的防御能力和韧性。"
+  },
+  {
+   "id": "arxiv:2609.10375",
+   "title": "From spirals to rings: dust dynamics in gravitoturbulent protoplanetary discs after late infall",
+   "abstract": "Substructures appear to be a common trait of all extended protoplanetary discs. They are found notably in discs still surrounded by ambient, possibly infalling material. In this study, we revisit the observational signatures of gravitational instability (GI) in the dust and gas emission of protoplanetary discs. We focus on discs undergoing a short-lived episode of late infall that triggers spirals via GI, in order to investigate the long-term dynamics of millimetre-sized dust. We performed 2D hydrodynamical simulations modelling gas and millimetre-sized dust in a self-gravitating disc, with a simplified treatment of stellar irradiation and infall. Results were post-processed by 3D radiative transfer calculations. During infall, GI sets in and the disc develops a gravitoturbulent state characterised by the continuous formation of spirals. Shortly after infall ends, the millimetre-sized dust remains well coupled to the gas, and the dust emission exhibits large-scale spirals in both near-infrared scattered light and continuum emission. Even long after infall has ceased, two-armed spirals are persistently excited by GI in specific regions of the disc. Their dissipation entails the formation of multiple long-lasting pressure maxima, which can be viewed as vestiges of shocks induced by the spirals. They form persistent dust rings that are more or less axisymmetrical. Consequently, once late infall ends, a massive disc can gradually evolve from a disc with spirals in the continuum into one featuring multiple, potentially lopsided bright rings in the continuum. In near-infrared scattered light, the disc initially displays multiple spirals during infall or shortly after it ceases, before ultimately exhibiting multiple rings. The persistent excitation of spirals implies, however, that the residual line-of-sight velocity, derived from line emission, shows large-scale spirals across the disc.",
+   "authors": [
+    "Clément Baruteau",
+    "Steven Rendon Restrepo",
+    "Gaylor Wafflard-Fernandez",
+    "Sebastián Pérez",
+    "Zhaohuan Zhu",
+    "Hans Baehr",
+    "Farzana Meru",
+    "Jean-François Gonzalez",
+    "Sergei Nayakshin",
+    "Sahl Rowther"
+   ],
+   "link": "https://arxiv.org/abs/2609.10375v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究通过2D流体动力学模拟结合3D辐射转移计算,考察了后期内流触发的引力不稳定性(GI)在原行星盘中的长期演化过程。研究发现,内流停止后毫米粒度尘埃与气体耦合,盘面经历从大尺度螺旋结构向多个长寿命压力最大值(尘埃环)的逐步演化,这些环是螺旋诱发激波的遗迹。结果表明大质量盘可在引力湍流状态驱动下,从连续形成螺旋的动态阶段过渡到相对稳定的多环结构阶段,同时速度场中的螺旋特征可在线发射中持久保留。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/ae8c2d",
+   "title": "A Homogeneous Survey of JWST-MIRI Transmission Spectra of 10 Exoplanets",
+   "abstract": "Abstract The launch of JWST has enabled unprecedented atmospheric characterization of exoplanets. In particular, the JWST-MIRI instrument in the mid-infrared enables probing of molecular species that are harder to detect in the near-infrared. This has come to the fore with the first MIRI-LRS observation of a candidate hycean world, K2-18 b, with potential signs of dimethyl sulfide in its atmosphere. The statistical significance of this result has been debated in subsequent works, arguing instead for the possibility of random noise, instrumental systematics, or a different molecule. The same applies to similar spectra reported for several other exoplanets using MIRI-LRS and interpreted with similar retrieval architectures. In this work, we distinguish between these possibilities with a homogeneous survey of MIRI-LRS transmission spectra of 10 diverse exoplanets, from temperate sub-Neptunes to hot rocky planets and gas giants. We first perform a comparative assessment of the spectra, considering fits with featureless models and pairwise correlations, followed by extensive atmospheric retrievals. With the retrievals, we search for over 150 trace species in the atmosphere of each planet. We find hints of complex molecules in the temperate sub-Neptunes and candidate hycean worlds K2-18 b, TOI-732 c, and TOI-270 d, similar to previous works, but not in the other seven planets. Our results indicate that the observed spectral features are likely due to molecular absorption rather than instrument systematics or noise and underscore these temperate sub-Neptunes as a unique class of planets. More observations are required to robustly identify the specific molecules and constrain the underlying chemical processes, biotic or abiotic.",
+   "authors": [
+    "Martin Binet",
+    "Nikku Madhusudhan",
+    "Måns Holmberg",
+    "Subhajit Sarkar"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/ae8c2d",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究对JWST-MIRI获取的10颗系外行星的透射光谱进行了同源调查,通过无特征模型拟合、关联分析和大规模大气反演(搜索150多种微量物种)来区分真实分子信号与仪器噪声或系统误差。研究发现温度适中的亚海王星(K2-18 b、TOI-732 c和TOI-270 d)的光谱特征可能源自复杂分子吸收而非仪器效应,突显了这类行星的独特性,但需进一步观测以确定具体分子身份和化学过程来源。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9a73",
+   "title": "Spectral Constraints on the Surface Material of Asteroid (469219) Kamoʻoalewa",
+   "abstract": "Abstract Recent JWST observations reveal that the Earth’s quasi-satellite (469219) Kamoʻoalewa possesses a high geometric albedo and a flat near-infrared spectrum, in contrast with earlier ground-based observations, posing new challenges to its compositional identification. This study evaluates the potential surface composition of Kamoʻoalewa by combining its ground-based visible spectrum with JWST photometric and spectral data. Integrated constraints from spectral profiles and absolute reflectance identify FeO-free synthetic anorthite and aubrites as the primary candidate materials. While spectrally featureless and indistinguishable in the visible and near-infrared, these two candidates can be resolved in the mid-infrared by the thermal emission spectrometer onboard China’s Tianwen-2 mission. Importantly, a subtle absorption feature in the 1.2–2.1 μ m range detected by JWST–absent in common silicate minerals–may serve as the key to identifying Kamoʻoalewa’s true nature, suggesting it likely represents a novel, previously uncharacterized class of small body.",
+   "authors": [
+    "Pei Ma",
+    "Zhiyong Xiao",
+    "Jian-Yang Li",
+    "Yunhua Wu"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9a73",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "emission spectr"
+   ],
+   "summary_zh": "本研究通过整合地基可见光谱与JWST光度和光谱数据,评估地球类木星(469219)Kamoʻoalewa的表面成分,发现其高几何反照率和平坦近红外谱特征与早期观测不符。光谱特征和绝对反射率的联合约束将无铁合成斜长石和橄榄陨石识别为主要候选物质,两者可通过天问二号热发射谱仪在中红外波段区分。该小行星在1.2-2.1μm范围内JWST探测到的微弱吸收特征可能是确定其真实成分的关键,暗示其代表一类新的、未曾表征过的小天体。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae990a",
+   "title": "Atmospheric Reconnaissance of TRAPPIST-1 f with JWST NIRISS SOSS: No Evidence for the Transit Light Source Effect",
+   "abstract": "Abstract In just over 3 yr of operation, JWST has observed all seven planets of the TRAPPIST-1 system. The two innermost planets were found to have little to no atmosphere, barring the presence of high-altitude aerosols. Here we present the first JWST transit spectra of the habitable-zone exoplanet TRAPPIST-1 f, which were obtained with NIRISS SOSS over the course of five transits. At least one stellar flare occurred in each visit, but unlike observations of closer-in TRAPPIST-1 planets, no evidence for contamination of the transit spectra from unocculted stellar surface heterogeneities was found. This nondetection does not guarantee the absence of unocculted heterogeneities in all future transit observations of this planet, and it could be explained by the transit chord of TRAPPIST-1 f having properties similar to the average, out-of-transit, visible stellar hemisphere at the time of observation. The transit spectra exhibit slopes ranging from −365 ppm μ m −1 down to 15 ppm μ m −1 , which we attribute to stellar variability, that is, flares and/or smaller-scale events. The visits least affected by flares rule out H 2 /He-dominated atmospheres with surface pressures higher than about 20 mbar at 95% confidence. For high-mean-molecular-mass atmospheres, the exact upper limits on surface pressures depend on the reduction pipeline and on the treatment of the residual slopes in the transit spectra.",
+   "authors": [
+    "Olivia Lim",
+    "René Doyon",
+    "Ryan J. MacDonald",
+    "Étienne Artigau",
+    "Michael Radica",
+    "Mykhaylo Plotnykov",
+    "Alexandrine L’Heureux",
+    "Caroline Piaulet-Ghorayeb",
+    "Louis-Philippe Coulombe",
+    "David Lafrenière",
+    "Thomas J. Fauchez",
+    "Martin Turbet",
+    "Diana Valencia",
+    "Loïc Albert",
+    "Laura Flagg",
+    "Björn Benneke",
+    "Neil J. Cook",
+    "Pierre-Alexis Roy",
+    "Lisa Kaltenegger",
+    "Charles Cadieux",
+    "Nicolas B. Cowan",
+    "Michaël Gillon",
+    "Romain Allart",
+    "Lisa Dang",
+    "Doug Johnstone",
+    "Stefan Pelletier",
+    "Jared Splinter",
+    "Jake Taylor"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae990a",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "aerosol"
+   ],
+   "summary_zh": "本研究利用JWST NIRISS SOSS对宜居带系外行星TRAPPIST-1 f进行了五次凌日观测，首次获得其大气光谱数据。与靠近母星的TRAPPIST-1行星不同，该行星凌日光谱未发现星面异质性污染效应，但恒星耀斑和变率导致的光谱斜率变化（-365至15 ppm μm⁻¹）显著；排除了表面气压>20 mbar的H₂/He主导大气的可能性。该研究为TRAPPIST-1 f的大气探测提供了首个约束条件，并表明未来观测需考虑恒星活动的影响。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661549",
+   "title": "Unveiling the period-bounce population of cataclysmic variables. Spectroscopic and time-domain follow-up of eROSITA-selected candidates",
+   "abstract": "During their secular evolution, cataclysmic variable stars (CVs) evolve from long to short orbital periods (P_̊m orb) before reaching a minimum near P_ ̊m orb Beyond this stage, the donor departs from thermal equilibrium or becomes progressively degenerate, driving the system toward longer P_̊m orb. CVs that have evolved past this evolutionary turning point are known as period-bouncers (PBs). Despite predictions that 40–80% of all CVs should be PBs, only 3–25% of the observed CV population is actually composed of PBs. This discrepancy could possibly be attributed to their intrinsic low luminosities due to low mass-transfer rates. We aim to investigate the evolutionary status of 213 SRG/eROSITA-selected PB candidates through spectroscopic follow-up and time-domain observations. The sample also includes 19 previously confirmed PBs, which serve as benchmarks for evaluating the candidates. We confirmed CVs among the PB candidates through the identification of Balmer emission lines in follow-up optical spectra from Sloan Digital Sky Survey-V (SDSS-V). Additionally, archival photometric data from multiple time-domain surveys, including Transient Facility (ZTF), Asteroid Terrestrial-impact Last Alert System (ATLAS), All-Sky Automated Survey for Supernovae (ASAS-SN), and Catalina Real-time Transient Survey (CRTS), were used to construct long-term light curves and search for dwarf-nova outbursts. By fitting hydrogen-rich atmosphere models to the SDSS-V spectra, we were able to estimate the effective temperature (T_̊m eff) and secular mass accretion rate (łangle ̊angle) of the WDs. We also measured the Balmer decrements, used as diagnostics of the physical conditions of the accretion disc, to assess whether they are consistent with known PBs. In addition, we analysed archival two-minute cadence light curves from the Transiting Exoplanet Survey Satellite (TESS) to determine P_̊m orb for a subset of systems, and compiled multi-wavelength photometry data to construct and model spectral energy distributions (SEDs), which we used to infer approximate donor spectral types. Finally, we identified magnetic systems through Zeeman splitting in the Balmer lines and estimated their mean photospheric magnetic field strengths. Zwicky M We report the confirmation of 24 new CVs, comprising 18 systems identified through Balmer emission lines and 8 through outburst activity, with two systems independently identified by both methods. We constructed the SEDs for 14 of these systems, yielding donor T_ ̊m eff <1850,K in 13 cases and ̊m eff łesssim 2350,K for the remaining system. Our spectroscopic analysis of the new CVs observed with SDSS-V indicates that they are consistent with a PB nature, potentially increasing the population of confirmed PBs by ∼ 50%. Our results suggest that a substantial fraction of the PB population may remain hidden in WD catalogues. The combination of X-ray selection with spectroscopic and time-domain observations has led to the identification of additional systems that are very likely PBs. This strategy emerges as a powerful means to uncover these elusive systems, offering a systematic approach toward resolving the long-standing discrepancy between theoretical predictions and the observed PB population.",
+   "authors": [
+    "S. Hernández-Díaz",
+    "B. Stelzer",
+    "A. Schwope",
+    "D. Muñoz-Giraldo",
+    "M. R. Schreiber",
+    "J. Brink",
+    "K. G. Pradeep",
+    "B. T. Gänsicke",
+    "M. Eracleous",
+    "K. Szekerczes",
+    "S. F. Anderson",
+    "J. R. Brownstein"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661549",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过eROSITA X射线巡天选源,利用SDSS-V光谱和多个时域巡天(ZTF、ATLAS、ASAS-SN、CRTS、TESS)的数据,对213个周期反弹型激变变星(period-bouncers, PBs)候选体进行了系统的分光和时域跟踪观测。研究确认了24个新的激变变星,其中18个通过Balmer发射线识别,8个通过矮新星爆发识别,光谱分析表明这些系统与PB性质一致,可将已确认的PB群体增加约50%。研究结果表明,结合X射线选源与分光和时域观测的策略能够有效发现低光度的PB系统,有助于解决长期存在的理论预测与观测PB群体比例的不一致问题。"
+  },
+  {
+   "id": "doi:10.1126/science.adw4498",
+   "title": "The parent bodies of Ryugu and Ivuna formed before those of other carbonaceous chondrites",
+   "abstract": "Most carbonaceous chondrite (CC) meteorites contain abundant chondrules, millimeter-scale spherical inclusions of previously molten material. Ivuna-type carbonaceous chondrites (CIs) do not contain chondrules, nor do samples of the carbonaceous asteroid Ryugu. CIs and Ryugu share isotopic properties distinct from those of other CCs, implying that their parent bodies formed at a different time or place than those of other CCs. We applied manganese-chromium dating and oxygen isotope thermometry to Ryugu and Ivuna samples. The results indicate that the parent bodies of Ryugu and Ivuna formed less than 2 million years after the beginning of Solar System formation—before the majority of chondrules in CCs and the parent bodies of other CCs formed. This implies that Ryugu and CIs are remnants of an earlier generation of carbonaceous planetesimals.",
+   "authors": [
+    "Noriyuki Kawasaki",
+    "Kazuhide Nagashima",
+    "Naoya Sakamoto",
+    "Wataru Fujiya",
+    "Sota Arakawa",
+    "Ken-ichi Bajo",
+    "Noriko T. Kita",
+    "Kouki Kitajima",
+    "Alexander N. Krot",
+    "Gary R. Huss",
+    "Yoshinari Abe",
+    "Jérôme Aléon",
+    "Conel M. O’D. Alexander",
+    "Sachiko Amari",
+    "Yuri Amelin",
+    "Martin Bizzarro",
+    "Audrey Bouvier",
+    "Richard W. Carlson",
+    "Marc Chaussidon",
+    "Byeon-Gak Choi",
+    "Nicolas Dauphas",
+    "Andrew M. Davis",
+    "Tommaso Di Rocco",
+    "Ryota Fukai",
+    "Ikshu Gautam",
+    "Makiko K. Haba",
+    "Yuki Hibiya",
+    "Hiroshi Hidaka",
+    "Hisashi Homma",
+    "Tsuyoshi Iizuka",
+    "Trevor R. Ireland",
+    "Akira Ishikawa",
+    "Shoichi Itoh",
+    "Thorsten Kleine",
+    "Shintaro Komatani",
+    "Ming-Chang Liu",
+    "Yuki Masuda",
+    "Kazuko Motomura",
+    "Frédéric Moynier",
+    "Izumi Nakai",
+    "Ann Nguyen",
+    "Larry Nittler",
+    "Andreas Pack",
+    "Changkun Park",
+    "Laurette Piani",
+    "Liping Qin",
+    "Sara S. Russell",
+    "Maria Schönbächler",
+    "Kentaro Terada",
+    "Yasuko Terada",
+    "Tomohiro Usui",
+    "Sohei Wada",
+    "Meenakshi Wadhwa",
+    "Richard J. Walker",
+    "Katsuyuki Yamashita",
+    "Qing-Zhu Yin",
+    "Tetsuya Yokoyama",
+    "Shigekazu Yoneda",
+    "Edward D. Young",
+    "Hiroharu Yui",
+    "Ai-Cheng Zhang",
+    "Tomoki Nakamura",
+    "Hiroshi Naraoka",
+    "Takaaki Noguchi",
+    "Ryuji Okazaki",
+    "Kanako Sakamoto",
+    "Hikaru Yabuta",
+    "Masanao Abe",
+    "Akiko Miyazaki",
+    "Aiko Nakato",
+    "Masahiro Nishimura",
+    "Tatsuaki Okada",
+    "Toru Yada",
+    "Kasumi Yogata",
+    "Satoru Nakazawa",
+    "Takanao Saiki",
+    "Satoshi Tanaka",
+    "Fuyuto Terui",
+    "Yuichi Tsuda",
+    "Sei-ichiro Watanabe",
+    "Makoto Yoshikawa",
+    "Shogo Tachibana",
+    "Hisayoshi Yurimoto"
+   ],
+   "link": "https://doi.org/10.1126/science.adw4498",
+   "source": "Science",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过锰铬定年和氧同位素温度测量方法,分析了龙宫小行星和Ivuna陨石样品,发现它们的母体形成于太阳系形成后不足200万年,早于其他碳质球粒陨石中的球粒和母体的形成时间。这表明龙宫和CI型陨石是更早一代碳质微行星的遗留物,暗示行星形成过程中存在至少两个不同的碳质天体形成阶段。"
+  }
+ ],
  "2026-09-10": [
   {
    "id": "arxiv:2609.10035",
