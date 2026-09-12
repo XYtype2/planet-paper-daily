@@ -1,4 +1,134 @@
 {
+ "2026-09-12": [
+  {
+   "id": "arxiv:2609.11925",
+   "title": "The Mysterious Inspiral of WASP-12b: Why Obliquity Tides Cannot Drive Orbital Decay",
+   "abstract": "WASP-12b's orbit is decaying, for unknown reasons. The planet's period is shrinking more rapidly than can be attributed to equilibrium tides or dynamical tides in a main-sequence star. Planetary obliquity tides could be sufficiently dissipative to drive WASP-12b's inspiral, but would also damp the planet's obliquity, halting the decay. Millholland & Laughlin proposed that a nearby, low-mass planet ($\\sim 10$ M$_\\oplus$) is maintaining a large obliquity for WASP-12b, sustaining the dissipation. We re-evaluated this hypothesis, finding that the companion must be more massive than originally proposed ($\\gtrsim 65$ M$_\\oplus$) to absorb WASP-12b's orbital angular momentum. Radial velocity data allowed us to rule out a companion of this type. Any companions within $3$ AU have $K \\lesssim 14$ m/s at $95$% confidence.",
+   "authors": [
+    "Caleb Lammers",
+    "Yubo Su",
+    "Joshua N. Winn"
+   ],
+   "link": "https://arxiv.org/abs/2609.11925v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过数值模拟和径向速度数据分析,检验了低质量伴星通过维持热木星WASP-12b的大倾角来驱动其黄道倾角潮汐耗散并导致轨道衰减的假说。研究发现,该假说要求伴星质量至少为65 M⊕以吸收WASP-12b的轨道角动量,但径向速度观测以95%置信度排除了这样的伴星存在。因此,黄道倾角潮汐无法解释WASP-12b异常快速的轨道衰减,其真实物理机制仍需进一步探索。"
+  },
+  {
+   "id": "arxiv:2609.11798",
+   "title": "Planetary Accretion Is Less Frequent in Wide Binaries: Evidence from Metal-Enriched White Dwarfs in DESI DR1",
+   "abstract": "Binary stars are common in the Galaxy, and understanding how stellar binarity influences the formation and evolution of planetary systems is an active area of research. In this study, we use metal-enriched white dwarfs in wide binaries as tracers of long-lived planetary systems. With Data Release 1 from the Dark Energy Spectroscopic Instrument (DESI), we find that the fraction of cool metal-enriched white dwarfs in wide binaries is 9.8\\,$\\pm$\\,2.1\\%, significantly lower (4.7\\,$σ$) than the 20.5\\,$\\pm$\\,0.9\\% in a control sample of single systems. Furthermore, we identify a tentative dependence of metal enrichment on projected separation and white dwarf effective temperature, where enrichment fraction decreases at smaller separations and lower temperatures. These findings indicate that, compared to single stars, binary systems either start with smaller initial planetary reservoirs due to suppressed planetesimal formation or undergo more rapid depletion of planetary material during the initial part of the white dwarf stage.",
+   "authors": [
+    "Siyi Xu",
+    "Laura. K. Rogers",
+    "Joan Najita",
+    "Boris T. Gänsicke",
+    "Paula Izquierdo",
+    "Sergey E. Koposov",
+    "Christopher J. Manser",
+    "Andrew Swan",
+    "Sandford Nathan",
+    "Wang Wenting",
+    "J. Aguilar",
+    "S. Ahlen",
+    "C. Allende Prieto",
+    "D. Bianchi",
+    "D. Brooks",
+    "T. Claybaugh",
+    "A. de la Macorra",
+    "J. E. Forero-Romero",
+    "Satya Gontcho A Gontcho",
+    "G. Gutierrez",
+    "R. Joyce",
+    "M. Landriau",
+    "L. Le Guillou",
+    "A. Meisner",
+    "R. Miquel",
+    "W. J. Percival",
+    "F. Prada",
+    "I. Pérez-Ràfols",
+    "G. Rossi",
+    "E. Sanchez",
+    "D. Schlegel",
+    "J. Silber",
+    "G. Tarlé",
+    "B. A. Weaver",
+    "R. Zhou"
+   ],
+   "link": "https://arxiv.org/abs/2609.11798v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究利用DESI DR1数据中宽食双星系统内的金属污染白矮星作为长期存在行星系统的示踪体，发现宽食双星中金属污染白矮星的比例（9.8%）显著低于单星系统（20.5%），表明双星环境抑制了行星吸积。分析表明金属污染程度与投影分离度和白矮星有效温度存在关联，这提示双星系统可能因行星体形成抑制导致初始行星物质储量较少，或在白矮星早期阶段经历更快速的行星物质耗散。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9755",
+   "title": "Properties of Linear Magnetic Holes at Jupiter Based on Juno Observations",
+   "abstract": "Abstract Magnetic holes (MHs) are localized magnetic depressions widely observed in space plasmas and are important for understanding plasma instability, particle dynamics, and energy conversion. Among them, linear magnetic holes (LMHs), defined by strong magnetic depressions with little field rotation, have been reported at several terrestrial planets, but their global properties at Jupiter remain poorly understood. Here, by using 10 yr. of Juno observations, we present the first comprehensive study of LMHs in Jupiter’s space environment. We investigate their spatial distribution, occurrence rate, timescales, and associated electron dynamics and show that LMHs are widespread in both the magnetosheath and magnetosphere and can persist for much longer timescales than those observed at terrestrial planets. Electron measurements reveal diverse pitch-angle distributions dominated by isotropic and field-aligned populations, as well as frequent energetic-electron flux enhancements. These results suggest that Jovian LMHs represent a large-scale extension of MH structures and that their properties depend on plasma environment and system size, providing new constraints on the universality of LMHs across the heliosphere.",
+   "authors": [
+    "C. Q. Wang",
+    "Z. Wang",
+    "Z. X. Wen",
+    "Z. Z. Guo",
+    "W. D. Fu",
+    "W. Z. Zhang"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9755",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究利用10年的Juno卫星观测数据，首次系统研究了木星磁层和磁鞘中线性磁孔的空间分布、发生率、时间尺度及相关电子动力学特性。研究发现木星的线性磁孔广泛分布且持续时间远长于地球行星观测结果，电子测量显示各向同性和沿磁场方向的复杂分布，以及频繁的高能电子通量增强。这些结果表明木星线性磁孔代表了更大尺度的磁孔结构，其性质与等离子体环境和系统尺度相关，为理解整个日球层中磁孔的普遍性提供了新的约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9c2b",
+   "title": "Spin–Orbit Alignment of Two Neptune-size Planets Younger Than 500 Myr: TOI-560 b and TOI-5082 b",
+   "abstract": "Abstract Stellar obliquity measurements provide a direct probe of planetary system dynamics, but remain sparse for Neptune-size planets, particularly at young ages. We present Rossiter–McLaughlin measurements for two young Neptune-size planets, TOI-560 b and TOI-5082 b, using time-resolved Keck Planet Finder (KPF) spectroscopy and joint modeling with TESS transit photometry. We measure sky-projected obliquities of λ b = −25° ± 16° for TOI-560 b and λ b = 1 9 ° − 13 ° + 17 ° for TOI-5082 b. Combining these constraints with stellar rotation periods and spectroscopic estimates of v sin i ⋆ , we obtain 95% upper limits of ψ < 69 . ° 7 and ψ < 50 . ° 5, respectively. Both systems are therefore consistent with low to moderate true obliquities and show no evidence of strong spin-orbit misalignment. With ages of 480 ± 190 Myr for TOI-560 b and 180 ± 9 Myr for TOI-5082 b (a likely member of the CRIUS197 stellar association), the systems are in a key evolutionary phase when postdisk dynamical processes such as secular interactions may begin to manifest. Nevertheless, both systems remain consistent with low obliquity. In the broader context of young systems with existing measurements, these results support an emerging picture in which Neptune-size planets at ≲1 Gyr are commonly found in low-obliquity configurations.",
+   "authors": [
+    "Elina Y. Zhang",
+    "Fei Dai",
+    "Andrew W. Howard",
+    "Samuel P. Halverson",
+    "Howard Isaacson",
+    "Ryan A. Rubenzahl",
+    "Huan-Yu Teng",
+    "Xian-Yu Wang",
+    "Songhu Wang",
+    "Daniel Hey",
+    "Daniel Huber",
+    "Benjamin J. Fulton",
+    "Jack Lubin",
+    "Luke B. Handley",
+    "Steven Giacalone",
+    "Erik A. Petigura",
+    "Lauren M. Weiss",
+    "Aaron Householder",
+    "Casey Y. Lam",
+    "Judah Van Zandt",
+    "Steve R. Gibson",
+    "Kodi Rider",
+    "Arpita Roy",
+    "Ashley Baker",
+    "Jerry Edelstein",
+    "Christopher L. Smith",
+    "Josh Walawender",
+    "Joshua N. Winn"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9c2b",
+   "source": "The Astronomical Journal",
+   "category": "散射与动力学演化",
+   "matched": [
+    "spin-orbit misalignment"
+   ],
+   "summary_zh": "本研究通过Keck Planet Finder的罗西特-麦克劳林效应测量，获得了两颗年龄均小于500 Myr的海王星级行星TOI-560 b和TOI-5082 b的自转-轨道倾角，结合TESS凌星光度测光和恒星参数约束，测得它们的真实倾角均处于低至中等水平。这两个系统虽处于后吸积盘动力学过程（如世俗相互作用）可能开始显现的关键演化阶段，但均未显示出强烈的自转-轨道失准现象，与年轻系统中海王星级行星普遍保持低倾角的新兴图景相符。"
+  }
+ ],
  "2026-09-11": [
   {
    "id": "arxiv:2609.10850",
@@ -12360,6 +12490,5 @@
    ],
    "summary_zh": "作者用 Keck/KPF 高分辨率光谱首次探测到逃逸行星大气的氢原子发射:超热木星 KELT-9 b 日面的 Hα 气辉呈双峰加中心自吸收的独特轮廓。结合 NLTE 外流模型,该轮廓打破了透射光谱中温度与质量损失率的简并,给出质量损失率 ≥10^13 g/s——迄今气态行星中的最高纪录之一,并支持 A 型星的近紫外辐射驱动 Balmer 逃逸的机制。这一结果为研究极端辐射环境下行星大气的长期演化打开了新窗口。"
   }
- ],
- "2026-07-13": []
+ ]
 }
