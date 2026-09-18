@@ -1,4 +1,34 @@
 {
+ "2026-09-18": [
+  {
+   "id": "doi:10.3847/1538-4357/ae93a0",
+   "title": "A Search for Substellar Companions around A-type Stars: Pulsation Timing Detection of Eight Brown Dwarf Candidates and a Possible Habitable-zone Planet",
+   "abstract": "Abstract Substellar companions are most often studied around solar-like or smaller stars, as the rapid rotation and variability of massive stars impede detection using traditional methods. An alternative technique, pulsation timing, uses photometry to measure light-travel-time variations—the time integral of the radial velocity signal—providing orbital constraints with strong sensitivity to intermediate-period companions. We analyze the pulsation timing variations of 16,440 δ Scuti pulsators from the Transiting Exoplanet Survey Satellite (TESS), with the goal of identifying substellar companions. We report the discovery of one candidate planet, HD 156295 b, and eight candidate brown dwarfs by fitting orbital models to the pulsation timing variations, which are consistent with the constraints from Hipparcos–Gaia astrometric acceleration, when available. We infer a mass of 6.3 ± 1.1 M J for the planet, which is in agreement with the 2 σ upper limit of 10.5 M J derived from Hipparcos–Gaia accelerations. If confirmed, HD 156295 would be the hottest star to host a habitable-zone planet. Given this candidate, we infer an occurrence rate of η = 0.1 0 − 0.08 + 0.21 for 5–10 Jupiter mass planets with periods between 1900 and 2600 days around A-type stars. If the system is instead a false positive, we infer the 1 σ and 2 σ upper limits on the occurrence rate to be 19% and 39%, respectively. Astrometric follow-up could confirm and further characterize the planet candidate. At least two of our candidate brown dwarf systems represent useful targets for follow-up with direct imaging.",
+   "authors": [
+    "Logan G. Wilson",
+    "Daniel Hey",
+    "Benjamin J. Shappee",
+    "Jingwen Zhang",
+    "Kiana Ejercito",
+    "Theron Carmichael",
+    "Simon J. Murphy",
+    "John Asher Johnson",
+    "Daniel Huber"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae93a0",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "radial velocity",
+    "transiting exoplanet",
+    "astrometric",
+    "occurrence rate",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用TESS数据对16440颗δ Scuti脉动变星进行脉动时序分析，采用光传播时间变异技术探测A型星周围的亚恒星伴星，该方法对中等周期伴星具有强敏感性。研究发现了1颗候选行星HD 156295 b（质量6.3±1.1木星质量，可能位于宜居带）和8颗候选褐矮星，其轨道约束与Hipparcos-Gaia天体测量加速度一致。推断A型星周围存在5-10木星质量、周期1900-2600天行星的发生率为0.1 0 − 0.08 + 0.21，若该系统被证实，HD 156295将是已知最热的宜居带行星宿主星。"
+  }
+ ],
  "2026-09-17": [
   {
    "id": "doi:10.3847/1538-4357/ae9d62",
@@ -10232,6 +10262,5 @@
    ],
    "summary_zh": "本研究开发了一种机器学习方法，利用行星轨道周期、半径、恒星有效温度、半径、凌日深度和持续时间等六个参数，在联合TESS和Kepler数据训练下实现了对系外行星候选体确认可能性的仪器无关预测。研究发现单一仪器数据训练的模型难以跨平台应用，但联合训练的集合模型在两个数据集上均表现良好，能够有效识别高优先级的行星候选体。该方法可扩展到未来的Roman望远镜数据，为大规模行星候选体的优先级排序提供了可靠的工具。"
   }
- ],
- "2026-07-19": []
+ ]
 }
