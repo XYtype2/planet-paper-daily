@@ -1,4 +1,83 @@
 {
+ "2026-09-19": [
+  {
+   "id": "doi:10.3847/1538-4357/ae9a76",
+   "title": "The Tidal Venus Phenomenon: Demographics and Case Studies",
+   "abstract": "Abstract The demographics of terrestrial planets and their orbits reveal a vast diversity in overall planetary energy budgets. Terrestrial exoplanets in short-period or eccentric orbits can experience intense tidal heating that, combined with stellar irradiation, may trigger runaway greenhouse conditions analogous to Venus. We calculate tidal heating rates for 143 terrestrial-sized exoplanets with measured eccentricities and find that, under adopted archive default eccentricities and constant- Q assumptions, 70% exceed the extreme volcanism threshold in tidal flux and 96% exceed the runaway greenhouse limit in total zero-albedo flux. We develop a three-category taxonomy of tidal influence on climate: flux-driven Venus analogs, tidally dominated planets, and historically compromised habitable zone worlds, and apply this framework to five case studies. TOI-6716 b and TOI-912 b may have exceptionally high tidal fluxes, potentially serving as examples where tidal dissipation alone causes them to exceed the runaway greenhouse threshold. TOI-700 d and LHS 1140 b, though currently below the threshold, were exposed to above-threshold stellar irradiation during their host stars’ ∼0.5–3 Gyr pre-main-sequence phases; whether their atmospheres survived is testable with JWST. GJ 12 b, already above the threshold from stellar flux alone, experiences a tidal heat flux of ∼5 W m −2 (comparable to Io) that drives an independent volcanic pathway to a runaway greenhouse. Three-dimensional climate simulations show that a temperate atmosphere for GJ 12 b fails to achieve radiative balance, while a Venus-like CO 2 -dominated atmosphere converges to a stable state. We consider observational prospects for these systems and connections to forthcoming Venus in situ missions.",
+   "authors": [
+    "Stephen R. Kane",
+    "Emma L. Miles"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9a76",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过计算143颗具有测量偏心率的类地系外行星的潮汐加热率，发现大多数行星会因潮汐加热和恒星照射的共同作用触发失控温室效应，并建立了潮汐影响气候的三分类框架。通过五个案例研究（包括TOI-6716 b、TOI-912 b等）的详细分析和三维气候模拟，揭示了潮汐耗散如何驱动行星大气演变并可能导致类金星状态。这些结果为理解短周期和高偏心率类地行星的可居住性和大气动力学提供了新的约束，并为JWST等观测工具的后续研究指明了方向。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9761",
+   "title": "SMA Observations Reveal Abundant HNC Chemistry in Transition Disks",
+   "abstract": "Abstract The physical and chemical conditions of protoplanetary disks shape the properties of nascent planetary systems. The line ratios and relative abundances of the hydrogen cyanide (HCN)–hydrogen isocyanide (HNC) isomer pair are well-suited for tracing these gas conditions, since isomer chemistry is linked to the underlying temperature, elemental abundances, and irradiation environment of the emitting gas. While HCN emits bright lines regularly observed in disks, the fainter HNC lines are targeted significantly less often, precluding our ability to calibrate the HNC-to-HCN ratio as a tracer of disk properties. Here, we present new Submillimeter Array observations of five transition disks around the T Tauri stars GM Aur, J1604, LkCa 15, GG Tau, and V4046 Sgr, covering the J = 3–2 and J = 4–3 lines of HCN and HNC. We detected at least one line of both HCN and HNC in each source and measured disk-integrated HNC-to-HCN flux and column density ratios of ≈0.1–0.7 and 0.1–0.4, respectively. For all sources, measured HNC fluxes exceed predictions from models of full (nontransition) disks by ≈3–10×, while HCN fluxes appear typical. The relative brightness of HNC versus HCN in transition disks strongly suggests a link between the presence of a cavity and efficient HNC production. We corroborate this trend using chemical models of the DM Tau transition disk, showing HNC production and destruction are connected to the radiation environment. In our sample, disk-integrated HNC-to-HCN column density ratio shows no trend with disk gas temperature but positively correlates with disk mass due to increased HNC abundance in the larger reservoirs of cooler gas in more massive disks.",
+   "authors": [
+    "Kyle Gresko",
+    "Charles J. Law",
+    "Deryl E. Long",
+    "L. Ilsedore Cleeves",
+    "Feng Long",
+    "Yuri Aikawa",
+    "Jennifer B. Bergner",
+    "Romane Le Gal",
+    "Viviana V. Guzmán",
+    "Karin I. Öberg",
+    "David J. Wilner"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9761",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究利用次毫米阵列观测了五个过渡盘中的HCN和HNC分子线,发现过渡盘中HNC丰度异常高(超过典型盘模型预测3-10倍),表明空腔的存在通过改变辐射环境促进了HNC的有效产生。化学模型验证了HNC的产生与破坏与盘的辐射环境密切相关,且盘中HNC/HCN的柱密度比与盘质量正相关,反映了大质量盘中冷气体区域的HNC丰度增加。这些结果表明HNC/HCN比值可作为示踪过渡盘物理化学条件的有力工具,为理解行星形成环境的气体特性提供了新的约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae5bb8",
+   "title": "DPNNet-3.0: Identifying Multiple Hidden Planets and Estimating their Masses from Protoplanetary Disk Images using Convolutional Neural Networks",
+   "abstract": "Abstract Identifying young planets and inferring their masses from annular gaps and other substructures observed in protoplanetary disks requires fitting the observed features with hydrodynamical or empirical disk models. The models’ computational cost makes such detections often imprecise or outright impractical. We present DPNNet-3.0, a tool to predict exoplanet masses from protoplanetary disk millimeter-wave dust continuum images using a convolutional neural network. Compared to the previous studies in this series of papers, we extend the parameter space to include disks with multiple planets. We apply the RADMC3D radiative transfer code to a set of disk models obtained with the FARGO3D hydrodynamics code to create synthetic images resembling millimeter-wave observations with the model disks viewed at various inclinations. We train DPNNet-3.0 on the set of improved synthetic images to predict the existence of planets and estimate their masses directly from the observations. We quantify the predictions’ reliability when applied to observations of HD163296 from the ALMA telescope, and find good agreement with results in the literature.",
+   "authors": [
+    "Subhrat Praharaj",
+    "Sayantan Auddy",
+    "Neal J. Turner",
+    "Ramit Dey",
+    "Min-Kai Lin"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae5bb8",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究开发了DPNNet-3.0卷积神经网络模型，用于从原行星盘毫米波尘埃连续统图像中直接识别多颗隐藏行星并估算其质量，扩展了先前仅限单行星的参数空间。通过FARGO3D和RADMC3D代码生成训练用的合成图像，该模型能够避免传统流体动力学模型拟合的高计算成本，实现快速精确的行星探测。在HD163296的ALMA观测数据上的验证表明，该方法的预测结果与已发表文献结果相符，为原行星盘中多行星系统的研究提供了高效工具。"
+  },
+  {
+   "id": "doi:10.1038/s41550-026-02976-6",
+   "title": "Planetesimal compositions governed by aerodynamic sorting from the onset of Solar System formation",
+   "abstract": "",
+   "authors": [
+    "Damanveer S. Grewal",
+    "Zhongtian Zhang",
+    "Joanna Drążkowska"
+   ],
+   "link": "https://doi.org/10.1038/s41550-026-02976-6",
+   "source": "Nature Astronomy",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过气动分选机制解释了太阳系形成初期微行星的成分差异。我们建立了在原行星盘中不同大小固体颗粒根据气动阻力分异分布的模型,并通过数值模拟和分析方法验证了该机制如何导致微行星在形成阶段即具有不同的化学组成。研究结果表明,气动分选从太阳系形成的最初阶段就开始塑造微行星的成分特征,为解释现代行星系统中观测到的成分多样性提供了新的物理基础。"
+  }
+ ],
  "2026-09-18": [
   {
    "id": "doi:10.3847/1538-4357/ae93a0",
@@ -10206,61 +10285,6 @@
     "atmospheric"
    ],
    "summary_zh": "本研究通过构建包含非绝热稳定层的温度-压力剖面来调查这些稳定层对木星重力场和喷流结构的影响，利用热风平衡关系计算重力谐波并与Juno观测进行对比。结果表明稳定层显著改变背景密度结构，要求喷流更快衰减以满足观测约束，同时扩大了物理上合理的风结构解的范围。研究揭示热力学密度结构与竖直风廓线之间存在强烈的简并性，说明在缺乏行星内部稳定性独立约束的情况下，喷流结构无法被唯一确定。"
-  }
- ],
- "2026-07-21": [
-  {
-   "id": "doi:10.3847/1538-4357/ae801f",
-   "title": "GEMS JWST: A Subsolar Metallicity Atmosphere for Giant Planet TOI-5293 A b Orbiting a Rapidly Changing M Dwarf",
-   "abstract": "Abstract The growing sample of giant exoplanets around M dwarf stars (GEMS) helps probe the extremes of giant planet formation. Comparing the properties of this sample with their FGK counterparts can help us understand how planet formation and migration depend on stellar mass. We initiated a large Cycle 2 JWST transmission spectroscopy survey of seven GEMS. Here we present the atmospheric characterization using two JWST transits of TOI-5293 A b, a 0.5 M Jup planet orbiting an early M dwarf with a period of ∼3 days. The two NIRSpec/PRISM transits indicate the planet is eclipsing a rapidly changing (heterogeneous) stellar photosphere. We see that Visit 1 had heterogeneity crossings across the entire transit chord, rendering inferences from it to be unreliable. The Visit 1 spectrum exhibits a downward slope at <1 μ m suggestive of stellar contamination from faculae. In contrast, for Visit 2 we are able to model the heterogeneity crossings and obtain a transmission spectrum free from stellar contamination. We therefore limit our conclusions to a detailed analysis of Visit 2, and using Bayesian free chemistry retrievals, we find a low atmospheric metallicity ( log [ M / H ] = − 1.0 3 − 0.44 + 0.53 × solar) and supersolar C/O ratio ( 1.2 3 − 0.75 + 2.94 ). The retrievals yield Bayes factors that indicate strong evidence for CH 4 as well as low-significance detections of CO 2 , H 2 O, and NH 3 . Finally, using thermal evolution models we find that the radius of TOI-5293 A b is inflated above theoretical expectations (∼1.07 R Jup ), despite it having an temperature of ∼700 K, and hence we were unable to constrain its bulk composition.",
-   "authors": [
-    "Shubham Kanodia",
-    "Caleb I. Cañas",
-    "Jacob Lustig-Yaeger",
-    "Giannina Guzmán Caloca",
-    "Nicole L. Wallack",
-    "Simon Müller",
-    "Ravit Helled",
-    "Knicole D. Colón",
-    "Ian Czekala",
-    "Megan Delamer",
-    "Te Han",
-    "Jessica Libby-Roberts",
-    "Anjali A. A. Piette",
-    "Kevin B. Stevenson",
-    "Guđmundur Stefánsson",
-    "Johanna Teske"
-   ],
-   "link": "https://doi.org/10.3847/1538-4357/ae801f",
-   "source": "The Astrophysical Journal",
-   "category": "行星大气",
-   "matched": [
-    "atmosphere",
-    "atmospheric",
-    "transmission spectr"
-   ],
-   "summary_zh": "本研究利用JWST对绕M矮星TOI-5293 A的巨行星进行了两次凌星传输光谱观测,发现该行星大气具有远低于太阳丰度的金属量(约0.01倍太阳丰度)和超太阳C/O比,强烈检测到甲烷并弱检测到CO₂、H₂O和NH₃。虽然恒星异质性污染使第一次观测数据不可靠,但通过建模消除污染后的第二次观测揭示了行星的低金属量大气组成,尽管热演化模型难以解释其膨胀的半径,这为M矮星周围巨行星的形成机制研究提供了重要约束。"
-  },
-  {
-   "id": "doi:10.3847/1538-3881/ae7d0f",
-   "title": "Toward Instrument-agnostic Exoplanet Candidate Prioritization",
-   "abstract": "Abstract We have developed a novel machine learning (ML) approach for predicting the likelihood of exoplanet candidate confirmation equally capable of performance on both Transiting Exoplanet Survey Satellite (TESS) and Kepler data. From the NASA exoplanet archival postprocessed Kepler and TESS databases, we chose six parameters that we assessed to be predictive to the planet transit signature: planet orbital period ( P ), planet radius ( R p ), stellar temperature ( T eff ), stellar radius ( R ⋆ ), planet transit depth ( δ ), and planet transit duration ( t d ). We used these parameters to evaluate eleven different ML models on all possible train/test combinations of TESS and Kepler data, using the confirmed planet and false positive (FP) labels as our training targets. We found that, due to substantially different distributions of our chosen parameters in Kepler and TESS databases, models trained with data from one instrument have difficulty predicting the other. However, models trained jointly with both TESS and Kepler data can perform well on both. We combined our best models into a statistically robust ensemble to evaluate the planet candidates in both Kepler and TESS, and we provide a list of the top candidates predicted by our model for each. Confirmed planets and FPs that have been resolved since the completion of our analysis demonstrate the effectiveness of our model and suggest that our top candidates are likely to be confirmed if they are further analyzed by the community. With the upcoming launch of the Nancy Grace Roman Space Telescope (Roman) and the expected order-of-magnitude increase in planet candidates, we suggest that our method can be extended to Roman data for robust and effective prioritization for analysis.",
-   "authors": [
-    "Vivaswan Kopparapu",
-    "Sibasish Laha",
-    "Brian P. Powell",
-    "Veselin Kostov",
-    "Rajarshi Basak",
-    "Samuel Verbrugge"
-   ],
-   "link": "https://doi.org/10.3847/1538-3881/ae7d0f",
-   "source": "The Astronomical Journal",
-   "category": "系外行星观测",
-   "matched": [
-    "transiting exoplanet",
-    "planet candidate"
-   ],
-   "summary_zh": "本研究开发了一种机器学习方法，利用行星轨道周期、半径、恒星有效温度、半径、凌日深度和持续时间等六个参数，在联合TESS和Kepler数据训练下实现了对系外行星候选体确认可能性的仪器无关预测。研究发现单一仪器数据训练的模型难以跨平台应用，但联合训练的集合模型在两个数据集上均表现良好，能够有效识别高优先级的行星候选体。该方法可扩展到未来的Roman望远镜数据，为大规模行星候选体的优先级排序提供了可靠的工具。"
   }
  ]
 }
