@@ -1,4 +1,119 @@
 {
+ "2026-09-24": [
+  {
+   "id": "doi:10.3847/1538-3881/ae9afe",
+   "title": "A High-resolution Spectroscopic Survey of Directly Imaged Companion Hosts. III. Characterization of the Cold Imaged Planet Hosts AF Lep A and ϵ Indi A",
+   "abstract": "Abstract JWST has enabled the measurementf of carbon, oxygen, and sulfur abundances in the atmospheres of directly imaged planets. Interpretation of these abundances from a planet formation standpoint requires the corresponding abundances for the host star. In this work, we present detailed characterizations of the cold imaged planet hosts AF Lep A and ϵ Indi A using high-resolution Gemini/GHOST spectra. We derive the atmospheric parameters T eff and log g using two different approaches, revealing differences in T eff up to ∼260 K. The derived parameters are subsequently incorporated in measurement of 16 elemental abundances (C, O, Na, Mg, Si, S, K, Ca, Sc, Ti, Cr, Mn, Fe, Ni, Zn, Y) and several abundance ratios. Utilizing both the spectral fit and the equivalent width methods, we find solar C/O, C/S, and O/S ratios (<1.5 σ ) for AF Lep A and ϵ Indi A. We compare our measured abundances and their ratios with those of the planets AF Lep b and ϵ Indi Ab, with the elevated abundances for the planets relative to their host stars strongly indicating formation by core-accretion pathways.",
+   "authors": [
+    "Aneesh Baburaj",
+    "Quinn M. Konopacky",
+    "Christopher A. Theissen",
+    "Jerry W. Xuan",
+    "Roman Gerasimov",
+    "Kielan K. W. Hoch"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9afe",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "core accretion"
+   ],
+   "summary_zh": "本研究通过Gemini/GHOST高分辨率光谱对直接成像行星主星AF Lep A和ϵ Indi A进行了详细表征,测量了16种元素丰度及多个丰度比。研究发现两颗主星的C/O、C/S和O/S比值与太阳相近,而其行星的元素丰度明显高于主星,强烈指示这些行星通过核心吸积过程形成,为理解直接成像行星的形成提供了重要证据。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659870",
+   "title": "The Ophiuchus DIsc Survey Employing ALMA (ODISEA). Substructures as a function of spectral energy distribution class and disc mass in 100 systems",
+   "abstract": "Understanding the origin of substructures in protoplanetary discs is one of the main challenges in the field. However, characterisation of these substructures is currently biased towards small samples of the brightest (flux ≳ 50 mJy at 225 GHz) and largest discs in nearby molecular clouds. We present a complete flux-limited high-resolution study of ∼100 discs from the Ophiuchus DIsc Survey Employing ALMA (ODISEA) spanning fluxes of ∼4-400 mJy at 225 GHz to investigate disc substructures as a function of spectral energy distribution class and disc mass using ALMA Band 8 continuum observations (410 GHz; 0.7 mm). The survey extends to faint discs containing as little as ∼2,M_⊕ of dust. Given the well-established flux–size relationship in discs, sources with flux ≥ 20,mJy at 225,GHz were observed at a nominal resolution of 20,au, while fainter sources were observed at a resolution three times higher. In both samples, we used the Frankenstein code to fit non-parametric models directly to the visibilities, achieving sub-beam resolution. We classified the substructures to place each object within an evolutionary sequence, inspired by our earlier qualitative definitions, linking disc morphology with different stages of giant planet formation. Stages I–V follow a progression from discs with weak substructures marked by inflection points through systems hosting one or more gap–ring pairs and additional weaker structures beyond them to discs with central cavities that either preserve multiple substructures or are reduced to a single dominant ring. We introduced Stage 0 to describe featureless discs and provide precise and systematic definitions for Stages 0–V. Our results show that despite higher optical depths, Band 8 is an efficient tracer of disc substructures and can recover, with shorter integration times, the same gaps and cavities observed at longer wavelengths. We find that the most massive discs (≳ 10,M_⊕ of dust) exhibit structures consistent with the proposed sequence, even when observed at a modest resolution. In this dust-mass regime, the incidence of evolved substructures (Stages II to V) increases from 23$%$ (6/26) in the Class I and flat-spectrum sources to ≳53$%$ (17/32) in the Class II objects. In contrast, very few lower-mass discs show the gaps and cavities typically associated with planet formation despite being observed at significantly higher resolution. This trend may partly reflect observational limitations given the very steep flux–size relationship, implying that observations at even higher spatial resolution are required to achieve the same number of resolution elements across the disc as in their higher-mass counterparts, which is required to probe the nature of these faint discs robustly. Our results support the idea that substructures in discs with ≳10,M_⊕ are consistent with the formation of giant planets and highlight the power of Band 8 observations to characterise disc substructures. Since ALMA can provide ∼1,au resolution in Band 8, where low-mass discs remain relatively bright, this band offers a viable path to probe substructures in discs with łesssim10,M_⊕, a regime that remains largely unexplored.",
+   "authors": [
+    "Trisha Bhowmik",
+    "Lucas Cieza",
+    "J. M. Miley",
+    "P. H. Nogueira",
+    "Camilo González-Ruilova",
+    "Prachi Chavan",
+    "Anibal Sierra",
+    "Anuroop Dasgupta",
+    "Simon Casassus",
+    "Grace Batalla-Falcon",
+    "Gioele Di Lernia",
+    "Antonio S. Hales",
+    "Jeff Jennings",
+    "Santiago Orcajo",
+    "Sebastián Pérez",
+    "Dary Ruíz-Rodriguez",
+    "Yangfan Shi",
+    "Jonathan P. Williams",
+    "Ke Zhang",
+    "Alice Zurlo"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659870",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究对ALMA Ophiuchus盘巡天(ODISEA)的~100个原行星盘进行了高分辨率通量限制观测,利用Band 8连续观测(410 GHz)系统研究了盘的亚结构与谱能量分布分类和盘质量的关系。研究发现,质量≳10 M⊕的盘展现出与巨行星形成相一致的演化序列(分为0-V阶段),其中演化结构(II-V阶段)在Class II源中的发生率(≳53%)显著高于Class I源(23%),而低质量盘(<10 M⊕)很少显示相关的间隙和空洞结构。这一结果支持≳10 M⊕盘中的亚结构主要源于巨行星形成过程,同时表明ALMA Band 8观测为探测低质量盘中的亚结构提供了新的可能性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661458",
+   "title": "X-shooter survey Across Regions and Ages to probe Disk Evolution (ARADE). Accretion properties in Orion A and their relation with disk masses",
+   "abstract": "We present the largest homogeneous VLT/X-shooter study of accretion in young stellar objects spanning the entire Orion A complex. Our sample includes 91 pre-main-sequence stars hosting a protoplanetary disk according to photometry, selected to span a wide range of optical colors, 34 of which have complementary ALMA dust mass measurements. Spitzer We derived the stellar and accretion properties using a self-consistent multicomponent fitting procedure. Our sample encompasses spectral types from K3 down to M5, corresponding to stellar masses within ∼0.8-0.1 The accretion-stellar luminosity ( and the scaling relations of the mass-accretion rate to stellar mass ( in Orion A are consistent with those of other star-forming regions that span a range of stellar densities, far-ultraviolet (FUV) irradiation fields, and ages, with all regions occupying the same locus in parameter space. For the 34 sources with complementary dust mass measurements, we present the first investigation of the and disk mass ( = correlation in Orion A, recovering a spread consistent with that reported for other regions. Although our sample spans nearly five orders of magnitude in local FUV field strength, we found no statistically significant correlation between and FUV irradiation. However, by combining our sample with literature measurements in Lupus, the Orion nebula cluster, and σ Orionis, we found a tentative population-level decrease in the inferred disk lifetime t_ ̊m disk toward stronger FUV environments, but the large intrinsic scatter and limited sample sizes at intermediate- and high-FUV fields prevent firm conclusions. The homogeneous measurements reported here provide a solid foundation for future studies of accretion and disk evolution in the diverse environments of Orion A and other star-forming regions.",
+   "authors": [
+    "L. Piscarreta",
+    "G. Beccari",
+    "C. F. Manara",
+    "R. Anania",
+    "S. E. van Terwisga",
+    "V. Almendros-Abad",
+    "H. M. J. Boffin",
+    "R. A. B. Claes",
+    "A. Empey",
+    "B. Ercolano",
+    "T. Jerabkova",
+    "K. Maucó",
+    "M. Vioque"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661458",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究利用VLT/X-shooter对猎户座A复合体中91颗原行星盘宿主的前主序星进行了同质性吸积光谱调查,其中34颗星有ALMA尘埃质量测量数据支持。通过自洽的多分量拟合程序导出吸积率与恒星质量的标度关系,发现猎户座A中的吸积-恒星光度关系与其他星形成区一致,而吸积率与尘埃盘质量的相关性显示出与其他区域可比的分散,但未发现与紫外辐射的显著相关性。本工作为深入理解不同环境下原行星盘演化与吸积过程提供了可靠的观测基础。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1800",
+   "title": "Post-perihelion Photometric and Spectroscopic Monitoring of the Interstellar Comet 3I/ATLAS",
+   "abstract": "Abstract The third interstellar object, comet 3I/ATLAS, was observed using various Indian telescopes during its post-perihelion evolution. We carried out imaging and spectroscopic observations of the comet at multiple epochs using the 0.5–m, 1.2–m, and 2.5–m telescopes of the Physical Research Laboratory and the 2-m Himalayan Chandra Telescope (HCT) operated by the Indian Institute of Astrophysics. Additionally, time-series photometry was obtained on 7 epochs using the 0.132–m refractor of Cepheid Observatory. The spectroscopic observations of 3I/ATLAS reveal signatures of molecular emission from CN, C2, and C3, as commonly observed in the emission spectra of solar system comets. The production rates and rate ratios indicate that the composition of the 3I/ATLAS transitioned from carbon-depleted (pre-perihelion) to carbon-typical (post-perihelion). The change in carbon composition could be due to exposure of fresh material from subsurface layers near perihelion. We also performed photometric observations to determine broadband colours and the spin period. The measured colours are B − V = 1.03 ± 0.13 mag, V − R = 0.59 ± 0.11 mag, R − I = 0.08 ± 0.04 mag, g − r = 0.52 ± 0.09 mag, and r − i = 0.13 ± 0.08 mag. The colours are redder than the Long-Period Comets of the solar system and the Sun in B − V and V − R, but near solar in R − I. The measured colours remain nearly constant throughout the observing period and are consistent with the reported pre-perihelion values. The colours and the reflectivity gradient match the photometric colours of the ‘ultrared-material rich’ objects in the solar system. The nuclear radius derived from non-gravitational force lies between 0.45 and 0.65 km.",
+   "authors": [
+    "Goldy Ahuja",
+    "Shashikiran Ganesh",
+    "K Aravind",
+    "Emmanuel Jehin",
+    "Bhavya Ailawadhi",
+    "Vikrant K Agnihotri",
+    "B Arvind",
+    "Pallavi Saraf",
+    "Alka Singh",
+    "Deekshya R Sarkar",
+    "Sunil Chandra",
+    "Prithish Halder",
+    "Devendra Sahu",
+    "T Sivarani",
+    "Anil Bhardwaj"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1800",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "emission spectr"
+   ],
+   "summary_zh": "本研究利用多台印度望远镜对星际彗星3I/ATLAS近日点后的演化进行了成像和分光监测。分光观测显示CN、C2和C3分子发射线，产率分析表明该彗星的碳成分从近日点前的碳亏损状态转变为近日点后的典型碳丰度，这可能源于近日点附近新鲜物质的暴露。测量的测光颜色显示该彗星呈现\"超红物质丰富\"的特征，核半径约为0.45-0.65 km。"
+  }
+ ],
  "2026-09-23": [
   {
    "id": "doi:10.3847/1538-4357/aea0c9",
@@ -9708,29 +9823,5 @@
    "summary_zh": "本研究通过TESS光度测量和地面光谱观测,发现并表征了围绕贫金属恒星([Fe/H] = −0.72)运行的热木星TOI-7169 b,轨道周期为3.44天,半径1.48木星半径,质量0.41木星质量,密度偏低(0.159 g cm⁻³),表现出显著的膨胀特征。该主星年龄约12.3 Gyr,α元素丰度增强,是已知宜居行星系统中最老、最贫金属的恒星,为研究低金属环境下巨行星形成与物理性质提供了关键观测样本。后续大气透射光谱观测将揭示金属丰度对巨行星物理特性的影响。"
   }
  ],
- "2026-07-27": [],
- "2026-07-26": [
-  {
-   "id": "doi:10.1093/mnras/stag1412",
-   "title": "Towards understanding stellar variability at the sub m/s level: granulation-induced variability across the optical spectrum",
-   "abstract": "Abstract Detecting the radial velocity signal of Earth-mass exoplanets requires the characterisation and removal of granulation-induced radial velocity variability from spectroscopic observations. By coupling state-of-the-art three-dimensional (3D) hydrodynamic (HD) simulations to a radiative transfer code, we can isolate and study the effect of granulation on stellar lines. In this study we isolated the impact of granulation on spectral line shapes and shifts for the largest and most diverse synthetic spectral line sample to date. Our aims were twofold. First, we quantified how granulation affects the temporal evolution of shapes and shifts of 72 unblended spectral lines in two wavelength regions: 5500 − 5600 Åand 6100 − 6200 Å, from disc centre to the stellar limb. Second, we investigated if spectral lines behave coherently in their line shape variability and, if so, can lines be grouped together that behave similarly. We find that weak lines show the largest radial-velocity variability due to granulation, up to 40 m s−1 at disc centre and 50 m s−1 at the stellar limb. On the other hand, strong lines exhibit larger variability in equivalent width than weak lines across the stellar disc. In addition, the equivalent width and line depth of a spectral line are strongly linearly correlated with its radial velocity. While granulation affects all three of these quantities, planet-induced Doppler shifts only affect radial velocities, opening the door to new granulation-mitigation methods. Lastly, we find that the radial velocity and equivalent width of most spectral lines in our sample evolve coherently in time, with the Fe i and Ca i lines behaving the most similarly. Due to the coherency, line blends will not significantly affect the temporal behaviour of RV and line shape, as induced by granulation. Besides, the coherency between spectral lines offer the opportunity to create disc-integrated spectra of many lines simultaneously, which will be explored in future work.",
-   "authors": [
-    "Cis Lagae",
-    "Ginger Frame",
-    "Heather M Cegla",
-    "Veronika Witzke",
-    "René Holzreuter",
-    "Sergiy Shelyag",
-    "Christopher Watson",
-    "Alexander Shapiro"
-   ],
-   "link": "https://doi.org/10.1093/mnras/stag1412",
-   "source": "Monthly Notices of the Royal Astronomical Society",
-   "category": "系外行星观测",
-   "matched": [
-    "radial velocity"
-   ],
-   "summary_zh": "本研究通过耦合三维流体动力学模拟和辐射传输计算，系统研究了恒星表面颗粒运动对72条光谱线形状和位移的影响，涵盖两个波长区域并考虑了从星盘中心到星缘的变化。研究发现弱线受颗粒诱导的径向速度变化最大（达40-50 m/s），而强线的等效宽度变化更显著，且光谱线的径向速度与等效宽度存在强相关性——这为区分行星信号与恒星噪声提供了新机制。最后发现大多数光谱线在时间演化上表现出相干性，特别是Fe I和Ca I线，这种相干性表明可以开发新的消除颗粒噪声的方法来改进地球质量系外行星的探测。"
-  }
- ]
+ "2026-07-27": []
 }
