@@ -1,4 +1,382 @@
 {
+ "2026-10-01": [
+  {
+   "id": "arxiv:2609.39501",
+   "title": "Early Planet Formation in Embedded Disks (eDisk). XXV. Inclination-Induced Minor-Axis Brightness Asymmetries Reveal Limited Dust Settling in Embedded Protostellar Disks",
+   "abstract": "How and when dust settles in young protostellar disks is a key open question for the dust concentration needed to form planetesimals and, ultimately, planets. However, directly measuring the vertical dust distribution in embedded (Class 0/I) systems remains challenging. We show that brightness asymmetry along the minor axis of highly inclined disks provides a simple, powerful geometric diagnostic of vertical dust structure. Using radiative transfer modeling with RADMC-3D, we generate synthetic continuum images showing that the observed asymmetry arises naturally from disk inclination, optical depth, and dust scale height. We apply this framework to nine Class 0 and I disks from the ALMA Large Program, Early Planet Formation in Embedded Disks (eDisk), using Markov Chain Monte Carlo (MCMC) fitting. Outflow observations independently validate the inferred near- and far-side geometries: all eight sources with useful outflow constraints agree with the orientations predicted by the dust continuum modeling. Our results indicate that most embedded disks show no strong evidence of significant dust settling, with dust scale heights comparable to the gas scale height. Given that the literature indicates Class II disks tend to be well settled, our results reinforce the notion that significant dust settling occurs during the Class I phase, when deeply embedded Class 0 disks transition to their more revealed Class II counterparts. Intriguingly, the timing of dust settling appears to broadly coincide with the development of widespread dust substructures, suggesting that gravitationally driven vertical dust concentration may have triggered substructure formation.",
+   "authors": [
+    "Sidhant Kumar Suar",
+    "Zhe-Yu Daniel Lin",
+    "Zhi-Yun Li",
+    "Nagayoshi Ohashi",
+    "Shigehisa Takakuwa",
+    "John Tobin",
+    "Leslie Looney",
+    "Mayank Narang",
+    "Youngwoo Choi",
+    "Woojin Kwon",
+    "Patrick Sheehan",
+    "Ilseung Han"
+   ],
+   "link": "https://arxiv.org/abs/2609.39501v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过高倾角原行星盘的次轴亮度不对称性作为几何诊断工具，利用RADMC-3D辐射转移模型和MCMC拟合方法，对eDisk项目的九个Class 0/I盘进行了尘埃竖直分布的观测分析。研究结果表明大多数Class 0/I嵌入式原行星盘尚未发生明显的尘埃沉降，尘埃标度高度与气体相当，而尘埃沉降主要发生在Class I阶段向Class II过渡期间，其时间与尘埃亚结构的形成相吻合，暗示重力驱动的尘埃竖直浓聚可能触发了亚结构形成。"
+  },
+  {
+   "id": "arxiv:2609.38921",
+   "title": "Planetesimal Formation under Realistic Gas Dynamics: Dust Concentration in Turbulent and Windy Protoplanetary Disks",
+   "abstract": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks. Our simulations simultaneously launch large-scale MHD disk winds and resolve both streaming instability (SI) and vertical shear instability (VSI). We systematically explore the effects of magnetic field strength, cooling timescale, ambipolar Elsasser number, and dust size on dust concentration. We find that strong dust clumping persists across a broad range of magnetized and wind-launching disk conditions. MHD winds also enhance dust clumping by modifying background conditions in the following ways: (1) secular gas depletion by MHD wind mass loss, and (2) dust trapping in zonal flows as a result of magnetic flux concentration (which occurs in more strongly magnetized cases). Overall, our results demonstrate that strong dust clumping can persist in global magnetized disks with AD and large-scale MHD winds, leading to conditions favorable for planetesimal formation.",
+   "authors": [
+    "Pinghui Huang",
+    "Xue-Ning Bai"
+   ],
+   "link": "https://arxiv.org/abs/2609.38921v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过Athena++多流体尘埃模块在包含非理想MHD效应(安培扩散)和大尺度MHD风的2D轴对称全球模拟中,系统探讨了外盘中尘埃浓聚与气体动力学的耦合关系,同时分辨了流动不稳定性和竖向剪切不稳定性。研究发现在磁场强度、冷却时标和尘埃粒径等多种物理条件下,强尘埃团聚仍能持续存在,且MHD风通过气体质量耗散和磁通集中诱导的环向流尘埃捕获进一步增强了这一过程。这些结果表明,含有安培扩散和大尺度MHD风的磁化盘中能维持强尘埃团聚,为行星体形成创造了有利条件。"
+  },
+  {
+   "id": "arxiv:2609.38566",
+   "title": "aRieL - Reinforcement Learning for the Ariel Space Telescope Scheduling",
+   "abstract": "The Ariel mission will conduct a population level survey of hundreds of exoplanet atmospheres, requiring observations to be scheduled across a large and diverse catalogue of potential targets. By framing Ariel scheduling as a long-horizon optimisation problem in which individual decisions affect both mission time and the scientific opportunities available later in the survey, Reinforcement Learning (RL) can be utilised as a framework for target selection. We introduce aRieL, a simulated observing environment coupled to a Set Transformer Proximal Policy Optimisation (PPO) agent that is trained to generate a scheduling policy. The RL policy consistently finds a strong compromise between competing survey objectives, producing large Tier~1 samples while maintaining high Tier~3 completion, population coverage, and observing efficiency when compared to a set of baseline heuristic polices. This behaviour is retained when the candidate catalogue is substantially expanded, while modifications to the reward function produce corresponding changes in the learned observing strategy. We further show that a policy trained on the baseline mission scenario can generalise without retraining to a modified scenario requiring repeated Tier~3 observations, revealing the resulting trade-off with the wider survey. These results demonstrate that reinforcement learning provides a flexible approach to large-scale astronomical scheduling, in which the observing strategy can respond directly to changes in mission state and to the scientific priorities, and motivate its wider exploration for observatories with similarly complex, state dependent scheduling problems.",
+   "authors": [
+    "James Kostas Ray",
+    "Kai Hou Yip",
+    "Alexandra Thompson",
+    "Luís F. Simões",
+    "Nikolaos Nikolaou"
+   ],
+   "link": "https://arxiv.org/abs/2609.38566v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究将Ariel太空望远镜的观测目标调度问题建模为长时间跨度的强化学习优化问题，开发了aRieL系统——结合模拟观测环境和Set Transformer PPO智能体的调度框架。该方法能够在多个竞争性科学目标间找到最优均衡，在目标星表扩展和任务场景变化时保持良好的泛化性能，为复杂的天体测量调度问题提供了灵活高效的解决方案。"
+  },
+  {
+   "id": "arxiv:2609.38468",
+   "title": "Migration and Evolution of giant ExoPlanets (MEEP). III. Twenty-Nine Giant Planets from the TESS Mission",
+   "abstract": "We present the discovery and characterization of 29 hot and warm Jupiter systems transiting bright ($G < 12.8$) FGK stars using TESS data and ground-based photometry and spectroscopy. Through the use of high angular resolution imaging, we discovered three bound stellar companions, named TOI-3988 B, TOI-6171 B, and TOI-7266 B. The planets that we confirmed span an orbital period range of $1.28 - 16.9$ days, a mass range of $0.35 - 8.7$ $\\mathrm{M}_{\\mathrm{J}}$, and an orbital eccentricity range of $0 - 0.6$, and add to the growing self-consistent sample of hot and warm Jupiter systems detected using TESS and analyzed using the Markov-Chain Monte Carlo code EXOFASTv2. By performing two-sample Kolmogorov-Smirnov tests on a set of host star and planetary parameters, we find that this growing self-consistent sample of giant planets has a different distribution of host star masses, surface gravities, and metallicities, compared to the hot Jupiter and warm Jupiter systems in the literature, likely due to the additional constraint on the host star density from the planetary transits included in our global fits. We find that seven of the 29 newly confirmed planets have significant orbital eccentricity, and that one of these, TOI-3365 b, is in a system which likely hosts a massive outer companion. The continued confirmation of hot Jupiter and warm Jupiter systems and the follow-up RV monitoring on these systems to identify outer companions will pave the way for important investigations of giant planet migration.",
+   "authors": [
+    "Jack Schulte",
+    "Joseph E. Rodriguez",
+    "David W. Latham",
+    "Allyson Bieryla",
+    "Karen A. Collins",
+    "Samuel N. Quinn",
+    "Xian-Yu Wang",
+    "Rafael Brahm",
+    "Abdullah Al-Haji",
+    "Robert Aloisi",
+    "Caitlyn Altermatt",
+    "Nikola Antonov",
+    "David Baker",
+    "Pavel Balanutsa",
+    "Khalid Barkaoui",
+    "Özgür Baştürk",
+    "Slawomir Bednarz",
+    "Paul Benni",
+    "Krzysztof Bernacki",
+    "Mario Billiani",
+    "Ventsislav Bodakov",
+    "Pau Bosch-Cabot",
+    "Valerio Bozza",
+    "Ahmet Cem Kutluay",
+    "David R. Ciardi",
+    "Catherine A. Clark",
+    "Jerome de Leon",
+    "Jason D. Eastman",
+    "İpek Aleyna Ertürk",
+    "Thomas M. Esposito",
+    "Phil Evans",
+    "Miranda Felsmann",
+    "Raquel Forés-Toribio",
+    "Isaac Fournier",
+    "Akihiko Fukui",
+    "Tianjun Gan",
+    "Cristilyn Gardner-Watkins",
+    "Purvi Garg",
+    "Eric Girardin",
+    "Tateki Goto",
+    "Ferran Grau Horta",
+    "Thomas Henning",
+    "Eric G. Hintz",
+    "Keith Horne",
+    "Kai Ikuta",
+    "Jon M. Jenkins",
+    "Andrés Jordán",
+    "Jenson Keen",
+    "Adam Kraus",
+    "Valentina Kuzmina",
+    "Artem Kuznetsov",
+    "Adam Lark",
+    "Rodrigo Leiva",
+    "Vladimir Lipunov",
+    "Michael B. Lund",
+    "Franck Marchis",
+    "Joshua Margherone",
+    "Robert Massey",
+    "Kim McLeod",
+    "Edward Michaels",
+    "Mayuko Mori",
+    "J. A. Muñoz",
+    "Felipe Murgas",
+    "Norio Narita",
+    "Takaya Okada",
+    "Shane Painter",
+    "Enric Palle",
+    "Ivan Panchenko",
+    "Hannu Parviainen",
+    "Anastasiia Pechko",
+    "Adam Popowicz",
+    "Don Radford",
+    "Fabian Rodriguez Frustaglia",
+    "Sylvain Roux",
+    "Subhroja Roy",
+    "Matthew Ryno",
+    "Gülben Şancı",
+    "Richard P. Schwarz",
+    "Victor Senik",
+    "Lauren A. Sgro",
+    "Avi Shporer",
+    "Gregor Srdoc",
+    "Denise Stephens",
+    "Chris Stockdale",
+    "Ashley Stone",
+    "Ivan Strakhov",
+    "Marcelo Tala Pinto",
+    "Thiam-Guan Tan",
+    "Suzanne Taylor",
+    "Neil Thomas",
+    "Nataly Tiurina",
+    "Julian C. van Eyken",
+    "Songhu Wang",
+    "Noriharu Watanabe",
+    "Levi R. Webb",
+    "Francis P. Wilkin",
+    "Joe Williams",
+    "Selçuk Yalçınkaya",
+    "Mesut Yılmaz",
+    "Carl Ziegler"
+   ],
+   "link": "https://arxiv.org/abs/2609.38468v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter",
+    "warm Jupiter"
+   ],
+   "summary_zh": "本研究利用TESS数据及地基观测，发现并表征了29个环绕亮FGK星的热木星和温木星系统，通过高角分辨率成像识别出三个伴星。所确认行星的轨道周期、质量和离心率跨度分别为1.28-16.9天、0.35-8.7木星质量和0-0.6，样本采用EXOFASTv2进行统一分析。通过统计检验发现该样本的主星质量、表面重力和金属丰度分布与文献中已知热木星和温木星明显不同，提示精确约束主星密度的过境观测对样本特性的重要影响，同时7颗行星具有显著离心率特征，为巨行星迁移过程研究奠定基础。"
+  },
+  {
+   "id": "arxiv:2609.38449",
+   "title": "Space Journey Beyond Earth: Exploring the properties of exoplanets and multi-planetary systems",
+   "abstract": "In contrast to the observed exoplanet diversity, planets within many multi-planetary systems exhibit intra-system similarities in their radii, masses, and orbital spacings. This thesis investigates the planetary properties and system architectures, focusing on the intra-system similarities, the inferred planetary interior compositions, and the differences between single- and multi-planetary systems. Paper A shows that planets within the same system tend to have similar orbital spacings even when their sizes or masses differ. The spacing similarity is more pronounced in orbital period ratios than in mutual Hill separations, while the period ratios are more strongly correlated with the masses than with the radii of adjacent planets. These results indicate that uniform orbital spacings represent a common architectural property and are not necessarily associated with similarities in planetary size or mass. Paper B compares transiting planets in observed single- and multi-planetary systems. After excluding hot Jupiters, the distributions of planet types and radii of singles and multis orbiting FGK stars show no significant differences, suggesting a common underlying planet population. Around FGK host stars, however, an overabundance of multis is identified within a specific planet radius range. Paper C finds that non-gas-giant planets in systems hosting detected gas giants are, on average, larger, more massive, and more irregularly spaced than planets in systems without detected gas giants. Adjacent planets exhibit significant similarities in radius, mass, and bulk density, whereas their inferred core and water mass fractions show substantial scatter and no strong correlations. These results indicate that similarities in bulk properties do not necessarily translate into similarities in compositions. These studies place new constraints on the processes governing planet formation and evolution.",
+   "authors": [
+    "Alexandra Muresan"
+   ],
+   "link": "https://arxiv.org/abs/2609.38449v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究通过统计分析多行星系统的轨道架构、行星物理性质和内部组成，揭示了多行星系统中普遍存在的轨道均匀间距特性及其与行星质量的关联，同时发现相邻行星的体积和质量相似并不意味着其内部组成相似。研究结果表明，单行星系和多行星系中行星类型分布基本一致，但多行星系统在特定半径范围内存在过量富集现象，且含气体巨星系统中的非气体巨星往往更大、更重且轨道分布更不规则。这些发现为行星形成和演化过程的动力学机制提供了新的观测约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9bb9",
+   "title": "Improving the Physical Interpretability of Gaussian Processes in Stellar Activity Modeling: A Study Case on Photometric Variability among Stellar Clusters",
+   "abstract": "Abstract Gaussian processes (GPs) are widely used to model stellar variability in photometric surveys, but a statistically successful fit does not guarantee that the inferred hyperparameters correspond to physically meaningful stellar properties. This is especially important for young, active stars, whose Transiting Exoplanet Survey Satellite (TESS) light curves contain evolving spots, harmonics, and non-sinusoidal variability. We use stellar rotation as a case study to examine when the period hyperparameter of a quasi-periodic GP can be interpreted as a physical rotation period. We introduce a regularized GP likelihood that reweights the covariance-complexity term in the marginal likelihood, reducing the tendency of unconstrained models to converge toward preferred but misleading solutions. We test this framework on 539 stars in IC 2602, the Tucana–Horologium Association, Pisces–Eridanus, and Group X, with independently reported and manually vetted rotation periods. This benchmark evaluates GP hyperparameter interpretability and automated period recovery with minimal human intervention. We compare regularized and unregularized models across several regularization strengths, λ , using literature agreement, sector-level diagnostics, and consistency across TESS sectors. Relative to the standard GP likelihood, regularization improves successful rotation-period recovery by an average of 7%. It also generally reduces the median absolute fractional deviation of periods across sectors, showing that the improvement is not limited to catastrophic failures but also mitigates smaller systematic errors. Regularization is particularly beneficial for non-sinusoidal or evolving modulation, where unconstrained GPs may recover harmonics or spurious timescales. These results show that likelihood regularization and cross-sector consistency are practical diagnostics for assessing when GP-based rotation periods are robust.",
+   "authors": [
+    "Leslie Moranta",
+    "Jonathan Gagné",
+    "Jacqueline K. Faherty",
+    "Mark Popinchalk",
+    "Jason Lee Curtis",
+    "Johanna M. Vos",
+    "Alexandrine L’Heureux",
+    "Andrew Ayala",
+    "Eleanor Johnson",
+    "Dawn McCullough",
+    "Nicole Munoz",
+    "Hannah Park",
+    "Xue Weng",
+    "Livia Poliquin",
+    "Ilhem Lazizi"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9bb9",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究针对高斯过程在恒星活动建模中物理可解释性不足的问题，以TESS观测的年轻活跃星团中的光变周期恢复为案例，提出了一种正则化高斯过程似然函数，通过重新加权边际似然中的协方差-复杂度项来约束模型避免收敛到物理上无意义的解。在四个星团的539颗恒星上的测试表明，相比标准高斯过程，正则化方法平均改进了7%的转动周期恢复成功率，并显著降低了不同观测扇区间周期的系统误差，特别是对非正弦或演化型光变调制具有优势。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae9d67",
+   "title": "Impacts of Correlated Noise on Retrievals of Exo-Earth Atmospheres",
+   "abstract": "Abstract The Habitable Worlds Observatory (HWO) aims to accomplish high-contrast imaging and spectroscopy of true Earth analogs for the first time. However, high-contrast spectroscopy with HWO may be limited by residual speckles, which persist after deformable mirror correction and postprocessing, hindering atmospheric characterization. Previous studies of self-luminous giant planets showed that neglecting spectrally correlated errors due to speckles results in biased inferences of planetary parameters. Currently, HWO retrieval studies generate spectra without noise spectral correlations. We present a Gaussian process model of correlated noise of known properties in simulated HWO exo-Earth spectra, and the integration of this noise source into the forward and inverse modeling tool rfast . We quantify the impact of correlated noise on inferred molecular abundances and planetary properties across the ultraviolet/visible/near-infrared bandpass, for varying spectral resolutions ( R ), signal-to-noise ratios (SNR), and noise correlation length scales ( L ). We find that, at the fiducial UV/Vis/NIR R = 7/140/70 and SNR = 10, including spectrally correlated noise at L = 200 nm and L = 10 nm yields a 57% and 161% higher average uncertainty on log oxygen abundance, compared to uncorrelated noise. Consequently, it is critical for both instrument design and postprocessing algorithms to minimize short length-scale chromaticity. Additionally, we find that a moderate resolution can constrain carbon dioxide ( R ≥ 280) and weakly detect methane ( R ≥ 2800) abundances, demonstrating the benefit of a moderate resolution near-infrared spectrograph. These findings can aid the interpretation of future HWO reflectance spectra and set requirements on optical quality, instrument stability, and observing configurations.",
+   "authors": [
+    "Nicole Wolff",
+    "Bruce Macintosh",
+    "Tyler D. Robinson",
+    "Sarah Blunt",
+    "Jean-Baptiste Ruffio",
+    "Beck Dacus",
+    "Alex Madurowicz",
+    "Marshall Perrin",
+    "Laurent Pueyo"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae9d67",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过建立高斯过程噪声模型,在模拟的宜居世界观测台(HWO)类地行星光谱中引入与残余光斑相关的相关噪声,并将其集成到正反演模型工具rfast中,定量评估了相关噪声对分子丰度和行星参数推演的影响。研究发现,在紫外/可见/近红外波段,忽视相关噪声会导致氧丰度推演不确定度增加57%-161%,因此对仪器设计和后处理算法提出了色差最小化的需求。此外,适度的光谱分辨率可有效约束二氧化碳,弱探测甲烷,为HWO反射光谱的解释和光学质量、仪器稳定性等要求的制定提供了指导。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661179",
+   "title": "Host-star metallicities and kinematics of directly imaged brown-dwarf companions",
+   "abstract": "General notes: (A) Per your request, I have edited to US English spelling and grammar conventions. (B) A&A uses the past tense to describe specific steps used in a study and the present tense to describe general methods as well as findings, including the findings of recent papers (within the past ten or so years). Please make sure my edits are accurate in this respect and kindly make any further necessary changes. (C) Acronyms should be spelled out upon first appearance. All subsequent appearances should be in the acronym form (unless at the beginning of a sentence). *** Brown dwarfs are common as free-floating objects but rare as close companions to Sun-like stars, a disparity known as the ``brown-dwarf desert.'' Host-star metallicity can constrain whether these companions form mainly through metal-sensitive core accretion or through less metal-dependent disk or cloud fragmentation. We extend our homogeneous spectroscopic analysis of directly imaged planet hosts into the brown-dwarf regime and compare their metallicities with those of planet hosts and close-in brown-dwarf hosts. We compiled 54 unique directly imaged brown-dwarf systems selected over an inclusive 13--80 M_ Jup interval and projected separations from about 5 au to several thousand au. Objects near the model-dependent 70--75 M_ Jup hydrogen-burning boundary may, however, be very low-mass stars. For 31 hosts with archival high-resolution spectra, we derived atmospheric parameters and metallicities using Bayesian spectral synthesis. Literature companion masses and projected separations are heterogeneous and often model-dependent, and are used only for demographic context. Galactic velocities were calculated for 46 hosts solely to characterize the youth-biased imaging sample. The host stars have a broadly solar metallicity distribution, with a median Fe/H of $+0.06$ dex and a median absolute deviation of 0.11 dex, and show no strong metal-rich bias. No statistically significant metallicity difference is detected between the directly imaged lower- and higher-mass subsamples at the current sample size. The hosts are kinematically cold, as expected from the youth-biased selection of direct-imaging surveys. The absence of a strong metal-rich bias suggests that classical core accretion does not dominate the wide-orbit brown-dwarf population. Disk instability and cloud fragmentation remain plausible, but the current sample and heterogeneous companion properties do not permit object-by-object discrimination between these channels. The comparisons involving the smallest samples remain exploratory.",
+   "authors": [
+    "C. Swastik R. K. Banyal",
+    "M. Muduli",
+    "S. Soni",
+    "A. Jino",
+    "S. Facchini",
+    "Z. Wahhaj",
+    "G. Lodato",
+    "P. Saraf",
+    "A. Choudhary",
+    "A. K. Bhavya",
+    "M. P. Navaneeth",
+    "B. Banerjee",
+    "S. Biswas",
+    "T. Sivarani",
+    "G. Maheswar",
+    "A. Surya"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661179",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究编译了54个直接成像褐矮星伴星系统的东道星样本,对其中31颗拥有高分辨率光谱的主星进行了统一的大气参数和金属丰度分析。结果表明这些褐矮星伴星东道星的金属丰度分布大致呈太阳丰度,中位数Fe/H为+0.06 dex,不存在明显的富金属偏差,这表明经典核心吸积不是宽轨道褐矮星形成的主导机制,磁盘不稳定性和云碎裂仍是可能的形成途径。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659065",
+   "title": "Magnetohydrodynamics of charged interstellar dust. Multifluid models and study of the linear modes",
+   "abstract": "Interstellar grains play key roles in star and planet formation, including in the coupling of gas to the magnetic field during protostellar collapse. The significance of these roles depends on the local grain size distribution, which requires a multifluid treatment of charged dust. We aim to understand the fundamental physics of the dynamics of a dust distribution in interaction with the gas and the magnetic field. In particular, our purpose is to characterize the (de)coupling conditions of these different components. We provide a multifluid model of charged dust that accounts for the inertia of the grains. We used a chemical network to simulate the charge equilibrium in collapsing protostellar cores. We computed the Alfvén modes and the magnetosonic modes to understand the coupling regimes between the gas, the dust fluids, and the magnetic field. We also analyzed and compared to the predictions of existing models, namely of the neutral dust multifluid and the standard non-ideal magnetohydrodynamics. The charged multifluid model agrees with non-ideal magnetohydrodynamics on the larger scales of a collapsing dense core and the forming disk, while we successfully extend to new regimes where the inertia of dust grains matters. We find that high charge-to-mass dust grains carry the propagation of magnetohydrodynamical waves in protostellar envelopes. We provide analytical expressions of the speed of these waves depending on the dust distribution. The magnetocompressive perturbations lead to local dust-to-gas ratio variations at astronomical unit scales. A theoretical understanding of the dynamics of a charged dust distribution is provided in the linear regime. The closed set of magnetohydrodynamics equations can be implemented in numerical codes to explore nonlinear effects during the protostellar collapse, such as turbulence, angular momentum transport, and magnetic dust clumping.",
+   "authors": [
+    "G. Verrier",
+    "P. Hennebelle",
+    "U. Lebreuilly",
+    "V. Vallucci-Goy"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659065",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究建立了考虑颗粒惯性的带电尘埃多流体磁流体动力学模型,通过线性模式分析(Alfvén波和磁声波)揭示了原星坍缩过程中气体、尘埃和磁场的耦合/解耦机制。研究发现高荷质比尘埃在原星包层中主导磁流体波的传播,磁压缩扰动可在天文单位尺度上引起局部尘气比变化,为后续非线性过程(如湍流、角动量输运和磁尘聚集)的数值模拟奠定理论基础。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661078",
+   "title": "The GAPS programme at TNG. LXXIX. New mass constraints for the infant planets in the V1298,Tau system through a long-term radial-velocity monitoring with HARPS-N",
+   "abstract": "We aim to constrain the dynamical masses of the four confirmed transiting planets orbiting the infant (20 Myr) star V1298,Tau (orbital periods P_b∼24.1 d, P_c∼8.2 d, P_d∼12.4 d, and P_e∼48.7 d), through a new analysis of a homogeneous radial-velocity dataset. This system is a key benchmark for testing formation and early-stage evolutionary models of planets. We analysed more than 380 high-resolution spectra collected with the HARPS-N spectrograph over a time span of 4.5,yr. To account for dominant stellar activity and transit-timing-derived planet--planet interactions, we analysed radial velocities extracted using two different approaches and combined N-body simulations with multi-dimensional Gaussian-process regression. We tested a set of spectroscopic and photometric activity diagnostics to mitigate the variability due to the stellar magnetic activity in the radial-velocity time series. The mass determinations are sensitive to the choice of the radial-velocity extraction method and activity diagnostics. For some specific models, we measured masses with a significance of 3.5--4σ for planets b (0.52^ +0.12 _ -0.14 , 0.65^ +0.21 _ -0.18 , 0.67 _ and 0.78^ +0.19 -0.20 M_̊m Jup) and e (0.40 +0.14 _ -0.13 $, 0.66^ +0.17 _ -0.18 , and 0.71 ). These values are compatible with masses of giant planets and are notably higher than those recently derived from transit timing variations alone, which indicate that these are low-density `super-puffy' planets. Injection-and-recovery simulations moderately support this conclusion for planet b. For planets c and d, we primarily provide updated upper mass limits. $M_ ̊m Jup Our analysis represents an exploratory study to address the complex issue of mass measurement in a multi-planetary system characterised by high levels of stellar activity. While firm conclusions cannot be drawn for V1298,Tau, in a few cases our results leave open the possibility that planet b in particular is a massive giant rather than a sub-Neptune progenitor. This dichotomy may be solved by combining radial velocities and transit time variations in a more complex photo-dynamical modelling, with a larger sample of transits than currently available.",
+   "authors": [
+    "M. Damasso",
+    "P. Leonardi",
+    "L. Borsato",
+    "S. Benatti",
+    "A. Suárez Mascareño",
+    "A. Bonfanti",
+    "C. Di Maio",
+    "M. Mallorquín",
+    "L. Fossati",
+    "F. Marzari",
+    "D. Nardiello",
+    "S. Desidera",
+    "L. Naponiello",
+    "A. Sozzetti",
+    "G. Andreuzzi",
+    "M. Basilicata",
+    "A. Bignamini",
+    "A. S. Bonomo",
+    "M. Brogi",
+    "P. Giacobbe",
+    "G. Guilluy",
+    "A. F. Lanza",
+    "M. Lodi",
+    "L. Malavolta",
+    "L. Mancini",
+    "S. Messina",
+    "G. Micela",
+    "V. Nascimbeni",
+    "T. Zingales"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661078",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "transit timing"
+   ],
+   "summary_zh": "本研究通过4.5年HARPS-N高分辨率光谱数据对年轻恒星系统V1298,Tau中四颗行星进行径向速度监测,结合N体模拟和高斯过程回归方法,在考虑恒星活动和行星间相互作用的影响下确定了行星质量约束。研究测得行星b和e的质量为0.52-0.78和0.40-0.71木星质量(3.5-4σ显著性),显著高于凌星计时变差方法的结果,表明这些是低密度的\"超蓬松\"巨行星,但对行星c和d仅给出了质量上限。这项探索性研究表明,在高恒星活动多行星系统中进行质量测量需要联合径向速度和凌星计时变差的光动力学模型以获得更可靠的结论。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1836",
+   "title": "Radiating Bondi Flows II: Giant Planet Accretion Models",
+   "abstract": "Abstract In the core accretion model of giant planet formation, the late stages of runaway growth are regulated by the hydrodynamic infall of gas from the protoplanetary disk. For a subset of planet-disk pairings, this scenario is analogous to the classical Bondi problem, which has motivated a Bondi-like parameterization of accretion in some population synthesis models. Existing models and the associated classical Bondi rate however, are predicated upon an adiabatic equation of state. In reality, the planet and its associated accretion shock supply a luminosity that substantially heats the accretion flow. In Paper I of this series, we demonstrate that such radiative feedback can dramatically suppress accretion by orders of magnitude. Here we quantify this effect under realistic planet-forming conditions. We find that for planets forming in an unperturbed disk, accretion is suppressed by 1-2 orders of magnitude interior to ∼10 AU. For planets that open a gap, this feedback is less dramatic and the effect is ∼ 1 order in magnitude. We investigate the effect of various assumptions regarding dust opacities, shock efficiency, and planet radius and find this radiative suppression mechanism to be fairly insensitive to these effects. We also perform full time-dependent simulations demonstrating that the associated adverse entropy profiles are accurate and stable to convection. A simple and flexible set of open-source tools are provided to incorporate this radiative feedback into existing accretion models and population synthesis frameworks.",
+   "authors": [
+    "Avery P Bailey",
+    "Kaitlin M Kratter",
+    "Andrew N Youdin"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1836",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "population synthesis",
+    "core accretion"
+   ],
+   "summary_zh": "本研究考察了行星辐射反馈对类Bondi吸积流的影响,通过三维流体动力学模拟和热力学分析,发现行星及其吸积激波产生的辐射加热能够将巨行星的吸积率压低1-2个数量级(盘内10 AU处)或约1个数量级(开口行星)。研究表明这种辐射抑制机制对尘埃不透明度、激波效率和行星半径等参数相对不敏感,时间演化模拟验证了相关熵廓线的稳定性,同时提供了可集成于现有种群合成框架的开源工具。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1835",
+   "title": "Radiating Bondi Flows I: Dimensionless Framework and Constant Opacity Solutions",
+   "abstract": "Abstract In this paper, we extend the physics of Bondi accretion to include the effects of radiative feedback in gas-pressure-dominated environments. We construct steady-state spherically symmetric accretion solutions including radiative heating and cooling. Under the simplifying assumption of a constant opacity, the solutions are controlled by four dimensionless parameters: the adiabatic index γ, optical depth through the Bondi radius τB, dimensionless luminosity at infinity $\\tilde{L}_\\infty$, and a characteristic dimensionless cooling time β. We present numerical solutions across the dimensionless parameter space $(\\tau _B, \\tilde{L}_\\infty , \\beta )\\in [10^{-3}, 10^3]$. Contrary to radiation-pressure-dominated environments, radiative feedback primarily operates to suppress accretion – particularly at high τB, $\\tilde{L}_\\infty$, and/or β. We also present analytic descriptions confirming the suppressive nature of this feedback and give the scalings for the accretion rate $\\dot{M}\\sim \\tilde{L}_\\infty ^{-5/4}$ at large $\\tilde{L}_\\infty$, $\\dot{M}\\sim \\tau _B^{-10/11}\\beta ^{-5/11}$ at large τB, and $\\dot{M}\\sim (\\tilde{L}_\\infty \\tau _B)^{-5/8}$ for large $\\tilde{L}_\\infty \\tau _B$. We discuss the potential role of convection in these steady-state solutions, and the particular relevance to problems of planet formation where radiative heating is significant, but the system remains in the gas-pressure-dominated regime.",
+   "authors": [
+    "Avery P Bailey",
+    "Andrew N Youdin",
+    "Kaitlin M Kratter"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1835",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究在气压主导环境中引入辐射反馈效应，扩展了Bondi吸积物理，构建了包含辐射加热和冷却的稳态球对称吸积解。在常数不透明度假设下，解由四个无量纲参数（绝热指数γ、Bondi半径光深τB、无量纲光度和无量纲冷却时间β）控制，通过参数扫描发现辐射反馈主要作用是抑制吸积速率。研究给出了多个参数区间的解析标度关系，表明该框架对行星形成等气压主导且存在显著辐射加热的问题具有重要应用价值。"
+  }
+ ],
  "2026-09-30": [
   {
    "id": "arxiv:2609.38128",
@@ -10231,6 +10609,5 @@
    "summary_zh": "本研究利用ATLAS、ZTF和LCO等多年地基巡天测光数据，分别观测2023/24年间的木星族彗星103P/Hartley 2和2020-2025年间的半人马小天体(2060) Chiron，以探究外海王星天体向内太阳系演化过程中的活动性演变。103P显示近日点前后不对称的活动斜率（近日点前-3.48、近日点后-1.16），表现出后近日点相对尘埃贡献增加的特征，而Chiron的2021年爆发在~1.4年时间尺度上呈指数衰减，其季节相位曲线逐年变平，暗示持续的低水平活动或环散射演变。这两个天体分别代表TNO向JFC演化序列的两端：103P处于挥发物耗尽阶段，而Chiron仍富含挥发物且具有间歇性活动能力。"
   }
  ],
- "2026-08-03": [],
- "2026-08-02": []
+ "2026-08-03": []
 }
