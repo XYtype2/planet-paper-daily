@@ -1,4 +1,346 @@
 {
+ "2026-10-02": [
+  {
+   "id": "arxiv:2610.01053",
+   "title": "Planetary eccentricity enhances inward comet transport but suppresses gentle impacts",
+   "abstract": "Comets can supply volatile and prebiotic material to rocky planets, but survival of fragile molecules depends on atmospheric entry and impact. Compact planet chains can transfer comets inward at low velocity. We test whether modest planetary eccentricity preserves this route. We follow 64,000 comets from the region between the two outermost planets of an eight-planet chain to an Earth-mass planet on a temperate orbit around a $0.1 M_\\odot$ star. A second suite of simulations isolates the last transfer to the innermost planet across initial planet eccentricities $e_{p,0}=0$--$0.05$ and separations of 10 and 30 mutual Hill radii; a $Δ=12$ comparison tests the influence of the near-3:2 period ratio at $Δ=10$. At $e_{p,0}=0.05$, the fraction of comets intercepted by the outermost planet falls by 11 per cent and 6 per cent more reach the inner region. The innermost planet's impact probability changes by less than 3 per cent, while the fraction of impacts below 15 km s$^{-1}$ falls from 25 to 18 per cent. The fraction of all injected comets producing impacts below 15 km s$^{-1}$ consequently decreases by 30 per cent. Measurements of the comet-planet speed before the final close encounter show that eccentricity preferentially removes the slowest approaches. Applying an impact-chemistry model gives a 31 per cent lower HCN survival-equivalent yield. Modest planetary eccentricity can therefore increase inward transport while reducing the prebiotic material delivered under chemically favourable impact conditions.",
+   "authors": [
+    "Qunfeng Jiang"
+   ],
+   "link": "https://arxiv.org/abs/2610.01053v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过N体模拟追踪6.4万颗彗星在8行星系统中的动力学演化,调查行星离心率(0-0.05)对彗星向内输运和撞击速度的影响。结果表明,适度的行星离心率虽然增加了到达内层行星区域的彗星比例(增加6-11%),但优先移除低速接近,导致低速撞击(≤15 km/s)的比例从25%降至18%,最终使预生物分子(HCN)的存活产率下降31%。这揭示了行星离心率在促进彗星内迁的同时,反而抑制了对宜居行星交付易损分子所需的温和撞击。"
+  },
+  {
+   "id": "arxiv:2610.00813",
+   "title": "Correlations between the Carbon-to-Oxygen Ratio and the Orbital and Physical Properties of Exoplanets",
+   "abstract": "Studies suggest that protoplanetary disks around stars with high carbon-to-oxygen (C/O) ratios can produce terrestrial planets with carbon-dominated compositions instead of silicon-dominated ones. While previous work studied the evolution of these disks and the planets that form within them, none analyze in detail how the differences in the surface density profiles of these disks could affect the architectures and iron and siderophile contents of exoplanetary systems. Here, we present a new study that uses the N-body integrator REBOUND and data from a sequential dust condensation model to simulate the formation of planets in systems with varying C/O ratios. We find that bulk density could be used to distinguish between silicon-rich and carbon-rich planets, though it may not be a reliable metric on its own.",
+   "authors": [
+    "Noah Ferich",
+    "Robert Royer",
+    "Cody Shakespeare",
+    "Jason H. Steffen"
+   ],
+   "link": "https://arxiv.org/abs/2610.00813v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究利用N-body积分器REBOUND和尘埃凝聚模型,模拟了不同碳氧比原行星盘中的行星形成过程,探究碳氧比如何影响行星系的轨道结构和物质组成。研究发现,行星体密度可用于区分硅质和碳质行星,但单独使用该指标的可靠性有限。该工作揭示了原行星盘表面密度分布差异对系统构型和行星铁镁含量的影响,为理解不同化学环境下的行星形成提供了新的约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae88fe",
+   "title": "Extreme Debris Disks: Insights into Violent Collisions in Planet Formation and Destruction",
+   "abstract": "Abstract Debris disks are dusty structures around mature stars, primarily identified by infrared excesses in the stellar spectra. A subset, known as extreme debris disks (EDDs), exhibits stochastic infrared variability, believed to result from large-scale violent collisions that contribute to the formation or destruction of rocky planetary bodies. We analyze JWST and Spitzer mid-infrared spectra for 21 EDDs to investigate the connection between impact-produced dust mineralogy and the age and dynamical state of these systems during various stages of planet formation and evolution. Our findings indicate that EDDs contain significantly more optically thin, small dust grains compared to those typically seen in protoplanetary and debris disks. Predominantly submicron in size, these grains are thermally altered, as shown by their high levels of silica and crystalline silicate composition. Along with stochastic infrared variability, these features define EDDs as a subclass of debris systems where dust is generated from large collisions between Moon- and Mars-sized bodies. Our results not only provide diagnostic information about the physical conditions of violent events during terrestrial planet formation, aiding in differentiating the complex outcomes of these impacts, but also offer a potential marker for identifying planetary systems experiencing dynamical instability.",
+   "authors": [
+    "Kate Y. L. Su",
+    "Attila Moór",
+    "Ágnes Kóspál",
+    "George H. Rieke",
+    "Antranik A. Sefilian",
+    "Renu Malhotra",
+    "Ilaria Pascucci",
+    "Alan P. Jackson",
+    "Péter Ábrahám",
+    "Nicholas P. Ballering"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae88fe",
+   "source": "The Astrophysical Journal",
+   "category": "散射与动力学演化",
+   "matched": [
+    "dynamical instability"
+   ],
+   "summary_zh": "本研究分析21个极端碎屑盘的JWST和Spitzer中红外光谱，探讨撞击产生的尘埃矿物学与行星形成演化各阶段系统年龄和动力学状态的关联。研究发现极端碎屑盘含有大量光学厚度小的亚微米尘粒，具有高硅和结晶硅酸盐组成，这些特征表明其尘埃来自月球级至火星级天体间的大规模暴力碰撞。本工作为陆地行星形成中的暴力撞击事件提供了物理诊断信息，并为识别经历动力学不稳定性的行星系统提供了潜在标记。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aea291",
+   "title": "A Newly Identified Degeneracy Keeps the Planetary Interpretation Viable for OGLE-2011-BLG-0950",
+   "abstract": "Abstract The microlensing event OGLE-2011-BLG-0950 exhibits the well-known “Planet/Binary” degeneracy, in which distinct lens configurations produce similar light curves but imply substantially different mass ratios between the lens components. A previous study rejected the then-known planetary model because its predicted lens-source relative proper motion was inconsistent with that measured from high-resolution imaging, thereby favoring the stellar-binary interpretation. In this work, we identify a new planetary model for this event that arises from a newly identified degeneracy, simultaneously reproducing the observed light curve and remaining consistent with the high-resolution imaging constraint, leaving the “Planet/Binary” degeneracy unresolved once again. Under this planetary interpretation, combining constraints from the light-curve modeling and high-resolution observations yields a lens system consisting of a ∼1 M ⊙ host star orbited by a ∼1.5 M Jup planet, with a projected separation of about 2 or 8 au, subject to the “Close/Wide” degeneracy. Our reanalysis of the color–magnitude diagram further indicates that the source star has unresolved companions that contribute nonnegligible blended light, highlighting the importance of carefully accounting for source and lens companions in future Roman microlensing analyses. Finally, we show that adopting a single mass–luminosity relation significantly underestimates the uncertainties in the inferred lens properties for host masses ≳1 M ⊙ .",
+   "authors": [
+    "Jiyuan Zhang",
+    "Weicheng Zang",
+    "Andrzej Udalski",
+    "Hongjing Yang",
+    "Shude Mao",
+    "Michał K. Szymański",
+    "Igor Soszyński",
+    "Radoslaw Poleski",
+    "Krzysztof Ulaczyk",
+    "Paweł Pietrukowicz",
+    "Szymon Kozłowski",
+    "Jan Skowron",
+    "Przemek Mróz",
+    "Sean Terry",
+    "Andrew Gould"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aea291",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究针对微引力透镜事件OGLE-2011-BLG-0950中的\"行星/双星\"简并性问题，通过识别一个新的简并性来调和先前被否决的行星模型与高分辨率成像观测的矛盾，从而恢复了该事件行星解释的可行性。在新的行星模型下，该系统由一颗~1 M⊙主星和一颗~1.5 M_Jup行星组成，投影分离为~2或~8 au，同时受到\"近/远\"简并性的影响。研究还强调了在源星和透镜伴星的处理、质量-光度关系的选择等方面对微引力透镜分析精度的重要影响。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661657",
+   "title": "Simulating the thermodynamics of gas, radiation, and multispecies dust. Method and applications to protoplanetary disks",
+   "abstract": "The thermodynamics of protoplanetary disks, governed by a complex interplay between gas, dust, and radiation, exerts a strong influence on their morphology and dynamics at both large and small scales. Historically, hydrodynamical simulations have treated thermodynamics with approximate prescriptions, such as local isothermality, parameterized β-cooling, and radiation hydrodynamics with gas-dust thermal equilibrium. However, a more comprehensive and self-consistent approach would more accurately reproduce the wealth of features found in observations, which in modern times have reached unprecedented spectral, angular, and vertical resolution. With this motivation, we devised a radiation-hydrodynamics scheme for the PLUTO code with energy exchange (via absorption, emission, and collisions) for gas, radiation, and multiple species of dust. Dust-gas dynamics are handled by treating each dust species as a pressureless, diffusive fluid, ensuring that our scheme can represent changes in disk illumination caused by grain settling and trapping. We demonstrate the effectiveness of our scheme in several test problems and conclude by discussing its relevance to open questions in protoplanetary disk studies.",
+   "authors": [
+    "Dhruv Muley",
+    "David Melon Fuksman",
+    "Prakruti Sudarshan",
+    "Alexandros Ziampras",
+    "Mario Flock"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661657",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究为PLUTO code开发了辐射流体力学方案,自洽耦合气体、辐射和多种尘埃的能量交换过程,以更准确地模拟原行星盘的热力学演化。该方法将每种尘埃视为无压力扩散流体,能够捕捉晶粒沉降和俘获引起的盘照度变化。通过多个测试问题验证了该方案的有效性,有望解决原行星盘研究中的关键科学问题。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661151",
+   "title": "Impact of accretion variability on the CO emission of a disk around a very low-mass star with JWST",
+   "abstract": "Context: Very low-mass stars (M_⋆<0.2M_⊙) are known to host a larger fraction of terrestrial planets compared to higher mass stars. Studying the structure of their protoplanetary disk is therefore crucial to understanding the formation of Earth-like planets. Aims: In this work, we aim to characterize the innermost regions of the disk around a known very low-mass star, 2MASS J16053215-1933159 (J1605 hereafter), by analyzing new JWST/NIRSpec observations taken in 2024, two years after the first observation with JWST/MIRI in 2022. We intend to investigate the atomic and molecular emission in both spectra to establish a global view of the system and study its variability. Methods: After identifying both the fundamental band of CO and HI recombination emission lines from both spectra corrected from the contribution of the stellar photosphere, we used the HI lines to derive the stellar accretion rate at each epoch. The CO emission was fitted with a slab model to derive the gas characteristics. Results: We find that between the two epochs (2022 and 2024), the CO flux is reduced by a factor of ∼ 3, the flux of the only HI line seen by both NIRSpec and MIRI (the HI 10-6 line) is reduced by a factor of sim13, and the total continuum-density flux is reduced by ∼ 15 %. The accretion rate derived from individual HI lines is consistent with a decrease of a factor of sim13 in two years. After correcting the spectrum from the CO absorption present in the J1605 stellar photosphere, we find that the decrease in the disk's CO emission is consistent with a CO gas of the same column density and temperature at each epoch, but originating from a smaller emitting area when the accretion rate is low (NIRSpec's epoch). While warm hydrocarbons (≃ 500 K) are detected with MIRI-MRS (2022) with extremely high column densities of ̊m C_2H_2, no hydrocarbon features are seen with NIRSpec (2024). We propose that non-Local Thermal Equilibrium (LTE) effects quench the near-IR emission of hydrocarbons in the warm reservoir. Taking the newly detected hot CO (∼ 800 K) as a reference and assuming LTE, we constrained the column density of ̊m C_2H_2, HCN, and ̊m CH_4 to be less than 30% of CO in the hot reservoir. This value suggests that the C/O in the inner disk is unlikely to be much larger than unity. Conclusion: The variation of the accretion luminosity of the very low-mass star J1605 correlates with the variation of its fundamental CO luminosity similarly to T-Tauri stars, supporting the idea that very low-mass stars could be seen as scaled-down versions of T-Tauri stars. The detection of the emission of the fundamental band of CO in disks around cold objects (very low-mass stars, brown dwarfs, and giant planets) is challenging because of the presence of CO absorption in their photosphere. Future observations (e.g., with ELT/METIS) looking for such emission will require robust ways to constrain the photosphere emission and follow the time variability of the sources.",
+   "authors": [
+    "C. Bergez-Casalou",
+    "B. Tabone",
+    "Y. Aoyama",
+    "G. Herczeg",
+    "A. Caratti o Garatti",
+    "E. Habart",
+    "E. F. van Dishoeck",
+    "I. Chemerynska",
+    "T. Henning",
+    "S. L. Grant",
+    "M. Guedel",
+    "A. M. Arabhavi",
+    "J. Kanwar",
+    "G. Olofsson",
+    "G. Perotti",
+    "L. Tychoniec",
+    "L. B. F. M. Waters"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661151",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究利用JWST观测超低质量星J1605周围原行星盘的2022和2024两个历元数据,通过分析CO基频带和HI复合线来研究盘的内部结构及其随吸积率变化的演变。研究发现吸积率下降约13倍与CO发射通量下降约3倍相关联,且CO气体的柱密度和温度保持不变,仅发射区域缩小,同时温室温度约800 K的CO首次被探测到,约束了内盘C/O接近1。本结果表明超低质量星的CO发射与吸积变率的相关性与T-Tauri星类似,支持了超低质量星可视为缩小版T-Tauri星的观点。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661135",
+   "title": "Asteroseismology and interferometry of the F7V spectroscopic binary χ Draconis A in the TESS CVZ",
+   "abstract": "Asteroseismology provides precise stellar parameters, which are particularly useful for benchmark stars with accurate independent measurements. However, most benchmark solar-like oscillators are red giants. We present a detailed analysis of the asteroseismic main-sequence benchmark star ̧hi Dra A in the Transiting Exoplanet Survey Satellite (TESS) northern continuous viewing zone. We aim to derive its stellar mass and radius from asteroseismic modelling of individual mode frequencies and test these derived values against an independent dynamical mass and interferometric radius measurements. We determined the dynamical mass of ̧hi Dra using 618 radial velocity measurements obtained with the SONG telescope at Tenerife. Our results were derived via the spectral disentanglement method, and 53 relative astrometric measurements. From the disentangled spectra, we also determined the spectroscopic parameters of ̧hi Dra A. With the PAVO beam combiner at CHARA, we obtained the interferometric radius of ̧hi Dra A. We determined asteroseismic parameters from 16 sectors of 20 sec cadence TESS photometry. We determine T_ ̊m eff =6277 =-0.51 =0.08 =1.028 ± 0.004 ̊m M_⊙ for ̧hi Dra A and M_ K, ̊m Fe/H dex, and $ α/̊m Fe dex from the spectroscopic analysis. For the dynamical fit, we obtain a mass of M_ ̊m A ̊m B =0.735 ± 0.003 ̊m M_⊙ for ̧hi Dra B. Combining the derived interferometric angular diameter with dynamical parallax yields an interferometric radius of R_ ̊m A = 1.159^ +0.029 _ -0.028 ̊m R_⊙, the first interferometric radius of ̧hi Dra A. In the TESS power spectrum, we identify 38 individual oscillating modes. Using these modes, we modelled the star with nine independent pipelines to test the resulting model mass and radius against our independently calculated mass and radius. All models yield masses slightly lower than the dynamical mass. Using asteroseismic scaling relations, we find that scaling masses from corrected scaling relations best reproduce the dynamical mass. The combination of spectroscopy, interferometry, and asteroseismology yields precise results for the main component of the ̧hi Dra system, making it one of the best-characterised main-sequence solar-like oscillators.",
+   "authors": [
+    "Jonatan Rudrasingam",
+    "Mikkel N. Lund",
+    "Frank Grundahl",
+    "Arnab Chowhan",
+    "Timothy R. Bedding",
+    "Poul E. Nissen",
+    "Aldo Serenelli",
+    "J. M. Joel Ong",
+    "Jeppe S. Thomsen",
+    "Yaguang Li",
+    "Eva Panetier",
+    "Sarbani Basu",
+    "Owen J. Scutt",
+    "Travis S. Metcalfe",
+    "Savita Mathur",
+    "Mark Lykke Winther",
+    "George T. Hookway",
+    "Benjamin J. S. Pope",
+    "Amalie Stokholm",
+    "Desmond H. Grossmann",
+    "Jens R. Larsen",
+    "Jørgen Christensen-Dalsgaard",
+    "Daniel Huber",
+    "Mads S. Fredslund",
+    "Timothy R. White",
+    "Paul G. Beck",
+    "Pere L. Pallé",
+    "Rafael A. García",
+    "Hans Kjeldsen"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661135",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "transiting exoplanet",
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过TESS观测数据对F7V型分光双星χ Dra A进行了详细的星震学分析，采用SONG望远镜径向速度测量、CHARA干涉仪观测和谱线分离等方法获得了其动力学质量、干涉测量半径等独立参数。研究通过对38个振荡模式的建模，使用九个独立管道进行星震学反演，并将结果与动力学质量(M_A=1.028±0.004 M_⊙)和干涉半径(R_A=1.159^{+0.029}_{-0.028} R_⊙)进行交叉验证。结果表明经过校正的星震学标度关系能最好地再现动力学质量，使χ Dra A成为迄今表征最精确的主序太阳型振荡子之一，为行星动力学系统中的基准星提供了高精度参数。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662323",
+   "title": "First-principles calculations of far-wing absorption in He-broadened CO_2 infrared spectra",
+   "abstract": "We report theoretical predictions and modeling of the far-wing absorption of CO_2 broadened by He over a wide temperature range (200--1000 K), which are relevant for exoplanet atmosphere studies. Accurate modeling of He-broadened CO_2 absorption is essential for opacity calculations used to characterize the composition, structure, and climate of exoplanet atmospheres. In particular, the strong CO_2 band at 4.3 μm has been clearly identified in the spectra of several exoplanets observed with the James Webb Space Telescope (JWST). Requantized classical molecular dynamics simulations were first performed to predict absorption in the far wings of the 4.3 μm band of CO_2. The resulting predictions show excellent agreement with available experimental data at room temperature. The theoretical predictions and measured data were then used to parameterize an impact energy-corrected sudden model, which allowed us to accurately reproduce the far-wing absorption of He-broadened CO_2 in several infrared spectral regions over the (200--1000) K temperature range. Finally, for applications to exoplanet atmosphere opacity calculations, we derived temperature-dependent ̧hi-factor corrections that account for the sub-Lorentzian behavior of the far wing of the major infrared bands of CO_2.",
+   "authors": [
+    "Ha Tran",
+    "Emile Ducreux"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662323",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过经典分子动力学模拟和碰撞模型,预测了200-1000 K温度范围内He增宽的CO₂红外吸收光谱,特别是4.3 μm强谱带的远翼吸收特性。理论预测与实验数据吻合良好,并基此参数化了能量修正的碰撞模型,在多个红外谱区获得了精确的温度依赖描述。研究为JWST观测的系外行星大气成分和气候特征反演提供了可靠的不透明度数据和修正因子。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662886",
+   "title": "Disk dispersal freezes overstable resonant librations",
+   "abstract": "Convergent migration in a gaseous protoplanetary disk can capture a planet pair into mean-motion resonance. Eccentricity damping can subsequently make the resonant libration overstable and drive the pair out of resonance. Most studies of this process, however, assumed a static disk. We examine how the decay of disk torques during dispersal changes this outcome and whether it can freeze an overstable libration before the pair escapes. We describe disk dispersal by allowing the migration and eccentricity-damping timescales to increase exponentially on a local timescale τ_̊m d. Integration of the time-dependent growth rate predicts τ_ ̊m d,crit e,0 . We tested this scaling with direct N-body integrations and related τ_̊m d to the time taken by a photoevaporative cavity edge to cross the local torque-producing region. The simulations recovered a linear boundary, τ_ ̊m d,crit ≃ Sτ_ e,0 , with S /τ_ over the explored parameter range. In a fiducial minimum-mass solar nebula, faster propagation of the cavity edge shortened the local dispersal time. The ratio τ_ ̊m d ̊m d,crit also decreased with orbital radius, which means that both effects favour resonant survival. When local disk dispersal is sufficiently rapid, the libration amplitude can freeze and the planet pair can remain in resonance instead of escaping through overstability. Late disk evolution can therefore alter the outcome of resonant overstability.",
+   "authors": [
+    "Linghong Lin",
+    "Beibei Liu"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662886",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究考察了原行星盘耗散过程中行星对共振态的演化，揭示了盘力矩衰减如何改变过稳共振的动力学结果。通过建立时间依赖的增长率模型和N体数值积分，研究发现当盘耗散时间足够短时，过稳共振振幅会被冻结，使行星对保持在共振态而非逃逸出共振。这表明盘演化的后期过程能够显著改变共振过稳性的最终结果，为理解真实原行星系统中行星轨道配置的形成提供了新的物理机制。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660698",
+   "title": "The tale of the three planets: 3D cloud feedback increases the spectral diversity of warm Jupiters",
+   "abstract": "The JWST has revealed a large diversity of warm Jupiter spectra, despite broadly similar planetary parameters across the population. The main driver of this diversity remains unclear. We aim to identify the mechanisms responsible for the spectral differences of three warm Jupiter-size exoplanets observed by JWST: whereas WASP-80b appears mostly cloud-free, both WASP-107b and WASP-69b have spectra dominated by clouds. We modeled each planet using the same framework, ADAM (formerly SPARC/MITgcm), which solves for the interactions among cloud transport, radiative transfer, and atmospheric circulation in 3D. We investigated three condensate species ( KCl, and and four particle sizes (0.1, 1, 5, and 10 Clouds settle deeper in the atmosphere of the higher-gravity planet WASP-80b than in WASP-107b, and the model reproduces their spectral difference naturally. For WASP-107b, three cloud models can reproduce the NIRCam observations: 5 1 KCl, and 5 However, they cannot match the scattering slope observed at shorter wavelengths in NIRISS or the possible silicate feature in the MIRI bandpass, suggesting a multimodal cloud distribution. Our model predicts that small silicate particles are homogeneously distributed and thus cannot account for the difference between the two limb spectra in the MIRI bandpass. Finally, applying the same model to WASP-69b does not yield a partially cloudy dayside solution that fits the emission spectra, as proposed in a previous study. Coupling among 3D circulation, clouds, and radiative transfer can increase the spectral diversity of warm Jupiter exoplanets, particularly through changes in cloudiness with gravity. The combination of multiphase, wide-wavelength coverage and models that couple clouds, circulation, and radiative transfer is key to advancing our understanding of these new objects.",
+   "authors": [
+    "Nishil Mehta",
+    "Vivien Parmentier",
+    "Xianyu Tan",
+    "Elspeth K. H. Lee",
+    "Tristan Guillot",
+    "Matthew M. Murphy",
+    "Thomas P. Greene",
+    "Thomas G. Beatty",
+    "Taylor J. Bell",
+    "Jonathan J. Fortney",
+    "Michael R. Line",
+    "Sagnick Mukherjee",
+    "Kazumasa Ohno",
+    "Everett Schlawin",
+    "Anastasia Triantafillides",
+    "Luis Welbanks",
+    "Lindsey S. Wiser"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660698",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "emission spectr",
+    "atmospheric circulation"
+   ],
+   "summary_zh": "本研究通过3D耦合云输运、辐射传输和大气环流模型(ADAM)，模拟了三颗JWST观测的温木星(WASP-80b、WASP-107b和WASP-69b)的大气，揭示了行星重力对云沉降深度的影响是造成其光谱多样性的关键机制。研究发现更高重力的行星云层沉降更深，导致云顶光学深度降低，而多相云粒子分布和3D大气环流的耦合反馈能够增加温木星的光谱多样性，但同时指出单一云模型难以解释全波段观测，需要多模态云分布。该工作强调了耦合云、环流和辐射传输的3D自洽模型对理解系外行星大气结构的重要性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661418",
+   "title": "Rotation, spectral type, and albedo of the potentially hazardous asteroid (153814) 2001 WN 5",
+   "abstract": "Context. The potentially hazardous asteroid (153814) 2001 WN 5 will pass inside the lunar distance on June 26, 2028, offering a rare opportunity to characterize a kilometer-scale near-Earth asteroid at high angular resolution. However, previous taxonomic classifications have been inconsistent and its physical properties remain insufficiently consolidated. Aims. We aim to constrain the rotation state, shape, visible colors, geometric albedo, and taxonomy of 2001 WN 5 prior to its 2028 close approach. Methods. We combined new photometry from the 1.54 m Danish Telescope (DK154) with archival and survey observations from the Transiting Exoplanet Survey Satellite (TESS), Dark Energy Camera (DECam), Zwicky Transient Facility (ZTF), and Asteroid Terrestrial-impact Last Alert System (ATLAS). These data were used to refine the rotation period, investigate the spin-shape solution space, derive visible colors, and estimate the geometric albedo from phase curve slopes. Results. We measured a synodic rotation period of 4.263 ± 0.002 h and 4.259 ± 0.009 h from DK154 and TESS, respectively, consistent with results from previous light curve observations. The available light curves do not uniquely constrain the sidereal rotation period, but the preferred pole solutions lie in the southern hemisphere in ecliptic coordinates. Visible colors from multiple independent datasets are consistent with the C-complex, while the TESS phase curve slopes give p V = 0.13 ± 0.04, consistent with previous thermal-infrared albedo estimates. Combining the visible colors, albedo, and published near-infrared spectra, we classify 2001 WN 5 as a likely B-type asteroid. The effective diameter is estimated to be D = 0.81 ± 0.13 km using the H - G model, while the linear model yields a slightly smaller value of 0.74 ± 0.11 km. Dynamical models indicate that 2001 WN 5 likely originated from the inner main belt via the ν 6 resonance, with the Flora–Baptistina and Nysa–Polana complexes identified as the parent candidates. Conclusions. During the 2028 encounter, 2001 WN 5 should reach an apparent diameter of about 0.5 arcsec, making it an excellent target for coordinated photometric, spectroscopic, and high-angular-resolution observations. Observations during the 2026–2027 apparition will be essential for improving its spin and shape model before its 2028 close approach.",
+   "authors": [
+    "Jin Beniyama",
+    "Alexey V. Sergeyev",
+    "Konstantinos Odysseas Xenos",
+    "Benoit Carry",
+    "Petr Pravec",
+    "Petr Fatka",
+    "Peter Kušnirák",
+    "Larry Denneau",
+    "Vasilij Shevchenko"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661418",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过综合丹麦1.54米望远镜和多个巡天数据库(TESS、DECam、ZTF、ATLAS)的测光观测，精确约束了近地小行星2001 WN 5的自转周期(4.26小时)、可见光颜色、几何反照率(0.13±0.04)和分类(B型小行星)，并基于动力学模型推断其源于内小行星带。该小行星将于2028年6月26日在月球轨道内通过，届时视角直径约0.5角秒，为开展高角分辨率观测研究提供难得机遇。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659677",
+   "title": "PDRs4All",
+   "abstract": "Context. Conspicuous excess emission is present in the near-infrared (NIR) region in various objects, including reflection nebulae, planetary nebulae, and nearby galaxies. However, the spatial distribution and spectral shape of the excess emission remain poorly understood. Aims. We studied the NIR continuum emission spectroscopically and obtained its spatial distribution relative to the aromatic infrared band (AIB) at 3.3 µm in the Orion Bar prototypical photodissociation region (PDR). We aim to characterize its spectral shape and discuss its origin. Methods. We employed 3D spectroscopic data of the Orion Bar taken with the integrated field unit of NIRSpec on JWST from the Early Release Science program “PDRs4All.” Contribution from the foreground ionized gas was estimated using the Cloudy code and subtracted. The observed regions were divided into nine physically distinct regions and an average spectrum was derived for each region. Results. The nine regions, including the ionized gas, atomic PDR, and molecular PDR, clearly show remaining continuum in the region 1–4.5 µm. The continuum at wavelengths longer than 2.7 µm shows good correlations with the 3.3 µm AIB, while the correlation of the continuum at 1.2 µm is not significant. We further find that the NIR continuum in the Orion Bar can be approximated by a summation of two blackbodies. The low-temperature component correlates with the AIB well, while the high-temperature component does not. The average spectra also show absorption features at 3.0 and 4.27 µm, which are attributed to the presence in the spectra of water ice and CO 2 ice. Conclusions. We discuss possible origins of the NIR continuum, among which recurrent fluorescence from carbon clusters better explains the observed low-temperature component. The presence of ice species suggests a contribution from a deeper layer of the PDR along the line of sight producing characteristic ice absorption features.",
+   "authors": [
+    "Takashi Onaka",
+    "Emmanuel Dartois",
+    "Els Peeters",
+    "Olivier Berné",
+    "Emilie Habart",
+    "Christiaan Boersma",
+    "Jan Cami",
+    "Asunción Fuente",
+    "Javier R. Goicoechea",
+    "Ozan Lacinbala",
+    "Yoko Okada",
+    "Alexander G. G. M. Tielens",
+    "Dries Van De Putte",
+    "Francois Boulanger",
+    "Thomas Pino",
+    "Yong Zhang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659677",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "emission spectr"
+   ],
+   "summary_zh": "本研究利用JWST/NIRSpec积分视场光谱数据对猎户座棒状光解离区(PDR)的近红外连续谱进行了系统分析,通过将观测区域划分为九个物理不同区域并扣除电离气体贡献,发现1-4.5微米波段存在显著的连续谱辐射。该连续谱可分解为两个黑体分量,其中低温分量与3.3微米芳香红外谱带良好相关,更好地解释为来自碳团簇的复现荧光,而高温分量的起源仍需进一步研究;同时检测到的水冰和二氧化碳冰吸收特征表明PDR更深层也对该连续谱有贡献。"
+  },
+  {
+   "id": "doi:10.3847/psj/aea140",
+   "title": "Magnetotail Flapping Event at Mars: A Simultaneous View from MAVEN and InSight",
+   "abstract": "Abstract On 2019 October 4, Mars Atmosphere and Volatile EvolutioN (MAVEN) transited through the Martian magnetotail, observing multiple magnetic field reversals in the sunward component. During the second reversal, MAVEN observed wavelike oscillations of the magnetotail current sheet between 17:05 and 17:25 UTC. The oscillations exhibit characteristics of both types of magnetotail flapping waves, large-scale steady flapping of the magnetotail current sheet and propagating kink-like flapping. The average spatial amplitude of the flapping wave is 110.8 ± 20.1 km embedded within the tail current sheet, which has a width of 1096 ± 10.4 km. The characteristic frequency of the flapping waves is 5.3 mHz (period of about 3 minutes) with a width of ±1.3 mHz. Based on the analysis of spacecraft data and accompanying magnetohydrodynamic (MHD) simulations, we suggest that an interplanetary magnetic field (IMF) rotation in the upstream solar wind is consistent with the magnetotail flapping event observed by MAVEN. At the same time as MAVEN observes the magnetotail flapping event, Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight) also records an ultra-low-frequency (ULF) wave event on the surface of Mars with measurements from the InSight Fluxgate Magnetometer (IFG). The characteristic frequency observed by InSight is 5.8 mHz with a width of ±0.4 mHz. Using a simplified Martian ionosphere model, we determine that the nightside ionosphere is too weak to significantly shield the surface from waves in the ULF band. Therefore, we interpret the simultaneous magnetotail flapping waves and ULF waves observed at the Martian surface as having the same origin.",
+   "authors": [
+    "Kyle Webster",
+    "Yingjuan Ma",
+    "Wenyi Sun",
+    "Hao Cao"
+   ],
+   "link": "https://doi.org/10.3847/psj/aea140",
+   "source": "The Planetary Science Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过MAVEN和InSight的同步观测，研究了2019年10月4日火星磁尾的磁场翻转事件及其伴随的波动现象。研究发现MAVEN观测到特征频率为5.3 mHz、空间振幅约110 km的磁尾摆动波，同时InSight在火星表面记录到频率为5.8 mHz的超低频波事件，两者均由上游太阳风的行星际磁场旋转触发。结合MHD模拟和电离层屏蔽模型分析表明，火星较弱的夜侧电离层无法有效屏蔽超低频波，使得磁尾摆动波能够直接耦合到行星表面。"
+  },
+  {
+   "id": "doi:10.1126/science.aef2542",
+   "title": "Incorporation of atmospheric components in planetary magma oceans through bubble–metal compounds",
+   "abstract": "Atmophile elements (carbon, hydrogen, and nitrogen) were thought to accrete late during planetary formation, yet cosmochemical and astrophysical evidence suggests that they were already present while small bodies, such as Vesta, were forming. High-temperature magmatic events on small bodies, however, should have outgassed these ultravolatile elements because gravity would have been insufficient to retain them. In this study, experiments reveal that gas bubbles strongly attach to metal droplets in magma ocean–like mixtures, forming compounds that resist segregation. Early flotation of such compounds would have enhanced mantle siderophile endowment, eliminating the need for late accretion. On small bodies, low gravity would have enabled millimeter- to centimeter-sized compounds to sink, trapping atmophiles in their interiors. This mechanism links core formation to the early entrapment of atmophile elements and provides a framework for reconciling volatile delivery across planetary bodies and planetary accretion models.",
+   "authors": [
+    "Fabrice Gaillard",
+    "Luiz Pereira",
+    "Laurent Arbaret",
+    "Giada Iacono-Marziano",
+    "Emmanuel Le Trong",
+    "Fabien Bernadou",
+    "Yves Marrocchi"
+   ],
+   "link": "https://doi.org/10.1126/science.aef2542",
+   "source": "Science",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过高温实验证明，在岩浆洋环境中气泡能够强烈附着在金属液滴上形成复合物，这些复合物能够抵抗分离并在早期浮升时增加地幔亲铁元素含量。在小行星等低重力天体上，这种气泡-金属复合物可以下沉并将大气相亲和元素（碳、氢、氮）困封在行星内部，从而将核心形成与挥发性元素早期捕获联系起来，为行星吸积和挥发性元素输运模型的协调提供了新的物理基础。"
+  }
+ ],
  "2026-10-01": [
   {
    "id": "arxiv:2609.39501",
@@ -10608,6 +10950,5 @@
    ],
    "summary_zh": "本研究利用ATLAS、ZTF和LCO等多年地基巡天测光数据，分别观测2023/24年间的木星族彗星103P/Hartley 2和2020-2025年间的半人马小天体(2060) Chiron，以探究外海王星天体向内太阳系演化过程中的活动性演变。103P显示近日点前后不对称的活动斜率（近日点前-3.48、近日点后-1.16），表现出后近日点相对尘埃贡献增加的特征，而Chiron的2021年爆发在~1.4年时间尺度上呈指数衰减，其季节相位曲线逐年变平，暗示持续的低水平活动或环散射演变。这两个天体分别代表TNO向JFC演化序列的两端：103P处于挥发物耗尽阶段，而Chiron仍富含挥发物且具有间歇性活动能力。"
   }
- ],
- "2026-08-03": []
+ ]
 }
