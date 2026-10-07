@@ -1,4 +1,311 @@
 {
+ "2026-10-07": [
+  {
+   "id": "arxiv:2610.08584",
+   "title": "SOPHIE and TESS characterization of fourteen TESS Objects of Interest: nine planetary systems and five low-mass stellar companions",
+   "abstract": "We present fourteen TESS Objects of Interest (TOIs) from the SOPHIE-TESS follow-up program. Combining TESS photometry, SOPHIE radial velocities (RVs), ground-based photometry, and high-resolution imaging, we establish the nature of all targets. Nine systems (TOI-6457, TOI-6883A, TOI-6649, TOI-6842A, TOI-5217A, TOI-6893A, TOI-7025, TOI-7176, and TOI-5893) host planets. TOI-6649 b, TOI-6842A b, and TOI-5217A b are transiting hot Jupiters with periods of 4.4-6.0 d, radii of 1.3-1.6 RJ, masses of 0.3-1.3 MJ, and densities of 0.1-0.6 g/cm3. TOI-5217A also hosts an outer companion, TOI-5217A c, with a period of about 1761 d, a minimum mass of about 13 MJ, and an eccentric orbit (e = 0.53 +/- 0.02). TOI-5893 b, TOI-6893A b, TOI-6457 b, TOI-7176 b, and TOI-7025 b are transiting warm Jupiters with periods of 40.4-67.0 d, radii of 0.8-1.2 RJ, and masses of 0.5-1.0 MJ. TOI-6883A b, a recently reported warm Jupiter, is further characterized with new photometry and SOPHIE and TRES RVs. The other five systems (TOI-5621AB, TOI-5321AB, TOI-3678AB, TOI-5906AB, TOI-5308AB) show large RV amplitudes indicating eclipsing binaries (companions of 0.1-0.6 Msun and 0.1-0.6 Rsun). TOI-6842A b is a super-puff (density 0.08 +/- 0.01 g/cm3), among the nine lowest-density planets known, and with a transmission spectroscopy metric of about 250 it is an excellent target for atmospheric characterization. The six warm Jupiters, with equilibrium temperatures of 377-846 K, are low-irradiation benchmarks for hot-Jupiter inflation models. TOI-7025 b has an eccentricity of 0.82 +/- 0.02, one of the largest known for a planet orbiting a single star. Finally, using Gaia astrometric excess noise, we detect TOI-5906 B, the first object identified by transit, RV, and astrometry.",
+   "authors": [
+    "N. Heidari",
+    "G. Hébrard",
+    "S. Sousa",
+    "T. Forveille",
+    "F. Destriez",
+    "J. D. Eastman",
+    "J. M. Almenara",
+    "D. W. Latham",
+    "B. S. Safonov",
+    "R. Brahm",
+    "K. G. Stassun",
+    "K. A. Collins",
+    "D. Dragomir",
+    "J. Janík",
+    "I. Boisse",
+    "J. G. Barrientos",
+    "J. Serrano Bell",
+    "F. Kiefer",
+    "A. Bieryla",
+    "X. Bonfils",
+    "Z. Balkóová",
+    "G. Conzo",
+    "M. Deleuil",
+    "O. D. S. Demangeon",
+    "X. Delfosse",
+    "R. F. Díaz",
+    "Z. Essack",
+    "J. Eberhardt",
+    "Y. N. E. Eschen",
+    "A. C. Frommer",
+    "F. R. Frustagia",
+    "D. Feliz",
+    "A. F. Gupta",
+    "N. Hara",
+    "T. Henning",
+    "S. B. Howell",
+    "A. Jordán",
+    "J. Köhler",
+    "J. F. Kielkopf",
+    "H. A. Knutson",
+    "J. Lipták",
+    "C. R. Mann",
+    "E. Martioli",
+    "C. Moutou",
+    "F. Murgas",
+    "B. Nicholson",
+    "P. Pintr",
+    "M. Tala Pinto",
+    "S. N. Quinn",
+    "H. M. Relles",
+    "P. Rowden",
+    "R. P. Schwarz",
+    "R. Sefako",
+    "A. Shporer",
+    "G. Srdoc",
+    "C. Stockdale",
+    "I. A. Strakhov",
+    "B. Skinner",
+    "B. M. Tofflemire",
+    "T. Trifonov",
+    "S. Ulmer-Moll",
+    "L. Vanzi",
+    "F. P. Wilkin",
+    "C. Ziegler"
+   ],
+   "link": "https://arxiv.org/abs/2610.08584v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter",
+    "warm Jupiter"
+   ],
+   "summary_zh": "本研究通过结合TESS光度测量、SOPHIE径向速度、地面测光和高分辨率成像，对14个TESS关注天体进行了表征，确认了9个行星系统和5个低质量恒星伴星。行星样本包括3个热木星、6个温木星，其中TOI-6842A b是超低密度行星（密度0.08 g/cm³）且具有极佳的大气表征潜力，TOI-7025 b拥有单星行星中最大离心率（e=0.82）之一，TOI-5217A系统包含一颗外层伴星。这些发现为热木星膨胀模型和行星形成理论提供了重要的低辐照基准样本。"
+  },
+  {
+   "id": "arxiv:2610.08472",
+   "title": "Reflex instabilities II: The reflex motion of the central object drives at least seven instabilities in accretion discs",
+   "abstract": "This series of papers studies the stability of accretion discs to the reflex motion of the central object under the gravitational pull of the disc itself. In this second paper, we use linear analysis to reproduce or discover seven distinct instabilities. We outline their defining characteristics and propose a classification. Of the four instabilities that had already been discovered, three are artificial: one does not survive the transition to modern surface density profiles such as power-laws, one is due to the location of the domain's boundaries, and one is due to the use of damping layers near the domain's boundaries. Only the SLING instability of Adams et al. (1989) and the three new 'cavity' instabilities seem capable of affecting accretion discs. All four can be described to a high degree of precision by WKB methods. They may drive eccentricity growth, affect planet migration, create spiral and crescent substructures in the absence of any planet, and boost accretion onto the central object. The issue is that the three artificial instabilities are extremely hard to avoid in simulations, and would bias the same observables. This suggests that our community may not have the tools to model the reflex motion of the central object yet.",
+   "authors": [
+    "Nathan Magnan",
+    "Michel Tagger",
+    "Clément Baruteau",
+    "Aurélien Crida",
+    "Jean-François Gonzalez",
+    "Héloïse Méheut"
+   ],
+   "link": "https://arxiv.org/abs/2610.08472v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet migration"
+   ],
+   "summary_zh": "本研究通过线性稳定性分析,系统研究了中心天体在吸积盘自引力作用下的反冲运动对盘层稳定性的影响,发现并分类了七种不同的不稳定性模式。其中仅SLING不稳定性和三种新的\"空腔\"不稳定性可能对真实吸积盘产生物理影响,可用WKB方法精确描述,但其余三种人工不稳定性在数值模拟中难以避免,会严重偏置对偏心率增长、行星迁移和盘结构的观测预测,表明当前数值模拟工具在处理中心天体反冲运动方面存在显著缺陷。"
+  },
+  {
+   "id": "arxiv:2610.08128",
+   "title": "Ariel Tier 3 Observations: An Opportunity to Explore both Stellar and Planetary Variability through Broad Wavelength Time-domain Spectroscopy",
+   "abstract": "Ariel's Tier 3 observing strategy offers a unique opportunity to explore planetary and stellar variability in the spectral and time domain. However, without the correct toolkit, temporal variability of the host star may complicate combined analysesof observations obtained at different epochs. We investigate the impact of stellar variability on Ariel Tier 3 observations and establish three different mitigation approaches of increasing physical complexity. Using simulated repeated observations of a favourable system contaminated by different spot and facula configurations, we compare a naive, unmodified stacking approach, separate analysis of the infrared region through progressive removal of the most strongly contaminated optical wavelengths, and the correction of individual visits using combined star-planet retrievals. We find that stacking inconsistent visits can produce substantial biases in the retrieved planetary properties under strong stellar variability, although a single activity correction can still recover the planetary parameters reasonably well. Applying progressive optical data cuts substantially improves the accuracy of retrievals up to a point, without requiring any in-retrieval correction and causing only a modest loss of precision. Correcting individual visits prior to stacking produces more consistent spectra and generally smaller uncertainties, but requires greater computational effort. These results demonstrate that stellar variability should be considered when interpreting repeated Ariel observations, but need not preclude atmospheric characterisation of active systems. A flexible suite of mitigation approaches, supported by preparatory and contemporaneous stellar monitoring, can allow the treatment of stellar variability to be adapted to individual targets while maintaining the efficiency required to maximise Ariel's scientific return.",
+   "authors": [
+    "Alexandra H. Thompson",
+    "Quentin Changeat",
+    "Theresa Luftinger",
+    "Giovanna Tinetti"
+   ],
+   "link": "https://arxiv.org/abs/2610.08128v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究调查了Ariel任务第3层观测策略中恒星变率对行星大气特征提取的影响,采用模拟重复观测和不同复杂度的三种缓解方法进行对比分析。研究发现强恒星活动会导致简单叠加观测数据时产生显著系统偏差,但通过渐进式光学数据剔除或单次访问联合反演修正可有效恢复行星参数,且各方法在精度和计算效率间存在权衡。这表明在Ariel多次观测数据分析中需重视恒星变率影响,但通过灵活采用相应缓解策略辅以恒星监测,仍可对活跃系统进行可靠的大气表征。"
+  },
+  {
+   "id": "arxiv:2610.07861",
+   "title": "COSMOS-3D: Spectro-photometric Confirmation of Shabgard, a Cool, Metal-poor Brown Dwarf in the COSMOS Field",
+   "abstract": "Brown dwarfs are unique laboratories for studying cool atmospheres, the low-mass end of star formation, and the transition between stars and giant planets. Identifying and characterizing the coldest brown dwarfs remains challenging, particularly at faint magnitudes in deep extragalactic surveys. We investigate COSMOS2025 ID639188, hereafter Shabgard, a compact source previously selected as a brown-dwarf candidate from COSMOS-Web photometry. We use serendipitous JWST/NIRCam F444W wide-field slitless spectroscopy from COSMOS-3D, combined with COSMOS2025 NIRCam photometry and multi-epoch imaging. We extract a local-background-subtracted, profile-weighted $4.05$-$4.85μ{\\rm m}$ spectrum and compare the data with six atmosphere-model families. The LOWZ atmosphere-grid fit, using PCA interpolation and MCMC sampling, gives $T_{\\rm eff}=718.6^{+10.6}_{-10.2}$ K and $[{\\rm M/H}]=-1.00^{+0.07}_{-0.08}$, favoring a cool, subsolar-metallicity atmosphere near the late-T/Y transition. A fixed-atmosphere molecular-opacity test strongly favors a contribution from CH$_4$ to the observed $4$-$5 μ{\\rm m}$ spectral shape, although the restricted wavelength coverage prevents a molecule-by-molecule abundance determination. Model-dependent physical estimates span approximately $23$-$52 {\\rm M_{\\rm Jup}}$ and $140$-$180$ pc. We measure a proper motion of $|μ|=89.2\\pm0.4$ mas yr$^{-1}$, while the LOWZ MCMC flux scaling gives a distance of $176.2^{+18.4}_{-17.8}$pc. Together, these results support the classification of Shabgard as a cool, metal-poor Galactic brown dwarf and demonstrate the ability of JWST deep-field surveys to discover and characterize faint substellar objects.",
+   "authors": [
+    "Bahareh S. Salmasi",
+    "Priyanka Jalan",
+    "Tomotsugu Goto",
+    "Tetsuya Hashimoto",
+    "Feige Wang",
+    "Tayyaba Zafar",
+    "Koki Kakiichi",
+    "Ece Kilerci",
+    "Srivardini Ayyappan",
+    "Romain A. Meyer",
+    "Anilkumar Mailvaganam",
+    "Tamal Mukherjee",
+    "Xuanyi Lyu",
+    "Imam Uzma Aalia",
+    "Arihant Raidani",
+    "Samuel Carlson",
+    "Jose Luis Carrillo Martinez",
+    "Andreas L. Faisst",
+    "Marko Shuntov",
+    "Hollis B. Akins",
+    "Zihao Li",
+    "the COSMOS-3D Collaboration"
+   ],
+   "link": "https://arxiv.org/abs/2610.07861v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究通过JWST/NIRCam红外光谱和COSMOS-Web多波段测光数据,确认并表征了COSMOS视场中一个超冷、贫金属棕矮星Shabgard,其有效温度为718.6 K、金属丰度为-1.0、距离约176 pc。采用LOWZ大气模型和MCMC采样方法分析4.05-4.85 μm光谱,发现CH₄分子对观测光谱形状有显著贡献,物理质量估计为23-52木星质量。该工作验证了JWST深场巡天在发现和表征微弱亚恒星天体方面的能力,为研究超冷大气和低质量天体形成提供了新的观测证据。"
+  },
+  {
+   "id": "arxiv:2610.07202",
+   "title": "Exploring the ultrahot Neptune LTT 9779 b with CRIRES+. Non-detection of helium transmission spectra and detection of H$_2$O on the dayside",
+   "abstract": "Ultrahot Neptunes reside in the most extreme irradiation regime of the hot Neptune desert and remain challenging targets for atmospheric characterization because of their low planet-to-star flux ratios. We present high-resolution transit and dayside thermal emission spectroscopy of the ultrahot Neptune LTT 9779 b obtained with CRIRES$^+$, to probe atmospheric escape and dayside molecular emission. No significant absorption is detected in the metastable He I $λ1083$ nm triplet during transit, yielding a $3σ$ upper limit of 0.45% on the excess helium absorption depth and supporting previous non-detections that suggest weak ongoing atmospheric escape. For the dayside emission spectra in the $K$ band, our cross-correlation analysis reveals an $\\mathrm{H_2O}$ absorption signal and a tentative $\\mathrm{CO}$ feature, with the combined signal reaching a detection significance of $4.8σ$. Both the CRIRES$^+$ and previous JWST data favor a non-inverted temperature structure, providing no evidence of a thermal inversion on the planetary dayside. We further perform a joint atmospheric retrieval combining the CRIRES$^+$ high-resolution spectra with JWST/NIRISS SOSS secondary-eclipse observations. The joint retrieval yields a low $\\mathrm{H_2O}$ abundance, while the $\\mathrm{CO}$ abundance remains weakly constrained. The inferred planetary equatorial rotational velocity, $v_{\\rm eq}=4.9^{+4.4}_{-3.0}~\\mathrm{km\\,s^{-1}}$, is consistent within $1σ$ with the synchronous rotation velocity expected for a tidally locked planet ($\\sim2.8~\\mathrm{km\\,s^{-1}}$). However, the large uncertainties prevent us from placing strong constraints on the planet's rotation state. Future phase-resolved CRIRES$^+$ observations with broader orbital-phase coverage and higher signal-to-noise ratios would improve the abundance constraints and probe the atmospheric dynamics of this rare ultrahot Neptune.",
+   "authors": [
+    "S. Liu",
+    "F. Yan",
+    "L. Nortmann",
+    "B. Guo",
+    "D. Cont",
+    "F. Lesjak",
+    "D. Shulyak",
+    "A. Reiners",
+    "N. Piskunov",
+    "A. P. Hatzes",
+    "U. Seemann",
+    "A. Lavail",
+    "A. D. Rains",
+    "H. L. Ruh",
+    "L. Boldt-Christmas",
+    "M. Rengel",
+    "O. Kochukhov",
+    "T. Marquart"
+   ],
+   "link": "https://arxiv.org/abs/2610.07202v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape",
+    "transmission spectr",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究使用CRIRES+对超热海王星LTT 9779 b进行了高分辨率凌星和白昼热发射光谱观测,以探测其大气逃逸和分子发射特征。未检测到显著的氦I吸收信号,表明大气逃逸微弱,但通过联合JWST数据的大气反演检测到水和一氧化碳的特征,排除了昼侧热反演的存在。行星自转速度的推断值与潮汐锁定预期值相近但误差较大,表明该超热海王星具有独特的大气动力学特性,需要更高信噪比的后续观测来约束其大气成分和旋转状态。"
+  },
+  {
+   "id": "arxiv:2610.07181",
+   "title": "Enhancing the Interpretability of Radial Velocity Analysis Using Leave-one-out Cross-validation",
+   "abstract": "Radial velocity (RV) observations are reaching increasingly high precision, enabling the targeting of low-amplitude signals. Assessing results obtained at the limits of our capabilities requires understanding the relationship between data, models and inference. Leave-one-out cross-validation (LOO-CV) has become an increasingly popular tool for interpretable model criticism in astronomical data analysis. In this work, we demonstrate how LOO-CV can provide insight into the RV analysis of exoplanetary systems through three case studies. We first investigate the anomalously high mass of HD 119130 b inferred from CARMENES RVs, later revised significantly downward after follow-up observations with other instruments. We show that this high mass was strongly driven by two individual measurements, whose removal significantly reduces the tension between data sets. Next, we use LOO-CV as a model selection tool for the GJ 4276 system. Here, LOO-CV prefers an eccentric single-planet model over a two-planet model, and identifies the orbital phases at which follow-up observations would best discriminate between them. Finally, we extend LOO-CV to models with correlated noise, applying it to the GJ 357 system, whose RVs are modeled with a Gaussian process. We find no predictive support for a fourth planetary signal that is moderately favored by the Bayesian evidence, strengthening the interpretation of a three-planet architecture previously reported in the literature. We provide practical guidance for implementing LOO-CV in RV analysis, together with an online tutorial. Such methods will become ever more important as future RV surveys push the limits of planet detection and characterization.",
+   "authors": [
+    "Matthew C. Nixon",
+    "Ritvik Basant",
+    "Rafael Luque",
+    "Luis Welbanks",
+    "Pierrot Lamontagne"
+   ],
+   "link": "https://arxiv.org/abs/2610.07181v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过留一法交叉验证(LOO-CV)增强径向速度(RV)系外行星检测分析的可解释性,用于诊断异常数据点和进行模型选择。通过HD 119130 b、GJ 4276和GJ 357三个系统的案例分析,证明LOO-CV能够识别主导异常结果的个别测量值、区分竞争模型以及评估高斯过程噪声模型中的行星信号,为未来高精度RV巡天的行星探测提供实用指导。"
+  },
+  {
+   "id": "arxiv:2610.07149",
+   "title": "Detecting multiple planets in Gaia data using Bayesian model selection",
+   "abstract": "Gaia will soon provide a census of cold giant planets. However, an astrometric signal contains the superimposed reflex motion of all companions, so planetary signals cannot be treated individually. We therefore investigate Gaia's planet-detection capabilities for 1-planet and 2-planet systems, with special attention to systems near 2:1 mean-motion resonance. Gaia can detect 2-planet systems, although the lower-S/N planet requires a higher S/N threshold, especially when the outer planet is more massive and near 2:1 commensurability. When fitting a 1-planet model to a circular 2-planet resonant system, the resulting fit shows biases in eccentricity (up to e = 0.8), mass (up to 100%), and inclination (up to 50 deg). The bias is maximised when the planets' astrometric signatures are similar, since the combined orbital signal deviates most from a single Keplerian orbit. Many of these systems can be identified as having 2 planets using Bayesian model selection. Still, in some cases the second planet is hidden and undetectable due to its S/N, leading to these biases for the outer planet's orbital parameters. When the outer planet is roughly over three times as massive as the inner planet, orbital approximations allow us to recover the astrometric resoeccentric degeneracy from the bias. When the planets are in dynamical resonance, apsidal precession observed over a long enough baseline (e.g. DR5) can contribute to breaking the degeneracy at short orbital periods. Overall, these biases might significantly affect constraints on planet formation, migration, and evolution models from Gaia population-wide demographics.",
+   "authors": [
+    "Emmanuel J. Greenfield",
+    "James E. Owen"
+   ],
+   "link": "https://arxiv.org/abs/2610.07149v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究调查了Gaia对单行星和双行星系统的探测能力，重点关注2:1平均运动共振附近的系统，并采用贝叶斯模型选择来区分多行星信号。研究发现，当用单行星模型拟合圆形双行星共振系统时，会产生显著的参数偏差（离心率偏差可达0.8、质量偏差100%、倾角偏差50°），这些偏差在行星测量特征相似时最为严重。虽然许多双行星系统可通过贝叶斯模型选择正确识别，但低信噪比的行星可能被隐藏，导致外行星轨道参数的系统性偏差；利用轨道近似和近日点进动观测可在某些情况下打破简并，但这些参数偏差可能对Gaia星族群体统计约束行星形成、迁移和演化模型产生重要影响。"
+  },
+  {
+   "id": "arxiv:2610.07133",
+   "title": "First Direct Identification of a Multi-Star Microlens System Hosting a Planet",
+   "abstract": "Nearly 25 years have passed since gravitational microlensing delivered its first exoplanet discoveries. The relative proper motion between lens and source systems allows them to be resolved as they separate on the sky over many years. This enables scientists to study light coming directly from the lenses and place tight constraints on the physical properties of these planetary systems. In this paper we present an analysis of high angular resolution images of the microlensing target OGLE-2006-BLG-284 using Keck adaptive optics and HST data taken more than 15 years after the event. We clearly detect the lens system and measure its motion across the Keck and HST epochs. We measure a lens-source relative proper motion of $5.80 \\pm 0.15$ mas yr$^{-1}$. A combination of the light curve parameters and the host star(s) brightnesses in $V,\\, I$, and $K$ passbands gives primary and secondary host star masses of $M_{\\rm 1} = 0.43 \\pm 0.05\\,M_{\\odot}$ and $M_{\\rm 2} = 0.12 \\pm 0.02\\,M_{\\odot}$, and a planetary companion mass of $m_p = 165^{+40}_{-33}\\,M_{\\oplus}$. Although we are unable to determine if the planet orbits one or both stars in the system, our analysis motivates next-generation high-precision RV measurements that can distinguish these two possibilities. This is the first direct detection of flux coming from a two-star microlensing system which hosts a planet.",
+   "authors": [
+    "Sean K. Terry",
+    "David P. Bennett",
+    "Jean-Philippe Beaulieu",
+    "T. Dex Bhadra",
+    "Aparna Bhattacharya",
+    "Joshua W. Blackman",
+    "Ian A. Bond",
+    "Andrew A. Cole",
+    "Przemek Mróz",
+    "Kansuke Nunota",
+    "Clément Ranc",
+    "Natalia E. Rektsini",
+    "Daisuke Suzuki",
+    "Aikaterini Vandorou"
+   ],
+   "link": "https://arxiv.org/abs/2610.07133v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过凯克自适应光学和哈勃太空望远镜的高分辨率成像,首次直接探测到微引力透镜事件OGLE-2006-BLG-284中双星透镜系统的光学信号,并结合光变曲线参数精确测量了透镜-源相对自行运动(5.80±0.15 mas yr⁻¹)。结合多波段测光数据,研究确定了两颗主透镜星质量(M₁=0.43±0.05 M☉, M₂=0.12±0.02 M☉)和行星伴星质量(mₚ=165⁺⁴⁰₋₃₃ M⊕),为微引力透镜探测多星系统行星提供了直接观测证据。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aeaae1",
+   "title": "An Open Cluster Origin for Most Solar-type Binaries in the Solar Neighborhood and Implications for Primordial Planet Stability",
+   "abstract": "Abstract We present the first Gaia-calibrated estimate of the contribution of dynamically processed open clusters (OCs) to the nearby solar-type field binary population and investigate the implications for primordial planet stability. We combine Gaia DR3 observations, empirical models of cluster formation and dissolution, and direct N -body simulations to constrain the fraction of field FGK-type binaries within 1 kpc that originated in OCs over the past 5 Gyr. We find that at least ∼53% of solar-type field binaries formed in OCs with initial masses ≥200 M ⊙ , where dynamical processing becomes significant. We quantify the effects of stellar encounters and binary orbital evolution on the stability of both circumbinary and circumstellar planets by deriving empirical prescriptions for circumbinary planet destabilization as a function of binary separation and for the fractional reduction of stable circumstellar coplanar phase space. These results provide a framework for evaluating how OC dynamical evolution may influence the stability of planets in binary systems and therefore contribute to observed exoplanet demographics.",
+   "authors": [
+    "Anna C. Childs",
+    "Aaron M. Geller"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aeaae1",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "exoplanet demographics"
+   ],
+   "summary_zh": "本研究利用Gaia DR3数据、星团形成演化模型和N体模拟，定量估计了过去5 Gyr内来自动力学演化过的疏散星团的太阳型双星对邻近星场双星群体的贡献，发现至少53%的太阳型双星起源于初始质量≥200 M⊙的星团。通过直接N体模拟和经验拟合，研究定量刻画了恒星相互作用对环双星和环单星行星稳定性的影响，给出了双星分离度与环双星行星失稳的关系以及稳定环单星共面相空间的约化比例。这些结果为评估疏散星团动力学演化对双星系统行星稳定性的影响提供了框架，有助于解释观测到的系外行星统计特性。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aeab96",
+   "title": "Just a Phase? Weakening Vertical Shear Instability Explains Class II Disk Morphologies: Simulations with Dust Coagulation, Sedimentation, Thermal Relaxation, and Backreaction",
+   "abstract": "Abstract The vertical shear instability (VSI) is known to create turbulence and strong vertical mixing in protoplanetary disks if thermal relaxation is sufficiently fast. In simulations where this condition is met, VSI can loft dust particles to large altitudes, creating a vertically extended appearance in mock millimeter-wavelength observations, which is inconsistent with the morphology of the majority of observed Class II disks. We present simulations of protoplanetary disks with VSI that are consistent with the observed thin-disk geometries, while maintaining the commonly observed bowl-shaped morphology in scattered light images at micrometer wavelengths. We show that this outcome arises naturally when the effects of dust coagulation, sedimentation, and dust–gas thermal accommodation are taken into account. Sedimentation-driven coagulation removes large amounts of dust from the disk atmosphere, in the process slowing down the dust-driven cooling of the gas. At the same time, a dense midplane layer of millimeter-sized grains forms, which exerts aerodynamic drag on the gas. This results in the termination of the VSI’s corrugation mode. Only weak VSI activity remains in the upper and lower hemispheres. These processes occur on the typical dust growth timescale and suppress strong VSI-induced turbulence within a few hundred thousand years. VSI could thus generally be restricted to the Class I evolutionary stages of protoplanetary disks.",
+   "authors": [
+    "Thomas Pfeil",
+    "Alexandros Ziampras",
+    "Shangjia 尚嘉 Zhang 张",
+    "Philip J. Armitage",
+    "Yan-Fei 燕飞 Jiang 姜"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aeab96",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过包含尘埃凝聚、沉降、热弛豫和反馈的原行星盘模拟,揭示了竖直剪切不稳定性(VSI)的演化特征。研究发现,当考虑尘埃沉降驱动的凝聚和气-尘热耦合效应时,VSI诱导的强湍流在几十万年内被抑制,盘结构从垂直伸展演化为观测到的薄盘形态,与主流Class II盘的观测特征相符。这一结果表明VSI可能主要活跃于Class I阶段,为解释原行星盘形态演化提供了新的物理框架。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1877",
+   "title": "Accretion Geometry and Variability in QS Telescopii from multi-epoch Observations",
+   "abstract": "Abstract We present phase-resolved photometry, spectroscopy, photopolarimetry, and circular spectropolarimetry of the polar QS Telescopii, obtained between 2017 and 2025 using the South African Astronomical Observatory (SAAO) 1.0-m and 1.9-m telescopes, the Transiting Exoplanet Survey Satellite (TESS), Asteroid Terrestrial-impact Last Alert System (ATLAS) and the Southern African Large Telescope (SALT). From ground-based photometry, we report the first detection of quasi-periodic oscillations (QPOs) in QS Tel, with timescales ranging between 2 and 11 minutes. This makes QS Tel one of only seven polars to show QPOs. The average spectra of QS Tel show broad and strong Balmer ($\\rm H\\delta$, $\\rm H\\gamma$, $\\rm H\\beta$ and $\\rm H\\alpha$) and He ii 4686 Å emission lines, along with weaker emission from He i at (6678 Å, 5017 Å, 4921 Å, 4712 Å, 4471 Å, and 4387 Å) and the Bowen fluorescence complex C iii/N iii at 4650 Å. For the first time detailed Doppler tomography of the $\\rm H\\alpha$ and He ii 4686 Å lines are presented which reveal emission from the irradiated face of the secondary star, the ballistic stream, the threading region and complex magnetically confined flows. The magnetically confined accretion stream splits into two distinct components coming from the same stream. One component appears near the threading region and the other component is seen along the high velocity in the magnetically confined accretion stream closer to the White Dwarf. Broad band photopolarimetry reveals circular polarisation reaching levels of +8%, however more detailed circular spectropolarimetry shows polarisation ranging from −10% to +25%, associated with two broad, phase-dependent cyclotron humps centred at ~4800 Å and ~6300 Å, consistent with a magnetic field strength of ~53 MG.",
+   "authors": [
+    "L Booi",
+    "S B Potter",
+    "Z N Khangale",
+    "V Moloi",
+    "P A Woudt"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1877",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用多个地基和空间望远镜对极星QS Telescopii进行了2017-2025年期间的多波段观测,首次在该源中检测到2-11分钟的准周期振荡(QPOs),使其成为仅有的七颗显示此现象的极星之一。通过多普勒层析成像,详细刻画了电离氢和He II发射线的三维结构,揭示了来自次星、弹道流、磁场限制区等多个区域的复杂吸积流动过程。圆偏振光谱显示±10%至+25%的偏振变化和两个与~53 MG磁场强度相符的回旋共振驼峰,这些结果显著改进了对该极星吸积几何和磁场结构的理解。"
+  }
+ ],
  "2026-10-06": [
   {
    "id": "arxiv:2610.06332",
@@ -10226,104 +10533,6 @@
     "planet candidate"
    ],
    "summary_zh": "本研究结合Gaia DR3天体测量数据、径向速度和LAMOST化学丰度,在已知的系外行星候选体中搜索可能源自银河系外的晕族行星宿主星。研究识别了11个具有晕族运动学特征的行星候选宿主,其中5个具有可靠的化学丰度测量,4个系统显示出与银河系厚盘不一致的低金属丰度和低[Mg/Fe]比值,表明其来自吸积矮星系的富集历史。通过多维度的假正例评估,EPIC 211407755和TIC 239541449被确定为最可信的候选系统,若得到确认,将表明行星系统可以在矮星系环境中形成并在吸积过程中存活。"
-  }
- ],
- "2026-08-08": [
-  {
-   "id": "doi:10.3847/1538-4357/ae8198",
-   "title": "Reinterpreting the JWST Observations of 55 Cancri e with a Nongray General Circulation Model",
-   "abstract": "Abstract Recent observations of 55 Cancri e suggest an atmosphere rich in CO or CO 2 ; other observations indicate the planet’s eclipse depth is highly variable. So far, these observations have only been interpreted using 1D models without self-consistent heat redistribution, as the planet’s extreme temperatures make it inaccessible to most 3D models. Here we perform cloud-free general circulation model simulations of 55 Cancri e using custom correlated- k coefficients developed from the ExoMol database. Our best-fit simulations match the JWST spectra from R. Hu et al. well, favoring an atmosphere that is both thick (≥10 bar) and CO 2 -rich (>1% CO 2 volume mixing ratio), while ruling out thin (<10 bar) and pure-CO/CO 2 -poor atmospheres, which were previously proposed based on 1D models. We also find that large-scale atmospheric dynamics, i.e., weather, is insufficient to explain the observed variability. A thick, CO 2 -rich atmosphere implies that 55 Cancri e likely formed with significantly more volatiles than Earth and Venus. In addition, a thick atmosphere makes it unlikely that the planet’s variability is caused by transient outgassing, favoring other variability mechanisms (e.g., clouds). Our work provides model constraints for upcoming JWST observations of 55 Cancri e and highlights the importance of interpreting thermal emission observations with self-consistent 3D models.",
-   "authors": [
-    "Ruizhi Zhan",
-    "Daniel D.B. Koll"
-   ],
-   "link": "https://doi.org/10.3847/1538-4357/ae8198",
-   "source": "The Astrophysical Journal",
-   "category": "行星大气",
-   "matched": [
-    "atmosphere",
-    "atmospheric"
-   ],
-   "summary_zh": "本研究采用三维非灰大气环流模型模拟了超级地球55 Cancri e的大气，使用ExoMol数据库开发的相关k系数与JWST观测光谱进行拟合，结果表明该行星大气厚度≥10 bar且CO₂丰度>1%，排除了先前基于一维模型提出的薄大气和CO/CO₂贫乏大气的假说。研究发现大尺度大气动力学不足以解释观测到的日食深度变异性，而厚CO₂富大气表明该行星在形成时富含挥发物，且变异性更可能由云等其他机制引起而非瞬时出气。这项工作强调了用自洽三维模型诠释热辐射观测对系外行星大气研究的重要性。"
-  },
-  {
-   "id": "doi:10.1051/0004-6361/202660737",
-   "title": "Identification and dynamical characterization of all numbered asteroids in the von Zeipel-Lidov-Kozai resonance inside Jupiter's orbit",
-   "abstract": "The von Zeipel-Lidov-Kozai (ZLK) mechanism drives secular oscillations of the eccentricity and inclination that can reshape the orbital architecture of small bodies throughout the Solar System. While the mechanism has been studied in detail for trans-Neptunian objects (TNOs), giant-planet satellites, and individual near-Earth objects, no systematic census of ZLK-resonant (ZLKR) asteroids inside Jupiter's orbit has been carried out. We aim to (i) identify all numbered asteroids with semimajor axes below the orbit of Jupiter that are currently trapped in the ZLK resonance for at least 100 kyr without leaving the resonance; (ii) test whether the universal coupling between the ZLK resonance and mean-motion resonances (MMRs) found for TNOs extends to the inner Solar System; and (iii) characterize the libration centers, libration periods, and dynamical peculiarities of the ZLKR population. We integrated the orbits of all 863,471 numbered asteroids with a < 4.9 au from the AstDyS catalog using the resonances Python package and the IAS15 adaptive-step integrator in a full N-body model that includes the Sun, the eight planets, and Pluto. The resonant angle of the ZLK resonance, σ ≡ ω, was analyzed in three integration phases (100 kyr automated, 500 kyr manual, and 100 kyr MMR identification for all candidates) and classified as regular, irregular, transient, slow-circulating, chaotic, or nonresonant. Two-body MMRs up to an order of 50 and three-body MMRs up to an order of 10 were then searched for with respect to every ZLKR candidate. We identified 201 asteroids ($<0.02%$ of the sample) that are currently in the ZLK resonance. Of these, 163 exhibit clean libration with a stable period and amplitude (i.e., regular), 38 formally librate but display evolving parameters (i.e., irregular), and an additional 26,309 objects fall into the broader ``possible'' category. The ZLKR population is strongly concentrated in the near-Earth region (144 objects with perihelion q<1.3 au) and among Mars-crossers (28 objects with 1.3łe q<1.66 au); the main belt is almost empty. In the contrast to the TNO region, where every known ZLKR object is simultaneously trapped in an MMR, only 11 of the 201 confirmed ZLKR asteroids are in a two-body or three-body MMR; meanwhile, the MMR--ZLK coupling is not only weak but appears decoupled inside Jupiter's orbit. About one-third of the confirmed ZLKR asteroids have inclinations below the classical quadrupole critical value of ∼ ̧irc and several confirmed librators reach c_1 = (1-e^2)̧os^2 i > 3/5. ZLKRs within 5 au behave differently from ZLK capture in the Kuiper belt: it is an overwhelmingly planet-crossing phenomenon that is decoupled from the MMR network and it extends below the classical critical inclination. The overall number of librators is significantly lower than in the TNO region. It appears that the interplay and overlapping between different resonances in the main belt suppresses long-lived ZLK libration.",
-   "authors": [
-    "Evgeny Smirnov",
-    "Ivana Milić Žitnik"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202660737",
-   "source": "Astronomy & Astrophysics",
-   "category": "散射与动力学演化",
-   "matched": [
-    "von Zeipel-Lidov-Kozai",
-    "Kozai"
-   ],
-   "summary_zh": "本研究通过全N体数值积分对所有863,471颗小行星进行系统搜索,识别出201颗位于木星轨道内且在ZLK谐振中稳定捕获至少100 kyr的小行星,其中163颗表现为规则的离心率-倾角振荡。与TNOs不同,木星轨道内的ZLK谐振小行星主要集中在近地小行星和火星穿越者中,与平均运动谐振(MMR)的耦合极弱,且许多ZLKR天体的倾角低于经典四极临界值,表明内太阳系的ZLK机制表现出与柯伊伯带显著不同的特征,主要带中多个谐振的重叠与竞争抑制了长期的ZLK捕获。"
-  },
-  {
-   "id": "doi:10.1051/0004-6361/202557917",
-   "title": "Searching for substellar companion candidates with Gaia. IV. New planetary-mass companions found in debris disks",
-   "abstract": "When spatially resolved, debris disks often exhibit structures (gaps, rings, and spirals) that may indicate the presence of unseen planetary-mass companions. However, such planets have not been detected in most cases. opens a new mass-separation parameter space for detecting unseen planets. A tool named GaiaPMEX has been developed to detect and characterize companions to stars. It is based on two binarity indicators derived from the DR3: the astrometric signature, and, when the sources were also observed by , the - proper motion anomaly. Gaia Gaia Hipparcos Gaia Hipparcos We search for companions in resolved debris disks using absolute astrometry. We used GaiaPMEX on 94 stars hosting resolved debris disks to search for companions. When companions were identified, we combined GaiaPMEX results with high-contrast imaging and radial velocity data to further constrain their mass and orbital properties. GaiaPMEX found stellar or substellar companions around five targets (HD 54341, HD 146897, HD 206893, HD 107146, and HD 106906) and indications (2σ ) for companions around three additional targets (BD+45° 598, TWA 7, and HD 120326). The companion to the 150 Myr star HD 107146, which harbors a ring-like dust disk, is found to be a 2-6M_J planet orbiting between 2-10 au. A massive 3-20M_J companion is found 3-10 au from the close binary HD 106906, which already hosts a remote planet orbiting at more than 700 au, and an edge-on disk. The tentative companions to TWA 7 and HD 120326 are planetary-mass companions at 1-3 au. Both stars host a multiple-ring system. We finally provide meaningful upper limits on the possible presence of companions in the range of 0-100 au around a few emblematic stars (49 Cet, AU Mic, Pic, and Eri) and stars hosting well-defined ring-like structures. These newly detected planets or candidates belong to complex systems and give us the opportunity for detailed dynamical modeling of planet-disk and planet-planet interactions. Current or upcoming facilities, VLTI/Gravity, JWST/AMI, or ELT, will provide an improved orbital and possibly spectral characterization of these companions. From a methodological point of view, these results demonstrate the synergy between absolute astrometry, radial velocity, and direct imaging for detecting new bodies with planetary masses orbiting a few astronomical units away from their stars, or for determining significant constraints on unseen planets.",
-   "authors": [
-    "A.-M. Lagrange",
-    "S. Toucheboeuf",
-    "F. Kiefer",
-    "P. Rubini",
-    "J. Milli",
-    "L. Matrà",
-    "H. Beust",
-    "C. Perrot",
-    "M. Mâlin",
-    "A. Boccaletti",
-    "C. Wilkinson",
-    "P. Delorme"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202557917",
-   "source": "Astronomy & Astrophysics",
-   "category": "系外行星观测",
-   "matched": [
-    "direct imaging",
-    "radial velocity",
-    "astrometry",
-    "astrometric"
-   ],
-   "summary_zh": "本研究利用盖亚空间望远镜的绝对天体测量数据和GaiaPMEX工具,在94颗具有可分解碎屑盘的恒星周围搜索行星质量伴星,通过测量星历信号和自行异常来检测和表征伴星。研究在5颗恒星(包括HD 107146和HD 106906)周围确认发现了恒星或亚恒星伴星,其中包括数颗2-20木星质量的行星候选体,轨道距离在2-10天文单位范围内;还为其他恒星提供了伴星存在的显著约束。这些新发现的行星和候选体位于复杂的多体系统中,为行星-盘相互作用和行星间动力学建模提供了重要机会,展示了绝对天体测量、视向速度和直接成像联合观测在探测近距离行星质量伴星中的协同优势。"
-  },
-  {
-   "id": "doi:10.1051/0004-6361/202451221",
-   "title": "Searching for substellar companion candidates with Gaia. III. Search for companions of members belonging to young associations",
-   "abstract": "Absolute astrometry with Gaia is expected to allow us to detect and characterize the orbits of thousands of exoplanets in the coming years. The GaiaPMEX tool was recently developed to characterize multiple systems based on two binarity indicators derived from the DR3 astrometric solution: the astrometric signature in linear motion residuals in Gaia-only data and, with respect to sources that were also observed by Hipparcos), the astrometric signature in the Gaia-Hipparcos proper motion anomaly (PMa). Our aim is to identify the close (i.e., less than about 20 au) stellar and substellar companion candidates of star members belonging to nearby young associations that had previously been monitored in radial velocity (RV) surveys. We wish to compare the detection capabilities of absolute astrometry and spectroscopy, and to characterize planetary-mass companions, combining the astrometric data with direct imaging and RV data. We used GaiaPMEX to identify binary stars that are members of close young associations and to constrain the mass and semimajor axes (smas) of possible companions. For companion masses that are plausibly in the planetary range, we used direct imaging and (when possible) RV data as well to further constrain their nature and orbital properties. For each of our targets, we provide a diagnosis on its binarity based on absolute astrometry. When no binary was detected, GaiaPMEX provides detection limits in the sma and mass space. We identified several companions with possible masses down to the brown dwarfs (BDs; 50+) or planetary masses (13). Around the M-type star G80-21, we detected a new companion orbiting at less than 1-2 au. Adding RV and high-contrast imaging data shows this companion is a giant planet. In the other two cases, AB Pic and HD 14082 B, we confirmed the presence of substellar companions and determined the first robust solutions for their mass and orbital properties. We further identified nine potentially interesting candidates for planetary mass companions, which remain to be studied. Finally, a detailed treatment of noises in Gaia astrometric measurements shows that there is no evidence at a 2--σ level of two exoplanet detections that had previously been reported in the literature based on the same set of data. Our approach allowed us to detect all stellar mass companions with sma values in the range 0.1-10 au. For separations below 0.1 au, however, spectroscopy was shown to outperform absolute astrometry. Therefore, combining GaiaPMEX and RV data is perfectly suited to a full exploration of the 0.01-10 au sma range when searching for stellar companions. In addition, such an approach can increase the expected rate of detections derived from RV surveys. Moreover, in the 0.5 to 5 au domain, GaiaPMEX has an excellent sensitivity to BDs and a good sensitivity to planetary mass planers for this sample.",
-   "authors": [
-    "A.-M. Lagrange",
-    "F. Kiefer",
-    "P. Rubini",
-    "V. Squicciarini",
-    "A. Chomez",
-    "J. Milli",
-    "A. Zurlo",
-    "J. Bouvier",
-    "P. Delorme",
-    "H. Beust",
-    "J. Mazoyer",
-    "O. Flasseur",
-    "N. Meunier",
-    "L. Mignon",
-    "G. Chauvin",
-    "P. Palma-Bifani"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202451221",
-   "source": "Astronomy & Astrophysics",
-   "category": "系外行星观测",
-   "matched": [
-    "direct imaging",
-    "radial velocity",
-    "astrometry",
-    "astrometric"
-   ],
-   "summary_zh": "本研究利用Gaia DR3天体测量数据和GaiaPMEX工具,通过线性运动残差和自行异常两个指标,搜寻近邻年轻星协成员的близких亚恒星伴星候选体,并将天体测量结果与径向速度和直接成像数据相结合来表征其轨道性质。研究在G80-21周围发现一颗新的巨行星伴星,确认了AB Pic和HD 14082 B的亚恒星伴星,并识别出9个潜在的行星质量候选体;同时表明天体测量在0.1-10 au的轨道距离范围内对恒星级伴星具有优势,而在0.01 au以下时分光学方法更优,两种方法结合可有效探测0.01-10 au范围内的伴星系统。"
   }
  ]
 }
