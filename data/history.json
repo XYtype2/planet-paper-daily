@@ -1,4 +1,329 @@
 {
+ "2026-10-08": [
+  {
+   "id": "arxiv:2610.10308",
+   "title": "Two Low-Mass-Ratio Microlensing Planets from High-Magnification Events: KMT-2021-BLG-0247 and MOA-2023-BLG-169",
+   "abstract": "We present an analysis of two planetary microlensing events, KMT-2021-BLG-0247 and MOA-2023-BLG-169, both of which exhibit high magnifications and low planet--host mass ratios, but with markedly different levels of parameter constraint. For KMT-2021-BLG-0247, the finite-source effect and microlens parallax are both clearly detected, leading to unusually tight constraints on the physical properties of the lens system. The host mass and lens distance are approximately $M_{\\rm L}=0.9\\pm0.1\\,M_\\odot$ and $D_{\\rm L}=6.7^{+1.0}_{-0.3}\\,\\mathrm{kpc}$, respectively, and the planet mass is $M_{\\rm p}=41\\pm5\\,M_\\oplus$. The projected planet--host separations are $a_\\perp=3.4^{+0.7}_{-0.3}\\,\\mathrm{au}$ and $3.0^{+0.6}_{-0.3}\\,\\mathrm{au}$ for the wide and close solutions, respectively. In contrast, MOA-2023-BLG-169 involves an extremely faint source, with $I_{S,{\\rm OGLE}}=26.73$, such that the light curve permits a broad family of strongly correlated solutions. We therefore construct the physical-parameter likelihood using approximate invariant combinations of the light-curve parameters and supplement it with post-event Euclid/VIS imaging from the Euclid Q2 Galactic Bulge Survey (Beaulieu et al. 2026). The Euclid data reveal a component at the event position with ${\\rm VIS}_{\\rm AB}=23.05\\pm0.09\\,{\\rm mag}$. Interpreting this component as the combined light from the source and any luminous lens, the resulting posterior gives $M_{\\rm L}=0.48^{+0.23}_{-0.17}\\,M_\\odot$, $D_{\\rm L}=3.50^{+2.82}_{-1.20}\\,\\mathrm{kpc}$, $a_\\perp=1.62^{+0.77}_{-0.43}\\,\\mathrm{au}$, and $M_{\\rm p}=143^{+103}_{-63}\\,M_\\oplus$. MOA-2023-BLG-169 demonstrates that, for an extreme faint-source event, even the event timescale and angular Einstein radius can remain strongly dependent on the Galactic prior and independent flux constraints.",
+   "authors": [
+    "Kansuke Nunota",
+    "Andrew Gould",
+    "Takahiro Sumi",
+    "Ian A. Bond",
+    "Jennifer C. Yee",
+    "Valerio Bozza",
+    "Fumio Abe",
+    "David P. Bennett",
+    "Aparna Bhattacharya",
+    "Kotaro Daimon",
+    "Ryusei Hamada",
+    "Yuki Hirao",
+    "Takuto Inoue",
+    "Stela Ishitani Silva",
+    "Shuma Makida",
+    "Shota Miyazaki",
+    "Yasushi Muraki",
+    "Seiya Nakayama",
+    "Ryo Ogawa",
+    "Ryunosuke Oishi",
+    "Greg Olmschenk",
+    "Hideaki Ose",
+    "Clément Ranc",
+    "Nicholas J. Rattenbury",
+    "Yuki K. Satoh",
+    "Daisuke Suzuki",
+    "Takuto Tamaoki",
+    "Sean K. Terry",
+    "Paul J. Tristram",
+    "Chihiro Ueda",
+    "Aikaterini Vandorou",
+    "Hibiki Yama",
+    "Michael D. Albrow",
+    "Sun-Ju Chung",
+    "Cheongho Han",
+    "Kyu-Ha Hwang",
+    "Youn Kil Jung",
+    "Yoon-Hyun Ryu",
+    "In-Gu Shin",
+    "Yossi Shvartzvald",
+    "Hongjing Yang",
+    "Weicheng Zang",
+    "Dong-Jin Kim",
+    "Chung-Uk Lee",
+    "Byeong-Gon Park",
+    "Andrzej Udalski",
+    "Przemek Mróz",
+    "Radosław Poleski",
+    "Jan Skowron",
+    "Michał K. Szymański",
+    "Igor Soszyński",
+    "Paweł Pietrukowicz",
+    "Szymon Kozłowski",
+    "Krzysztof Ulaczyk",
+    "Krzysztof A. Rybicki",
+    "Patryk Iwanek",
+    "Marcin Wrona",
+    "Mariusz Gromadzki",
+    "Mateusz J. Mróz"
+   ],
+   "link": "https://arxiv.org/abs/2610.10308v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "我们分析了两个高放大微引力透镜行星事件KMT-2021-BLG-0247和MOA-2023-BLG-169，通过有限源效应、微引力透镜视差和Euclid后续成像等多种约束方法，成功确定了低质量比行星系统的物理参数。KMT-2021-BLG-0247具有较强的参数约束，得到主星质量$M_L=0.9\\pm0.1\\,M_\\odot$和行星质量$M_p=41\\pm5\\,M_\\oplus$；而MOA-2023-BLG-169由于源星极暗（$I=26.73$），利用Euclid/VIS数据辅助约束得到主星质量$M_L=0.48^{+0.23}_{-0.17}\\,M_\\odot$和行星质量$M_p=143^{+103}_{-63}\\,M_\\oplus$。这两个案例表明，对于极暗源事件，星系模型先验和独立通量约束在确定事件时标和Einstein半径等基本参数时仍具有重要作用。"
+  },
+  {
+   "id": "arxiv:2610.09965",
+   "title": "Astrometric planet search around southern ultracool dwarfs: V. Discovery of the exoplanet candidate PALTA-1 b",
+   "abstract": "We report the discovery of PALTA-1 b, a sub-Jupiter mass exoplanet candidate orbiting the nearby early-L dwarf DENIS-P J1253108-570924 (DE1253-57) located at a distance of ~17 pc. The exoplanet was discovered by monitoring the L dwarf's astrometric motion with FORS2 at the Very Large Telescope over more than eight years and characterising the deviations from the expected single-source motion. The estimated planet mass is between 0.54 MJup and 0.77 MJup, depending on the uncertain mass of the ultracool dwarf host. The system's mass ratio is about 0.010, and the relative separation is estimated at 1.6-3.4 au. If confirmed, PALTA-1 b would be one of the very few known examples of a giant planet orbiting a nearby ultracool dwarf. This discovery finalises a larger astrometric planet search survey that targeted 20 nearby ultracool dwarfs and previously discovered three new ultracool binary systems.",
+   "authors": [
+    "J. Sahlmann",
+    "P. F. Lazorenko",
+    "E. L. Martín",
+    "D. Ségransan",
+    "M. Mayor",
+    "S. Udry"
+   ],
+   "link": "https://arxiv.org/abs/2610.09965v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究通过8年以上的长期精密天体测量监测，利用VLT/FORS2观测附近早L型超冷矮星DENIS-P J1253108-570924的位置偏差，发现了亚木星质量的系外行星候选体PALTA-1 b。该行星估计质量为0.54-0.77木星质量，轨道分离为1.6-3.4天文单位，是已知环超冷矮星运行的极少数巨行星之一。这一发现完成了针对20颗附近超冷矮星的大规模天体测量行星搜索调查。"
+  },
+  {
+   "id": "arxiv:2610.09854",
+   "title": "A Jupiter-like radio aurora in the L3.5 dwarf LSPM J0036+1821",
+   "abstract": "Ultracool dwarfs exhibit radio emission revealing strong magnetic fields and complex magnetospheric processes. Their auroral emission resembles that observed in magnetized Solar System planets, providing a framework to investigate their magnetic topology. We aim to characterize the magnetic activity, rotation, and atmospheric variability of the L3.5 dwarf LSPM J0036+1821 through a multiwavelength analysis. We conducted a long-term monitoring campaign combining radio observations from the Very Large Array and very long baseline interferometry arrays with TESS optical photometry, spanning 2019-2023. We analyzed time-series data to derive precise rotation periods and constructed light curves and radio dynamic spectra. The radio lightcurves were modeled using an auroral framework analogous to Jupiter's magnetosphere, incorporating main oval and active field line components. We detect persistent, compact radio emission with significant variability and high circular polarization. Periodogram analysis yields a rotation period of 3.07941 $\\pm$ 0.00020h from radio data, consistent with the TESS optical period (3.07908 $\\pm$ 0.00038h). The radio light curves display stable morphology characterized by asymmetric, rotationally modulated pulses. Our modeling reproduces the emission using a hybrid auroral scenario, with the main oval contributing a stable component and an active field line producing dominant, variable bursts. Short-term variability is explained by small changes in emission cone geometry or longitude of the active field line. The radio emission of LSPM J0036+1821 is consistent with auroral processes driven by the electron cyclotron maser instability in a structured magnetosphere. The behavior is consistent with a Jupiter-like auroral system, possibly involving companion-driven or internally-driven magnetospheric interactions analogous to those observed in the Solar System.",
+   "authors": [
+    "D. Martín-Carrero",
+    "J. B. Climent",
+    "P. A. Miles-Páez",
+    "J. Balmón-Antón",
+    "J. C. Guirado",
+    "M. M. Kao",
+    "C. O'Toole",
+    "J. S. Pineda",
+    "J. M. Vos"
+   ],
+   "link": "https://arxiv.org/abs/2610.09854v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过VLA射电观测和TESS光学测光对L3.5型超冷矮星LSPM J0036+1821进行多波段长期监测(2019-2023年),检测到具有高圆偏振的持久紧凑射电辐射。通过周期图分析和木星磁层类比模型,我们确定其自转周期为3.079小时,并将射电发射分解为稳定的主椭圆和变化的活跃磁力线分量。研究结果表明该天体的射电辐射源于结构化磁层中电子回旋激射不稳定性驱动的极光过程,与木星类似光环系统相符,可能涉及伴星或内部驱动的磁层相互作用。"
+  },
+  {
+   "id": "arxiv:2610.09575",
+   "title": "A comparison between particle and fluid approaches for streaming instability in global patch simulations",
+   "abstract": "Identifying the process relevant to planet formation is still a major task. Mechanisms have been identified that can trap dust, preventing it from migrating inwards. A particular hydrodynamic instability, known as the streaming instability, is of high interest because it may be responsible for the formation of dust clumps from which the first planetesimals form. We aim to compare the outcome of non-linear streaming instability simulations using both fundamental approaches in a more realistic global disk model. The results will not be used to identify or disentangle the effect of, e.g., numerical diffusion in fluid simulations or the possibility of having crossing particle streams. Instead, they will enable us to determine whether the Lagrangian particle approach is the most suitable for numerical studies of the streaming instability. Methods: We perform 2D, axisymmetric, global, and isothermal hydrodynamic simulations using the two codes FARGO3D (dust fluid) and PLUTO (fluid, particles) to investigate the temporal evolution of dust scale height, midplane dust-to-gas ratio, and maximum dust density as well as to study velocity distributions and vorticities. For PLUTO particle simulations, we also investigate the influence of the gas Riemann solver and spatial reconstruction orders. Our results from a resolution study up to 5120 cells per gas scale height indicate convergence between PLUTO fluid and FARGO3D. Both yield a Gaussian profile dominated by small-scale, dust-depleted voids. Particle simulations with PLUTO have not yet converged, as a transient midplane dust component persists, indicating the need for even higher resolution or more particles. Using a more accurate Riemann solver or a higher-order spatial reconstruction scheme helps to bring the dust density profile closer to the converged structure.",
+   "authors": [
+    "Dominik Hetzel Ostertag",
+    "Mario Flock",
+    "Paul Rosendahl",
+    "Andrea Mignone",
+    "Jeonghoon Lim",
+    "Jacob B. Simon"
+   ],
+   "link": "https://arxiv.org/abs/2610.09575v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究在全局盘模型中比较了流体和粒子两种数值方法对流式不稳定性的模拟结果,以确定哪种方法更适合研究行星形成过程中尘埃团块的形成。通过FARGO3D和PLUTO两个代码的二维轴对称模拟,跟踪了尘埃比例高度、中面尘气比和最大尘埃密度等物理量的演化。研究表明流体方法在5120个气体尺度高度分辨率下已收敛到高斯分布特征,而粒子方法尚需更高分辨率以消除瞬态中面尘埃成分,采用更精确的黎曼求解器或高阶重构方案有助于改进收敛性。"
+  },
+  {
+   "id": "arxiv:2610.08922",
+   "title": "Searching for hot water world candidates with CHEOPS: II. A low-density super-Earth orbiting the K dwarf TOI-2211",
+   "abstract": "Small exoplanets on close-in orbits are exposed to high levels of stellar irradiation, which can effectively remove low-mass primordial H/He envelopes through atmospheric escape. Under these conditions, planets whose masses and radii are incompatible with both bare rocky interiors and extended H-dominated atmospheres are therefore expected to host high mean molecular weight atmospheres, making them promising candidates for volatile-rich hot water worlds. We present the first detailed characterisation of the low-density super-Earth TOI-2211 b (P~3.09 d), a recently validated transiting planet orbiting a K type star (G mag: 9.1). Combining TESS and CHEOPS photometry with radial velocity measurements from HARPS, ESPRESSO, and KPF, we precisely constrain the planet's radius and mass to $1.457 \\pm 0.047$ R$_\\oplus$ and $2.69 \\pm 0.56$ M$_\\oplus$. We also identify an outer, non-transiting planetary candidate (P~15.6 d, Msin(i) $ = 8.53 \\pm 1.04$ M$_\\oplus$) in the radial velocity data. We investigate the internal structure of the transiting planet and assess the stability of the inferred volatile envelopes through a detailed evaporation analysis, thereby identifying TOI-2211 b as a promising hot water world candidate. TOI-2211 b therefore joins the small but growing sample of these close-in low-density super-Earths, which represent particularly interesting targets for testing current planet formation and evolution theories. Additionally, we investigate the full architecture of the planetary system using a generative model of planet formation and evolution, with the resulting posterior distributions showing a clear over-density consistent with the observed orbital period and minimal mass of the non-transiting planetary candidate identified in the radial velocity data.",
+   "authors": [
+    "J. A. Egger",
+    "P. Cortés-Zuleta",
+    "D. Kubyshkina",
+    "H. P. Osborn",
+    "S. Marques",
+    "I. Crossfield",
+    "A. Deline",
+    "S. Ulmer-Moll",
+    "A. E. Simon",
+    "G. Scandariato",
+    "A. C. M. Correia",
+    "Y. N. E. Eschen",
+    "D. Gandolfi",
+    "V. Adibekyan",
+    "A. Bonfanti",
+    "C. Pezzotti",
+    "P. H. Premnath",
+    "S. G. Sousa",
+    "T. G. Wilson",
+    "L. Fossati",
+    "R. Eltschinger",
+    "Y. Alibert",
+    "D. Degen",
+    "G. Lacedelli",
+    "T. Zingales",
+    "B. Akinsanmi",
+    "R. Alonso",
+    "T. Bárczy",
+    "D. Barrado",
+    "S. C. C. Barros",
+    "W. Baumjohann",
+    "W. Benz",
+    "N. Billot",
+    "L. Borsato",
+    "A. Brandeker",
+    "C. Broeg",
+    "M. Buder",
+    "A. Castro-González",
+    "A. Collier Cameron",
+    "C. Corral Van Damme",
+    "Sz. Csizmadia",
+    "P. E. Cubillos",
+    "M. B. Davies",
+    "M. Deleuil",
+    "O. D. S. Demangeon",
+    "B. -O. Demory",
+    "A. Derekas",
+    "B. Edwards",
+    "D. Ehrenreich",
+    "A. Erikson",
+    "A. Fortier",
+    "M. Fridlund",
+    "K. Gazeas",
+    "M. Gillon",
+    "M. Güdel",
+    "M. N. Günther",
+    "J. Hasiba",
+    "A. Heitzmann",
+    "Ch. Helling",
+    "K. G. Isaak",
+    "L. L. Kiss",
+    "D. Kitzmann",
+    "J. Korth",
+    "K. W. F. Lam",
+    "J. Laskar",
+    "A. Lecavelier des Etangs",
+    "A. Leleu",
+    "M. Lendl",
+    "M. Lund",
+    "D. Magrin",
+    "P. F. L. Maxted",
+    "B. Merín",
+    "C. Mordasini",
+    "M. Munari",
+    "V. Nascimbeni",
+    "G. Olofsson",
+    "R. Ottensamer",
+    "I. Pagano",
+    "E. Pallé",
+    "A. Peel",
+    "G. Peter",
+    "D. Piazza",
+    "G. Piotto",
+    "D. Pollacco",
+    "D. Queloz",
+    "R. Ragazzoni",
+    "N. Rando",
+    "H. Rauer",
+    "I. Ribas",
+    "N. C. Santos",
+    "D. Ségransan",
+    "A. M. S. Smith",
+    "M. Stalport",
+    "S. Sulis",
+    "Gy. M. Szabó",
+    "S. Udry",
+    "V. Van Grootel",
+    "J. Venturini",
+    "E. Villaver",
+    "N. A. Walton",
+    "S. Wolf"
+   ],
+   "link": "https://arxiv.org/abs/2610.08922v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究利用TESS和CHEOPS光度测量结合HARPS、ESPRESSO和KPF径向速度数据，精确刻画了环绕K型星TOI-2211的低密度超地球TOI-2211 b的质量和半径，并通过大气逃逸分析评估其挥发性包层的稳定性。研究表明TOI-2211 b是一个有前景的热水世界候选体，同时在径向速度数据中识别出一个外部非凌星行星候选体。该工作为检验行星形成和演化理论提供了重要观测约束，并通过行星形成演化生成模型重建了该多行星系统的完整结构。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aea099",
+   "title": "Solar Soft X-Ray Coronal Dimming in a Failed Eruption Associated with Plasma Cooling",
+   "abstract": "Abstract Coronal dimmings are observed as sudden and localized reductions in the extreme-ultraviolet and X-ray emission of the solar corona. Traditionally, significant dimmings of spectral lines formed at temperatures of 1–2 MK are regarded as indicators of coronal mass ejections (CMEs), reflecting the density depletion caused by plasma escaping into interplanetary space. In this Letter, we report a peculiar deep coronal dimming event predominantly observed in high-temperature spectral lines following an M8.8-class confined solar flare associated with a failed filament eruption. Sun-as-a-star measurements from the Geostationary Operational Environmental Satellite and the Extreme Ultraviolet Variability Experiment reveal intensity reductions exceeding 30% in soft X-ray (SXR) and measurable decreases in Fe xviii (6.5 MK) and Fe xx (9.3 MK). Spatially resolved observations from the Atmospheric Imaging Assembly demonstrate that the dimming originates from the active region core, while the Solar Terrestrial Relations Observatory-A shows no evidence for CME-driven mass loss. Differential emission measure analysis reveals plasma at temperatures >5 MK cooling into lower temperatures, supporting plasma cooling as the dominant contributor to the hot-band dimming rather than CME-associated plasma escape. This event demonstrates that deep hot SXR dimmings can occur without substantial CME-driven mass loss, suggesting that alternative physical mechanisms may also account for unresolved stellar dimmings in addition to the commonly inferred CME signatures.",
+   "authors": [
+    "Xinyue Wang",
+    "Astrid M. Veronig",
+    "Hechao Chen",
+    "Hui Tian"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aea099",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究调查了一次M8.8级太阳耀斑伴随失败日珥喷发引发的异常日冕减暗事件，采用多波段观测（包括软X射线、极紫外和高温铁离子谱线）和微分辐射测量分析方法，发现该减暗主要源于活动区内部高温等离子体（>5 MK）向低温冷却，而非传统的日冕物质抛射导致的等离子体逃逸。研究表明深度热X射线减暗可在无显著日冕物质抛射的情况下发生，为恒星减暗现象提供了除日冕物质抛射外的替代物理机制，对理解恒星和日星的动态过程具有重要启示。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aea6c9",
+   "title": "Characterization of the Compact Multiplanet System TOI-789: Validation of Three Terrestrial Planets, Dynamical Characterization, and Detection of a Fourth Temperate Candidate",
+   "abstract": "Abstract We present the validation and dynamical characterization of TOI-789 (TIC 300710077), a compact multiplanet system around an M3 dwarf at 43 pc. Using ∼7 yr of TESS photometry (42 sectors), public ground-based follow-up (LCOGT, MEarth), and high-resolution imaging (Gemini/Zorro, SOAR), we statistically validate three terrestrial planets with TRICERATOPS: TOI-789 b ( R p = 1.18 R ⊕ , P = 5.45 days), c (1.15 R ⊕ , 8.04 days), and d (1.40 R ⊕ , 12.97 days), with false-positive and nearby-false-positive probabilities below the validation thresholds once resolved neighbours are excluded using the on-target ground-based photometry. Through an iterative Transit Least Squares search we identify a fourth, previously uncatalogued planet candidate ( P = 19.74 days, R p ≈ 0.88 R ⊕ ), the outermost and most temperate member ( S = 1.71 S ⊕ , T eq ≈ 292 K); its low signal-to-noise ratio precludes formal validation, so we report it as a candidate pending confirmation. A dynamical analysis (SPOCK and N -body integrations) indicates a dynamically cold, near-resonant system that is stable only for low eccentricities ( e ≲ 0.05); it is eccentricity rather than planetary mass that limits the system's stability, and including the fourth candidate tightens this constraint further. The four objects span the Earth–Venus transition across the Venus zone, with two validated planets falling in the temperate regime under the equilibrium-temperature criterion, making the system a potential comparative-planetology laboratory anchored on confirmed planets. The low TSM (∼3–5) and moderate host brightness place atmospheric characterization beyond reach. TOI-789 exemplifies the numerically dominant population of compact terrestrial-planet systems around M dwarfs whose characterization is limited by host brightness for which dynamical characterization offers a complementary route.",
+   "authors": [
+    "Juan F. Pagés Navarrete"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aea6c9",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用7年TESS光度测量、地基观测和高分辨率成像,通过TRICERATOPS统计方法验证了M矮星TOI-789周围三颗类地行星(b、c、d),并通过迭代凌星最小二乘法发现了第四颗温度较温和的行星候选体。动力学分析(SPOCK和N体积分)表明该系统在近共振态且动力学冷的配置下仅在低离心率条件下稳定,离心率而非行星质量是系统稳定性的主要限制因素。该研究展示了围绕M矮星的紧凑类地行星系统这一数值上占优的天体种群,其大气表征受限于主星亮度,但可通过动力学表征获得互补认识。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662300",
+   "title": "Fast superposition T-matrix method for computing light scattering by structurally diverse aggregates",
+   "abstract": "The superposition T-matrix method is widely used to compute the scattering, absorption, and extinction of light by aggregated particles found in cometary comae, planetary atmospheres, and protoplanetary discs. However, commonly used solvers rapidly lose their efficiency with decreasing fractal dimension or with increasing porosity. We present a new open-source implementation of a fast superposition T-matrix method, FaSTMM2, which provides efficient solutions for a wide range of fractal particle aggregates composed of polydisperse monomers. The solver accelerates the superposition T-matrix method using a broadband multilevel fast multipole algorithm. We have implemented diagonal translation operators at super-wavelength levels based on the plane-wave expansion of spherical waves, while sub-wavelength levels are treated using low-frequency stable spherical-wave translators. In addition, we introduced an adaptive octree data structure that enables the efficient treatment of aggregates composed of polydisperse monomers. Numerical examples demonstrate that FaSTMM2 provides an efficient solution with controllable accuracy for a wide range of aggregates and compositions. In particular, it achieves speed-ups of several orders of magnitude for highly porous aggregates with a fractal dimension of around two.",
+   "authors": [
+    "J. Markkanen"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662300",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc"
+   ],
+   "summary_zh": "本研究针对行星大气和原行星盘中的多孔聚集体粒子散射计算效率问题，提出了改进的快速叠加T矩阵方法（FaSTMM2），采用宽带多层快速多极算法、自适应八叉树结构和分层平面波展开等技术，实现了对不同孔隙度和分形维数聚集体的高效计算。数值验证表明该方法对高孔隙度聚集体的计算速度相比传统方法提高了数个数量级，为行星科学中复杂颗粒系统的光学特性研究提供了重要的计算工具。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202452905",
+   "title": "Water-rich sub-Neptunes and rocky super-Earths around different stars: Radii shaped by volatile partitioning, formation, and evolution",
+   "abstract": "Despite precise characterization measurements, the nature of planets with radii between 2 and 4 Earth radii -- sub-Neptunes -- remains unknown due to degeneracies in interior models. Nevertheless, the field has compiled an impressive ensemble of small planets with measured masses and radii orbiting different stars. This dataset can be used to test the prediction of large water reservoirs on sub-Neptunes, as proposed by planet formation theory with orbital migration. We aim to determine whether this water reservoir is included in photoevaporative winds and how much of it can partition into the rocky and metallic interior. We coupled the results of a planetary formation model with planetesimal and gas accretion as well as orbital migration with evolution models that assume either perfect mixing of water with H/He in the envelope or complete segregation. For the mixed envelopes, we also included an analytic treatment of fractionation during photoevaporative mass loss. Furthermore, we studied the effect of equilibrium dissolution of water into an assumed magma ocean and metallic core for the first time in coupled formation-evolution models. Out of the tested scenarios, the mass-radius relation of exoplanets is relatively well matched by all scenarios where the atmosphere is of mixed composition. The agreement depends on mass, with better consistency for the model without dissolution below 3 Earth masses and hints of the opposite at higher masses. Fractionation is not found to significantly alter the properties of the planets for our initial conditions due to initially massive envelopes on all planets. For all scenarios, we quantified the radius valley location and its scaling with stellar mass. The mass--radius relations for water-rich sub-Neptunes are broadly consistent with observations. However, statistical surveys in both mass and radius are required to distinguish between the scenarios. The mixed-composition loss of different volatiles, their dissolution into the planetary interior, and the solidification of the magma ocean are natural next steps toward a comprehensive atmosphere-interior evolution model.",
+   "authors": [
+    "Remo Burn",
+    "Komal Bali",
+    "Caroline Dorn",
+    "Rafael Luque",
+    "Simon L. Grimm"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202452905",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过耦合行星形成模型（包括行星体和气体吸积、轨道迁移）与演化模型，探讨了富水亚海王星的大气组成、挥发分分馏和水向岩石内核溶解如何共同塑造2-4地球半径行星的质量-半径关系。研究发现，混合成分大气情景最好地再现了系外行星的观测特征，大气损失中的分馏效应在初始条件下影响有限，而水向内核的溶解在不同质量范围表现出不同的重要性。作者量化了质量半径谷的位置及其对恒星质量的依赖性，并指出需要更多统计调查来区分不同演化情景。"
+  }
+ ],
  "2026-10-07": [
   {
    "id": "arxiv:2610.08584",
@@ -10512,27 +10837,5 @@
    "summary_zh": "本研究使用SPHERE和GRAVITY观测调查了PDS 70系统中第三颗行星候选体的性质，在约13 AU处探测到两个共轨的尘埃团块，它们的空间配置与拉格朗日点处稳定积累的尘埃一致，暗示存在一颗尚未直接探测到的行星。研究表明这两个尘埃团块的起源可能有两种解释：要么是未探测行星的特洛伊伴星体产生的共轨尘埃，要么源于内盘的亚结构，GRAVITY在两团块之间的边际3σ探测为前者提供了支持证据。"
   }
  ],
- "2026-08-10": [],
- "2026-08-09": [
-  {
-   "id": "doi:10.1093/mnras/stag1502",
-   "title": "A chemo-dynamical search for planet-candidate hosts of possible extragalactic origin",
-   "abstract": "Abstract To date, all known exoplanetary systems have been identified around stars currently residing in the Milky Way, whereas planets formed in external galaxies remain largely unexplored. Such systems would offer a unique probe of planet formation in galactic environments distinct from the Milky Way. We combine a literature-compiled sample of Kepler, K2, and TESS planet-candidate host stars with Gaia DR3 astrometry and radial velocities, and incorporate metallicities and [Mg/Fe] abundances from the LAMOST DR9 DD-Payne catalogue, to search for candidate accreted-halo planet hosts. We identify 11 planet-candidate hosts with halo-like kinematics, five of which have reliable chemical abundance measurements. Among these, four systems exhibit low metallicities ([Fe/H] &lt; −0.7) and low [Mg/Fe] ratios that are inconsistent with the canonical Milky Way thick-disc sequence, indicative of enrichment histories characteristic of accreted dwarf galaxies. We further carry out a uniform false-positive assessment using Gaia RUWE, Gaia DR3 neighbourhood checks, odd–even transit-depth comparisons, secondary-eclipse searches, independent BLS period recovery, and comparison with ExoFOP and available follow-up information. This vetting identifies EPIC 211407755 and TIC 239541449 as the most plausible, although still unvalidated, planet-candidate systems. TIC 293432942 is more likely associated with a blended or otherwise binary-related false positive, whereas TIC 184739529 remains a high-risk giant-companion candidate whose planetary nature is uncertain. If confirmed, EPIC 211407755 and TIC 239541449 would suggest that planetary systems can form in dwarf-galaxy environments and subsequently survive accretion into the Milky Way.",
-   "authors": [
-    "Tiancheng Sun",
-    "Xunzhou Chen",
-    "Maosheng Xiang",
-    "Jianzhao Zhou",
-    "Zixuan Lu"
-   ],
-   "link": "https://doi.org/10.1093/mnras/stag1502",
-   "source": "Monthly Notices of the Royal Astronomical Society",
-   "category": "系外行星观测",
-   "matched": [
-    "astrometry",
-    "planet candidate"
-   ],
-   "summary_zh": "本研究结合Gaia DR3天体测量数据、径向速度和LAMOST化学丰度,在已知的系外行星候选体中搜索可能源自银河系外的晕族行星宿主星。研究识别了11个具有晕族运动学特征的行星候选宿主,其中5个具有可靠的化学丰度测量,4个系统显示出与银河系厚盘不一致的低金属丰度和低[Mg/Fe]比值,表明其来自吸积矮星系的富集历史。通过多维度的假正例评估,EPIC 211407755和TIC 239541449被确定为最可信的候选系统,若得到确认,将表明行星系统可以在矮星系环境中形成并在吸积过程中存活。"
-  }
- ]
+ "2026-08-10": []
 }
