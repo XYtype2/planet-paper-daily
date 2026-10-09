@@ -1,4 +1,80 @@
 {
+ "2026-10-09": [
+  {
+   "id": "arxiv:2610.11763",
+   "title": "Metallicity does not reorder line-to-line sensitivity to granulation in solar-like stars",
+   "abstract": "Stellar granulation imprints line-dependent wavelength shifts and profile variations that limit the precision of radial velocity (RV) measurements used for exoplanet detection and characterization. Understanding how the sensitivity of individual spectral lines to granulation depends on stellar parameters is therefore essential for mitigating granulation-induced RV signals. Here, we investigate the effect of metallicity using MURaM 3D magnetohydrodynamic simulations of stellar granulation including a small-scale dynamo for metallicities $\\mathrm{M/H}=\\{-1.0,-0.5,0.0,0.3,0.5\\}$. We synthesize spectra of neutral and ionized lines spanning a broad range of lower excitation potentials and transition probabilities using the MPS-ATLAS code, assuming local thermodynamic equilibrium. We quantify the sensitivity to granulation using the continuum-intensity-weighted standard deviations of the line centre-of-gravity wavelength and equivalent width, denoted by $σ_λ$ and $σ_W$, respectively. Both metrics increase systematically with metallicity at disc centre owing to the combined effects of more vigorous convection and metallicity-dependent changes in the line opacity. We find that the correlation between the solar ($\\mathrm{M/H}=0.0$) and non-solar sensitivity metrics remains high from the disk center to the stellar limb. This indicates that the relative ordering of line sensitivities is robust against changes in viewing angle and metallicity. Consequently, line masks calibrated on the solar spectrum can be reliably applied to radial-velocity measurements of stars with non-solar metallicities, provided they have solar effective temperature and surface gravity.",
+   "authors": [
+    "Dušan Vukadinović",
+    "Sowmya Krishnamurthy",
+    "Valeriy Vasilyev",
+    "Veronika Witzke",
+    "Andrew Collier Cameron"
+   ],
+   "link": "https://arxiv.org/abs/2610.11763v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过三维磁流体动力学模拟在不同金属丰度条件下恒星肉粒层的光谱效应，定量分析了中性和电离谱线对肉粒层扰动的敏感性随金属丰度的变化规律。虽然金属丰度增加会增强对流强度并系统性地提高谱线对肉粒层的敏感性，但不同谱线间的相对敏感性排序在不同金属丰度和视角下保持稳定。这一发现表明，为减小肉粒层诱发的径向速度误差，可以直接将太阳光谱下的谱线掩膜应用于非太阳金属丰度但其他参数相同的恒星，从而提高系外行星探测的精度。"
+  },
+  {
+   "id": "arxiv:2610.11637",
+   "title": "Gravitational Microlensing",
+   "abstract": "Gravitational microlensing is a unique planet-detection method that does not rely on detecting light from the host star or planet. Instead, planets are discovered when their gravitational field perturbs the light coming from a distant source. The mechanics of this method offer several advantages. It has the ability to detect wide-orbit planets of various masses around host stars of different types, at and beyond the system's snow line. Thus, microlensing complements the other detecting techniques that are more sensitive to close-orbit or high-mass planets. In this Chapter, we review the microlensing method and discuss how the physical properties, such as mass and distance, can be extracted from the microlensing light curve or from additional high-angular resolution observations. Microlensing is essential for the broader context of exoplanet demographics, as it can place constraints on planets, in wide orbits, beyond the {\\it snow line}. Studying this parameter space can help us unravel the details of planet formation and how our own Solar System formed. Lastly, we provide an example of how to model a light curve and obtain accurate physical parameters for the host and planet.",
+   "authors": [
+    "Aikaterini Vandorou",
+    "Stela Ishitani Silva"
+   ],
+   "link": "https://arxiv.org/abs/2610.11637v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing",
+    "exoplanet demographics"
+   ],
+   "summary_zh": "重力微引力透镜是一种利用行星引力场扰动背景光源来探测系外行星的方法,无需直接探测宿主星或行星的光。该方法相较其他技术具有独特优势,能够探测宽轨道行星、不同质量行星和雪线外的行星,从而补充对近轨或高质量行星更敏感的探测手段。通过从微引力透镜光变曲线和高角分辨率观测中提取物理参数(如质量和距离),该方法对约束宽轨道和雪线外行星至关重要,有助于揭示行星形成机制和太阳系起源。"
+  },
+  {
+   "id": "arxiv:2610.10701",
+   "title": "EK Cha b: multi-tracer detection of a protoplanet candidate in a gas-rich environment",
+   "abstract": "Despite sustained community efforts and advances in instrumentation and high-contrast imaging, the search for protoplanets remains difficult, with only two widely accepted systems to date in Class II systems (PDS 70 and WISPIT 2). Here we present the detection of EK Cha b, a new protoplanet candidate, identified through CO emission, millimeter continuum and 0.82 micron broadband photometry, linked to EK Cha, a young late-type M star. The detection of a new protoplanet candidate offers an additional opportunity to advance our understanding of planet formation. By exploiting the wealth of archival data available for nearby star-forming regions, we aim to place EK Cha b in context, characterize its properties, and motivate future campaigns targeting similar systems. We analyzed high-spatial-resolution archival observations of EK Cha from HST, VLT/NACO, VLT/MUSE, and ALMA. We searched for EK Cha b in broadband continuum and gas tracers, reporting the measured flux with uncertainties, and upper limits for non-detections. EK Cha b shows a spectrally-resolved footprint that matches the CO J=2--1 emission, together with 0.82 micron and millimeter continuum emission. EK Cha b is spectrally resolved in CO J=2--1 emission, kinematically consistent with a circumplanetary disk. Best fits from evolutionary models place EK Cha b as a planetary mass companion, although deeper observations are required to fully confirm its nature. Although giant planets are uncommon around M dwarfs, these stars host the highest planet occurrence rate while remaining severely underrepresented in protoplanet searches. EK Cha b demonstrates that such systems are now within reach, and the advent of extremely large telescopes and improved high-contrast imaging -- where the lower host luminosity relaxes the required contras-- will open this overlooked regime to systematic exploration.",
+   "authors": [
+    "Felipe Alarcón",
+    "C. Swastik",
+    "Stefano Facchini",
+    "Edwin A. Bergin",
+    "Gabriele Cugno"
+   ],
+   "link": "https://arxiv.org/abs/2610.10701v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "occurrence rate",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究通过多波段观测（CO发射线、毫米连续谱和0.82微米测光）在晚型M矮星EK Cha周围检测到原行星候选体EK Cha b，并利用HST、VLT和ALMA等多个档案数据进行表征和物理性质分析。观测证据表明EK Cha b具有与环行星盘相符的CO J=2-1谱线特征，演化模型预测其为行星质量天体。本工作表明低质量宿主星系统已成为原行星搜索的可达范围，为未来针对M矮星的系统性原行星巡测提供了新的机遇。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aea3f1",
+   "title": "Starspot Activity and Third-body Perturbations in the Eclipsing Binary KIC 9451096",
+   "abstract": "Abstract We investigate the short-period Algol-type (EA-type) eclipsing binary system KIC 9451096 using high-precision space-based photometry from Kepler and the Transiting Exoplanet Survey Satellite (TESS) , complemented by ground-based observations from the Sierra Remote Observatories (SRO), which provide additional constraints on system properties. Eclipse timing variations (ETVs) are analyzed using more than 2000 eclipse timings, consisting of approximately 1000 primary and 1000 secondary minima. The timing data are examined using the light-travel time effect (LTTE) model and discrete Fourier transform (DFT) techniques to search for periodic modulations in the O – C diagram. The combined eclipse-timing and frequency analyses reveal three characteristic timescales: the 1.25 day orbital period, a dominant ∼85 day modulation consistent with LTTE induced by a tertiary companion, and secondary ∼5.2 day variability that is most plausibly associated with magnetic activity. The LTTE solution yields a minimum tertiary mass of M 3 ≈ 0.0487 M ⊙ (∼51 M Jup ), assuming a total mass of 1.83 M ⊙ for the eclipsing pair. This is consistent with a brown dwarf in a nearly circular orbit. Light-curve modeling with PHOEBE 2.4.21 demonstrates that evolving starspots on the secondary component can reproduce the observed O’Connell effect. This supports the interpretation that magnetic activity contributes to the observed ∼5.2 day modulation. The LTTE and eclipse-timing analyses support the scenario in which KIC 9451096 is a hierarchical triple system containing a brown-dwarf tertiary companion, while the starspot modeling provides a complementary physical interpretation of the observed short-timescale photometric and timing variability associated with magnetic activity.",
+   "authors": [
+    "Supattra Wongsriya",
+    "Siramas Komonjinda",
+    "Puji Irawati",
+    "Suwicha Wannawichian"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aea3f1",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用Kepler和TESS空间测光数据及地面观测，通过分析超过2000次日食时间变化来研究食双星系统KIC 9451096。结合光行时效应模型和离散傅里叶变换分析，揭示了三个特征时间尺度：1.25天轨道周期、~85天的第三体摄动周期（对应最小质量0.0487太阳质量的褐矮星伴星）和~5.2天的磁活动周期。通过PHOEBE软件的光曲线拟合表明，次星上演变的黑子活动可解释观测到的O'Connell效应，支持该系统为包含褐矮星伴星的分层三体系统，同时磁活动对短时间尺度的测光和时间变化有重要贡献。"
+  }
+ ],
  "2026-10-08": [
   {
    "id": "arxiv:2610.10308",
@@ -10836,6 +10912,5 @@
    ],
    "summary_zh": "本研究使用SPHERE和GRAVITY观测调查了PDS 70系统中第三颗行星候选体的性质，在约13 AU处探测到两个共轨的尘埃团块，它们的空间配置与拉格朗日点处稳定积累的尘埃一致，暗示存在一颗尚未直接探测到的行星。研究表明这两个尘埃团块的起源可能有两种解释：要么是未探测行星的特洛伊伴星体产生的共轨尘埃，要么源于内盘的亚结构，GRAVITY在两团块之间的边际3σ探测为前者提供了支持证据。"
   }
- ],
- "2026-08-10": []
+ ]
 }
