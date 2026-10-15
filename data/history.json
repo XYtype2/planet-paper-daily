@@ -1,4 +1,458 @@
 {
+ "2026-10-15": [
+  {
+   "id": "arxiv:2610.19865",
+   "title": "LiDO: The Large inclination Distant Objects Survey",
+   "abstract": "Previous trans-Neptunian objects (TNOs) discovery surveys targeted the ecliptic plane, where the overall highest density is seen. High-inclination objects spend little time near the plane, and are thus under-represented in previous TNO surveys. The Large inclination Distant Objects (LiDO) survey targets these high-inclination populations in 34 sq.deg., located in two blocks 14-21 degrees north and south of the ecliptic plane, finding 148 objects, all with i>14 degrees due to survey design. A careful characterization of detection efficiency and other survey parameters results in a \"characterized sample\" of 125 objects detected within the survey's magnitude and rate limits, thus suitable for model comparison via survey simulations. LiDO detected 62 TNOs classified as resonant, including 21 Plutinos, of which 12 are securely Kozai resonators (always coming to pericenter off-ecliptic), as well as 9 objects in the 5:2 resonance, and several mixed mode inclination-eccentricity resonators. No objects beyond 63 au were detected, despite sensitivity to objects as far as 150 au. We found that the i>14 degree orbital distribution of the previous model from OSSOS was rejectable with the inclusion of the 38 characterized hot classical TNOs from LiDO. We constructed a proof-of-concept orbital distribution model of hot classical TNOs based on long-term stability sculpting, which is statistically acceptable for the LiDO and OSSOS samples, while producing population estimates (21,000$^{+3000}_{-3000}$ hot classicals with H_r<8.3) consistent with OSSOS estimates. The discovery of 125 characterized mid-to-high inclination objects in a variety of orbital classifications provides useful constraints for population modeling and the migration history of the Solar System.",
+   "authors": [
+    "Mike Alexandersen",
+    "Rosemary E. Pike",
+    "Ying-Tung Chen",
+    "Samantha M. Lawler",
+    "Mark Comte",
+    "Lowell Peltier",
+    "J. J. Kavelaars",
+    "Kathryn Volk",
+    "Cameron Semenchuck",
+    "Cameron Collyer",
+    "Jaidyn Draper",
+    "Stephen Gwyn",
+    "Hermosillo Ruiz",
+    "Matthew J. Holman",
+    "Katrina Kianpoor",
+    "Cameron J. Morgan",
+    "Ruth Murray-Clay",
+    "Jonathan Pond",
+    "Benjamin Proudfoot",
+    "AbdulRahman Rabaa",
+    "Darin Ragozzine",
+    "Emily Rieger",
+    "Mriana Yadkoo"
+   ],
+   "link": "https://arxiv.org/abs/2610.19865v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "Kozai"
+   ],
+   "summary_zh": "LiDO调查针对高倾角的海王星外天体(TNOs)进行了系统巡天,在远离黄道面14-21度范围内发现148个倾角>14°的天体,其中包含62个共振天体和大量Kozai谐振子。通过详细的探测效率表征和调查模拟,获得了125个可用于模型对比的特征化样本。研究结果表明基于长期稳定性雕刻机制的轨道分布模型能够解释高倾角冷古典TNOs的观测结果,并为太阳系移动历史和TNOs种群演化提供了关键约束。"
+  },
+  {
+   "id": "arxiv:2610.19377",
+   "title": "Emission spectroscopy of KELT-2A b with Gemini-North/IGRINS-2: hints of a stellar C/O ratio and sub-stellar metallicity",
+   "abstract": "We present the results of high-resolution emission spectroscopy of the hot Jupiter KELT-2A~b using IGRINS-2 on the Gemini-North telescope, covering the $H$- and $K$-bands at a spectral resolution of $R \\sim 45{,}000$. Observations were carried out over five nights, covering both pre- and post-eclipse orbital phases. Stellar and telluric contaminations are removed via singular value decomposition. We detect $\\rm H_2O$ at a signal-to-noise ratio of {6.57}, confirming the previous result at a higher significance. While $\\rm ^{12}CO$ is identified in the log-likelihood map near the expected planetary velocity, a definitive detection of $\\rm ^{12}CO$ remains elusive given the current data quality. We perform atmospheric retrieval both with IGRINS-2 data alone and jointly with archival \\textit{Spitzer}/IRAC photometric data points. The retrieved temperature--pressure profile is non-inverted, consistent with prior observations. {From the joint fit we constrain the water abundance to} $\\rm log(H_2O) = {-3.78^{+0.27}_{-0.20}}$ {with the free chemistry model}. {The chemical equilibrium model yields} $\\rm C/O={ 0.19^{+0.12}_{-0.07}}$, $\\rm [C/H]=-0.81^{+0.41}_{-0.34}$, and $\\rm [O/H] = -0.37^{+0.27}_{-0.17}${: the C/O ratio agrees with the stellar value, while the carbon and oxygen abundances are moderately depleted relative to the host star, though still consistent at the $\\sim2σ$ level.} If confirmed, {this combination of a stellar C/O ratio with a sub-stellar metallicity is difficult to reconcile with gas accretion between the $\\rm{H_2O}$ and CO snowlines, which predicts a super-stellar C/O. It instead points to the accretion of metal-depleted gas outside the CO snowline with only limited planetesimal enrichment, and hence to a disk-free, high-eccentricity migration history.}",
+   "authors": [
+    "Yuya Hayashi",
+    "Stevanus K. Nugroho",
+    "Shota Notsu",
+    "Changeat Quentin",
+    "Peter C. B. Smith",
+    "Krishna Kanumalla",
+    "Michael R. Line",
+    "Jorge A. Sanchez",
+    "Tomohiro C. Yoshida",
+    "Kazumasa Ohno",
+    "Hideko Nomura",
+    "Taiki Kagetani",
+    "Norio Narita",
+    "Kiyoe Kawauchi",
+    "Akihiko Fukui",
+    "Enric Palle"
+   ],
+   "link": "https://arxiv.org/abs/2610.19377v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration"
+   ],
+   "summary_zh": "本研究利用Gemini-North/IGRINS-2高分辨率发射光谱观测热木星KELT-2A b，在H和K波段（R~45,000）检测到水汽并约束其丰度，同时联合Spitzer光度数据进行大气反演。检索结果表明该行星具有与宿主星相当的C/O比（~0.19），但碳氧丰度相对贬损，这种组合难以用传统的雪线气体吸积解释，反而指向行星在CO雪线外通过无盘高偏心率迁移形成，仅经历有限的行星体富集过程。"
+  },
+  {
+   "id": "arxiv:2610.19328",
+   "title": "ExoEcho: Exoplanet Ephemerides Change Observations. III. A JWST Survey for Transit Timing Variations of 37 Exoplanets",
+   "abstract": "Transit timing variations (TTVs) provide a powerful probe of planetary dynamics and orbital evolution. We extend the ExoEcho project by incorporating James Webb Space Telescope (JWST) transit observations and analyze 84 light curves of 37 exoplanets, including 20 hot Jupiters, 11 Neptune-like planets, and 6 super-Earths. We derive updated transit ephemerides and conduct a systematic search for long-term and periodic TTV signals. We identify two strong TTV candidates, including HATS-6~b and HAT-P-18~b. The hot Jupiter HATS-6~b exhibits a long-term trend with $\\dot{P} = 230.5 \\pm 46.8\\ \\mathrm{ms\\ yr^{-1}}$, potentially driven by tidal interactions with its host star. In addition, the Neptune-like planet HAT-P-18~b shows periodic TTV signal with amplitude of $92.9 \\pm 13.7$~s. We also show that the previously claimed positive period derivative in WASP-121~b is inconsistent with our new transit timing data. Although continued monitoring is required to confirm these findings, our results demonstrate the potential of JWST for high-precision transit timing and extend TTV studies beyond the traditional hot-Jupiter population to lower-mass exoplanets.",
+   "authors": [
+    "Yunke Wu",
+    "Zixin Zhang",
+    "Xinyue Ma",
+    "Wenqin Wang",
+    "Siqi Guo",
+    "Cong Yu",
+    "Shang-Fei Liu",
+    "DiChang Chen",
+    "Bo Ma"
+   ],
+   "link": "https://arxiv.org/abs/2610.19328v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究利用JWST观测数据分析了37颗系外行星（包括20颗热木星、11颗海王星型行星和6颗超地球）的84条凌日光变曲线，系统搜索长期和周期性的凌日时间变化(TTV)信号。研究识别了HATS-6~b和HAT-P-18~b两个强TTV候选体，其中HATS-6~b展现出可能由潮汐相互作用驱动的长期周期变化($\\dot{P} = 230.5 \\pm 46.8\\ \\mathrm{ms\\ yr^{-1}}$)，而HAT-P-18~b呈现周期性TTV信号(振幅92.9 ± 13.7秒)。本研究表明JWST具有进行高精度凌日时间测量的潜力，将TTV研究范围扩展到低质量系外行星。"
+  },
+  {
+   "id": "arxiv:2610.19280",
+   "title": "The Limits of Tidal Circularization and Atmospheric Escape for Mini-Neptunes and Super-Earths: The Case of TOI-2257 b",
+   "abstract": "With a 35-day orbital period and $\\sim$0.5 eccentricity, TOI-2257 b occupies a sparsely populated corner of transiting mini-Neptune parameter space and may lie near the orbital distance at which tidal and atmospheric escape process become negligible. To test this hypothesis, we performed simulations of the combined stellar, tidal, and atmospheric evolution and confirmed that TOI-2257 b does lie near this boundary, regardless of whether it formed with or without a primordial hydrogen envelope. In the mini-Neptune scenario, we find that all cases retain an envelope of at least 0.02 M$_\\oplus$ for 8 Gyr, but that the envelope mass can be halved if it was initially larger than 0.2 M$_\\oplus$. We find that tidal evolution only occurs for cases with initial envelope masses larger than 0.02 M$_\\oplus$ because their radii are large enough to generate significant torques. In the super-Earth scenario, the planet could lose $\\sim$10 Earth ocean masses of surface water during the $\\sim$75 Myr pre-main sequence and therefore could be habitable if it formed with $\\gtrsim$2x Earth's surface water mass. The predicted tidal heating surface flux tends to be similar to Io, with no cases approaching the flux required to drive a runaway greenhouse. We find that if the planet is rocky, then eccentricities larger than 0.62 today are strongly disfavored, implying that larger eccentricities could confirm the gaseous nature of the planet. These results suggest that TOI-2257 b could provide valuable constraints on mini-Neptune properties and new insight into the radius valley shape as a function of eccentricity.",
+   "authors": [
+    "M. K. A. Olohoy",
+    "Y. A. D. Gelani",
+    "R. Barnes"
+   ],
+   "link": "https://arxiv.org/abs/2610.19280v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究通过结合恒星演化、潮汐演化和大气逃逸的数值模拟，探究了TOI-2257 b（35天轨道周期、离心率~0.5）作为迷你海王星所处的潮汐圆化和大气逃逸的临界轨道位置。研究发现该系统无论初始是否具有原始氢包层，都位于这一边界附近：在迷你海王星情景下至少保留0.02 M⊕的包层，潮汐演化仅在初始包层质量>0.02 M⊕时才显著发生；在超级地球情景下，该星球可能在前主序阶段损失~10个地球洋质量的水，但若初始水质量≥2倍地球海洋质量则可能宜居。结果表明TOI-2257 b的当前离心率若>0.62则强烈排除岩石性质，为确定行星物质组成和理解半径山谷与离心率关系提供了约束。"
+  },
+  {
+   "id": "arxiv:2610.19228",
+   "title": "Chandra-JWST Probing the Effects of Moderate X-Ray Superflares on Protoplanetary Disks",
+   "abstract": "Powerful X-ray flares from young stars may rapidly alter the physical and chemical conditions of their planet-forming disks, but direct observational tests remain scarce. We present a Chandra-JWST/NIRSpec study of infrared spectral variability associated with pre-main-sequence (PMS) X-ray flares in the Orion Nebula. Combining six Chandra/ACIS-I observations with three NIRSpec-MOS visits, we analyze two-epoch spectra of 10 X-ray Flare stars and 12 matched non-flaring Controls among 84 observed disk-bearing PMS stars. We investigate three diagnostics: narrow 2.8-4.3 micron features, HI Br-alpha, and the CO fundamental band. Flare stars show tentative evidence for relatively fewer variable narrow features at longer wavelengths than Controls, while feature incidence decreases strongly with projected distance from the dominant ionizing O star Theta1 Ori C. Most classifiable features appear in absorption. These properties suggest that at least some features may arise in externally irradiated disk atmospheres and/or associated photoevaporative flows, with their apparent epoch-to-epoch variability potentially reflecting spatial sampling of such locally structured material rather than intrinsic temporal changes. Br-alpha behaves differently: flare stars show systematically stronger variability and uniquely exhibit absorption-core profiles, suggesting control by magnetospheric accretion and stellar magnetic processes rather than disk irradiation. The CO fundamental band shows no significant flare-associated variability, consistent with thermochemical models predicting weak responses to moderate X-ray superflares. This pilot study demonstrates the potential of coordinated Chandra-JWST observations to probe how young stellar magnetic activity affects planet-forming environments, motivating future monitoring to build larger superflare samples and extend them into the rare X-ray mega-flare regime.",
+   "authors": [
+    "Konstantin V. Getman",
+    "Kevin L. Luhman",
+    "Bayron Portilla-Revelo",
+    "Christian Rab",
+    "Valentin Brunn",
+    "Eric D. Feigelson",
+    "Arjan Bik",
+    "Jan Forbrich",
+    "Jenny Frediani",
+    "Thomas J. Haworth",
+    "Charles J. Law",
+    "Marco Padovani",
+    "Maria Claudia Ramirez-Tannus",
+    "Andrew J. Winter",
+    "Vladimir S. Airapetian",
+    "L. Ilsedore Cleeves",
+    "Sergio A. Dzib",
+    "Michael A. Kuhn",
+    "Abygail R. Waggoner",
+    "Rens Waters"
+   ],
+   "link": "https://arxiv.org/abs/2610.19228v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究结合Chandra X射线观测与JWST/NIRSpec近红外分光，调查了猎户星云中中等X射线超耀斑对原行星盘的影响，对10颗耀斑星和12颗对照星进行了双历元光谱分析。研究发现耀斑星的窄的2.8-4.3微米特征变化较少，而Br-alpha线表现出更强的变率并呈吸收芯轮廓，表明其主要受磁圈吸积和恒星磁场控制；CO基频带未显示显著耀斑相关变率，与热化学模型预测一致。该研究表明协调的Chandra-JWST观测可以有效探测年轻恒星磁活动如何影响行星形成环境，并为未来研究更大样本甚至超级耀斑提供了方法论基础。"
+  },
+  {
+   "id": "arxiv:2610.19081",
+   "title": "Science-Driven Performance Requirements for UV Coronagraph Design: Implications for O$_3$ Detection in Earth-like Atmospheres",
+   "abstract": "Detecting biosignatures on Earth-like exoplanets from the Proterozoic era requires instrumentation capable of probing near-ultraviolet (NUV) spectral features, particularly ozone (\\ce{O3}), which serves as an indirect proxy for molecular oxygen (\\ce{O2}) when direct detection is challenging. Using a combination of photochemical-climate modeling and atmospheric retrieval simulations, we quantify fiducial instrument performance requirements for robust \\ce{O3} detection and assess the risk of spectral false positives from sulfur dioxide (\\ce{SO2}). Our analysis demonstrates the \\ce{O3} abundances for Proterozoic Earth-like planets with \\ce{O2} as low as 0.1\\% the present atmospheric level, can be constrained to within an order of magnitude at 1\\,$σ$ confidence using three adjacent photometric bandpasses at a signal-to-noise ratio of 10 at 0.366\\,$\\upmu$m, each with a 15\\% width, and a short wavelength cutoff for those observations near 0.26\\,$\\upmu$m. The self-consistent steady state atmospheric modeling results show that \\ce{SO2} buildup is difficult in a habitable environment with appreciable amounts of water vapor in its atmosphere and would require volcanic outgassing rates at least two orders of magnitude above present-day Earth to reach surface abundance levels comparable to Proterozoic Earth-like abundances of \\ce{O3}. Even under these high \\ce{SO2} flux scenarios, \\ce{SO2} remains largely unconstrained with the recommended observational configuration, reinforcing the need for NUV coverage in coronagraphic instruments. Our findings support the inclusion of UV-optimized optics and detectors on the Habitable Worlds Observatory (HWO) to enable biosignature detection strategies sensitive to atmospheric conditions across key phases of Earth's geological history.",
+   "authors": [
+    "Amber V. Young",
+    "Giada Arney",
+    "Shawn Domagal-Goldman",
+    "Tyler D. Robinson",
+    "Roser Juanola-Parramon",
+    "Christopher Stark",
+    "Renyu Hu",
+    "Armen Tokadjian",
+    "Mario Damiano"
+   ],
+   "link": "https://arxiv.org/abs/2610.19081v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究结合光化学-气候模型和大气反演模拟,量化了紫外日冕仪检测类地行星臭氧(O₃)生物标志所需的仪器性能指标,并评估了二氧化硫(SO₂)产生虚假正信号的风险。研究表明,使用三个相邻的015%宽度光度带通(中心0.366 μm,短波截止0.26 μm)、信噪比为10的观测配置,可将原生代类地行星(O₂含量低至现代大气0.1%)的臭氧丰度约束在一个数量级精度内;同时证明在具有可观测水汽的宜居环境中SO₂难以积累,其表面丰度达到原生代水平需要火山排气速率比现代地球高两个数量级以上。研究结果支持在宜居世界观测台(HWO)上配置紫外优化光学和探测器,以实现对地球地质史关键阶段大气条件的生物标志检测。"
+  },
+  {
+   "id": "arxiv:2610.18864",
+   "title": "Simulations of the Evolving Ozone Layer: Implications for the Early Earth, Exoplanets, and the Search For Life",
+   "abstract": "Over 4 billion years, Earth's atmosphere has been transformed from a composition devoid of molecular oxygen (O$_2$) to one where O$_2$ is now 21% of our modern atmosphere by volume. With high quantities of O$_2$, an ozone (O$_3$) layer can form and partially shield the surface from biologically harmful ultraviolet radiation (UV). The evolution of the O$_3$ layer has previously been simulated under the modern Sun by independent groups with separate models. Here, we present simulations of Earth's atmosphere from four open-source one-dimensional (1D) photochemical models and a 3D chemistry-climate model, focussing on O$_3$. We find that the O$_3$ layer thickness exhibits a clear deviation between the 1D models and the 3D model due to several factors, including treatments of O$_2$ photolysis, chemical networks, H$_2$O microphysics and 3D transport. We find that 1D models introduce a bias for unobserved climate states and show how these biases may propagate to calculations of biological UV damage and surface habitability. We show that when applied to specific exoplanet atmospheres, these discrepancies can become more pronounced, propagating through to observational predictions for the next generation of telescopes, such as HWO and LIFE, that will search for habitable and inhabited exoplanets.",
+   "authors": [
+    "Akhil Kumar",
+    "Gregory J. Cooke"
+   ],
+   "link": "https://arxiv.org/abs/2610.18864v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究采用五个光化学模型（包括四个一维模型和一个三维气候-化学耦合模型）模拟地球大气中臭氧层的演化，重点关注不同模型在臭氧厚度计算中的差异。研究发现一维模型与三维模型在臭氧厚度预测上存在显著偏差，主要源于O₂光解处理、化学反应网络、水微物理过程和三维输运等因素的差异，这些偏差会影响生物紫外线损伤和宜居性评估。研究进一步表明，这些模型差异在应用于系外行星大气时更加明显，将直接影响HWO和LIFE等下一代望远镜对宜居与生命迹象行星的观测预测精度。"
+  },
+  {
+   "id": "arxiv:2610.18821",
+   "title": "Peering into the Midplane of the DM Tau Disk using N2H+ and DCO+",
+   "abstract": "Planets form in the midplanes of protoplanetary disks, thus investigating the properties of the midplane region can shed light on the physical and chemical processes governing the evolution of planetary systems. In this work, we study the conditions near the midplane of the disk around DM Tau using 0.\"3 (~43 au) ALMA observations of N2H+ (J = 3 - 2) and DCO+ (J = 4 - 3). The radial profiles reveal that DCO+ is centrally peaked, with a depression near 120 au, while N2H+ exhibits a central depression and a peak near 100 au. In addition, both molecules display extended emission out to 400 au. Using parametric models to interpret our observations, we note that a fiducial model based on CO-derived parameters captures the features within 200 au, but fails to reproduce the outer disk emission. We explore various mechanisms that could account for this extended emission and conclude that it is best reproduced by an increased external UV penetration and cosmic ray/X-ray ionization rate, possibly enhanced by radial drift. These processes affect the precursors of N2H+ and DCO+ : increased UV leads to the photodesorption of CO and N2, while ionization enhances H3+ abundance. Besides, the observed N2H+ and DCO+ features are broadly consistent with previous CO snowline constraints, but can also be shaped by processes such as ionization, CO depletion, and multiple chemical pathways. Thus, using these molecular ions as robust CO snowline tracers requires additional constraints from complementary molecular tracers and detailed chemical modeling.",
+   "authors": [
+    "Amina Diop",
+    "Kevin Flaherty",
+    "Chunhua Qi",
+    "Ilse Cleeves",
+    "A. Meredith Hughes",
+    "Agnes Kospal",
+    "Sean Andrews",
+    "David J. Wilner",
+    "Jacob B. Simon",
+    "Deryl E. Long"
+   ],
+   "link": "https://arxiv.org/abs/2610.18821v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过ALMA高分辨率观测DM Tau原行星盘中的N2H+和DCO+分子离子分布,探究了盘面区域的物理化学条件对行星形成的影响。观测结果显示两种分子在盘内100-120 au处呈现不同的径向分布特征,且在外盘(>200 au)存在延伸发射,表明紫外辐射穿透、宇宙线电离等过程在调控CO雪线附近的化学环境中起重要作用。研究表明仅依赖单一分子示踪CO雪线需谨慎,应结合多种分子示踪和详细化学模型以准确约束原行星盘的雪线位置和行星形成条件。"
+  },
+  {
+   "id": "arxiv:2610.18806",
+   "title": "A Spatial Map of the Atmospheric Limb of a Hot Jupiter",
+   "abstract": "Planets are inherently three-dimensional objects shaped by their thermal structure and dynamics. Observations of transiting exoplanets have begun to uncover this three-dimensional nature, with JWST measuring their dayside atmosphere structure with eclipse mapping, and exploring spectroscopic asymmetries in the limbs of planets during transit. We apply the novel mapping method of transmission strings to the hot Jupiter WASP-17b. With this method, we are not only able to extract hemispheric limb asymmetries from east-to-west, but can map equator-to-pole variations around the transmitting atmosphere as a function of angle, spanning 0.6-12$μ$m. We find a clear transition in the thermal scale height around the limb of the atmosphere, with a $\\sim$650K temperature difference between the morning (T=858$^{+434}_{-233}$K) and evening (T=1522$^{+116}_{-114}$K). These results are consistent with both nightside emission and dayside eclipse mapping measurements, and represent a fully comprehensive set of observations for a transiting exoplanet. We are also able to constrain the abundances of H$_2$O and CO$_2$ to constant values around the limb, providing observational constraints to results from global circulation models. The transmission string technique combined with the outstanding observability of WASP-17b pushes the study of exoplanet atmospheres further into a three-dimensional understanding of hot Jupiter dynamics and chemistry",
+   "authors": [
+    "Lili Alderson",
+    "Hannah R. Wakeford",
+    "David Grant",
+    "Nikole K. Lewis",
+    "Avinash Verma",
+    "Jayesh Goyal",
+    "Mark Hammond",
+    "Daniel Valentine",
+    "Natalie H. Allen",
+    "Ana Glidden",
+    "Amélie Gressier",
+    "Jingcheng Huang",
+    "Maura Lally",
+    "Dana R. Louie",
+    "Jacob Lustig-Yaeger",
+    "Cathal Maguire",
+    "Elijah Mullens",
+    "Kristen S. Sotzen",
+    "Jeff A. Valenti",
+    "Roeland P. van der Marel",
+    "Tiffany Kataria"
+   ],
+   "link": "https://arxiv.org/abs/2610.18806v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用创新的\"传输弦\"映射方法对热木星WASP-17b的大气凌日轮廓进行三维空间制图，在0.6-12μm波段内获得了从东西半球和赤道到极地的非对称性结构。研究发现大气热标度高度存在明显过渡，晨侧和昏侧温度差异约650K（分别为858K和1522K），并约束了水汽和二氧化碳的丰度分布。这些结果与夜侧辐射和白昼食观测相互印证，为热木星的三维大气动力学和化学性质提供了全面的观测约束。"
+  },
+  {
+   "id": "arxiv:2610.18509",
+   "title": "Star spots mimic the proposed abundance signatures of planet formation",
+   "abstract": "Trends with stellar elemental abundances and condensation temperature have been proposed as a possible tracer of rocky planet formation. Here we present an alternative explanation, where we show that stellar activity (star spots) can also cause apparent abundance changes in refractory elements preferentially over volatile elements. This effect arises naturally from atomic physics: refractory (rocky; high-$T_c$) elements preferentially have low first-ionization potentials, with strong transitions that are most sensitive to the cooler, magnetically-perturbed spot conditions, making any spot-induced change in line strength correlated with $T_c$. We re-examine literature on Sun-like stars in the Solar neighborhood and find that the $\\log{R'_{HK}}$ stellar activity indicator is correlated with the so-called $T_c$ slope: the gradient of chemical abundances with respect to condensation temperature. Using 1D LTE Korg.jl simulations of the Sun with spots of varying size and contrast, we show that a wide range of spot configurations can manifest as abundance patterns that mimic a signal of abundance trends with condensation temperature. Finally, we conduct a line-by-line differential analysis of an ambient Solar spectrum relative to a Solar sunspot umbra to represent an extreme case, where we find that elements with high condensation temperature can show a factor of three (0.5 dex) increase. We discuss implications that stellar activity poses for precision spectroscopy, and provide some direction on how this effect might be mitigated.",
+   "authors": [
+    "Andrew R. Casey",
+    "Megan Bedell",
+    "Adam Wheeler",
+    "Julianne Dalcanton",
+    "Lily Zhao"
+   ],
+   "link": "https://arxiv.org/abs/2610.18509v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究揭示了恒星活动（星斑）可能是导致恒星丰度与凝聚温度相关趋势的关键因素，而这一趋势此前被视为行星形成的信号。通过原子物理分析和1D LTE光谱模拟，我们证明高凝聚温度元素（岩石成分）由于具有低电离势和对磁扰动敏感的强谱线，在星斑条件下会表现出与凝聚温度相关的丰度变化。这项发现对利用恒星丰度梯度推断行星形成历史的精密光谱学研究具有重要启示，提示需要在行星动力学研究中更谨慎地区分恒星活动效应与真实的行星形成信号。"
+  },
+  {
+   "id": "arxiv:2610.18114",
+   "title": "3D Global Climate Simulations of Synthetic Mars Warming",
+   "abstract": "Artificial warming via engineered aerosols presents a novel pathway to bypass volatile scarcity on modern Mars. Utilizing the Generic Planetary Climate Model, we evaluate the physical feasibility of aerosol-induced terraforming over a full Martian year (669 Sols). Unlike previous approaches that added aerosols to background dust or assumed continuous nanoparticle injection, we simulate the complete substitution of natural dust with a single-injection profile of radiatively active aluminium nanoparticles without continuous dumping. This tests whether initial infrared greenhouse forcing can overcome the severe ice-albedo cooling induced by a massive regional water-ice sheet ($3400 \\text{ kg/m}^2$) localized in the Hellas Basin. Comparing this scenario against an unperturbed control run, we analyze surface temperature dynamics, sublimation fluxes, and water vapour concentration. Our 3D global climate simulations quantify the radiative-dynamical feedback thresholds and determine whether engineered aerosol forcing can trigger a self-sustaining water-vapour greenhouse effect or remains fundamentally limited by regional ice-albedo suppression in Hellas.",
+   "authors": [
+    "Tom N. Landefeld",
+    "Harald Lesch"
+   ],
+   "link": "https://arxiv.org/abs/2610.18114v2",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "aerosol"
+   ],
+   "summary_zh": "本研究采用通用行星气候模型评估了单次注入铝纳米颗粒替代火星天然尘埃作为温室气体的可行性,通过模拟完整火星年的三维全球气候动力学过程,定量分析了工程气溶胶强制辐射与赫拉斯盆地大规模冰雪反照率冷却反馈之间的相互作用。结果表明工程气溶胶诱导的增温能否克服区域冰-反照率抑制,并触发自持水汽温室效应,为火星行星工程的可行性阈值提供了关键约束。"
+  },
+  {
+   "id": "arxiv:2610.17921",
+   "title": "A breath of fresh air: Oxygen enhancement from silicate sublimation during early protostellar evolution",
+   "abstract": "Recently, an analog to the t = 0 moment of our Solar System's meteoritic record was identified for the first time around the Class I protostar HOPS-315. Crystalline silicates were found to recondense from SiO gas that cools as it advects upward from a hot thermostat region in the inner midplane. This t=0 moment may be associated with the formation of the first planetesimals in this disk. We explore whether HOPS-68, a Class I protostar with similar properties and system geometries, is engaged in such refractory recondensation as well. A detection of cooler gas-phase SiO in absorption above a hot disk midplane would allow us to achieve this goal, thanks to a previous detection of crystalline silicates. HOPS-68 was observed with the JWST MIRI and NIRSpec, showing multiple bands of molecular absorption. We use local thermal equilibrium slab models to measure the temperature, column density, velocity, and radial location of these bands. The molecular absorption bands of gaseous SiO, H2O, CO2, and 13CO trace a warm molecular inversion layer (300-500 K) at mid-altitudes above the hot disk midplane from 0.3-16 AU, which is consistently blue-shifted with respect to the system velocity by 33-53 km/s. Atacama Large Millimeter/submillimeter Array (ALMA) observations of HOPS-68 kinematically resolve an SiO-rich jet and wind. We confirm that HOPS-68, like HOPS-315, is undergoing an epoch analogous to the t=0 moment in the Solar System's planet formation timeline. The detected warm molecular layer traces the base of a disk wind, which carries sublimated material from the thermostat region near 2 AU up into the outer disk. As for HOPS-315, the molecular layer in the inner few AU of HOPS-68 is enhanced in bulk oxygen as a result of this sublimation. Since HOPS-68 is less evolved than HOPS-315, this may indicate a prolonged epoch in protostellar evolution in which such oxygen enhancement occurs.",
+   "authors": [
+    "F. J. Ballieux",
+    "M. K. McClure",
+    "Ł. Tychoniec",
+    "L. Francis",
+    "A. Egliene",
+    "E. A. Bergin",
+    "M. R. Van 't Hoff",
+    "E. F. Van Dishoeck"
+   ],
+   "link": "https://arxiv.org/abs/2610.17921v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过JWST和ALMA观测Class I原星HOPS-68，探测其内盘热区升华的SiO气体在外盘冷凝过程中是否发生，以识别与太阳系行星形成初期类似的时刻。研究发现HOPS-68的温分子层（300-500 K）中SiO、H2O、CO2等分子富集，这些物质通过盘风从内盘升华区被输运到外盘，导致内盘几AU范围内氧元素大量富集。结果表明HOPS-68与HOPS-315都处于太阳系行星形成初期的相似演化阶段，且这种氧富集阶段可能在原星演化中持续较长时间，对早期行星体形成的化学成分具有重要影响。"
+  },
+  {
+   "id": "arxiv:2610.17919",
+   "title": "Rattling Resonant Chains with Dynamical Tides and Parametric Resonance Passage",
+   "abstract": "Close-in sub-Neptunes are born in mean-motion resonant chains that break apart on a timescale of $\\sim$100 Myr. If the chains are first ''rattled'' --- have their free eccentricities excited to a few percent --- then breaking occurs on the required timescale. We propose that chains are rattled by internal oscillations tidally driven by the star in the innermost planet. Unlike other proposals, there is no need to invoke any reservoir of planetesimals or external perturbers --- the chain unravels from within. We develop a Hamiltonian theory (and an accompanying toy model) which predicts a parametric instability whereby chain librations exponentially amplify when the tidal forcing frequency equals the sum of the internal mode frequency and the chain libration frequency. We also introduce a new eigenmode solver for rotating planets, $\\texttt{MAQAM}$, that in combination with the evolutionary code $\\texttt{ORCHARD}$ enables us to track the frequency evolution of pressure, gravity, and inertial modes in cooling sub-Neptunes. Inertial modes in the gas envelope and fluid mantle can evolve to become momentarily parametrically resonant. Passage through a single parametric resonance can raise the free eccentricities in the chain to a few percent within a few tens of Myrs.",
+   "authors": [
+    "Mohammad Farhat",
+    "Eugene Chiang"
+   ],
+   "link": "https://arxiv.org/abs/2610.17919v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究探讨了近距离亚海王星形成的共振链如何通过内部潮汐驱动和参数共振破裂的机制。研究采用哈密顿理论和数值模拟方法，建立了新的行星本征模态求解器MAQAM，发现内行星的潮汐力可激发其内部振荡，当潮汐频率等于内部模频率与链天平动频率之和时，会产生参数不稳定性。研究表明经过单个参数共振通道，可在数十百万年内将共振链的自由离心率提升至几个百分点，从而解释亚海王星共振链的破裂机制，而无需外部扰动源。"
+  },
+  {
+   "id": "arxiv:2610.17889",
+   "title": "Size, atmospheric, and ring constraints on the large Kuiper belt object (55565) Aya from a stellar occultation",
+   "abstract": "We aim to constrain the projected size, geometric albedo, possible atmosphere, and possible ring material of the mid-sized trans-Neptunian object (55565) Aya from the stellar occultation of 2024 May 10 (UT). We observed the event from three Japanese sites with high-cadence optical imaging. We combined one positive occultation chord with an informative prior on the shadow centre derived from orbital and astrometric uncertainties, and inferred the body radius with Bayesian Markov chain Monte Carlo modelling. We constrained a possible atmosphere by fitting refraction models for pure CH$_4$, N$_2$, and CO atmospheres to multi-band light curves, and searched for ring-like extinction signatures in unbinned and binned high-time-resolution photometry. We derive an equivalent radius, i.e., the radius of the circle fitted to the projected shadow, of $r=401^{+28}_{-40}$ km for Aya, corresponding to a geometric albedo of $p_V=0.101^{+0.023}_{-0.013}$. This estimate is insensitive to the adopted ephemeris solution and is consistent with an ephemeris-independent analysis that makes no assumption about the position of the shadow centre. We obtain 3$σ$ upper limits on the atmospheric surface pressure of $p_0=60$, 90, and 80 nbar for pure CH$_4$, N$_2$, and CO compositions, respectively. No significant ring-like extinction is detected over projected distances of about 430-8060 km sampled by the three stations, and our most sensitive data exclude dense narrow features with apparent opacity $p'\\gtrsim0.1$ and radial widths of a few kilometres or larger over $\\sim3r$-$14r$. This is the first stellar occultation by Aya ever observed. In addition to constraining Aya's size and albedo and finding no ring-like extinction, we place a stringent atmospheric upper limit that supports diversity in atmospheric states among similarly sized trans-Neptunian objects.",
+   "authors": [
+    "Ko Arimatsu",
+    "Hidekazu Hanayama",
+    "Satoshi Takita",
+    "Fumi Yoshida",
+    "Tsutomu Hayamizu",
+    "Jun-ichi Watanabe"
+   ],
+   "link": "https://arxiv.org/abs/2610.17889v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过2024年5月10日的恒星掩星观测,利用日本三个地点的高时间分辨率光学成像数据,采用贝叶斯马尔可夫链蒙特卡洛方法约束了柯伊伯带天体(55565)Aya的投影半径为401+28−40 km、几何反照率为0.101+0.023−0.013。通过拟合多波段光变曲线中的折射模型和高时间分辨率光度数据分析,我们得到了大气表面压力的严格上限(甲烷、氮气和一氧化碳分别为60、90和80 nbar),并排除了在~3r-14r范围内存在明显的环状结构。这项研究首次成功观测了Aya的恒星掩星事件,揭示了类似大小的外太阳系天体在大气状态上的多样性。"
+  },
+  {
+   "id": "arxiv:2610.17811",
+   "title": "Tracing the Influence of Distant companions on Exoplanetary Systems (TIDES) I. Highly Eccentric and Misaligned Binary Companions to Hot Jupiters",
+   "abstract": "The origin of hot Jupiters remains an open question. A significant fraction reside in binary or multiple star systems, suggesting that stellar companions may play an important role in shaping their present-day architectures. However, the orbits of the vast majority of these stellar companions remain poorly constrained, leaving their role in hot Jupiter evolution an open question. We present the Tracing the Influence of Distant companions on Exoplanetary Systems (TIDES) survey, a campaign to map the orbits of stellar companions in systems hosting hot Jupiters to assess the extent to which binaries play a role in hot Jupiter formation and migration. Here, we introduce our survey design and new orbital fits for the first six systems in our sample---$τ$ Boo, WASP-2, WASP-11, WASP-76, HAT-P-14, and HAT-P-16---by combining previous observations of the stellar companions together with new Keck/NIRC2 imaging and Keck/KPIC relative radial velocities. Among these six systems, the four with the most precisely constrained orbits exhibit high eccentricities ($e \\geq 0.8$), and three of these systems also display significant planet--binary misalignments ($Δi \\geq 20^\\circ$). This suggests the orbital properties of stellar companions to hot Jupiter host stars are qualitatively different than field binaries and binaries hosting inner transiting small planets. These orbital architectures are consistent with stellar companions shaping the evolution of hot Jupiters, either through high-eccentricity migration or by participating in an earlier episode of dynamical evolution that ultimately led to hot Jupiter formation. Continued orbital monitoring of the full sample will reveal whether outer stellar companions play a causal role in the evolution of hot Jupiters.",
+   "authors": [
+    "Marvin Morgan",
+    "Jerry W. Xuan",
+    "Brendan P. Bowler",
+    "Kyle Franson",
+    "Michael C. Liu",
+    "Konstantin Batygin",
+    "Heather A. Knutson",
+    "Björn Benneke",
+    "Julianne Cronin",
+    "Luke Finnerty",
+    "Chih-Chun Hsu",
+    "Aniket Sanghi"
+   ],
+   "link": "https://arxiv.org/abs/2610.17811v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration"
+   ],
+   "summary_zh": "本研究系统测量了热木星宿主星系统中伴星的轨道参数,结合Keck/NIRC2成像和相对径向速度观测,获得了τ Boo等六个系统中伴星的精确轨道拟合。研究发现这些伴星普遍具有高离心率(e≥0.8)和显著的行星-伴星轨道失调特征(Δi≥20°),明显不同于场星二星系统,表明外层伴星可能通过高离心率迁移或早期动力学演化过程对热木星的形成和演化产生重要影响。"
+  },
+  {
+   "id": "arxiv:2610.17714",
+   "title": "Dynamically Coupled Three-dimensional Cloud-Chemistry in Rapidly Rotating Irradiated Atmospheres: an Application to the Compact White Dwarf-Brown Dwarf system ZTFJ0038+2030",
+   "abstract": "Clouds and disequilibrium chemistry shape the observable properties of substellar and planetary atmospheres, and JWST time-resolved spectroscopy now enables direct tests of their three-dimensional structures. We present an update to the 3D atmospheric framework ADAM, coupling the dynamical core to a miniature kinetic chemistry scheme (mini-chem) and a saturation-relaxation tracer cloud module. Using this framework, we investigate the atmosphere of the brown dwarf orbiting the white dwarf ZTFJ0038+2030 in a 10-hour orbit. The brown dwarf receives stellar irradiation comparable to its internal heat flux, placing the atmosphere in a regime where the circulation is characterized by a standing Matsuno--Gill wave response and equatorial superrotation. Rapid rotation confines these structures closer to the equator, producing more symmetric broadband light curves with smaller hotspot offsets than canonical hot Jupiters, in agreement with recent JWST observations of this system. Although most species are globally homogenized, rapid rotation limits global-scale horizontal mixing and allows circulation-driven vertical transport to maintain strong CO and CO$_2$ inhomogeneities in the photosphere. These chemical inhomogeneities produce asymmetric phase curves in the CO and CO$_2$ absorption bands, which could qualitatively explain the observed CO$_2$ light-curve asymmetry. When clouds are included, Na$_2$S clouds dominate the photosphere and weaken the large-scale circulation, lowering photospheric CO and CO$_2$ abundances, while MgSiO$_3$ and Fe clouds rain out at deeper levels. Because the dominant Na$_2$S clouds reside mostly above the quench region, cloud-driven convection has limited impact on the quenched abundances, which are instead regulated mainly by large-scale circulation.",
+   "authors": [
+    "Yanhong Lai",
+    "Xianyu Tan",
+    "Daphne Broski-Laing",
+    "Yifan Zhou",
+    "Sarah L. Casewell",
+    "Jenni R. French",
+    "Elspeth K. H. Lee",
+    "Joshua D. Lothringer",
+    "Vivien Parmentier",
+    "Shang-Min Tsai"
+   ],
+   "link": "https://arxiv.org/abs/2610.17714v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过耦合三维动力学、非平衡化学和云模块的ADAM框架，模拟了快速旋转白矮星-褐矮星系统ZTFJ0038+2030中褐矮星大气的结构。研究发现快速旋转通过限制大尺度混合和维持强的CO/CO₂不均一性，产生与JWST观测相符的对称光变曲线和CO₂吸收带的不对称位相曲线；Na₂S云主导光球层并削弱大尺度环流，而淬火丰度主要由环流而非云驱动对流调控。这项工作揭示了快速旋转行星大气中动力学-化学-云的耦合作用如何塑造可观测特性。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae8f2a",
+   "title": "Hydrogen and Helium Dissolution, Outgassing, and Loss in Evolving Sub-Neptune Magma Oceans: Examining Demographic Features and Radius Evolution",
+   "abstract": "Abstract Sub-Neptunes’ molten interiors are expected to accommodate large quantities of volatiles, potentially altering their radius evolution. Previous studies have examined this effect in isolation with simplified evolution modeling, often assuming idealized interior and atmospheric conditions. To address this limitation, we introduce SEAMIST, a unified evolution model for sub-Neptunes and super-Earths that self-consistently combines, for the first time, interior structure, cooling, rock/iron solidification, boil-off, photoevaporation, H/He dissolution, and atmospheric composition. SEAMIST considers both a partially soluble case, in which hydrogen partitions into the magma ocean with a fraction set by mantle-envelope boundary conditions, and a fully miscible case, in which hydrogen may fully dissolve into the magma ocean at high temperatures. We identify a novel catastrophic boil-off mechanism, triggered by a positive feedback between hydrogen outgassing and mass loss that can operate billions of years after disk dispersal. In partially soluble models, the impact of H/He dissolution on radius evolution is modest. This contrasts with previous expectations, as we find that increasing hydrogen abundance from outgassing enhances mass-loss efficiency, counterbalancing volatile replenishment from the rock/iron interior. Fully miscible hydrogen, in contrast, enhances envelope survival around low-mass stars and produces helium-dominated envelopes. Overall, at intermediate to low masses, mass–radius curves from partially soluble models match observed distributions. The fully miscible case predicts a radius peak and excess planets around low stellar masses that appear inconsistent with current observations, although it reproduces the observed radius “cliff” near 4 R ⊕ at higher masses. Our results suggest that high metallicity may explain the cliff, although alternatives cannot be ruled out.",
+   "authors": [
+    "Yao Tang",
+    "Jonathan J. Fortney",
+    "Laura K. Schaefer",
+    "Peter Gao"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae8f2a",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过开发SEAMIST综合演化模型,首次自洽耦合了亚海王星的内部结构、冷却、固化、沸腾、光蒸发和氢氦溶解过程,系统研究了岩浆海洋中气体溶解对亚海王星半径演化的影响。研究发现,在部分溶解情景下,氢氦溶解对半径演化影响有限,因为溶解引起的气体补充被增强的质量损失所抵消;而完全混溶情景则预测低质量星周围出现过多行星,与观测不符。这些结果表明亚海王星半径\"悬崖\"现象可能主要由高金属度驱动,对理解亚海王星的形成和演化具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aeaa3c",
+   "title": "Probing Planet Formation within 10 au: Dust Substructures in Extremely Compact Protoplanetary Disks",
+   "abstract": "Abstract Atacama Large Millimeter/submillimeter (ALMA) high-resolution surveys have so far focused mainly on large, bright protoplanetary disks, where substructures are routinely detected, leaving compact disks poorly characterized. Yet, the survival of millimeter emission in Class II sources implies that radial drift must have been halted by pressure traps, previously undetected due to limited angular resolution. We present ALMA Band 7 (0.9 mm) continuum observations of 11 of the smallest ( R 68 < 10 au) Class II disks in Lupus, reaching 0 . ″ 02 (2 au) resolution, the highest currently available with ALMA at this wavelength. We detect substructures in four disks, including a clear inner cavity of radius 1.6 au, and hints of substructure in three more. Two disks also host faint outer rings beyond their bright inner core. Combining these results with demographic information on Class II disks observed with ALMA, we examine how the substructure detection rate varies with disk size, restricting to disks whose diameter is resolved by at least three resolution elements. We find that nearly all disks (≳95%) larger than 30 au show substructures, compared to a still substantial ∼50% between 3 and 30 au, with the lower rate likely affected by optical depth. The planet masses required to open gaps within 5 au fall in the super-Earth to mini-Neptune regime. These results demonstrate that substructures are ubiquitous across the disk population, and that planet formation conditions can be probed down to a few astronomical units from the host star.",
+   "authors": [
+    "Pietro Curone",
+    "Gijs D. Mulders",
+    "Nienke van der Marel",
+    "Laura M. Pérez"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aeaa3c",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究使用ALMA在0.9毫米波段对11个极小型(半径<10 au)的原行星盘进行了高分辨率(0.02″)观测,在4个盘中检测到亚结构,包括半径1.6 au的内空洞,并发现亚结构检测率随盘大小而变化:大于30 au的盘几乎全部(≳95%)呈现亚结构,而3-30 au的盘约50%存在亚结构。结果表明亚结构在原行星盘中普遍存在,且开启间隙所需的行星质量落在超地球到迷你海王星范围内,这证明了行星形成条件可以探测到距主星仅几个天文单位的区域。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1951",
+   "title": "The physical and chemical structure of Titan’s upper atmosphere: energy balance, photochemistry and Jeans escape",
+   "abstract": "Abstract Titan’s upper atmospheric layers provide a unique opportunity to study how photochemistry, photoionisation, haze microphysics and escape processes shape its atmospheric chemical structure, providing a unique benchmark for understanding these processes in exoplanets. Using a 1D first-principles approach, we extend the Kompot model to simulate Titan’s upper atmosphere and investigate its thermal and chemical structure, and Jeans escape. We performed self-consistent simulations of Titan’s upper atmosphere, above the dense haze layer, over a 1D radial grid by solving the coupled hydrodynamics, thermal and photochemical kinetic, and energy balance equations. We considered heating by stellar X-ray and ultraviolet (XUV) and infrared (IR) radiation, and cooling due to radiative emission of methane (CH4) and hydrogen cyanide (HCN). We also included additional nineteen photochemical and 117 thermal reactions to Kompot’s standard chemical network. Our modelled atmospheric temperature structures lie within the observed variability of Titan’s atmospheric temperature profile. Our simulations reproduce observed nitrogen (N2) and CH4 densities in the upper atmosphere, and abundance of minor chemical species also broadly agree with observationally derived abundances. Near the exobase, our CH4 mixing ratio overlap with Cassini-Huygens results, and our model H2 mixing ratios also exhibit broad agreement with observations. Our simulations suggest no significant thermal loss of CH4, even under the conditions of an early Sun’s XUV environment.",
+   "authors": [
+    "Sudeshna Boro Saikia",
+    "Jonathan Tennyson",
+    "Shuchen Ji",
+    "Nils-Martin Robeling",
+    "Ivan Stanković",
+    "Gwenaëlle Van Looveren",
+    "Simon Schleich",
+    "Colin P Johnstone",
+    "Kristina Kislyakova",
+    "Manuel Güdel"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1951",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过扩展Kompot模型建立了泰坦上层大气的一维自洽流体动力学-热力学-光化学耦合模型,模拟了恒星XUV和红外辐射驱动的大气加热冷却、光化学反应和Jeans逃逸过程。模型成功复现了泰坦上层大气的温度结构、N₂和CH₄等主要物种的密度分布,以及HCN等微量物种的丰度,与卡西尼-惠更斯号观测结果基本一致。研究表明即使在早期太阳XUV辐射环境下,泰坦也不存在显著的CH₄热逃逸,为理解系外行星上层大气的光化学和逃逸过程提供了重要参考。"
+  }
+ ],
  "2026-10-14": [
   {
    "id": "doi:10.3847/1538-4357/aea090",
@@ -10255,25 +10709,5 @@
    "summary_zh": "本研究通过N体数值模拟调查了行星形成早期碎石吸积隔离质量的不同假设如何影响超级地球的最终轨道性质，比较了包括碎石隔离、流体隔离和迁移反馈隔离等多种模型的结果与Kepler样本。研究发现，虽然各个隔离质量模型都能匹配Kepler目录中至少一种观测分布，但都无法同时再现所有观测特征，表明当前固定的初始条件和物理过程需要进一步改进。这些结果揭示了行星系统演化机制和形成过程的多样性，有助于理解超级地球系统的多样性来源。"
   }
  ],
- "2026-08-17": [],
- "2026-08-16": [
-  {
-   "id": "doi:10.1051/0004-6361/202660768",
-   "title": "Formation of multiple dust rings and gaps in protoplanetary discs by a single migrating planet. A parameter study in locally isothermal discs",
-   "abstract": "ALMA observations reveal that large protoplanetary discs usually contain multiple concentric dust rings separated by dark gaps. A natural explanation is dust-trapping at the edges of gaps opened by newly formed planets. However, planets are known to migrate inward on timescales shorter than the typical disc lifetime, seemingly at odds with observations of rings at large radii. We wish to investigate the conditions under which migrating planets can form long-lived, multi-ringed structures out to r∼ 150, . Thus, we intend to constrain the viable parameter space for the planetary origin hypothesis of the rings. au We used the hydrodynamics code and set up two-dimensional models of locally isothermal protoplanetary discs with a single migrating planet. We varied key parameters such as the disc aspect ratio (temperature), viscous parameter (α), and planetary mass. FargoCPT In all our models, the planet eventually stalls in a deep gap. At alphałeq 10^ -4 , secondary spirals launched by the planet have the capacity to open additional gaps at smaller radii. When planets exceed twice the local thermal mass prior to the stall, they enter a regime of alternating slow and type-III rapid migration, which leaves partial gaps outside the planet's orbit. The gap edges consistently feature pressure maxima capable of dust trapping. While these start out as large-scale vortices at alphałeq 10^ -4 , they gradually smear out into ring-like structures prior to their dissipation. The 'remnant' rings left by type-III migration quickly dissipate at α=10^-3, but persist for at least 300 500, at alphałeq 10^ -- kyr -4 . Both the smear-out and dissipation timescales increase with lower α. Our results indicate that migrating planets can reproduce the observed multi-ringed structures in discs with alphałesssim 10^ -4 through their stall (rłesssim 50, ), secondary gap-opening (rłesssim 20, ), and type-III migration remnants (extending to r∼ 150, for Jupiter-mass planets in sufficiently massive discs). Longer simulations will be required to compare the statistics of ring-to-vortex occurrence to observations. au au au",
-   "authors": [
-    "S. C. Meiners",
-    "K. M. Weiskopf",
-    "T. Rometsch",
-    "C. P. Dullemond"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202660768",
-   "source": "Astronomy & Astrophysics",
-   "category": "行星形成与盘演化",
-   "matched": [
-    "protoplanetary disc"
-   ],
-   "summary_zh": "本研究通过二维局部等温盘流体动力学模拟，探究单个迁移行星如何形成多环多间隙结构，并通过改变盘厚度、粘性参数和行星质量等关键参数确定可行的参数空间。研究发现，在低粘性参数(α≲10^-4)条件下，行星停滞、次级螺旋和III型迁移留下的\"残余环\"可在大半径处(~150 au)产生长寿命的尘埃捕获结构，与ALMA观测的多环形态相符。该结果支持行星起源假说可解释原行星盘中观测到的环隙系统。"
-  }
- ]
+ "2026-08-17": []
 }
