@@ -1,4 +1,216 @@
 {
+ "2026-10-16": [
+  {
+   "id": "arxiv:2610.20735",
+   "title": "A Search for Dust in the Outflow of the HH212 Class 0 Protostellar System",
+   "abstract": "Perhaps the most visually striking phenomenon during star formation is the ejection of material along the direction of the protostar's rotational axis. Observed in the form of molecular outflows and/or atomic jets, these features carry away mass, energy and angular momentum from the system. Given the known dust content of protoplanetary disks, and the energetics of outflows, it has been suggested that it should be possible to lift dust from disks via winds, yet limited observational evidence has been presented in the literature. Any detection of dust within protostellar outflows not only puts constraints on the dust content in outflows, but if a sufficient amount of dust can be removed from the system, the mass budget for planet formation could also be affected. We present re-imaging of archival, multi-frequency dust continuum observations taken with the Atacama Large Millimeter/sub-millimeter Array (ALMA) towards the HH212 protostellar system. We detect an extension in the dust emission, and using multi-frequency data in Bands 7 and 9, we estimate the spectral index of the emitting dust and the dust mass in the wind launching region. We find a small but still significant amount of dust mass coincident with the molecular outflow cavity. This finding is assessed in relation to the hypothesis that the outflow could be capable of transporting dust away from the HH212 protoplanetary disk.",
+   "authors": [
+    "Adele L. Plunkett",
+    "Per Bjerkeli",
+    "Jon P. Ramsey",
+    "Daniel Harsono",
+    "Hannah Shoemaker"
+   ],
+   "link": "https://arxiv.org/abs/2610.20735v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过ALMA多频段尘埃连续谱观测，在HH212原恒星系统的分子外流腔中检测到尘埃辐射延伸，并利用第7和第9波段数据估计了尘埃的谱指数和风启动区的尘埃质量。研究发现外流区存在可观的尘埃质量，表明原恒星外流具有将尘埃从原行星盘中驱出的能力，这可能影响该系统的行星形成物质预算。"
+  },
+  {
+   "id": "arxiv:2610.20715",
+   "title": "Planet forming disk populations and their connection to the environment",
+   "abstract": "Existing sub-mm observatories such as ALMA have provided statistics on the planet-forming mass reservoirs within circumstellar disks around stars in stellar clusters out to distances of $\\sim$400pc. However, these disks are not where most planets form. Many stars, and hence planets, form in more massive clusters, which are only found at larger distances. Environmental conditions that affect disks - such as UV radiation field, ambient gaseous mass reservoir, and stellar density - change significantly as a function of cluster mass, implying that our current knowledge of the disk population from current facilities is severely biased. Characterising planet formation in stellar clusters towards the peak of the cluster mass function requires determining the distribution of planet forming disk masses out to $\\sim$3kpc, which encapsulates the nearby parts of the Sagittarius arm of the Milky Way and contains multiple massive stellar clusters. ALMA2040 will provide the leap in sensitivity needed to move beyond detections of only a handful of disks and robustly measure the slope and median of the disk mass distribution at these distances. This will mark the transition from studying individual detections to population-level studies of planet formation across diverse cluster environments. This has synergy with existing and upcoming measurements of accretion rates in these distant clusters, which combined provide a measure of the accretion timescale, enabling us to distinguish various evolutionary pathways and assess how they depend on cluster mass and star-forming environment.",
+   "authors": [
+    "Thomas J. Haworth",
+    "Giovanni Rosotti",
+    "Carlo Manara",
+    "Richard Alexander",
+    "Rossella Anania",
+    "Til Birnstiel",
+    "Ryan Boyden",
+    "Nicolás Cuello",
+    "Ian Czekala",
+    "Vardan Elbakyan",
+    "Stefano Facchini",
+    "Fabiola Gerosa",
+    "Aashish Gupta",
+    "Dominika Itrich",
+    "Luke Keyte",
+    "Ágnes Kóspál",
+    "Giuseppe Lodato",
+    "Enrique Macias",
+    "Luca Matra",
+    "Rebecca Nealon",
+    "Sasha Paine",
+    "Danae Polychroni",
+    "Tyger Peake",
+    "Daniel Price",
+    "Lin Qiao",
+    "Álvaro Ribas",
+    "Sarah Sadavoy",
+    "Antranik A. Sefilian",
+    "Maxime Tanious",
+    "Sierk van Terwisga",
+    "Claudia Toci",
+    "Diego Turrini",
+    "Eduard Vorobyov",
+    "Catherine Walsh",
+    "Andrew Winter",
+    "Alice S. Booth",
+    "Liton Majumdar",
+    "Jenny Frediani"
+   ],
+   "link": "https://arxiv.org/abs/2610.20715v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究旨在表征不同恒星团环境中的行星形成盘种群分布，通过推断其与团质量的关联来理解环境条件（紫外辐射、气体储量、恒星密度）对盘演化的影响。研究采用ALMA2040的增强灵敏度，将观测范围扩展至3kpc距离内的大质量恒星团，以获得统计意义上的盘质量分布（斜率和中值），超越当前仅能检测少量盘的限制。结合吸积率测量，该工作将揭示不同团质量和星形成环境下行星形成的多样演化途径及其物理机制。"
+  },
+  {
+   "id": "arxiv:2610.20059",
+   "title": "HD 152384: A 5 Myr old debris disk system showing a gaseous ring of refractory elements at the dust sublimation radius",
+   "abstract": "Context: Circumstellar gas around young stars provides key insights into planet formation and disk evolution. HD 152384, a young (5 Myr) A0 V star in Sco-Cen, shows hybrid-disk traits: a modest infrared excess from small dust grains and atomic emission lines dominated by refractory elements, but its disk structure and origin remain unclear. Aims: We characterise the kinematics and excitation of the circumstellar gas around HD 152384 and constrain the physical properties of its emitting region. Methods: We use new high-resolution optical and near-infrared VLT/UVES and VLT/CRIRES spectra to re-examine the circumstellar environment of HD 152384, previously suggested to host a broad, gas-rich disk. Results: The observations reveal 74 narrow, double-peaked emission lines of Fe, Mg, Si, and Ca, with similar profiles and a 103 km/s peak separation. Keplerian modelling places the gas in a geometrically thin ring at 0.09-0.12 au, close to the dust sublimation radius (0.10-0.14 au for a sublimation temperature of about 1500 K). The Fe I emission is optically thick, whereas the optically thin Mg I lines imply 2.2 x 10^22 kg (3.6 x 10^-3 Earth masses) of magnesium gas in the ring. Conclusions: The dust and gas properties are consistent with a secondary origin involving collisions of rocky planetesimals. We propose that small collision-produced dust grains spiral inward and sublimate near the dust sublimation radius, accumulating atomic gas there. HD 152384 thus represents a young analogue of gas-bearing debris disks such as Beta Pictoris and gaseous debris disks around metal-polluted white dwarfs, offering a new window on the early violent processing of rocky planetesimals.",
+   "authors": [
+    "Mario van den Ancker",
+    "Daniela Iglesias",
+    "Olja Panić",
+    "Monika Petr-Gotzens",
+    "Miguel Vioque"
+   ],
+   "link": "https://arxiv.org/abs/2610.20059v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "disk evolution",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过VLT高分辨率光谱观测HD 152384（5 Myr年轻A型星）的环星气体，利用Keplerian运动学模型揭示了74条窄双峰发射线来自距星0.09-0.12 au处的几何薄气环，该位置恰好对应尘埃升华半径。通过光学厚度分析和金属丰度测量，研究表明该系统的气体和尘埃来自岩质行星小体碰撞产生，碰撞尘埃向内螺旋运动至升华半径处积聚，为理解早期行星体内的暴力动力学过程提供了新的观测窗口。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9f44",
+   "title": "Extremely Low Mass Ratio Contact Binaries. III. Photometric and Spectroscopic Investigations of 11 Systems",
+   "abstract": "Abstract We present photometric and spectroscopic investigations of 11 totally eclipsing contact binaries with mass ratios below 0.15, classifying them as extremely low mass ratio contact binaries. The ground-based multiband light curves were modeled with PHysics Of Eclipsing BinariEs to derive the photometric parameters of these systems. The Transiting Exoplanet Survey Satellite (TESS) light curves of J011323 and J002747 show pronounced asymmetries and continuous variations. Markov Chain Monte Carlo modeling suggests that these variations are related to longitudinal migration of spots on the primary components. Spectral subtraction of the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST) spectra reveals excess chromospheric emission in six systems, while no detectable excess emission is found in the other five. The O − C analysis indicates secular period increases in six systems and secular decreases in five systems. We estimated their orbital angular momenta and performed a dynamical analysis. Within our adopted semianalytical framework without energy transfer, the formation of these observed systems requires additional angular momentum loss beyond saturated magnetic braking and gravitational radiation, but this requirement could be modified by different assumptions on mass transfer or radius evolution.",
+   "authors": [
+    "Youmo Lai",
+    "Kai Li",
+    "Raul Michel",
+    "Difu Guo",
+    "Liheng Wang",
+    "Xiang Gao",
+    "Han-ning Zhang",
+    "Xing Gao",
+    "Guo-You Sun"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9f44",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过多波段地基光度观测和LAMOST光谱数据对11个极低质量比接触双星系统进行了详细调查，利用PHysics Of Eclipsing BinariEs程序模型化光变曲线以获取光度参数，并通过TESS高精度数据揭示了主星表面黑子的经度迁移现象。O-C分析和轨道动力学计算表明这些系统的轨道周期呈现长期增加或减少的趋势，其形成机制需要超过饱和磁制动和引力辐射的额外角动量损失过程。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aea6a6",
+   "title": "Mapping Molecular Ion Distributions in a Diverse Sample of Protoplanetary Disks",
+   "abstract": "Abstract Observations of ionization-tracing molecules in protoplanetary disks suggest that their ionization environments are diverse due to varying degrees of cosmic-ray modulation, stellar activity, and environmental differences that alter the impact of ionizing radiation. To better understand ionization chemistry in disks, we present the largest survey of resolved observations of molecular ions to date. Using new and archival Atacama Large Millimeter/submillimeter Array observations we detect HCO + , H 13 CO + , N 2 H + , and DCO + toward seven protoplanetary disks (AS 209, DM Tau, GM Aur, HD 163296, LkCa 15, MWC 480, and V4046 Sgr). We compare distributions of ions to continuum features and find no robust relationships between the two. The observations do, however, reveal distinctions between Herbigs and T Tauris and hint at a dichotomy between two types of T Tauri ionization environments. The Herbig sources exhibit unique centrally peaked N 2 H + J = 4−3 emission, which we speculate could be tracing either a highly ionized surface layer or a zone of CO destruction, possibly due to their strong UV fields. Three T Tauri sources in our sample exhibit bright, radially coincident rings in all optically thin molecular ion lines. We speculate that these radially coincident ion rings are evidence of a global change in ionization, possibly at the edge of a “T Tauriosphere.” While it is not yet clear what factors most strongly influence the distribution of ion emission, this survey more than doubles the number of resolved ion observations in disks and points to potential distinctions in ion emission morphology related to the central star and environment.",
+   "authors": [
+    "Deryl E. Long",
+    "L. Ilsedore Cleeves",
+    "Charles J. Law",
+    "Fred C. Adams",
+    "Dana E. Anderson",
+    "Sean M. Andrews",
+    "Edwin A. Bergin",
+    "Jane Huang",
+    "A. Meredith Hughes",
+    "Chunhua Qi",
+    "Kamber R. Schwarz",
+    "Jacob B. Simon",
+    "David Wilner"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aea6a6",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过ALMA对7个原行星盘进行了迄今最大规模的分子离子分辨观测调查,检测了HCO+、H13CO+、N2H+和DCO+的分布情况。研究发现分子离子分布与连续谱特征无明显相关性,但揭示了Herbig星与T Tauri星之间的显著差异,包括Herbig源独特的中心峰N2H+发射和部分T Tauri源存在径向一致的离子环结构。这些观测结果表明,原行星盘的电离环境受中心星性质和环境因素的强烈影响,可能存在不同的电离机制。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae9e27",
+   "title": "Dynamical Tides during High-eccentricity Migration Produce the Hot-Jupiter Pileup, Neptune Ridge, and Neptune Desert",
+   "abstract": "Abstract The period distribution of hot gaseous exoplanets depends strongly on mass. Clustering between the orbital periods of ∼3 to ∼5–6 days is seen for sub-Saturns (“Neptune ridge”) and Jovians (“hot-Jupiter pileup”), contrasting with a sharp deficit interior to 3 days for sub-Saturns, not seen for Jovians (“Neptune desert”). During high-eccentricity migration, tidally excited fundamental-modes ( f -modes) act as a reservoir for orbital energy, and can take gaseous planets formed beyond several astronomical units and place them at short separations. However, how f -modes relinquish their energy into the planet interior is unknown. Here, we show how f -modes can not only circularize orbits—causing clustering near the Neptune ridge and hot-Jupiter pileup—but can also shock and unbind mass, leaving sub-Saturn cores in the Neptune desert. Our hydrodynamical simulations demonstrate that close approaches tidally excite f -modes, whose supersonic velocities shock gaseous envelopes. Atmospheres cool by radiative diffusion or winds when shocks penetrate shallow versus deep depths. Planetary structural and orbital evolution is followed over many periastron passages using an iterative map: shocks that diffusively cool circularize and bunch orbits near the hot-Jupiter pileup and Neptune ridge, while shocks that drive outflows unbind envelopes and place gas-giant cores in the Neptune desert. Sub-Saturns that dwell in the desert are predicted to arrive with large spin–orbit misalignments after producing luminous flares.",
+   "authors": [
+    "J. J. Zanazzi",
+    "Morgan MacLeod",
+    "Marta L. Bryan",
+    "Suvrath Mahadevan"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae9e27",
+   "source": "The Astrophysical Journal",
+   "category": "散射与动力学演化",
+   "matched": [
+    "high-eccentricity migration",
+    "high eccentricity migration",
+    "spin-orbit misalignment"
+   ],
+   "summary_zh": "本研究探究高偏心率迁移过程中动力潮汐对热木星轨道分布的影响机制。通过三维流体动力学模拟，展示了潮汐激发的基本模式（f-modes）如何通过激发行星大气中的超声速冲击，在不同冷却条件下产生不同结果：扩散冷却导致轨道圆化并聚集在热木星堆积和海王星岭附近，而风驱动的外流则剥离大气使行星核心停留在海王星沙漠区。该机制统一解释了不同行星质量间的周期分布差异，并预言沙漠中的亚土星应具有大的自转轨道倾角并产生明亮耀斑。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aea69e",
+   "title": "Data-driven Modeling of Telluric Features and Stellar Variability with StellarSpectraObservationFitting.jl",
+   "abstract": "Abstract A significant barrier to achieving the radial velocity (RV) measurement accuracy and precision required to characterize terrestrial mass exoplanets is the existence of time-variable features in the measured spectra, from both telluric absorption and stellar variability, which affect measured line shapes and can cause apparent RV shifts. Reaching submillisecond accuracy using traditional techniques often requires avoiding lines contaminated by stellar variability and/or changing tellurics, and thus discarding a large fraction of the spectrum, lowering precision. New data-driven methods can help achieve extremely precise and accurate RVs by enabling the use of a larger fraction of the available data. While there exist methods for modeling telluric features or the stellar variability individually, there is a need for additional tools that are capable of modeling them simultaneously at the spectral level. Here, we present StellarSpectraObservationFitting.jl ( SSOF ), a Julia package for measuring Doppler shifts and creating data-driven models (with fast, physically motivated Gaussian Process regularization) for the time-variable spectral features for both the telluric transmission and stellar spectrum, while accounting for the wavelength-dependent instrumental line spread function. We demonstrate SSOF ’s state-of-the-art performance on data from the NEID spectrometer on the WIYN 3.5 m Telescope for multiple stars. We show SSOF ’s ability to accurately identify and characterize spectral variability, provide ∼2–6× smaller photon-limited errors over the NEID CCF-based pipeline, and match the performance of SERVAL , a leading template-based pipeline, using only observed EPRV spectra.",
+   "authors": [
+    "Christian Gilbertson",
+    "Eric B. Ford",
+    "Samuel Halverson",
+    "Evan Fitzmaurice",
+    "Cullen H. Blake",
+    "Gumundur Stefánsson",
+    "Suvrath Mahadevan",
+    "Jason T. Wright",
+    "Jacob K. Luhn",
+    "Joe P. Ninan",
+    "Paul Robertson",
+    "Arpita Roy",
+    "Christian Schwab",
+    "Ryan C. Terrien"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aea69e",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究开发了StellarSpectraObservationFitting.jl软件包，通过数据驱动方法同时建模恒星光谱中的遥测特征和恒星变率，采用高斯过程正则化在光谱级别联合拟合时变特征，从而能够利用更大比例的可用光谱数据。在NEID分光器数据上的验证表明，该方法相比基于CCF的传统流程可降低2-6倍的光子噪声误差，达到亚毫秒级的径向速度精度，有效支持类地系外行星的探测。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag1945",
+   "title": "Spectroscopy of TESS selected hot variable stars",
+   "abstract": "Abstract We report spectral types for over 300 stars selected as candidate hot subdwarf stars and shown to be variable by data from the Terrestrial Exoplanet Survey Satellite (TESS). Atmospheric parameters determined from low dispersion spectrograms are provided for many of the targets. In our sample, we find 164 sdB stars, 77 sdB binaries, 21 cataclysmic variables, and small numbers of main sequence, white dwarf, sdO, sdOB and intermediate helium rich subdwarf stars. Several stars appear rather peculiar and are discussed in more detail; TIC 360220395, for example, appears to be an old planetary nebula nucleus.",
+   "authors": [
+    "H L Worters",
+    "D Kilkenny",
+    "P Németh",
+    "A S Baran",
+    "R H Østensen"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag1945",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过TESS卫星数据筛选了300余颗热变星候选体，利用低色散分光法测定其光谱类型和大气参数。样本中包含164颗sdB星、77颗sdB双星、21颗激变变星等，其中TIC 360220395等特殊天体可能是老行星星云核。这一谱学巡查为研究紧密双星系统、白矮星冷却过程及相关行星动力学环境提供了重要的恒星参数基础。"
+  }
+ ],
  "2026-10-15": [
   {
    "id": "arxiv:2610.19865",
@@ -10708,6 +10920,5 @@
    ],
    "summary_zh": "本研究通过N体数值模拟调查了行星形成早期碎石吸积隔离质量的不同假设如何影响超级地球的最终轨道性质，比较了包括碎石隔离、流体隔离和迁移反馈隔离等多种模型的结果与Kepler样本。研究发现，虽然各个隔离质量模型都能匹配Kepler目录中至少一种观测分布，但都无法同时再现所有观测特征，表明当前固定的初始条件和物理过程需要进一步改进。这些结果揭示了行星系统演化机制和形成过程的多样性，有助于理解超级地球系统的多样性来源。"
   }
- ],
- "2026-08-17": []
+ ]
 }
