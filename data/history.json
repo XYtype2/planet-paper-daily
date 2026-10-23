@@ -1,4 +1,415 @@
 {
+ "2026-10-23": [
+  {
+   "id": "arxiv:2610.31006",
+   "title": "Searching for substellar companion candidates with Gaia. V. M dwarfs within 15 pc studied with absolute astrometry, radial velocities, and direct imaging",
+   "abstract": "In this work, we survey M-type stars within 15 pc observed by Gaia based on their colour, magnitude, and quality of astrometric data. We aim to detect new substellar companions using primarily Gaia astrometry and, when available, proper-motion anomaly (PMa) along with radial velocity (RV) and direct imaging (DI) data. We used the GaiaPMEX tool to search for bound companions around 582 M dwarfs. We identified all previously known stellar and planetary companions that were consistent with the Gaia excess signal. Then for all newly identified companions, we computed detection limits in the (mass, semi-major axis) parameter space using archival RV and DI data, to possibly rule out the presence of a stellar companion. The joint analysis of the parameter space allowed by astrometry and constrained by RV and DI provides tight constraints on the nature of the companion. We found 156 M dwarfs to have a bound companion within the Gaia sensitivity domain. The astrometric signals of 37 and seven of them are due to known stellar and substellar companions, respectively. We report 35 new substellar companions among which at least ten giant planets orbiting between 0.2 au and 2 au, with masses close to 1 M_Jup. We also report 77 substellar candidates, and provide detection limits using astrometry+RV+DI for 50 stars with known exoplanets and no significant Gaia excess noise. This work reveals a significant population of new substellar companions to M-type stars, challenging core accretion models. These results will be crucial inputs for estimating occurrence rates and studying the architecture of planetary systems around M dwarfs. Some new companions presented here, located beyond the water ice line, are prime targets for DI or coronagraphy observations with JWST or ELT.",
+   "authors": [
+    "F. Destriez",
+    "A. -M. Lagrange",
+    "G. Hébrard",
+    "F. Kiefer",
+    "P. Rubini",
+    "E. Lefevre-Forjan",
+    "F. Arenou",
+    "N. T. Lam",
+    "E. Bogat",
+    "J. Girard",
+    "R. Jensen-Clem",
+    "M. Salama",
+    "N. Skaf"
+   ],
+   "link": "https://arxiv.org/abs/2610.31006v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging",
+    "radial velocity",
+    "astrometry",
+    "astrometric",
+    "occurrence rate"
+   ],
+   "summary_zh": "本研究通过盖亚绝对天体测量、径向速度和直接成像联合分析,对15 pc内582颗M型矮星进行了系统巡天,利用自行异常信号和多波段数据约束搜索亚恒星伴星。研究确认了37颗已知恒星伴星和7颗已知亚恒星伴星,新发现35颗亚恒星伴星(其中至少10颗木星质量行星轨道在0.2-2 au)和77颗伴星候选体,显著扩展了M型矮星周围行星系统的已知种群。这些结果对理解行星形成机制、估算行星发生率以及研究M型矮星周围系统的构型具有重要意义。"
+  },
+  {
+   "id": "arxiv:2610.30871",
+   "title": "Uncertainty estimation of incoming comet trajectories with a thermophysical non-gravitational force model for Comet Interceptor encounter planning",
+   "abstract": "The European Space Agency Comet Interceptor mission is designed to fly-by an as-yet undetermined incoming long-period or dynamically-new comet, which will require an accurate prediction of its trajectory. Cometary orbits are perturbed from purely gravitational trajectories by non-gravitational accelerations (NGAs) stemming from their outgassing, however, and these must be taken into account in the navigation. We here test the ability of ground-based astrometry and standard NGA-fitting techniques to predict the position and velocity of incoming comets perturbed by a Monte Carlo sampled thermophysical acceleration model. We find that, due to the difficulties of predicting NGA evolution as well as the limitations of reasonably simulated astrometry, predicted accuracies are unlikely to meet the mission goals of 1000 km and 1 m s$^{-1}$ in position and velocity, sixty days before intercept. We instead recommend expanded uncertainties of $10,000$ km and several m s$^{-1}$. Our NGA fits struggle to reproduce the reference accelerations and trajectories when outgassing is rising steeply at a few AU-incoming, but with more observations up until perihelion, do eventually converge, leading to good estimates of many of the underlying acceleration parameters even for half an orbital arc.",
+   "authors": [
+    "Nicholas Attree",
+    "Pieter de Boer",
+    "Pedro Gutiérrez",
+    "Pedro Lacerda",
+    "Michael Küppers",
+    "Dominic Dirkx"
+   ],
+   "link": "https://arxiv.org/abs/2610.30871v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究通过蒙特卡罗采样的热物理非引力加速度模型，测试了地基天体测量和标准非引力加速度拟合技术在预测受彗星放气扰动的近日彗星轨迹中的能力。研究发现，由于非引力加速度演化难以预测且天体测量观测存在限制，现有方法难以满足Comet Interceptor任务在撞击前60天内位置和速度精度分别达到1000 km和1 m/s的要求。建议将轨迹不确定度扩大至10,000 km和数个m/s，同时指出更多观测数据（特别是近日点附近的观测）能显著改善非引力加速度参数的反演精度。"
+  },
+  {
+   "id": "arxiv:2610.30806",
+   "title": "Astrometric detection of rocky exoplanets from inexpensive space platforms",
+   "abstract": "The detection of orbiting exoplanets by way of astrometric monitoring of the host star to reveal gravitationally induced reflex motion requires extreme precision and measurement stability when targeting Earth-mass objects. Despite this, astrometry is widely regarded as the most promising avenue for the most desired of all targets: true Earth analogue systems in the solar neighbourhood. Formerly thought to require flagship class investment, recently several smaller concepts such as the TOLIMAN and SHERA missions have shown that detections are possible, at least in principle, from more modest space platforms. A key enabling feature is that these missions exploit narrow-angle astrometry. Observing only multiple star systems where the target provides its own astrometric reference greatly alleviates the challenges confronted by traditional astrometry with its reliance on distant, faint field stars. This principle underlies the TOLIMAN mission, for which progress and status is reported. However, only a tiny handful of nearby star systems are suited to such a TOLIMAN-like architecture. This paper discusses speculative optical concepts featuring ultra-stable telescopes of modest (<0.5m) aperture designed for astrometric monitoring of isolated single stars at the micro-arcsecond scales required for the discovery of Earth mass objects orbiting sun-like stars in temperate orbits. In simulation, highly sought-after neighbourhood systems such as Epsilon Eridani and Tau Ceti can be exhaustively searched for rocky planets with dedicated observing campaigns spanning several years, all from relatively inexpensive orbital platforms.",
+   "authors": [
+    "Peter G. Tuthill",
+    "George Ayad",
+    "Donald G. Dansereau",
+    "Thomas Holland",
+    "Connor J. Langford",
+    "Milo Langker",
+    "Kieran Larkin",
+    "Grace Piroscia",
+    "J. Gordon Robertson",
+    "Karel Valenta",
+    "Tim White",
+    "Asen Christov",
+    "Kyran Grattan",
+    "Sergey Karpov",
+    "Rico Landman",
+    "Pavel Ripka",
+    "Petr Schovánek",
+    "Jeffrey Smith",
+    "Frans Snik",
+    "Simon P. Worden",
+    "Ondřej Zelenka"
+   ],
+   "link": "https://arxiv.org/abs/2610.30806v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究探讨了利用低成本空间平台通过星体位置测量法(窄角测量)检测类地系外行星的可行性,针对邻近恒星系统的微角秒级精度测量需求。研究采用模拟方法,对TOLIMAN等小型任务架构进行评估,并提出了搭载超稳定小孔径望远镜(<0.5m)的光学概念设计。结果表明,在数年的专项观测中,即使使用相对廉价的轨道平台,也能够有效搜索Epsilon Eridani和Tau Ceti等邻近恒星周围宜居轨道上的类地行星。"
+  },
+  {
+   "id": "arxiv:2610.30594",
+   "title": "Detection of Solar-like Oscillations and Granulation at Infrared Wavelengths using JWST",
+   "abstract": "Stellar oscillations and granulation are key probes of stellar convection, one of the most poorly understood processes in stars. Stellar models predict strong wavelength dependence of the amplitudes of oscillations and granulation, but hitherto both processes have only been measured at optical wavelengths. Here we present the first detection of oscillations and granulation at infrared wavelengths, using JWST time-series observations of the F6V main-sequence star WASP-121 that were obtained to study the atmosphere of an exoplanet. We find that the amplitudes of oscillations and granulation decrease with wavelength, consistent with expectations, but with a functional form that deviates from simple blackbody scaling. The detection opens the door to detailed tests of 3D convection models, facilitates the combined modeling of stellar and exoplanet signals in JWST passbands for exoplanet observations, and supports the predicted asteroseismic yields from the infrared time-domain data that will soon be obtained by the Roman Space Telescope.",
+   "authors": [
+    "Angharad Weeks",
+    "Daniel Huber",
+    "Timothy R. Bedding",
+    "Jared Splinter",
+    "Hans Kjeldsen",
+    "Yaguang Li",
+    "Courtney Crawford",
+    "Daniel Hey",
+    "David Lafreniere",
+    "Louis-Phillipe Coulombe",
+    "Nicolas Cowan"
+   ],
+   "link": "https://arxiv.org/abs/2610.30594v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用JWST对主序星WASP-121的红外时间序列观测,首次在红外波段探测到恒星振荡和肉眼可见的太阳粒状结构,发现这两种现象的振幅随波长减小且偏离简单黑体辐射标度。该工作为三维对流模型提供了精确约束,改进了JWST系外行星大气观测中恒星和行星信号的联合建模方法,并为Roman太空望远镜的红外测时观测提供了小行星震学预测支持。"
+  },
+  {
+   "id": "arxiv:2610.30578",
+   "title": "Deep-Learning Identification and Global Characterization of Energetic O2+ Beams at Mars",
+   "abstract": "Martian ionospheric ions can be accelerated away from Mars by the solar wind, contributing substantially to atmospheric ion escape. Here, we develop a U-Net-based image segmentation model to identify a distinct population of escaping planetary ions, energetic O2+ beams, from a decade of Mars Atmosphere and Volatile EvolutioN (MAVEN) observations and perform an event-based statistical analysis of their global properties and dependence on external conditions. We find that O2+ beams are widely distributed throughout the Martian plasma environment, with a strong preference for the +E hemisphere, where the solar wind convective electric field points away from Mars. This pronounced spatial asymmetry indicates that the convective electric field plays a major role in beam formation. In the solar wind and magnetosheath, these beams are consistent with the plume. Their occurrence-weighted flux agrees with previous long-term plume estimates, whereas the flux during identified beam intervals is substantially higher. This highlights the advantage of our event-based approach in capturing the intrinsic properties of O2+ plumes. In the induced magnetotail, beam formation remains strongly associated with the convective electric field, while the Hall electric field can provide additional energization. The beam properties are primarily controlled by upstream solar wind conditions, with no apparent influence from solar extreme ultraviolet irradiance. These results might improve our understanding of ion escape at Mars. More broadly, we also demonstrate the potential of deep learning for identifying transient plasma populations from spacecraft observations.",
+   "authors": [
+    "Chi Zhang",
+    "Chuanfei Dong",
+    "Kathleen G. Hanley",
+    "Yaxue Dong",
+    "Hans Nilsson",
+    "Eduard Dubinin",
+    "Jasper Halekas",
+    "Janet Luhmann",
+    "Shannon Curry",
+    "Jiawei Gao",
+    "Yilan Qin",
+    "Xinmin Li",
+    "Hongyang Zhou",
+    "Liang Wang"
+   ],
+   "link": "https://arxiv.org/abs/2610.30578v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用U-Net深度学习模型从MAVEN十年观测数据中识别火星高能O2+离子束，通过事件统计分析揭示其全球分布特征和环境依赖性。研究发现O2+束主要分布在+E半球，其形成和能量化主要由太阳风对流电场和霍尔电场控制，与上游太阳风条件密切相关，而与太阳极紫外辐照无关。该研究不仅有助于理解火星离子逃逸过程，还展示了深度学习在识别航天器观测中瞬变等离子体群的潜力。"
+  },
+  {
+   "id": "arxiv:2610.30494",
+   "title": "Ellipsoidal Modeling Framework for TNOs: the triaxial shape of (50000) Quaoar and its implications for Weywot and the dynamical environment",
+   "abstract": "The three-dimensional shapes of Trans-Neptunian Objects (TNOs) are notoriously difficult to determine due to their slow orbital motion and minimal variations in aspect angle over human timescales. To overcome this geometric degeneracy, we developed a versatile modeling framework capable of deriving ellipsoidal shapes by simultaneously combining stellar occultations and rotational light curves, including parameterizations of localized surface albedo. We applied this methodology to the large TNO (50000) Quaoar, jointly modeling 37 stellar occultation events and two photometric datasets. Our MCMC analysis demonstrates that Quaoar is best represented by a triaxial shape with equatorial semi-axes $a = 620.7^{+3.3}_{-2.8}$ km and $b = 546.5^{+6.0}_{-5.6}$ km, and a polar semi-axis $c = 511.5^{+5.3}_{-5.5}$ km, yielding a bulk density of $1.663 \\pm 0.127$ g cm$^{-3}$. By isolating Quaoar's barycentric motion from the astrometric offsets, we determined the mass of its satellite, Weywot, to be $(1.485 \\pm 0.360) \\times 10^{18}$ kg, corresponding to a system mass ratio of $q = 0.0012 \\pm 0.0003$ and a satellite bulk density of $0.95 \\pm 0.60$ g cm$^{-3}$. Furthermore, dynamical simulations using the derived triaxial gravitational field reveal that potential additional satellites can only maintain stable orbits beyond 2.4 Quaoar radii, as inner bodies would be strongly perturbed. Regarding the ring system, particles at the location of the secondary ring (Q2R) location exhibit libration associated with the 5:7 spin-orbit resonance (SOR). Similarly, particles at the location of the main ring (Q1R) location show libration of the 2:6 SOR angle for orbital eccentricities larger than 0.2, providing a plausible mechanism for the azimuthal width variations observed in Q1R.",
+   "authors": [
+    "Giuliano Margoti",
+    "Felipe Braga Ribas",
+    "Eros Gradovski",
+    "Gustavo Madeira",
+    "Chrystian L. Pereira",
+    "Jose L. Ortiz",
+    "Bruno Sicardy"
+   ],
+   "link": "https://arxiv.org/abs/2610.30494v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "本研究通过联合恒星掩食事件和旋转光变曲线数据，开发了一套通用的椭球体建模框架，克服了TNO三维形状测定的几何简并问题。我们将该方法应用于大型TNO Quaoar，确定其为三轴椭球体(a=620.7 km, b=546.5 km, c=511.5 km)，体密度为1.663 g cm⁻³，并进而精确测定其卫星Weywot的质量和密度。动力学模拟表明Quaoar的三轴引力场严格限制了潜在卫星的稳定轨道范围，同时揭示了其环系统中的自旋-轨道共振机制对环结构的调控作用。"
+  },
+  {
+   "id": "arxiv:2610.30372",
+   "title": "The Pandora SmallSat: post-launch operations and mission update",
+   "abstract": "The Pandora SmallSat is a NASA flight project designed to study the atmospheres of exoplanets. Transmission spectroscopy of transiting exoplanets provides our best opportunity to identify the makeup of planetary atmospheres in the coming decade, and is a key science driver for HST and JWST. Stellar photospheric inhomogeneity due to star spots, however, has been shown to contaminate the observed spectra in these high-precision measurements. Pandora will address the problem of stellar contamination by collecting long-duration photometric observations sampled over a stellar rotation period with a visible-light channel and simultaneous spectra with a near-IR channel. These simultaneous multiwavelength observations will constrain star spot covering fractions of exoplanet host stars, enabling star and planet signals to be disentangled in transmission spectra to then reliably determine exoplanet atmosphere compositions. Pandora will observe exoplanets with sizes ranging from Earth-size to Jupiter-size and host stars spanning mid-K to late-M spectral types. Pandora was selected in early 2021 as part of NASA's inaugural Astrophysics Pioneers Program. Herein, we present an overview of the mission, including the science objectives, operations, the observatory, science planning, and upcoming milestones as we prepare for launch readiness in 2025.",
+   "authors": [
+    "Trevor O. Foote",
+    "Elisa V. Quintana",
+    "Jessie L. Dotson",
+    "Knicole D. Colón",
+    "Thomas Barclay",
+    "Pete Supsinskas",
+    "Jordan Karburn",
+    "Dániel Apai",
+    "Christina Hedges",
+    "Benjamin V. Rackham",
+    "Jason F. Rowe",
+    "David Ciardi",
+    "Emily A. Gilbert",
+    "Natalie H. Allen",
+    "Jessie Christiansen",
+    "Néstor Espinoza",
+    "Nguyen Fuda",
+    "Aylin Garcia Soto",
+    "Thomas P. Greene",
+    "Kelsey Hoffman",
+    "Rae Holcomb",
+    "Benjamin J. Hord",
+    "Aishwarya R. Iyer",
+    "Aurora Y. Kesseli",
+    "Veselin B. Kostov",
+    "Nikole K. Lewis",
+    "Sarah E. Logsdon",
+    "Andrew W. Mann",
+    "Megan Mansfield",
+    "James Mason",
+    "Peter McGill",
+    "Julie Moquin",
+    "Brett M. Morris",
+    "Gregory Mosby",
+    "Susan E. Mullally",
+    "Elisabeth R. Newton",
+    "Joe P. Renaud",
+    "Yoav Rotman",
+    "Suman Saha",
+    "Joshua E. Schlieder",
+    "Luis Welbanks",
+    "Lindsey S. Wiser",
+    "Allison Youngblood",
+    "Robert T. Zellem"
+   ],
+   "link": "https://arxiv.org/abs/2610.30372v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "transmission spectr"
+   ],
+   "summary_zh": "Pandora SmallSat通过在可见光和近红外波段同时进行长期测光观测,以约束系外行星宿主星的星斑覆盖率,从而解决恒星光球不均一性对凌星光谱的污染问题。该方法使研究人员能够将恒星信号与行星信号解耦,可靠地确定系外行星大气成分。该任务计划于2025年发射,将观测Earth到Jupiter尺度的系外行星及其K到M型宿主星,为未来十年的系外行星大气探测奠定基础。"
+  },
+  {
+   "id": "arxiv:2610.30310",
+   "title": "OGLE-2012-BLG-0563: Relative Proper Motion Constraint from Keck Follow-up finds the correct Lens",
+   "abstract": "We present Keck/NIRC2 adaptive optics imaging results of planetary microlensing event OGLE-2012-BLG-0563. We find that the OGLE-2012-BLG-0563L planetary system consists of a 1.12 +/- 0.09 Jupiter-mass planet orbiting a 0.81 +/- 0.04 solar-mass host star at a distance of 5.49 +/- 0.56 kpc from the Sun. This event has a lens-source separation of 23.28 +/- 0.48 mas, which is the smallest lens-source separation measured to date with Keck AO data. We find that the incorrect solution - which identifies the Northeast (NE) star as the source star - is favored if one only considers the discovery paper, the Fukui et al. (2015) solution, or an unconstrained model. However, by performing an image-constrained light curve model fit using the relative proper motion direction constraint from the Keck follow-up data, we demonstrate that the correct solution identifies the NE star as the lens star. The discrepancy in the unconstrained models is driven by systematics in the FTS and MOA B & C data, alongside the impact of the relative proper motion direction constraints. This outcome offers two important lessons for future Roman data analysis: (1) thoroughly verify systematics across all passbands and identify the precise origin of chi-squared differences, and (2) utilize image-constrained light curve modeling incorporating relative proper motion direction constraints to identify the correct lens.",
+   "authors": [
+    "Aparna Bhattacharya",
+    "David P. Bennett",
+    "Jean Phillippe Beaulieu",
+    "Ian A. Bond",
+    "Kansuke Nunota",
+    "Jessica R. Lu",
+    "Joshua W. Blackman",
+    "Andrew A. Cole",
+    "Akihiko Fukui",
+    "Jean Baptiste Marquette",
+    "Clement Ranc",
+    "Natalia Rektsini",
+    "Sean K Terry",
+    "Aikaterini Vandorou"
+   ],
+   "link": "https://arxiv.org/abs/2610.30310v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过Keck自适应光学成像观测微引力透镜事件OGLE-2012-BLG-0563，利用相对自行方向约束条件进行图像约束的光曲线模型拟合，确定了该行星系统的正确透镜星身份。研究发现该系统由质量约1.12倍木星质量的行星围绕0.81倍太阳质量的主星公转，距离太阳5.49 kpc，透镜-源分离为23.28 mas，这是Keck AO观测中最小的分离。研究揭示了多波段数据中的系统误差对光曲线模型的影响，强调了在未来罗曼望远镜数据分析中需要充分验证系统误差并结合相对自行约束来识别正确的引力透镜。"
+  },
+  {
+   "id": "arxiv:2610.30243",
+   "title": "The coupled impacts of atmospheric dynamics and cloud microphysics on hot Jupiter atmospheres. I. An application to WASP-43b",
+   "abstract": "Understanding the influence of cloud-circulation feedback on planetary climates is crucial to interpreting solar system and extrasolar planet observations. Hot Jupiter phase curve observations have reported westward optical phase curve offsets and weak absorption features, which may be explained by the presence of clouds. JWST observations have also revealed tentative silicate cloud absorption features in emission and transmission spectroscopy. While a number of 3D atmospheric dynamics models of hot Jupiters and microphysical models describing cloud formation exist, few combine these two approaches. To help elucidate the impact of clouds on hot Jupiters, we introduce a post-processing scheme with the 3D GCM ADAM with SPARC (formerly SPARC/MITgcm), the 1D microphysical cloud model CARMA, and the radiative transfer code PICASO. We first simulate the cloud-free atmosphere of WASP-43b with ADAM, then incorporate resulting thermal profiles into CARMA to simulate WASP-43b's cloud structure, and finally generate phase-dependent emission spectra from our results with PICASO. By comparing to JWST observations, we infer that WASP-43b has a cloudy nightside, a mostly clear morning and evening limb with patchy clouds, and a clear dayside at the level of the photosphere. Our microphysical model predicts the condensation of five cloud species, including silicates, but overestimates the cloud opacity at all phases compared to observations, requiring additional modeling to explain. The results from this post-processing setup are promising for more meaningful characterization of WASP-43b's atmosphere, and will serve as a comparison baseline for our upcoming indirect coupling of both models, as well as for other future studies.",
+   "authors": [
+    "Emeline F. Fromont",
+    "Thaddeus D. Komacek",
+    "Peter Gao",
+    "Hayley Q. Beltz",
+    "Sarah E. Moran",
+    "Arjun B. Savel",
+    "Julia Cottingham",
+    "Isaac Malsky",
+    "Diana Powell",
+    "Xianyu Tan",
+    "Eliza M. -R. Kempton",
+    "Vivien Parmentier"
+   ],
+   "link": "https://arxiv.org/abs/2610.30243v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究结合三维大气动力学模型ADAM、微物理云模型CARMA和辐射传输代码PICASO，系统研究了云-环流反馈对热木星WASP-43b大气的耦合影响。通过后处理方案模拟大气热结构和云的形成，结果表明WASP-43b具有多层云结构特征：夜侧多云、晨昏跛行云覆盖、日侧清晰，预测包括硅酸盐在内的五种云物种凝结，但云不透明度仍存在高估问题。该研究为理解云对热木星相位曲线和光谱特征的影响提供了定量框架，为JWST观测的解释和后续完全耦合模型的发展奠定了基础。"
+  },
+  {
+   "id": "arxiv:2610.30028",
+   "title": "The Pandora SmallSat: Target Selection and Early Science",
+   "abstract": "The Pandora spacecraft is a smallsat selected in NASA's inaugural class of Pioneers missions. The aim of the Pandora mission is to disentangle stellar activity signals from exoplanet atmospheric transmission spectroscopy measurements. Pandora accomplishes this goal with its combined visible photometry and NIR spectroscopy that observe each target in the prime mission for 10 separate transit observations, each spanning 24 hours at a time. Targets were carefully selected for the Pandora prime mission. Pandora is specifically studying planets around low-mass stellar hosts (K and M dwarf stars) spanning a range of rotation periods and activity levels. The planets range in size from 1.5 - 15 Earth radii and orbital periods ranging from 1.7 - 11.5 days. In addition to the 10 transit visits planned for each of the 20 prime mission targets, Pandora is observing a number of auxiliary targets encompassing a variety of science topics. This includes topics such as stellar activity and young systems, transit timing variations of exoplanets, brown dwarf compositions, exoplanet phase curves, etc. We will discuss the selection of these targets, how they have been scheduled to fill in gaps in prime mission operations, and early science results. If the mission is extended, there is further opportunity for accomplishing additional science. Here we will discuss the possible options for extended mission operations and science.",
+   "authors": [
+    "Emily A. Gilbert",
+    "Elisa V. Quintana",
+    "Jessie L. Dotson",
+    "Knicole D. Colón",
+    "Thomas Barclay",
+    "Pete Supsinskas",
+    "Jordan Karburn",
+    "Dániel Apai",
+    "Christina Hedges",
+    "Benjamin V. Rackham",
+    "Jason F. Rowe",
+    "David Ciardi",
+    "Natalie H. Allen",
+    "Jessie Christiansen",
+    "Néstor Espinoza",
+    "Trevor O. Foote",
+    "Nguyen Fuda",
+    "Aylin Garcia Soto",
+    "Thomas P. Greene",
+    "Kelsey Hoffman",
+    "Rae Holcomb",
+    "Benjamin J. Hord",
+    "Aishwarya R. Iyer",
+    "Aurora Y. Kesseli",
+    "Veselin B. Kostov",
+    "Nikole K. Lewis",
+    "Sarah E. Logsdon",
+    "Andrew W. Mann",
+    "Megan Mansfield",
+    "James Mason",
+    "Peter McGill",
+    "Julie Moquin",
+    "Brett M. Morris",
+    "Gregory Mosby",
+    "Susan E. Mullallym",
+    "Elisabeth R. Newton",
+    "Joe P. Renaud",
+    "Yoav Rotman",
+    "Suman Saha",
+    "Joshua E. Schlieder",
+    "Luis Welbanks",
+    "Lindsey S. Wiser",
+    "Allison Youngblood",
+    "Robert T. Zellem"
+   ],
+   "link": "https://arxiv.org/abs/2610.30028v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "Pandora小卫星任务旨在通过结合可见光测光和近红外光谱学,在系外行星大气透射光谱测量中分离恒星活动信号,对围绕低质量恒星(K和M矮星)的行星进行10次凌日观测。该研究精心选择了20个主要目标,这些目标的行星大小范围为1.5-15地球半径,轨道周期为1.7-11.5天,并辅以多个辅助目标观测恒星活动、凌日时间变化和系外行星相位曲线等科学问题。本文讨论了目标选择策略、观测调度方案以及早期科学成果,并探讨了任务延期情景下的进一步科学机遇。"
+  },
+  {
+   "id": "arxiv:2610.29610",
+   "title": "OGLE-2013-BLG-1125/MOA-2013-BLG-584: Discovery of a gas giant orbiting an M dwarf",
+   "abstract": "We report the discovery and characterization of a planetary system in the microlensing event OGLE-2013-BLG-1125/MOA-2013-BLG-584. We analyze photometric data from OGLE and MOA surveys, as well as LCO, $μ$FUN, and Mindstep follow-up telescopes to model the microlensing light curve. We also used data from the Keck II telescope collected in 2018 to obtain additional constraints on the lensing system. We found a Saturn-mass planet of mass $M_{\\rm p}=105\\pm13 \\ M_\\oplus$ orbiting a low-mass host star $M_{\\rm L}=0.139\\pm0.011 \\ M_\\odot$ at $1.00\\pm0.08$ kpc from Earth. This discovery adds to the small sample of giant planets orbiting low-mass stars and provides constraints on planet formation theories.",
+   "authors": [
+    "E. Bachelet",
+    "M. Hundertmark",
+    "V. Bozza",
+    "J. -P. Beaulieu",
+    "A. Udalski"
+   ],
+   "link": "https://arxiv.org/abs/2610.29610v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究通过分析OGLE-2013-BLG-1125/MOA-2013-BLG-584微引力透镜事件的多望远镜测光数据，采用微引力透镜光变曲线建模方法，发现了一个质量为105±13地球质量的土星质量行星绕低质量M矮星(质量0.139±0.011太阳质量)运行。该发现为数量稀少的低质量恒星周围巨行星样本增添了新成员，有助于约束行星形成理论。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aeac14",
+   "title": "Searching for Planets around Altair with JWST/NIRcam",
+   "abstract": "Abstract Altair ( α Aql) is one of the nearest stars to the Sun at 5.13 pc and its age has recently been revised to 88 ± 10 Myr, making it one of the youngest stars in the solar neighborhood. This makes Altair a compelling target for high-contrast direct imaging searches for giant planets. We present two epochs of simultaneous F444W and F200W MASK430R JWST/NIRCam coronagraphic imaging observations. After postprocessing, these data achieve F444W contrast levels of 2 × 10 −6 at 1″ (5.1 au), 1.5 × 10 −7 at 2″ (10.3 au), and a few ×10 −8 beyond 4″(20 au). Using the Sonora Flame Skimmer models, this corresponds to sub-Jupiter mass sensitivity beyond 5 au and sub-Saturn mass sensitivity beyond 10 au. We identified several candidate point sources in the field in the first epoch data. Second epoch observations confirmed that none of the candidates were co-moving with Altair and their colors are consistent with background stars. Altair has no known companions, no detected debris disk, and is not associated with any stellar association. Despite this, its youth and proximity ensure it will remain a high-priority target for future high-contrast imaging observations. We additionally discuss Altair as a potential reference star for future observations, presenting measurements of background sources in the field and showing that Altair will remain at least a few arcsec from background stars over the next 10–20 yr, making it a reliable reference target for upcoming imaging campaigns including the Roman Space Telescope Coronagraph Instrument.",
+   "authors": [
+    "Tiffany Meshkat",
+    "Charles Beichman",
+    "Jorge Llop-Sayson",
+    "Geoffrey Bryden",
+    "Alexandra Z. Greenbaum",
+    "Eric E. Mamajek",
+    "Marie Ygouf",
+    "Julien Girard",
+    "Jarron Leisenring",
+    "Aniket Sanghi",
+    "Marshall Perrin",
+    "Michael Meyer",
+    "Laurent Pueyo",
+    "William Balmer",
+    "András Gáspár",
+    "Klaus Hodapp"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aeac14",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究使用JWST/NIRCam对年轻邻近星Altair进行了两个历元的高对比度直接成像观测,在5-20 AU范围内达到亚木星至亚土星质量的灵敏度。通过多波段冠状图像处理和二次历元验证,排除了所有候选点源为伴星的可能性,确认Altair周围不存在行星伴星。尽管未发现行星,但Altair的年轻年龄(88±10 Myr)和近距离使其成为未来高对比度成像巡天的优先靶标,同时其稳定的背景恒星配置使其可用作未来空间望远镜观测的参考星。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2018",
+   "title": "Demographics of Close-In TESS Exoplanets Orbiting FGK Main-sequence Stars – II. Spectral-Type Dependence and the Neptunian Landscape",
+   "abstract": "Abstract Understanding how planetary demographics depend on host star properties is essential for constraining planet formation and evolution theories. In this paper, we analyse close-in (0.5–16 d) planet occurrence rates from the TESS Science Processing Operations Center (SPOC) full-frame image data for individual F-, G-, and K-type main-sequence stellar samples. Integrated over 0.5 &lt; P &lt; 16 d and 2 &lt; Rp &lt; 20 R⊕, the occurrence rates are $12.1^{+3.0}_{-2.3}$, $10.2^{+1.2}_{-1.0}$, and $13.1^{+1.4}_{-1.2}$ planets per 100 stars for F-, G-, and K-type hosts, consistent with each other at 1σ, so any spectral-type dependence is localized rather than global. For transiting hot Jupiters, we measure $0.30^{+0.04}_{-0.03}$, 0.50 ± 0.03, and $0.67^{+0.08}_{-0.07}$ per cent, with the rate peaking at K type; the latter being the first such measurement for K-type hosts. Modelling the Neptunian desert directly in occurrence-rate space, we find that the desert extends to longer orbital periods around hotter stars. Integrating over the desert interior gives $0.069^{+0.045}_{-0.011}$, $0.093^{+0.046}_{-0.022}$, and $0.150^{+0.033}_{-0.026}$ planets per 100 stars, implying about one close-in planet in a hundred lies inside the desert, and the desert is roughly twice as populated around K- as around F-type hosts. A rigorous Bayesian model comparison for the 6–8 R⊕ strip indicates that a distinct Neptunian ridge is not required to explain the measurements.",
+   "authors": [
+    "Kaiming Cui",
+    "David J Armstrong",
+    "Andreas Hadjigeorghiou",
+    "Marina Lafarga",
+    "Ares Osborn",
+    "George W King",
+    "Tim Hallatt",
+    "Vedad Kunovac",
+    "Lauren Doyle"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2018",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究基于TESS数据分析了环绕F、G、K型主序星的近距离行星（0.5–16天轨道周期）的出现率，发现不同谱型主星间的整体行星出现率相近（~10–13颗/百星），但热木星出现率随谱型变化明显（F型0.3%、G型0.5%、K型0.67%）。通过直接在出现率空间中建模海王星沙漠，发现该沙漠在较热的主星周围延伸到更长轨道周期，且K型主星周围的沙漠内行星数量约为F型的两倍，贝叶斯模型比较表明无需引入独立的海王星脊来解释观测数据。这些结果为行星形成和演化理论提供了关键的谱型依赖性约束。"
+  }
+ ],
  "2026-10-22": [
   {
    "id": "arxiv:2610.29459",
@@ -11145,6 +11556,5 @@
    ],
    "summary_zh": "本研究通过TESS和CHEOPS的光测时间序列数据，确认并表征了绕亮F型星HD 148797的两颗中周期亚木星行星，测得它们的轨道周期比接近黄金比例（1.619），并利用显著的反相关过境时间变化测定了两颗行星的光动力学质量和低密度特征。研究发现Neptunian savanna区域的多行星系统普遍存在相邻行星对周期比小于3的紧密构型，这表明该区域的亚木星行星主要形成于动力学冷系统，更可能经历类似盘驱动迁移而非高偏心率潮汐迁移的平滑迁移过程。"
   }
- ],
- "2026-08-24": []
+ ]
 }
