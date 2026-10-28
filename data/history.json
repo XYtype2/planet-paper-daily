@@ -1,4 +1,64 @@
 {
+ "2026-10-28": [
+  {
+   "id": "doi:10.3847/1538-4357/aeaa54",
+   "title": "Eclipse Properties and Superhump Evolution in the SU UMa-type Dwarf Nova Z Cha",
+   "abstract": "Abstract The advent of large-scale time-domain surveys provides both opportunities and challenges for understanding accretion disk evolution in cataclysmic variables (CVs). Using high-cadence photometry from the Transiting Exoplanet Survey Satellite (TESS), we investigate the eclipsing SU UMa-type dwarf nova Z Cha. Leveraging eclipses as a natural probe, we examine the evolution of the accretion disk through variations in eclipse depth, O – C of eclipse minima, and positive superhump (PSH) amplitude. During superoutbursts, all three quantities exhibit quasiperiodic modulations with a common period of ∼2 days, consistent with the precession period of an eccentric disk. We interpret these correlated variations as evidence of an eccentric, precessing disk: O – C traces the periodic shift of the system’s brightness center, while eclipse depth and PSH amplitude vary with the orientation of the disk bulge relative to the line of sight. In quiescence (Sectors 13 and 93), PSHs with periods of ∼0.0762 days show linearly decreasing amplitudes and periods, indicating gradual shrinkage of the eccentric disk and a slowing precession. Remarkably, a coherent signal with a period of ∼0.0729 days ( ϵ − ≈ −0.02) appears in the same quiescent intervals. This signal may represent negative superhumps (NSHs) coexisting with PSHs, although an orbital sideband of the PSH cannot presently be excluded with the available data. If confirmed as NSHs, their coexistence with PSHs would challenge the classical tilted-disk model, and could be explained by retrograde apsidal precession of an eccentric disk, where the inner disk precesses retrogradely (NSHs) and the outer disk progradely (PSHs); this interpretation remains to be tested by further observations.",
+   "authors": [
+    "Qi-Bin Sun",
+    "Sheng-Bang Qian",
+    "Li-Ying Zhu",
+    "Qin-Mei Li",
+    "Wen-Ping Liao",
+    "Fu-Xing Li",
+    "Wen-Xu Lin",
+    "Min-Yu Li",
+    "Ping Li",
+    "Zi-Mo Li",
+    "Tao Wang",
+    "Mao-Han Zhang",
+    "Eduardo Fernández Lajús"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeaa54",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用TESS高时间分辨率光度测光数据，通过日食深度、日食时刻和正超驼峰振幅的准周期调制，揭示了食双星型矮新星Z Cha中偏心圆盘的存在及其进动特性，三个物理量在~2天周期内的相关变化证实了圆盘的偏心性和进动。在静止状态下，正超驼峰和可能存在的负超驼峰共存现象挑战了传统的倾斜圆盘模型，可能反映了圆盘内外区域逆向进动的复杂动力学过程。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2043",
+   "title": "The ALMA Survey of Gas Evolution of PROtoplanetary disks (AGE-PRO): Evolution of dust properties from multi-wavelength observations",
+   "abstract": "Abstract Understanding the evolution of solids in protoplanetary discs is important to comprehend the formation of giant planets cores and terrestrial planets. The ALMA Large Program AGE-PRO studied key disc properties in a survey of 30 protoplanetary discs across three evolutionary stages: the embedded phase (0.5-1 Myr), the middle-age phase (1-3 Myr), and the end of the disc lifetime (2-6 Myr). Preliminary dust properties were estimated using 1.3 mm observations, but a multi-wavelength analysis provides a better constraint of important properties such as the dust disc mass, the dust temperature, and the maximum grain size. We present new ALMA 3.1 mm and 1.5 mm (Bands 3 and 5) continuum observations of the complete survey of 30 AGE-PRO discs. We fitted the observed visibilities and derived radial brightness profiles, spatially resolving 20 discs from the AGE-PRO sample at the two studied wavelengths. A multi-wavelength modelling was performed including also the radial profiles from the 1.3 mm observations. Our results replicate trends obtained from the single wavelength analysis: the dust disc size seems to be constant over age and the dust disc mass decreases with time, with a factor ∼10-40 uncertainty from opacity assumptions. This result implies much lower gas-to-dust mass ratios for the discs in our sample than previously reported. In addition, the derived spectral indices are consistent with optically thick emission in a large fraction of the AGE-PRO discs, in particular for the Ophiuchus and Lupus discs.",
+   "authors": [
+    "Camila Pulgarés",
+    "Laura M Pérez",
+    "Carolina Agurto-Gangas",
+    "Lilian Luo",
+    "Paola Pinilla",
+    "Anibal Sierra",
+    "Miguel Vioque",
+    "Nicolás Kurtovic",
+    "Rossella Anania",
+    "John Carpenter",
+    "Lucas Cieza",
+    "Dingshan Deng",
+    "Camilo González-Ruilova",
+    "Michiel R Hogerheijde",
+    "James Miley",
+    "Ke Zhang"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2043",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "protoplanetary disc"
+   ],
+   "summary_zh": "AGE-PRO项目通过多波长ALMA观测（1.3、1.5、3.1 mm）对30个不同演化阶段的原行星盘进行了尘埃特性研究。通过空间分辨的亮度廓线拟合和多波长建模，研究发现尘埃盘尺寸在演化过程中保持稳定，但尘埃质量随时间显著下降（衰减因子~10-40），这表明样本中的气尘比显著低于先前报告值，且大部分盘在长波段表现出光学厚发射特征。"
+  }
+ ],
  "2026-10-27": [
   {
    "id": "arxiv:2610.34908",
@@ -10570,24 +10630,5 @@
    "summary_zh": "本研究开发了一个半解析代理模型CoolTrack，用局部热力学、softplus渐近函数和B样条光度法直接从大气网格生成巨行星冷却轨迹和测光曲线，绕过了传统ODE求解器在云凝聚和简并态等陡峭转变处的数值刚性问题。该模型通过Gaussian加权回归在对数热力学空间中构建局部代理，能在毫秒量级计算完整演化轨迹，准确再现电子简并和L-T谱型转变。CoolTrack移除了前向建模瓶颈，特别适用于贝叶斯反演管道，可同时推断行星的年龄、质量、形成熵和大气性质。"
   }
  ],
- "2026-08-30": [],
- "2026-08-29": [
-  {
-   "id": "doi:10.1051/0004-6361/202661190",
-   "title": "Self-induced edge rings in protoplanetary disks",
-   "abstract": "Observations with a high angular resolution by ALMA have revealed that substructures are ubiquitous in protoplanetary disks. Axisymmetric dust rings are the most common morphology. The profiles of some observed disks, including young disks, are smooth overall, with a localized dip or bump near the outer edge of the continuum disk that manifests as an edge ring. While embedded planets might contribute to these structures, their physical origin remains unclear. We investigated the possibility that these edge rings arise purely from radiative transfer effects at the outer edge of a protoplanetary disk. A steep surface density dust gradient at the outer edge of the disk allows stellar irradiation to penetrate more efficiently beyond the disk edge, producing a non-monotonic temperature profile characterized by a dip that is followed by a bump. We tested whether this non-monotonic temperature structure can generate and maintain a localized continuum enhancement. We coupled radiative transfer and dust evolution by iterating between the Monte Carlo radiative transfer code RADMC-3D and the dust evolution code DustPy. This framework self-consistently follows the coupled evolution of temperature, grain growth, and dust dynamics. Thermodynamic feedback at the disk edge can naturally generate and maintain localized dust enhancements resembling the edge rings that are observed in some extremely young disks. Without invoking planets or additional dynamical perturbations, this mechanism offers a plausible explanation for the first-generation ring formation. Our results highlight the importance of coupling thermodynamics and dust evolution when modeling protoplanetary disks, suggesting that thermodynamic feedback probably plays a role in shaping disk substructures.",
-   "authors": [
-    "Massimiliano Bolchini",
-    "Haochang Jiang",
-    "Jiaqing Bi"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202661190",
-   "source": "Astronomy & Astrophysics",
-   "category": "行星形成与盘演化",
-   "matched": [
-    "protoplanetary disk"
-   ],
-   "summary_zh": "本研究通过耦合辐射转移和尘埃演化模型,探讨了原行星盘外边缘的非单调温度结构是否能自发产生观测到的边缘环结构。研究发现,盘外边缘陡峭的表面密度梯度导致恒星辐射在盘边产生温度凹陷后突起的特征,这种热力学反馈机制能够自洽地生成并维持局部尘埃增强结构,为年轻盘中的边缘环提供了不依赖行星扰动的新解释。该结果强调了热力学与尘埃演化耦合对原行星盘亚结构形成的重要性。"
-  }
- ]
+ "2026-08-30": []
 }
