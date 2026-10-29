@@ -1,4 +1,125 @@
 {
+ "2026-10-29": [
+  {
+   "id": "arxiv:2610.37540",
+   "title": "JWST/MIRI Observations of Amorphous Silicates in Interstellar Comet 3I/ATLAS",
+   "abstract": "We present JWST/MIRI Low Resolution Spectroscopy (LRS) of 3I/ATLAS obtained post-perihelion at a heliocentric distance of 2.21 au. Our spectrum contains a prominent 10 micron silicate emission feature with a broad, smooth shape that is distinct from those commonly observed in Solar System comets. We model the spectrum using thermal emission from amorphous carbon, amorphous olivine, and amorphous pyroxene grains. Our models strongly favor a pyroxene-dominated, amorphous silicate composition and show a degeneracy between silicate grain size and the relative abundance of silicate and carbon dust. Across a set of representative models, the best-fitting crystalline abundance is zero, and we place an upper limit of 5.3% on the crystalline fraction of the silicates. We identify an emission feature near 6.83 microns that is consistent with aliphatic C-H-bearing material. The overwhelmingly amorphous silicate composition supports previous work that measured unusual volatile and isotopic composition in suggesting that the material incorporated into the object experienced little thermal processing and preserves information about the conditions in which this interstellar planetesimal formed.",
+   "authors": [
+    "Cristina A. Thomas",
+    "Michael S. P. Kelley",
+    "David E. Harker",
+    "Martin A. Cordiner",
+    "Davide Farnocchia",
+    "Dennis Bodewits",
+    "Steven B. Charnley",
+    "Maria N. Drozdovskaya",
+    "Marco Micheli",
+    "Stefanie N. Milam",
+    "Cyrielle Opitom",
+    "Silvia Protopapa",
+    "Nathan X. Roth",
+    "Megan E. Schwamb"
+   ],
+   "link": "https://arxiv.org/abs/2610.37540v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI光谱观测星际彗星3I/ATLAS，在距日2.21天文单位处获得其10微米硅酸盐发射特征，通过热发射模型分析表明其硅酸盐成分主要为无定形物质（结晶丰度上限为5.3%），以斜长石为主。该无定形硅酸盐组成与该彗星独特的挥发物和同位素组成一致，表明其物质经历的热加工过程极少，保留了星际行星体形成条件的原始信息。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aea84d",
+   "title": "Deep H α Imaging Survey of IC 348 with the Hubble Space Telescope. I. Accretion Properties of Stellar and Substellar Objects",
+   "abstract": "Abstract Accretion governs the growth of young stars and the early evolution of their circumstellar disks, yet population-level measurements of accretion are often hampered by heterogeneous diagnostics and by samples preferentially selected toward disk-bearing or accreting objects. This can impact the mass accretion rate–stellar mass ( M ̇ – M ⋆ ) relation, particularly at substellar masses. We present a uniform analysis of accretion in the ∼2 Myr old star-forming cluster IC 348 based on deep Hubble Space Telescope (HST) F656N imaging. Using H α excess as a single, homogeneous accretion tracer, we derive accretion rates and robust upper limits for 200 cluster members spanning the stellar-to-substellar mass regime (3 M ⊙ to 4 M Jup ). Accretion is detected in 37% ± 3% of the sample, with fractions of 34% ± 4% among stellar members and 46% ± 6% among substellar objects. For accretors alone, the inferred M ̇ – M ⋆ relation is consistent with those measured in similarly aged regions such as Lupus. In contrast, including weak accretors and nondetections increases the scatter and flattens the slope while lowering the intercept, demonstrating the strong influence of the low-accretion tail on population-level accretion relations. For free-floating planetary-mass objects in IC 348, extrapolating the accretors-only fit overpredicts M ̇ by approximately an order of magnitude compared to the fit that includes upper limits, which instead implies mass accretion rates of <10 −12 M ⊙ yr −1 . These results show that sample selection—specifically whether the sample is restricted to disk-bearing or accreting targets or instead is drawn from a complete membership census—is a dominant factor shaping population-level accretion relations across a wide dynamic range in stellar mass.",
+   "authors": [
+    "Lillian Yushu Jiang",
+    "Brendan P. Bowler",
+    "Yifan Zhou",
+    "Adam L. Kraus",
+    "Sean M. Andrews",
+    "Lynne A. Hillenbrand",
+    "Michael J. Ireland",
+    "Zhaohuan Zhu"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aea84d",
+   "source": "The Astronomical Journal",
+   "category": "散射与动力学演化",
+   "matched": [
+    "free-floating planet"
+   ],
+   "summary_zh": "本研究基于哈勃空间望远镜的深度Hα成像观测，对IC 348星团（~2 Myr）中200个成员天体（跨越3 M⊙至4 MJup的恒星-亚恒星质量范围）进行了均匀的吸积率分析。结果显示37%的样本中检测到吸积，且纳入弱吸积者和非探测上限后，质量吸积率-恒星质量关系的斜率下降且散度增大，特别是对于自由浮动的行星质量天体，其吸积率被高估约一个数量级。这项研究表明样本选择（是否限制于有盘或吸积天体）对种群级吸积关系的形状具有主导影响。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662251",
+   "title": "Radio and high-energy variable emission from a multi-wavelength follow-up study of the infant planet-hosting star V1298,Tau",
+   "abstract": "V1298,Tau is a very young and magnetically active K1V star that hosts a benchmark multi-planetary system in which planet formation and evolutionary history can be studied at the earliest stages. Because of the high interest in this system, it has been the target of a number of multi-wavelength follow-up so far. Between 2025 and 2026, we conducted a campaign to monitor the variability of V1298,Tau in radio (band C), X-ray, and near-UV (NUV) bands with the support of publicly available contemporary optical light curve. We also investigated multi-band correlations to link the emission to stellar activity. Radio observations were carried out with the Karl G. Jansky Very Large Array (JVLA) in band C (4.5--6.5 GHz) between the end of October 2025 and early February 2026. X-ray and NUV observations were carried out with the Swift satellite over 20 days, ending one month before the radio campaign began. We analysed the temporal variability of peak (integrated) fluxes in the C band and of X-ray (NUV) luminosities on various timescales by comparing it with the variability observed in the high-cadence optical light curve collected by the ASAS-SN survey. We observed both radio and high-energy time-variable emission. In the radio, JVLA detected emission in 90% of the visits, switching between high- (≥0.1 mJy/beam) and low-flux states in a matter of days or hours. The fluxes are moderately correlated with the optical light curve, suggesting modulation with the stellar rotation period. Except for one visit, the dynamic spectral analysis did not reveal short-term (minutes) variability, nor is there any evidence of circularly polarised emissions. Overall, the radio observations can be explained as gyrosynchrotron and/or cyclotron emission from the corona that is linked to stellar magnetic activity. At high energy, we detected significant variability in the X-ray luminosity (within the range ∼1.2--2.5times10 +30 erg/s), the decay phase of a stellar flare, and evidence of a correlation with the optical flux. Our data confirm that V1298,Tau follows the near-linear Güdel-Benz relation, with radio and X-ray luminosities consistent with those measured for magnetically active pre-main-sequence stars.",
+   "authors": [
+    "M. Damasso",
+    "D. Viganò",
+    "R. Spinelli",
+    "S. Kaur",
+    "A. Petralia",
+    "Á. Sánchez-Monge",
+    "A. F. Lanza",
+    "A. Maggio",
+    "J. M. Girart",
+    "F. Borsa",
+    "F. Del Sordo",
+    "G. Ghirlanda"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662251",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过射电（JVLA C波段）、X射线和近紫外多波段联合观测，研究了行星宿主星V1298 Tau的变时性特征及其与恒星磁活动的关联。观测结果表明该年轻K型星表现出显著的射电和高能变时发射，射电通量与光学曲线呈中等相关且随恒星自转调制，X射线探测到耀斑衰减相和与光学流量的相关性，整体符合前主序磁活跃星的Güdel-Benz关系。该研究为理解年轻多行星系统中行星形成环境的恒星磁活动特性提供了关键观测约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661484",
+   "title": "Mitigating scanning-induced systematics in Hipparcos andimplications for Gaia astrometry",
+   "abstract": "Space-based astrometric missions such as and rely on one-dimensional scanning strategies that couple the measured signals with both observation times and scanning geometry. This coupling can introduce spurious periodicities and complicate their interpretation. We present a non-parametric extension of the phase-distance correlation (PDC) periodogram that quantifies and reduces dependence on scan geometry at the period-search stage. Using data, we identified recurrent periodicities associated with characteristic scanning-law timescales and showed that they are strongly suppressed by the scan-angle-controlled statistic. We then applied the method to Data Release 4 (DR4) prerelease epoch astrometry, where a recurrent ∼54-day feature is suppressed across multiple sources while independently known orbital signals remain detectable. The method provides a diagnostic of scan-angle dependence and a way to mitigate its impact on period searches. These results are particularly relevant for DR4, where public epoch astrometry will enable large-scale searches for companions ranging from exoplanets to dormant black holes. Hipparcos Gaia Hipparcos Gaia Gaia",
+   "authors": [
+    "A. Binnenfeld",
+    "S. Shahaf",
+    "R. I. Anderson",
+    "H.-W. Rix",
+    "S. Zucker"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661484",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究针对空间天体测量任务中因一维扫描策略导致的系统误差，提出了相位-距离相关周期图的非参数扩展方法，能够在周期搜索阶段量化并减弱对扫描几何的依赖。通过对Hipparcos数据的分析，识别出与扫描规律相关的周期性特征，并用扫描角度控制统计量有效压制了这些虚假周期。该方法在Gaia DR4数据中验证了有效性，成功压制了~54天的系统周期同时保留了已知的真实轨道信号，为利用Gaia历元天体测量进行系外行星、褐矮星等伴星搜索提供了重要的系统误差诊断和处理工具。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2060",
+   "title": "Spatial variability of CH4-to-CO conversion pathways in irradiated gas giant atmospheres: implications for chemical relaxation and 1D quench schemes",
+   "abstract": "Abstract Close-in gas giant atmospheres are in chemical disequilibrium. Solving 3D kinetics to capture one source of this disequilibrium, transport-induced quenching, is computationally demanding, so simplifications are used. General circulation models (GCMs) relax abundances on the timescale of a single conversion pathway. 1D models place a quench level and hold abundances vertically uniform above it. We test both simplifications on CH4 against aerosol-free, solar-composition GCM simulations with thermochemical kinetics for HAT-P-11b, HD 189733b, HD 209458b and WASP-17b. We find ten CH4-to-CO conversion pathways, varying with depth, longitude and planet. A single pathway controls CH4 quenching on the three cooler planets; on WASP-17b two compete. The CH4 quench level is 3D: where the atmosphere is hotter, or a faster pathway takes over, the conversion timescale shortens, the quench level rises and the quench-level abundance falls. On WASP-17b the pathway switch lifts the quench level over the substellar tropics, deepening equatorial CH4 depletion. A 1D quench treatment with the Zahnle & Marley timescale typically locates the quench level within a factor of two in pressure for CH4 and about four for CO on every planet. It fails above the quench level, where every quench scheme holds abundances vertically uniform. The minor carbon carrier, CH4 or CO depending on the planet, is wrong by up to two orders of magnitude, on HD 189733b in opposite directions at different latitudes. Quenching sets an abundance at the quench level but does not fix it thereafter; even without photochemistry, transport and conversion keep that abundance spatially structured.",
+   "authors": [
+    "Maria Zamyatina",
+    "Ãric Hébrard",
+    "Harry Baskett",
+    "Roméo Veillet",
+    "Duncan A Christie",
+    "Nathan J Mayne",
+    "Denis E Sergeev",
+    "Krisztian Kohary"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2060",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "aerosol"
+   ],
+   "summary_zh": "本研究通过三维全球环流模型模拟具有热化学反应的系外气态巨行星大气，揭示了CH₄到CO的转化途径随深度、经度和行星而变化的空间结构，发现1D假设将大气分层设置为垂直均匀的方法在描述化学非平衡时存在显著偏差。研究表明虽然1D淬灭方案能在较好的精度范围内定位淬灭层，但在淬灭层上方完全失效，且对次要碳承体的丰度预测误差可达两个数量级，这对精确模拟系外行星大气组成具有重要启示。"
+  }
+ ],
  "2026-10-28": [
   {
    "id": "doi:10.3847/1538-4357/aeaa54",
@@ -10629,6 +10750,5 @@
    ],
    "summary_zh": "本研究开发了一个半解析代理模型CoolTrack，用局部热力学、softplus渐近函数和B样条光度法直接从大气网格生成巨行星冷却轨迹和测光曲线，绕过了传统ODE求解器在云凝聚和简并态等陡峭转变处的数值刚性问题。该模型通过Gaussian加权回归在对数热力学空间中构建局部代理，能在毫秒量级计算完整演化轨迹，准确再现电子简并和L-T谱型转变。CoolTrack移除了前向建模瓶颈，特别适用于贝叶斯反演管道，可同时推断行星的年龄、质量、形成熵和大气性质。"
   }
- ],
- "2026-08-30": []
+ ]
 }
