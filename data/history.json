@@ -1,4 +1,288 @@
 {
+ "2026-10-30": [
+  {
+   "id": "arxiv:2610.38764",
+   "title": "lenscape: Fast, High-resolution $Δχ^2$ Maps of Microlensing Events",
+   "abstract": "Planetary microlensing analyses rely on $Δχ^2$ maps across the binary-lens separation $s$ and mass ratio $q$ to locate degenerate solutions and bound parameter uncertainties. Because every grid point requires a full light-curve optimization with finite-source magnifications, constructing these maps is often the primary computational bottleneck in event modeling. Here I present lenscape, an open-source Python package that accelerates $Δχ^2$ mapping and suppresses local-minimum artifacts through multi-stage neighbor propagation and adaptive contour refinement. Applied to the planetary event MOA-2022-BLG-091, lenscape reproduces the published $50\\times50$ map in 14 minutes and generates a $400\\times400$ map in under two hours on a desktop computer.",
+   "authors": [
+    "Michael Hippke"
+   ],
+   "link": "https://arxiv.org/abs/2610.38764v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究针对微引力透镜事件中行星参数简并问题,开发了lenscape软件包用于快速构建Δχ²映射。通过多级邻域传播和自适应轮廓细化策略,该方法显著加速了二元透镜分离-质量比参数空间的搜索,并有效抑制局部极值伪影。在MOA-2022-BLG-091事件中的应用表明,该方法可在台式计算机上于两小时内生成400×400高分辨率映射,为行星微引力透镜事件的参数约束提供了高效工具。"
+  },
+  {
+   "id": "arxiv:2610.38693",
+   "title": "2026 ED138: A Large Trans-Neptunian Object in Early Rubin Observatory Data, and How Many More May Remain",
+   "abstract": "We characterize a large trans-Neptunian object (TNO), 2026 ED138, discovered in data taken by the NSF-DOE Vera C. Rubin Observatory with the linking code pointdexter, and validate it independently. 2026 ED138 has absolute magnitude $H_V=3.19$, implying a diameter of 612-1530 km for geometric albedos between 0.25 and 0.04 and making it one of the ten intrinsically brightest known TNOs and a dwarf-planet candidate. At $i\\approx19.4$ it is bright enough in the sky for ground-based spectroscopy and light curves and for detailed study with HST and JWST. Archival DECam detections extend its arc to more than ten years (3789 days). Its orbit, with barycentric $a=43.09$ au, $e=0.139$ and $i=24.4^\\circ$, lies at the edge of the 12:7 mean-motion resonance with Neptune, like that of the dwarf planet Haumea, but with $g-r=0.63$ it is too red to be a member of Haumea's collisional family. 2026 ED138 was missed by earlier surveys because it lies far south and near the crowded regions of the Galactic plane. Our recoveries of the known TNOs with $H_V<4$ suggest that about 3 more objects like them, and probably more, remain undiscovered away from the Galactic plane. More such objects probably lie within $10^\\circ$ of the plane, which no search has yet covered to this depth.",
+   "authors": [
+    "Matthew J. Holman",
+    "Mario Jurić",
+    "Kevin J. Napier",
+    "Jacob A. Kurlander",
+    "Aren Heinze",
+    "Joachim Moeyens",
+    "Megan E. Schwamb",
+    "Pedro H. Bernardinelli",
+    "Ian Sullivan",
+    "Eric C. Bellm",
+    "Silvia Protopapa",
+    "Colin Orion Chandler",
+    "Ian Chow",
+    "Eric J. Christensen",
+    "Samuel Cornwall",
+    "Siegfried Eggl",
+    "Sarah Greenstreet",
+    "Chester Li",
+    "Erfan Nourbakhsh",
+    "James E. Robinson",
+    "Devanshi Singh",
+    "Danica Zilkova"
+   ],
+   "link": "https://arxiv.org/abs/2610.38693v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用Rubin天文台数据发现并表征了大型TNO天体2026 ED138，其绝对星等为3.19（直径612-1530 km），是已知最亮的十大TNO之一，且为矮行星候选体，其轨道位于海王星12:7平均运动共振的边缘。通过对已知亮TNO的回收统计，我们估计银河面外还有约3个及更多类似天体未被发现，而银河面内10°范围内可能存在更多未被现有巡天覆盖的大型TNO。"
+  },
+  {
+   "id": "arxiv:2610.38503",
+   "title": "Coupled evolution of Earth's H2-rich proto-atmosphere and oxidized magma ocean: Efficient H2O production through dissolved H2 transport and atmospheric buffering of the magma ocean redox state",
+   "abstract": "Giant impacts during Earth's final accretion likely generated global magma oceans, where the disproportionation of Fe^2+ at lower-mantle pressures and segregation of the resulting metallic iron into the core could have oxidized the magma ocean. Earth may nevertheless have had an H2-rich proto-atmosphere in chemical disequilibrium with the magma ocean, but the chemical coupling between this atmosphere and an oxidized magma ocean remains poorly constrained. Here we develop a coupled atmosphere-interior evolution model that includes diffusive transport in the boundary layer between the magma ocean and atmosphere, redox reactions in the melt, partitioning of oxide components and H2O among coexisting phases, and planetary cooling through a proto-atmosphere, with metallic iron produced by Fe^2+ disproportionation removed into the core as it forms. Atmospheric H2 transport into the magma ocean and subsequent H2O production become more efficient with increasingly frequent boundary layer renewal driven by buoyant overturn of dense melt cooled at the surface, allowing the atmosphere and magma ocean to chemically equilibrate within ~10^4 yr when the magma ocean is sufficiently deep and hot to extend into the lower mantle. Redox exchange with the atmosphere buffers the solidification-driven redox evolution of the magma ocean, preventing extreme oxidation or reduction of the coupled system. These results suggest that the coupled evolution could have contributed to early Earth's water inventory while maintaining a reducing H2-rich atmosphere.",
+   "authors": [
+    "Tatsuya Yoshida",
+    "Kirara Arima",
+    "Naoki Terada",
+    "Takeshi Kuroda",
+    "Kiyoshi Kuramoto"
+   ],
+   "link": "https://arxiv.org/abs/2610.38503v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究建立了耦合大气-地幔演化模型，包含原始地球岩浆洋与H2富集原始大气之间的扩散输运、熔体内氧化还原反应及H2O生成过程，模拟了行星冷却过程中两个圈层的化学耦合。结果表明，岩浆洋表面冷却驱动的密集对流使边界层快速更新，促进了大气H2向岩浆洋的输运和H2O高效生成，使两个圈层能在约10^4年内化学平衡。这一耦合演化过程通过大气与岩浆洋的氧化还原交换，既可缓冲固结过程中的极端氧化，同时有助于维持还原性H2富集大气，对早期地球水库的形成具有重要贡献。"
+  },
+  {
+   "id": "arxiv:2610.38410",
+   "title": "PyMsOfa 2.0: A Pure-Python Implementation of the IAU Standards of Fundamental Astronomy Service",
+   "abstract": "Astrometric calculations require authoritative algorithms so that every result is correct and reproducible. The Standards of Fundamental Astronomy (SOFA) service of the International Astronomical Union (IAU) provides such algorithms, officially released only in Fortran 77 and ANSI C. In an earlier paper we presented the first version of PyMsOfa, a Python package wrapping the SOFA C library. Here we present PyMsOfa 2.0, which re-implements the complete SOFA library in pure Python with NumPy. All 247 official SOFA routines are ported directly to Python, requiring no compilation of any external C library and running identically on Linux, Windows, and macOS. The routines operate on NumPy arrays, so arguments can be processed in batch, which is convenient for survey pipelines and Monte Carlo simulations. The package also provides an extension module with validated models not yet part of the official SOFA release, such as the improved precession--nutation model IAU 2006$_{J_2}$/2000A$_{R26}$. The reimplementation reproduces the official SOFA algorithms: all constants, series, and coefficients are taken unchanged from the SOFA source files, and routine names differ only by the pym prefix. We verify every routine against the official SOFA C release: most reproduce the C results to machine precision, the remainder within the accuracy tolerance stated in the SOFA documentation. The package has been applied to Gaia astrometric reduction and used in astrometric studies of the Closeby Habitable Exoplanet Survey (CHES) mission, and is available through PyPI, GitHub, and Zenodo.",
+   "authors": [
+    "Dongjie Tan",
+    "Jianghui Ji",
+    "Jiacheng Liu"
+   ],
+   "link": "https://arxiv.org/abs/2610.38410v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "PyMsOfa 2.0 使用NumPy将国际天文学联合会(IAU)基础天文学标准(SOFA)库的全部247个例程重新实现为纯Python代码，无需编译外部库即可在多平台运行，并支持批量处理NumPy数组以便用于巡天管道和蒙特卡洛模拟。该实现保持与官方SOFA C版本的算法一致性，经过逐例程验证后达到机器精度或文档规定的精度要求，已应用于盖亚星表天体测量归约和CHES任务的天体测量研究。该软件包还包含改进的章动模型IAU 2006$_{J_2}$/2000A$_{R26}$等扩展模块，通过PyPI、GitHub和Zenodo发布。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/ae77fd",
+   "title": "The 3D Cosmic Shoreline for Nurturing Planetary Atmospheres",
+   "abstract": "Abstract Various “cosmic shorelines” have been proposed to delineate which planets have atmospheres. The fates of individual planetary atmospheres may be set by a complex sea of growth and loss processes, driven by unmeasurable environmental factors or unknown historical events. Yet, defining population-level boundaries helps illuminate which processes matter and identify high-priority targets for future atmospheric searches. Here, we provide a statistical framework for inferring the position, shape, and fuzziness of an instellation-based cosmic shoreline, defined in the 3D space of planet escape velocity, planet bolometric flux received, and host-star luminosity. We circumvent the need to estimate each individual host star’s historical X-ray and extreme ultraviolet fluences by including luminosity in the definition of the shoreline, explicitly modeling how sharply such drivers of atmospheric escape intensify toward lower-luminosity M dwarf stars and marginalizing over the associated uncertainties. Using solar system and exoplanet atmospheric constraints, under the assumption that one planar boundary applies across a wide parameter space, we find the critical flux threshold for atmospheres scales with escape velocity with a power-law index of p = 5 . 90 − 0.43 + 0.61 , steeper than the canonical literature slope of p = 4, and scales with stellar luminosity with a power-law index of q = 1.1 7 − 0.20 + 0.28 , steep enough to disfavor atmospheres on Earth-sized planets out to the habitable zone for stars less luminous than log 10 ( L ⋆ / L ⊙ ) = − 2.2 3 − 0.21 + 0.18 (roughly spectral type M4V). This model provides quantitative predictions for the probability that any given planet possesses an atmosphere, which will be rigorously tested by upcoming JWST Rocky Worlds observations.",
+   "authors": [
+    "Zach K. Berta-Thompson",
+    "Patcharapol Wachiraphan",
+    "Catriona A. Murray"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/ae77fd",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究建立了一个统计框架，在逃逸速度、行星接收的恒星辐射通量和恒星光度构成的三维参数空间中，推导行星大气存在的宇宙分界线位置、形态和不确定性。通过将恒星光度显式纳入模型以避免难以测量的历史X射线和极端紫外辐射通量，研究发现临界通量阈值与逃逸速度的幂律关系指数为p=5.90±0.52（陡于经典值4），与恒星光度的关系指数为q=1.17±0.24，这意味着在光度低于log₁₀(L⋆/L⊙)=-2.23的M矮星（约M4V型）外，地球大小行星即使位于宜居带也难以保留大气。该模型为预测任意行星保有大气的概率提供了定量工具，可被近期JWST岩石行星观测严格检验。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aea60c",
+   "title": "Multiple Regular Frequency Spacings in δ Scuti Stars from Automated Analysis of TESS Oscillation Spectra",
+   "abstract": "Abstract The oscillation spectra of rapidly rotating δ Scuti stars are difficult to interpret because rotation modifies both the frequencies and spatial structure of the modes. Although theoretical studies predict that acoustic modes should organize into approximately equally spaced frequency sequences, systematic searches for such patterns have been limited by the absence of scalable, statistically robust detection methods. We present an automated statistical framework for identifying approximately equally spaced mode sequences in stellar oscillation spectra while quantifying the significance of each candidate detection. We apply this method to oscillation spectra of 4681 δ Scuti stars observed by the Transiting Exoplanet Survey Satellite (TESS). The analysis identifies regular mode sequences in a large number of stars and, in many cases, reveals multiple independent regular frequency spacings within the same oscillation spectrum. While the existence of regular sequences is broadly consistent with theoretical expectations for rapidly rotating acoustic modes, the occurrence of multiple dissimilar spacings is not readily explained by current models. Differences in acoustic travel times between known island-mode families appear insufficient to account for the observed diversity of spacings, suggesting that additional mode families or other physical effects contribute to the organization of oscillation spectra of δ Scuti stars. Our results provide a scalable framework for studying regular mode sequences in large stellar surveys and new observational constraints on oscillations in rapidly rotating stars.",
+   "authors": [
+    "Shravan M. Hanasoge",
+    "Shashwat Chamoli",
+    "Subrata Kumar Panda",
+    "Daniel R. Reese"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aea60c",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究针对快速自转δ Scuti星的振荡频谱难以解释的问题,开发了一套自动化统计框架来识别近似等间距的模式序列,并应用于TESS观测的4681颗δ Scuti星的振荡谱。分析结果表明许多星体内存在多个不同的等间距频率序列,这一现象超出了现有理论对快速自转声学模式的预测,暗示可能存在未知的模式族或其他物理机制控制这些星体的振荡谱结构。该方法为大规模恒星巡测中的规则模式序列研究提供了可扩展的工具和新的观测约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aeaee4",
+   "title": "Discovery and Characterization of the TOI-4468 Planetary System: A Transiting Hot Jupiter with a Lone Nearby Outer Companion",
+   "abstract": "Abstract We report the discovery of two planets, a hot Jupiter (HJ) and a nearby outer sub-Neptune, orbiting the star TOI-4468. This system is unique among the current exoplanet census in that it features a close outer companion to a HJ without an accompanying inner companion. By jointly fitting radial velocity (RV) measurements taken with the NEID spectrograph and transit photometry from the Transiting Exoplanet Survey Satellite (TESS) and several ground-based observatories, we constrain the orbital periods, masses, and radii of these two planets. We confirm the planetary nature of the HJ TOI-4468 b ( R = 1.01 R J , m = 0.54 M J , P = 2.77 days). We also validate the outer planet TOI-4468 c ( R = 0.28 R J , P = 7.01 days) statistically, incorporating constraints from ground-based observations. We also identify, but cannot confirm, an additional RV signal that may be due to an outer giant in this system with an orbital period of 624 days. From the observed geometry of this system, we argue that it must never have encountered an early secular resonance that is thought to excite the mutual inclination of other HJ/outer companion systems. We discuss the possibility of an undetected inner companion, as well as potential implications for HJ formation.",
+   "authors": [
+    "Joseph R. Livesey",
+    "Benjamin J. Hord",
+    "Juliette Becker",
+    "Andrew Vanderburg",
+    "Joseph E. Rodriguez",
+    "Elise Koo",
+    "Chelsea X. Huang",
+    "Guðmundur Stefánsson",
+    "Karen A. Collins",
+    "Ivan A. Strakhov",
+    "Zijun He",
+    "Maxwell A. Kroft",
+    "Robert Aloisi",
+    "Khalid Barkaoui",
+    "Fabian Rodriguez Frustaglia",
+    "Alyssa Jankowski",
+    "Kinga Kasprzyk",
+    "Judith Korth",
+    "Coleman Nelson",
+    "Hannu Parviainen",
+    "Adam Popowicz",
+    "Manfred Raetz",
+    "Richard P. Schwarz",
+    "Eva Stafne",
+    "Keivan G. Stassun",
+    "Thomas G. Beatty",
+    "Paul Foster",
+    "Thomas MacLean",
+    "Devansh Mathur",
+    "Lizhou Sha",
+    "Melinda Soares-Furtado"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aeaee4",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过联合NEID径向速度测量和TESS及地面观测的凌星光度测量，发现并表征了TOI-4468系统中的热木星TOI-4468 b和近邻亚海王星TOI-4468 c，该系统独特之处在于热木星外侧伴星的孤立配置而无内侧伴星。观测结果显示该系统未经历过激发相互倾角的早期世俗共振，这对理解热木星与外伴星的几何构型及热木星形成机制提供了重要约束。研究还识别出可能存在的624天周期外侧巨行星信号，为该系统的动力学演化和形成历史提供了新的研究线索。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662020",
+   "title": "The GAPS Programme at TNG. LXXXI. The puzzle of the HeI absorption signal in the atmosphere of V1298Taub with GIARPS@TNG",
+   "abstract": "Atmospheric escape shapes the mass, radius, and atmospheric composition of close-in planets, primarily over their first tens of Myr. The young system (10,--,30 Myr) represents a benchmark for investigating photoevaporation and planetary evolution at early stages of a system's existence. The metastable ̋ei near-infrared triplet is a key proxy for exoplanetary atmospheric escape. We aim to detect and characterise ̋ei in the extended atmosphere of We analysed four transits spanning a four-year baseline using the GIARPS (GIANO-B + HARPS-N) observing mode at the Telescopio Nazionale . We re-derived the projected spin-orbit angle by modelling the Rossiter-McLaughlin effect. Using the simultaneous optical and near-infrared high-resolution transmission spectroscopy of ) to disentangle stellar activity from planetary evaporation. Galileo we monitored the ̋ei triplet alongside key chromospheric indicators (łogrhk, ̋a, and Na i While the stellar spectra show significant night-to-night variability, transmission spectroscopy reveals persistent absorption across all four epochs. This contrasts with optical indicators (̋a and He i Na i ), observed over the two nights with simultaneous optical monitoring, which fluctuate between emission and absorption due to stellar activity. The consistent presence of over these four years could suggest a planetary origin, despite stellar-driven depth modulation. hydrodynamic simulations show that stellar XUV flux variations significantly modulate the ̋ei absorption depth and equivalent width. Furthermore, stellar wind fluctuations likely drive the observed night-to-night variability of the exospheric structure. He i ATES The detection of ̋ei across all epochs could support the assumption of planetary evaporation, despite it being modulated by stellar activity. Our results underscore the fact that disentangling a planetary signal from stellar contamination remains a big challenge for highly active hosts. Ultimately, confirming the planetary nature of the ̋ei signature requires comprehensive activity monitoring and full transit coverage to establish a robust baseline.",
+   "authors": [
+    "G. Guilluy",
+    "J. Orell-Miquel",
+    "A. Sozzetti",
+    "M. C D'Arpa",
+    "N. Greco",
+    "A. F. Lanza",
+    "D. Sicilia",
+    "A. Caldiroli",
+    "R. Spinelli",
+    "D. Locci",
+    "P. Leonardi",
+    "L. Mancini",
+    "S. Colombo",
+    "M. Rainer",
+    "F. Borsa",
+    "A. Maggio",
+    "A. S. Bonomo",
+    "L. Affer",
+    "V. Andretta",
+    "F. Biassoni",
+    "A. Bignamini",
+    "W. Boschin",
+    "M Brogi",
+    "C. Di Maio",
+    "L. Fossati",
+    "E. Gallo",
+    "F. Haardt",
+    "M. López-Puertas",
+    "V. Lorenzi",
+    "L. Malavolta",
+    "J. Maldonaldo",
+    "F. Manni",
+    "G. Micela",
+    "F. Murgas",
+    "V. Nascimbeni",
+    "E. Palle",
+    "J. Sanz-Forcada",
+    "G. Scandariato",
+    "J. Southworth",
+    "J. Tregloan-Reed"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662020",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究利用TNG望远镜的GIARPS高分辨率传输光谱仪观测了年轻系统V1298Tau b大气中的HeI中红外三重线，通过四年基线内四次凌星的同步光学和近红外观测，结合Rossiter-McLaughlin效应和流体动力学模型，探讨了恒星活动与行星大气逃逸对HeI吸收信号的相对贡献。研究发现HeI吸收在四个观测历元中持续存在，尽管其深度受恒星XUV通量变化调制，这可能支持行星大气蒸发的假设，但同时揭示了在高活性主星系统中区分行星信号与恒星污染仍是重大挑战。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662829",
+   "title": "The colors of protoplanetary disks. Impact of nonspherical dust particles on the polarized and total intensity colors",
+   "abstract": "Dust properties in protoplanetary disks remain poorly understood despite their central role in planetary formation. A detailed observational characterization of their properties is crucial to improving our understanding of grain growth. Recent studies, based on analyses of scattered-light images and scattering phase functions, provide promising insights into dust characterization. However, the phase function alone is insufficient to constrain dust properties efficiently. In particular, degeneracies between dust size, composition, and morphology remain a major obstacle to linking observations to realistic dust models. We investigate the behavior of the disk color as a function of dust size, shape, and composition. The goal is to combine this with phase function measurements to most effectively constrain the dust properties. We used the 3D radiative transfer code MCFOST to generate synthetic scattered-light images of protoplanetary disks from the visible to the near-infrared, in both total and polarized intensity. We considered compact spherical grains using Mie theory. We used the optical properties computed with the T-matrix method or the discrete dipole approximation for irregular particles and for compact and fractal aggregates from the AggScatVIR database. We measured the disk colors directly from the synthetic images. We obtain five main results. (i) For aggregates larger than the wavelength, the monomer size plays a crucial role in determining the colors, whereas the aggregate size has a negligible effect, especially for low fractal dimensions. (ii) The polarized color is more sensitive to the dust properties than the total intensity color, likely because it combines the wavelength dependences of both the scattered intensity and the degree of polarization. (iii) The effective medium theory is a reliable approximation only for relatively compact aggregates composed of small monomers and becomes inaccurate for highly porous aggregates or those composed of larger monomers. (iv) The effective albedo is useful for predicting disk colors, but radiative transfer calculations are still required to account for the multiple scattering effect and quantitatively interpret disk colors. (v) For HD 100546, the red optical to near-infrared colors exclude compact grains and organic-rich compositions but are compatible with fractal or compact aggregates of amorphous carbon composition containing large monomers (200--400 nm). Our study of color based on synthetic data and its application to the example of the disk around HD 100546 shows that combining color measurements, or a color measurement with a polarized scattering phase function, offers a promising approach to breaking the degeneracy between dust models. Extending this approach to larger samples of disks with multiwavelength observations should provide better constraints on the properties and evolution of dust and motivate the use of color in future studies of protoplanetary disks.",
+   "authors": [
+    "M. Roumesy",
+    "J. Ma",
+    "R. Tazaki",
+    "F. Ménard",
+    "G. Duchêne"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662829",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过三维辐射传输模型生成原行星盘的多波长散射光合成图像，系统研究了非球形尘埃颗粒的大小、形态和成分对盘色（偏振和总强度）的影响。研究发现偏振色对尘埃性质的敏感性更高，聚集体的单体尺寸而非聚集体尺寸是决定颜色的关键因素，且有效介质理论仅对低孔隙度聚集体适用。将色度测量与散射相函数结合可有效打破尘埃模型的简并性，对HD 100546的应用表明其红外色排除了致密颗粒和富有机物成分，而与含大单体的无定形碳聚集体相符。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660740",
+   "title": "Diversity of planetary origins and compositions traced by stellar abundance differences among co-natal star systems",
+   "abstract": "So called co-natal stars are wide binaries that form from the same molecular cloud and are expected to share the same stellar composition. However, observations indicate stellar abundance differences in a small fraction of these co-natal systems. These stellar abundance differences have been attributed to the ingestion of planets by their host stars. In this study, we analyze a previous sample of co-natal stars to determine the composition of the planets that had been ingested by their host stars. The abundance differences in these co-natal pairs come in different flavours, where systems can show a positive abundance difference of the refractory elements (Fe, Mg, Si) paired with a positive, zero, or negative abundance difference of volatiles (O, C, S). Positive trends of refractory and volatile abundance differences can be explained (at minimum) by the ingestion of a single planet by one of the stars. However, positive trends of refractory abundance differences paired with zero or negative abundance differences of oxygen and carbon imply that both stars are required to ingest planets formed at different locations (i.e. interior or exterior to the water and/or carbon grain evaporation front). Furthermore, some systems show a sulfur abundance difference that is a factor of a few lower than the abundance difference of Fe, Si, and Mg, even though sulfur is mostly accreted via the moderately volatile compound FeS. We show that this can be explained by the migration of one of the planets across the FeS evaporation front, where the planet first accretes large amounts of sulfur with the solids and then no sulfur, while still accreting the other refractory elements before being ingested by its host star. Our study shows that the planetary compositions derived from the detailed stellar abundances are sufficient to explain the measured abundance differences of co-natal stars, giving us a handle on the composition of exoplanets. At the same time it implies very different planetary compositions caused by the different formation location of these planets, in agreement with planet formation models dedicated to the formation of inner super-Earths and sub-Neptunes.",
+   "authors": [
+    "Bertram Bitsch",
+    "Fan Liu",
+    "Haiyang S. Wang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660740",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过分析共生恒星对中的恒星丰度差异，推断曾被恒星吸积的行星的组成成分。研究发现，难熔元素（Fe、Mg、Si）和挥发性元素（O、C、S）丰度差异的不同组合模式反映了行星在不同位置（相对于水和碳晶粒蒸发线）的形成历史，以及行星在FeS蒸发线处迁移的证据。这些结果表明行星的不同组成与其形成位置直接相关，为理解系外行星组成和行星移动过程提供了新约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202663065",
+   "title": "Asteroseismic properties of young pulsators in the Perseus molecular cloud. Discovery of period-spacing patterns in HD 281229",
+   "abstract": "Very young pulsating stars, including pre-main sequence pulsators, provide a rare opportunity to probe stellar interiors and investigate rotation during the earliest phases of stellar evolution. However, they remain relatively unexplored, particularly in the intermediate-mass regime. We aim to identify and characterise young pulsating stars in the Perseus molecular cloud using photometric data from the Transiting Exoplanet Survey Satellite (TESS). We compiled -based membership catalogues for the Perseus molecular cloud, applied selection criteria to isolate young intermediate-mass stars, and extracted light curves from TESS full-frame images. Variability classification was performed using Lomb--Scargle periodograms and iterative pre-whitening. For confirmed pressure-mode pulsators, we estimated the frequency of maximum pulsation power, ν_ Gaia max . For gravity-mode candidates, we searched for period-spacing patterns and fitted them using the traditional approximation of rotation. From the 148 membership-selected targets, we identified eight pressure-mode pulsators and two objects showing possible gravity-mode pulsations. We also analysed the previously known δ Sct star V705 Per, bringing the total sample to 149 targets. One of the gravity-mode pulsators, HD 281229, is the youngest star known to date with a detected and modelled period-spacing pattern. By simultaneously fitting the dipole and quadrupole period-spacing patterns, we estimate an asymptotic period spacing of (Π_0=4776 ) and a near-core rotation frequency of (f_ =1.317 ^ s rot d -1 ). These results highlight the potential of asteroseismology to probe the internal structure and rotation of very young stars. The detected period-spacing pattern in HD 281229 shows that gravity-mode asteroseismology can provide meaningful constraints on the properties of stars at early evolutionary stages.",
+   "authors": [
+    "Saakshi Wadhwa",
+    "Dario J. Fritzewski",
+    "Gang Li",
+    "Simon J. Murphy"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202663065",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究利用TESS测光数据在英仙座分子云中识别和表征年轻脉动星,特别是中等质量的前主序星,以探测其内部结构和早期演化阶段的旋转特性。通过Lomb-Scargle周期图分析和迭代预白化方法,我们发现8个压力模式脉动星和2个重力模式候选体,其中HD 281229是迄今发现最年轻的具有可检测周期间距图样的恒星。通过同时拟合偶极和四极周期间距图样,我们获得了该星的渐近周期间距和近核旋转频率,证明了重力模式星震学在探测极早期演化阶段恒星内部结构和旋转性质方面的有效性。"
+  }
+ ],
  "2026-10-29": [
   {
    "id": "arxiv:2610.37540",
@@ -10723,32 +11007,6 @@
     "atmospheric"
    ],
    "summary_zh": "本研究通过一年期原位观测活动,采用气象塔、微波辐射计和沙克-哈特曼像动监测仪对沙特阿拉伯AlUla Manara天文台址进行了首次表征,重点刻画了夜间边界层结构及光学湍流的垂直分布特征。结果表明冷季中值视宁度为1.12″,最低层(0–4 km)湍流占比中值为0.72,反演强度与该占比呈正相关(rs = +0.25),而反演高度无显著关联;西向和南向风与坏视宁度事件关联显著。该研究为AlUla台址建立了原位观测基准,为后续多季节高分辨率湍流监测提供了约束条件。"
-  }
- ],
- "2026-08-31": [
-  {
-   "id": "doi:10.1051/0004-6361/202660777",
-   "title": "A semi-analytical surrogate model for giant planet evolution. Bypassing ordinary differential equation solvers with localised thermodynamics, softplus asymptotes, and B-spline photometry",
-   "abstract": "Evolutionary models translate the observable luminosity, temperature, and colours of giant planets and brown dwarfs into mass and age. Generating their cooling tracks normally requires integrating the internal energy over time with an ordinary differential equation (ODE) solver coupled to pre-computed atmospheric grids, which becomes numerically stiff at sharp transitions such as cloud condensation and the onset of electron degeneracy, and is fragile inside Bayesian retrievals. We aim to generate continuous cooling tracks and photometric light curves directly from discrete atmospheric grids, without an ODE solver. We mapped the grids into a logarithmic thermodynamic space and extracted localised surrogate models with Gaussian-weighted regressions at fixed planetary parameters. We fitted the entropy and cooling rate against the internal temperature using bounded piecewise softplus functions to capture structural and cooling-rate transitions; the radius was fitted on the same temperature axis; and band photometry was represented with fixed-knot cubic B-splines. The age followed from numerical integration of these analytic functions, and uncertainties were propagated from the residual scatter of each fit. The surrogate, , reproduces the transition into electron degeneracy and the L-to-T spectral-type transition in the colour--magnitude diagram, converges on Solar System benchmarks, and evaluates a full evolutionary track in milliseconds on a standard desktop CPU. CoolTrack By removing the forward-modelling bottleneck, is suitable for direct use in Bayesian retrieval pipelines, where the age, mass, and formation entropy of a planet can be inferred jointly with its atmospheric properties. CoolTrack",
-   "authors": [
-    "C. Wilkinson",
-    "J. Wehrung-Montpezat",
-    "B. Charnay",
-    "M. Mâlin",
-    "L. Delaye",
-    "A.-M. Lagrange",
-    "V. Squicciarini",
-    "J. Mazoyer",
-    "S. Mazevet",
-    "B. Perrier"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202660777",
-   "source": "Astronomy & Astrophysics",
-   "category": "行星大气",
-   "matched": [
-    "atmospheric"
-   ],
-   "summary_zh": "本研究开发了一个半解析代理模型CoolTrack，用局部热力学、softplus渐近函数和B样条光度法直接从大气网格生成巨行星冷却轨迹和测光曲线，绕过了传统ODE求解器在云凝聚和简并态等陡峭转变处的数值刚性问题。该模型通过Gaussian加权回归在对数热力学空间中构建局部代理，能在毫秒量级计算完整演化轨迹，准确再现电子简并和L-T谱型转变。CoolTrack移除了前向建模瓶颈，特别适用于贝叶斯反演管道，可同时推断行星的年龄、质量、形成熵和大气性质。"
   }
  ]
 }
