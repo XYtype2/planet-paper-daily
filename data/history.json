@@ -1,4 +1,164 @@
 {
+ "2026-11-05": [
+  {
+   "id": "arxiv:2611.05740",
+   "title": "The impact of M dwarf stellar convection on exoplanetary atmospheric signatures. A 3D radiation-hydrodynamics simulation analysis for high-resolution spectroscopy",
+   "abstract": "M dwarf stars represent prime targets for the detection and characterization of small, temperate exoplanets; however, their complex activity and convective surfaces pose significant challenges for high-resolution spectroscopic studies. This work aims to investigate the impact of stellar convection on high-resolution spectroscopic observations of M dwarf stars and develop an integrated approach combining 3D radiative hydrodynamical simulations, spectroscopic modeling, and transit analysis to mitigate stellar noise. We employ 3D radiative hydrodynamical simulations of M dwarf stellar convection to generate synthetic spectra. We compare the synthetic spectra to actual observations of GJ 3470. We model a high-resolution transit sequence of the Neptune-size GJ 3470 b, including centre-to-limb variations (CLVs) and the Rossiter-McLaughlin effect (RME), and process the sequence via principal component analysis (PCA) to de-trend stellar effects. Comparison of synthetic spectra with actual observations shows that current H2O line lists remain inaccurate, with modest agreement in line strength and position for the chosen K-band interval. During the transit of GJ 3470 b, the amplitude of CLVs+RME is comparable to exoplanet signals. Current PCA can in principle de-trend such effects, but its behaviour is highly dependent on the copresence of telluric and planetary signals. While we are able to correctly detect the exoplanet with no evident bias from stellar residuals, this result is limited to a narrow spectral interval and a specific orbital configuration. This study demonstrates that 3D radiative hydrodynamical simulations are essential for accurately modeling convection-induced spectral variability in M dwarfs. Our integrated framework establishes a foundation to obtain unbiased measurements from future ELT observations of exoplanets orbiting M dwarfs.",
+   "authors": [
+    "A. Chiavassa",
+    "M. Brogi",
+    "T. Masseron",
+    "R. Van den Broeck",
+    "L. Bigot",
+    "V. Parmentier"
+   ],
+   "link": "https://arxiv.org/abs/2611.05740v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过3D辐射流体动力学模拟M矮星对流层的光谱特征，结合高分辨率光谱观测和过境分析，调查了恒星对流对系外行星大气检测的影响。研究发现，中心到边缘变化和Rossiter-McLaughlin效应产生的恒星噪声与系外行星信号相当，需要通过主成分分析等方法进行去趋势处理，同时揭示了当前水分子线表数据的不准确性。该工作建立了一个综合框架，为未来极大型望远镜对M矮星周围行星大气的无偏测量奠定了基础。"
+  },
+  {
+   "id": "arxiv:2611.05535",
+   "title": "On the Detectability of Compact Multi-Planet Systems via Gravitational Microlensing",
+   "abstract": "Compact multi-planet systems orbiting ultracool dwarfs, such as TRAPPIST-1, may be a major population of terrestrial worlds with poorly constrained demographics. Individual close-in planets are expected to escape microlensing detection, but whether a compact system can produce a detectable collective signal remains to be quantified. We calculate the microlensing signal from each TRAPPIST-1 planet, and of all seven combined, if the system were a lens toward the bulge. For a 0.09 $M_\\odot$ lens at 4 kpc, $R_E \\approx 1.21$ AU, placing the planets at $s = 0.010$--$0.051~θ_E$, 12--63 times interior to the lensing zone. We measure each signal as the residual after fitting a single-lens model, which accounts for the barycentric dipole. Because the quadrupole term cancels between the two images to first order, the residual scales as the octupole ($q s^3$), reaching $|δA / A| \\sim 10^{-6}$. The seven planets combined yield $Δχ^2 \\sim 10^{-3}$ even at 1~mmag precision, five orders of magnitude below the standard detection threshold. Detection requires increasing all planet masses by a factor of $\\sim$300, whereas the resonant chain loses its guarantee of Hill stability at a factor of $\\sim$7. Only a lens within $\\sim$15 pc of the source or the Sun places the outer planets in the lensing zone. The Nancy Grace Roman Space Telescope is therefore not expected to detect a TRAPPIST-1-like system through microlensing, whereas its transit channel in the same fields can detect such planets in large numbers, marking a sharp boundary in the Galactic census between microlensing and transit sensitivity.",
+   "authors": [
+    "Stephen R. Kane"
+   ],
+   "link": "https://arxiv.org/abs/2611.05535v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "microlensing"
+   ],
+   "summary_zh": "本研究计算了类似TRAPPIST-1系统的紧凑多行星系统作为引力微透镜透镜体时的可探测性,发现各行星产生的微透镜信号主要由八极矩项主导,7颗行星的联合信号即使在1毫星等精度下也仅为Δχ²~10⁻³,远低于标准探测阈值5个数量级。只有当行星质量增加约300倍(超过系统Hill稳定性临界值)或透镜距离极近(~15 pc以内)时才能实现探测,表明南希·格蕾丝·罗曼空间望远镜的微透镜通道无法有效探测这类系统,而其凌星通道则可在同一视场大量探测此类行星。"
+  },
+  {
+   "id": "arxiv:2611.04976",
+   "title": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) XII. Constraints on large bodies embedded in discs",
+   "abstract": "The ALMA survey to Resolve exoKuiper belt Substructures (ARKS) presents detailed constraints on structure and properties of a sample of 24 debris discs at millimetre wavelengths, including measurements of vertical thicknesses for a subsample of discs. We estimated sizes and total masses of large bodies that feed collisional cascades producing the observed millimetre dust in 11 ARKS discs with a well constrained vertical thickness. Separately, we estimated the sizes and total masses of large bodies that could be gravitationally stirring these discs, assuming that such stirring is the origin of the vertical thickness. We used a semi-analytic particle-in-a-box collisional model and a semi-analytic model of stirring through gravitational scattering. We accounted for the dependence of collisional damping efficiency on the average collision velocity. We find that planetesimals feeding the collisional cascades are less than 20 km in size, while the total masses in the planetesimals are lower than 200 M$_\\oplus$. There is a good agreement between minimum disc masses inferred from millimetre and infrared observations. The hypothetical stirrers are always larger in size than the planetesimals, but they do not necessarily contain most of the disc mass. In agreement with previous work, the observed dust masses can be explained by steady-state collisional models with reasonable disc masses. The measured vertical scale-heights can be explained by gravitational stirring from embedded large bodies of reasonable properties. However, more advanced models are needed to address the observed non-Gaussian vertical profiles, along with the dependence of disc scale-height on particle size and stellocentric distance.",
+   "authors": [
+    "M. R. Jankovic",
+    "A. V. Krivov",
+    "T. D. Pearce",
+    "A. A. Sefilian",
+    "M. C. Wyatt",
+    "E. Chiang",
+    "C. del Burgo",
+    "Y. Han",
+    "J. Jovicic",
+    "S. Marino",
+    "B. Zawadzki",
+    "A. M. Hughes",
+    "T. Löhne",
+    "P. Luppe",
+    "J. P. Marshall",
+    "Th. Henning",
+    "H. E. Schlichting",
+    "S. Mac Manamon",
+    "N. Pawellek",
+    "D. J. Wilner"
+   ],
+   "link": "https://arxiv.org/abs/2611.04976v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过ALMA观测11个碎屑盘的毫米波数据和垂直厚度测量，采用碰撞级联和引力散射半解析模型，约束了盘内大天体的尺度和质量。研究发现供应碰撞级联的微行星小于20 km，总质量低于200地球质量，而引力扰动盘的天体虽然更大但不一定含有大部分盘质量。观测到的尘埃质量和盘的垂直厚度可分别由稳态碰撞模型和嵌入式大天体的引力扰动解释，但需要更先进的模型来解释非高斯垂直分布和厚度对粒径与半径的依赖关系。"
+  },
+  {
+   "id": "arxiv:2611.05435",
+   "title": "From Earth's Harshest Landscapes to Lunar Horizons: Engineering NEA Telescopes for Extreme Environments",
+   "abstract": "Near-Earth Asteroids (NEAs) represent both a scientific opportunity and a potential threat to human civilization. While current survey programs have successfully detected most large NEAs, a significant observational gap remains for objects smaller than approximately 140 m, which can still produce regional-scale devastation. Ground-based surveys are intrinsically limited by atmospheric conditions, weather, and solar avoidance constraints, which leave a significant fraction of near-Sun objects difficult to detect. In particular, Earth-based observatories remain largely blind to objects approaching from the Sun-ward direction, reducing available warning times. Future lunar observatories offer a promising solution to this limitation. A telescope operating on the Moon could enable observations of regions inaccessible from Earth, provide enhanced sensitivity, and significantly improve early detection capabilities. However, the lunar environment imposes severe engineering constraints, including thermal cycling, dust contamination, radiation exposure, and autonomous operation requirements. We propose the AMAS(Atacama-Mongolia-Antarctica-Sahara) project, an international initiative using Earth's most extreme environments as analogue sites for future lunar astronomical facilities. By deploying and testing specialized NEA survey telescopes in these environments, key technologies for future lunar observatories can be validated under realistic operational conditions. This paper presents the scientific rationale, engineering challenges, site selection strategy, and long-term roadmap toward a global Earth-Moon network for planetary defense.",
+   "authors": [
+    "M. Hadjara",
+    "A. Pomazan",
+    "H. Ji",
+    "Q. Dong",
+    "J. Zheng",
+    "M. Yindun",
+    "L. Cament",
+    "M. Adams",
+    "M. Diaz",
+    "R. Mendez",
+    "B. Foing",
+    "M. Meftah",
+    "Z. Ping",
+    "R. Ikhlef",
+    "D. Baba Aissa"
+   ],
+   "link": "https://arxiv.org/abs/2611.05435v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究针对当前地基巡天对小型近地小行星(140 m以下)和太阳方向天体的观测盲点问题,提出在月球建立观测站的科学需求。研究采用在地球极端环境(阿塔卡玛沙漠、蒙古、南极、撒哈拉沙漠)部署和测试小行星巡天望远镜的方法,验证月面观测所需的关键技术在恶劣条件下的可行性。最终目标是建立地月一体化行星防御观测网络,显著提升近地小行星的早期预警能力。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659492",
+   "title": "Simultaneous photometric, spectroscopic, and FAST radio observations of AD Leo",
+   "abstract": "Aims. AD Leo is a magnetically active M-dwarf star, well known for its frequent and intense flare activity. These flares manifest across a broad range of wavelengths, from radio to optical: radio observations probe non-thermal processes in the magnetosphere, while optical photometry and spectroscopy trace the responses from the chromosphere and photosphere. However, multi-wavelength coordinated observations of AD Leo remain scarce. In this study, we conducted simultaneous multi-band observations of AD Leo, including radio and optical light curves as well as spectroscopic data, to investigate the relationship between chromospheric activity and radio emission during flare events. Methods. The Five-hundred-metre Aperture Spherical radio Telescope (FAST) data cover the 1-1.5 GHz frequency range, and dynamic spectra were used to identify radio signals from AD Leo. Optical spectroscopic observations span the 3900-9800,Å wavelength range, and chromospheric activity was analysed using key diagnostic lines such as Hα, Hβ, Hγ, and He I D3. For the photometric data, flare events were detected and characterized by applying a repeated fitting method to the light curves obtained from Transiting Exoplanet Survey Satellite (TESS) and the 85 cm telescope. Results. We detected four radio burst events with FAST during two observing epochs, characterized by high circular polarization, narrow bandwidths, and millisecond to sub-millisecond fine structures. The polarization handedness is stable within individual events but differs between epochs. Optical spectroscopy reveals 16 flare events with significant enhancements in multiple chromospheric lines, with Hα flare energies of ∼ 9.97 -6.27 29 Optical photometry identifies 32 flares from the 85 cm telescope, with flare energies ranging from to 10^33.55,erg and a flare frequency distribution slope of α ≈ -1.02, and 144 flares from TESS, spanning bolometric energies of with a slope of α ≈ -0.94. For the 2025 January 12 event, no reliable optical counterpart could be established because simultaneous 85 cm photometry was unavailable and the spectroscopic observations did not cover the radio-burst interval. On 2025 February 06, one radio burst temporally overlapped the decay phase of a small optical flare and enhanced chromospheric emission, whereas the other radio bursts occurred later. These observations therefore suggest a possible, but not definitive, temporal association between the radio and optical activity.",
+   "authors": [
+    "Tianhao Su",
+    "Liyun Zhang",
+    "Qingfeng Pi",
+    "Linyan Jiang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659492",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "transiting exoplanet"
+   ],
+   "summary_zh": "本研究通过FAST射电望远镜、光学分光和测光观测同步监测活跃M矮星AD Leo，探究其耀斑事件中射电发射与色球活动的关联机制。观测发现4次射电爆发事件具有高圆偏振和毫秒量级精细结构，同时检测到32次光学耀斑，其能量分布遵循幂律分布，部分射电爆发与光学耀斑衰退相位及色球增强具有时间相关性。研究结果表明AD Leo耀斑中射电和光学活动存在可能但不确定的时间关联，为理解磁活跃恒星磁层非热过程提供了多波段观测证据。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660389",
+   "title": "A comparison of particle and fluid approaches for modeling the streaming instability in global patch simulations",
+   "abstract": "Identifying the process relevant to planet formation is still a major task. Mechanisms have been identified that can trap dust and prevent it from migrating inward. A particular hydrodynamic instability, known as the streaming instability, is of high interest because it might cause the formation of dust clumps from which the first planetesimals form. We compared the outcome of nonlinear streaming instability simulations using two fundamental approaches in a more realistic global disk model. The results were not used to identify or disentangle the effect of numerical diffusion in fluid simulations, for instance, or the possibility of crossing particle streams. Instead, they enabled us to determine whether the Lagrangian particle approach is most suitable for numerical studies of the streaming instability. We performed 2D axisymmetric global and isothermal hydrodynamic simulations using the two codes FARGO3D (dust fluid) and PLUTO (fluid and particles) to investigate the temporal evolution of dust scale height, the midplane dust-to-gas ratio, and the maximum dust density, as well as to study velocity distributions and vorticities. For PLUTO particle simulations, we also investigated the influence of the gas Riemann solver and spatial reconstruction orders. Our results from a resolution study of up to 5120 cells per gas scale height indicate convergence between PLUTO fluid and FARGO3D. The two codes yield a Gaussian profile that is dominated by small-scale dust-depleted voids. The particle simulations with PLUTO have not yet converged because a transient midplane dust component persists, indicating the need for an even higher resolution or more particles. A more accurate Riemann solver or a higher-order spatial reconstruction scheme helps to cause the dust density profile to approach the converged structure. At the highest resolution, the maximum dust density in fluid simulations is only 36$%$ of that in particle simulations, which is similar to other code-comparison works. When the streaming instability is studied in a global sense, the choice of the Riemann solver and spatial reconstruction order becomes more important than the approach itself (fluid or particles). When the computational performance of the two dust treatments is included, the fluid approach provides an efficient and suitable tool for streaming instability simulations.",
+   "authors": [
+    "Dominik Hetzel Ostertag",
+    "Mario Flock",
+    "Paul Rosendahl",
+    "Andrea Mignone",
+    "Jeonghoon Lim",
+    "Jacob B. Simon"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660389",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过全球盘片模型中的二维轴对称模拟，比较了流体和拉格朗日粒子两种方法在模拟流动不稳定性中的结果，采用FARGO3D和PLUTO两个代码分别进行尘埃流体和流体/粒子模拟。研究追踪了尘埃尺度高度、中面尘气比和最大尘埃密度等关键参数，分辨率研究表明流体模拟在高分辨率下收敛到高斯分布，而粒子模拟需要更高分辨率；两种方法在最高分辨率下的最大尘埃密度相差36%。综合计算性能和数值收敛性，流体方法被证实是研究流动不稳定性和行星形成中尘埃团聚的更高效且可靠的工具。"
+  },
+  {
+   "id": "doi:10.1038/s41586-026-11213-z",
+   "title": "Imaging exoplanets below the telescope stability limit",
+   "abstract": "Abstract Exoplanet imaging is the main method for detailed characterization of planets orbiting beyond 1 au (ref. 1 ) but it requires suppressing the bright glare of the star to see the faint planet light. As well as sophisticated instrumentation 2,3 , effective image processing is necessary for starlight suppression, which continues to be a substantial limitation 4 . Standard algorithms use reference images for starlight modelling and thus they are limited by inevitable telescope instabilities that change from reference to science observation 5,6 . Addressing this challenge will increase the number of planets amenable to direct imaging and will be a notable step towards imaging exo-Earths with future observatories 7 . Here we present a new physics-based method for starlight subtraction. Our method combines a multistep optimization with a flexible physical model to produce a starlight model, allowing modelling and compensation of instrument instabilities. We use automatic differentiation (autodiff) 8 to optimize millions of model parameters. We demonstrate our method on observations from the James Webb Space Telescope (JWST) Near-InfraRed Camera (NIRCam) 9–11 coronagraph instrument. We achieve sensitivity 2–15 times superior to standard techniques, including the first detection of 51 Eridani b (ref. 12 ) at 4.3 μm. This is the first time, to our knowledge, that such an approach has demonstrated substantially improved sensitivity on real, on-sky coronagraphic imaging. Our framework can be extended to other current and future ground-based and space-based observatories, including the Nancy Grace Roman Space Telescope and the Habitable Worlds Observatory (HWO), potentially relaxing the unprecedented stability requirements needed to make these a success.",
+   "authors": [
+    "Rodrigo Ferrer-Chavez",
+    "Jason J. Wang",
+    "Katherine L. Bouman",
+    "William T. Freeman",
+    "Laurent Pueyo",
+    "Brandon Y. Feng",
+    "Marshall D. Perrin"
+   ],
+   "link": "https://doi.org/10.1038/s41586-026-11213-z",
+   "source": "Nature",
+   "category": "系外行星观测",
+   "matched": [
+    "direct imaging"
+   ],
+   "summary_zh": "本研究开发了一种基于物理模型的新型消星光方法，结合多步优化和自动微分技术来建立灵活的星光模型，能够有效补偿仪器不稳定性对系外行星成像的影响。在詹姆斯·韦伯太空望远镜NIRCam冠状仪的观测中，该方法相比标准技术灵敏度提升2-15倍，实现了对51 Eridani b在4.3 μm波段的首次探测。这项工作突破了望远镜稳定性限制，有望推动系外行星直接成像能力的提升，为未来罗马太空望远镜和宜居世界观测台等任务实现宜居地球成像创造条件。"
+  }
+ ],
  "2026-11-04": [
   {
    "id": "arxiv:2611.04332",
@@ -10197,35 +10357,5 @@
    "summary_zh": "本研究通过耦合一维大气模型与内部结构模型，调查了热木星大气C/O比对其大气边界条件、内部结构和半径的影响。结果表明，C/O比通过改变大气主要化学成分和不透明度，显著改变辐射对流边界处的温压条件，进而影响行星半径推导，其效应在平衡温度≳1500K且大气过太阳丰度的行星上超过3%的观测误差。这强调了在JWST观测约束下，将测量的C/O比纳入大气边界条件对获得热木星内部结构自洽推导的必要性。"
   }
  ],
- "2026-09-07": [],
- "2026-09-06": [
-  {
-   "id": "doi:10.1051/0004-6361/202660500",
-   "title": "Dust characterization of the HD 163296 disk with high-resolution multiwavelength ALMA observations",
-   "abstract": "Planets form through the growth and accumulation of dust grains in protoplanetary disks. The observational characterization of dust properties such as dust size, surface density, and temperature is key to understanding the planet formation process. We characterized the dust properties of the protoplanetary disk around HD 163296 by performing spectral energy distribution (SED) fitting of multiwavelength high-resolution observations. We present new high-resolution ALMA Band 9 (0.45 mm) observations, which are sensitive to the temperature. We performed SED fitting at a common resolution of 0 using these new Band 9 observations along with archival ALMA Band 3, 4, 6, and 7 observations. We also compared the fitted results with VLA observations. We explored multiple dust models with different optical constants and porosities. The Band 9 image shows the central disk, two rings at 0 and 1 and outer extended emission previously seen at other wavelengths. At higher frequencies, the rings appear wider, the gaps appear shallower, and the extended emission appears brighter, which can be explained by optical-depth effects and/or size segregation. We characterized the dust properties, including temperature, surface density, and dust size, for each dust model. However, the inferred dust properties are dependent on the dust model, and the ALMA data alone do not allow us to determine which dust model is preferred. We identified DSHARP Zubko (porous) as the preferred model based on a comparison with the VLA profiles and its consistency with other physical and observational constraints. The estimated temperature in the outer ring is lower than predicted by a passively irradiated disk model, suggesting shadowing by the inner ring. Although the estimated surface density and dust size are dependent on the dust model, the preferred model indicates that the central disk, both major rings, and the extended disk each contains more than a few Earth masses of dust.",
-   "authors": [
-    "Kiyoaki Doi",
-    "Myriam Benisty",
-    "Akimasa Kataoka",
-    "Haochang Jiang",
-    "Francesco Zagaria",
-    "Hauyu Baobab Liu",
-    "Carsten Dominik",
-    "Ryo Tazaki",
-    "Takahiro Ueda",
-    "Tomohiro C. Yoshida",
-    "Takashi Tsukagoshi",
-    "Yoshihide Yamato",
-    "Ryuta Orihara"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202660500",
-   "source": "Astronomy & Astrophysics",
-   "category": "行星形成与盘演化",
-   "matched": [
-    "planet formation",
-    "protoplanetary disk"
-   ],
-   "summary_zh": "本研究通过多波段ALMA高分辨率观测对HD 163296原行星盘进行光谱能量分布拟合,表征了尘埃粒度、表面密度和温度等关键性质。研究发现外环温度低于被动辐照模型预测值,表明存在内环遮挡效应;采用多种尘埃模型对比分析后,认为具有孔隙性的Zubko模型最优,据此估算中心盘、两个主环及外延伸区域均含有数个地球质量以上的尘埃。该工作揭示了尘埃结构与行星形成过程的关联,为理解盘内行星诱导的尘埃演化提供了重要约束。"
-  }
- ]
+ "2026-09-07": []
 }
