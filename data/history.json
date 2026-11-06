@@ -1,4 +1,346 @@
 {
+ "2026-11-06": [
+  {
+   "id": "arxiv:2611.07427",
+   "title": "Prospects for detecting hot-Jupiter tidal decay through transit timing with the mission Earth 2.0",
+   "abstract": "Orbital decay of hot Jupiters provides a unique opportunity to probe tidal dissipation in star-planet systems. However, despite extensive observational efforts, only one hot Jupiter, namely WASP-12b, currently exhibits conclusive observational evidence for orbital decay. Expanding this sample is therefore crucial for establishing a statistical understanding of tidal interactions in planetary systems. Long-term transit timing variations (TTVs) provide a direct observational probe of orbital decay induced by tidal dissipation between a hot Jupiter and its host star. The Earth 2.0 (ET) mission will revisit the original Kepler field, delivering high-precision transit timing measurements and extending the observational baseline to approximately 24 years (2009--2033). In this work, we aim to assess the capability of ET to detect orbital decay in hot Jupiters previously observed by Kepler. We generate four years of simulated ET light curves based on the expected photometric precision and observing cadence of the mission and analyze them jointly with archival Kepler and TESS observations. Using these combined datasets, we perform long-term TTV analyses and predict the achievable precision for measuring orbital period variations. We find that ET can substantially improve the precision of orbital decay measurements in hot Jupiter systems by a factor of 7.2. Assuming the stellar tidal quality factor inferred from previous observations, ET is expected to detect orbital decay in three additional hot Jupiter systems. The expanded sample of hot Jupiters with measured orbital decay will establish ET as a powerful probe of tidal dissipation in star-planet systems, providing tighter constraints on stellar tidal quality factors and new insights into the tidal evolution of hot Jupiters.",
+   "authors": [
+    "Wenqin Wang",
+    "Yue Wang",
+    "Di-Chang Chen",
+    "Hui Zhang",
+    "Jian Ge",
+    "Bo Ma"
+   ],
+   "link": "https://arxiv.org/abs/2611.07427v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究通过联合Kepler、TESS和Earth 2.0任务的凌星测时数据，评估了ET任务在检测热木星轨道衰减中的能力，以探测星-行星系统中的潮汐耗散。研究采用长期凌星时间变化(TTV)分析方法，预测了轨道周期变化的可测量精度。结果表明ET可将热木星轨道衰减测量精度提高7.2倍，有望在三个额外的热木星系统中检测到轨道衰减，从而扩展已知样本、深化对星-行星系统潮汐相互作用的统计理解。"
+  },
+  {
+   "id": "arxiv:2611.07405",
+   "title": "No Significant Rotation of the Spiral Structure in the IM Lup Protoplanetary Disk",
+   "abstract": "Spiral structures are often observed in protoplanetary disks, but their origins remain uncertain. Yoshida et al. (2025) reported a pattern speed consistent with local Keplerian rotation for the $m=2$ spiral in the dusty disk around IM Lup using multi-epoch ALMA observations, supporting a gravitational instability (GI)-driven origin. However, recent studies revise the disk geometry of IM Lup, motivating a reassessment of its spiral pattern speed. In this study, we reanalyze the disk geometry of the same multi-epoch data using visibility-based continuum emission modeling. The inferred disk geometries differ from those adopted in previous studies by a few degrees but are consistent across epochs and with recent independent estimates based on gas emission analyses. The revised geometries yield weaker residuals and more physically plausible radial spiral phase profiles. Unlike previous studies, our remeasured spiral pattern speeds are consistent with zero rotation within the uncertainties. We conclude that the previously reported Keplerian-like motion can be explained by a mismatch in the adopted disk geometry, which affects the spiral phases measured in Band 6 (2017, 2019) and Band 7 (2024) differently. In addition, we identify a tentative large-scale one-armed spiral-like structure extending beyond the known $m=2$ spiral, which may provide clues to additional perturbations, such as an embedded planet or late-stage infall. Future high-resolution Band~6 observations with a longer time baseline will be essential for more accurately determining the spiral pattern speed.",
+   "authors": [
+    "Yuto Hiraide",
+    "Mastaka Aizawa",
+    "Munetake Momose"
+   ],
+   "link": "https://arxiv.org/abs/2611.07405v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过重新分析IM Lup原行星盘的多历元ALMA观测数据,采用基于可见度的连续谱建模方法改进了盘几何结构的推导,发现之前报告的m=2螺旋结构的开普勒式旋转可由盘几何参数的不匹配所解释。修正后的螺旋图案速度与零旋转相符,挑战了引力不稳定性驱动螺旋形成的结论,同时识别出可能由嵌入行星或晚期吸积引起的大尺度单臂螺旋结构。研究表明精确测定螺旋图案速度需要更长时间基线和更高分辨率的观测。"
+  },
+  {
+   "id": "arxiv:2611.07305",
+   "title": "Using Structure Functions to Characterize Protoplanetary Disk Velocity Residuals",
+   "abstract": "Protoplanetary disks, the birthplace of planetary systems, are highly dynamic environments. High angular and spectral resolution observations have revealed non-Keplerian motions in nearly every source studied, indicative of (magneto-)hydrodynamical instabilities or planet-disk interactions. However, these velocity perturbations rarely exhibit ordered structure, limiting our ability to attribute them to a specific mechanism. We propose the second-order structure function as a tool for recovering structural properties of velocity perturbations in the presence of significant noise. Using morphological models, we demonstrate how easy-to-calculate heuristics and parametric model fits together identify structure in noisy data and recover its properties, including correlation lengths, their radial scaling where genuinely present, and the anisotropy. We further outline a workflow to de-noise the data and to build a matched null model against which inferences are compared. Applying the framework to one numerical simulation each of the gravitational, magneto-rotational and vertical-shear instabilities, we recover their structure at high significance and the structural heuristics separate all three pairs, with the gravitational and vertical-shear instability simulations remaining the hardest to distinguish once observationally degraded. As a demonstration on real data, 12CO observations of TW Hya reveal azimuthally elongated velocity structure that persists once the large-scale m=1 component is removed. We also delineate where a Gaussian description breaks down for coherent features such as spiral arms, and how inclination affects the recovered heuristics. The methodology is implemented in the eddy package and provides a foundation for statistically characterizing turbulent velocity structure in high-resolution disk observations.",
+   "authors": [
+    "Richard Teague",
+    "Sean M. Andrews",
+    "Jaehan Bae",
+    "Marcelo Barraza-Alfaro",
+    "Abigail Bodner",
+    "Jonathan D. Henshaw",
+    "Giovanni Rosotti"
+   ],
+   "link": "https://arxiv.org/abs/2611.07305v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究提出利用二阶结构函数作为工具，在高噪声背景下恢复原行星盘速度扰动的结构特性，包括关联长度、径向标度和各向异性。通过形态学模型和参数拟合相结合的方法，该框架能够在引力不稳定性、磁旋转不稳定性和垂直剪切不稳定性的数值模拟中高显著性地识别和区分不同的速度结构，并在TW Hya的观测数据上证实了方法的有效性。该研究为利用高分辨率观测刻画原行星盘中湍流速度结构提供了统计学基础，有助于识别行星-盘相互作用和磁流体力学过程的特征信号。"
+  },
+  {
+   "id": "arxiv:2611.07253",
+   "title": "Coordinated Space and Ground Monitoring of Accretion Bursts in a Protoplanetary Disk: MIRI and iSHELL observe the long-term modulation of gas within a small inner disk cavity",
+   "abstract": "DQ Tau is a TTauri eccentric binary with pulsed accretion bursts regulated by its $\\sim 16$-day orbital period. We have monitored this system with seven instruments from ground and space over 40 days. We present results on molecular gas variability from nine JWST-MIRI and nine IRTF-iSHELL epochs over three sequential accretion bursts with accretion luminosity pulses increasing by factors of $\\sim 9$-80. A fundamental new measurement from this analysis is the line broadening of CO (from iSHELL) and H$_2$O (from MIRI) lines, which we use to estimate Keplerian radii and their variability in parallel to the line luminosity. This unprecedented dataset clearly shows that the molecular emission does not react like HI and the 5-$μ$m continuum with each accretion burst: the line luminosity and width of all hot molecular gas tracers decrease over $\\sim30$-35 days, consistent with an emitting region decreasing in temperature and mass as it recedes to larger radii within the $\\sim 0.2$-0.4 au inner cavity perturbed by the binary. The infrared molecular spectrum of DQ Tau is affected more by disk dynamics then by chemical changes triggered by variable accretion, supporting model expectations for chemical relaxation timescales that are much longer than the duration of these accretion bursts ($\\gg 10$ days). The variability observed in all tracers in this study is consistent with a scenario where gas mass builds up near the disk edge to modulate the burst peak intensity and gas density in the inner cavity every $\\sim4$-5 orbital periods. The origin of this modulation is still unclear.",
+   "authors": [
+    "Jacob Hyden",
+    "Andrea Banzatti",
+    "Benjamin M. Tofflemire",
+    "Sebastiaan Krijt",
+    "Till Kaeufer",
+    "Klaus M. Pontoppidan",
+    "Carlo F. Manara",
+    "Christian Rab",
+    "John M. McCaskill",
+    "Guillaume Bourdarot",
+    "Emma T. Whelan",
+    "Joan Najita",
+    "Adrien Houge",
+    "Adwin Boogert",
+    "Catherine Dougados",
+    "Myriam Benisty",
+    "James Muzerolle Page"
+   ],
+   "link": "https://arxiv.org/abs/2611.07253v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过JWST-MIRI和IRTF-iSHELL等多台仪器联合监测原行星盘中的双星DQ Tau系统，在三个连续吸积喷发周期内追踪了分子气体（CO和H₂O）的长期变化特征。关键发现是热分子气体的发射线宽度和光度随时间递减（~30-35天），反映出发射区域在双星扰动的内空腔（~0.2-0.4 au）内温度下降并向外衰退的动力学过程，这种变化主要受盘动力学而非吸积变化驱动的化学过程控制。这表明气体质量在盘边缘的堆积每~4-5个轨道周期调制喷发强度，揭示了原行星盘内部动力学与吸积过程的耦合机制。"
+  },
+  {
+   "id": "arxiv:2611.07060",
+   "title": "An analytical framework for atmospheric tides on rocky planets. II. Semidiurnal thermotidal torque",
+   "abstract": "The thermodynamic acceleration induced by atmospheric thermal tides has a major impact on the rotation of temperate rocky planets, where gravitational and radiative tidal forcings are of comparable strength. This acceleration drives planets away from synchronous rotation, thereby affecting their climate, large-scale circulation, and surface conditions. These implications underline the need to better constrain the dependence of the thermotidal torque on the tidal frequency and on the physical parameters characterising the star-planet system, as this relationship remains insufficiently understood. In particular, the role of resonantly excited Lamb waves requires clarification due to its potential impact on Earth's length of day (LOD) during the Precambrian. Building on a previous work, which provided a fully analytical formulation of the atmospheric tidal response of rocky planets, we apply this framework to isentropic and isothermal atmospheres. We perform a comprehensive functional analysis of the resulting torque and compare the analytical predictions with numerical solutions from earlier general circulation model (GCM) studies. The analytical model agrees well with GCM results, accurately capturing the frequency dependence of tidal torque both for paleo-Earth and present-day Earth. More generally, the solutions capture the torque peak near synchronous rotation and the amplification associated with Lamb-wave resonance. Near resonance, the GCM results exhibit a stronger braking torque than accelerating torque. This asymmetry is reproduced by allowing tidal heating to lag behind insolation. The agreement with GCM spectra suggests that thermal tides in the benchmark simulations are driven predominantly by an indirect thermal forcing characterised by a substantial time delay, in contrast to the direct absorption of sunlight that dominates semidiurnal tides on present-day Earth.",
+   "authors": [
+    "Pierre Auclair-Desrotour",
+    "Jacques Laskar",
+    "Mohammad Farhat",
+    "Gwenaël Boué"
+   ],
+   "link": "https://arxiv.org/abs/2611.07060v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究建立了大气热潮汐对类地行星自转影响的解析框架，通过对绝热和等温大气的全面分析，揭示了热潮汐力矩与潮汐频率及系统参数的依赖关系，特别是阐明了Lamb波共振的作用机制。解析模型与数值GCM模拟结果吻合良好，准确捕捉了同步自转附近的力矩峰值和共振放大效应，并通过引入热滞后成功解释了GCM结果中制动力矩与加速力矩的不对称性，表明间接热强迫机制在某些情景下主导了大气热潮汐。"
+  },
+  {
+   "id": "arxiv:2611.07037",
+   "title": "The Composition of M-dwarf Exoplanet Hosts: Atmospheric Parameters and O, Mg, Si, and Fe Abundances from IR Spectroscopy",
+   "abstract": "Determining M-dwarf abundances is an important step to discerning the chemical evolution of the Milky Way and characterizing exoplanetary systems, especially since these objects commonly host small exoplanets. However, a dearth of M-dwarf abundance measurements exist compared to Sun-like stars, partially due to their complicated optical spectra dominated by molecular absorption lines and low luminosities. To overcome these issues, we have obtained high resolution H-band spectra of 40 planet-hosting M-dwarf stars and 2 M-dwarfs in wide binaries with FGK primaries with IGRINS on Gemini South and on the McDonald Observatory 2.7m telescope, and NIRSPEC on Keck. Abundances were derived by comparing each observed spectrum to synthetic spectral grids generated with MOOG and MARCS atmospheric models. Effective temperatures were derived using OH and H$_{2}$O lines and [Fe/H] from Fe I and FeH lines. Both Mg and Si abundances were determined using atomic features. Overall, we find that our abundances are broadly consistent with previous literature M-dwarf abundances. We complemented our abundances analysis with UVW velocities and Milky Way stellar population membership probabilities and identified 2 potential thick disk stars from our kinematic and chemical analysis: GJ 1252 and L181-1 which was a previously known thick disk star. Kinematic stellar population probabilities and a low [Fe/H] abundance makes Kepler 42 a likely thick disk star, although uncertain Mg and Si abundances make classification difficult. Lastly, we have determined Si/Mg and Fe/Mg molar ratios for M-dwarf exoplanet hosts and find the abundance distributions leads to exoplanet core-mass fractions between 20 - 40$\\%$.",
+   "authors": [
+    "Zachary G Maas",
+    "Natalie R. Hinkel",
+    "Gregory N. Mace",
+    "Cayman T. Unterborn",
+    "Catherine Pilachowski",
+    "Christopher Sneden",
+    "Isabella Flores",
+    "Joseph G. Schulze"
+   ],
+   "link": "https://arxiv.org/abs/2611.07037v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用红外高分辨率光谱(IGRINS和NIRSPEC)测量了40颗系外行星宿主M矮星的大气参数和O、Mg、Si、Fe丰度,通过与MOOG和MARCS合成光谱模型对比获得了可靠的化学成分信息。结合运动学分析识别了潜在的银河厚盘星,并根据Si/Mg和Fe/Mg摩尔比推算出这些M矮星系外行星的核心质量分数约为20-40%,为行星形成和化学演化模型提供了重要的观测约束。"
+  },
+  {
+   "id": "arxiv:2611.07034",
+   "title": "The JWST Early Release Science Program for Direct Observations of Exoplanetary Systems IX: A Multi-Wavelength Framework for Source Characterization in JWST Coronagraphic Imaging of the HIP 65426 System",
+   "abstract": "We present an updated analysis of the JWST coronagraphic imaging data of the HIP 65426 system. We aim to search for and characterize potential planetary companions as well as provide updated astrometry and photometry for the known exoplanet HIP 65426 b following updates to the JWST and spaceKLIP pipelines. Our measured photometry and astrometry show significant differences to those in Carter et al. (2023) but are consistent to within $2.2σ$ in separation, $1.5σ$ in position angle, and $3.7σ$ in flux. Our results indicate that pipeline updates have changed the photometry and astrometry significantly in some filters, especially in terms of observed flux. We see the greatest changes in separation in F444W and F1550C, position angle in F250M, and flux in F250M, F300M, F410M, F1140C, and F1550C. The SED of HIP 65426 b remains consistent with a young, giant planet best fit by models with a cloudy atmosphere and an effective temperature estimate of ~1436 K. Using both NIRCam and MIRI data, we identified 21 candidate companion sources in addition to the known planet. Of the 21 sources, 13 were attributed to astrophysical sources with eight background stars, four galaxies, one unknown, and zero planets. While one of these sources was detected in Chauvin et al. (2017), the remaining point sources were undetected in previous ground-based observations, which makes this work an initial epoch of astrometry for these objects. One galaxy in particular appears as a point source in MIRI but is highly extended in NIRCam and exposes a potential drawback to single-epoch MIRI imaging in a blind search for companions.",
+   "authors": [
+    "Evelyn L. Bruinsma",
+    "Aarynn L. Carter",
+    "Sasha Hinkley",
+    "Beth A. Biller",
+    "Andy Skemer",
+    "William O. Balmer",
+    "Andrew D. James",
+    "Ellis X. Bogat",
+    "Ben J. Sutlieff",
+    "Michael Poon",
+    "Mathilde Mâlin",
+    "Katie A. Crotts",
+    "Genaro Suárez",
+    "Eileen Gonzales",
+    "Klaus Subbotina Stephenson",
+    "Markus Janson",
+    "Motohide Tamura",
+    "Raphaël Bendahan-West",
+    "Giovanni M. Strampelli",
+    "Michael R. Meyer",
+    "Emily Rickman",
+    "Julien H. Girard",
+    "Kellen Lawson",
+    "Alice Zurlo",
+    "Cecilia Lazzoni",
+    "Christopher A. Theissen",
+    "Thomas Henning",
+    "Pengyu Liu",
+    "Mark C. Wyatt",
+    "Isabel Rebollido",
+    "Aiza Kenzhebekova"
+   ],
+   "link": "https://arxiv.org/abs/2611.07034v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究利用JWST冠状仪多波段观测数据对HIP 65426系统进行更新分析,通过改进的数据处理流程重新测量已知系外行星HIP 65426 b的测光和天体测量参数,并搜索潜在的行星伴星。结果表明流程更新显著改变了某些滤波器的测光和天体测量结果,HIP 65426 b的光谱能量分布与云层大气模型一致(有效温度~1436 K),同时识别出21个候选伴星源,其中8颗背景恒星、4个星系、1个未知源,零颗新行星,为这些源提供了首个历元天体测量数据。"
+  },
+  {
+   "id": "arxiv:2611.06765",
+   "title": "Migration and eccentricity damping timescales in overstable resonant planetary systems: hydrodynamic and N-body simulations",
+   "abstract": "Tidal interactions between planets and discs modify semimajor axes and eccentricities. These effects are represented by migration and eccentricity damping timescales in analytical and Nbody models, although they are assumed constant. This approximation is uncertain in resonant multiplanet systems, where coupled planet disc evolution can produce non-linear torque feedback. We investigate migration and eccentricity damping in two planet systems undergoing resonant and overstable evolution near the 2:1 mean motion resonance. Using hydrodynamic simulations with varying disc surface densities, viscosities, and aspect ratios, we measure both timescales from energy and angular momentum exchange between the planets and disc. We find that both timescales are time dependent and vary throughout the evolution. In resonant systems, sign reversals occur owing to eccentricity oscillations and disc torque variations. Moreover, migration timescales normalised by their expected dependence on planetary mass, disc surface density, and aspect ratio deviate between models. Likewise, the common relation between migration and eccentricity damping timescales is not recovered. We compare the hydrodynamic evolution with several Nbody approaches. Models with constant migration and damping timescales fail to reproduce the hydrodynamic evolution, whereas torque-based approaches provide better agreement. In particular, approaches including corotation torque saturation and planetary eccentricity reproduce the hydrodynamic evolution in the type I migration regime, whereas additional corrections are required when planets partially open gaps. These results show that time-dependent torque-based prescriptions provide a consistent physical link between hydrodynamic simulations and simplified Nbody models of resonant planetary systems.",
+   "authors": [
+    "Zahra Afkanpour",
+    "Sareh Ataiee",
+    "Anna B. T. Penzlin",
+    "Alexandros Ziampras",
+    "Hadiseh Nabavinezhad",
+    "Christoph Schäfer",
+    "Hilke Schlichting",
+    "Rafael Sfair"
+   ],
+   "link": "https://arxiv.org/abs/2611.06765v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "disc evolution"
+   ],
+   "summary_zh": "本研究通过流体动力学模拟和N体模型比较，调查了共振多行星系统中行星迁移和离心率阻尼的时间尺度，发现这两个量随演化过程时间相关且会发生符号反转，违反了传统的常数假设。研究表明，包含共旋转力矩饱和和行星离心率的基于力矩的方法能更好地重现流体动力学演化，为共振行星系统的流体模拟与简化N体模型之间建立了物理联系。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeaf4d",
+   "title": "Desorption of Water from Cosmic Silicates",
+   "abstract": "Abstract Recent JWST and ALMA observations of protoplanetary disks have identified water reservoirs in the inner regions of the disks. This would provide terrestrial planets forming therein access to a water reservoir. In situ formation of water molecules on grain surfaces was proposed as one possible formation process in the PDS 70 system, but transport by small silicate particles coupled to the gas could be another mechanism. Laboratory experiments on the thermally induced desorption of water molecules from different water-containing silicates at elevated temperatures provide another possibility for the enrichment of water molecules in the inner disk. Physically and chemically bound water in silicates can be released upon annealing processes. Water that is physically bound undergoes desorption at temperatures up to 473 K. In contrast, chemically bound water in the form of different silanol or Mg–OH groups in amorphous silicates or phyllosilicates can be released at higher temperatures, ranging from 773 to 923 K. The relevant temperatures are sufficient to trigger the solid-state recrystallization of amorphous silicates to Mg-rich orthopyroxene and olivine. The existence of these crystalline silicates has been substantiated through Spitzer and JWST-MIRI observations. Based on the experimental results, we postulate that the desorption of bound hydroxyl groups may serve as a mechanism for the formation of the water reservoir at temperatures up to 900 K, much higher than the water sublimation temperature of 100–200 K.",
+   "authors": [
+    "C. Jäger",
+    "D. Köhler",
+    "Th. Henning",
+    "F. Langenhorst"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeaf4d",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过实验测量不同含水硅酸盐在加热条件下的水分子解吸过程，发现物理结合水在473 K以下解吸，而化学结合水（羟基和Mg-OH基团）在773-923 K高温才能释放。这些高温过程与非晶硅酸盐向镁质正交辉石和橄榄石的重结晶相伴随，与JWST观测到的原行星盘内部的结晶硅酸盐特征相符。研究提出了一个新的原行星盘内部水库富集机制：硅酸盐中化学结合水的解吸可在远高于水升华温度的条件下提供水分子，为类地行星的原位成长提供水源。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeaa35",
+   "title": "Searching for Massive Remnant Planetary System Hosts with White Dwarf Gaia XP Spectra",
+   "abstract": "Abstract Remnant planetary systems around massive white dwarfs ( M WD > 0.8 M ⊙ ) are intrinsically rare and remain poorly characterized. As the evolutionary endpoints of intermediate-mass B- and A-type stars, these white dwarfs provide valuable constraints on the formation and survival of planetary systems around higher-mass progenitors. In the absence of large, dedicated spectroscopic surveys, extremely low-resolution Gaia XP spectra provide a powerful means of identifying candidate metal-polluted white dwarfs. We obtained follow-up observations with low-resolution optical spectroscopy ( R = 500–4000) to search primarily for Ca ii H&K absorption in massive, metal-polluted white dwarf candidates selected from Gaia XP spectra to increase the sample of massive remnant planetary system hosts among objects with effective temperatures below ∼15,000 K. We find that Gaia XP spectra recover metal-polluted white dwarfs efficiently, confirming 82% ± 5% recovery of photospheric metals (59 of 72 targets) in high-confidence candidates of our sample (with classifier probability P DZ > 0.65). However, Gaia photometric masses derived from G , G BP , and G RP broadband photometry are not sufficient to identify the most massive systems, as reliable mass determinations require detailed metal-enriched atmospheric fits. We present a selection of cool white dwarfs confirmed to be both massive and metal-polluted, demonstrating that Gaia XP spectra can substantially expand the sample of white dwarf exoplanet hosts. Our search led to the discovery of a new transiting debris system, SDSS J1624+5404, the 21st published system to date and eighth to show periodic transits.",
+   "authors": [
+    "Lou Baya Ould Rouis",
+    "J. J. Hermes",
+    "Pierre Bergeron",
+    "Simon Blouin",
+    "Stefan Arseneau",
+    "Tim Cunningham",
+    "Joseph A. Guidry",
+    "Ciarra Coston"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeaa35",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用盖亚XP低分辨率光谱搜寻并确认高质量白矮星周围的残留行星系统，通过后续低分辨率光谱观测识别金属污染特征，确认了82%的候选体具有光球金属丰度。研究表明盖亚XP光谱能有效发现金属污染白矮星，但可靠的质量测定需要金属富集大气拟合而非仅依赖测光质量，从而为行星系统存活和形成提供了中等质量恒星演化端点的约束证据。该工作扩展了白矮星系外行星宿主样本，并发现了新的过渡碎片系统SDSS J1624+5404。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeb019",
+   "title": "Accelerating Radiative Transfer in Planetary Atmospheres by Orders of Magnitude with Neural Network Emulators",
+   "abstract": "Abstract Radiative transfer calculations are essential for modeling planetary atmospheres. However, standard methods are computationally demanding and impose accuracy-speed trade-offs. High computational costs force numerical simplifications in large models (e.g., general circulation models) that degrade the accuracy of the simulation. Radiative transfer calculations are an ideal candidate for machine learning emulation; fundamentally, radiative transfer is a well-defined physical mapping from a static atmospheric profile to the resulting fluxes, and high-fidelity training data can be created from first-principles calculations. We developed a radiative transfer emulator using an encoder-only transformer neural network architecture, trained on 1D profiles representative of solar-composition hot Jupiter atmospheres. Our emulator reproduced bolometric two-stream layer fluxes with mean test set errors of ∼1% compared to the traditional method and achieved speedups of more than 100× in batched GPU inference. In matched comparisons against a long short-term memory model (LSTM) baseline, a transformer was consistently the more accurate and more robust architecture when training data were limited, while the LSTM achieved better accuracy at full scale. Emulating radiative transfer with machine learning opens up the possibility for faster and more accurate routines within planetary atmospheric models.",
+   "authors": [
+    "Isaac Malsky",
+    "Tiffany Kataria",
+    "Natasha E. Batalha",
+    "Matthew Graham"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeb019",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用编码器专用的transformer神经网络架构开发了行星大气辐射传输模拟器，在太阳成分热木星大气的一维剖面数据上进行训练，实现了与传统方法相比平均误差~1%的精度，同时在GPU批处理推理中获得100倍以上的速度提升。与LSTM基线模型的对比表明，在有限训练数据条件下transformer具有更高的准确性和鲁棒性，该机器学习模拟方法有望为行星大气模型中提供更快更精准的辐射传输计算。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aeb262",
+   "title": "A Search for Exoplanets around Northern Circumpolar Stars. XI. A Planetary Companion around HD 112987 and a Planetary Companion Candidate around HD 58545",
+   "abstract": "Abstract We present precise radial velocity (RV) measurements of the northern circumpolar giant stars HD 58545 and HD 112987 obtained over 8 yr with the Bohyunsan Observatory Echelle Spectrograph and supplemented during the final 3 yr by the Network of Robotic Echelle Spectrographs. RV variations in giant stars may arise from orbiting companions or intrinsic phenomena, including pulsations, chromospheric activity, and rotational modulation. To distinguish these possibilities, we analyzed line-profile variations, line bisectors, chromospheric activity indicators, and photometric data, and modeled the RV time series with Keplerian orbits using Markov Chain Monte Carlo sampling. For HD 58545, the best-fitting Keplerian model yields an orbital period of 450.44 − 4.63 + 3.35 days and a minimum companion mass of 3.65 − 0.58 + 0.61 M J . For HD 112987, we derive an orbital period of 554.96 − 4.67 + 4.14 days and a minimum companion mass of 8.48 − 0.73 + 0.96 M J . None of the activity diagnostics for HD 112987 exhibits significant variability at the RV period, consistent with a Keplerian interpretation. In contrast, several activity diagnostics of HD 58545 exhibit periodicities comparable to the RV period, which is also consistent within the uncertainties with the projected rotational timescale, P rot / sin i = 462 ± 33 days . Thus, rotationally modulated stellar variability may contribute to the RV signal. Although the signal can be described by a Keplerian model, the current data cannot distinguish unambiguously between a planetary companion and intrinsic stellar variability. We therefore conclude that HD 112987 hosts a planetary companion, whereas further monitoring is required to determine the origin of the RV signal in HD 58545.",
+   "authors": [
+    "Byeong-Cheol Lee",
+    "Shenghong Gu",
+    "Beomdu Lim",
+    "Yeon-Ho Choi",
+    "Jae-Rim Koo",
+    "Hyeong-Ill Oh",
+    "Tae-Yang Bang",
+    "Sang-Hee Kim",
+    "Myeong-Gu Park"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aeb262",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过8年高精度径向速度观测北天极巨星HD 58545和HD 112987，结合多种恒星活动诊断指标和光度数据，以MCMC采样方法拟合开普勒轨道模型，以区分行星伴星信号与恒星内禀变化。结果确认HD 112987伴随一颗轨道周期554.96天、最小质量8.48木星质量的行星伴星，而HD 58545的径向速度信号可能混有恒星自转调制的贡献，需要进一步监测以确定其起源。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662002",
+   "title": "Robustness of C/O and mean molecular weight under disequilibrium chemistry",
+   "abstract": "Transmission spectroscopy increasingly reduces exoplanet spectra to derived compositional metrics, such as C/O, O/H, and mean molecular weight (μ), but these quantities do not carry molecular abundance uncertainties in the same way. We assessed the reliability of these metrics for hot Jupiters and sub-Neptunes. We combined analytic uncertainty propagation with photochemical forward models and representative published retrieval constraints. VULCAN Propagating molecular abundance uncertainties produced substantially larger fractional uncertainties in elemental abundance ratios than in μ. The fractional uncertainties in C/O and O/H were typically comparable to the inferred ratios, whereas the fractional uncertainty in μ was more than two orders of magnitude smaller in /He-dominated atmospheres. Photochemistry and vertical mixing redistributed individual molecules but produced only minor changes in C/O and μ at the pressures probed by transmission spectroscopy. H2 C/O remains an important diagnostic of atmospheric chemistry and planetary formation history, but its interpretation requires careful uncertainty propagation. Mean molecular weight may provide a comparatively stable population-level diagnostic for linking observable atmospheres to bulk composition, especially across the sub-Neptune radius valley.",
+   "authors": [
+    "B. Burt",
+    "K. Heng",
+    "A. J. Cridland",
+    "S.-M. Tsai"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662002",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过结合解析不确定性传播和光化学正向模型,评估了利用凌日光谱推导的C/O比、O/H比和平均分子量(μ)等成分指标的可靠性。结果表明,分子丰度不确定性对元素丰度比(特别是C/O和O/H)产生了相当的分数不确定性,而对H₂/He主导大气中的μ的影响小两个数量级;光化学和垂直混合对凌日光谱探测深度处的C/O和μ影响有限。研究建议C/O仍是大气化学和行星形成历史的重要诊断工具,但需谨慎进行不确定性传播,而平均分子量可作为连接可观测大气与行星本体成分的相对稳定的种群诊断指标,特别是在亚海王星半径谷的研究中。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202660121",
+   "title": "Astrometric planet search around southern ultracool dwarfs",
+   "abstract": "We report the discovery of PALTA-1 b, a sub-Jupiter mass exoplanet candidate orbiting the nearby early-L dwarf DENIS-P J1253108–570924 (DE1253–57) located at a distance of ~17 pc. The exoplanet was discovered by monitoring the L dwarf’s astro-metric motion with FORS2 at the Very Large Telescope over more than eight years and characterising the deviations from the expected single-source motion. The estimated planet mass is between 0.54 M Jup and 0.77 M Jup , depending on the uncertain mass of the ultracool dwarf host. The system’s mass ratio is about 0.010, and the relative separation is estimated at 1.6–3.4 au. If confirmed, PALTA-1 b would be one of the very few known examples of a giant planet orbiting a nearby ultracool dwarf. This discovery finalises a larger astrometric planet search survey that targeted 20 nearby ultracool dwarfs and previously discovered three new ultracool binary systems.",
+   "authors": [
+    "J. Sahlmann",
+    "P. F. Lazorenko",
+    "E. L. Martín",
+    "D. Ségransan",
+    "M. Mayor",
+    "S. Udry"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202660121",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric",
+    "planet candidate"
+   ],
+   "summary_zh": "本研究通过超过8年的VLT/FORS2高精度天体测量监测，检测了早型L矮星DENIS-P J1253108–570924周围恒星位置的偏差，发现了亚木星质量系外行星候选体PALTA-1 b（质量0.54-0.77木星质量）。该行星的轨道半长轴为1.6-3.4天文单位，是已知环超冷矮星运行的为数不多的巨行星之一。这项对20颗邻近超冷矮星的系统巡天最终发现了该行星及3个新的超冷双星系统。"
+  },
+  {
+   "id": "doi:10.1007/s10569-026-10340-z",
+   "title": "Emulating distributions of planetary system architectures",
+   "abstract": "Abstract Inferring the distribution of exoplanetary system architectures from survey data increasingly relies on forward modeling with N -body simulations, but the computational cost of these models makes rigorous statistical inference impractical. We develop a statistical emulator for the distribution of outcomes of planet formation simulations, enabling fast conditional sampling in place of expensive integrations. The emulator targets the joint distribution of detected multiplicity and three observables derived from neighboring planet pairs: orbital period ratios, period-normalized transit duration ratios, and orbital spacing in mutual Hill radii. Our approach combines a calibrated model for multiplicity, flexible regression models for conditional distributions, dependence modeling in a transformed probability space, and methods to capture rare events in the tails. We introduce diagnostics to assess calibration, dependence preservation, and reproduction of rare events. The resulting emulator accurately captures heteroskedasticity, dependence structure, and tail behavior of the simulator outputs while reducing computational cost by several orders of magnitude relative to direct N -body simulation. This framework enables integration of detailed dynamical models into simulation-based inference for exoplanet populations.",
+   "authors": [
+    "Ky Potter",
+    "Lucas Brefka",
+    "Derek Bingham",
+    "Eric B. Ford",
+    "Kelly R. Moran",
+    "David C. Stenning"
+   ],
+   "link": "https://doi.org/10.1007/s10569-026-10340-z",
+   "source": "Celestial Mechanics and Dynamical Astronomy",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究开发了一个统计仿真器，用于快速近似行星形成N体模拟的结果分布，显著降低了计算成本。该仿真器以检测到的行星多重性和相邻行星对的轨道周期比、过境时间比及Hill半径间距等可观测量为目标，结合多重性校准模型、灵活的条件分布回归和概率空间中的依赖性建模方法。通过这一框架，可将详细的动力学模型集成到系外行星群体的基于模拟的统计推断中，使严格的贝叶斯推理在大样本调查中变得可行。"
+  }
+ ],
  "2026-11-05": [
   {
    "id": "arxiv:2611.05740",
@@ -10356,6 +10698,5 @@
    ],
    "summary_zh": "本研究通过耦合一维大气模型与内部结构模型，调查了热木星大气C/O比对其大气边界条件、内部结构和半径的影响。结果表明，C/O比通过改变大气主要化学成分和不透明度，显著改变辐射对流边界处的温压条件，进而影响行星半径推导，其效应在平衡温度≳1500K且大气过太阳丰度的行星上超过3%的观测误差。这强调了在JWST观测约束下，将测量的C/O比纳入大气边界条件对获得热木星内部结构自洽推导的必要性。"
   }
- ],
- "2026-09-07": []
+ ]
 }
