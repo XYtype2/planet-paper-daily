@@ -1,4 +1,263 @@
 {
+ "2026-11-07": [
+  {
+   "id": "arxiv:2611.08489",
+   "title": "BeAR: The Bern Atmospheric Retrieval code - A GPU-accelerated framework for low-resolution, high-resolution, and joint retrievals of exoplanet atmospheres",
+   "abstract": "We present BeAR, the Bern Atmospheric Retrieval code and successor of Helios-r, and its new high-resolution cross-correlation framework for emission and transmission spectra. BeAR performs joint retrievals by adding the log-likelihoods of high- and low-resolution data computed from the same model atmosphere. The framework implements established cross-correlation log-likelihoods, with the line-depth scaling either fitted analytically or sampled as a free parameter, their per-pixel generalization, fast model filtering, and model re-injection adapted to this filtering. The forward model and likelihood run entirely on a graphics processing unit (GPU). One forward model takes about 1 ms on an NVIDIA GH200, allowing millions of models per minute on a GPU cluster. In separate retrievals of Gemini South/IGRINS and JWST/NIRSpec dayside spectra of the hot Jupiter WASP-77Ab, BeAR reproduces published abundances, C/O ratios, and metallicities to within 1.5 sigma, the preference for 13CO, and the thermal structure and line contrast to within 1 sigma. The joint retrieval confirms a sub-solar metallicity and a near-solar C/O ratio. A full IGRINS retrieval with 17 free parameters takes 27 to 42 minutes on a single NVIDIA GeForce RTX 5080 or about 14 minutes on eight RTX 4090 GPUs. Injection--recovery tests show that the posteriors underestimate the uncertainties of abundance ratios by about a factor of two.",
+   "authors": [
+    "Esther Wang",
+    "Daniel Kitzmann",
+    "H. Jens Hoeijmakers",
+    "Joost P. Wardenier",
+    "Helena Lecoq-Molinos"
+   ],
+   "link": "https://arxiv.org/abs/2611.08489v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "BeAR是一个GPU加速的系外行星大气检索代码,实现了低分辨率、高分辨率和联合检索框架,其中高分辨率采用叉相关方法处理发射和透射光谱。该框架在NVIDIA GPU上实现快速前向模型计算(~1ms/次),允许对热木星WASP-77Ab的JWST和地面观测数据进行百万级模型采样,成功复现了已发表的大气成分、C/O比和金属丰度。联合检索结果验证了该行星亚太阳金属丰度和近太阳C/O比的特征,同时注入-恢复测试表明丰度比不确定性被低估约两倍。"
+  },
+  {
+   "id": "arxiv:2611.08484",
+   "title": "Evolution of Dust In Protoplanetary Disks With Magnetized Winds",
+   "abstract": "Observations and theory increasingly indicate that protoplanetary disks are weakly turbulent, implying that magnetized disk winds may dominate their angular momentum transport and long-term evolution. Yet dust evolution in wind-dominated disks remains poorly understood, despite its importance for planet formation. In particular, whether wind-dominated disk evolution can create regions with enhanced dust-to-gas mass ratios that enable planetesimal formation via the streaming instability is unclear. We build a parametric hybrid disk evolution model that includes turbulent accretion, wind-driven accretion, and wind-driven mass loss to investigate dust evolution in magnetized protoplanetary disks. We employ this model to carry out a parameter study in which the initial total accretion rate, the wind-driven mass loss rate, and the turbulence strength are varied. We find that although wind-dominated disks are more favorable to dust growth and concentration than turbulence-dominated disks, conditions suitable for the streaming instability arise only within the inner few au and only under the most extreme conditions: very weak turbulence ($α_\\text{turb} = 10^{-5}$) where magnetized winds drive most of the accretion ($\\dot{M}_\\text{acc,tot} \\simeq \\dot{M}_\\text{wind,acc}$), and wind-driven mass loss comparable to the accretion rate ($\\dot{M}_\\text{wind,outflow} \\simeq \\dot{M}_\\text{acc,wind}$). Our results therefore imply that, beyond the inner few au, the parametric wind-driven evolution models considered in the literature do not by themselves produce conditions suitable for planetesimal formation via the streaming instability, motivating more physically complete models in which spontaneous, long-lived dust traps can arise.",
+   "authors": [
+    "Olcay Goksu",
+    "Ralph Pudritz",
+    "Timmy Delage"
+   ],
+   "link": "https://arxiv.org/abs/2611.08484v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过混合盘演化模型，同时考虑湍流吸积、磁风驱动吸积和质量损失，系统研究了磁化原行星盘中的尘埃演化过程。研究发现风主导盘相比湍流主导盘更有利于尘埃增长和富集，但满足流-蚌不稳定性的条件仅在极端情况下（极弱湍流和极强风质量损失）才在内几个天文单位范围内出现。这些结果表明，现有的参数化风驱动演化模型难以在外部区域产生适合于流-蚌不稳定性的行星小体形成条件，需要考虑更物理完备的模型以产生长期稳定的尘埃陷阱。"
+  },
+  {
+   "id": "arxiv:2611.08346",
+   "title": "The cold substellar frontier in JWST Extragalactic surveys: a robust parallax measurement yields the most distant known ultra-cold Y dwarf",
+   "abstract": "We present an analysis of JADES-GS-BD-5, an extremely cold Y dwarf identified in the JADES/GOODS-South field. Using multi-epoch JWST/NIRCam imaging spanning a $\\simeq2$-yr baseline, we calibrate the JWST astrometry and obtain the first robust parallax measurement for a brown dwarf discovered in a JWST extragalactic deep field. We measure a proper motion of $μ_{\\rm tot}=49.8^{+0.3}_{-0.3}$ mas yr$^{-1}$ and a parallax of $\\varpi=15.7^{+1.4}_{-1.3}$ mas, corresponding to a geometric distance of $d=64^{+6}_{-5}$ pc, $\\sim3\\times$ further than that of the previously known most distant Y dwarfs with parallax-measured distances. We hence determine a tangential velocity of $v_{\\rm tan}=15.0^{+1.4}_{-1.3}$ km s$^{-1}$, consistent with a Galactic thin-disk object. We find no evidence for binary acceleration, significant photometric variability, or a plausible host. The $J$-band spectral morphology of JADES-GS-BD-5 is consistent with existing Y-dwarf templates, while its extremely faint luminosity and overall near-infrared spectral profile confirm that it is one of the coldest dwarfs discovered to date. We therefore adopt a classification of $>$Y1, consistent with a NIRCam colour-based proxy of cY1.5. The robust parallax-determined distance allows us to determine its bolometric luminosity, $\\log(L_{\\rm bol}/L_{\\odot})=-7.08^{+0.09}_{-0.09}$. Evolutionary modelling places JADES-GS-BD-5 in the planetary-mass regime and makes it a rare benchmark for the study of cold giant-planet atmospheres. Current atmospheric models fail to reproduce its SED in detail, pointing to the importance of disequilibrium chemistry and vertical mixing. Finally, we also report additional proper motion measurements for eight of the other nine known JADES Y-dwarf candidates, highlighting JWST extragalactic surveys as a powerful route to building a statistically useful, parallax-calibrated sample of Y dwarfs.",
+   "authors": [
+    "Feng-Yuan Frey Liu",
+    "Derek J. McLeod",
+    "Xueqing Chen",
+    "Ben J. Sutlieff",
+    "Ho-Hin Leung",
+    "Clémence Fontanive",
+    "James S. Dunlop",
+    "Ross J. McLure",
+    "Trent J. Dupuy",
+    "Adam C. Carnall",
+    "Thomas M. Stanton",
+    "Beth A. Biller",
+    "Isaac J. B. Holst",
+    "Callum T. Donnan",
+    "Ryan Begley"
+   ],
+   "link": "https://arxiv.org/abs/2611.08346v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过JWST多历元近红外成像数据，对JADES-GS-BD-5这颗极冷Y型棕矮星进行了精确的视差测量和天体测量分析，确定其距离为64 pc，是已知视差测量Y型矮星中距离最远的天体。该目标天体的极低光度和冷表面温度使其进入行星质量体制，为研究冷木星大气提供了关键基准，同时揭示现有大气模型在非平衡化学和垂直混合过程的描述上存在不足。这项工作展示了JWST深场巡天作为构建统计完备、视差定标Y型矮星样本的强大优势。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeb11e",
+   "title": "An ALMA View on Molecular Complexity: Water, Methanol, and Methyl Formate in the HD 100546 and IRS 48 Disks",
+   "abstract": "Abstract Water and methanol are the fundamental constituents of interstellar and cometary ices; understanding their abundances in disks is therefore of high importance to reveal how this ice reservoir evolves across the timeline of star and planet formation. We present Atacama Large Millimeter/submillimeter Array (ALMA) Band 5 line emission observations of water and methanol in the warm Herbig disks of HD 100546 and IRS 48. While the IRS 48 disk is methanol-rich, water vapor is not detected, implying a high methanol-to-water column density ratio of >0.2, possibly reflecting a distinct ice composition. Methanol and water are both detected in the HD 100546 disk, leading to a CH 3 OH/H 2 O ratio of ∼0.02, consistent with the median of the cometary distribution and with the lower edge of the distribution of young stellar objects (YSOs). We suggest that the gas-phase methanol-to-water ratio in the HD 100546 disk directly reveals the ice reservoir subsequently sublimated in the warm disk stage. Moreover, we report a methyl formate-to-methanol ratio in the IRS 48 disk of ∼0.2, consistent with the upper edge of the distribution of YSOs. The methyl formate-to-methanol ratio in the HD 100546 disk is ∼2, much higher than in younger and older sources, possibly reflecting a chemical enhancement of gas-phase methyl formate. We additionally constrain non-LTE conditions, optical depths, and emitting regions of the methanol lines in both disks. These results offer a new opportunity to probe the chemical trail of molecular complexity in the intermediate-disk stage, bridging early and late phases of the star and planet formation history.",
+   "authors": [
+    "Luna Rampinelli",
+    "Stefano Facchini",
+    "Marta De Simone",
+    "Margot Leemker",
+    "Alice S. Booth",
+    "Myriam Benisty",
+    "Pietro Curone",
+    "Elizabeth Humphreys",
+    "Leonardo Testi"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeb11e",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究利用ALMA观测了HD 100546和IRS 48两个原行星盘中的水、甲醇和甲酸甲酯的气相丰度,揭示了不同盘源中分子复杂性的演化特征。IRS 48盘表现出异常高的甲醇/水比值(>0.2),而HD 100546盘的该比值(~0.02)与彗星和年轻恒星目标的观测结果一致,暗示了盘中升华冰储备库的成分差异。研究结果表明气相分子比值直接反映了行星形成阶段冰的组成,为追踪原行星盘中分子复杂性的化学演化过程、连接恒星和行星形成的早期和晚期阶段提供了新的探针。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeb5e4",
+   "title": "Validation of Habitable Zone Limits with a New Radiative–Convective Equilibrium Climate Model",
+   "abstract": "Abstract The habitable zone (HZ) boundaries calculated with the Clima one-dimensional radiative–convective equilibrium (RCE) model have served as a standard reference for exoplanet target selection for three decades, but they have never been independently validated with a comparable model. We present ExoColumn , a new one-dimensional RCE model that couples an independently developed atmospheric column physics package to the ExoRT correlated- k radiative transfer core that is also used by the three-dimensional ExoCAM model. We calibrate ExoColumn to present-day conditions, which matches other RCE models to within a few kelvin through the troposphere. Line-by-line benchmarks show that the ExoRT and Clima radiation cores each reproduce the outgoing longwave flux to within a few percent, with the differences due to the spectral line databases used by each model. We follow the same inverse climate modeling method as previous studies have done to find inner edge moist- and runaway-greenhouse limits of 0.970 au and 0.966 au, and an outer-edge maximum-greenhouse limit of 1.611 au at a CO 2 partial pressure of 8.7 bar. We extend these calculations to 12 host stars spanning 2000–7200 K and to planets of 0.1, 1, and 5 Earth mass, and we provide updated HZ boundary coefficients for community use. The ExoColumn limits systematically fall closer to the host star than those of Clima but agree to within a few percent in orbital distance, which validates the robustness of the published Clima HZ boundaries.",
+   "authors": [
+    "Jacob Haqq-Misra",
+    "Eric T. Wolf",
+    "Ravi K. Kopparapu"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeb5e4",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究开发了新的一维辐射对流平衡气候模型ExoColumn，对沿用30年的Clima模型计算的宜居带边界进行了独立验证。通过与多个模型对比校准和逐线基准测试，ExoColumn在内边界（0.970 au和0.966 au）和外边界（1.611 au）的计算结果与Clima模型轨道距离一致性达到几个百分点，证实了Clima宜居带边界的可靠性；同时提供了12颗不同恒星和多个行星质量条件下的更新宜居带系数供社区使用。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aead94",
+   "title": "Dynamical Impacts of Accretion Streamers on Protoplanetary Disks",
+   "abstract": "Abstract Recent observations suggest that accretion streamers are common in protoplanetary disks, yet their dynamical impact on disk evolution remains poorly understood. Using three-dimensional hydrodynamic simulations with mass-infall rates of 10 −8 –10 −6 M ⊙ yr −1 , we investigate how streamer accretion influences the structure and evolution of protoplanetary disks. We find that a prograde streamer can excite disk eccentricity globally to values as high as ∼0.4. The resulting eccentric disk develops prominent spiral arms and crescent-shaped overdensities whose spatial structures agree remarkably well with analytic eccentric-disk theory. It also undergoes significant warping, and exhibits enhanced and variable stellar accretion. In contrast, retrograde streamer accretion efficiently removes disk angular momentum, producing a compact disk and, in extreme cases, triggering disk breaking. Using synthetic Atacama Large Millimeter/submillimeter Array (ALMA) molecular-line observations, we show that streamer-driven perturbations generate observable kinematic signatures, including Doppler flips in moment maps and wiggles in position–velocity diagrams. Remarkably, these signatures can persist for up to 100 kyr after infall has ceased, suggesting that some kinematic disturbances observed in disks without currently detected streamers may be relics of past infall events. Finally, we discuss the implications of streamer-driven disk evolution for planet formation and planet–disk interactions.",
+   "authors": [
+    "Han-Gyeol Yun",
+    "Jeong-Eun Lee",
+    "Jaehan Bae",
+    "Woong-Tae Kim"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aead94",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过三维流体动力学模拟（质量吸积率10⁻⁸–10⁻⁶ M☉ yr⁻¹）系统调查了吸积流对原行星盘动力学的影响。研究发现顺行流可激发全局盘偏心率至~0.4，导致盘产生螺旋臂和新月形超密集区，同时经历显著变形和增强型恒星吸积；逆行流则高效移除角动量，形成紧凑盘甚至引发盘破裂。合成ALMA观测表明吸积流扰动产生的运动学特征（如矩图中的多普勒反转和位置-速度图中的波动）可持续~100 kyr，暗示部分无当前流迹象的盘中的扰动可能是历史吸积事件的遗迹。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aea985",
+   "title": "DZ White Dwarfs from HETDEX: New Identifications and Reclassifications",
+   "abstract": "Abstract We present 18 DZ white dwarfs, identified by metal absorption features, most prominently the Ca ii H and K lines, from spectroscopic observations in the Hobby–Eberly Telescope Dark Energy Experiment (HETDEX). Of these objects, 11 are newly spectroscopically confirmed through the detection of Ca ii H and K absorption in the HETDEX spectra ( R ∼ 750). The presence of Ca ii H and K absorption provides a direct spectroscopic signature of atmospheric metal pollution, which is generally interpreted as evidence for the accretion of planetary debris. By crossmatching the continuum-selected objects in the HETDEX Source Catalog with the Gaia eDR3 white dwarf catalog, we recovered 759 white dwarf candidates. Of these, all were visually inspected to account for potential metal-polluted white dwarfs that may fall below the high probability threshold ( P WD ≥ 0.75), resulting in 18 objects showing clear Ca ii H and K absorption. We determine their atmospheric parameters using an iterative fitting procedure that combines HETDEX spectroscopy with multiband photometry from the Galaxy Evolution Explorer (GALEX), Sloan Digital Sky Survey (SDSS), and Pan-STARRS, together with Gaia parallaxes. All 18 objects were misclassified by the automated spectral classifier, demonstrating that visual inspection remains essential for recovering cool, metal-polluted white dwarfs in large spectroscopic surveys. These results highlight the power of combining low-resolution spectroscopy with Gaia astrometry to expand the census of metal-polluted white dwarfs and identify systems for future follow-up studies of planetary debris around evolved stars.",
+   "authors": [
+    "Rudy A. Morales",
+    "Barbara G. Castanheira",
+    "Detlev Koester",
+    "Antonio P. Fedi",
+    "Erin Mentuch Cooper",
+    "Gregory R. Zeimann",
+    "Karl Gebhardt"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aea985",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry"
+   ],
+   "summary_zh": "本研究通过HETDEX低分辨率光谱（R∼750）结合Gaia天体测量数据，从759个白矮星候选体中识别了18颗DZ型白矮星，其中11颗为新发现，通过Ca ii H和K吸收线直接证实了大气金属污染和行星碎片吸积的存在。采用结合多波段测光(GALEX、SDSS、Pan-STARRS)和视差信息的迭代拟合方法确定了这些白矮星的大气参数，揭示自动分类器对冷的金属污染白矮星的误分类问题。该研究表明低分辨率光谱与Gaia天体测量的联合应用能有效扩展金属污染白矮星样本，为演化星周围行星碎片的后续研究奠定基础。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aeb5f5",
+   "title": "“Mega-Earths” are Likely an Artifact of Stellar Activity",
+   "abstract": "Abstract Empirical relations and planet formation simulations suggest an upper mass limit for rocky planets of ∼10 M ⊕ , as cores above this will almost certainly undergo runaway gas accretion. Nevertheless, a small number of planets appear to have densities consistent with rocky Earth-like compositions above this threshold, indicating that unusual formation and evolutionary scenarios are capable of producing extremely massive rocky planets. However, all of these planets orbit active stars with log R HK ′ > −4.75. We find a <1% probability that all literature ultramassive rocky planets would coincidentally orbit such active stars, and find no astrophysical reason to expect mega-Earths to preferentially form around active stars. We therefore conclude that mega-Earths are artifacts of stellar activity, and we question the reliability of Gaussian processes to enable mass measurements for rocky planets around active stars.",
+   "authors": [
+    "Casey L. Brinkman",
+    "Nicolas B. Cowan"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aeb5f5",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究质疑超大地球（质量>10M⊕的类地行星）的真实性，通过统计分析发现所有已报道的超大地球都绕活跃恒星运行，这种巧合的概率小于1%。研究认为超大地球很可能是恒星活动（如星斑）对径向速度法造成的干扰所产生的假象，而非真实的行星种群。该结论对行星形成理论具有重要意义，同时指出高斯过程在活跃恒星周围类地行星质量测定中的可靠性需要重新评估。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202554227",
+   "title": "Formamide formation on forsterite and Mg(OH)_2·H_2O",
+   "abstract": "Formamide formation in the Universe has been the subject of debate in several studies due to its importance as a precursor to amino acids and RNA. Current studies focus on the gas-phase and icy grain formation routes. However, formamide formation on bare silicate surfaces or hydrated Mg-bearing molecular models remains largely unexplored in warm Mg-rich dust environments, such as those potentially relevant to protoplanetary disks. This study presents a quantum-chemical investigation of formamide formation on an Mg center and a silicate surface. Mg(OH)_2·H_2O, considered here as a possible post-shock hydrated Mg-bearing species, and the bare (010) forsterite (Mg_2SiO_4) surface, used as an analog of a bare dust-grain surface , may promote formamide formation via NH_2 addition to H_2CO. This may help clarify a potential additional pathway to formamide formation in warm Mg-rich environments. I employed density functional theory (DFT), a quantum chemistry method, to study the addition of NH_2 to H_2CO with an isolated Mg(OH)_2·H_2O molecular model and on the forsterite (010) surface. First, I benchmarked various theoretical methodologies (M06-2X, PBE, PBE+U5, and VV) against the gold standard CCSD(T)-F12 and evaluated the performance of double-zeta and triple-zeta basis sets. I then examined the ability of Mg(OH)_2·H_2O and the forsterite (010) surface to promote formamide formation. Finally, for the case with an entrance barrier, I computed unimolecular rate constants and half-lives to assess its kinetic behavior. Of the DFT methods I tested, M06-2X and PBE+U5 provide the closest agreement with CCSD(T)-F12 for the addition of NH_2 to H_2CO on an Mg center. Mg(OH)_2·H_2O promotes proton transfer within the NH_2–CH_2O intermediate via the O–H group coordinated with Mg following NH_2 addition to H_2CO, whereas on the forsterite (010) surface, a barrier-less addition pathway is found when NH_2 is initially physisorbed close to the formaldehyde center, followed by proton transfer leading to formamide formation. This quantum-chemical study shows that the Mg-bearing model systems considered here can promote rapid proton transfer following NH_2 addition to H_2CO, whereas the corresponding bare gas-phase reaction proceeds through a large barrier for H abstraction to form formamide. For the Mg(OH)_2·H_2O model, the reaction step from the pre-reactive complex is predicted to occur on nanosecond timescales at temperatures approaching 300 K. The present work characterizes a potential pathway to formamide formation in Mg-bearing environments and provides molecular-level energetic and kinetic constraints for its future assessment in gas-grain astrochemical models.",
+   "authors": [
+    "D. Campisi"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202554227",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究采用密度泛函理论(DFT)方法,计算了NH₂与H₂CO在Mg(OH)₂·H₂O分子和橄榄石(010)表面上的加成反应,以探索镁富集环境(如原行星盘)中甲酰胺的形成机制。结果表明,镁离子通过促进NH₂加成后的质子转移,使该反应在气相中存在高势垒的步骤变为几乎无垒或低垒过程,在300 K附近可在纳秒时间尺度上快速进行。本工作为原行星盘等镁富集尘埃环境中甲酰胺(氨基酸和RNA前驱体)的形成提供了新的反应途径,并为气-尘埃天体化学模型的改进提供了分子水平的动力学和热力学约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659073",
+   "title": "CO gaps in cold transition disks around low-mass stars",
+   "abstract": "Transition disks with large inner dust cavities are promising targets to study regarding planet formation, as these disks likely host massive planetary companions. The structure of gas and dust inside the cavity are crucial for understanding the potential of planet formation in the regions. We investigated the structure of gas and dust in a sample of three cold inclined transition disks around K and M stars without evidence of an inner dusty disk. We present new high-resolution ALMA Band 6 data of both 230 GHz continuum at 0farcs02 (∼ 3 au) resolution and the 12 CO 2--1, ^13CO 2--1, and C^18O 2--1 isotopologues at 0 (∼ 20$ au) resolution. We analyzed the radial profiles, computed the brightness temperatures, and derived estimates of the gas and dust content of the inner disk at 1 au. All three disks show dust cavities of 30--40 au in radius. The CO emission extends inside the cavity with progressively smaller CO cavity radii for the more abundant isotopologues. The ^13CO brightness temperature profile is similar to that of other transition disks and full disks. No inner dust disk was detected in the ALMA continuum, which is consistent with a lack of near-infrared excess. Considering the accretion rates, the gas-to-dust ratio in the inner disk at 1 au is estimated to be as high as 10$^5. No significant differences in the brightness temperature or in the gas-to-dust ratio were found between our disks and other transition disks around more luminous stars, contrary to expectations. This highlights the importance of individual-target studies through thermochemical modeling or multi-transition analyses to constrain the dust and gas structures in the cavity. The observed disk structures could be explained by a super-Jovian companion on eccentric orbits, but further modeling is needed to confirm this conclusion.",
+   "authors": [
+    "A. A. Rota",
+    "N. van der Marel",
+    "E. F. van Dishoeck",
+    "T. Muto"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659073",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究通过ALMA高分辨观测三个低质量星周围的冷过渡盘，分析了尘埃空洞内的气体和尘埃结构，发现CO发射延伸至盘空洞内部且不同同位素具有不同的空洞半径。研究表明这些盘的内盘气尘比高达10^5，与更亮恒星周围的过渡盘无显著差异，暗示需要通过热化学模型进一步约束空洞结构。观测结果可能指示存在在离心轨道上运行的超木星质量伴星，但需要进一步建模验证。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2130",
+   "title": "Testing Models of Disk Formation and Gravito-Viscous Evolution Against Observations of Young Protoplanetary Disks",
+   "abstract": "Abstract Young protoplanetary disks have received increasing attention in recent years, due to observations revealing the presence of substructures in disks younger than one million years, suggesting that planet formation may begin earlier than previously thought. Other recent observations have provided new insights into the evolution of gas and dust in these early stages, enabling comparisons with evolved Class II disks. Yet the physical processes governing the earliest stages of disk evolution remain poorly understood. In this paper, we present two-dimensional thin-disk hydrodynamical simulations of the formation and early evolution of protoplanetary disks, under the influence of self-gravity and turbulent viscosity alone. We explore various properties of disks forming from the collapse of clouds with a range of initial masses and we compare our results with surveys of protoplanetary disks across multiple evolutionary stages. Our simulations broadly reproduce key observational constraints, including the mm fluxes of Class 0 disks and the dust disk radii of later stages. However, our models do not explain the observed gas and dust disk masses of Class I and II disks: while they account for the most massive observed disks, they fail to reproduce the least massive ones. We discuss that simulations incorporating the influence of the star-forming environment might be needed to resolve this discrepancy.",
+   "authors": [
+    "Fabiola Antonietta Gerosa",
+    "Paola Pinilla",
+    "Eduard I Vorobyov",
+    "James McKevitt"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2130",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "disk evolution"
+   ],
+   "summary_zh": "本研究通过二维薄盘流体动力学模拟，在自引力和湍流粘性作用下模拟原行星盘的形成和早期演化过程，探究不同初始质量云坍缩形成的盘的性质。研究结果基本重现了观测约束（如Class 0盘的毫米波流量和后期阶段的尘埃盘半径），但在解释Class I和II阶段盘的气体和尘埃质量分布方面存在局限，特别是无法再现最小质量盘的观测特征。作者指出需要考虑恒星形成环境的影响来解决这一矛盾。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2126",
+   "title": "Effect of tidal gravity and planetary rotation on the retrieved atmospheric abundances of close-in exoplanets",
+   "abstract": "Abstract Most modern atmospheric retrievals adopt the simplifying assumption that the planetary atmosphere endures no planetary rotation and stellar tidal effect. However, for tidally locked close-in exoplanets, the gravitational influence of the host star and the rapid rotation of the planet can significantly modify the effective gravity, leading to changes in the atmospheric scale height and mixing ratios of molecular abundances. In this work, we develop a combined framework to include these rotation and tidal effects into a forward and retrieval model to study how they affect the molecular abundances of close-in exoplanets. We specifically apply our model to the planet WASP-12b, observed with HST, and WASP-121b, observed with JWST, and investigate how atmospheric retrieval parameters change when tidal and centrifugal corrections to gravity are included. The forward model calculation for strongly affected gravity in WASP-12b shows an increment in transit depth in the range of 300-600 ppm for major molecules, whereas for WASP-121b with relatively less gravity reduction shows variations of 60-140 ppm. The atmospheric retrievals for both planets with and without effective gravity corrections show differences in the retrieved molecular abundances. To validate the detectability of these gravity-induced changes, we perform synthetic injection-recovery experiments over a broad wavelength range, which show statistically significant shifts in the retrieved atmospheric parameters for simple atmospheric compositions, while more complex atmospheric compositions exhibit smaller changes due to increased retrieval degeneracies. Finally, we investigate the robustness of these results using non-isothermal P-T profiles and cloudy atmospheric models, and find that the inferred trends remain qualitatively consistent.",
+   "authors": [
+    "K Arnav",
+    "Gopal Hazra"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2126",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究开发了包含潮汐引力和行星自转效应的大气正演和反演模型框架，用于研究这些效应如何影响近距离系外行星的大气分子丰度；以WASP-12b和WASP-121b为例，发现有效重力的改变会导致过境深度变化60-600 ppm，进而改变反演得到的分子丰度。通过注入-恢复实验验证了这些重力诱导的变化在简单大气组成中具有统计显著性，但在复杂大气中由于反演简并性增加而降低。"
+  },
+  {
+   "id": "doi:10.1016/j.icarus.2026.117366",
+   "title": "Ice deposition fronts in porous bodies from transient heating events in a protoplanetary disk",
+   "abstract": "",
+   "authors": [
+    "Stephen Li",
+    "Alice C. Quillen",
+    "Adam E. Rubinstein",
+    "Dominique Segura-Cox",
+    "Kevin Righter"
+   ],
+   "link": "https://doi.org/10.1016/j.icarus.2026.117366",
+   "source": "Icarus",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "我们研究了原行星盘中瞬时加热事件引起的多孔天体内冰沉积锋面的动力学演化。通过建立包含热扩散、水汽运输和相变过程的耦合模型,我们采用数值模拟方法揭示了加热诱发的冰升华-冷凝过程如何形成明显的沉积锋面结构。研究表明冰锋面位置和强度受初始孔隙度、加热强度和持续时间的控制,这对理解原行星盘中固体物质的空间分布和行星胚胎的化学成分演化具有重要意义。"
+  }
+ ],
  "2026-11-06": [
   {
    "id": "arxiv:2611.07427",
@@ -10677,26 +10936,6 @@
     "atmosphere"
    ],
    "summary_zh": "本研究利用BepiColombo在2024年9月近距离掠过水星时搭载的SIXS仪器观测数据，调查了太阳高能粒子对水星磁层的穿透过程。研究发现质子消失与行星磁影相关，而电子丧失则源于宽磁损失锥，揭示了弱磁化的近日岩石行星在太阳高能粒子事件中会经历持续的高能粒子沉淀现象。这些过程对行星表面风化、外逝层变化及其宜居性具有重要影响。"
-  }
- ],
- "2026-09-08": [
-  {
-   "id": "doi:10.1093/mnras/stag1694",
-   "title": "The effect of the atmospheric C/O ratio on interiors of hot Jupiters",
-   "abstract": "Abstract The atmosphere is the outer boundary of a gas giant exoplanet’s interior. Therefore, compositional changes in the atmosphere can affect interior inferences. Typically, only metallicity is considered in atmospheric boundary conditions, while other elemental ratios, in particular the C/O ratio, are assumed to be solar. In light of the observational constraints now achievable with JWST, this assumption might no longer be justified. In this work, we investigate the effect of the C/O ratio on atmospheric boundary conditions, interiors and radii of hot Jupiters. We construct an atmospheric boundary grid, consisting of one-dimensional atmospheric models in radiative-convective and thermochemical equilibrium. This grid is coupled to a static interior structure model at the radiative-convective boundary (RCB). Because in the temperature regime of hot Jupiters, the C/O ratio determines the dominant species in the atmosphere, it can significantly alter the opacity and, consequently, the pressure and temperature at the RCB. This temperature change propagates into the convective interior, thus affecting the calculated radius. The radius difference relative to a solar C/O-atmosphere significantly exceeds observed radius uncertainties of 3 per cent for planets with equilibrium temperatures ≳ 1500 K and super-solar atmospheric metallicities. As an example, we demonstrate that, for WASP-19 b, higher C/O ratios result in higher inferred intrinsic temperatures. These results highlight the importance of treating atmospheric composition and interior structure as a coupled system. As atmospheric constraints improve, incorporating measured C/O ratios into atmospheric boundary conditions is necessary to obtain robust inferences of hot Jupiter interiors.",
-   "authors": [
-    "Esther van Dijk",
-    "Yamila Miguel",
-    "Paul Molliére"
-   ],
-   "link": "https://doi.org/10.1093/mnras/stag1694",
-   "source": "Monthly Notices of the Royal Astronomical Society",
-   "category": "行星大气",
-   "matched": [
-    "atmosphere",
-    "atmospheric"
-   ],
-   "summary_zh": "本研究通过耦合一维大气模型与内部结构模型，调查了热木星大气C/O比对其大气边界条件、内部结构和半径的影响。结果表明，C/O比通过改变大气主要化学成分和不透明度，显著改变辐射对流边界处的温压条件，进而影响行星半径推导，其效应在平衡温度≳1500K且大气过太阳丰度的行星上超过3%的观测误差。这强调了在JWST观测约束下，将测量的C/O比纳入大气边界条件对获得热木星内部结构自洽推导的必要性。"
   }
  ]
 }
