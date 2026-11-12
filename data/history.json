@@ -1,4 +1,58 @@
 {
+ "2026-11-12": [
+  {
+   "id": "arxiv:2611.14441",
+   "title": "Nucleation of water ice under weak ionization via clustering on negative ions",
+   "abstract": "Water-ice grains are shown to form spontaneously in a cold, weakly-ionized laboratory plasma with trace water admixture when neutrals and ions are cooled below $\\sim$200 K. These conditions serve as an analog of ice nucleation in cold astrophysical and atmospheric environments. The ice grains form without the presence of particulate impurities, and do not form in the absence of ionization, indicating that nucleation is induced by ions. Time-resolved ion mass spectrometry provides separate detection of clusters of water molecules on both positive and negative ions. Hydrated negative ions, mainly $\\mathrm{OH^-(H_2O)_n}$, grow to $\\sim$200 amu, while hydrated positive ions, mainly $\\mathrm{H^+(H_2O)_n}$, remain small and short-lived. As the temperature is reduced from room temperature toward 200 K, negative ion clusters grow in size and then drop sharply in abundance, consistent with the onset of rapid growth into macroscopic ice grains below a critical temperature. This indicates that hydrated negative ions are key precursors to ice nucleation in cold, weakly ionized environments, such as the Earth's mesosphere and protoplanetary disks, providing a concrete pathway for ice formation in environments where the nucleation mechanism has remained unresolved. This negative ion pathway is estimated to dominate over ice deposition on pre-existing dust grains in protoplanetary disk locations where there is sufficient UV to partially dissociate water molecules, and in addition, where negative ions such as OH- can form readily through electron attachment at low temperature.",
+   "authors": [
+    "André Nicolov",
+    "Efstratios M. Kritikos",
+    "William A. Goddard III.",
+    "Paul M. Bellan"
+   ],
+   "link": "https://arxiv.org/abs/2611.14441v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过弱电离实验室等离子体模拟发现，在低温（~200 K以下）条件下，水分子在负离子（主要为OH⁻(H₂O)ₙ）聚集成核而自发形成冰粒，而这一过程不依赖外部杂质且不需正离子参与。通过时间分辨离子质谱表明负离子团簇作为冰核的关键前驱体，随温度降低而增大后迅速消失，与宏观冰粒快速生长的临界温度相符。该机制对原行星盘和地球中层等弱电离、缺乏预存尘埃的冷环境中的水冰形成具有重要意义，在高紫外照射使水分子部分解离的盘面位置，负离子路径可能主导冰的核成过程。"
+  },
+  {
+   "id": "arxiv:2611.13770",
+   "title": "ExoPlanetLab: Bayesian orbit fitting of Gaia-DR4 epoch astrometry, radial velocities and relative astrometry",
+   "abstract": "Gaia Data Release 4 (DR4) provides epoch astrometry from which thousands of giant planets and many substellar and stellar companions can be characterised. We present ExoPlanetLab, an open-source package for Bayesian orbit inference from Gaia epoch astrometry, radial velocities (RVs) and relative astrometry, validated on simulated and real data. The model orbit is compared with the epoch residuals after removing the part absorbed by the single-star fit. A Student-t likelihood describes heavy-tailed data. A robust Keplerian periodogram with bootstrap false-alarm probabilities gives starting values for a joint fit. Five samplers are available: tempered ensemble MCMC, two nested samplers and two reversible-jump samplers. Evidences for a fixed number of companions select that number. Acceleration and scan-angle models test whether an orbit is warranted. The samplers agree within 0.1 sigma on a simulated two-planet system. In 180 injections all fits converge, and all signals with signal-to-noise ratio S >= 10 are detected. The posteriors show no significant bias, but the period coverage is below nominal: 90% of the true periods lie within their 95% credible intervals. None of 30 companion-free data sets gives a false detection. On DR4 pre-release data the orbit of Gaia BH3 is recovered within 1.4 sigma of published solutions. The Student-t model brings the astrometric period and eccentricity of HD 114762 onto its RV orbit. Eight simulated relative positions narrow the period's credible interval to 0.27 of its width, and Octofitter agrees within 0.2 sigma on the same data. The code is validated for single sources with DR4-like epoch astrometry, with or without RVs. Relative astrometry is tested on simulated data only. The main limits are an uncorrelated noise model and the computing cost, which grows linearly with the number of measurements and steeply with the number of companions.",
+   "authors": [
+    "David Hobbs"
+   ],
+   "link": "https://arxiv.org/abs/2611.13770v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "ExoPlanetLab是一个开源的贝叶斯轨道推断工具包,用于从盖亚DR4星历位置测量、径向速度和相对位置测量联合反演行星和伴星轨道,采用学生t分布描述重尾数据、鲁棒开普勒周期图和多种采样器(集合MCMC、嵌套采样器、可逆跳跃采样器)。在模拟和真实数据上的验证表明,该方法对双行星系统的参数约束精度达0.1σ以上,信噪比≥10的信号可完全检测,且不产生虚假探测,但周期覆盖率略低于标称值(95%置信区间内覆盖真实周期的比例为90%),同时计算成本随测量数量和伴星数量增加而快速增长。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeae24",
+   "title": "Two-stage Cooling in the Protoplanetary Disk Governs the Chemical and Isotopic Signatures of Carbonaceous Chondrites",
+   "abstract": "Abstract The thermodynamic evolution of the solar protoplanetary disk fundamentally governed the chemical makeup of accreting planetesimals. While the chondrule–matrix complementarity in carbonaceous chondrites has long been used to trace these processes, its origin—whether from a single closed reservoir or the mechanical mixing of independent components—remains highly debated. Here, we combine in situ chemical analyses of matrices across six major carbonaceous chondrite groups with high-precision silicon isotope data for paired chondrules and matrices to resolve this dichotomy. We demonstrate that moderately refractory elements (Mg/Si, δ 30 Si) strictly follow closed-system complementarity, whereas matrices are systematically depleted in moderately volatile elements (MVEs), necessitating open-system gas loss. Furthermore, the subequilibrium chondrule–matrix δ 30 Si offsets point to kinetically suppressed, nonequilibrium condensation rather than pure equilibrium gas–solid exchange. To unify these contradictory constraints, we propose a two-stage cooling model driven by transient heating events in dynamically confined dust-enriched disk regions. An initial rapid cooling stage drives kinetically controlled condensation, locking in the chemical and isotopic complementarity of refractories while accommodating localized alkali recondensation. A subsequent slower cooling stage retains MVEs in the gas, allowing disk turbulence to physically separate and strip away the volatile-rich gas prior to local accretion. This semiopen framework permits inherited dust to mix with locally formed condensates during late-stage cooling, producing a composite matrix reservoir that can reconcile local component-specific complementarity with bulk-scale binary mixing trends. This fractionation mechanism establishes a primordial chemical heterogeneity in the protoplanetary disk that might be further inherited by accreting planetesimals, shaping the bulk volatile depletion of terrestrial planets.",
+   "authors": [
+    "Yuanyuan Tian",
+    "Liang Zhang",
+    "Zhengbin Deng"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeae24",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过碳质球粒陨石中球粒与基质的原位化学分析和硅同位素测量，结合两阶段冷却模型，揭示了原行星盘热力学演化对行星体积累物质化学成分的控制机制。研究表明，中等难熔元素遵循闭系统互补关系，而中等挥发性元素则因开放系统气体损失而耗尽，非平衡冷凝过程主导了球粒与基质的同位素偏移。该模型将快速冷却阶段（驱动动力学控制的凝聚）与缓慢冷却阶段（允许挥发性元素逃逸）相结合，解释了难熔元素的局部互补性和挥发元素的全球混合趋势，建立了原行星盘的原始化学非均一性框架，对陆地行星的挥发元素亏损具有重要指示意义。"
+  }
+ ],
  "2026-11-11": [
   {
    "id": "arxiv:2611.13505",
@@ -10222,27 +10276,5 @@
    "summary_zh": "本研究利用小行星中心(MPC)和盖亚天文测量数据,对阿联酋小行星带探测任务的掠过目标小行星进行轨道确定。通过比较两个独立的天文测量数据源,评估了轨道确定精度,并分析了不同数据质量对小行星轨道参数的影响。研究结果为该探测任务的导航规划和小行星物理特性推导提供了关键的动力学基础。"
   }
  ],
- "2026-09-14": [],
- "2026-09-13": [
-  {
-   "id": "doi:10.1051/0004-6361/202556732",
-   "title": "Sorting a mess. I. Addressing the velocity-axis correlation of cross-correlation functions: A census of atomic and ionised species in KELT-9b's atmosphere",
-   "abstract": "Ultra-hot Jupiters (UHJs) represent the most extreme class of close-in gas giants, with KELT-9b being the most extreme example known. For this study, we combined 13 transit observations of KELT-9b from six high-resolution spectrographs spanning 316--960,nm to conduct a census of atomic and ionised species in the planet’s atmosphere using the cross-correlation technique. The primary objective is to introduce an agnostic strategy to mitigate velocity-axis correlation bias in parameter uncertainties during cross-correlation analysis. By employing a forward model of the cross-correlation function (CCF) alongside a Monte Carlo bootstrap of flux uncertainties, the individual CCF-derived velocity profiles of each species in the planet’s atmosphere were measured, and potential time dependence in these velocity profiles was assessed. The stellar reference frame was determined, yielding a systemic velocity of sys = -17.99 ± 0.04,km,s-1 and a projected rotational velocity of v = -8.02 ± 0.17,km,s$^ i = 110.54 ± 0.05$,km,s^-1, which is consistent across all instruments and observing nights. The combined planetary absorption profiles provide insight into the collective motion of all detectable gas species in the atmosphere. All previously reported species were recovered except for Tb,II, and the combined analysis detects 29 species, including additional absorbers C,I, Si,I, K,I, V,II, Co,I, Zr,II, La,II, Pr,II, and Nd,II. All 29 recovered species exceed the conventional 5σ threshold in the bootstrap Mahalanobis significance test. The collective Doppler shifts display a blueshift of Δ V_ offset -1 relative to the stellar rest frame, indicating a net day-to-night wind, with no explicit time dependence observed when all species are homogenised. These results constitute a catalogue of detections and retrieved Doppler parameters, forming a foundation for a companion study of KELT-9b that would allow for the most significant detections to be analysed and the differences across individual species to be compared.",
-   "authors": [
-    "N. W. Borsato",
-    "B. Thorsbro",
-    "H. J. Hoeijmakers",
-    "D. B. Zucker",
-    "S. Pelletier",
-    "B. Prinoth"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202556732",
-   "source": "Astronomy & Astrophysics",
-   "category": "热木星与短周期行星",
-   "matched": [
-    "hot Jupiter"
-   ],
-   "summary_zh": "本研究使用六台高分辨率分光仪的13次凌星观测数据,结合交叉相关技术对超热木星KELT-9b大气中的原子和离子物种进行了普查。通过引入前向建模和蒙特卡洛自助法,研究开发了一种消除速度轴相关偏差的无偏策略,测量了29个气体物种的视向速度轮廓。结果表明所有物种整体呈现蓝移(-1.74 km/s),反映了行星大气中日夜风的净效应,且未观测到随时间的显著变化。"
-  }
- ]
+ "2026-09-14": []
 }
