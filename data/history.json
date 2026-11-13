@@ -1,4 +1,370 @@
 {
+ "2026-11-13": [
+  {
+   "id": "arxiv:2611.15537",
+   "title": "A Joint Study of Epoch Astrometry and Radial Velocities of Gaia-4b",
+   "abstract": "Gaia-4b is the first confirmed exoplanet discovered with Gaia astrometry, based on its identification as a possible exoplanet in the solution in Gaia Data Release 3 and subsequent confirmation with radial velocity. In this work we present a \\texttt{python} framework called \\texttt{pyGaiafits} that can jointly analyze astrometric time series and radial velocities. We use this to combine the precise along-scan astrometric time series for Gaia-4 from the Gaia DR4 pre-release with 44 radial velocities (RVs) obtained over three years from four independent spectrographs (HPF, HARPS-N, NEID, and FIES). By jointly fitting these two complementary datasets that collectively span a 12-year baseline ($\\sim$7 orbital periods of Gaia-4b), we refine the system parameters and determine the true mass of Gaia-4b to be $10.70\\pm0.32$~$M_J$. Critically, we do not find significant evidence for the long-term quadratic RV trend previously reported in the literature, recovering $\\ddotγ = 5.5^{+8.3}_{-6.7}\\;\\mathrm{m\\,s^{-1}\\,yr^{-2}}$ consistent with zero. We discuss how this discrepancy likely arises from a degeneracy between orbital period and long-term trends when RVs span only $\\sim$1.5 orbital cycles --- a degeneracy that is broken by anchoring the ephemeris with early Gaia astrometry.",
+   "authors": [
+    "Shubham Kanodia",
+    "Suvrath Mahadevan",
+    "Gudmundur Stefansson",
+    "Domenico Barbato",
+    "Joe P. Ninan",
+    "William D. Cochran",
+    "Rachel B. Fernandes",
+    "Caleb I. Canas",
+    "Andrea S. J. Lin",
+    "Leonardo A. Paredes",
+    "Matteo Pinamonti",
+    "Paul Robertson",
+    "Christian Schwab",
+    "Alessandro Sozzetti"
+   ],
+   "link": "https://arxiv.org/abs/2611.15537v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity",
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究联合分析了Gaia-4系统的精密位置天文时间序列和来自四台独立光谱仪的44条径向速度数据,利用跨越12年基线的互补数据集,通过开发的pyGaiafits框架精确确定了系统参数,将Gaia-4b的真实质量确定为10.70±0.32木星质量。关键发现是本研究未发现文献中先前报告的长期二阶径向速度趋势的显著证据,而早期Gaia位置天文数据的约束消除了仅跨1.5轨道周期的径向速度数据中轨道周期与长期趋势之间的简并性。这项工作展示了位置天文和径向速度联合分析在破解系统参数退化性问题上的重要作用。"
+  },
+  {
+   "id": "arxiv:2611.15350",
+   "title": "Minimum observations for accurate Exoplanetary mass estimation with Radial Velocity Analysis (MINERVA)",
+   "abstract": "Precise planetary mass measurements are essential for constraining the internal structure and envelope properties of exoplanets and to break key degeneracies in atmospheric retrievals. Estimating the observational effort needed to reach a desired mass precision is therefore fundamental for the optimisation of current and future radial velocity (RV) surveys. We present MINERVA, a tool designed to estimate the required number of RV observations to measure transiting planet masses to a given precision, providing a robust scheduling framework for large-scale samples. MINERVA simulates realistic RV time series for targets orbiting FGKM-type stars. The code ingests real-world observational timestamps to account for weather interruptions and seasonal visibility gaps. To model stellar activity, the pipeline draws ages from local neighbourhood distributions, uses empirical calibrations to derive rotation and magnetic activity levels, and translates these into time-varying RV signals. We also derived a new empirical calibration between chromospheric activity and RV dispersion for K-type stars, using Global Architecture of Planetary Systems (GAPS) and Ariel Mass Survey (ArMS) data. We validated MINERVA on targets with known planetary masses, yielding required observational efforts highly consistent literature values. To demonstrate its capabilities on statistically significant samples, we applied the code to a subsample of the Ariel Mission Candidate Sample. Adopting HARPS-N/TNG as the reference instrument, we estimated the observing nights necessary to achieve a 30% planetary mass precision, providing an optimised observational roadmap for atmospheric characterisation. MINERVA's probabilistic and flexible architecture allows the optimisation of ongoing RV campaigns, the evaluating of undersampling risks in active stars, and the dynamic guidance of population-wide characterisation strategies.",
+   "authors": [
+    "C. Di Maio",
+    "S. Benatti",
+    "S. Colombo",
+    "G. Piccinini",
+    "R. Spinelli",
+    "V. Fardella",
+    "R. Claudi",
+    "G. Micela"
+   ],
+   "link": "https://arxiv.org/abs/2611.15350v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究开发了MINERVA工具,通过模拟包含恒星活动、天气中断和季节可见性等真实观测条件的径向速度时间序列,估计达到目标行星质量精度所需的观测次数。研究基于FGKM型恒星建立了模型,并利用GAPS和ArMS数据为K型星色球活动与径向速度离散度之间建立了新的经验标定。该工具在已知行星质量的目标上进行了验证,并应用于Ariel任务候选样本,为大规模系外行星质量测量和大气表征提供了优化的观测策略指导。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aead97",
+   "title": "Merging of Multiple CMEs as the Solar Source of the Great Geomagnetic Storm in 2024 May",
+   "abstract": "Abstract The 2024 May 10–11 great geomagnetic storm ( Dst min = −406 nT) is ranked as the sixth largest geomagnetic event on record. The solar source of the May storm is still unsettled. It was associated with five halo coronal mass ejections (CMEs) erupting during May 8–9, but the Wind spacecraft only recorded an interplanetary shock at 16:32 UT on May 10 and a likely second one at 21:36 UT on the same day. In addition, the five CMEs were associated with moderate X-ray flares (M8.7–X2.2) and initial speeds of only 530–1280 km s −1 ; yet, they produced a very intense geomagnetic storm. Here we employ a global magnetohydrodynamic simulation model to address this puzzle. The CMEs, simulated with pressure pulses, were injected into the inner boundary (18 solar radii) of simulation domains with speeds estimated from the white-light coronagraph images. An error range of 1.0–18.5 hr is found for the shock arrival time (SAT) when individual CMEs are simulated, and an error range of 0.2–6.0 hr is found for the SAT when the five CMEs are simulated together. The latter simulation reproduces the radial velocity profile in much better agreement with the Wind observations than any individual one does, suggesting that merging of the CMEs is responsible for the May geomagnetic storm as inferred previously.",
+   "authors": [
+    "Chin-Chun Wu",
+    "Kan Liou",
+    "Brian E. Wood"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aead97",
+   "source": "The Astrophysical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究采用全球磁流体动力学模拟模型，将2024年5月8-9日五个日冕物质抛出(CMEs)作为压力脉冲注入模拟域，探讨了为何初速度仅为530-1280 km/s的中等规模耀斑产生的CMEs却引发了第六大地磁暴(Dst min = −406 nT)。研究结果表明，单个CME模拟的激波到达时间误差范围为1.0-18.5小时，而五个CME联合模拟时误差缩小至0.2-6.0小时，并且更好地再现了Wind卫星观测的径向速度分布，证实了多个CME合并是2024年5月地磁暴的主要太阳源。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aeba88",
+   "title": "Searching for Circumplanetary Dust in the Cavity of the AB Aurigae Disk with ALMA",
+   "abstract": "Abstract The young intermediate-mass star AB Aurigae is surrounded by a transition disk whose cavity contains several proposed protoplanets, including the debated source “AB Aur b” at a projected separation of ≈ 0 . ″ 6 (≈93 au). To search for circumplanetary material associated with these candidates, we have obtained the most sensitive (∼20 μ Jy beam −1 rms) and highest angular resolution (∼30 mas) Atacama Large Millimeter/submillimeter Array (ALMA) Band 7 (0.88 mm) observations of AB Aur to date. We recover the asymmetric dust ring in the continuum emission peaking at ∼ 0 . ″ 9 (∼140 au) and compact emission at the stellar position, but detect no point source at the location of AB Aur b or any of the other proposed protoplanet candidates down to a 3 σ limit of 60 μ Jy. For optically thin emission, this corresponds to a dust mass of ≲0.0059 M ⊕ (for a dust temperature of 40 K), comparable to the circumplanetary disk around PDS 70 c. The 12 CO emission fills the continuum cavity, revealing an inner spiral structure and a clear rotation pattern. The gas at the position of AB Aur b is smoothly connected to the ambient disk with no localized excess or obvious kinematic deviation. If any proposed candidates are accreting, their circumplanetary material must have a low dust mass, a small physical size, dust that is optically thick, or a dearth of large millimeter-emitting grains.",
+   "authors": [
+    "Lillian Yushu Jiang",
+    "Brendan P. Bowler",
+    "Ya-lin Wu",
+    "Yifan Zhou"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aeba88",
+   "source": "The Astrophysical Journal Letters",
+   "category": "系外行星观测",
+   "matched": [
+    "planet candidate"
+   ],
+   "summary_zh": "本研究利用ALMA进行了迄今最灵敏和最高分辨率的0.88毫米观测，在AB Aurigae过渡盘空洞中搜索与候选原行星相关的周行星尘埃。研究在AB Aur b和其他候选原行星位置未检测到点源，尘埃质量上限为≲0.0059地球质量，同时12CO发射显示气体在候选行星位置无明显局部过量或运动学异常。这些结果表明，如果这些候选体确实存在，其周行星物质必须具有极低的尘埃质量、小的物理尺度、光学厚的尘埃或缺乏大毫米粒子。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/ae8537",
+   "title": "Dynamical Mass Constraints on Transition Disk Perturbers Using the G23H Catalog",
+   "abstract": "Abstract We present dynamical mass constraints on perturbers in 11 transition disk systems using a novel combination of calibrated Hipparcos and Gaia absolute astrometry data. Out of the sample of 11, we find support for companions in four systems, with significant detections in two. These systems are HD 142527, where we clearly detect the known low-mass stellar companion HD 142527 B and MWC 758, where we detect a likely substellar companion. We also find moderate evidence of companions to AB Aur and UX Tau A. For the seven systems with nondetections, we find no evidence for companions more massive than ∼12 M Jup with a semimajor axis greater than 3 au for both HD 100546 and HD 100453, nor for companions more massive than ∼3 M Jup with a semimajor axis greater than 2 au for TW Hya. We also find no evidence for stellar-mass companions with semimajor axes between ∼4 and ∼25 au for HD 34282, HD 97048, CQ Tau, and RY Lup. In addition to our fiducial model, we perform cross-validation between astrometry sources. By comparing results across models, we find tentative evidence of a short-timescale excess astrometric noise that may impact some protoplanetary disk systems. We conclude with predictions for the prospects of making dynamical mass constraints on protoplanets in protoplanetary disk systems with Gaia Data Release 4 (GDR4) using detailed simulations of GDR4 data of PDS 70 and WISPIT 2.",
+   "authors": [
+    "Dori Blakely",
+    "William Thompson",
+    "Doug Johnstone",
+    "Jessica Speedie",
+    "Jerry W. Xuan",
+    "Simon Blouin",
+    "Jingwen Zhang",
+    "Jean-Baptiste Ruffio",
+    "Eric Nielsen",
+    "Brendan P. Bowler",
+    "Kyle Franson",
+    "William Roberson",
+    "Ryan Cloutier",
+    "Andre Fogal",
+    "Kaitlyn Hessel",
+    "Christian Marois",
+    "Alexandra Rochon"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/ae8537",
+   "source": "The Astronomical Journal",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometry",
+    "astrometric"
+   ],
+   "summary_zh": "本研究利用校准后的Hipparcos和Gaia绝对位置天文数据的新颖组合，对11个过渡盘系统中的扰动体进行了动力学质量约束，在其中4个系统中发现伴星证据，在HD 142527和MWC 758中有显著探测。对于7个无探测的系统，研究获得了关于伴星质量和半长轴的严格上限（如TW Hya系统中质量>3木星质量的伴星上限为半长轴>2天文单位）。通过多个模型的交叉验证，研究发现可能存在影响原行星盘系统的短期位置天文噪声，并为Gaia DR4数据对PDS 70和WISPIT 2系统中原行星的动力学质量约束前景进行了预测。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202659569",
+   "title": "A first look at the protoplanet with VLTI/GRAVITY+",
+   "abstract": "Confirmed observations of young protoplanets actively undergoing the process of formation have remained rare to date. In this article , we present new insights into the nature of the recently identified protoplanet (age sim5 Myr) from Very Large Telescope Interferometer/GRAVITY+ observations. Through analysis of the spectral energy distribution (SED) and astrometry of with the inclusion of new GRAVITY+ data, we investigated the nature of the protoplanet's thermal emission and orbital properties. We performed an orbit fit with the inclusion of new high-precision GRAVITY+ astrometry to provide an updated orbital solution. We also analyzed the medium resolution GRAVITY+ K band spectrum in combination with new Very Large Telescope/SPHERE and literature photometry, exploring both the atmospheric properties and the constraints on the circumplanetary environment. Finally, we checked for any signal from a resolved circumplanetary disk in the GRAVITY+ data. We detected the protoplanet . Analysis of the SED reveals an effective temperature in the 900 to 1300 K regime and at sim322 mas separation from its host star. The new GRAVITY+ astrometry prefers an orbit with moderate eccentricity a slight preference for atmospheric models including clouds over pure blackbody emission . Although the GRAVITY+ observations also do not resolve a circumplanetary disk, we place an upper limit on the possible spatial extent of such a disk. The new GRAVITY+ observations independently confirm as a self-luminous and point-like companion that resides within the gap of the transitional disk at sim60 au from its host star. Further observations -- either at higher signal-to-noise ratios or at longer wavelengths -- are required to characterize the atmosphere and examine the presence of circumplanetary material from thermal emission of the dust.",
+   "authors": [
+    "",
+    "K. Abd El Dayem",
+    "R. Abuter",
+    "N. Aimar",
+    "M. Benisty",
+    "A. Berdeu",
+    "J.-P. Berger",
+    "A. Boccaletti",
+    "H. Bonnet",
+    "G. Bourdarot",
+    "W. Brandner",
+    "Y. Cao",
+    "L. M. Close",
+    "C. Correia",
+    "S. Cuevas Cardona",
+    "R. Davies",
+    "D. Defrère",
+    "L. Delit",
+    "F. Delplancke",
+    "A. Drescher",
+    "A. Eckart",
+    "F. Eisenhauer",
+    "L. Esteras Otal",
+    "M. Fabricius",
+    "A. Farah",
+    "H. Feuchtgruber",
+    "S. Flesch",
+    "N. M. Förster Schreiber",
+    "A. Foschi",
+    "Q. Fournier",
+    "P. Garcia",
+    "R. Garcia Lopez",
+    "R. Genzel",
+    "S. Gillessen",
+    "C. Ginski",
+    "T. Gomes",
+    "F. Gonté",
+    "V. Gopinath",
+    "J. Graf",
+    "M. Hartl",
+    "X. Haubois",
+    "F. Haussmann",
+    "T. Henning",
+    "S. F. Hönig",
+    "M. Houllé",
+    "H.-C. Jiang",
+    "S. Joharle",
+    "J. Kammerer",
+    "A. Kaufer",
+    "C. Keiman",
+    "M. A. Kenworthy",
+    "P. Kervella",
+    "J. Kolb",
+    "L. Kreidberg",
+    "L. Labadie",
+    "R. Laugier",
+    "S. Lacour",
+    "O. Lai",
+    "C. Lawlor",
+    "J.-B. Le Bouquin",
+    "J. Leftley",
+    "R. Li",
+    "B. Lopez",
+    "D. Lutz",
+    "F. Mang",
+    "G.-D. Marleau",
+    "A. Mérand",
+    "F. Millour",
+    "M. Montargès",
+    "N. More",
+    "N. Morujão",
+    "A. Nicolas",
+    "H. Nowacki$ ^ $",
+    "M. Nowak$ ^ $",
+    "S. Oberti",
+    "J. Osorno$ ^ $",
+    "T. Ott",
+    "S. Pappert",
+    "T. Paumard",
+    "C. Paladini",
+    "K. Perraut$ ^ $",
+    "G. Perrin",
+    "R. Petrov",
+    "P.O. Petrucci",
+    "N. Pourré",
+    "B. Prinoth",
+    "S. Rabien",
+    "C. Rau",
+    "D.C. Ribeiro",
+    "E. Rickman",
+    "S. Robbe-Dubois",
+    "M. Sadun Bordoni",
+    "M. Salman",
+    "J. Sanchez-Bermudez",
+    "J. Sauter",
+    "J. Scigliuto",
+    "J. Shangguan",
+    "P. Shchekaturov",
+    "T. T. Shimizu",
+    "C. Soenke",
+    "F. Soulez",
+    "T. Stolker",
+    "C. Straubmeier",
+    "E. Sturm",
+    "M. Subroweit",
+    "C. Sykes",
+    "L. J. Tacconi",
+    "P. Thevenet",
+    "K. R. W. Tristram",
+    "G. Ulbricht",
+    "I. Urso",
+    "S. Vach",
+    "R. F. van Capelleveen",
+    "F. Vincent",
+    "J.J. Wang",
+    "E. Wieprecht",
+    "T. O. Winterhalder",
+    "J. Woillez",
+    "G. Zins"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202659569",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究利用VLTI/GRAVITY+对年轻原行星进行了首次高精度观测，通过光谱能量分布分析和高精度位置天文学测量，确定该原行星有效温度在900-1300 K，轨道离心率中等，距主星约60 au，并对其大气性质和环行星盘进行了约束。研究结果独立确认了该伴星的自发光点源特性，但需要进一步更高信噪比或更长波长的观测来深入表征其大气成分和环行星物质。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662216",
+   "title": "HD 210058 b and BD+37 4838 b: A precessing eccentric hot Jupiter and a misaligned substellar companion around two A-type stars",
+   "abstract": "Relatively few A- and F-type stars are known to host exoplanets, and likewise few planets have measured spin-orbit angles, defined as the angle between the planet's orbital axis and the star's rotational axis. Expanding the sample of such systems is important for constraining the formation and migration mechanisms of close-in giant planets around early-type stars. We aim to measure the sky-projected spin-orbit angles of HD 210058 b (TOI-1355 b) and BD+37 4838 b (TOI-1414 b), two objects listed as candidate exoplanets, and assess the planetary nature of these systems. Both of their host stars are fast rotators. We analyzed TESS photometry in combination with the transit time series of HARPS-N spectra. For both objects, we created cross-correlation functions from the spectra to analyze Doppler tomography and detect and model the Doppler shadow. We also used photometric observations to refine several poorly constrained photometric and spectroscopic parameters of both the host stars and their companions. When possible, we used the derived results to constrain the companion masses. We verified the planetary and substellar nature for both objects. We report HD 210058 b to be a giant hot Jupiter with a mass of sim10, , residing on a slightly misaligned orbit with a sky-projected spin-orbit angle łambda=-32_ M_ Jup -6 ^ +4 ,̊m deg. Archival photometry reveals a continuously changing inclination and impact parameter, indicating nodal precession with a period of sim860,̊m yr and implying that further transit observations will be possible for only about six more years. The second target, BD+37 4838 b, orbits a hybrid γ Dor-δ Sct pulsator on a misaligned orbit with +1.4 _ -2.3 ,̊m deg. Since we could not reliably recover its mass, we only report an upper limit of sim24.3, , leaving the possible planetary nature of this object unresolved. M_ Jup",
+   "authors": [
+    "Z. Balkóová",
+    "J. Žák",
+    "M. Skarka",
+    "M. C. Johnson",
+    "A. W. Mann",
+    "M. G. Barber",
+    "P. Gajdoš",
+    "T. G. Beatty",
+    "M. A. Kroft",
+    "I. Ilyin",
+    "P. Kabáth"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662216",
+   "source": "Astronomy & Astrophysics",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究通过TESS测光和HARPS-N光谱的多普勒层析成像技术，测量了A型星HD 210058和BD+37 4838周围两个伴星候选体的自转轨道倾角。结果表明HD 210058 b是质量约10木星质量的热木星，轨道存在显著偏心和约860年周期的节点进动，预计仅可再观测约6年；而BD+37 4838 b是轨道倾斜的亚恒星伴星，其行星性质仍需进一步确认。这些发现为早型星周围近距热木星的形成迁移机制提供了新的约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202663190",
+   "title": "Molecular mapping of an exoplanet with JWST: Detection of NH3 and HCN in the temperate super-Jupiter Epsilon Indi Ab",
+   "abstract": "Epsilon Indi Ab is currently the coldest and one of the closest directly imaged exoplanets (T_ eff = 275 K, d=3.6 pc). It offers a unique opportunity to test our understanding of the physical and chemical properties of gas giants across the full temperature range spanned by hotter directly imaged exoplanets and the cooler giants of the Solar System. We characterize the atmosphere of Epsilon Indi Ab using infrared spectroscopic observations. We present JWST spectroscopic observations of Epsilon Indi Ab obtained with MIRI in the medium-resolution spectrograph mode (4.9--27.9 μm) and NIRSpec in the integral field unit mode (2.87--5.27 μm). The data are highly contaminated by the stellar light from the bright host star. We therefore adopted a high-pass filtering and cross-correlation approach based on atmospheric models to detect the planetary signal and specific molecules. petitRADTRANS The cross-correlation analysis enabled us to robustly detect the planet with both instruments with a signal-to-noise ratio (S/N) up to mathrm S/N =15.0. Using molecular mapping, we securely identified the presence of (maximum mathrm NH3 S/N = 14.4), (maximum mathrm H2O S/N = 11.3), (mathrm HCN S/N = 5.3) and marginally detected (mathrm PH3 S/N = 4.1), (mathrm CH4 S/N = 3.8), (mathrm C2H2 S/N = 3.9) and (mathrm CO2 S/N = 2.6). In particular, Epsilon Indi Ab becomes the coldest exoplanet in which and have been identified so far. The presence of HCN likely implies intense vertical mixing. NH3 HCN These first results confirm that infrared spectroscopy combined with cross-correlation techniques can be used to characterize the atmosphere of directly imaged exoplanets with JWST, even when the contamination by the host star is critical.",
+   "authors": [
+    "R. Kravtchenko",
+    "O. Berné",
+    "I. Schroetter",
+    "P. Amiot",
+    "F. Debras"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202663190",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究采用JWST的MIRI和NIRSpec对距离最近的超木星系外行星Epsilon Indi Ab进行红外分光观测，通过高通滤波和交叉相关方法克服了恒星污染，成功检测到该系外行星大气中的NH₃、H₂O和HCN等分子。研究结果表明Epsilon Indi Ab是迄今最冷的确认存在HCN和NH₃的系外行星，HCN的存在暗示其大气经历强烈的竖直混合，这验证了JWST红外分光学结合交叉相关技术在表征直接成像系外行星大气中的可行性，为跨越太阳系和热木星温度范围的行星大气物理化学性质研究开辟了新途径。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661066",
+   "title": "Resolving inhomogeneous hot and ultra-hot Jupiter atmospheres with ANDES: Insights from simulated ELT observations",
+   "abstract": "The advent of the ELT will move high-resolution exoplanet spectroscopy from atmospheric detection towards spatial and temporal characterisation. In particular, ANDES is expected to deliver transmission spectra of hot gas giants with sufficient information content to probe limb-to-limb differences, atmospheric winds, and time-variable chemical signatures within single transits. We assessed the capabilities of ANDES to characterise inhomogeneous hot and ultra-hot Jupiter atmospheres, and we evaluated whether standard 1D retrieval approaches could remain adequate in this information-rich regime. We performed end-to-end simulations of ANDES transmission spectroscopy for the benchmark hot Jupiter HD,189733,b and the ultra-hot Jupiter WASP-76,b. The simulated atmospheres were built with a pseudo-2D limb framework including different thermal structures, equilibrium chemistry, wind and rotational broadening, and phase-dependent limb contributions. We then analysed the synthetic datasets with cross-correlation maps and Bayesian retrievals over the full ANDES wavelength ranges. ANDES is expected to yield very high-significance detections of the dominant molecular and atomic species in single transits. For HD,189733,b and hot gas-giants, H_2O dominates the near-infrared signal, while CO, CH_4, and H_2S are detectable over more restricted regions of the explored composition grid. For WASP-76,b and ultra-hot Jupiters, near-infrared molecules and optical metals produce strong signals, with Fe, Ti, V, and Ca tracing the hotter limb. Time-resolved retrievals recover the expected evolution of temperature and velocity as different limb contributions dominate the observed spectrum, indicating that ANDES can probe atmospheric gradients on timescales of about some tens of minutes for favourable systems. However, we caution that retrievals performed with homogeneous 1D models yield precise but biased molecular abundances and derived elemental ratios, frequently over-constraining species that act as nuisance absorbers to compensate for unmodelled pseudo-2D structure. Our results show that ANDES will enable spatially and temporally resolved studies of hot-Jupiter atmospheres, but also that its data quality will expose the limitations of standard retrieval frameworks. The full potential of ANDES for an exoplanet atmosphere characterisation will only be realised through a paradigm shift in retrieval methods: whereas 1D retrievals remain useful diagnostic tools, the interpretation of ELT-era high-resolution spectra will require multi-dimensional forward models, capable of fitting phase-dependent limb contributions, velocity fields, and chemical gradients.",
+   "authors": [
+    "A. Sánchez-López",
+    "E. Pallé",
+    "A. P. Millán"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661066",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究通过端到端模拟评估了ELT的ANDES仪器对系外行星大气非均质性结构的刻画能力，对HD189733b和WASP-76b等热木星和超热木星进行了伪二维大气传输谱模拟，包含温度结构、化学组分、风场和自转展宽等物理过程。研究表明ANDES能在单次凌星事件中以极高精度探测主要分子和金属物种，并通过时间分辨反演捕捉大气的温度和速度梯度，但标准一维均质模型反演会产生系统性偏差；该工作揭示了ELT时代高分辨率系外行星光谱的解释需要多维前向模型来同时约束相位依赖的边缘贡献、速度场和化学梯度。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662947",
+   "title": "New line-driven mass-loss rate predictions for central stars of planetary nebulae: Luminosity dependence when approaching the Eddington limit",
+   "abstract": "After expelling most of their envelopes, asymptotic giant branch stars turn bluewards in the Hertzsprung-Russel diagram and become hot objects. These objects ionise the surrounding material, possibly creating a planetary nebula. Because they are hot and rather luminous, they are able to launch a line-driven wind. The luminosity dependence of these winds has not yet been studied in detail using global wind models that consistently consider the interaction of the photosphere and the wind. We provide line-driven wind models of the central stars of planetary nebulae focusing on the dependence of these winds on luminosity. While the mass-loss rate is strongly sensitive to stellar luminosity, the terminal velocity increases with effective temperature and only weakly depends on luminosity. The predicted values agree reasonably well with observations, except that observational mass-loss rates show a rather large scatter, and the predicted terminal velocities are slightly lower than observational values. We provide ionising fluxes and show that for stars cooler than approximately 40,kK, the ionising fluxes computed from plane-parallel models are inadequate. The wind efficiency stays rather weak, which implies that the Wolf-Rayet type of central stars is connected with objects with an elevated mass fraction of heavy elements.",
+   "authors": [
+    "J. Krtička",
+    "J. Kubát",
+    "I. Krtičková"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662947",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究使用全局风模型系统地研究了行星状星云中心星的流线驱动风与光度的依赖关系，发现质量损失率对光度高度敏感，而终端速度主要取决于有效温度且对光度弱敏感。研究预测的参数与观测值基本符合，但指出平面平行模型对温度低于40kK星体的电离光子流计算不足，且风效率较低表明Wolf-Rayet型中心星与重元素丰度升高的天体相关联。"
+  },
+  {
+   "id": "doi:10.1126/science.adw7770",
+   "title": "Carbon dioxide and amorphous water ices in the debris disk around β Pictoris",
+   "abstract": "The star β Pictoris is orbited by a dusty debris disk, within which planet formation is occurring. The outer disk is sufficiently far from the star that volatile molecules are expected to freeze into solid ices. We observed the β Pictoris disk in the near-infrared using the James Webb Space Telescope. The spectrum shows features due to amorphous water ice (<7% crystallinity) and carbon dioxide (CO 2 ) ice in both the 12 CO 2 and 13 CO 2 isotopologues. We infer that the CO 2 ice is intimately mixed with the water ice at a ratio of 1:10. This implies that the ices formed in cold conditions, likely in the interstellar medium. Frequent collisions within the debris disk are required to explain the observed uniform distribution of icy dust grains.",
+   "authors": [
+    "S. K. Betti",
+    "C. H. Chen",
+    "C. Xie",
+    "K. Worthen",
+    "S. Brittain",
+    "J. Najita",
+    "I. Rebollido",
+    "T. Beck",
+    "B. T. Bolin",
+    "D. Hines",
+    "C. Ingebretsen",
+    "C. Lisse",
+    "M. D. Perrin",
+    "L. Pueyo",
+    "I. Wong",
+    "C. Stark"
+   ],
+   "link": "https://doi.org/10.1126/science.adw7770",
+   "source": "Science",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation"
+   ],
+   "summary_zh": "本研究利用詹姆斯·韦伯太空望远镜对β Pictoris原行星盘进行了近红外光谱观测,检测到了非晶态水冰和二氧化碳冰的特征吸收。我们推断二氧化碳冰与水冰以1:10的比例均匀混合,表明这些冰体形成于星际介质等寒冷环境中。这一发现表明原行星盘内频繁的碰撞作用是维持冰尘粒均匀分布的关键因素,为理解行星形成区域的物质组成和动力学过程提供了新的观测证据。"
+  }
+ ],
  "2026-11-12": [
   {
    "id": "arxiv:2611.14441",
@@ -10275,6 +10641,5 @@
    ],
    "summary_zh": "本研究利用小行星中心(MPC)和盖亚天文测量数据,对阿联酋小行星带探测任务的掠过目标小行星进行轨道确定。通过比较两个独立的天文测量数据源,评估了轨道确定精度,并分析了不同数据质量对小行星轨道参数的影响。研究结果为该探测任务的导航规划和小行星物理特性推导提供了关键的动力学基础。"
   }
- ],
- "2026-09-14": []
+ ]
 }
