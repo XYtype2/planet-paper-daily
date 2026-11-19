@@ -1,4 +1,283 @@
 {
+ "2026-11-19": [
+  {
+   "id": "arxiv:2611.24854",
+   "title": "Discovery of a Massive Outer Companion to the TOI-178 Resonant Chain",
+   "abstract": "We report the discovery of a massive outer companion around TOI-178, a known planetary system with six inner small planets within 0.15 AU, five of which are in a 2:4:6:9:12 resonant chain. We analyse the astrometric anomalies in the combined Gaia DR2/DR3 - Hipparcos catalogue (G23H) and literature radial velocities, revealing strong evidence for a massive outer companion at several AU. We combine the resulting orbital fit posterior with archival high-contrast imaging to constrain the properties of the corresponding massive outer companion, TOI-178 h. We also study the dynamical stability of the inner resonant chain in the presence of this previously unknown outer companion via both heuristic and N-body simulations. We find that the inner system appears to be robust to the perturbing influence of TOI-178\\,h, in line with the systems several Gyr age. Our analysis results in a final posterior solution for TOI-178\\,h with a semi-major axis of $6.9^{+12.3}_{-3.3}$ AU, a mass of $21^{+47}_{-11} M_J$, and eccentricity of $0.76^{+0.18}_{-0.35}$, likely corresponding to an eccentric brown dwarf. TOI-178 is currently the only known system that has maintained a high-multiplicity resonant chain whilst in the dynamical presence of a massive outer companion, showcasing a unique outcome of planet formation.",
+   "authors": [
+    "Emma V. Turtelboom",
+    "William Thompson",
+    "Ryan Cloutier",
+    "Alexandra Rochon",
+    "Charles A. Beichman",
+    "Trevor Campbell",
+    "Nick Choksi",
+    "Doug Johnstone",
+    "Jessica Speedie",
+    "Dori Blakely",
+    "Simon Blouin",
+    "Alexandre Bouchard-Côté",
+    "Brendan P. Bowler",
+    "David R. Ciardi",
+    "Clarissa R. Do Ó",
+    "Andre Fogal",
+    "Kyle Franson",
+    "Kaitlyn Hessel",
+    "Christian Marois",
+    "Eric Nielsen",
+    "William Roberson",
+    "Jean-Baptiste Ruffio",
+    "Judah Van Zandt",
+    "Jerry W. Xuan",
+    "Jingwen Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.24854v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "系外行星观测",
+   "matched": [
+    "astrometric"
+   ],
+   "summary_zh": "通过分析Gaia和径向速度数据的天体测量异常,我们在TOI-178系统中发现了一个位于数个AU处的大质量外伴星(TOI-178 h),其性质为质量21⁺⁴⁷₋₁₁木星质量、离心率0.76⁺⁰·¹⁸₋₀·₃₅的离心褐矮星。通过N体模拟和动力学稳定性分析,我们证明该外伴星的引力摄动下,内部五颗行星维持的2:4:6:9:12共振链仍保持稳定,表明该系统年龄已达数Gyr。TOI-178是已知唯一同时存在高重数共振链和大质量外伴星的系统,揭示了行星系统形成和演化的独特结果。"
+  },
+  {
+   "id": "arxiv:2611.24811",
+   "title": "Potential spectral markers of intrinsic magnetic fields of hot exoplanets in the UV range",
+   "abstract": "A method for detecting the intrinsic magnetic fields of exoplanets, based on the effect of atomic alignment (the redistribution of populations among magnetic sublevels under the action of anisotropic radiation from the host star), has been adapted for observations with the Spektr-UV space telescope. A procedure for selecting sensitive transitions is proposed, and triplet absorption lines in the UV range that are sensitive to alignment are identified. On the basis of three-dimensional aeronomic models of the hot Jupiters KELT-20 b and HAT-P-32 b, absorption spectra in these lines are calculated for cases with and without intrinsic magnetic fields of the exoplanets. Using the Spektr-UV exposure-time calculator, the observability of the effect is assessed, and an observing program is proposed, specifying the optimal duration of individual exposures and the number of transits required to detect the signal.",
+   "authors": [
+    "M. Rumenskikh",
+    "S. S. Sharipov",
+    "I. F. Shaikhislamov",
+    "A. E. Ivanova",
+    "M. P. Golubovsky",
+    "K. S. Shcherbakov",
+    "A. V. Taichenachev",
+    "L. A. Maksimova"
+   ],
+   "link": "https://arxiv.org/abs/2611.24811v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "热木星与短周期行星",
+   "matched": [
+    "hot Jupiter"
+   ],
+   "summary_zh": "本研究通过原子取向效应（恒星各向异性辐射导致磁亚能级种群重新分布）适配了用Spektr-UV空间望远镜探测系外行星本征磁场的方法，并筛选出对取向效应敏感的紫外波段三重态吸收线。基于热木星KELT-20 b和HAT-P-32 b的三维气体动力学模型，计算了有无本征磁场条件下这些谱线的吸收光谱，通过Spektr-UV曝光时间计算器评估了观测可行性，提出了优化单次曝光时长和所需凌星次数的观测方案。"
+  },
+  {
+   "id": "arxiv:2611.24615",
+   "title": "Thermodynamics of gas giants accreting via shocks: the role of molecular hydrogen dissociation",
+   "abstract": "Within the core-accretion framework, gas giants acquire most of their mass through accretion shocks during runaway gas accretion. The shock thermodynamics---governed by radiative cooling, accretion history, and equation of state (EoS)---sets the post-shock gas entropy and initial thermal state, strongly influencing both observables and subsequent evolution. We aim to build a coupled evolutionary model predicting the initial thermodynamic conditions, intrinsic luminosities, and upper limits on magnetic field strengths of gas giants across diverse accretion histories. We couple radiation hydrodynamics and $\\mathrm{H_2}$ dissociation to long-term planetary interior evolution by training a physics-informed neural network (PINN) predictor on 1000 first-principles simulations resolving the shock physics. This PINN provides post-shock outer boundary conditions for MESA to evolve the planetary envelope beyond runaway accretion. The PINN predicts higher post-shock temperatures than the canonical cold-start model, with the discrepancy widening with planetary mass, while post-shock entropy jumps sharply when $\\mathrm{H_2}$ dissociates at $\\sim 2000$ K. Gas giants evolved with PINN-derived boundary conditions achieve intrinsic luminosities 4--10 times higher than cold-start models. Under optimistic assumptions, the maximum magnetic field strength at $2 R_{\\mathrm{J}}$ reaches a few gauss for a $0.3 M_{\\mathrm{J}}$ planet, $\\sim 100$ G for $1 M_{\\mathrm{J}}$, and $\\sim 500$ G for $3 M_{\\mathrm{J}}$. Incorporating detailed radiation hydrodynamics and realistic thermodynamics into accretion shock models yields higher initial entropies, brighter intrinsic luminosities, and stronger magnetic fields, providing improved constraints on the masses and accretion rates of directly imaged exoplanets.",
+   "authors": [
+    "Bingjie Zha",
+    "Zhuo Chen"
+   ],
+   "link": "https://arxiv.org/abs/2611.24615v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "core accretion"
+   ],
+   "summary_zh": "本研究在核心吸积框架下，通过耦合辐射流体力学和H₂解离物理，使用物理信息神经网络(PINN)预测气体巨星吸积激波的热力学条件，并将其作为行星内部演化模型的边界条件。研究表明，相比传统冷启动模型，考虑激波辐射冷却和H₂解离效应后，气体巨星的激波后温度、熵跳跃和初始光度显著更高（提高4-10倍），且行星磁场强度随质量增加而显著增强（从0.3 MJ的几高斯到3 MJ的~500高斯）。这一改进的激波热力学模型为直接成像系外行星的质量和吸积率约束提供了更准确的预测。"
+  },
+  {
+   "id": "arxiv:2611.23818",
+   "title": "NEXONN: Advancing the NEXOTRANS Exoplanet Atmospheric Retrieval Framework with Transformer-Based Neural Posterior Estimation for JWST Transmission Spectroscopy of WASP-39b",
+   "abstract": "The James Webb Space Telescope is delivering unprecedented constraints on exoplanet atmospheres, but computationally intensive Bayesian retrievals challenge the transition from individual planets to population-level studies of planetary formation and evolution. We introduce NEXONN, a transformer-conditioned normalizing-flow framework within NEXOTRANS that enables rapid atmospheric posterior estimation with uncertainty quantification. Incorporating PandExo-based JWST noise, we benchmark NEXONN against PyMultiNest using simulated spectra and JWST observations of WASP-39 b (0.6-12 microns). For simulated MIRI/LRS data, eight posteriors achieve a mean overlap of 80.32%. Retrievals of combined NIRISS, NIRSpec, and MIRI observations yield consistent atmospheric properties. For the full dataset, NEXONN infers C/O = 0.82 (+0.01/-0.02) and [M/H] = 1.13 (+0.04/-0.04), compared with PyMultiNest values of 0.80 (+0.03/-0.01) and 1.19 (+0.05/-0.03). Divergence metrics, Wasserstein distances, posterior overlaps, and coverage tests assess posterior fidelity and uncertainty calibration, revealing parameter-dependent differences. Once trained, NEXONN performs posterior inference within seconds, enabling scalable population studies of exoplanet atmospheric composition, formation, and evolution.",
+   "authors": [
+    "Tasneem Basra Khan",
+    "Liton Majumdar",
+    "Mithun Patra",
+    "Tonmoy Deka",
+    "Swastik Dewan",
+    "Priyankush Ghosh",
+    "Vishal Meena"
+   ],
+   "link": "https://arxiv.org/abs/2611.23818v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究开发了NEXONN框架——一个基于Transformer的神经后验估计方法，用于快速进行JWST凌星光谱的系外行星大气成分反演，并完整量化不确定性。通过在WASP-39b的多波段JWST观测数据（0.6-12微米）上进行基准测试，NEXONN与传统贝叶斯方法（PyMultiNest）得到一致的大气参数结果（如C/O比和金属丰度），且推断速度提升数个数量级。该方法使得从单个行星到行星种群的大气统计研究成为可能，为系外行星形成演化的群体统计学研究提供了高效工具。"
+  },
+  {
+   "id": "arxiv:2611.23643",
+   "title": "MAIC-2 v2.3: A Fortran program for simulating the surface temperature, atmospheric water transport and surface glaciation of the planet Mars",
+   "abstract": "The Mars Atmosphere-Ice Coupler MAIC-2 is a computationally efficient, zonally-averaged model designed to simulate Martian surface temperature, atmospheric water transport and surface glaciation over timescales of 10^5 to 10^7 years. While sophisticated General Circulation Models (GCMs) provide high-resolution simulations of the Martian atmosphere, their high computational cost makes them largely unsuitable for studies covering millions of years of orbital evolution. MAIC-2 addresses this gap by utilizing physically-based, zonally-averaged parameterizations, including a Local Insolation Temperature (LIT) scheme and a mass balance engine driven by free-convection and instantaneous mixing physics. Version 2.3 introduces a fully modularized Fortran architecture that improves maintainability and ensures that the software remains entirely self-contained, requiring no external numerical libraries or specialized data formats for execution. Demonstrated through a 20-million-year transient simulation, the model successfully reproduces the primary characteristics of the Martian polar layered deposits. MAIC-2 provides the planetary science community with a versatile, open-source tool for investigating the long-term climatic impacts of orbital variations on the Martian surface.",
+   "authors": [
+    "Ralf Greve",
+    "Björn Grieger",
+    "Oliver J. Stenzel"
+   ],
+   "link": "https://arxiv.org/abs/2611.23643v1",
+   "source": "arXiv (astro-ph.EP)",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "MAIC-2 v2.3是一个高效的纬向平均模型,用于模拟火星表面温度、大气水输运和冰川作用在10^5-10^7年尺度上的演变过程。该模型采用物理基础的参数化方案(包括局部辐照温度方案和由自由对流驱动的物质平衡引擎),计算成本远低于全球环流模式,适于研究百万年尺度的轨道演化影响。通过2000万年的瞬态模拟验证,MAIC-2能够成功再现火星极地分层沉积物的主要特征,为行星气候长期演化研究提供了开源工具。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeb0a1",
+   "title": "A Comparative Study of the Streaming Instability: Unstratified Models with Marginally Coupled Grains",
+   "abstract": "Abstract The streaming instability is a leading mechanism for concentrating solids and initiating planetesimal formation in protoplanetary disks. Although numerous studies have explored its linear growth, nonlinear evolution, and implications for planet formation, the diversity of numerical methods and dust treatments used across the literature has made it difficult to assess which features of the instability are physically robust and which arise from code-dependent choices. We present the first systematic comparison of seven hydrodynamic codes—spanning finite-volume and finite-difference schemes and modeling dust either as Lagrangian particles or as a pressureless fluid—applied to the unstratified streaming instability with a dimensionless stopping time of unity. All codes reproduce the characteristic sequence of exponential growth, filament formation, and turbulent saturation, demonstrating broad agreement in the qualitative behavior of the instability. Quantitatively, however, the dust model remains the dominant source of variation at moderate resolution; particle-based simulations reach higher peak densities and exhibit broader high-density tails than fluid-based models at 512 2 resolution, although increasing the number of particles brings their initial maximum density evolution into close agreement with that of dust-fluid models. At 1024 2 , these differences diminish substantially, indicating better agreement of the saturated-state statistics across dust treatments. In terms of computational performance, most particle implementations suffer from imbalanced parallelized loads, while execution on a GPU is at least 2–3 times more energy efficient and scales better at higher resolutions than on CPUs. Given the intrinsic stochasticity of this nonlinear system, only statistical diagnostics remain meaningful across codes.",
+   "authors": [
+    "Stanley A. Baronett",
+    "Wladimir Lyra",
+    "Hossam Aly",
+    "Olivia Brouillette",
+    "Daniel Carrera",
+    "Victoria I. De Cun",
+    "Linn E. J. Eriksson",
+    "Mario Flock",
+    "Pinghui 平辉 Huang 黄",
+    "Leonardo Krapp",
+    "Geoffroy Lesur",
+    "Rixin 日新 Li 李",
+    "Shengtai 胜台 Li 李",
+    "Jeonghoon 정훈 Lim 임",
+    "Sijme-Jan Paardekooper",
+    "David G. Rea",
+    "Debanjan Sengupta",
+    "Jacob B. Simon",
+    "Prakruti Sudarshan",
+    "Orkan M. Umurhan",
+    "Chao-Chin 朝欽 Yang 楊",
+    "Andrew N. Youdin"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeb0a1",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "planet formation",
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究采用七种流体力学数值代码(包括有限体积、有限差分以及拉格朗日粒子和无压流体尘埃模型)进行了流式不稳定性的首次系统对比,在无分层模型和单位停止时间条件下研究了该不稳定性的物理特性。所有代码都再现了指数增长、丝状结构形成和湍流饱和的特征演化过程,但在中等分辨率下,尘埃模型是造成数值差异的主要来源,粒子模型达到更高的峰值密度;随着分辨率提高至1024²,不同模型间的差异显著减小。研究表明,只有统计诊断量才能在不同数值代码之间进行有意义的比较,为行星小体形成提供了更可靠的物理约束。"
+  },
+  {
+   "id": "doi:10.3847/1538-4357/aeacc9",
+   "title": "Collisional Evolution around A-type Stars with Strong Silicate Features",
+   "abstract": "Abstract Around luminous A-type stars, retaining micrometer-sized dust grains is difficult owing to the high radiation pressure that repels particles with sizes below the blowout limit. Yet such particles have been evidenced in the terrestrial zone around those stars, via pronounced silicate spectral features. An in situ planetesimal belt that collisionally replenishes the dust is expected to deplete quickly, limiting the lifetime of observable features. However, modeling of such systems often relies on a power-law description of the grain size distribution that has a lower size limit owing to blowout. Using more complex, collisional simulations instead, we investigated the temporal evolution of hypothetical planetesimal belts in the terrestrial zone around five A-type stars showing strong spectral silicate features. A collisional cascade that is modified by radiation pressure results in dust distributions that replicate observed spectral features without requiring other physical processes. While features can be altered by particles below the blowout limit, their magnitude is dominated by the emission of larger grains. Using the systems’ ages, we investigated the origin of the planetesimal belt. For the three younger systems of our sample, a planetesimal belt that emerged from the protoplanetary disk phase can explain the observations. This is even possible for two older systems if the planetesimals are located at slightly larger distances than the dust, e.g., if the dust drifted inward owing to the Poynting–Robertson drag. Alternatively, a recent production of the planetesimals, for instance, in a giant collision event, could have happened only several million years ago.",
+   "authors": [
+    "T. A. Stuber",
+    "H. Kobayashi",
+    "S. Wolf",
+    "V. Faramaz-Gorka"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeacc9",
+   "source": "The Astrophysical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk",
+    "planetesimal"
+   ],
+   "summary_zh": "本研究通过碰撞动力学模拟（而非传统幂律分布模型）研究了A型星周围陆地区域的小行星带演化，考虑辐射压对尘埃粒度分布的影响。模拟结果表明，辐射压修正的碰撞级联可以再现观测到的硅酸盐光谱特征，且较小粒子虽有贡献但不主导光谱，通过系统年龄分析推断年轻系统的小行星带可源自原行星盘，而年老系统则可能经历过近期巨型碰撞事件或尘埃通过Poynting-Robertson阻力内漂。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aebc72",
+   "title": "exoALMA XXV: A Statistical Analysis of Gaseous Substructure in Low-inclination Disks",
+   "abstract": "Abstract Protoplanetary disks exhibit complex structure in both their gas dynamics and their temperature. Characterizing it has proven challenging, owing to the mismatch between the observed complexity and the relatively simple semianalytical models typically used to interpret it. To augment these analyses, we apply the second-order structure function to the velocity and temperature perturbations of four low-inclination sources from the exoALMA program, each measured against a noise-only null built from the data themselves. All exhibit correlated structure. The radial correlation length is limited by the beam in every case, which excludes nonaxisymmetric structure on radial scales larger than ∼1.5 pressure scale heights. In three of the four disks, the structure is instead resolved and elongated in azimuth by factors of 1.6–2.3, as expected of small-scale perturbations sheared out by Keplerian rotation. We further introduce two statistics that characterize spiral structure without tracing an arm crest: a modal power spectrum, measuring the periodicity of the azimuthal structure, and a winding contrast , measuring the radial dependence of its phase. The velocity residuals of three disks are significantly wound. MWC 758 is the only source in which the winding is coherent across the disk and shared by the temperature field. Its trailing m = 1 temperature structure is consistent with the illumination of a warp, while its velocity field carries small-scale, sheared structure that could redistribute angular momentum. Because neither statistic requires a crest, both extend a quantitative description of winding to the flocculent regime, where a spiral cannot be parameterized.",
+   "authors": [
+    "Richard Teague",
+    "Sean M. Andrews",
+    "Jaehan Bae",
+    "Marcelo Barraza-Alfaro",
+    "Myriam Benisty",
+    "Ian Czekala",
+    "Stefano Facchini",
+    "Daniele Fasano",
+    "Mario Flock",
+    "Misato Fukagawa",
+    "Cassandra Hall",
+    "Andrés F. Izquierdo",
+    "Giuseppe Lodato",
+    "Jochen Stadler",
+    "Jason P. Terry",
+    "David J. Wilner",
+    "Andrew J. Winter",
+    "Tomohiro C. Yoshida"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aebc72",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究对exoALMA项目的四个低倾角原行星盘应用二阶结构函数统计分析其气体速度和温度扰动,排除了大于~1.5压力标度高的非轴对称结构,发现盘内存在沿方位角方向被开普勒旋转剪切的小尺度相关结构。研究引入模态功率谱和卷绕对比两个新统计量来表征螺旋结构,其中MWC 758的温度场显示出与翘曲照明一致的m=1尾随结构,速度场则携带可能重新分配角动量的小尺度剪切结构。这些无需追踪臂峰的统计量将对旋臂卷绕的定量描述扩展到絮状体系,为研究盘内复杂的气体动力学结构提供了新方法。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aebb25",
+   "title": "What’s in Your Transit? A Path to More Science from Exoplanet Transit Data",
+   "abstract": "Abstract Transit-depth measurements can remain less precise than expected from photon noise alone, because limb darkening and orbital parameters are inferred simultaneously with transit depth. We refer to this shortfall as the “transit-depth precision problem” and quantify it with an amplification factor, A , comparing the measured transit-depth uncertainty with baseline scatter. Using central-transit injection–retrieval tests informed by >500,000 MPS-ATLAS intensity profiles, we determine how limb-darkening prescriptions and priors affect both transit-depth precision and accuracy. We find that limb-darkening coefficients are the dominant contributors to the excess uncertainty, followed by inclination and stellar density, through parameter correlations. In the configurations tested, the widely used quadratic law can produce low A yet substantially biased transit depths and wavelength-dependent structure in otherwise flat transmission spectra. Third-order polynomial and fourth-order nonlinear laws provide a better precision–accuracy tradeoff, although all quantitative results remain conditional on the adopted stellar models and transit geometry. Improved stellar models can increase observing efficiency by enabling tighter, accurate limb-darkening coefficient priors: in our fourth-order nonlinear tests, 10%–20% priors reduce transit-depth uncertainties by factors of 1.1–1.8 relative to uniform priors, while stronger 1% priors reduce them by 2.1–2.5. Assuming uncertainty decreases as the inverse square root of the number of observed transits, these gains correspond to reaching the same target transit-depth precision with approximately 1–3 and 4–6 times fewer transits, respectively. We recommend testing multiple limb-darkening prescriptions and reporting wavelength-resolved sensitivity to limb-darkening assumptions.",
+   "authors": [
+    "Samson J. Mercier",
+    "Julien de Wit",
+    "Benjamin V. Rackham"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aebb25",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究量化了凌日深度测量中由于凌边昏暗效应和轨道参数同时反演而产生的精度损失问题,通过对500,000+个恒星强度剖面的注入-回收测试表明,凌边昏暗系数是引入超额不确定性的主要因素。研究发现三阶多项式和四阶非线性凌边昏暗律相比广泛使用的二阶律能提供更好的精度-准确性权衡,而改进的恒星模型可使凌边昏暗系数先验约束更严格,从而将凌日深度不确定性降低1.1-2.5倍,相当于减少1-6倍的凌日观测次数。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661511",
+   "title": "Mapping of interstellar ices with JWST in protostellar envelopes:. Spatial variations of 13 CO_2$, ^12CO_2, CO, OCN^-, and H$_2O ice",
+   "abstract": "The composition of planets and their atmospheres is largely determined by the environment in which the planet accretes material. This environment is pre-determined during early stages when the protostar is still forming and impacting the complexity of the material in the envelope. Charting the structure of protostellar envelopes is therefore crucial for understanding how the chemistry is linked to the physical processes occurring in stellar nurseries, and JWST offers a unique opportunity to perform spatial mapping at a sub-arcsec resolution. We aim to explore spatial variations of the main ice constituents in the envelope of the low-mass protostar L1527 and the high-mass protostar IRAS 20126+4104 using JWST observations. We used JWST NIRSpec IFU observations to extract spectra at each pixel in the IFU of 13 CO_2$,^12CO_2, CO, OCN^-, and H_2O ice features. We created optical depth and spatial abundance maps to study the distribution of the ices and use the ^13CO$_2 ice feature, a known thermal tracer, to identify regions of high temperatures where the ices are thermally processed. Our findings show that the distribution of ices in both L1527 and IRAS 20126+4104 is not uniform, with both envelopes showing localized temperature zones and substructures. In L1527, CO_2 ice segregation and OCN-$ enhancement with respect to CO_2 are observed in the warm central disk lane close to the protostar. In IRAS 20126+4104, the warm temperature zones are observed mostly towards the shocked region in the NW outflow where dense material is interacting with the precessing jet as well as close to the central source. The CO_2 ice is segregated at these locations and we observe sublimation of CO ice, as well as strong gaseous CO rotation vibrational lines, especially in the shocked NW outflow. Close to the central protostar we see an additional enhancement of OCN^- with respect to CO_2 that also points towards elevated temperatures and crystalline H$_2O ice is also detected at a few locations that coincide with shock knots in the outflow. In both the low-mass protostar and the high-mass one, the findings indicate that the distribution of ices and their physical structure are linked to the temperature structure of the envelopes. The envelope of IRAS 20126 shows a more complex structure, where interacting material results in localized regions of high temperatures and denser regions that harbor cooler ices. L1527, in contrast, appears to be a more structured system, with heated warm ices observed mostly towards the central disk regions.",
+   "authors": [
+    "N. G. C. Brunken",
+    "E. F. van Dishoeck",
+    "A. C. A. Boogert",
+    "P. Nazari",
+    "Y. Chen",
+    "J. Santos",
+    "H. Beuther",
+    "A. Caratti o Garatti",
+    "S. T. Megeath K. Slavicinska",
+    "C. Gieser H. Tyagi",
+    "L. Tychoniec",
+    "M. McClure",
+    "V. J. M. le Gouellec",
+    "Y. Yang",
+    "L. W. Looney",
+    "N. J. Evans",
+    "M. Narang"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661511",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究使用JWST NIRSpec IFU对低质量原星L1527和高质量原星IRAS 20126+4104的原星包层进行空间分辨光谱观测，通过绘制13CO2、12CO2、CO、OCN-和H2O冰的光学厚度和丰度分布图，揭示了冰成分的非均匀分布与温度结构的耦合关系。研究发现两个原星的包层内均存在局部温度区和子结构，CO2冰发生分层、OCN-相对于CO2富集，且这些特征与喷流冲击和吸积盘区域的温度升高密切相关，表明行星形成环境中冰的物理化学演化受控于包层的温度结构。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202663050",
+   "title": "Impacts of planetary rotation and winds on the distribution and escape of the Martian hydrogen corona",
+   "abstract": "The escape of hydrogen produced from the photodissociation of atmospheric water-bearing species is a major pathway through which Mars has lost water over geological timescales. Although thermal escape is primarily controlled by the density and temperature of hydrogen-bearing species near the exobase, horizontal atmospheric motions can modify the particle velocity distribution and thereby affect both escape and the structure of the extended hydrogen corona. Previous studies have considered the effects of thermospheric winds, but the contribution of planetary rotation and its interaction with atmospheric winds remain poorly quantified. We aim to investigate the individual and combined effects of horizontal atmospheric winds and planetary rotation on the thermal escape and exospheric distributions of H and H_2 at Mars. We incorporated spatially varying exobase conditions, horizontal winds, and planetary rotation into a three-dimensional Chamberlain exosphere model and a bulk-motion-modified Jeans escape formulation. Calculations were performed under solar-minimum and solar-maximum conditions at three representative orbital positions near aphelion, equinox, and perihelion. We compared classical Jeans, wind-only, rotation-only, and combined wind-plus-rotation cases to quantify changes in local and globally integrated escape fluxes and in the three-dimensional exospheric density structure. Horizontal winds and planetary rotation produce only modest changes in the globally integrated escape rates, with H varying by only a few percent and H_2 by approximately 10%. Their combined effects are not simply additive because the wind and rotational velocities combine vectorially and may reinforce or partially cancel each other. Locally, however, the enhancements are much larger, reaching approximately 24% for H and more than 100% for H_2. The response is stronger for H_2 and under solar minimum conditions because the horizontal bulk velocity represents a larger fraction of the particle thermal speed. Horizontal bulk motion also modifies the exospheric density distribution, with relative differences generally increasing with altitude. For the rotation-only case at (L_s=70^̧irc), the maximum density enhancement at 4000 km reaches about 6--13% for H and 26--60% for H_2, depending on solar activity. Atmospheric winds and planetary rotation play a secondary role in controlling the globally integrated thermal escape of H and H_2, but they can produce substantial regional variations in escape flux and localized changes in the modeled exospheric densities. These effects are more pronounced for H_2 and are produced under colder atmospheric conditions, with the relative density differences generally increasing with altitude over the investigated range of 1000--4000 km above the Martian surface. These dynamical effects should therefore be considered when interpreting spatial and temporal variations in hydrogen escape and observations of the extended Martian corona.",
+   "authors": [
+    "Wenlong Li",
+    "Hao Gu",
+    "Jun Cui",
+    "Jiang Yu",
+    "Xu Huang",
+    "Dandan Niu",
+    "Wenya Li",
+    "Lei Li"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202663050",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmospheric"
+   ],
+   "summary_zh": "本研究通过三维Chamberlain模型和修正的Jeans逃逸公式，定量评估了行星自转和大气风场对火星氢逃逸及日球晕分布的个体和耦合效应。结果表明，虽然水平风场和自转对全球整合逃逸通量的影响较小（H变化数个百分点，H₂约10%），但局地效应显著（H增强~24%，H₂超100%），且这种效应在H₂和太阳最小值期间更为显著，并导致1000-4000 km高度范围内的日球晕密度分布产生可观的三维结构变化。这项研究强调动力学效应在解释火星氢逃逸时空变化和日球晕观测中的重要性。"
+  }
+ ],
  "2026-11-18": [
   {
    "id": "arxiv:2611.22952",
@@ -10634,6 +10913,5 @@
    "summary_zh": "本研究通过建立原始和后期补充盘分量的叠加模型，论证星团中观测到的盘丰度随恒星年龄下降的现象不能直接诠释为原行星盘生命周期分布，因为后期吸积可以在坍缩后补充或重新形成盘。研究表明，恒星年龄与盘年龄不必相等，同一恒星可能承载具有不同质量、方向和化学成分的连续盘代。该模型通过预测相同恒星年龄区域中盘丰度的真实分散来检验环境中补充供应速率的变化。"
   }
  ],
- "2026-09-21": [],
- "2026-09-20": []
+ "2026-09-21": []
 }
