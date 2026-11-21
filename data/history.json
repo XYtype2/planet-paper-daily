@@ -1,4 +1,97 @@
 {
+ "2026-11-21": [
+  {
+   "id": "doi:10.3847/1538-4357/aeab9a",
+   "title": "The Last Gasps of a Dying Star: ALMA Observations of the Preplanetary Nebula IRAS 06530–0213",
+   "abstract": "Abstract We present high-angular-resolution ( ∼ 0 . ″ 1 − 0 . ″ 5 ) Atacama Large Millimeter/submillimeter Array (ALMA) observations of millimeter-wave line and continuum emission (at ∼0.44 and 0.88 mm) in the preplanetary nebula IRAS 06530–0213 (IRAS 06530). These data show the presence of an extended circular ring—first evidence of the last thermal pulse preceding the post-asymptotic giant branch (AGB) phase in a carbon star—and a central bipolar nebula (CBN) and torus. The mass-loss rate of IRAS 06530’s AGB progenitor decreased immediately after the thermal pulse, then rose again just before the post-AGB phase, as evidenced by the presence of filamentary arc structures around the CBN. The arc stuctures are likely part of a 3D Archimedean spiral structure generally attributed to the presence of a binary companion. However, we do not find a compact continuum source at the location of IRAS 06530’s central star, such as that associated with the compact dusty disks typically found in disk-prominent post-AGB objects known to have binary companions. The expansion ages derived for the torus and CBN imply that IRAS 06530’s progenitor transitioned to a post-AGB star ≲700 yr ago. The molecular mass of the ejecta in IRAS 06530 is dominated by the filamentary arc region, with a mass M H 2 = ( 0.12 − 0.25 ) M ⊙ . Compared with solar values, the torus of IRAS 06530 appears to be significantly (modestly) enriched in 13 C and 17 O ( 15 N), as well—a pattern of rare-isotope enrichment inconsistent with standard nucleosynthesis models. From the luminosity of IRAS 06530 and the age of its detached shell, while it was still on the AGB, we infer that the mass of IRAS 06530’s progenitor was 1.6–3.4 M ⊙ .",
+   "authors": [
+    "Raghvendra Sahai",
+    "Wouter Vlemmings",
+    "Guillermo Quintana-Lacaci",
+    "Hyosun Kim",
+    "Javier Alcolea",
+    "Bruce Balick",
+    "Eric G. Blackman",
+    "Arancha Castro-Carrizo",
+    "Orsola de Marco",
+    "Joel H. Kastner",
+    "Eric Lagadec",
+    "Chin-Fei Lee",
+    "Miguel Santander-García",
+    "Carmen Sánchez Contreras",
+    "Toshiya Ueta",
+    "Albert A. Zijlstra",
+    "Valentin Bujarrabal",
+    "Laurence Sabin",
+    "Daniel Tafoya"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aeab9a",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "mass-loss rate"
+   ],
+   "summary_zh": "本研究使用ALMA对前行星状星云IRAS 06530-0213进行高分辨率毫米波观测,揭示了碳星热脉冲后遗留的扩展环结构、中心双极喷流和吐司状结构,以及指示存在二元伴星的类阿基米德螺旋丝状弧结构。研究表明该源在约700年前从AGB阶段过渡到后AGB阶段,其前身星质量为1.6-3.4太阳质量,且稀有同位素丰度模式与标准核合成模型不符。这些观测结果为理解恒星晚期演化中的质量损失过程和二元相互作用提供了关键约束。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aebe28",
+   "title": "First Detection of the Forbidden Rotational Spectrum of H 3 + : JWST/MIRI Observations of the Shocked Gas in HH 168",
+   "abstract": "Abstract The H 3 + molecular ion is the cornerstone of interstellar ion-molecule chemistry. Its vibrational transitions have long been observed, in absorption along many interstellar sight lines and in emission from the upper atmospheres of the giant planets, but its pure rotational spectrum, which consists only of “forbidden” transitions made possible by centrifugal distortion, had not been observed in the laboratory or in any astronomical source. With JWST’s Mid-Infrared Instrument (MIRI), we have detected this spectrum toward the Herbig-Haro object HH 168 in Cepheus A West. Twenty-six lines are detected above 5 σ in one or both of two fields, of which the ( J , K ) = (5, 0) → (4, 3) line at 16.325 μ m is the strongest. The H 3 + lines share the velocity and spatial distribution of the hot shocked H 2 , not of the ionized gas. A rotation diagram yields a rotational temperature of ≈730 K, but the level populations are not thermal and are best explained by subthermal excitation in gas at ≳2000 K. We compare the observations with models of shocks propagating into mildly irradiated molecular gas. Constrained by the H 2 rotational lines, a dissociative J-type shock predicts H 3 + emission within a factor ∼1.5 of that observed, while a nondissociative C-type shock, which fits the H 2 lines better, underpredicts it by a factor 5–6, although the excitation of H 3 + by energetic collisions is poorly known. Archival MIRI data show the H 3 + forbidden rotational spectrum in the HH 211 bow shock. The H 3 + lines provide a new probe of the ionization in shocked molecular gas.",
+   "authors": [
+    "David A. Neufeld",
+    "Joel D. Green",
+    "Dan M. Watson",
+    "Paule Sonnentrucker"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aebe28",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere"
+   ],
+   "summary_zh": "本研究利用JWST/MIRI首次在天体观测中探测到H₃⁺离子的禁戒旋转谱线，在HH 168激波区域检测到26条谱线，其旋转温度约730 K但不符合热分布。通过与J型和C型激波模型对比，发现J型激波的H₃⁺发射预测与观测较为吻合（误差因子~1.5），而C型激波预测不足5-6倍，表明高能碰撞激发的物理过程仍需深入理解。该研究揭示了H₃⁺禁戒旋转谱作为激波区电离状态新诊断工具的潜力，对行星大气和星际离子-分子化学研究具有重要意义。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aebb19",
+   "title": "M Dwarf Singles and Multis Have Dissimilar Metallicities Indicating Different Origins",
+   "abstract": "Abstract It is unclear if host star metallicities differ between systems with one detected transiting planet (“singles”) or multiple detected transiting planets (“multis”) around FGK dwarfs. Here, we find strong evidence that they do for M dwarfs. We use a homogeneous sample of FGK and M dwarf chemical abundances to demonstrate that M dwarf multis are significantly more metal-poor than singles ( p = 0.0008), even when we only consider small (<4 R ⊕ ) planets ( p = 0.001). This result emerges at the late-K to M dwarf transition. We observe that M dwarf multis become more metal-poor as a function of increasing planet multiplicity. Additionally, planets in singles have significantly higher eccentricities and shorter orbital periods compared to planets in multis. We interpret these findings as evidence that M dwarf singles lead relatively active dynamical lives, and the different planetary architectures of singles and multis arise from distinct dynamics influenced by metallicity. This may not occur in FGK systems because their more massive protoplanetary disks may supply enough planet-forming material to instigate dynamics that lead to only one transiting planet, even when the host star metallicity is low. Another possibility is that multis are less compact around FGK dwarfs because they form from larger disks, which may often cause them to be observed as singles in transit data.",
+   "authors": [
+    "Aida Behmard",
+    "Sheila Sagear",
+    "Yuxi(Lucy) Lu",
+    "Romy Rodríguez Martínez",
+    "Adrian M. Price-Whelan",
+    "Soichiro Hattori"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aebb19",
+   "source": "The Astronomical Journal",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disk"
+   ],
+   "summary_zh": "本研究通过比较M矮星单行星系统和多行星系统的宿主星金属丰度，发现M矮星多行星系统显著贫金属（p=0.0008），且金属丰度随行星数量增加而递减，而单行星系统中的行星具有更高离心率和更短轨道周期。研究解释这些差异反映了M矮星单多系统源于不同的动力学过程，其中金属丰度通过影响原行星盘性质进而影响行星系统的动力学演化，而在更大质量的FGK矮星原行星盘中可能不存在这种明显的金属丰度依赖性。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202662013",
+   "title": "Sulfur photochemistry traces mantle redox states of rocky planets",
+   "abstract": "Volatile outgassing from planetary interiors controls the composition of rocky exoplanets' secondary atmospheres. However, observations indicate that disequilibrium processes can strongly alter the chemical structure of hot Jupiters. How outgassing and photochemistry jointly determine the resulting atmospheric composition remains an open question. Sulfur-bearing species are promising tracers of interior-atmosphere coupling because their atmospheric abundances are sensitive to both mantle redox state and stellar irradiation. We investigate how photochemistry modifies outgassed atmospheres of diverse Earth-sized worlds during the magma ocean phase and assess how sulfur traces the interior oxidation state. The planetary interior-atmosphere evolution modelling framework is coupled to two chemical models, and . We ran a grid of planetary evolution simulations spanning diverse mantle redox states, instellation fluxes, and host-star spectra. For each case, we compared atmospheric compositions with three post-processing calculations: thermochemical equilibrium, with disequilibrium vertical transport and with vertical transport plus photochemistry. PROTEUS FastChem VULCAN The bulk atmospheric composition remains controlled by the mantle redox state and the history of outgassing. Reduced mantles produce atmospheres rich in and and oxidised mantles are dominated by and Photochemistry affects the low-pressure upper atmosphere, strongly depleting neutral volatiles and enhancing radicals. is strongly enhanced at intermediate-to-oxidised redox states. Synthetic emission spectra show that photochemical can generate absorption features at 4,μm and at 7.3,/,8.7,μm, reaching and respectively, before sequentially returning to the outgassed signatures of and for the oxidised mantle redox state. These signatures are potentially detectable with JWST, motivating targeted observational campaigns. Sulfur species link mantle redox state, volcanic outgassing, and atmospheric disequilibrium, acting as promising probes of exoplanets' interiors for spectroscopic observations.",
+   "authors": [
+    "Ioannis Panagiotou",
+    "Tim Lichtenberg",
+    "Shang-Min Tsai",
+    "Harrison Nicholls"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202662013",
+   "source": "Astronomy & Astrophysics",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "emission spectr"
+   ],
+   "summary_zh": "本研究通过耦合行星内部-大气演化模型与化学动力学模型，系统调查了岩石系外行星岩浆洋阶段的硫化物光化学过程如何受地幔氧化还原状态的控制。研究发现，大气主要成分由地幔氧化态和出气历史决定，而光化学过程改变上层大气的中性挥发物丰度并增强自由基，使得硫物种在中等到富氧的条件下产生可被JWST探测的特征吸收谱线。这些研究结果表明硫物种可作为追踪系外行星内部氧化还原状态的有效示踪剂，为通过光谱观测深入了解行星内部结构提供了新途径。"
+  }
+ ],
  "2026-11-20": [
   {
    "id": "arxiv:2611.26548",
@@ -11185,75 +11278,6 @@
     "atmosphere"
    ],
    "summary_zh": "本研究针对行星大气中丰富存在但光谱探测困难的分子氮，利用Duo核运动代码和精确的势能曲线及偶极矩函数，为三种稳定同位素(¹⁴N₂、¹⁴N¹⁵N和¹⁵N₂)生成了包含电四极跃迁的完整振转谱线表。所生成的TRINITY谱线表涵盖高振动激发态(v≲60)和高转动激发态(J≤80)，经过模拟谱和配分函数验证其物理自洽性，适用于模拟温度高达5000K的富氮行星大气。"
-  }
- ],
- "2026-09-22": [
-  {
-   "id": "doi:10.3847/1538-4357/ae9bad",
-   "title": "Nonthermal Velocity Dispersion in the Outer Disk of HL Tau",
-   "abstract": "Abstract Turbulence in protoplanetary disks plays a crucial role in the evolution of disk structures and the planet formation process. However, the strength of the turbulence remains unclear in young, embedded disks surrounded by infalling envelopes. In this paper, we present the first direct measurement of the nonthermal velocity dispersion within the embedded disk around HL Tau, which possesses a dusty disk with multiple rings and gaps but is still associated with infalling gas flows from an envelope. Using ALMA archival data of the H 2 CO emission, we measured the local line width through parametric model fitting that accounts for the contribution of Keplerian shear motion. After subtracting the thermal component, the nonthermal velocity dispersion is estimated to be ∼0.12–0.15 km s −1 on average over radii of 80–180 au, and it slightly increases with radius. The inferred nonthermal motions correspond to a turbulent Mach number of M ∼ 0.4 or a viscous α value of α ∼ 0.16, assuming that it is entirely caused by turbulence and α ∼ M 2 . In addition, fitting with models with elevated molecular layers suggests that the H 2 CO emission primarily traces near the disk midplane ( z / R ∼ 0.05). Turbulence driven by gravitational instability or infall from the envelope most naturally explains the large nonthermal motions, considering the large disk mass and associated infalling streamers. The strong turbulence measured in the outer disk, in contrast to the vertically settled inner dusty disk, suggests a pronounced radial variation in the turbulence strength and/or an anisotropic nature of the turbulence within the disk.",
-   "authors": [
-    "Jinshi Sai",
-    "Shigehisa Takakuwa",
-    "Hsi-Wei Yen",
-    "Yusuke Tsukamoto",
-    "Yuya Fukuhara"
-   ],
-   "link": "https://doi.org/10.3847/1538-4357/ae9bad",
-   "source": "The Astrophysical Journal",
-   "category": "行星形成与盘演化",
-   "matched": [
-    "planet formation",
-    "protoplanetary disk"
-   ],
-   "summary_zh": "本研究通过ALMA对HL Tau原行星盘H₂CO发射的观测，首次直接测量了该嵌入式盘的非热速度弥散度，采用参数模型拟合方法扣除开普勒剪切和热成分的贡献。结果表明外盘（80-180 au）的非热速度弥散度约为0.12-0.15 km/s，对应湍流马赫数M~0.4或粘性α值α~0.16，这种强湍流可能由重力不稳定性或包层内流驱动。该研究揭示了原行星盘中湍流强度具有显著的径向变化和各向异性特征，对理解盘演化和行星形成过程具有重要意义。"
-  },
-  {
-   "id": "doi:10.3847/2041-8213/aea3f5",
-   "title": "A Binary Flux Calibrator Reveals the Scientific Potential of Short-integration JWST MIRI Imaging to Directly Detect Sub-Jupiter Exoplanets",
-   "abstract": "Abstract We report the direct imaging detection of a stellar companion to HD 101452 (HIP 56925; Gaia DR3 5384905720847544192), an A star historically used as an infrared flux calibrator. The companion was identified from an asymmetry in the stellar point-spread function (PSF) using short-integration (<1 minute), noncoronagraphic JWST MIRI imaging from 15 to 25.5 μ m that was obtained as part of the absolute flux calibration program CAL 4496. We detect the stellar companion in four MIRI imaging filters at a projected separation of 1 . ″ 3 with a mid-infrared flux ratio of approximately 27×, warranting its removal from the ensemble of JWST flux calibrator systems. This detection also demonstrates that noncoronagraphic MIRI imaging can recover companions at separations below 3 λ / D when a reference star with a closely matched flux level to the science target is available. Using the measured contrast curves from the calibration data, we evaluate the predicted sensitivity achievable with similar short MIRI observations for nearby stars (<30 pc) that are of interest to the direct imaging community with comparable brightness to HD 101452 (W4 ∼ 6.8 mag). We find that integrations of only 17–42 s are capable of detecting sub-Jupiter-mass planets at solar system–like separations around a subset of neighboring systems if the PSF subtraction is conducted with closely flux-matched references. These results demonstrate that minutes-length, noncoronagraphic MIRI observations can provide a powerful and efficient new avenue for exploring the cold giant planet population around nearby stars.",
-   "authors": [
-    "Rachel Bowens-Rubin",
-    "Mary Anne Limbach",
-    "Alexander Venner",
-    "Kyle Franson",
-    "Emily K. Pass",
-    "Andrew Vanderburg",
-    "Kevin B. Stevenson",
-    "Logan Pearce",
-    "Taylor L. Tobin",
-    "Elisabeth Matthews",
-    "Aiza Kenzhebekova",
-    "Beth Biller",
-    "Ben J. Sutlieff",
-    "Klaus Subbotina Stephenson"
-   ],
-   "link": "https://doi.org/10.3847/2041-8213/aea3f5",
-   "source": "The Astrophysical Journal Letters",
-   "category": "系外行星观测",
-   "matched": [
-    "direct imaging"
-   ],
-   "summary_zh": "本研究通过JWST MIRI短积分（<1分钟）非冕状成像在15-25.5 μm波段对HD 101452进行观测，利用PSF不对称性直接成像检测了其伴星，并获得了该系统的中红外对比度曲线。研究结果表明，采用通量匹配的参考星进行PSF减除，仅需17-42秒的短积分观测即可在太阳系尺度分离处探测到亚木星质量行星，为近距离恒星系统探测冷巨行星提供了高效新途径。这一发现揭示了非冕状MIRI成像在直接探测系外行星方面的科学潜力，为行星动力学和形成研究提供了新的观测机遇。"
-  },
-  {
-   "id": "doi:10.1051/0004-6361/202662512",
-   "title": "Stellar age is not disk age. Late infall and the interpretation of disk fractions",
-   "abstract": "Disk fractions in star-forming clusters decline with stellar age, and are routinely read as the lifetime distribution of primordial protoplanetary disks. We argue that this reading is not warranted, because late infall can replenish or reform disks after collapse. To formalize this, we model the disk fraction as a superposition of primordial and environmentally replenished components, with region-to-region dispersion in the supply rate. Disk fractions cannot distinguish a long-lived disk from a short-lived one that is repeatedly replenished. In Sco--Cen both reproduce the data, the replenished model marginally better. Stellar age therefore need not equal disk age, and stars can host successive disk generations with distinct mass, orientation, and chemistry. A key test is whether regions of the same stellar age show a genuine spread in disk fractions, as environmental variation in the replenishment supply predicts.",
-   "authors": [
-    "M. Kuffmeier",
-    "A. Winter",
-    "A. Kuznetsova",
-    "M. Vioque",
-    "A. Gupta"
-   ],
-   "link": "https://doi.org/10.1051/0004-6361/202662512",
-   "source": "Astronomy & Astrophysics",
-   "category": "行星形成与盘演化",
-   "matched": [
-    "protoplanetary disk"
-   ],
-   "summary_zh": "本研究通过建立原始和后期补充盘分量的叠加模型，论证星团中观测到的盘丰度随恒星年龄下降的现象不能直接诠释为原行星盘生命周期分布，因为后期吸积可以在坍缩后补充或重新形成盘。研究表明，恒星年龄与盘年龄不必相等，同一恒星可能承载具有不同质量、方向和化学成分的连续盘代。该模型通过预测相同恒星年龄区域中盘丰度的真实分散来检验环境中补充供应速率的变化。"
   }
  ]
 }
