@@ -1,4 +1,147 @@
 {
+ "2026-11-27": [
+  {
+   "id": "doi:10.3847/1538-4357/aebc48",
+   "title": "A New Global Chemical Equilibrium Code: Refractory Element Signatures in Super-Earths and Sub-Neptunes",
+   "abstract": "Abstract The atmospheres of super-Earths and sub-Neptunes can be strongly modified by chemical exchange with their molten interiors during long-lived magma ocean phases. Interpreting atmospheric observations requires fast models that self-consistently couple atmospheric chemistry to the composition of the planetary interior. We present an updated, CPU-based implementation of the global chemical equilibrium (GCE) framework from H. E. Schlichting & E. D. Young, which computes the equilibrium composition of a coupled metal–silicate–gas system. The numerical solver has been improved using a gradient-based optimizer, reducing the computational cost of solving the chemical network by more than 2 orders of magnitude and enabling large parameter studies. We apply the framework to a large synthetic population of planets and explore the imprint of bulk refractory composition of Mg, Si, and Fe on atmospheric properties in the end member case that hydrogen dissolution increases unbound with pressure. We consider planets with different masses, thermal states, and volatile inventories. We find that the atmospheric mass fraction and atmospheric metal mass fraction are primarily controlled by the temperature at the atmosphere–magma ocean interface and the planetary water budget, while the accreted hydrogen mass fraction plays a minor role because most hydrogen dissolves into the interior. For planets that accreted water, the refractory ratios Mg/Si and Fe/Si strongly influence carbon partitioning between the gas, silicate, and metal phases, producing large variations in atmospheric metal mass fraction and C/O ratios. These results demonstrate that atmospheric compositions of sub-Neptunes depend sensitively on both the volatile inventory and the bulk composition of rocky material, providing new constraints for interpreting atmospheric observations. The new GCE code is open-source.",
+   "authors": [
+    "Simon L. Grimm",
+    "Marie-Luise Steinmeyer",
+    "Aaron Werlen",
+    "Caroline Dorn",
+    "Hilke E. Schlichting",
+    "Edward D. Young"
+   ],
+   "link": "https://doi.org/10.3847/1538-4357/aebc48",
+   "source": "The Astrophysical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric"
+   ],
+   "summary_zh": "本研究开发了改进的全局化学平衡框架,通过耦合岩浆洋与大气的化学反应,自洽地计算超级地球和亚海王星的大气与行星内部组成。通过梯度优化算法将计算效率提升两个数量级,该框架能够进行大规模参数研究。研究发现这类行星的大气质量和金属含量主要由岩浆洋-大气界面温度和水含量决定,而难熔元素的Mg/Si和Fe/Si比值通过影响碳在气、硅酸盐和金属相间的分配,对大气金属含量和C/O比产生显著影响,为解释观测到的亚海王星大气组成提供了新约束。"
+  },
+  {
+   "id": "doi:10.3847/2041-8213/aebf65",
+   "title": "No Persistent Helium Absorption in LHS 1140 b: Four JWST/NIRISS SOSS Transits and Multiepoch Stellar He I Variability",
+   "abstract": "Abstract The search for atmospheres on temperate terrestrial planets is important for understanding how these objects form and evolve and their potential habitability. Recent transit observations of LHS 1140 b, a temperate ( T eq = 226 K) planet straddling the radius valley ( R p ≈ 1.7 R ⊕ ), with the WINERED high-resolution spectrograph yielded a detection of planetary atmospheric escape through the measurement of excess absorption (1.24% ± 0.23%) in the metastable helium triplet, although a later second visit resulted in a nondetection. We analyze four transits of LHS 1140 b and two of LHS 1140 c observed with JWST/NIRISS SOSS. We find no evidence of helium absorption in either planet, with all amplitudes consistent with zero within 1 σ . For LHS 1140 b, we derive 3 σ upper limits of 0.72%–1.21%. Individual visits disfavor the reported WINERED absorption at 2.6 σ –3.7 σ , while their joint constraint disfavors a persistent signal at 4.5 σ . We find that the stellar He I line of LHS 1140 varies substantially between NIRPS and WINERED epochs, with both its strength and fractional variability consistent with the behavior of other M dwarfs. If the high-resolution detection is indeed planetary, the rate of such atmospheric loss events must be relatively low ( f = 2 2 − 12 + 17 % ). Alternatively, stellar He I variability may contribute to the reported excess absorption. Additional high-resolution observations, both in and out of transit, are required to distinguish between these scenarios.",
+   "authors": [
+    "Amélie Gressier",
+    "Charles Cadieux",
+    "René Doyon",
+    "Louis-Philippe Coulombe",
+    "Romain Allart",
+    "Etienne Artigau",
+    "François Bouchy"
+   ],
+   "link": "https://doi.org/10.3847/2041-8213/aebf65",
+   "source": "The Astrophysical Journal Letters",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "atmospheric escape"
+   ],
+   "summary_zh": "本研究通过JWST/NIRISS SOSS对系外行星LHS 1140b的四次凌星观测,未能检测到之前WINERED报告的中性氦吸收信号,获得的上限值(0.72%-1.21%)在3-4.5倍标准差水平排除了持久的大气逃逸信号。研究发现宿主星LHS 1140的He I谱线在不同观测时期存在显著变化,这种恒星活动可能对之前的行星大气逃逸检测造成污染,提示需要更多的高分辨率观测来区分行星信号与恒星变率的贡献。这项工作对温带类地行星大气演化和宜居性研究具有重要意义,同时强调了恒星变率对径向速度和高分辨率分光观测的影响。"
+  },
+  {
+   "id": "doi:10.3847/1538-3881/aeb943",
+   "title": "Atmospheric Characterization of TRAPPIST-1 h and Its Active Host Star with JWST/NIRSpec-PRISM",
+   "abstract": "Abstract We present ultraprecise JWST/NIRSpec-PRISM transit spectroscopy of the terrestrial exoplanets TRAPPIST-1 b and h, together with a comprehensive characterization of their variable ultracool dwarf host star. Two transits of TRAPPIST-1 h, separated by 150 days, yield markedly different transmission spectra. The second visit included a bright flare with a possible post-flare quasiperiodic pulsation and a simultaneous transit of planet b. Joint spectral–light-curve modeling of both visits constrains the planetary transits, stellar limb darkening, flare emission, and instrumental systematics. For TRAPPIST-1 h, both forward models and atmospheric retrievals favor a flat spectrum as the best-fitting scenario. We rule out clear-sky low–mean-molecular-weight atmospheres up to ∼1000× solar metallicity and place upper limits on allowable surface pressures for a range of compositions; however, neither approach can conclusively exclude a N 2 /CH 4 -rich Titan-like atmosphere. Correcting the Visit 2 stellar signal using planet b’s simultaneous transit produces negligible changes to the inferred atmospheric constraints. The stellar analysis incorporates the flare properties, the Visit 1 contamination spectrum, wavelength-dependent limb darkening, and the evolution of chromospheric activity indicators over a full rotation. The flare is typical for TRAPPIST-1, with a temperature of ∼6100 K and a bolometric energy of ∼10 32 erg. We compute new PHOENIX models to analyze multiple stellar parameters that influence the shape of the near-infrared spectrum. Further investigation is required to determine whether a discrepancy in modeling the 1.5–2 μ m region arises primarily from limitations in atmospheric structure, opacities, or surface inhomogeneity treatments.",
+   "authors": [
+    "Sarah Peacock",
+    "Zafar Rustamkulov",
+    "Sarah E. Moran",
+    "Kristin S. Sotzen",
+    "Ryan J. MacDonald",
+    "Jacob Lustig-Yaeger",
+    "Munazza K. Alam",
+    "Katherine A. Bennett",
+    "James Kirk",
+    "Junellie Perez",
+    "David K. Sing",
+    "Kevin B. Stevenson",
+    "Jeff A. Valenti",
+    "E. M. May"
+   ],
+   "link": "https://doi.org/10.3847/1538-3881/aeb943",
+   "source": "The Astronomical Journal",
+   "category": "行星大气",
+   "matched": [
+    "atmosphere",
+    "atmospheric",
+    "transmission spectr"
+   ],
+   "summary_zh": "本研究利用JWST/NIRSpec-PRISM对TRAPPIST-1 h进行了超高精度凌星光谱观测，相隔150天的两次观测得到明显不同的传输光谱，其中第二次观测捕捉到了宿主星的耀斑事件。通过联合光谱-光变曲线建模，研究排除了清朗低分子量大气模型（金属丰度达太阳值的1000倍以上），但无法完全排除类泰坦的N₂/CH₄富大气，同时对不同成分的表面压力设置了上限约束。研究还表征了宿主星的耀斑性质（温度~6100 K，能量~10³² erg）和色球活动演化规律，并开发新的PHOENIX模型来解析恒星近红外光谱的关键参数。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202661957",
+   "title": "Sailing with the winds of HL Tau: The JWST view",
+   "abstract": "It is crucial to investigate protostellar ejections for understanding the formation of young stars and planetary systems. The Class I/II star HL Tau, with its well-studied ringed disk and prominent bipolar outflows, is a benchmark system for these studies. We provide a first overview of our Cycle 3 Space Telescope (JWST) program targeting HL Tau, focusing on the morphology and kinematics of the various wind components as well as on the water emission lines excited in the inner disk. James Webb Our observations with NIRSpec and MIRI cover the 1.66–28,μm spectral range, combining a 2times2 NIRSpec mosaic and a 2times(1times2) MIRI MRS mosaic to map the inner 10\" of the redshifted lobe of the outflow and the base of the blueshifted lobe. We observe in the redshifted lobe a stratified wind composed of three nested layers: a fast, highly collimated atomic jet with an extrapolated geometrical radius at the base of 10 au and with an opening angle of ∼ 1degree, structured in a chain of eight knots separated by about 0 ; and with radial velocities of ∼ 160,km,s -1 -1 $, with an opening angle of ∼ 20degree that is asymmetric with respect to the axis and shows complex arc-like substructures; and a warm gas shell with a radial velocity of about 35̨ms that is visible in low-excitation transitions of CO ($ν=1-0). This CO (ν=1-0) shell is apparently cospatial with the CO (J=2-1) emission detected by ALMA with velocities of 3 to 25̨ms and appears as a distinct component from that detected in the disk. This component does not show substructures, and its properties suggest an origin from UV and/or IR pumping. The first 1arcsec of the blueshifted lobe shows a similar stratification, but the jet appears to be faster and less collimated, with a velocity of ∼ -175 ̨ms, an extrapolated geometrical radius at the base of 5 au, and an opening angle of ∼ 4 Additionally, the MIRI spectra taken at the star position show a rich forest of water lines that are dominated by cold-to-warm (łeq500,K) gas. The observed stratification and kinematics of the flow can support a magnetically driven disk-wind scenario in which the distinct components originate in the disk at progressively larger distances from the star. However, while the external components observed in CO have the laminar and regular appearance predicted for such winds, the knots in the inner jet and the arcs in the wind might be the manifestation of a pulsed ejection mechanism. The distribution of the water lines suggests an extended (possibly up to a radius of 26 au) reservoir of sublimated ices.",
+   "authors": [
+    "T. Nony",
+    "F. Bacciotti",
+    "C. Dougados",
+    "M.G. Navarro",
+    "B. Nisini",
+    "P. Kavanagh",
+    "A. Banzatti",
+    "V. Delabrosse",
+    "L. Podio",
+    "S. Cabrit",
+    "A. Caratti o Garatti",
+    "D. Coffey",
+    "T.P. Ray",
+    "F. Massi",
+    "D. Fedele",
+    "E. Whelan",
+    "A. Garufi",
+    "S. Antoniucci"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202661957",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究利用JWST的NIRSpec和MIRI对原行星系统HL Tau进行了1.66-28 μm的光谱观测，首次揭示了其双极喷流的详细形态和运动学特征，包括快速准直的原子喷流、中层分子气体和外层温气壳层的三层结构，以及内盘丰富的水发射线。观测结果支持磁驱动的盘风模型，但喷流内部的节点结构和弧形亚结构可能指示脉动喷发机制的存在，水线分布表明存在半径至少达26 au的冰升华气体库。这些发现为理解原始喷流对行星系统形成的影响提供了新的关键约束。"
+  },
+  {
+   "id": "doi:10.1051/0004-6361/202663474",
+   "title": "Precise radial velocities of giant stars. XVIII. Rotation periods based on photometry, activity, and radial velocity",
+   "abstract": "Precise radial velocities were collected over 12 years for a sample of 373 presumably single G- and K-type giants at Lick Observatory. Observations of a large fraction of these stars continued with SONG, CARMENES, and Waltz, covering a total of 27 years to date. Some display radial velocity variations that cannot clearly be attributed to substellar companions. We aim to find rotation periods of these stars to avoid confusion of spot-induced radial velocity modulation with a planetary signal and to characterise these potential exoplanet host stars. We searched for periodic variations in archival activity data from Mount Wilson Observatory, epoch photometry, and the Lick radial velocity data, using generalised Lomb--Scargle periodograms and Gaussian process modelling. To constrain possible rotation periods, we used upper limits derived from rotational velocities, v Hipparcos i, and stellar radii. We found plausible rotation periods for a total of 31 stars from the sample, ranging from about 25,d to 800,d. Of these, 18 show a consistent period in at least two independent datasets. Eleven of these include a compatible period in the radial velocity data, supporting the notion that rotational modulation contributes to their observed radial velocity variations. Stars with shorter rotation periods generally show higher levels of chromospheric activity. The identified rotation periods provide a basis for distinguishing spot-induced radial velocity modulation from planetary signals in the Lick giant sample, while also contributing to our understanding of rotation in single G and K giants.",
+   "authors": [
+    "Silas Janke",
+    "Sabine Reffert"
+   ],
+   "link": "https://doi.org/10.1051/0004-6361/202663474",
+   "source": "Astronomy & Astrophysics",
+   "category": "系外行星观测",
+   "matched": [
+    "radial velocity"
+   ],
+   "summary_zh": "本研究通过27年的精密径向速度观测和多源数据分析,为373颗单G、K型巨星样本中的31颗星确定了自转周期(25-800天),其中18颗在至少两个独立数据集中显示一致周期。研究发现自转周期较短的星系表现出更高的色球活动,且11颗星的自转调制信号在径向速度数据中得到确认。这些自转周期的测定有助于区分巨星径向速度变化中的恒星自转斑点诱导信号与真实行星信号,为潜在的系外行星宿主星表征提供了关键约束。"
+  },
+  {
+   "id": "doi:10.1093/mnras/stag2278",
+   "title": "Gas accretion onto giant planets in gravitationally unstable protoplanetary discs: The importance of radiative feedback",
+   "abstract": "Abstract Gravitational Instability (GI) of protoplanetary discs is believed to form collapsed objects with initial masses ranging from ∼1 to over 10 MJ. Their further evolution depends on disc-mediated migration and gas accretion. For objects more massive than ∼1 Saturn mass, modellers often assume that gas accretion rate is only limited by its supply from the disc. However, several 3D simulation studies showed that contraction and accretion luminosity of GI planets may heat up their surroundings, reducing gas accretion. We derive an approximate expression for planet feedback-limited equilibrium accretion rate, finding that it has a runaway character, $\\dot{M}_{\\rm fb} \\propto M_{\\rm p}^{8/3}$. We present 3D SPH simulations of planets immersed in massive gravito-turbulent discs, establishing that our analytical theory is reasonably accurate. The feedback effects are most significant for planet masses below a critical mass of ∼5 MJ, where such planets remain in the planetary regime and migrate to the inner edge of our discs. On the other hand, despite feedback, planets above the critical mass runaway through accretion to become massive BDs or low mass stars. Our results indicate that GI population synthesis studies neglecting planet feedback on the surrounding disc under-predict the population of gas giant planets strongly, and over-predict that of massive BDs. We provide a convenient formula for feedback-limited accretion rate onto planets to use in population synthesis models.",
+   "authors": [
+    "Hans Lee",
+    "Sergei Nayakshin",
+    "Alison K Young",
+    "Dimitris Stamatellos"
+   ],
+   "link": "https://doi.org/10.1093/mnras/stag2278",
+   "source": "Monthly Notices of the Royal Astronomical Society",
+   "category": "行星形成与盘演化",
+   "matched": [
+    "protoplanetary disc",
+    "population synthesis"
+   ],
+   "summary_zh": "本研究通过3D流体力学模拟和解析理论,揭示了引力不稳定原行星盘中巨行星的吸积过程受其自身辐射反馈的显著制约,其反馈限制的吸积率与行星质量呈M_p^{8/3}的幂律关系。研究表明,约5木星质量以下的行星因反馈效应保留在行星态并向盘内迁移,而更大质量的行星则失控吸积演化为褐矮星,这对引力不稳定形成巨行星的种群合成有重要修正意义。研究为种群合成模型提供了便利的反馈限制吸积率公式,可显著改进对气态巨行星和大质量褐矮星数量的预测。"
+  }
+ ],
  "2026-11-26": [
   {
    "id": "arxiv:2611.34867",
@@ -11597,30 +11740,6 @@
     "transmission spectr"
    ],
    "summary_zh": "本研究开发了基于去噪自编码器的神经网络方法，用于从JWST行星凌星光谱中分离恒星污染和仪器噪声，以改进大气参数反演的可靠性。通过在类地球和类海王星系统的合成数据集上训练自编码器，该方法在保留分子特征的同时成功重建无污染光谱，且计算成本相比传统同时拟合方法降低约一个数量级。结果表明深度学习方法在计算效率和反演精度上均优于常规校正方法，为未来岩石型和亚海王星系外行星的大气表征提供了有前景的技术方案。"
-  }
- ],
- "2026-09-28": [
-  {
-   "id": "doi:10.1016/j.icarus.2026.117270",
-   "title": "A theoretical evaluation of cyclostrophic balance in the Venusian atmosphere using the Venus Planetary Climate Model",
-   "abstract": "",
-   "authors": [
-    "Jayadev Pradeep",
-    "S.V. Sunilkumar",
-    "N. Koushik",
-    "Varun Nikam",
-    "K.R. Lakshmi",
-    "S. Sijikumar",
-    "K. Kishore Kumar",
-    "Govindan Kutty"
-   ],
-   "link": "https://doi.org/10.1016/j.icarus.2026.117270",
-   "source": "Icarus",
-   "category": "行星大气",
-   "matched": [
-    "atmosphere"
-   ],
-   "summary_zh": "本研究使用Venus Planetary Climate Model(VPCM)系统评估金星大气中的旋成风平衡机制。通过对金星大气动力学的理论分析和数值模拟,定量比较了科里奥利力、气压梯度力和向心加速度在不同高度和纬度的相对贡献。主要结论表明,金星大气中低纬度地区旋成风平衡显著,而高纬度地区科里奥利力的影响增强,这种转变深刻影响了金星特有的超级旋转现象和大气环流结构。"
   }
  ]
 }
